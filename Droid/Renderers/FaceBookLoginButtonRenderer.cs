@@ -35,7 +35,7 @@ namespace MeditSolution.Droid
             if (this.Control != null)
             {
                 (Control as Android.Widget.Button)?.SetAllCaps(false);
-                (Control as Android.Widget.Button)?.SetPadding(150, 0, 150, 0);
+                (Control as Android.Widget.Button)?.SetPadding(70, 0, 70, 0);
 
 
                 Android.Widget.Button button = this.Control;

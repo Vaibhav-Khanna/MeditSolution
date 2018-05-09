@@ -23,9 +23,23 @@
             </cv:CarouselViewControl>
             
             <StackLayout Grid.Row="1" Spacing="10" Margin="0" Padding="20,0,20,20" VerticalOptions="End" Orientation="Vertical">
-                <Button Text="Je m’incris gratuitement" Command="{Binding SignUpCommand}" FontAttributes="Bold" FontSize="18" HeightRequest="50" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Bold" TextColor="{StaticResource primary}" BorderColor="{StaticResource primary}" BackgroundColor="{StaticResource white}" BorderRadius="25" BorderWidth="1"/>
+                <Button Text="Je m’incris gratuitement" Command="{Binding SignUpCommand}" FontAttributes="Bold" FontSize="18" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Bold" TextColor="{StaticResource primary}" BorderColor="{StaticResource primary}" BackgroundColor="{StaticResource white}" BorderWidth="1">
+                    <Button.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double" Android="60" iOS="50" />
+                </Button.HeightRequest>
+                <Button.BorderRadius>
+                    <OnPlatform x:TypeArguments="x:Int32" Android="30" iOS="25" />
+                </Button.BorderRadius>>
+                </Button>
                 <Label Text="Vous êtes déjà inscrit ?" FontSize="12" TextColor="{StaticResource textLight}" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center"  Margin="0,10,0,10" />
-                <Button Text="Se connecter" Command="{Binding LoginCommand}" FontAttributes="Bold" FontSize="18" HeightRequest="50" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Bold" TextColor="{StaticResource white}" BorderColor="{StaticResource primaryBlue}" BackgroundColor="{StaticResource primaryBlue}" BorderRadius="25" BorderWidth="1" />                  
+                <Button x:Name="s" Text="Se connecter" Command="{Binding LoginCommand}" FontAttributes="Bold" FontSize="18" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Bold" TextColor="{StaticResource white}" BorderColor="{StaticResource primaryBlue}" BackgroundColor="{StaticResource primaryBlue}" BorderWidth="1" >
+                     <Button.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double" Android="60" iOS="50" />
+                </Button.HeightRequest>
+                <Button.BorderRadius>
+                    <OnPlatform x:TypeArguments="x:Int32" Android="30" iOS="25" />
+                </Button.BorderRadius>
+                </Button>     
             </StackLayout>
         </Grid>
     </base:BasePage.Content>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:base="clr-namespace:MeditSolution.Pages;assembly=MeditSolution"
+    xmlns:video="clr-namespace:Rox;assembly=Rox.Xamarin.Video.Portable"
+    x:Class="MeditSolution.Pages.VideoPlayPage" 
+    BackgroundColor="Black">
+    <base:BasePage.Content>
+        <Grid>
+            <video:VideoView x:Name="videoView" PropertyChangedCommand="{Binding VideoChangedCommand}" Source="{Binding Video}" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" AutoPlay="true" LoopPlay="false" ShowController="true" FullScreen="false" />
+            <Image Source="closeW.png" HorizontalOptions="End" VerticalOptions="Start" >
+                <Image.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double" Android="30" iOS="20"/>
+                </Image.HeightRequest>
+                <Image.WidthRequest>
+                    <OnPlatform x:TypeArguments="x:Double" Android="30" iOS="20"/>
+                </Image.WidthRequest>
+                <Image.Margin>
+                    <OnPlatform x:TypeArguments="Thickness" iOS="15,10,25,0" Android="15,20,20,0" />
+                </Image.Margin>
+            </Image>
+        </Grid>
+    </base:BasePage.Content>
+</base:BasePage>

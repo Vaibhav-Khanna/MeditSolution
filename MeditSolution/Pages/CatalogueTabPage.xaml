@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MeditSolution.Pages.CatalogueTabPage"
+    xmlns:controls="clr-namespace:MeditSolution.Controls;assembly=MeditSolution"
+    xmlns:effect="clr-namespace:MeditSolution.Effects;assembly=MeditSolution"
+    xmlns:view="clr-namespace:MeditSolution.Views;assembly=MeditSolution"
+    xmlns:cv="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    Title="Catalogue">
+    <ContentPage.Content>
+        <Grid RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="0.5"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <controls:TabSlider Grid.Row="0" SelectedIndex="{Binding SelectedIndex,Mode=TwoWay}" Tabs="{Binding Tabs}" />
+            <BoxView Grid.Row="1" HeightRequest="0.5" Color="#d9d9d9" VerticalOptions="Start" />
+            <cv:CarouselViewControl Position="{Binding SelectedIndex,Mode=TwoWay}" Grid.Row="2" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"  ItemsSource="{Binding Tabs}" ShowIndicators="false" ShowArrows="false" IsSwipeEnabled="true" AnimateTransition="true" >
+                <cv:CarouselViewControl.ItemTemplate>
+                    <DataTemplate>
+                        <view:TabView />
+                    </DataTemplate>
+                </cv:CarouselViewControl.ItemTemplate>
+            </cv:CarouselViewControl>
+        </Grid>     
+    </ContentPage.Content>
+</ContentPage>

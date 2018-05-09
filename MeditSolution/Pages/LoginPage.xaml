@@ -22,17 +22,17 @@
                 <Label Text="{Binding Title}" FontSize="24" FontFamily="SFUIText-Light" TextColor="#4a4a4a" HorizontalOptions="FillAndExpand" Margin="0,30,0,40" HorizontalTextAlignment="Center" />
 
                 <StackLayout Spacing="10" VerticalOptions="Start">
-                    <Entry IsEnabled="{Binding IsLoading}"  Text="{Binding Email,Mode=OneWayToSource}" PlaceholderColor="#9dacb6" FontSize="14" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Light" Keyboard="Email" TextColor="#9dacb6" Placeholder="Entrez votre email" HeightRequest="45" >
+                    <Entry IsEnabled="{Binding IsLoading}"  Text="{Binding Email,Mode=OneWayToSource}" PlaceholderColor="#9dacb6" FontSize="14" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Light" Keyboard="Email" TextColor="Gray" Placeholder="Entrez votre email" HeightRequest="45" >
                         <Entry.Effects>
                             <effect:BorderEntryEffect/>
                         </Entry.Effects>
                     </Entry>
-                    <Entry IsEnabled="{Binding IsLoading}"  Text="{Binding Password,Mode=OneWayToSource}" PlaceholderColor="#9dacb6" FontSize="14" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Light" IsPassword="true" TextColor="#9dacb6" Placeholder="Entrez votre mot de passe" HeightRequest="45" >
+                    <Entry IsEnabled="{Binding IsLoading}"  Text="{Binding Password,Mode=OneWayToSource}" PlaceholderColor="#9dacb6" FontSize="14" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Light" IsPassword="true" TextColor="Gray" Placeholder="Entrez votre mot de passe" HeightRequest="45" >
                          <Entry.Effects>
                             <effect:BorderEntryEffect/>
                         </Entry.Effects>
                     </Entry>
-                    <Entry IsVisible="{Binding IsSignUp}"  IsEnabled="{Binding IsLoading}" Text="{Binding ConfirmPassword,Mode=OneWayToSource}" PlaceholderColor="#9dacb6" FontSize="14" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Light" IsPassword="true" TextColor="#9dacb6" Placeholder="Confirmer votre mot de passe" HeightRequest="45" >
+                    <Entry IsVisible="{Binding IsSignUp}"  IsEnabled="{Binding IsLoading}" Text="{Binding ConfirmPassword,Mode=OneWayToSource}" PlaceholderColor="#9dacb6" FontSize="14" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Light" IsPassword="true" TextColor="Gray" Placeholder="Confirmer votre mot de passe" HeightRequest="45" >
                          <Entry.Effects>
                             <effect:BorderEntryEffect/>
                         </Entry.Effects>
@@ -42,11 +42,25 @@
 
                 <StackLayout Margin="0,30,0,0" VerticalOptions="Start">
 
-                    <Button VerticalOptions="StartAndExpand" Command="{Binding LoginCommand}" FontFamily="SFUIText-Semibold" FontSize="18" FontAttributes="Bold" TextColor="White" BackgroundColor="{Binding ButtonColor}" BorderColor="{Binding ButtonColor}" HorizontalOptions="FillAndExpand" Text="{Binding ButtonText}" HeightRequest="50" BorderRadius="25" />
+                    <Button VerticalOptions="StartAndExpand" Command="{Binding LoginCommand}" FontFamily="SFUIText-Semibold" FontSize="18" FontAttributes="Bold" TextColor="White" BackgroundColor="{Binding ButtonColor}" BorderColor="{Binding ButtonColor}" HorizontalOptions="FillAndExpand" Text="{Binding ButtonText}" >
+                        <Button.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double" Android="60" iOS="50" />
+                </Button.HeightRequest>
+                <Button.BorderRadius>
+                    <OnPlatform x:TypeArguments="x:Int32" Android="30" iOS="25" />
+                </Button.BorderRadius>>
+                    </Button>
 
                     <Label Text="Ou" Margin="0,20,0,20" TextColor="#9b9b9b" FontSize="16" FontFamily="SFUIText-Semibold" FontAttributes="Bold" HorizontalOptions="Center"/>
                     
-                    <controls:FaceBookLoginButton x:Name="bt_fb" Image="facebook.png" VerticalOptions="StartAndExpand" FontFamily="SFUIText-Semibold" FontSize="18" FontAttributes="Bold" TextColor="White" BackgroundColor="#3b5998" BorderColor="#3b5998" HorizontalOptions="FillAndExpand" Text="Se connecter avec Facebook" HeightRequest="50" BorderRadius="25" />
+                    <controls:FaceBookLoginButton x:Name="bt_fb" Image="facebook.png" VerticalOptions="StartAndExpand" FontFamily="SFUIText-Semibold" FontSize="18" FontAttributes="Bold" TextColor="White" BackgroundColor="#3b5998" BorderColor="#3b5998" HorizontalOptions="FillAndExpand" Text="Se connecter avec Facebook"  >
+                        <controls:FaceBookLoginButton.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double" Android="60" iOS="50" />
+                </controls:FaceBookLoginButton.HeightRequest>
+                <controls:FaceBookLoginButton.BorderRadius>
+                    <OnPlatform x:TypeArguments="x:Int32" Android="30" iOS="25" />
+                   </controls:FaceBookLoginButton.BorderRadius>
+                    </controls:FaceBookLoginButton>
                    
                 </StackLayout>
                

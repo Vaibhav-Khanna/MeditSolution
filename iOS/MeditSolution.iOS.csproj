@@ -136,6 +136,33 @@
     <Reference Include="Facebook">
       <HintPath>..\packages\Xamarin.Facebook.iOS.4.24.0\lib\Xamarin.iOS10\Facebook.dll</HintPath>
     </Reference>
+    <Reference Include="Lottie.iOS">
+      <HintPath>..\packages\Com.Airbnb.iOS.Lottie.2.5.1\lib\xamarinios\Lottie.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Lottie.Forms">
+      <HintPath>..\packages\Com.Airbnb.Xamarin.Forms.Lottie.2.5.1\lib\xamarinios\Lottie.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Lottie.Forms.iOS">
+      <HintPath>..\packages\Com.Airbnb.Xamarin.Forms.Lottie.2.5.1\lib\xamarinios\Lottie.Forms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.MediaManager.Abstractions">
+      <HintPath>..\packages\Plugin.MediaManager.0.4.5\lib\Xamarin.iOS10\Plugin.MediaManager.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.MediaManager">
+      <HintPath>..\packages\Plugin.MediaManager.0.4.5\lib\Xamarin.iOS10\Plugin.MediaManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.MediaManager.Forms">
+      <HintPath>..\packages\Plugin.MediaManager.Forms.0.4.5\lib\xamarinios\Plugin.MediaManager.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.MediaManager.Forms.iOS">
+      <HintPath>..\packages\Plugin.MediaManager.Forms.0.4.5\lib\xamarinios\Plugin.MediaManager.Forms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Rox.Xamarin.Video.Ios">
+      <HintPath>..\packages\Rox.Xamarin.Video.2.1.0\lib\Xamarin.iOS10\Rox.Xamarin.Video.Ios.dll</HintPath>
+    </Reference>
+    <Reference Include="Rox.Xamarin.Video.Portable">
+      <HintPath>..\packages\Rox.Xamarin.Video.2.1.0\lib\Xamarin.iOS10\Rox.Xamarin.Video.Portable.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MeditSolution\MeditSolution.csproj">
@@ -174,6 +201,8 @@
     <Compile Include="AppDelegate.cs" />
     <Compile Include="Effects\LineSpacingEffect.cs" />
     <Compile Include="Renderers\FaceBookLoginButtonRenderer.cs" />
+    <Compile Include="Renderers\ListViewRender.cs" />
+    <Compile Include="Renderers\ScrollViewRender.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\splash IOS.png" />
@@ -198,6 +227,62 @@
     <BundleResource Include="Resources\vector4.png" />
     <BundleResource Include="Resources\vector4%402x.png" />
     <BundleResource Include="Resources\vector4%403x.png" />
+    <BundleResource Include="Resources\arrowRight.png" />
+    <BundleResource Include="animation3.json" />
+    <BundleResource Include="Resources\closeW.png" />
+    <BundleResource Include="Resources\closeW%402x.png" />
+    <BundleResource Include="Resources\closeW%403x.png" />
+    <BundleResource Include="Resources\catalogue.png" />
+    <BundleResource Include="Resources\catalogue%402x.png" />
+    <BundleResource Include="Resources\catalogue%403x.png" />
+    <BundleResource Include="Resources\meditation.png" />
+    <BundleResource Include="Resources\meditation%402x.png" />
+    <BundleResource Include="Resources\meditation%403x.png" />
+    <BundleResource Include="Resources\plus.png" />
+    <BundleResource Include="Resources\plus%402x.png" />
+    <BundleResource Include="Resources\plus%403x.png" />
+    <BundleResource Include="Resources\stats.png" />
+    <BundleResource Include="Resources\stats%402x.png" />
+    <BundleResource Include="Resources\stats%403x.png" />
+    <BundleResource Include="Resources\pbody.png" />
+    <BundleResource Include="Resources\pbody%402x.png" />
+    <BundleResource Include="Resources\pbody%403x.png" />
+    <BundleResource Include="Resources\pbreath.png" />
+    <BundleResource Include="Resources\pbreath%402x.png" />
+    <BundleResource Include="Resources\pbreath%403x.png" />
+    <BundleResource Include="Resources\pemergency.png" />
+    <BundleResource Include="Resources\pemergency%402x.png" />
+    <BundleResource Include="Resources\pemergency%403x.png" />
+    <BundleResource Include="Resources\pemotion.png" />
+    <BundleResource Include="Resources\pemotion%402x.png" />
+    <BundleResource Include="Resources\pemotion%403x.png" />
+    <BundleResource Include="Resources\pgroom.png" />
+    <BundleResource Include="Resources\pgroom%402x.png" />
+    <BundleResource Include="Resources\pgroom%403x.png" />
+    <BundleResource Include="Resources\pheart.png" />
+    <BundleResource Include="Resources\pheart%402x.png" />
+    <BundleResource Include="Resources\pheart%403x.png" />
+    <BundleResource Include="Resources\pinitiation.png" />
+    <BundleResource Include="Resources\pinitiation%402x.png" />
+    <BundleResource Include="Resources\pinitiation%403x.png" />
+    <BundleResource Include="Resources\pinstant.png" />
+    <BundleResource Include="Resources\pinstant%402x.png" />
+    <BundleResource Include="Resources\pinstant%403x.png" />
+    <BundleResource Include="Resources\pkids.png" />
+    <BundleResource Include="Resources\pkids%402x.png" />
+    <BundleResource Include="Resources\pkids%403x.png" />
+    <BundleResource Include="Resources\psee.png" />
+    <BundleResource Include="Resources\psee%402x.png" />
+    <BundleResource Include="Resources\psee%403x.png" />
+    <BundleResource Include="Resources\psound.png" />
+    <BundleResource Include="Resources\psound%402x.png" />
+    <BundleResource Include="Resources\psound%403x.png" />
+    <BundleResource Include="Resources\pthink.png" />
+    <BundleResource Include="Resources\pthink%402x.png" />
+    <BundleResource Include="Resources\pthink%403x.png" />
+    <BundleResource Include="Resources\ptraining.png" />
+    <BundleResource Include="Resources\ptraining%402x.png" />
+    <BundleResource Include="Resources\ptraining%403x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets')" />

@@ -55,16 +55,16 @@ namespace MeditSolution.PageModels
             }
 		}
 
-        public Command LoginCommand => new Command(() =>
+        public Command LoginCommand => new Command(async() =>
         {
             if(ValidateCredentials())
             {
-                
+               
             }
-            else
-            {
-                
-            }
+           
+			await CoreMethods.PopPageModel(true, Device.RuntimePlatform == Device.iOS);
+            await CoreMethods.PushPageModel<ChatPageModel>();
+
         });
 
 

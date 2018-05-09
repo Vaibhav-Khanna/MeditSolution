@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:controls="clr-namespace:MeditSolution.Controls;assembly=MeditSolution"
+    x:Class="MeditSolution.Views.Cells.ChatBotCell">
+       <Grid ColumnSpacing="10" Padding="15,7,15,7">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="35" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <ffimageloading:CachedImage Source="vector4.png" DownsampleToViewSize="true" BitmapOptimizations="true" VerticalOptions="Start" WidthRequest="35" HeightRequest="35" Aspect="AspectFit" Grid.Row="0" Grid.Column="0" />
+            <Frame Grid.Column="1" Padding="10,10,10,10" Grid.Row="0" CornerRadius="14" BackgroundColor="#efefef" HasShadow="false">
+                <Label Text="{Binding Question}" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#4a4a4a" FontFamily="SFUIText-Regular" FontSize="15" LineBreakMode="WordWrap" />
+           </Frame>
+          <Grid.GestureRecognizers>
+            <TapGestureRecognizer />
+          </Grid.GestureRecognizers>
+        </Grid>
+</ViewCell>

@@ -11,6 +11,8 @@ using CarouselView.FormsPlugin.Android;
 using FFImageLoading.Forms.Droid;
 using Xamarin.Facebook;
 using Xamarin.Forms;
+using Lottie.Forms.Droid;
+using Plugin.MediaManager.Forms.Android;
 
 namespace MeditSolution.Droid
 {
@@ -23,10 +25,12 @@ namespace MeditSolution.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(bundle);
-
-            global::Xamarin.Forms.Forms.Init(this, bundle);
+            
+			global::Xamarin.Forms.Forms.Init(this, bundle);
 
             CarouselViewRenderer.Init();
+          
+            AnimationViewRenderer.Init();
 
             CachedImageRenderer.Init(false);
 

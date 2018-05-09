@@ -2,6 +2,8 @@
 using FreshMvvm;
 using MeditSolution.PageModels;
 using System;
+using MeditSolution.Controls;
+using DLToolkit.Forms.Controls;
 
 namespace MeditSolution
 {
@@ -12,9 +14,12 @@ namespace MeditSolution
         {
             InitializeComponent();
 
+			FlowListView.Init(); 
+
             var page = FreshPageModelResolver.ResolvePageModel<TutorialPageModel>();
 
             MainPage = new FreshNavigationContainer(page);
+           
         }
 
         protected override void OnStart()

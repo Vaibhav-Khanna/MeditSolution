@@ -14,5 +14,10 @@ namespace MeditSolution.Pages
 
             On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);
         }
-    }
+
+		protected override bool OnBackButtonPressed()
+		{
+			return true;
+		}
+	}
 }
