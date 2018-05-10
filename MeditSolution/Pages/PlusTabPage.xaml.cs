@@ -5,7 +5,7 @@ using Xamarin.Forms;
 
 namespace MeditSolution.Pages
 {
-    public partial class PlusTabPage : ContentPage
+	public partial class PlusTabPage : BasePage
     {
         public PlusTabPage()
         {

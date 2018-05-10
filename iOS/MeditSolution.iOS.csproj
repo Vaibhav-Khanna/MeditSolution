@@ -203,6 +203,8 @@
     <Compile Include="Renderers\FaceBookLoginButtonRenderer.cs" />
     <Compile Include="Renderers\ListViewRender.cs" />
     <Compile Include="Renderers\ScrollViewRender.cs" />
+    <Compile Include="Renderers\ExtensionMethods.cs" />
+    <Compile Include="Renderers\RoundedBoxRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\splash IOS.png" />
@@ -283,6 +285,18 @@
     <BundleResource Include="Resources\ptraining.png" />
     <BundleResource Include="Resources\ptraining%402x.png" />
     <BundleResource Include="Resources\ptraining%403x.png" />
+    <BundleResource Include="Resources\coverbody.png" />
+    <BundleResource Include="Resources\coverbody%402x.png" />
+    <BundleResource Include="Resources\coverbody%403x.png" />
+    <BundleResource Include="Resources\lock.png" />
+    <BundleResource Include="Resources\lock%402x.png" />
+    <BundleResource Include="Resources\lock%403x.png" />
+    <BundleResource Include="Resources\arrow.png" />
+    <BundleResource Include="Resources\arrow%402x.png" />
+    <BundleResource Include="Resources\arrow%403x.png" />
+    <BundleResource Include="Resources\iconempty.png" />
+    <BundleResource Include="Resources\iconempty%402x.png" />
+    <BundleResource Include="Resources\iconempty%403x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets')" />

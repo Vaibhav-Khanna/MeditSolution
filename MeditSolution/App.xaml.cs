@@ -14,12 +14,16 @@ namespace MeditSolution
         {
             InitializeComponent();
 
-			FlowListView.Init(); 
+			FlowListView.Init();
 
-            var page = FreshPageModelResolver.ResolvePageModel<TutorialPageModel>();
+			//var page = FreshPageModelResolver.ResolvePageModel<TutorialPageModel>();
 
-            MainPage = new FreshNavigationContainer(page);
-           
+			//MainPage = new FreshNavigationContainer(page);
+                     
+			BasePageModel.DefaultNavigationBackgroundColor();
+            
+			MainPage = TabNavigator.GenerateTabPage(); 
+
         }
 
         protected override void OnStart()

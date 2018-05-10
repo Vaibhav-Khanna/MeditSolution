@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage 
+<base:BasePage 
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="MeditSolution.Pages.CatalogueTabPage"
+    xmlns:base="clr-namespace:MeditSolution.Pages;assembly=MeditSolution"
     xmlns:controls="clr-namespace:MeditSolution.Controls;assembly=MeditSolution"
     xmlns:effect="clr-namespace:MeditSolution.Effects;assembly=MeditSolution"
     xmlns:view="clr-namespace:MeditSolution.Views;assembly=MeditSolution"
     xmlns:cv="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
     xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
     Title="Catalogue">
-    <ContentPage.Content>
+    <base:BasePage.Content>
         <Grid RowSpacing="0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
@@ -26,5 +27,5 @@
                 </cv:CarouselViewControl.ItemTemplate>
             </cv:CarouselViewControl>
         </Grid>     
-    </ContentPage.Content>
-</ContentPage>
+    </base:BasePage.Content>
+</base:BasePage>

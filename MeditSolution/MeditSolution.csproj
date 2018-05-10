@@ -77,6 +77,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\CatalogueDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DynamicNavigationPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -142,6 +150,16 @@
       <DependentUpon>TabView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Models\TabMeditationModel.cs" />
+    <Compile Include="Pages\CatalogueDetailPage.xaml.cs">
+      <DependentUpon>CatalogueDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageModels\CatalogueDetailPageModel.cs" />
+    <Compile Include="Controls\DynamicNavigationPage.xaml.cs">
+      <DependentUpon>DynamicNavigationPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Service\IAndroidStatusBarColor.cs" />
+    <Compile Include="Controls\RoundedBoxView.cs" />
+    <Compile Include="Models\CatalogueProgramModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FreshIOC">

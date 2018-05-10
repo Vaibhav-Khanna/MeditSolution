@@ -16,14 +16,14 @@ namespace MeditSolution.PageModels
 			base.Init(initData);
 
 			Tabs = new ObservableCollection<Tab>();
-
+            
 			Tab t1;
 			Tab t2;
 			Tab t3;
 
-			Tabs.Add(t1 = new Tab() { TabName = "Initiation", ColoumnCount = 1 });
-			Tabs.Add(t2 = new Tab() { TabName = "Approndissement", ColoumnCount = 2 });
-			Tabs.Add(t3 = new Tab() { TabName = "Autres", ColoumnCount = 2 });
+			Tabs.Add(t1 = new Tab() { TabName = "Initiation", ColoumnCount = 1, Model = this });
+			Tabs.Add(t2 = new Tab() { TabName = "Approndissement", ColoumnCount = 2, Model = this });
+			Tabs.Add(t3 = new Tab() { TabName = "Autres", ColoumnCount = 2, Model = this });
 
 			t1.Meditations.Add(new TabMeditationModel() { Image = "pinitiation.png", Tint = "#ebb967", Title = "Initiation", SubTitle = "3 programmes" });
 			t1.Meditations.Add(new TabMeditationModel() { Image = "ptraining.png", Tint = "#7aceff", Title = "Entrainement", SubTitle = "3 programmes" });

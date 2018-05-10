@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage 
+<base:BasePage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="MeditSolution.Pages.MeditationTabPage"
+    xmlns:base="clr-namespace:MeditSolution.Pages;assembly=MeditSolution"
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
     Title="Meditation">
-    <ContentPage.Content>
-    </ContentPage.Content>
-</ContentPage>
+    <base:BasePage.Content>
+        <StackLayout Spacing="20" Padding="25,0,25,0" Orientation="Vertical" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" >
+
+            <ffimageloading:CachedImage HeightRequest="81" WidthRequest="86" HorizontalOptions="Center" DownsampleToViewSize="true" Source="iconempty.png" />
+            <Label Text="Vous n’avez aucune méditation en cours" TextColor="{StaticResource textLight}" FontSize="16" FontFamily="SFUIText-Regular" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" Margin="20,10,20,30" />
+            <Button Text="Démarrer l’initiation" TextColor="White" FontFamily="SFUIText-Semibold" FontAttributes="Bold" FontSize="18" HorizontalOptions="FillAndExpand" BackgroundColor="{StaticResource primary}" >
+                 <Button.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double" Android="60" iOS="50" />
+                </Button.HeightRequest>
+                <Button.BorderRadius>
+                    <OnPlatform x:TypeArguments="x:Int32" Android="30" iOS="25" />
+                </Button.BorderRadius>
+            </Button>
+        </StackLayout>
+
+        
+    </base:BasePage.Content>
+</base:BasePage>

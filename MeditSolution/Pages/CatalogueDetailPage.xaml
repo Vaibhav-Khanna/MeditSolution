@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MeditSolution.Pages.CatalogueDetailPage"
+    xmlns:base="clr-namespace:MeditSolution.Pages;assembly=MeditSolution"
+    xmlns:controls="clr-namespace:MeditSolution.Controls;assembly=MeditSolution"
+    xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    Title="Programmes">
+    <base:BasePage.Content>
+
+            <flv:FlowListView FlowColumnCount="2" SeparatorVisibility="None" HasUnevenRows="true"
+                              FlowItemTappedCommand="{Binding ProgramCommand}"
+                              FlowItemsSource="{Binding Programs}" >
+
+                <flv:FlowListView.FlowColumnTemplate>
+                    <DataTemplate>
+                       <Grid Padding="0,14,0,14" HorizontalOptions="Center" VerticalOptions="Center">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <controls:RoundedBoxView Grid.Row="0" HeightRequest="130" WidthRequest="130" BackgroundColor="{Binding BackColor}" CornerRadius="65" BorderThickness="1" BorderColor="{Binding BorderColor}" />
+                        <StackLayout Padding="5,40,5,0" Orientation="Vertical">
+                            <Label Text="{Binding Title}" TextColor="{Binding TextColor}" FontFamily="SFUIText-Semibold" FontAttributes="Bold" FontSize="24" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
+                            <Label Text="{Binding SubTitle}" TextColor="{Binding TextColor}" FontFamily="SFUIText-Regular" FontSize="14" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center"/>
+                            <ffimageloading:CachedImage Source="{Binding Image}" WidthRequest="13" HeightRequest="21" DownsampleToViewSize="true" Aspect="AspectFit" HorizontalOptions="Center" />
+                        </StackLayout>
+                        
+                       </Grid>
+                    </DataTemplate>
+                </flv:FlowListView.FlowColumnTemplate> 
+
+                <flv:FlowListView.Header>
+                    <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="175" />
+                    </Grid.RowDefinitions>
+                        <Image x:Name="image" Source="{Binding CoverPicture}" HeightRequest="175" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFill"  />
+                        <StackLayout Spacing="20" Padding="15,30,15,15" BackgroundColor="Transparent">
+                        <Label Text="{Binding Header}" FontFamily="Merienda-Regular_0_wt" TextColor="White" FontSize="40" LineBreakMode="WordWrap" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
+                        <Label Text="{Binding Description}" FontSize="16" FontFamily="SFUIText-Regular" TextColor="White" HorizontalOptions="CenterAndExpand" LineBreakMode="WordWrap" />
+                    </StackLayout>
+                    </Grid>
+                </flv:FlowListView.Header>
+                
+            </flv:FlowListView>
+           
+    </base:BasePage.Content>
+</base:BasePage>

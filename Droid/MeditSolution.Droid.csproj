@@ -202,6 +202,10 @@
     <Reference Include="Rox.Xamarin.Video.Portable">
       <HintPath>..\packages\Rox.Xamarin.Video.2.1.0\lib\MonoAndroid10\Rox.Xamarin.Video.Portable.dll</HintPath>
     </Reference>
+    <Reference Include="Plugin.CurrentActivity">
+      <HintPath>..\packages\Plugin.CurrentActivity.2.1.0.1\lib\monoandroid44\Plugin.CurrentActivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MeditSolution\MeditSolution.csproj">
@@ -218,6 +222,9 @@
     <Compile Include="FacebookActivity.cs" />
     <Compile Include="Renderers\FaceBookLoginButtonRenderer.cs" />
     <Compile Include="Effects\BorderEffect.cs" />
+    <Compile Include="Service\AndroidStatusBarColor.cs" />
+    <Compile Include="Renderers\ViewExtensions.cs" />
+    <Compile Include="Renderers\RoundedBoxRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -288,10 +295,20 @@
     <AndroidResource Include="Resources\drawable\psound.png" />
     <AndroidResource Include="Resources\drawable\pthink.png" />
     <AndroidResource Include="Resources\drawable\ptraining.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\arrow.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\lock.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\iconempty.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\arrow.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\lock.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\iconempty.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\arrow.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\lock.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\iconempty.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Renderers\" />
     <Folder Include="Effects\" />
+    <Folder Include="Service\" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\animation3.json" />

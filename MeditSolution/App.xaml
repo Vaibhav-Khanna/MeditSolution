@@ -3,7 +3,10 @@
     <Application.Resources>
         <!-- Application resource dictionary -->
          <ResourceDictionary>
-        
+
+         <Color x:Key="backgroundColor">#ffffff</Color>
+         <Color x:Key="textColor">Black</Color>
+            
          <Color x:Key="backgroundLight">#f4f4f4</Color>
          <Color x:Key="backgroundDark">#e6e6e6</Color>
 
@@ -14,6 +17,7 @@
          <Color x:Key="lightGray">#d9d9d9</Color>
             
          <Color x:Key="primary">#50e3c2</Color>
+         <Color x:Key="primaryDark">#00b092</Color>
          <Color x:Key="primaryBlue">#1facff</Color>
 
         </ResourceDictionary>

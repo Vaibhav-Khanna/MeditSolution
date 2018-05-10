@@ -13,6 +13,7 @@ using Xamarin.Facebook;
 using Xamarin.Forms;
 using Lottie.Forms.Droid;
 using Plugin.MediaManager.Forms.Android;
+using Plugin.CurrentActivity;
 
 namespace MeditSolution.Droid
 {
@@ -27,6 +28,8 @@ namespace MeditSolution.Droid
             base.OnCreate(bundle);
             
 			global::Xamarin.Forms.Forms.Init(this, bundle);
+
+			CrossCurrentActivity.Current.Init(this, bundle);
 
             CarouselViewRenderer.Init();
           

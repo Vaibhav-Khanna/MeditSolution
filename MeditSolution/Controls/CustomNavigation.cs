@@ -10,16 +10,18 @@ namespace MeditSolution.Controls
 {
     public class CustomNavigation : BottomBarPage, IFreshNavigationService
     {
-        List<Page> _tabs = new List<Page>();
+      
+		List<Page> _tabs = new List<Page>();
         public IEnumerable<Page> TabbedPages { get { return _tabs; } }
 
         public CustomNavigation() : this(Constants.DefaultNavigationServiceName)
         {
-
+			NavigationPage.SetHasNavigationBar(this, false);
         }
 
         public CustomNavigation(string navigationServiceName)
         {
+			NavigationPage.SetHasNavigationBar(this, false);
             NavigationServiceName = navigationServiceName;
             RegisterNavigation();
         }
@@ -34,11 +36,14 @@ namespace MeditSolution.Controls
             var page = FreshPageModelResolver.ResolvePageModel<T>(data);
             page.GetModel().CurrentNavigationServiceName = NavigationServiceName;
             _tabs.Add(page);
-            var navigationContainer = CreateContainerPageSafe(page);
+          
+			var navigationContainer = CreateContainerPageSafe(page);
             navigationContainer.Title = title;
-            if (!string.IsNullOrWhiteSpace(icon))
+            
+			if (!string.IsNullOrWhiteSpace(icon))
                 navigationContainer.Icon = icon;
-            Children.Add(navigationContainer);
+           
+			Children.Add(navigationContainer);
             return navigationContainer;
         }
 
@@ -52,26 +57,28 @@ namespace MeditSolution.Controls
 
         protected virtual Page CreateContainerPage(Page page)
         {
-            return new NavigationPage(page);
+			return new DynamicNavigationPage(page);
         }
 
         public System.Threading.Tasks.Task PushPage(Xamarin.Forms.Page page, FreshBasePageModel model, bool modal = false, bool animate = true)
         {
             if (modal)
-                return this.CurrentPage.Navigation.PushModalAsync(CreateContainerPageSafe(page));
-            return this.CurrentPage.Navigation.PushAsync(page);
+				return this.CurrentPage.Navigation.PushModalAsync(CreateContainerPageSafe(page));
+           
+			return this.CurrentPage.Navigation.PushAsync(page);
         }
 
         public System.Threading.Tasks.Task PopPage(bool modal = false, bool animate = true)
         {
             if (modal)
                 return this.CurrentPage.Navigation.PopModalAsync(animate);
-            return this.CurrentPage.Navigation.PopAsync(animate);
+			
+			return this.CurrentPage.Navigation.PopAsync(animate);
         }
 
         public Task PopToRoot(bool animate = true)
         {
-            return this.CurrentPage.Navigation.PopToRootAsync(animate);
+			return this.CurrentPage.Navigation.PopToRootAsync(animate);
         }
 
         public string NavigationServiceName { get; private set; }
