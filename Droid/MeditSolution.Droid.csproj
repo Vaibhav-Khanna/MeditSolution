@@ -206,6 +206,21 @@
       <HintPath>..\packages\Plugin.CurrentActivity.2.1.0.1\lib\monoandroid44\Plugin.CurrentActivity.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime" />
+    <Reference Include="SkiaSharp">
+      <HintPath>..\packages\SkiaSharp.1.60.0\lib\MonoAndroid\SkiaSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp.Views.Android">
+      <HintPath>..\packages\SkiaSharp.Views.1.60.0\lib\MonoAndroid\SkiaSharp.Views.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp.Views.Forms">
+      <HintPath>..\packages\SkiaSharp.Views.Forms.1.60.0\lib\MonoAndroid\SkiaSharp.Views.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="ProgressRing.Forms.Plugin.Android">
+      <HintPath>..\packages\Xam.Plugins.Forms.ProgressRing.0.1.2\lib\MonoAndroid10\ProgressRing.Forms.Plugin.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="ProgressRing.Forms.Plugin">
+      <HintPath>..\packages\Xam.Plugins.Forms.ProgressRing.0.1.2\lib\MonoAndroid10\ProgressRing.Forms.Plugin.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MeditSolution\MeditSolution.csproj">
@@ -225,6 +240,7 @@
     <Compile Include="Service\AndroidStatusBarColor.cs" />
     <Compile Include="Renderers\ViewExtensions.cs" />
     <Compile Include="Renderers\RoundedBoxRenderer.cs" />
+    <Compile Include="Renderers\ScrollViewRender.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -304,6 +320,51 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\arrow.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\lock.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\iconempty.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\account.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\cloud.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\cloudcheck.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\coherencecardiaque.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\congrats.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\locked.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\logom.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\meditationsilenceCopy.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\plans.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\play.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\playgreen.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\playwhite.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\rappels.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\settings.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\statyoga.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\account.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\cloud.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\cloudcheck.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\coherencecardiaque.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\congrats.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\locked.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\logom.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\meditationsilenceCopy.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\plans.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\play.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\playgreen.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\playwhite.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\rappels.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\settings.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\statyoga.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\account.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\cloud.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\cloudcheck.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\coherencecardiaque.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\congrats.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\locked.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\logom.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\meditationsilenceCopy.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\plans.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\play.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\playgreen.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\playwhite.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\rappels.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\settings.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\statyoga.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Renderers\" />

@@ -7,6 +7,7 @@ using FFImageLoading.Forms.Touch;
 using Foundation;
 using Lottie.Forms.iOS.Renderers;
 using Plugin.MediaManager.Forms.iOS;
+using ProgressRingControl.Forms.Plugin.iOS;
 using UIKit;
 using Xamarin.Forms.Platform.iOS;
 
@@ -24,6 +25,8 @@ namespace MeditSolution.iOS
             	
             global::Xamarin.Forms.Forms.Init();
 
+			ProgressRingRenderer.Init();
+
             CarouselViewRenderer.Init();
 
 			AnimationViewRenderer.Init();
@@ -34,8 +37,8 @@ namespace MeditSolution.iOS
 
             ApplicationDelegate.SharedInstance.FinishedLaunching(app, options);
 
-			UITabBar.Appearance.TintColor = ((Xamarin.Forms.Color)Xamarin.Forms.Application.Current.Resources["primary"]).ToUIColor();
-            UITabBar.Appearance.SelectedImageTintColor = ((Xamarin.Forms.Color)Xamarin.Forms.Application.Current.Resources["primary"]).ToUIColor();
+			UITabBar.Appearance.TintColor = ((Xamarin.Forms.Color)Xamarin.Forms.Application.Current.Resources["primaryDark"]).ToUIColor();
+            UITabBar.Appearance.SelectedImageTintColor = ((Xamarin.Forms.Color)Xamarin.Forms.Application.Current.Resources["primaryDark"]).ToUIColor();
 
             var result = base.FinishedLaunching(app, options);
 

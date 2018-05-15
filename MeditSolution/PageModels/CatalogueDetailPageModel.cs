@@ -31,10 +31,9 @@ namespace MeditSolution.PageModels
 					Description = TabMeditationModel.SubTitle;
 					CoverPicture = TabMeditationModel.Image;
 				}
-                
-				ChangeNavigationBackgroundColor(Color.FromHex(TabMeditationModel.Tint.Substring(1)));
-    
 
+				ChangeNavigationBackgroundColor(Color.FromHex(TabMeditationModel.Tint.Substring(1)));
+                
 				Programs = new ObservableCollection<CatalogueProgramModel>();
 
 				Programs.Add(new CatalogueProgramModel(TabMeditationModel.Tint) { IsEnabled = true });

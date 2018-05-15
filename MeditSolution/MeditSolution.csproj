@@ -85,6 +85,34 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\Cells\MeditationCell.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Cells\PlusCell.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Cells\GroupCell.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\VideosPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\MyAccountPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\MyAccountModifyPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\MeditationPlayPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -160,6 +188,37 @@
     <Compile Include="Service\IAndroidStatusBarColor.cs" />
     <Compile Include="Controls\RoundedBoxView.cs" />
     <Compile Include="Models\CatalogueProgramModel.cs" />
+    <Compile Include="Views\Cells\ConnectingCell.cs" />
+    <Compile Include="Views\Cells\MeditationCell.xaml.cs">
+      <DependentUpon>MeditationCell.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Templates\MeditationCellSelector.cs" />
+    <Compile Include="Models\SeancesModel.cs" />
+    <Compile Include="Views\Templates\PlusGroupSelector.cs" />
+    <Compile Include="Views\Cells\PlusCell.xaml.cs">
+      <DependentUpon>PlusCell.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MenuModel.cs" />
+    <Compile Include="Views\Cells\GroupCell.xaml.cs">
+      <DependentUpon>GroupCell.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\VideosPage.xaml.cs">
+      <DependentUpon>VideosPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MyAccountPage.xaml.cs">
+      <DependentUpon>MyAccountPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MyAccountModifyPage.xaml.cs">
+      <DependentUpon>MyAccountModifyPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageModels\VideosPageModel.cs" />
+    <Compile Include="PageModels\MyAccountPageModel.cs" />
+    <Compile Include="PageModels\MyAccountModifyPageModel.cs" />
+    <Compile Include="Models\VideoModel.cs" />
+    <Compile Include="Pages\MeditationPlayPage.xaml.cs">
+      <DependentUpon>MeditationPlayPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageModels\MeditationPlayPageModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FreshIOC">
@@ -215,6 +274,15 @@
     </Reference>
     <Reference Include="DLToolkit.Forms.Controls.FlowListView">
       <HintPath>..\packages\DLToolkit.Forms.Controls.FlowListView.2.0.10\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+netstandard1.0\DLToolkit.Forms.Controls.FlowListView.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp">
+      <HintPath>..\packages\SkiaSharp.1.60.0\lib\portable-net45+win8+wpa81+wp8\SkiaSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp.Views.Forms">
+      <HintPath>..\packages\SkiaSharp.Views.Forms.1.60.0\lib\portable-net45+win8+wpa81+wp8\SkiaSharp.Views.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="ProgressRing.Forms.Plugin">
+      <HintPath>..\packages\Xam.Plugins.Forms.ProgressRing.0.1.2\lib\portable-net45+wp80+win8+wpa81\ProgressRing.Forms.Plugin.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

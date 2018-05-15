@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:controls="clr-namespace:MeditSolution.Controls;assembly=MeditSolution"
+    x:Class="MeditSolution.Views.Cells.MeditationCell">
+    <ViewCell.View>
+        
+        <Grid Rotation="180" HorizontalOptions="Center" VerticalOptions="Center" Padding="0" Margin="0" >
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer />
+            </Grid.GestureRecognizers>
+            <Grid.RowDefinitions>
+                <RowDefinition  Height="Auto"/>
+            </Grid.RowDefinitions>
+            
+            <controls:RoundedBoxView Grid.Row="0" HeightRequest="150" WidthRequest="150" BackgroundColor="{Binding FillColor}" CornerRadius="75" BorderThickness="1" BorderColor="{Binding BorderColor}" />
+
+            <StackLayout Spacing="5" Orientation="Vertical" WidthRequest="150" VerticalOptions="FillAndExpand" >
+                <Image Source="{Binding IconTop}" TranslationX="2.5" WidthRequest="23" HeightRequest="37" HorizontalOptions="Center" VerticalOptions="EndAndExpand" >
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding PlayCommand}" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <Label Text="{Binding Title}" TextColor="{Binding TextColor}" FontFamily="SFUIText-Semibold" LineBreakMode="TailTruncation" FontSize="18" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
+                <Image Source="{Binding IconBottom}" VerticalOptions="StartAndExpand" HorizontalOptions="Center" WidthRequest="23" HeightRequest="23" >
+                     <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding DownloadCommand}" />
+                    </Image.GestureRecognizers>
+                </Image>
+            </StackLayout>
+
+        </Grid>
+    </ViewCell.View>
+</ViewCell>

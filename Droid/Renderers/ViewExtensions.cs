@@ -11,6 +11,7 @@ namespace MeditSolution.Droid.Renderers
 {
 	public static class UIViewExtensions
     {
+		
         public static void InitializeFrom(this View nativeControl, RoundedBoxView formsControl)
         {
             if (nativeControl == null || formsControl == null)
@@ -24,17 +25,13 @@ namespace MeditSolution.Droid.Renderers
             {
                 nativeControl.Background = background;
             }
-            else
-            {
-                nativeControl.SetBackgroundDrawable(background);
-            }
+           
 
             nativeControl.UpdateCornerRadius(formsControl.CornerRadius);
             nativeControl.UpdateBorder(formsControl.BorderColor, formsControl.BorderThickness);
         }
 
-        public static void UpdateFrom(this View nativeControl, RoundedBoxView formsControl,
-          string propertyChanged)
+        public static void UpdateFrom(this View nativeControl, RoundedBoxView formsControl, string propertyChanged)
         {
             if (nativeControl == null || formsControl == null)
                 return;
@@ -43,14 +40,24 @@ namespace MeditSolution.Droid.Renderers
             {
                 nativeControl.UpdateCornerRadius(formsControl.CornerRadius);
             }
+
             if (propertyChanged == VisualElement.BackgroundColorProperty.PropertyName)
             {
-                var background = nativeControl.Background as GradientDrawable;
+				var background = nativeControl.Background as GradientDrawable;
 
                 if (background != null)
                 {
                     background.SetColor(formsControl.BackgroundColor.ToAndroid());
+					nativeControl.UpdateBorder(formsControl.BorderColor, formsControl.BorderThickness);
                 }
+				else
+				{
+					var _background = new GradientDrawable();
+					_background.SetColor(formsControl.BackgroundColor.ToAndroid());
+					nativeControl.Background = _background; 
+					nativeControl.UpdateCornerRadius(formsControl.CornerRadius);
+					nativeControl.UpdateBorder(formsControl.BorderColor, formsControl.BorderThickness);
+				}
             }
 
             if (propertyChanged == RoundedBoxView.BorderColorProperty.PropertyName)

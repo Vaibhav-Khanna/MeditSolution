@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="MeditSolution.Views.Cells.PlusCell">
+    <ViewCell.View>
+        <StackLayout Orientation="Vertical" Spacing="0" Padding="0">
+          <BoxView  Color="#bfbfbf" HorizontalOptions="FillAndExpand">
+                <BoxView.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double" iOS="1.5" Android="0.5"/>
+                </BoxView.HeightRequest>
+            </BoxView>
+        <StackLayout BackgroundColor="White" Orientation="Horizontal" VerticalOptions="Start" Spacing="11" Padding="16,20,16,20" >
+            <Image Source="{Binding Image}" WidthRequest="20" HeightRequest="20" VerticalOptions="Center" />
+            <Label Text="{Binding Text}" FontFamily="SFUIText-Light" FontSize="16" FontAttributes="None" VerticalOptions="Center" TextColor="#000000" HorizontalTextAlignment="Start" />
+        </StackLayout>
+      </StackLayout>
+    </ViewCell.View>
+</ViewCell>

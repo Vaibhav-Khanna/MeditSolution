@@ -163,6 +163,21 @@
     <Reference Include="Rox.Xamarin.Video.Portable">
       <HintPath>..\packages\Rox.Xamarin.Video.2.1.0\lib\Xamarin.iOS10\Rox.Xamarin.Video.Portable.dll</HintPath>
     </Reference>
+    <Reference Include="SkiaSharp">
+      <HintPath>..\packages\SkiaSharp.1.60.0\lib\XamariniOS\SkiaSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp.Views.iOS">
+      <HintPath>..\packages\SkiaSharp.Views.1.60.0\lib\XamariniOS\SkiaSharp.Views.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp.Views.Forms">
+      <HintPath>..\packages\SkiaSharp.Views.Forms.1.60.0\lib\XamariniOS\SkiaSharp.Views.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="ProgressRing.Forms.Plugin">
+      <HintPath>..\packages\Xam.Plugins.Forms.ProgressRing.0.1.2\lib\Xamarin.iOS10\ProgressRing.Forms.Plugin.dll</HintPath>
+    </Reference>
+    <Reference Include="ProgressRing.Forms.Plugin.iOS">
+      <HintPath>..\packages\Xam.Plugins.Forms.ProgressRing.0.1.2\lib\Xamarin.iOS10\ProgressRing.Forms.Plugin.iOS.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MeditSolution\MeditSolution.csproj">
@@ -205,6 +220,7 @@
     <Compile Include="Renderers\ScrollViewRender.cs" />
     <Compile Include="Renderers\ExtensionMethods.cs" />
     <Compile Include="Renderers\RoundedBoxRenderer.cs" />
+    <Compile Include="Renderers\CustomTabbedRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\splash IOS.png" />
@@ -297,6 +313,60 @@
     <BundleResource Include="Resources\iconempty.png" />
     <BundleResource Include="Resources\iconempty%402x.png" />
     <BundleResource Include="Resources\iconempty%403x.png" />
+    <BundleResource Include="Resources\cloud.png" />
+    <BundleResource Include="Resources\cloud%402x.png" />
+    <BundleResource Include="Resources\cloud%403x.png" />
+    <BundleResource Include="Resources\cloudcheck.png" />
+    <BundleResource Include="Resources\cloudcheck%402x.png" />
+    <BundleResource Include="Resources\cloudcheck%403x.png" />
+    <BundleResource Include="Resources\locked.png" />
+    <BundleResource Include="Resources\locked%402x.png" />
+    <BundleResource Include="Resources\locked%403x.png" />
+    <BundleResource Include="Resources\playgreen.png" />
+    <BundleResource Include="Resources\playgreen%402x.png" />
+    <BundleResource Include="Resources\playgreen%403x.png" />
+    <BundleResource Include="Resources\playwhite.png" />
+    <BundleResource Include="Resources\playwhite%402x.png" />
+    <BundleResource Include="Resources\playwhite%403x.png" />
+    <BundleResource Include="Resources\congrats.png" />
+    <BundleResource Include="Resources\congrats%402x.png" />
+    <BundleResource Include="Resources\congrats%403x.png" />
+    <BundleResource Include="Resources\statyoga.png" />
+    <BundleResource Include="Resources\statyoga%402x.png" />
+    <BundleResource Include="Resources\statyoga%403x.png" />
+    <BundleResource Include="Resources\account.png" />
+    <BundleResource Include="Resources\account%402x.png" />
+    <BundleResource Include="Resources\account%403x.png" />
+    <BundleResource Include="Resources\coherencecardiaque.png" />
+    <BundleResource Include="Resources\coherencecardiaque%402x.png" />
+    <BundleResource Include="Resources\coherencecardiaque%403x.png" />
+    <BundleResource Include="Resources\logom.png" />
+    <BundleResource Include="Resources\logom%402x.png" />
+    <BundleResource Include="Resources\logom%403x.png" />
+    <BundleResource Include="Resources\meditationsilenceCopy.png" />
+    <BundleResource Include="Resources\meditationsilenceCopy%402x.png" />
+    <BundleResource Include="Resources\meditationsilenceCopy%403x.png" />
+    <BundleResource Include="Resources\plans.png" />
+    <BundleResource Include="Resources\plans%402x.png" />
+    <BundleResource Include="Resources\plans%403x.png" />
+    <BundleResource Include="Resources\play.png" />
+    <BundleResource Include="Resources\play%402x.png" />
+    <BundleResource Include="Resources\play%403x.png" />
+    <BundleResource Include="Resources\rappels.png" />
+    <BundleResource Include="Resources\rappels%402x.png" />
+    <BundleResource Include="Resources\rappels%403x.png" />
+    <BundleResource Include="Resources\settings.png" />
+    <BundleResource Include="Resources\settings%402x.png" />
+    <BundleResource Include="Resources\settings%403x.png" />
+    <BundleResource Include="Resources\playO.png" />
+    <BundleResource Include="Resources\playO%402x.png" />
+    <BundleResource Include="Resources\playO%403x.png" />
+    <BundleResource Include="Resources\pause.png" />
+    <BundleResource Include="Resources\pause%402x.png" />
+    <BundleResource Include="Resources\pause%403x.png" />
+    <BundleResource Include="Resources\playbig.png" />
+    <BundleResource Include="Resources\playbig%402x.png" />
+    <BundleResource Include="Resources\playbig%403x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets')" />

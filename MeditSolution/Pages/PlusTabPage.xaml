@@ -2,9 +2,41 @@
 <base:BasePage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:views="clr-namespace:MeditSolution.Views.Cells;assembly=MeditSolution"
+    xmlns:converter="clr-namespace:MeditSolution.Converter;assembly=MeditSolution"
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:selector="clr-namespace:MeditSolution.Views.Templates;assembly=MeditSolution"
     x:Class="MeditSolution.Pages.PlusTabPage"
     xmlns:base="clr-namespace:MeditSolution.Pages;assembly=MeditSolution"
     Title="Plus">
+    <base:BasePage.Resources>
+    <ResourceDictionary>
+            <DataTemplate x:Key="group">
+                 <views:GroupCell />
+            </DataTemplate>
+            <DataTemplate x:Key="cell">
+                <views:PlusCell />
+            </DataTemplate>
+            <selector:PlusGroupSelector x:Key="DataTemplateSelector"
+                Group="{StaticResource group}"
+                Cell="{StaticResource cell}" />
+        </ResourceDictionary>
+    </base:BasePage.Resources>
+    
     <base:BasePage.Content>
+
+        <StackLayout BackgroundColor="#f8f8f8" Orientation="Vertical" VerticalOptions="FillAndExpand">
+            <ListView x:Name="list" ItemTapped="Handle_ItemTapped" BackgroundColor="#f8f8f8" SeparatorVisibility="None" ItemsSource="{Binding Menu}" HasUnevenRows="true" ItemTemplate="{StaticResource DataTemplateSelector}" VerticalOptions="FillAndExpand" CachingStrategy="RecycleElement" >
+                <ListView.Header>
+                    <StackLayout>
+                         <ffimageloading:CachedImage DownsampleToViewSize="true" Source="logom.png" HeightRequest="68" WidthRequest="128" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Margin="20" />
+                    </StackLayout> 
+                </ListView.Header>
+                <ListView.Footer>
+                    <BoxView HeightRequest="10" />
+                </ListView.Footer>
+            </ListView>
+        </StackLayout>
+        
     </base:BasePage.Content>
 </base:BasePage>

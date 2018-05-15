@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MeditSolution.Views.Cells.GroupCell">
+    <ViewCell.View>
+        <StackLayout Padding="15,21,0,5" Orientation="Vertical">
+            <Label Text="{Binding .}" FontFamily="SFUIText-Light" FontSize="14" FontAttributes="None" TextColor="#9B9B9B" VerticalOptions="End" HorizontalTextAlignment="Start" />
+        </StackLayout>
+    </ViewCell.View>
+</ViewCell>

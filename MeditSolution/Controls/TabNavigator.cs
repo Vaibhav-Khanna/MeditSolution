@@ -17,7 +17,7 @@ namespace MeditSolution.Controls
 			bottomBarPage.BarTheme = BottomBarPage.BarThemeTypes.Light;
 
 			if (Device.RuntimePlatform == Device.Android)
-				bottomBarPage.BarTextColor = (Color)Application.Current.Resources["primary"];
+				bottomBarPage.BarTextColor = (Color)Application.Current.Resources["primaryDark"];
 
 			bottomBarPage.AddTab<MeditationTabPageModel>("Méditation", "meditation.png");
 			bottomBarPage.AddTab<CatalogueTabPageModel>("Catalogue", "catalogue.png");

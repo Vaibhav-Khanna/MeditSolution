@@ -8,13 +8,15 @@ namespace MeditSolution.Pages
 {
 	public partial class CatalogueTabPage : BasePage
     {
-        public CatalogueTabPage()
-        {
-			Xamarin.Forms.NavigationPage.SetHasNavigationBar(this, false);
+		public CatalogueTabPage()
+		{
+			if (Device.RuntimePlatform == Device.iOS)
+				Xamarin.Forms.NavigationPage.SetHasNavigationBar(this, false);
+
 			Xamarin.Forms.NavigationPage.SetBackButtonTitle(this, "Catalogue");
-            InitializeComponent();
+			InitializeComponent();
 
 			On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);
-        }
+		}
     }
 }

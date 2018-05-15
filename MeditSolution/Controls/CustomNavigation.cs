@@ -8,6 +8,8 @@ using Xamarin.Forms;
 
 namespace MeditSolution.Controls
 {
+ 
+
     public class CustomNavigation : BottomBarPage, IFreshNavigationService
     {
       

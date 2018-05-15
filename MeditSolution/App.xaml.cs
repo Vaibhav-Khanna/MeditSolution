@@ -16,13 +16,13 @@ namespace MeditSolution
 
 			FlowListView.Init();
 
-			//var page = FreshPageModelResolver.ResolvePageModel<TutorialPageModel>();
-
-			//MainPage = new FreshNavigationContainer(page);
-                     
 			BasePageModel.DefaultNavigationBackgroundColor();
-            
-			MainPage = TabNavigator.GenerateTabPage(); 
+
+			var page = FreshPageModelResolver.ResolvePageModel<TutorialPageModel>();
+
+			MainPage = new FreshNavigationContainer(page);
+                
+			//MainPage = TabNavigator.GenerateTabPage(); 
 
         }
 
