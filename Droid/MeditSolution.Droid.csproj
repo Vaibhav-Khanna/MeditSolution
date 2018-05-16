@@ -221,6 +221,15 @@
     <Reference Include="ProgressRing.Forms.Plugin">
       <HintPath>..\packages\Xam.Plugins.Forms.ProgressRing.0.1.2\lib\MonoAndroid10\ProgressRing.Forms.Plugin.dll</HintPath>
     </Reference>
+    <Reference Include="Syncfusion.SfPicker.Android">
+      <HintPath>..\packages\Syncfusion.Xamarin.SfPicker.16.1.0.37\lib\MonoAndroid10\Syncfusion.SfPicker.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPicker.XForms.Android">
+      <HintPath>..\packages\Syncfusion.Xamarin.SfPicker.16.1.0.37\lib\MonoAndroid10\Syncfusion.SfPicker.XForms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPicker.XForms">
+      <HintPath>..\packages\Syncfusion.Xamarin.SfPicker.16.1.0.37\lib\MonoAndroid10\Syncfusion.SfPicker.XForms.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MeditSolution\MeditSolution.csproj">

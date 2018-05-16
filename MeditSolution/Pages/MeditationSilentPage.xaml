@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:base="clr-namespace:MeditSolution.Pages;assembly=MeditSolution"
+    xmlns:converter="clr-namespace:MeditSolution.Converter;assembly=MeditSolution"
+    xmlns:controls="clr-namespace:MeditSolution.Controls;assembly=MeditSolution"
+    xmlns:effect="clr-namespace:MeditSolution.Effects;assembly=MeditSolution"
+    x:Class="MeditSolution.Pages.MeditationSilentPage"
+    Title="Méditation silencieuse">
+    <base:BasePage.Content>
+        <Grid Padding="21,0,21,0" RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="90" />
+            </Grid.RowDefinitions>
+
+            <Label Text="Choisissez votre temps de méditation"  Margin="20,0,20,0" Grid.Row="0" FontFamily="SFUIText-Bold"  FontSize="18" FontAttributes="Bold" TextColor="#4A4A4A" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+
+            <controls:CustomTimePicker x:Name="picker" Grid.Row="0" Grid.RowSpan="3" ColumnHeaderHeight="40" PickerWidth="300" HorizontalOptions="Center" PickerMode="Dialog" SelectedItem="{Binding SelectedTime,Mode=OneWayToSource}" VerticalOptions="Center" PickerHeight="400" />
+
+            <Label Text="{Binding Time}" Grid.Row="1" VerticalOptions="Start" HorizontalOptions="Center" FontFamily="SFUIText-Light" FontSize="72" TextColor="#656565" HorizontalTextAlignment="Center" >
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Handle_Tapped" />
+                </Label.GestureRecognizers>
+            </Label>
+
+
+            <Button x:Name="s" Text="Démarrer" Grid.Row="2" VerticalOptions="Start" Command="{Binding StartCommand}" FontAttributes="Bold" FontSize="18" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Bold" TextColor="{StaticResource white}" BorderColor="{StaticResource primary}" BackgroundColor="{StaticResource primary}" BorderWidth="1" >
+                     <Button.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double" Android="60" iOS="50" />
+                </Button.HeightRequest>
+                <Button.BorderRadius>
+                    <OnPlatform x:TypeArguments="x:Int32" Android="30" iOS="25" />
+                </Button.BorderRadius>
+            </Button>   
+            
+        </Grid>
+    </base:BasePage.Content>
+</base:BasePage>

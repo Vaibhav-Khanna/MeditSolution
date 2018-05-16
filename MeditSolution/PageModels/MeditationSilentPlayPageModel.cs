@@ -3,15 +3,11 @@ using Xamarin.Forms;
 
 namespace MeditSolution.PageModels
 {
-	public class MeditationPlayPageModel : BasePageModel
+	public class MeditationSilentPlayPageModel : BasePageModel
     {
 		public double Progress { get; set; }
-		public string TimerText { get; set; } = "00:00";
-
-		public Command PlayPauseCommand => new Command(()=>
-		{
-			IsPlaying = !IsPlaying;
-		});
+        public string TimerText { get; set; } = "00:00";
+		public string HeaderText { get; set; } = "Méditation silencieuse";
 
 
 		public override void Init(object initData)
@@ -26,10 +22,14 @@ namespace MeditSolution.PageModels
             });
 		}
 
-		protected override void ViewIsAppearing(object sender, EventArgs e)
+		public Command PlayPauseCommand => new Command(() =>
+        {
+            IsPlaying = !IsPlaying;
+        });
+
+		public Command CloseCommand => new Command(async() =>
 		{
-			base.ViewIsAppearing(sender, e);
-            
-		}
-	}
+			await CoreMethods.PopPageModel(true);
+		});
+    }
 }

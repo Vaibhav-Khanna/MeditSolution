@@ -39,6 +39,12 @@ namespace MeditSolution.PageModels
 				case "Vidéos":
 					await CoreMethods.PushPageModel<VideosPageModel>();
 					break;
+				case"Méditation Silencieuse":
+					await CoreMethods.PushPageModel<MeditationSilentPageModel>();
+					break;
+				case "Cohérence cardiaque":
+					await CoreMethods.PushPageModel<MeditationBreathePageModel>();
+					break;
 				default:
 					break;
 			}

@@ -178,6 +178,15 @@
     <Reference Include="ProgressRing.Forms.Plugin.iOS">
       <HintPath>..\packages\Xam.Plugins.Forms.ProgressRing.0.1.2\lib\Xamarin.iOS10\ProgressRing.Forms.Plugin.iOS.dll</HintPath>
     </Reference>
+    <Reference Include="Syncfusion.SfPicker.iOS">
+      <HintPath>..\packages\Syncfusion.Xamarin.SfPicker.16.1.0.37\lib\Xamarin.iOS10\Syncfusion.SfPicker.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPicker.XForms">
+      <HintPath>..\packages\Syncfusion.Xamarin.SfPicker.16.1.0.37\lib\Xamarin.iOS10\Syncfusion.SfPicker.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPicker.XForms.iOS">
+      <HintPath>..\packages\Syncfusion.Xamarin.SfPicker.16.1.0.37\lib\Xamarin.iOS10\Syncfusion.SfPicker.XForms.iOS.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MeditSolution\MeditSolution.csproj">

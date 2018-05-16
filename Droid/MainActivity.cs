@@ -14,6 +14,7 @@ using Xamarin.Forms;
 using Lottie.Forms.Droid;
 using Plugin.MediaManager.Forms.Android;
 using Plugin.CurrentActivity;
+using Syncfusion.SfPicker.XForms.Droid;
 
 namespace MeditSolution.Droid
 {
@@ -30,6 +31,8 @@ namespace MeditSolution.Droid
 			global::Xamarin.Forms.Forms.Init(this, bundle);
 
 			CrossCurrentActivity.Current.Init(this, bundle);
+
+		    var s = new SfPickerRenderer();
 
             CarouselViewRenderer.Init();
           

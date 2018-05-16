@@ -8,6 +8,7 @@ using Foundation;
 using Lottie.Forms.iOS.Renderers;
 using Plugin.MediaManager.Forms.iOS;
 using ProgressRingControl.Forms.Plugin.iOS;
+using Syncfusion.SfPicker.XForms.iOS;
 using UIKit;
 using Xamarin.Forms.Platform.iOS;
 
@@ -29,6 +30,8 @@ namespace MeditSolution.iOS
 
             CarouselViewRenderer.Init();
 
+			SfPickerRenderer.Init();
+
 			AnimationViewRenderer.Init();
 
             CachedImageRenderer.Init();
@@ -39,6 +42,9 @@ namespace MeditSolution.iOS
 
 			UITabBar.Appearance.TintColor = ((Xamarin.Forms.Color)Xamarin.Forms.Application.Current.Resources["primaryDark"]).ToUIColor();
             UITabBar.Appearance.SelectedImageTintColor = ((Xamarin.Forms.Color)Xamarin.Forms.Application.Current.Resources["primaryDark"]).ToUIColor();
+
+			UINavigationBar.Appearance.TintColor = ((Xamarin.Forms.Color)Xamarin.Forms.Application.Current.Resources["primaryDark"]).ToUIColor(); //Tint color of button items
+			UIBarButtonItem.Appearance.TintColor = ((Xamarin.Forms.Color)Xamarin.Forms.Application.Current.Resources["primaryDark"]).ToUIColor(); //Tint color of button items
 
             var result = base.FinishedLaunching(app, options);
 

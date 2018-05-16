@@ -113,6 +113,26 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\MeditationSilentPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MeditationView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\MeditationSilentPlayPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\MeditationBreathePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\MeditationBreathePlayPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -219,6 +239,26 @@
       <DependentUpon>MeditationPlayPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="PageModels\MeditationPlayPageModel.cs" />
+    <Compile Include="Controls\CustomTimePicker.cs" />
+    <Compile Include="Pages\MeditationSilentPage.xaml.cs">
+      <DependentUpon>MeditationSilentPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageModels\MeditationSilentPageModel.cs" />
+    <Compile Include="Views\MeditationView.xaml.cs">
+      <DependentUpon>MeditationView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MeditationSilentPlayPage.xaml.cs">
+      <DependentUpon>MeditationSilentPlayPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageModels\MeditationSilentPlayPageModel.cs" />
+    <Compile Include="Pages\MeditationBreathePage.xaml.cs">
+      <DependentUpon>MeditationBreathePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageModels\MeditationBreathePageModel.cs" />
+    <Compile Include="Pages\MeditationBreathePlayPage.xaml.cs">
+      <DependentUpon>MeditationBreathePlayPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageModels\MeditationBreathePlayPageModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FreshIOC">
@@ -283,6 +323,9 @@
     </Reference>
     <Reference Include="ProgressRing.Forms.Plugin">
       <HintPath>..\packages\Xam.Plugins.Forms.ProgressRing.0.1.2\lib\portable-net45+wp80+win8+wpa81\ProgressRing.Forms.Plugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPicker.XForms">
+      <HintPath>..\packages\Syncfusion.Xamarin.SfPicker.16.1.0.37\lib\portable-win+net45+wp80+win81+wpa81\Syncfusion.SfPicker.XForms.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

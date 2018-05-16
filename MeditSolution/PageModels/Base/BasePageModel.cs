@@ -8,6 +8,12 @@ namespace MeditSolution.PageModels
     public class BasePageModel : FreshBasePageModel
     {
 
+		bool _playing = true;
+        [PropertyChanged.DoNotNotify]
+        public bool IsPlaying { get { return _playing; } set { _playing = value; Image = (value) ? "pause.png" : "playbig.png"; RaisePropertyChanged(); } }
+        public string Image { get; set; } = "pause.png";
+
+
 		public static void ChangeNavigationBackgroundColor(Color backColor)
 		{
 			Application.Current.Resources["backgroundColor"] = backColor;
