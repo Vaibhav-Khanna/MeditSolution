@@ -318,6 +318,10 @@
     <Compile Include="DataStore\Abstraction\Stores\IMeditationStore.cs" />
     <Compile Include="Models\DataObjects\Meditation.cs" />
     <Compile Include="DataStore\Implementation\Stores\MeditationStore.cs" />
+    <Compile Include="Helpers\Settings.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Models\Response\ErrorResponse.cs" />
+    <Compile Include="Models\Response\PaginationResponse.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FreshIOC">
@@ -392,6 +396,15 @@
     <Reference Include="Xamarin.Essentials">
       <HintPath>..\packages\Xamarin.Essentials.0.6.0-preview\lib\netstandard1.0\Xamarin.Essentials.dll</HintPath>
     </Reference>
+    <Reference Include="Plugin.Settings.Abstractions">
+      <HintPath>..\packages\Xam.Plugins.Settings.3.1.1\lib\netstandard1.0\Plugin.Settings.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Settings">
+      <HintPath>..\packages\Xam.Plugins.Settings.3.1.1\lib\netstandard1.0\Plugin.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\portable-net45+win8+wp8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -417,6 +430,8 @@
     <Folder Include="DataStore\Abstraction\Stores\" />
     <Folder Include="DataStore\Implementation\Stores\" />
     <Folder Include="Models\DataObjects\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Models\Response\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Fody.3.0.3\build\Fody.targets" Condition="Exists('..\packages\Fody.3.0.3\build\Fody.targets')" />

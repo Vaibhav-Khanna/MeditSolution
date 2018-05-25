@@ -11,5 +11,6 @@ namespace MeditSolution.DataStore.Abstraction
 
 		Task<object> LoginAsync();
 		Task<object> RegisterAsync();
+		Task<bool> RegenerateToken();
     }
 }

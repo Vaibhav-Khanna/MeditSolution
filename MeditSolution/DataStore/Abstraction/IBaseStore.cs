@@ -14,6 +14,6 @@ namespace MeditSolution.DataStore.Abstraction
 
 		Task<T> UpdateAsync(T item);
 
-		Task<bool> RemoveAsync(T item);
+		Task<bool> RemoveAsync(T item); 
     }
 }
