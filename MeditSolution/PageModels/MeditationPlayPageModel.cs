@@ -9,11 +9,11 @@ namespace MeditSolution.PageModels
 		public string TimerText { get; set; } = "00:00";
 
 
-		public Command PlayPauseCommand => new Command(async()=>
+		public Command PlayPauseCommand => new Command(()=>
 		{
 			IsPlaying = !IsPlaying;
             
-			await CoreMethods.PushPageModel<MeditationEndPageModel>(IsPlaying,true);
+			//await CoreMethods.PushPageModel<MeditationEndPageModel>(IsPlaying,true);
 		});
 
 

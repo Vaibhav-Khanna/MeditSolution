@@ -24,7 +24,7 @@ namespace MeditSolution.PageModels
 			}
 		}
 
-		public string Time { get; set; }
+		public string Time { get; set; } = "1:00";
 
 		public int CycleDuration { get; set; } = 6;
 

@@ -31,7 +31,12 @@ namespace MeditSolution.Pages
 
 			canvas.DrawCircle(info.Width / 2, info.Height / 2, info.Width / 2, paint);
 
+			if(Device.RuntimePlatform==Device.iOS)
 			canvasViewL.HeightRequest = info.Width/2;
+			else
+			{
+				canvasViewL.HeightRequest = (info.Width / 3);
+			}
 		}
 
 		void Handle_PaintSurfaceR(object sender, SkiaSharp.Views.Forms.SKPaintSurfaceEventArgs e)
@@ -49,8 +54,13 @@ namespace MeditSolution.Pages
 			};
 
 			canvas.DrawCircle(info.Width / 2, info.Height / 2, info.Width / 2, paint);
-
-			canvasViewR.HeightRequest = info.Width/2;
+            
+			if (Device.RuntimePlatform == Device.iOS)
+                canvasViewR.HeightRequest = info.Width / 2;
+            else
+            {
+				canvasViewR.HeightRequest = (info.Width / 3);
+            }
 		}
 
 		void Handle_TappedL(object sender, System.EventArgs e)

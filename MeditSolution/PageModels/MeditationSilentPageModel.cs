@@ -14,7 +14,7 @@ namespace MeditSolution.PageModels
 				if(time!=null)	
 					Time = $"{(time as ObservableCollection<object>).First()}:{(time as ObservableCollection<object>).Last()}"; } }
 
-		public string Time { get; set; }
+		public string Time { get; set; } = "1:00";
 
 
 		public Command StartCommand => new Command(async() =>
