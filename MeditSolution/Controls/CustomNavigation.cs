@@ -16,7 +16,7 @@ namespace MeditSolution.Controls
 		List<Page> _tabs = new List<Page>();
         public IEnumerable<Page> TabbedPages { get { return _tabs; } }
 
-        public CustomNavigation() : this(Constants.DefaultNavigationServiceName)
+		public CustomNavigation() : this(FreshMvvm.Constants.DefaultNavigationServiceName)
         {
 			NavigationPage.SetHasNavigationBar(this, false);
         }

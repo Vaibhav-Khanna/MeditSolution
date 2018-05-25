@@ -15,6 +15,11 @@ namespace MeditSolution.DataStore.Implementation
 			throw new NotImplementedException();
 		}
 
+		public Task<bool> RegenerateToken()
+		{
+			throw new NotImplementedException();
+		}
+
 		public Task<object> RegisterAsync()
 		{
 			throw new NotImplementedException();
