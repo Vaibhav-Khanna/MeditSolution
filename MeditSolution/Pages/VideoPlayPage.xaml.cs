@@ -33,6 +33,11 @@ namespace MeditSolution.Pages
 			}
 		}
 
+		void Handle_Tapped(object sender, System.EventArgs e)
+		{
+			videoView.Stop();  
+		}
+
 		protected override void OnDisappearing()
 		{
 			base.OnDisappearing();

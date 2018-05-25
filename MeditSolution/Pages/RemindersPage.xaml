@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:base="clr-namespace:MeditSolution.Pages;assembly=MeditSolution"
+    xmlns:effects="clr-namespace:MeditSolution.Effects;assembly=MeditSolution"
+    xmlns:controls="clr-namespace:MeditSolution.Controls;assembly=MeditSolution"
+    x:Class="MeditSolution.Pages.RemindersPage"
+    Title="Rappels">
+    <base:BasePage.ToolbarItems>
+        <ToolbarItem Text="Ajouter" Command="{Binding AddCommand}" />
+    </base:BasePage.ToolbarItems>
+    <base:BasePage.Content>
+        <ListView x:Name="list" ItemTapped="Handle_ItemTapped" ItemsSource="{Binding Reminders}" HasUnevenRows="true" CachingStrategy="RecycleElement" VerticalOptions="FillAndExpand" SeparatorVisibility="Default" SeparatorColor="#d9d9d9" >
+            <ListView.Footer>
+                <BoxView HeightRequest="2" Color="Transparent"/>
+            </ListView.Footer>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    
+                    <ViewCell>
+                        <Grid RowSpacing="7" Padding="20,15,20,20">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="76"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="2*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TimePicker x:Name="picker" HeightRequest="60" Time="{Binding Time,Mode=TwoWay}" TextColor="Transparent" Grid.Row="0" Grid.Column="0" HorizontalOptions="FillAndExpand" VerticalOptions="Center" >
+                                <TimePicker.Effects>
+                                    <effects:BorderlessEffect />
+                                </TimePicker.Effects>
+                            </TimePicker>
+
+                            <Label x:Name="lbtime" InputTransparent="true" Text="{Binding TimeString}" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" FontFamily="SFUIText-Light" FontSize="64" FontAttributes="Bold" TextColor="#656565" />                               
+
+                            <Switch IsToggled="{Binding IsActive}" Grid.Row="0" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="Center" />
+
+                            <controls:WrapLayout Orientation="Horizontal" VerticalOptions="Start" Spacing="13" Grid.Row="1" Grid.Column="0" HorizontalOptions="FillAndExpand" Grid.ColumnSpan="2" >
+                                <Button Clicked="Handle_Clicked" Text="{Binding Monday}" FontSize="18" TextColor="#9b9b9b" FontFamily="SFUIText-Regular" HeightRequest="36" WidthRequest="36" BackgroundColor="White" BorderRadius="18" BorderWidth="1" BorderColor="#9b9b9b" />
+                                <Button Clicked="Handle_Clicked" Text="{Binding Tuesday}" FontSize="18" TextColor="#9b9b9b" FontFamily="SFUIText-Regular" HeightRequest="36" WidthRequest="36" BackgroundColor="White" BorderRadius="18" BorderWidth="1" BorderColor="#9b9b9b" />
+                                <Button Clicked="Handle_Clicked" Text="{Binding Wednesday}" FontSize="18" TextColor="#9b9b9b" FontFamily="SFUIText-Regular" HeightRequest="36" WidthRequest="36" BackgroundColor="White" BorderRadius="18" BorderWidth="1" BorderColor="#9b9b9b" />
+                                <Button Clicked="Handle_Clicked" Text="{Binding Thursday}" FontSize="18" TextColor="#9b9b9b" FontFamily="SFUIText-Regular" HeightRequest="36" WidthRequest="36" BackgroundColor="White" BorderRadius="18" BorderWidth="1" BorderColor="#9b9b9b" />
+                                <Button Clicked="Handle_Clicked" Text="{Binding Friday}" FontSize="18" TextColor="#9b9b9b" FontFamily="SFUIText-Regular" HeightRequest="36" WidthRequest="36" BackgroundColor="White" BorderRadius="18" BorderWidth="1" BorderColor="#9b9b9b" />
+                                <Button Clicked="Handle_Clicked" Text="{Binding Saturday}" FontSize="18" TextColor="#9b9b9b" FontFamily="SFUIText-Regular" HeightRequest="36" WidthRequest="36" BackgroundColor="White" BorderRadius="18" BorderWidth="1" BorderColor="#9b9b9b" />
+                                <Button Clicked="Handle_Clicked" Text="{Binding Sunday}" FontSize="18" TextColor="#9b9b9b" FontFamily="SFUIText-Regular" HeightRequest="36" WidthRequest="36" BackgroundColor="White" BorderRadius="18" BorderWidth="1" BorderColor="#9b9b9b" />
+                            </controls:WrapLayout>
+
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="Handle_Tapped"/>
+                            </Grid.GestureRecognizers>
+                        </Grid>
+                    </ViewCell>
+                    
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </base:BasePage.Content>
+</base:BasePage>

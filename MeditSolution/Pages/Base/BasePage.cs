@@ -8,7 +8,7 @@ namespace MeditSolution.Pages
     {
         public BasePage()
         {
-            
+			BackgroundColor = Color.White;
         }
     }
 }

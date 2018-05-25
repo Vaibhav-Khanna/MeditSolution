@@ -7,6 +7,7 @@ namespace MeditSolution.Effects
     {
         public BorderEntryEffect() : base("medit.BorderEffect")
         {
+			
         }
     }
 }

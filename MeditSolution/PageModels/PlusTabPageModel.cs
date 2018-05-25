@@ -36,6 +36,9 @@ namespace MeditSolution.PageModels
 				case "Mon compte":
 					await CoreMethods.PushPageModel<MyAccountPageModel>();
 					break;
+				case "L’abonnement":
+					await CoreMethods.PushPageModel<SubscriptionPageModel>();
+                    break;
 				case "Vidéos":
 					await CoreMethods.PushPageModel<VideosPageModel>();
 					break;
@@ -45,6 +48,12 @@ namespace MeditSolution.PageModels
 				case "Cohérence cardiaque":
 					await CoreMethods.PushPageModel<MeditationBreathePageModel>();
 					break;
+				case "Paramètres":
+					await CoreMethods.PushPageModel<SettingsPageModel>(data:false);
+                    break;
+				case "Rappels quotidiens":
+					await CoreMethods.PushPageModel<RemindersPageModel>();
+                    break;
 				default:
 					break;
 			}

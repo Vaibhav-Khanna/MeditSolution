@@ -18,12 +18,11 @@ namespace MeditSolution
 
 			BasePageModel.DefaultNavigationBackgroundColor();
 
-			//var page = FreshPageModelResolver.ResolvePageModel<TutorialPageModel>();
+			var page = FreshPageModelResolver.ResolvePageModel<TutorialPageModel>();
 
-			//MainPage = new FreshNavigationContainer(page);
+			MainPage = new FreshNavigationContainer(page);
                 
-			MainPage = TabNavigator.GenerateTabPage(); 
-
+			//MainPage = TabNavigator.GenerateTabPage(); 
         }
 
         protected override void OnStart()

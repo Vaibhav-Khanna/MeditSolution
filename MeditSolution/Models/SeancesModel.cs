@@ -36,9 +36,10 @@ namespace MeditSolution.Models
 
 		public string IconBottom { get { return IsLocked ? "cloud.png" : IsDownloaded ? "cloud.png" : "cloudcheck.png"; } }
 
+
 		public Command PlayCommand => new Command(async() =>
 		{
-			await Model.CoreMethods.PushPageModel<MeditationPlayPageModel>();
+			await Model.CoreMethods.PushPageModel<SettingsPageModel>(data:true);
 		});
 
 		public Command DownloadCommand => new Command(() =>

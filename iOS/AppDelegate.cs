@@ -11,6 +11,7 @@ using ProgressRingControl.Forms.Plugin.iOS;
 using Syncfusion.SfPicker.XForms.iOS;
 using UIKit;
 using Xamarin.Forms.Platform.iOS;
+using Xamarin.Essentials;
 
 namespace MeditSolution.iOS
 {
@@ -24,7 +25,7 @@ namespace MeditSolution.iOS
 
 			Rox.VideoIos.Init();
             	
-            global::Xamarin.Forms.Forms.Init();
+            global::Xamarin.Forms.Forms.Init();        
 
 			ProgressRingRenderer.Init();
 
@@ -42,6 +43,8 @@ namespace MeditSolution.iOS
 
 			UITabBar.Appearance.TintColor = ((Xamarin.Forms.Color)Xamarin.Forms.Application.Current.Resources["primaryDark"]).ToUIColor();
             UITabBar.Appearance.SelectedImageTintColor = ((Xamarin.Forms.Color)Xamarin.Forms.Application.Current.Resources["primaryDark"]).ToUIColor();
+
+			UISwitch.Appearance.OnTintColor = ((Xamarin.Forms.Color)Xamarin.Forms.Application.Current.Resources["primary"]).ToUIColor();
 
 			UINavigationBar.Appearance.TintColor = ((Xamarin.Forms.Color)Xamarin.Forms.Application.Current.Resources["primaryDark"]).ToUIColor(); //Tint color of button items
 			UIBarButtonItem.Appearance.TintColor = ((Xamarin.Forms.Color)Xamarin.Forms.Application.Current.Resources["primaryDark"]).ToUIColor(); //Tint color of button items

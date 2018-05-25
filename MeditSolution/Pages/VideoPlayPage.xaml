@@ -11,7 +11,7 @@
             <video:VideoView x:Name="videoView" PropertyChangedCommand="{Binding VideoChangedCommand}" Source="{Binding Video}" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" AutoPlay="true" LoopPlay="false" ShowController="true" FullScreen="false" />
             <Image Source="closeW.png" HorizontalOptions="End" VerticalOptions="Start" >
                 <Image.GestureRecognizers>
-                    <TapGestureRecognizer Command="{Binding CloseCommand}"/>
+                    <TapGestureRecognizer Tapped="Handle_Tapped"/>
                 </Image.GestureRecognizers>
                 <Image.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double" Android="30" iOS="20"/>

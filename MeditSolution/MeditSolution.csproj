@@ -133,6 +133,30 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\LanguageSettingView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\SettingsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\SubscriptionPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\RemindersPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\MeditationEndPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\AvatarGrowPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -259,6 +283,41 @@
       <DependentUpon>MeditationBreathePlayPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="PageModels\MeditationBreathePlayPageModel.cs" />
+    <Compile Include="Views\LanguageSettingView.xaml.cs">
+      <DependentUpon>LanguageSettingView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SettingsPage.xaml.cs">
+      <DependentUpon>SettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageModels\SettingsPageModel.cs" />
+    <Compile Include="Models\Abstract\ILanguageSetting.cs" />
+    <Compile Include="Pages\SubscriptionPage.xaml.cs">
+      <DependentUpon>SubscriptionPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageModels\SubscriptionPageModel.cs" />
+    <Compile Include="Pages\RemindersPage.xaml.cs">
+      <DependentUpon>RemindersPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageModels\RemindersPageModel.cs" />
+    <Compile Include="Controls\WrapLayout.cs" />
+    <Compile Include="Models\ReminderModel.cs" />
+    <Compile Include="Effects\BorderlessEffect.cs" />
+    <Compile Include="Pages\MeditationEndPage.xaml.cs">
+      <DependentUpon>MeditationEndPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageModels\MeditationEndPageModel.cs" />
+    <Compile Include="Pages\AvatarGrowPage.xaml.cs">
+      <DependentUpon>AvatarGrowPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageModels\AvatarGrowPageModel.cs" />
+    <Compile Include="DataStore\Abstraction\IBaseStore.cs" />
+    <Compile Include="DataStore\Abstraction\IStoreManager.cs" />
+    <Compile Include="DataStore\Abstraction\BaseDataObject.cs" />
+    <Compile Include="DataStore\Implementation\BaseStore.cs" />
+    <Compile Include="DataStore\Implementation\StoreManager.cs" />
+    <Compile Include="DataStore\Abstraction\Stores\IMeditationStore.cs" />
+    <Compile Include="Models\DataObjects\Meditation.cs" />
+    <Compile Include="DataStore\Implementation\Stores\MeditationStore.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FreshIOC">
@@ -327,6 +386,12 @@
     <Reference Include="Syncfusion.SfPicker.XForms">
       <HintPath>..\packages\Syncfusion.Xamarin.SfPicker.16.1.0.37\lib\portable-win+net45+wp80+win81+wpa81\Syncfusion.SfPicker.XForms.dll</HintPath>
     </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>..\packages\System.Numerics.Vectors.4.4.0\lib\portable-net45+win8+wp8+wpa81\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Essentials">
+      <HintPath>..\packages\Xamarin.Essentials.0.6.0-preview\lib\netstandard1.0\Xamarin.Essentials.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -345,6 +410,13 @@
     <Folder Include="Converter\" />
     <Folder Include="Views\Cells\" />
     <Folder Include="Views\Templates\" />
+    <Folder Include="Models\Abstract\" />
+    <Folder Include="DataStore\" />
+    <Folder Include="DataStore\Abstraction\" />
+    <Folder Include="DataStore\Implementation\" />
+    <Folder Include="DataStore\Abstraction\Stores\" />
+    <Folder Include="DataStore\Implementation\Stores\" />
+    <Folder Include="Models\DataObjects\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Fody.3.0.3\build\Fody.targets" Condition="Exists('..\packages\Fody.3.0.3\build\Fody.targets')" />

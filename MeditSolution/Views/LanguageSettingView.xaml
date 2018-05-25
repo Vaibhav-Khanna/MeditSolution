@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:skia="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MeditSolution.Views.LanguageSettingView">
+    <ContentView.Content>
+
+        <ScrollView VerticalOptions="FillAndExpand" Orientation="Vertical" >
+            <StackLayout Spacing="20" Padding="25,50,25,25" >
+
+                <Label Text="En quelle langue souhaitez-vous méditer ?" FontFamily="SFUIText-Light" LineBreakMode="WordWrap" FontSize="16" TextColor="#4A4A4A" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" />
+
+                <StackLayout Spacing="57" Orientation="Horizontal">
+                    <Image x:Name="fr" Source="fr.png" HeightRequest="89" WidthRequest="89" HorizontalOptions="EndAndExpand" >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="Handle_FRTapped" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <Image x:Name="uk" Source="uk.png" HeightRequest="89" WidthRequest="89" HorizontalOptions="StartAndExpand" >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="Handle_UKTapped" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                </StackLayout>
+
+                <Label Margin="0,50,0,0" Text="Quelle genre de voix préférez vous pour cette méditation ?" FontFamily="SFUIText-Light" LineBreakMode="WordWrap" FontSize="16" TextColor="#4A4A4A" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" />
+
+                <StackLayout Spacing="57" Orientation="Horizontal">
+                    <Image x:Name="homme" Source="homme.png" HeightRequest="89" WidthRequest="89" HorizontalOptions="EndAndExpand" >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="Handle_ManTapped" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <Image x:Name="femme" Source="femme.png" HeightRequest="89" WidthRequest="89" HorizontalOptions="StartAndExpand" >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="Handle_GirlTapped" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                </StackLayout>
+
+               <Button x:Name="btSave" VerticalOptions="EndAndExpand" IsVisible="false" Text="Démarrer" Command="{Binding SaveCommand}" FontAttributes="Bold" FontSize="18" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Bold" TextColor="{StaticResource white}" BorderColor="{StaticResource primary}" BackgroundColor="{StaticResource primary}" BorderWidth="1">
+                    <Button.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double" Android="60" iOS="50" />
+                </Button.HeightRequest>
+                <Button.BorderRadius>
+                    <OnPlatform x:TypeArguments="x:Int32" Android="30" iOS="25" />
+                </Button.BorderRadius>
+                </Button>
+
+                <Grid x:Name="lb_bottom" VerticalOptions="EndAndExpand" RowSpacing="0" Padding="0" HorizontalOptions="FillAndExpand" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+
+                    </Grid.RowDefinitions>
+
+                    <Label Text="Le saviez-vous ?" Margin="10" Grid.Row="0" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Bold"  FontSize="16"  FontAttributes="Bold" TextColor="#4A4A4A" HorizontalTextAlignment="Center" />
+
+                    <Label Text="Vous pouvez changer ces paramètres à tout moments dans les paramètres de méditation" Margin="10,0,10,10" Grid.Row="1" FontFamily="SFUIText-Medium"  FontSize="14" TextColor="#50E3C2"  HorizontalTextAlignment="Center" />
+                    
+                     <skia:SKCanvasView x:Name="canvasView"
+                           PaintSurface="Handle_PaintSurface"
+                           Grid.Row="0"                        
+                           Grid.RowSpan="2"                          
+                           />
+                </Grid>
+
+                
+            </StackLayout>
+        </ScrollView>
+        
+    </ContentView.Content>
+</ContentView>

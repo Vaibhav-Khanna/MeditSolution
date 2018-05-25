@@ -26,6 +26,8 @@ namespace MeditSolution.PageModels
 			Seances.Add(Tint); // connecting line
 			Seances.Add(new SeancesModel(Tint) { Title = "Peu guidé", IsDownloaded = false, IsLocked = true, Model = this });
 			Seances.Add(Tint); // connecting line
+			Seances.Add(Tint); // connecting line
+			Seances.Add(Tint); // connecting line
 		}
 
 

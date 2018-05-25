@@ -10,5 +10,11 @@ namespace MeditSolution.Views.Cells
         {
             InitializeComponent();
         }
+
+
+		void Handle_Tapped(object sender, System.EventArgs e)
+		{
+			
+		}
     }
 }

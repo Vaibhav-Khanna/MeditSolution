@@ -22,9 +22,9 @@ namespace MeditSolution.Controls
 			bottomBarPage.AddTab<MeditationTabPageModel>("Méditation", "meditation.png");
 			bottomBarPage.AddTab<CatalogueTabPageModel>("Catalogue", "catalogue.png");
 			bottomBarPage.AddTab<StatsTabPageModel>("Mes stats", "stats.png");
-			bottomBarPage.AddTab<PlusTabPageModel>("Plus", "plus.png");
-
-			return (bottomBarPage);
+			var container = bottomBarPage.AddTab<PlusTabPageModel>("Plus", "plus.png");
+   
+			return new DynamicNavigationPage(bottomBarPage);
 		}
 
     }

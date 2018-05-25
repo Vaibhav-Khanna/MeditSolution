@@ -187,6 +187,9 @@
     <Reference Include="Syncfusion.SfPicker.XForms.iOS">
       <HintPath>..\packages\Syncfusion.Xamarin.SfPicker.16.1.0.37\lib\Xamarin.iOS10\Syncfusion.SfPicker.XForms.iOS.dll</HintPath>
     </Reference>
+    <Reference Include="Xamarin.Essentials">
+      <HintPath>..\packages\Xamarin.Essentials.0.6.0-preview\lib\xamarinios10\Xamarin.Essentials.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MeditSolution\MeditSolution.csproj">
@@ -230,6 +233,7 @@
     <Compile Include="Renderers\ExtensionMethods.cs" />
     <Compile Include="Renderers\RoundedBoxRenderer.cs" />
     <Compile Include="Renderers\CustomTabbedRenderer.cs" />
+    <Compile Include="Effects\BorderlessRenderEffect.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\splash IOS.png" />
@@ -376,6 +380,30 @@
     <BundleResource Include="Resources\playbig.png" />
     <BundleResource Include="Resources\playbig%402x.png" />
     <BundleResource Include="Resources\playbig%403x.png" />
+    <BundleResource Include="Resources\checkcta.png" />
+    <BundleResource Include="Resources\checkcta%402x.png" />
+    <BundleResource Include="Resources\checkcta%403x.png" />
+    <BundleResource Include="Resources\femme.png" />
+    <BundleResource Include="Resources\femme%402x.png" />
+    <BundleResource Include="Resources\femme%403x.png" />
+    <BundleResource Include="Resources\fr.png" />
+    <BundleResource Include="Resources\fr%402x.png" />
+    <BundleResource Include="Resources\fr%403x.png" />
+    <BundleResource Include="Resources\homme.png" />
+    <BundleResource Include="Resources\homme%402x.png" />
+    <BundleResource Include="Resources\homme%403x.png" />
+    <BundleResource Include="Resources\uk.png" />
+    <BundleResource Include="Resources\uk%402x.png" />
+    <BundleResource Include="Resources\uk%403x.png" />
+    <BundleResource Include="Resources\check.png" />
+    <BundleResource Include="Resources\check%402x.png" />
+    <BundleResource Include="Resources\check%403x.png" />
+    <BundleResource Include="Resources\stones.png" />
+    <BundleResource Include="Resources\stones%402x.png" />
+    <BundleResource Include="Resources\stones%403x.png" />
+    <BundleResource Include="Resources\unlock.png" />
+    <BundleResource Include="Resources\unlock%402x.png" />
+    <BundleResource Include="Resources\unlock%403x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets')" />

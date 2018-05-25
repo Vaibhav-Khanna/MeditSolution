@@ -7,9 +7,9 @@ using Xamarin.Forms;
 namespace MeditSolution.PageModels
 {
 	public class MeditationBreathePageModel : BasePageModel
-    {
+	{
 		object time;
-        [PropertyChanged.DoNotNotify]
+		[PropertyChanged.DoNotNotify]
 		public object SelectedTime
 		{
 			get { return time; }
@@ -24,19 +24,20 @@ namespace MeditSolution.PageModels
 			}
 		}
 
-        public string Time { get; set; }
+		public string Time { get; set; }
 
 		public int CycleDuration { get; set; } = 6;
 
-        
+
 		public Command QuickTimeCommand => new Command((obj) =>
 		{
-			CycleDuration = Convert.ToInt32(obj as string); 
+			CycleDuration = Convert.ToInt32(obj as string);
 		});
 
-		public Command StartCommand => new Command(async() =>
+		public Command StartCommand => new Command(async () =>
 		{
-			await CoreMethods.PushPageModel<MeditationBreathePlayPageModel>();
+			await CoreMethods.PushPageModel<MeditationBreathePlayPageModel>(null, true);
 		});
+
 	}
 }

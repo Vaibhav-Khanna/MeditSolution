@@ -230,6 +230,11 @@
     <Reference Include="Syncfusion.SfPicker.XForms">
       <HintPath>..\packages\Syncfusion.Xamarin.SfPicker.16.1.0.37\lib\MonoAndroid10\Syncfusion.SfPicker.XForms.dll</HintPath>
     </Reference>
+    <Reference Include="Xamarin.Essentials">
+      <HintPath>..\packages\Xamarin.Essentials.0.6.0-preview\lib\monoandroid71\Xamarin.Essentials.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MeditSolution\MeditSolution.csproj">
@@ -250,6 +255,7 @@
     <Compile Include="Renderers\ViewExtensions.cs" />
     <Compile Include="Renderers\RoundedBoxRenderer.cs" />
     <Compile Include="Renderers\ScrollViewRender.cs" />
+    <Compile Include="Effects\BorderlessRenderEffect.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -374,6 +380,39 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\rappels.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\settings.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\statyoga.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\check.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\checkcta.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\femme.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\fr.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\homme.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\pause.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\playbig.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\playO.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\stones.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\uk.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\unlock.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\check.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\checkcta.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\femme.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\fr.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\homme.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\pause.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\playbig.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\playO.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\stones.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\uk.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\unlock.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\check.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\checkcta.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\femme.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\fr.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\homme.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\pause.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\playbig.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\playO.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\stones.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\uk.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\unlock.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Renderers\" />

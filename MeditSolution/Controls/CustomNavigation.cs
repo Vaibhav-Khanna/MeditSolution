@@ -65,22 +65,22 @@ namespace MeditSolution.Controls
         public System.Threading.Tasks.Task PushPage(Xamarin.Forms.Page page, FreshBasePageModel model, bool modal = false, bool animate = true)
         {
             if (modal)
-				return this.CurrentPage.Navigation.PushModalAsync(CreateContainerPageSafe(page));
+				return this.CurrentPage.Navigation.PushModalAsync(CreateContainerPageSafe(page),Device.RuntimePlatform == Device.iOS);
            
-			return this.CurrentPage.Navigation.PushAsync(page);
+			return this.Navigation.PushAsync(page);
         }
 
         public System.Threading.Tasks.Task PopPage(bool modal = false, bool animate = true)
         {
             if (modal)
-                return this.CurrentPage.Navigation.PopModalAsync(animate);
+				return this.CurrentPage.Navigation.PopModalAsync(Device.RuntimePlatform == Device.iOS);
 			
-			return this.CurrentPage.Navigation.PopAsync(animate);
+			return this.Navigation.PopAsync(animate);
         }
 
         public Task PopToRoot(bool animate = true)
         {
-			return this.CurrentPage.Navigation.PopToRootAsync(animate);
+			return this.Navigation.PopToRootAsync(animate);
         }
 
         public string NavigationServiceName { get; private set; }
