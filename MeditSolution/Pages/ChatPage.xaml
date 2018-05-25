@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:base="clr-namespace:MeditSolution.Pages;assembly=MeditSolution"
+    xmlns:converter="clr-namespace:MeditSolution.Converter;assembly=MeditSolution"
+    xmlns:controls="clr-namespace:MeditSolution.Controls;assembly=MeditSolution"
+    xmlns:effect="clr-namespace:MeditSolution.Effects;assembly=MeditSolution"
+    xmlns:cells="clr-namespace:MeditSolution.Views.Cells;assembly=MeditSolution"
+    xmlns:selector="clr-namespace:MeditSolution.Views.Templates;assembly=MeditSolution"
+    xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms" 
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    x:Class="MeditSolution.Pages.ChatPage">
+    <base:BasePage.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:Key="botTemplate">
+                <cells:ChatBotCell />
+            </DataTemplate>
+            <DataTemplate x:Key="personTemplate">
+                <cells:PersonCell />
+            </DataTemplate>
+            <selector:ChatBotTemplateSelector x:Key="DataTemplateSelector"
+                BotTemplate="{StaticResource botTemplate}"
+                PersonTemplate="{StaticResource personTemplate}" />
+        </ResourceDictionary>
+    </base:BasePage.Resources>
+
+    <base:BasePage.Content>
+        <StackLayout BackgroundColor="White" Orientation="Vertical" VerticalOptions="FillAndExpand">
+
+            <StackLayout Spacing="5" HorizontalOptions="End" Orientation="Horizontal" >
+                <StackLayout.Padding>
+                    <OnPlatform x:TypeArguments="Thickness" Android="5,15,15,10" iOS="5,10,15,5"/>
+                </StackLayout.Padding>
+                <Label Text="Passer" HorizontalOptions="End" TextColor="{StaticResource primary}" FontAttributes="Bold" FontFamily="SFUIText-Semibold" FontSize="18" />
+                <Image Source="arrowRight.png" WidthRequest="25" HeightRequest="25" VerticalOptions="CenterAndExpand" />
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding SkipCommand}" />
+                </StackLayout.GestureRecognizers>
+            </StackLayout>
+            
+            <ListView ItemsSource="{Binding ItemSource}" CachingStrategy="RetainElement" HasUnevenRows="true" VerticalOptions="FillAndExpand" SeparatorVisibility="None" ItemTemplate="{StaticResource DataTemplateSelector}" >
+                <ListView.Footer>
+                    <forms:AnimationView 
+                        Animation="animation3.json"
+                        WidthRequest="100"
+                        HeightRequest="70"
+                        IsVisible="{Binding ShowTypingAnimation}"
+                        Loop="true" 
+                        AutoPlay="true"
+                        VerticalOptions="Start"               
+                        HorizontalOptions="Start" />
+                </ListView.Footer>
+            </ListView>
+
+        </StackLayout>
+    </base:BasePage.Content>
+</base:BasePage>

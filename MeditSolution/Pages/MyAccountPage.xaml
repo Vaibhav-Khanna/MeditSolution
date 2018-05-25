@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:base="clr-namespace:MeditSolution.Pages;assembly=MeditSolution"
+    x:Class="MeditSolution.Pages.MyAccountPage"
+    Title="Mon compte">
+    <base:BasePage.ToolbarItems>
+        <ToolbarItem Text="Modifier" Command="{Binding ModifyCommand}" />
+    </base:BasePage.ToolbarItems>
+    <base:BasePage.Content>
+        <StackLayout Spacing="14" Padding="15" Orientation="Vertical" VerticalOptions="FillAndExpand">
+            <Image Source="congrats.png" Margin="0,0,0,30" HeightRequest="129" WidthRequest="129" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" />
+            <Label Text="Évolution 2" VerticalOptions="End" FontFamily="SFUIText-Bold" FontSize="14" FontAttributes="Bold" TextColor="#4A4A4A" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+            <Label Text="john.doe@gmail.com" VerticalOptions="Start" FontFamily="SFUIText-Light" FontSize="24" TextColor="#4A4A4A" HorizontalOptions="Center"  HorizontalTextAlignment="Center" />
+            <Label Text="********" VerticalOptions="StartAndExpand" FontFamily="SFUIText-Light" FontSize="24" TextColor="#4A4A4A" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+        </StackLayout>
+    </base:BasePage.Content>
+</base:BasePage>

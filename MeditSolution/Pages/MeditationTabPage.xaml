@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MeditSolution.Pages.MeditationTabPage"
+    xmlns:base="clr-namespace:MeditSolution.Pages;assembly=MeditSolution"
+    xmlns:views="clr-namespace:MeditSolution.Views.Cells;assembly=MeditSolution"
+    xmlns:converter="clr-namespace:MeditSolution.Converter;assembly=MeditSolution"
+    xmlns:selector="clr-namespace:MeditSolution.Views.Templates;assembly=MeditSolution"
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    Title="Meditation">
+    <base:BasePage.Resources>
+    <ResourceDictionary>
+            <DataTemplate x:Key="line">
+                 <views:ConnectingCell />
+            </DataTemplate>
+            <DataTemplate x:Key="Box">
+                <views:MeditationCell />
+            </DataTemplate>
+            <selector:MeditationCellSelector x:Key="DataTemplateSelector"
+                ConnectingLine="{StaticResource line}"
+                RoundedView="{StaticResource Box}" />
+        </ResourceDictionary>
+    </base:BasePage.Resources>
+    <base:BasePage.Content>
+        <Grid VerticalOptions="FillAndExpand">
+
+            <ListView x:Name="list" ItemTemplate="{StaticResource DataTemplateSelector}" Rotation="180" IsVisible="{Binding IsEmpty,Converter={converter:BooleanNegateConverter}}" ItemsSource="{Binding Seances}" ItemTapped="Handle_ItemTapped" CachingStrategy="RetainElement" HasUnevenRows="true" SeparatorVisibility="None" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" >
+               
+                <ListView.Header>
+                    <StackLayout Rotation="180" x:Name="footer" Spacing="0" VerticalOptions="End" Padding="20,0,20,20" Orientation="Vertical">
+                        <BoxView WidthRequest="1" Color="{Binding Tint}" HorizontalOptions="Center" HeightRequest="20" VerticalOptions="Start" />
+                        <Image Source="{Binding MeditationIcon}" WidthRequest="60" HeightRequest="60" HorizontalOptions="Center" Margin="0,0,0,20" />
+                        <Label Text="{Binding Meditation}" Margin="0,0,0,5" FontFamily="Merienda-Bold" FontAttributes="Bold" FontSize="24" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" TextColor="#656565" />
+                        <Label Text="{Binding MeditationDetail}" FontFamily="SFUIText-Light" FontSize="16" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" TextColor="#656565" />
+                    </StackLayout>
+                </ListView.Header>
+                
+            </ListView>
+
+            
+        <StackLayout IsVisible="{Binding IsEmpty}" Spacing="20" Padding="25,0,25,0" Orientation="Vertical" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" >
+            <ffimageloading:CachedImage HeightRequest="81" WidthRequest="86" HorizontalOptions="Center" DownsampleToViewSize="true" Source="iconempty.png" />
+            <Label Text="Vous n’avez aucune méditation en cours" TextColor="{StaticResource textLight}" FontSize="16" FontFamily="SFUIText-Regular" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" Margin="20,10,20,30" />
+            <Button Text="Démarrer l’initiation" Command="{Binding StartCommand}" TextColor="White" FontFamily="SFUIText-Semibold" FontAttributes="Bold" FontSize="18" HorizontalOptions="FillAndExpand" BackgroundColor="{StaticResource primary}" >
+                 <Button.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double" Android="60" iOS="50" />
+                </Button.HeightRequest>
+                <Button.BorderRadius>
+                    <OnPlatform x:TypeArguments="x:Int32" Android="30" iOS="25" />
+                </Button.BorderRadius>
+            </Button>
+        </StackLayout>
+
+       </Grid>
+    </base:BasePage.Content>
+</base:BasePage>

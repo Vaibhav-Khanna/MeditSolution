@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:converter="clr-namespace:MeditSolution.Converter;assembly=MeditSolution"
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    x:Class="MeditSolution.Views.Cells.PersonCell">
+    <Grid ColumnSpacing="10" RowSpacing="20" Padding="15,7,15,7">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="35" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+        
+        <ffimageloading:CachedImage DownsampleToViewSize="true" BitmapOptimizations="true" Source="vector4.png" VerticalOptions="Start" WidthRequest="35" HeightRequest="35" Aspect="AspectFit" Grid.Row="0" Grid.Column="0" />
+        <Frame Grid.Column="1" Padding="10,10,10,10" Grid.Row="0" CornerRadius="14" BackgroundColor="#efefef" HasShadow="false">
+            <Label Text="{Binding Question}" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="#4a4a4a" FontFamily="SFUIText-Regular" FontSize="15" LineBreakMode="WordWrap" />
+        </Frame>
+
+        <StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" VerticalOptions="Start" HorizontalOptions="FillAndExpand" Orientation="Horizontal" Spacing="15">
+
+            <Button Text="{Binding PositiveOption,Converter={converter:ButtonAddSpaceConverter}}" x:Name="bt_yes" Command="{Binding AnswerCommand}" CommandParameter="{Binding PositiveOption}" Clicked="Handle_Clicked" HorizontalOptions="EndAndExpand" BorderWidth="1" BackgroundColor="White" BorderColor="{StaticResource primary}" TextColor="{StaticResource primary}" FontSize="15">
+                <Button.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double" Android="50" iOS="40" />
+                </Button.HeightRequest>
+                <Button.BorderRadius>
+                    <OnPlatform x:TypeArguments="x:Int32" Android="25" iOS="20" />
+                </Button.BorderRadius>
+            </Button>
+
+            <Button Text="{Binding NegativeOption,Converter={converter:ButtonAddSpaceConverter}}" x:Name="bt_no" Clicked="Handle_Clicked_1"  Command="{Binding AnswerCommand}" CommandParameter="{Binding NegativeOption}" HorizontalOptions="End"  BorderWidth="1" BackgroundColor="White" BorderColor="{StaticResource primary}" TextColor="{StaticResource primary}" FontSize="15">
+                <Button.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double" Android="50" iOS="40" />
+                </Button.HeightRequest>
+                  <Button.BorderRadius>
+                    <OnPlatform x:TypeArguments="x:Int32" Android="25" iOS="20" />
+                </Button.BorderRadius>
+            </Button>
+
+        </StackLayout>
+
+        <Grid.GestureRecognizers>
+            <TapGestureRecognizer />
+        </Grid.GestureRecognizers>
+
+    </Grid>
+</ViewCell>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:base="clr-namespace:MeditSolution.Pages;assembly=MeditSolution"
+    xmlns:converter="clr-namespace:MeditSolution.Converter;assembly=MeditSolution"
+    xmlns:controls="clr-namespace:MeditSolution.Controls;assembly=MeditSolution"
+    xmlns:effect="clr-namespace:MeditSolution.Effects;assembly=MeditSolution"
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    x:Class="MeditSolution.Pages.LoginPage">
+    <base:BasePage.Content>
+        <ScrollView BackgroundColor="White" Orientation="Vertical" VerticalOptions="FillAndExpand">
+            <StackLayout Padding="20" Orientation="Vertical" VerticalOptions="FillAndExpand" >
+
+                <StackLayout Padding="5">
+                    <Image Source="close.png" HorizontalOptions="End" VerticalOptions="Start" WidthRequest="20" HeightRequest="20" Aspect="AspectFit" />
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding CloseCommand}" />
+                    </StackLayout.GestureRecognizers>
+                </StackLayout>
+                    
+                <Label Text="{Binding Title}" FontSize="24" FontFamily="SFUIText-Light" TextColor="#4a4a4a" HorizontalOptions="FillAndExpand" Margin="0,30,0,40" HorizontalTextAlignment="Center" />
+
+                <StackLayout Spacing="10" VerticalOptions="Start">
+                    <Entry IsEnabled="{Binding IsLoading}"  Text="{Binding Email,Mode=OneWayToSource}" PlaceholderColor="#9dacb6" FontSize="14" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Light" Keyboard="Email" TextColor="Gray" Placeholder="Entrez votre email" HeightRequest="45" >
+                        <Entry.Effects>
+                            <effect:BorderEntryEffect/>
+                        </Entry.Effects>
+                    </Entry>
+                    <Entry IsEnabled="{Binding IsLoading}"  Text="{Binding Password,Mode=OneWayToSource}" PlaceholderColor="#9dacb6" FontSize="14" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Light" IsPassword="true" TextColor="Gray" Placeholder="Entrez votre mot de passe" HeightRequest="45" >
+                         <Entry.Effects>
+                            <effect:BorderEntryEffect/>
+                        </Entry.Effects>
+                    </Entry>
+                    <Entry IsVisible="{Binding IsSignUp}"  IsEnabled="{Binding IsLoading}" Text="{Binding ConfirmPassword,Mode=OneWayToSource}" PlaceholderColor="#9dacb6" FontSize="14" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Light" IsPassword="true" TextColor="Gray" Placeholder="Confirmer votre mot de passe" HeightRequest="45" >
+                         <Entry.Effects>
+                            <effect:BorderEntryEffect/>
+                        </Entry.Effects>
+                    </Entry>
+                    <Label IsVisible="{Binding IsSignUp,Converter={converter:BooleanNegateConverter}}" Text="Mot de passe oublié" TextColor="#4a4a4a" FontSize="14" FontFamily="SFUIText-Light" Margin="0,10,0,0" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" />
+                </StackLayout>
+
+                <StackLayout Margin="0,30,0,0" VerticalOptions="Start">
+
+                    <Button VerticalOptions="StartAndExpand" Command="{Binding LoginCommand}" FontFamily="SFUIText-Semibold" FontSize="18" FontAttributes="Bold" TextColor="White" BackgroundColor="{Binding ButtonColor}" BorderColor="{Binding ButtonColor}" HorizontalOptions="FillAndExpand" Text="{Binding ButtonText}" >
+                        <Button.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double" Android="60" iOS="50" />
+                </Button.HeightRequest>
+                <Button.BorderRadius>
+                    <OnPlatform x:TypeArguments="x:Int32" Android="30" iOS="25" />
+                </Button.BorderRadius>>
+                    </Button>
+
+                    <Label Text="Ou" Margin="0,20,0,20" TextColor="#9b9b9b" FontSize="16" FontFamily="SFUIText-Semibold" FontAttributes="Bold" HorizontalOptions="Center"/>
+                    
+                    <controls:FaceBookLoginButton x:Name="bt_fb" Image="facebook.png" VerticalOptions="StartAndExpand" FontFamily="SFUIText-Semibold" FontSize="18" FontAttributes="Bold" TextColor="White" BackgroundColor="#3b5998" BorderColor="#3b5998" HorizontalOptions="FillAndExpand" Text="Se connecter avec Facebook"  >
+                        <controls:FaceBookLoginButton.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double" Android="60" iOS="50" />
+                </controls:FaceBookLoginButton.HeightRequest>
+                <controls:FaceBookLoginButton.BorderRadius>
+                    <OnPlatform x:TypeArguments="x:Int32" Android="30" iOS="25" />
+                   </controls:FaceBookLoginButton.BorderRadius>
+                    </controls:FaceBookLoginButton>
+                   
+                </StackLayout>
+               
+            </StackLayout> 
+       </ScrollView>
+    </base:BasePage.Content>
+</base:BasePage>

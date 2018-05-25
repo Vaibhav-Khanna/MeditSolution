@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:base="clr-namespace:MeditSolution.Pages;assembly=MeditSolution"
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    x:Class="MeditSolution.Pages.VideosPage"
+    Title="Videos">
+    <base:BasePage.Content>
+        
+        <StackLayout VerticalOptions="FillAndExpand" Orientation="Vertical">
+            <ListView x:Name="list" ItemsSource="{Binding Videos}" ItemTapped="Handle_ItemTapped" CachingStrategy="RecycleElement" HasUnevenRows="true" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="18,15,18,15" ColumnSpacing="17" >                               
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="104"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <ffimageloading:CachedImage Source="{Binding Image}" Aspect="AspectFill" Grid.Column="0" HeightRequest="68" BitmapOptimizations="true" DownsampleToViewSize="true" BackgroundColor="Silver" />
+                                <Image Source="playO.png" HeightRequest="24" WidthRequest="24" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" />
+                                <StackLayout Spacing="3" Grid.Column="1" Padding="0,12,10,12" Orientation="Vertical">
+                                    <Label Text="{Binding Title}" FontFamily="SFUIText-Medium" FontSize="16" TextColor="Black" />
+                                    <Label Text="{Binding Duration}" FontSize="14" TextColor="#9b9b9b" />
+                                </StackLayout>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                <ListView.Footer>
+                    <BoxView HeightRequest="2" Color="Transparent" />
+                </ListView.Footer>
+            </ListView>
+        </StackLayout>
+    </base:BasePage.Content>
+</base:BasePage>

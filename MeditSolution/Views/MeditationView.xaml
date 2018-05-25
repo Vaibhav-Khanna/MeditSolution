@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:control="clr-namespace:ProgressRingControl.Forms.Plugin;assembly=ProgressRing.Forms.Plugin"
+    xmlns:controls="clr-namespace:MeditSolution.Controls;assembly=MeditSolution"
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    x:Class="MeditSolution.Views.MeditationView">
+    <ContentView.Content>
+
+        <Grid RowSpacing="20" VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Label Text="{Binding HeaderText}" TranslationY="-20" Grid.Row="0" FontFamily="SFUIText-Bold" FontAttributes="Bold" FontSize="18" TextColor="{StaticResource primary}" VerticalOptions="End" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+            
+            <Grid Grid.Row="1">
+              
+            <control:ProgressRing WidthRequest="200" HeightRequest="200" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" RingBaseColor="#91f0db" RingProgressColor="#45d1b2" RingThickness="10" Progress="{Binding Progress}" />
+            <controls:RoundedBoxView x:Name="boxView" HeightRequest="160" WidthRequest="160" BackgroundColor="#91f0db" CornerRadius="80" BorderThickness="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" BorderColor="#91f0db" >
+                <controls:RoundedBoxView.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding PlayPauseCommand}" Tapped="Handle_Tapped" />
+                </controls:RoundedBoxView.GestureRecognizers>
+            </controls:RoundedBoxView> 
+            <ffimageloading:CachedImage x:Name="image" InputTransparent="true" Source="{Binding Image}" WidthRequest="55" HeightRequest="64" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+
+            </Grid>
+                
+            <Label Text="{Binding TimerText}" Grid.Row="2" FontFamily="SFUIText-Regular" FontSize="18" TextColor="{StaticResource primary}" VerticalOptions="Start" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+        </Grid>
+        
+    </ContentView.Content>
+</ContentView>

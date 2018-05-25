@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:base="clr-namespace:MeditSolution.Pages;assembly=MeditSolution"
+    xmlns:controls="clr-namespace:MeditSolution.Controls;assembly=MeditSolution"
+    x:Class="MeditSolution.Pages.MeditationBreathePage"
+    Title="Cohérence cardiaque">
+    <base:BasePage.Content>
+
+        <Grid Padding="20,0,20,0" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="90"/>
+            </Grid.RowDefinitions>
+
+            <StackLayout Padding="0,40,0,0" Orientation="Vertical" Grid.Row="0" VerticalOptions="FillAndExpand" >
+
+                <Label Text="Durée des cycles en secondes" FontFamily="SFUIText-Medium" FontAttributes="Bold" FontSize="16" TextColor="#4A4A4A" HorizontalTextAlignment="Start" />
+
+                <ScrollView HorizontalOptions="FillAndExpand" Margin="0,16,0,0" Padding="0" Orientation="Horizontal">
+                <StackLayout  HorizontalOptions="CenterAndExpand" Spacing="20" Orientation="Horizontal">
+                    <Button x:Name="bt1" Text="6" Clicked="Handle_Clicked" FontFamily="SFUIText-Regular" FontSize="16" TextColor="{StaticResource white}" HeightRequest="48" WidthRequest="48" BorderRadius="24" BorderWidth="1" BorderColor="{StaticResource primary}" BackgroundColor="{StaticResource primary}" />
+                    <Button x:Name="bt2" Text="8" Clicked="Handle_Clicked" FontFamily="SFUIText-Regular" FontSize="16" TextColor="#9b9b9b" HeightRequest="48" WidthRequest="48" BorderRadius="24" BorderWidth="1" BorderColor="#9b9b9b" BackgroundColor="White" />
+                    <Button x:Name="bt3" Text="10" Clicked="Handle_Clicked" FontFamily="SFUIText-Regular" FontSize="16" TextColor="#9b9b9b" HeightRequest="48" WidthRequest="48" BorderRadius="24" BorderWidth="1" BorderColor="#9b9b9b" BackgroundColor="White" />
+                    <Button x:Name="bt4" Text="12" Clicked="Handle_Clicked" FontFamily="SFUIText-Regular" FontSize="16" TextColor="#9b9b9b" HeightRequest="48" WidthRequest="48" BorderRadius="24" BorderWidth="1" BorderColor="#9b9b9b" BackgroundColor="White" />
+                    <Button x:Name="bt5" Text="14" Clicked="Handle_Clicked" FontFamily="SFUIText-Regular" FontSize="16" TextColor="#9b9b9b" HeightRequest="48" WidthRequest="48" BorderRadius="24" BorderWidth="1" BorderColor="#9b9b9b" BackgroundColor="White" />
+                </StackLayout>
+                </ScrollView>
+                
+                <Label Text="Durée de la séance" Margin="0,70,0,20" FontAttributes="Bold"  FontFamily="SFUIText-Medium"  FontSize="16"  TextColor="#4A4A4A" HorizontalTextAlignment="Start" />
+
+                <Label Text="{Binding Time}" VerticalOptions="Start" HorizontalOptions="Center" FontFamily="SFUIText-Light" FontSize="72" TextColor="#656565" HorizontalTextAlignment="Center" >
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Handle_Tapped" />
+                    </Label.GestureRecognizers>
+                </Label>
+
+                <controls:CustomTimePicker x:Name="picker" ColumnHeaderHeight="40" PickerWidth="300" HorizontalOptions="Center" PickerMode="Dialog" SelectedItem="{Binding SelectedTime,Mode=OneWayToSource}" VerticalOptions="Start" PickerHeight="400" />
+
+                
+            </StackLayout>
+
+             <Button x:Name="s" Text="Démarrer" Grid.Row="1" VerticalOptions="Start" Command="{Binding StartCommand}" FontAttributes="Bold" FontSize="18" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Bold" TextColor="{StaticResource white}" BorderColor="{StaticResource primary}" BackgroundColor="{StaticResource primary}" BorderWidth="1" >
+                <Button.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double" Android="60" iOS="50" />
+                </Button.HeightRequest>
+                <Button.BorderRadius>
+                    <OnPlatform x:TypeArguments="x:Int32" Android="30" iOS="25" />
+                </Button.BorderRadius>
+            </Button>
+            
+        </Grid>
+        
+    </base:BasePage.Content>
+</base:BasePage>

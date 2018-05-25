@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:effects="clr-namespace:MeditSolution.Effects;assembly=MeditSolution"
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    x:Class="MeditSolution.Views.TutorialView">
+    <ContentView.Content>
+        <StackLayout VerticalOptions="FillAndExpand" Padding="0,0,0,20" Spacing="20">
+            <ffimageloading:CachedImage Source="{Binding Image}" Aspect="AspectFit" DownsampleToViewSize="true" BitmapOptimizations="true" LoadingPriority="High" FadeAnimationEnabled="false"  VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" WidthRequest="220" />
+            <Label Text="{Binding Text}" TextColor="{StaticResource textDark}" FontSize="16" FontFamily="SFUIText-Regular" Margin="20,0,20,0" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" HorizontalTextAlignment="Center" />
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    x:Class="MeditSolution.Views.TabView">
+    <ContentView.Content>
+        <StackLayout Orientation="Vertical">
+
+            <flv:FlowListView FlowColumnCount="{Binding ColoumnCount}" SeparatorVisibility="None" HasUnevenRows="true"
+                              FlowItemTappedCommand="{Binding MeditationSelected}"
+                              FlowItemsSource="{Binding Meditations}" >
+
+                <flv:FlowListView.FlowColumnTemplate>
+                    <DataTemplate>
+                       <StackLayout Padding="0,30,0,30" HorizontalOptions="CenterAndExpand" Orientation="Vertical" Spacing="5">
+                            <ffimageloading:CachedImage Source="{Binding Image}" DownsampleToViewSize="true" BitmapOptimizations="true" FadeAnimationEnabled="true" HeightRequest="74" WidthRequest="74" HorizontalOptions="Center" VerticalOptions="Start"/>
+                            <Label Text="{Binding Title}" TextColor="{Binding Tint}" FontAttributes="Bold" FontFamily="SFUIText-Semibold" FontSize="16" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+                            <Label Text="{Binding SubTitle}" TextColor="#9b9b9b" FontSize="14" FontFamily="SFUIText-Light" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+                        </StackLayout>
+                    </DataTemplate>
+                </flv:FlowListView.FlowColumnTemplate> 
+
+            </flv:FlowListView>
+
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>
