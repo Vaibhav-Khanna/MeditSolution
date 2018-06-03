@@ -4,6 +4,8 @@ using Xamarin.Forms;
 using MeditSolution.Service;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
+using MeditSolution.Helpers;
+using MeditSolution.Resources;
 
 namespace MeditSolution.PageModels
 {
@@ -17,34 +19,35 @@ namespace MeditSolution.PageModels
 		public string Description { get; set; }
 
 
-		public override void Init(object initData)
+		public async override void Init(object initData)
 		{
 			base.Init(initData);
 
 			if (initData is TabMeditationModel)
 			{
 				TabMeditationModel = ((TabMeditationModel)initData);
-
-				if (Device.RuntimePlatform == Device.iOS)
-				{
-					Header = TabMeditationModel.Title;
-					Description = TabMeditationModel.SubTitle;
-					CoverPicture = TabMeditationModel.Image;
-				}
-
-				ChangeNavigationBackgroundColor(Color.FromHex(TabMeditationModel.Tint.Substring(1)));
                 
+				Header = TabMeditationModel.Title;
+				Description = Settings.DeviceLanguage == "English" ? TabMeditationModel.Program.Description_EN : TabMeditationModel.Program.Description;
+				CoverPicture = TabMeditationModel.Program.Cover;
+                
+				ChangeNavigationBackgroundColor(Color.FromHex(TabMeditationModel.Tint.Substring(1)));
+
+				IsLoading = true;
+
 				Programs = new ObservableCollection<CatalogueProgramModel>();
 
-				Programs.Add(new CatalogueProgramModel(TabMeditationModel.Tint) { IsEnabled = true });
-				Programs.Add(new CatalogueProgramModel(TabMeditationModel.Tint) { });
-				Programs.Add(new CatalogueProgramModel(TabMeditationModel.Tint) { });
-				Programs.Add(new CatalogueProgramModel(TabMeditationModel.Tint) { });
-				Programs.Add(new CatalogueProgramModel(TabMeditationModel.Tint) { });
-				Programs.Add(new CatalogueProgramModel(TabMeditationModel.Tint) { });
-				Programs.Add(new CatalogueProgramModel(TabMeditationModel.Tint) { });
-				Programs.Add(new CatalogueProgramModel(TabMeditationModel.Tint) { });
+				var meditations = await StoreManager.MeditationStore.GetMeditationsByProgramId(TabMeditationModel.Program.Id);
 
+				if (meditations != null)
+					foreach (var item in meditations)
+					{
+						Programs.Add(new CatalogueProgramModel(TabMeditationModel, item));
+					}
+				else
+					await ToastService.Show(AppResources.requestfailed);
+
+				IsLoading = false;
 			}
 		}
 
@@ -66,7 +69,7 @@ namespace MeditSolution.PageModels
 		{
 			var model = obj as CatalogueProgramModel;
 
-			model.IsEnabled = !model.IsEnabled;
+			//model.IsEnabled = !model.IsEnabled;
 		});
 
 	}

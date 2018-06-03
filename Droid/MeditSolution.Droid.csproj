@@ -421,6 +421,24 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\stones.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\uk.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\unlock.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\level_1.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\level_2.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\level_3.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\level_4.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\level_5.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\level_6.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\level_1.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\level_2.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\level_3.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\level_4.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\level_5.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\level_6.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\level_1.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\level_2.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\level_3.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\level_4.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\level_5.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\level_6.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Renderers\" />

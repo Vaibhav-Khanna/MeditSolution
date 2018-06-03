@@ -1,5 +1,6 @@
 ﻿using System;
 using Xamarin.Forms;
+using MeditSolution.Resources;
 
 namespace MeditSolution.PageModels
 {
@@ -7,7 +8,7 @@ namespace MeditSolution.PageModels
     {
 		public double Progress { get; set; }
         public string TimerText { get; set; } = "00:00";
-		public string HeaderText { get; set; } = "Méditation silencieuse";
+		public string HeaderText { get; set; } = AppResources.silentmeditation;
 
 
 		public override void Init(object initData)

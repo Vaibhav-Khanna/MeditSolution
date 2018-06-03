@@ -4,12 +4,15 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:base="clr-namespace:MeditSolution.Pages;assembly=MeditSolution"
     xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms" 
     x:Class="MeditSolution.Pages.VideosPage"
-    Title="Videos">
+    xmlns:resources="clr-namespace:MeditSolution"
+    Title="{resources:Translate videos}">
     <base:BasePage.Content>
         
         <StackLayout VerticalOptions="FillAndExpand" Orientation="Vertical">
-            <ListView x:Name="list" ItemsSource="{Binding Videos}" ItemTapped="Handle_ItemTapped" CachingStrategy="RecycleElement" HasUnevenRows="true" >
+
+            <ListView x:Name="list" IsVisible="{Binding IsLoading,Converter={StaticResource BoolNegate}}" ItemsSource="{Binding Videos}" ItemTapped="Handle_ItemTapped" CachingStrategy="RecycleElement" HasUnevenRows="true" >
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
@@ -32,6 +35,20 @@
                     <BoxView HeightRequest="2" Color="Transparent" />
                 </ListView.Footer>
             </ListView>
+
+            <forms:AnimationView 
+    x:Name="animationView" 
+    Animation="animation3.json" 
+    Loop="true"
+    IsVisible="{Binding IsLoading}"
+    Scale="1.8"
+    AutoPlay="true" 
+    HeightRequest="80"
+    Margin="0"
+    WidthRequest="80"
+    HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+            />
+            
         </StackLayout>
     </base:BasePage.Content>
 </base:BasePage>

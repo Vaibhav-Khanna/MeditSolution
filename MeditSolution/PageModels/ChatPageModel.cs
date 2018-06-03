@@ -5,6 +5,7 @@ using System.Linq;
 using Xamarin.Forms;
 using System.Threading.Tasks;
 using MeditSolution.Models;
+using MeditSolution.Resources;
 
 namespace MeditSolution.PageModels
 {
@@ -23,9 +24,9 @@ namespace MeditSolution.PageModels
 			ItemSource = new ObservableCollection<ChatModel>();
 
 			QuestionBank.Add(new ChatModel(this) { Question = "Bonjour et bienvenue sur Medit’Solutions. Je serais votre assistante tout au long de vos méditations.", IsQuestion = false });
-			QuestionBank.Add(new ChatModel(this) { Question = "Connaissez-vous les bienfaits de la méditation ?", IsQuestion = true, PositiveOption = "Oui", NegativeOption = "Non" });
-			QuestionBank.Add(new ChatModel(this) { Question = "Êtes-vous un pratiquant régulier ?", IsQuestion = true, PositiveOption = "Oui", NegativeOption = "Non" });
-			QuestionBank.Add(new ChatModel(this) { Question = "Alors je vous propose de découvrir l’éventail des méditations de Medit’Solutions", IsQuestion = true, PositiveOption = "C’est parti !", NegativeOption = "Non merci" });
+			QuestionBank.Add(new ChatModel(this) { Question = "Connaissez-vous les bienfaits de la méditation ?", IsQuestion = true, PositiveOption = AppResources.yes, NegativeOption = AppResources.no });
+			QuestionBank.Add(new ChatModel(this) { Question = "Êtes-vous un pratiquant régulier ?", IsQuestion = true, PositiveOption = AppResources.yes, NegativeOption = AppResources.no });
+			QuestionBank.Add(new ChatModel(this) { Question = "Alors je vous propose de découvrir l’éventail des méditations de Medit’Solutions", IsQuestion = true, PositiveOption = AppResources.letsgo, NegativeOption = AppResources.nothanks });
 
 			ProcessQuestions();
 		}
@@ -43,9 +44,9 @@ namespace MeditSolution.PageModels
 
         public Command QuestionAnswered => new Command((question) =>
         {
-            if((question as ChatModel).NegativeOption == "Non merci" && !(bool)(question as ChatModel).AnswerIsPositive)
+			if((question as ChatModel).NegativeOption == AppResources.nothanks && !(bool)(question as ChatModel).AnswerIsPositive)
             {
-                QuestionBank.Add(new ChatModel(this) { Question = "Je peux vous aider a être plus assidu dans votre pratique ", IsQuestion = true, PositiveOption = "Oui", NegativeOption = "Non" }); 
+				QuestionBank.Add(new ChatModel(this) { Question = "Je peux vous aider a être plus assidu dans votre pratique ", IsQuestion = true, PositiveOption = AppResources.yes, NegativeOption = AppResources.no }); 
             }
 
             ProcessQuestions();

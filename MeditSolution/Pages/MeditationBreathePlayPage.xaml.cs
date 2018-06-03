@@ -24,7 +24,13 @@ namespace MeditSolution.Pages
             InitializeComponent();
         }
 
-        protected override void OnBindingContextChanged()
+		protected override bool OnBackButtonPressed()
+		{
+			(BindingContext as MeditationBreathePlayPageModel).CloseCommand.Execute(null);
+			return true;
+		}
+
+		protected override void OnBindingContextChanged()
         {
             base.OnBindingContextChanged();
 

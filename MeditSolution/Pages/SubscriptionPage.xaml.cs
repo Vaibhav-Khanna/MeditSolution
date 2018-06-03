@@ -4,6 +4,7 @@ using MeditSolution.PageModels;
 using SkiaSharp;
 
 using Xamarin.Forms;
+using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 
 namespace MeditSolution.Pages
 {
@@ -13,6 +14,7 @@ namespace MeditSolution.Pages
         {
             InitializeComponent();
 
+            On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);
         }
        
 		void Handle_PaintSurfaceL(object sender, SkiaSharp.Views.Forms.SKPaintSurfaceEventArgs e)
@@ -35,7 +37,7 @@ namespace MeditSolution.Pages
 			canvasViewL.HeightRequest = info.Width/2;
 			else
 			{
-				canvasViewL.HeightRequest = (info.Width / 3);
+				canvasViewL.HeightRequest = (info.Width / 2);
 			}
 		}
 
@@ -59,7 +61,7 @@ namespace MeditSolution.Pages
                 canvasViewR.HeightRequest = info.Width / 2;
             else
             {
-				canvasViewR.HeightRequest = (info.Width / 3);
+				canvasViewR.HeightRequest = (info.Width / 2);
             }
 		}
 

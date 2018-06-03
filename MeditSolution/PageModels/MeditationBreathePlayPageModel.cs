@@ -1,12 +1,13 @@
 ﻿using System;
 using Xamarin.Forms;
+using MeditSolution.Resources;
 
 namespace MeditSolution.PageModels
 {
 	public class MeditationBreathePlayPageModel : BasePageModel
     {
 
-		public string HeaderText { get; set; } = "Cohérence cardiaque";
+		public string HeaderText { get; set; } = AppResources.coherentbreathing;
 		public string TimerText { get; set; } = "00:00";
 		public int CycleDuration { get; set; } = 8;
 		public int Duration { get; set; } = 1;
@@ -15,7 +16,6 @@ namespace MeditSolution.PageModels
 		{
 			base.Init(initData);            
 		}
-
 
 		public Command PlayPauseCommand => new Command(() =>
 		{

@@ -5,6 +5,7 @@
     xmlns:base="clr-namespace:MeditSolution.Pages;assembly=MeditSolution"
     xmlns:control="clr-namespace:ProgressRingControl.Forms.Plugin;assembly=ProgressRing.Forms.Plugin"
     xmlns:controls="clr-namespace:MeditSolution.Controls;assembly=MeditSolution"
+    xmlns:resources="clr-namespace:MeditSolution"
     x:Class="MeditSolution.Pages.MeditationBreathePlayPage">
     <base:BasePage.Content>
 

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using MeditSolution.PageModels;
 using Xamarin.Forms;
+using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 
 namespace MeditSolution.Pages
 {
@@ -10,7 +11,9 @@ namespace MeditSolution.Pages
     
 		public MeditationPlayPage()
 		{
-			InitializeComponent();
+            InitializeComponent();
+
+            On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);
 		}
         
 

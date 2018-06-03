@@ -2,6 +2,7 @@
 using Xamarin.Forms;
 using MeditSolution.Controls;
 using MeditSolution.Models;
+using MeditSolution.Helpers;
 
 namespace MeditSolution.PageModels
 {
@@ -11,20 +12,20 @@ namespace MeditSolution.PageModels
 		public string Video { get; set; }
 		public VideoModel Model { get; set; }
 
-		public override void Init(object initData)
+		public async override void Init(object initData)
 		{
 			base.Init(initData);
 
 			if (initData is VideoModel)
 			{
 				Model = ((VideoModel)initData);
-				Video = "https://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_1mb.mp4";
+				Video = Constants.RestUrl + "file/" + (Settings.DeviceLanguage == "English" ? Model.Video.Path_EN : Model.Video.Path);
 			}
 			else
 			{
-				Video = "https://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_1mb.mp4";
-			}
-           
+				var videoData = await StoreManager.VideoStore.GetWelcomeVideo();
+				Video = Constants.RestUrl + "file/" + (Settings.DeviceLanguage == "English" ? videoData.Path_EN : videoData.Path);
+			} 
 		}
         
         
@@ -32,7 +33,7 @@ namespace MeditSolution.PageModels
 		{
 			if (Model != null)
 			{
-				await CoreMethods.PopPageModel();
+				await CoreMethods.PopPageModel(true);
 			}
 			else
 			{

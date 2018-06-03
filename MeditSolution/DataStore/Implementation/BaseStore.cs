@@ -14,45 +14,60 @@ namespace MeditSolution.DataStore.Implementation
 {
 	public class BaseStore<T> : IBaseStore<T> where T : BaseDataObject
     {
-		private readonly HttpClient client;
-        private readonly string Type;
-        private static string Auth => string.Concat("token=", Settings.Token);
+		protected readonly HttpClient client;
+		protected readonly string Type;
+		protected string Auth;
 
         public BaseStore()
         {
 			client = new HttpClient();
-			Type = typeof(T).Name;
+			Type = typeof(T).Name.ToLower() + "s";
+			Auth = string.Concat("token=", Settings.Token);
         }
 
 		public async Task<T> GetItemAsync(string id)
 		{
-			var uri = new Uri(Constants.RestUrl + Type + "/" + id + "?" + Auth);
-			var response = await client.GetAsync(uri);
-            var content = await response.Content.ReadAsStringAsync();
-
-			if (response.IsSuccessStatusCode)
+			try
 			{
-				var result = JsonConvert.DeserializeObject<T>(content);
-				return result;
+				var uri = new Uri(Constants.RestUrl + Type + "/" + id + "?" + Auth);
+				var response = await client.GetAsync(uri);
+				var content = await response.Content.ReadAsStringAsync();
+
+				if (response.IsSuccessStatusCode)
+				{
+					var result = JsonConvert.DeserializeObject<T>(content);
+					return result;
+				}
 			}
-			else
-				return null;
+			catch (Exception)
+			{
+
+			}
+
+			return null;
 		}
 
 		public async Task<IEnumerable<T>> GetItemsAsync()
 		{
-			var uri = new Uri(Constants.RestUrl + Type + "?" + Auth);
-
-			var response = await client.GetAsync(uri);
-            var content = await response.Content.ReadAsStringAsync();
-
-			if (response.IsSuccessStatusCode)
+			try
 			{
-				var items = JsonConvert.DeserializeObject<PaginationResponse<T>>(content);
-				return items.rows;
+				var uri = new Uri(Constants.RestUrl + Type + "?" + Auth);
+
+				var response = await client.GetAsync(uri);
+				var content = await response.Content.ReadAsStringAsync();
+
+				if (response.IsSuccessStatusCode)
+				{
+					var items = JsonConvert.DeserializeObject<PaginationResponse<T>>(content);
+					return items.rows;
+				}
 			}
-			else
-				return null;
+			catch (Exception)
+			{
+
+			}
+
+			return null;
 		}
 
 		public async Task<T> InsertAsync(T item)
@@ -74,6 +89,7 @@ namespace MeditSolution.DataStore.Implementation
             }
 			catch (Exception)
             { 
+				
             }
 
 			return null;

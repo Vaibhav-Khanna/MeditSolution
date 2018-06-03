@@ -1,10 +1,59 @@
 ﻿using System;
+using MeditSolution.Models.DataObjects;
+using MeditSolution.Helpers;
+using MeditSolution.Resources;
+using Xamarin.Forms;
+
 namespace MeditSolution.PageModels
 {
 	public class StatsTabPageModel : BasePageModel
     {
-        public StatsTabPageModel()
-        {
-        }
-    }
+		public string Name { get; set; } = " ";
+		public string Evolution { get; set; } = " ";
+		public string MeditationTime { get; set; } = "...";
+		public string CurrentMax { get; set; } = " ";
+		public string RecordMax { get; set; } = " ";
+		public string Icon { get; set; }
+		User user;
+              
+
+		protected async override void ViewIsAppearing(object sender, EventArgs e)
+		{
+			base.ViewIsAppearing(sender, e);
+
+			IsLoading = user == null;
+
+			var _user = await StoreManager.UserStore.GetCurrentUser();
+
+			if(_user==null)
+			{
+				await ToastService.Show(AppResources.requestfailed);
+				IsLoading = false;
+				return;
+			}
+
+			user = _user;
+
+			Name = $"{user.Firstname} {user.Lastname}";
+
+			if (Device.RuntimePlatform == Device.iOS)
+				Icon = "level" + (user.CurrentLevel+1) + ".png";
+            else
+				Icon = "level_" + (user.CurrentLevel+1) + ".png";
+
+			if (string.IsNullOrWhiteSpace(Name))
+				Name = user.Email;
+
+			Evolution = AppResources.evolution + " " + (user.CurrentLevel + 1);
+
+			MeditationTime = user.TotalMinutesMeditated.HasValue ? $"{user.TotalMinutesMeditated.Value/60}h{user.TotalMinutesMeditated.Value%60}min" : "0 min";
+
+			CurrentMax = user.MaxDaysMeditation?.ToString();
+
+			RecordMax = user.RecordMaxDaysMeditation?.ToString();
+
+			IsLoading = false;
+		}
+
+	}
 }

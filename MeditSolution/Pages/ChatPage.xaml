@@ -7,8 +7,10 @@
     xmlns:controls="clr-namespace:MeditSolution.Controls;assembly=MeditSolution"
     xmlns:effect="clr-namespace:MeditSolution.Effects;assembly=MeditSolution"
     xmlns:cells="clr-namespace:MeditSolution.Views.Cells;assembly=MeditSolution"
+    xmlns:resources="clr-namespace:MeditSolution"
     xmlns:selector="clr-namespace:MeditSolution.Views.Templates;assembly=MeditSolution"
     xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms" 
+    
     xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
     x:Class="MeditSolution.Pages.ChatPage">
     <base:BasePage.Resources>
@@ -32,7 +34,7 @@
                 <StackLayout.Padding>
                     <OnPlatform x:TypeArguments="Thickness" Android="5,15,15,10" iOS="5,10,15,5"/>
                 </StackLayout.Padding>
-                <Label Text="Passer" HorizontalOptions="End" TextColor="{StaticResource primary}" FontAttributes="Bold" FontFamily="SFUIText-Semibold" FontSize="18" />
+                <Label Text="{resources:Translate skip}" HorizontalOptions="End" TextColor="{StaticResource primary}" FontAttributes="Bold" FontFamily="SFUIText-Semibold" FontSize="18" />
                 <Image Source="arrowRight.png" WidthRequest="25" HeightRequest="25" VerticalOptions="CenterAndExpand" />
                 <StackLayout.GestureRecognizers>
                     <TapGestureRecognizer Command="{Binding SkipCommand}" />

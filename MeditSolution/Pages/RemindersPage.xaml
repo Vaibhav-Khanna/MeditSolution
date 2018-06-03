@@ -6,9 +6,10 @@
     xmlns:effects="clr-namespace:MeditSolution.Effects;assembly=MeditSolution"
     xmlns:controls="clr-namespace:MeditSolution.Controls;assembly=MeditSolution"
     x:Class="MeditSolution.Pages.RemindersPage"
-    Title="Rappels">
+    xmlns:resources="clr-namespace:MeditSolution"
+    Title="{resources:Translate reminders}">
     <base:BasePage.ToolbarItems>
-        <ToolbarItem Text="Ajouter" Command="{Binding AddCommand}" />
+        <ToolbarItem Text="{resources:Translate add}" Command="{Binding AddCommand}" />
     </base:BasePage.ToolbarItems>
     <base:BasePage.Content>
         <ListView x:Name="list" ItemTapped="Handle_ItemTapped" ItemsSource="{Binding Reminders}" HasUnevenRows="true" CachingStrategy="RecycleElement" VerticalOptions="FillAndExpand" SeparatorVisibility="Default" SeparatorColor="#d9d9d9" >

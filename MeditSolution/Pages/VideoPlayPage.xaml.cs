@@ -45,5 +45,10 @@ namespace MeditSolution.Pages
 			videoView.PropertyChanged -= VideoView_PropertyChanged;
 		}
 
+		protected override bool OnBackButtonPressed()
+        {
+			videoView.Stop();
+            return true;
+        }
 	}
 }

@@ -4,7 +4,9 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:base="clr-namespace:MeditSolution.Pages;assembly=MeditSolution"
     xmlns:views="clr-namespace:MeditSolution.Views;assembly=MeditSolution"
+    xmlns:resources="clr-namespace:MeditSolution"
     x:Class="MeditSolution.Pages.MeditationSilentPlayPage">
+    
     <base:BasePage.Content>
       <Grid VerticalOptions="FillAndExpand">
             

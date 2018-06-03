@@ -190,6 +190,21 @@
     <Reference Include="Xamarin.Essentials">
       <HintPath>..\packages\Xamarin.Essentials.0.6.0-preview\lib\xamarinios10\Xamarin.Essentials.dll</HintPath>
     </Reference>
+    <Reference Include="Plugin.Settings.Abstractions">
+      <HintPath>..\packages\Xam.Plugins.Settings.3.1.1\lib\Xamarin.iOS10\Plugin.Settings.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Settings">
+      <HintPath>..\packages\Xam.Plugins.Settings.3.1.1\lib\Xamarin.iOS10\Plugin.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="Rg.Plugins.Popup">
+      <HintPath>..\packages\Rg.Plugins.Popup.1.0.4\lib\Xamarin.IOS\Rg.Plugins.Popup.dll</HintPath>
+    </Reference>
+    <Reference Include="Rg.Plugins.Popup.IOS">
+      <HintPath>..\packages\Rg.Plugins.Popup.1.0.4\lib\Xamarin.IOS\Rg.Plugins.Popup.IOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Rg.Plugins.Popup.Platform">
+      <HintPath>..\packages\Rg.Plugins.Popup.1.0.4\lib\Xamarin.IOS\Rg.Plugins.Popup.Platform.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MeditSolution\MeditSolution.csproj">
@@ -234,6 +249,8 @@
     <Compile Include="Renderers\RoundedBoxRenderer.cs" />
     <Compile Include="Renderers\CustomTabbedRenderer.cs" />
     <Compile Include="Effects\BorderlessRenderEffect.cs" />
+    <Compile Include="Helpers\Settings.cs" />
+    <Compile Include="Helpers\Localize.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\splash IOS.png" />
@@ -404,6 +421,24 @@
     <BundleResource Include="Resources\unlock.png" />
     <BundleResource Include="Resources\unlock%402x.png" />
     <BundleResource Include="Resources\unlock%403x.png" />
+    <BundleResource Include="Resources\level1.png" />
+    <BundleResource Include="Resources\level1%402x.png" />
+    <BundleResource Include="Resources\level1%403x.png" />
+    <BundleResource Include="Resources\level2.png" />
+    <BundleResource Include="Resources\level2%402x.png" />
+    <BundleResource Include="Resources\level2%403x.png" />
+    <BundleResource Include="Resources\level3.png" />
+    <BundleResource Include="Resources\level3%402x.png" />
+    <BundleResource Include="Resources\level3%403x.png" />
+    <BundleResource Include="Resources\level4.png" />
+    <BundleResource Include="Resources\level4%402x.png" />
+    <BundleResource Include="Resources\level4%403x.png" />
+    <BundleResource Include="Resources\level5.png" />
+    <BundleResource Include="Resources\level5%402x.png" />
+    <BundleResource Include="Resources\level5%403x.png" />
+    <BundleResource Include="Resources\level6.png" />
+    <BundleResource Include="Resources\level6%402x.png" />
+    <BundleResource Include="Resources\level6%403x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets')" />

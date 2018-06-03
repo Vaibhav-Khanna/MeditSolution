@@ -7,8 +7,10 @@
     xmlns:views="clr-namespace:MeditSolution.Views.Cells;assembly=MeditSolution"
     xmlns:converter="clr-namespace:MeditSolution.Converter;assembly=MeditSolution"
     xmlns:selector="clr-namespace:MeditSolution.Views.Templates;assembly=MeditSolution"
+    xmlns:resources="clr-namespace:MeditSolution"
+    xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms" 
     xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
-    Title="Meditation">
+    Title="{resources:Translate tab1}">
     <base:BasePage.Resources>
     <ResourceDictionary>
             <DataTemplate x:Key="line">
@@ -25,7 +27,22 @@
     <base:BasePage.Content>
         <Grid VerticalOptions="FillAndExpand">
 
-            <ListView x:Name="list" ItemTemplate="{StaticResource DataTemplateSelector}" Rotation="180" IsVisible="{Binding IsEmpty,Converter={converter:BooleanNegateConverter}}" ItemsSource="{Binding Seances}" ItemTapped="Handle_ItemTapped" CachingStrategy="RetainElement" HasUnevenRows="true" SeparatorVisibility="None" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" >
+            <StackLayout IsVisible="{Binding IsEmpty,Converter={converter:BooleanNegateConverter}}" Orientation="Vertical" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+
+                 <forms:AnimationView 
+    x:Name="animationView" 
+    Animation="animation3.json" 
+    Loop="true"
+    IsVisible="{Binding IsLoading}"
+    Scale="1.8"
+    AutoPlay="true" 
+    HeightRequest="80"
+    Margin="0"
+    WidthRequest="80"
+    HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+            />
+
+                <ListView x:Name="list" ItemTemplate="{StaticResource DataTemplateSelector}" Rotation="180" IsVisible="{Binding IsLoading,Converter={converter:BooleanNegateConverter}}" ItemsSource="{Binding Seances}" ItemTapped="Handle_ItemTapped" CachingStrategy="RetainElement" HasUnevenRows="true" SeparatorVisibility="None" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" >
                
                 <ListView.Header>
                     <StackLayout Rotation="180" x:Name="footer" Spacing="0" VerticalOptions="End" Padding="20,0,20,20" Orientation="Vertical">
@@ -35,14 +52,17 @@
                         <Label Text="{Binding MeditationDetail}" FontFamily="SFUIText-Light" FontSize="16" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" TextColor="#656565" />
                     </StackLayout>
                 </ListView.Header>
+
+                </ListView>
                 
-            </ListView>
+            </StackLayout>
+           
 
             
         <StackLayout IsVisible="{Binding IsEmpty}" Spacing="20" Padding="25,0,25,0" Orientation="Vertical" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" >
             <ffimageloading:CachedImage HeightRequest="81" WidthRequest="86" HorizontalOptions="Center" DownsampleToViewSize="true" Source="iconempty.png" />
-            <Label Text="Vous n’avez aucune méditation en cours" TextColor="{StaticResource textLight}" FontSize="16" FontFamily="SFUIText-Regular" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" Margin="20,10,20,30" />
-            <Button Text="Démarrer l’initiation" Command="{Binding StartCommand}" TextColor="White" FontFamily="SFUIText-Semibold" FontAttributes="Bold" FontSize="18" HorizontalOptions="FillAndExpand" BackgroundColor="{StaticResource primary}" >
+            <Label Text="{resources:Translate nomeditation}" TextColor="{StaticResource textLight}" FontSize="16" FontFamily="SFUIText-Regular" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" Margin="20,10,20,30" />
+            <Button Text="{resources:Translate startinitiate}" Command="{Binding StartCommand}" TextColor="White" FontFamily="SFUIText-Semibold" FontAttributes="Bold" FontSize="18" HorizontalOptions="FillAndExpand" BackgroundColor="{StaticResource primary}" >
                  <Button.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double" Android="60" iOS="50" />
                 </Button.HeightRequest>

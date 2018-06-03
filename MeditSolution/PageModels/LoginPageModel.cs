@@ -1,6 +1,10 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 using Xamarin.Forms;
+using MeditSolution.Helpers;
+using MeditSolution.Controls;
+using MeditSolution.Responses;
+using MeditSolution.Resources;
 
 namespace MeditSolution.PageModels
 {
@@ -41,15 +45,15 @@ namespace MeditSolution.PageModels
                 if(((bool)initData))
                 {
                     // login
-                    Title = "Se connecter";
-                    ButtonText = "Se connecter";
+					Title = AppResources.login;
+					ButtonText = AppResources.login;
                     IsSignUp = false;
                 }
                 else
                 {
                     //signup
-                    Title = "S’incrire";
-                    ButtonText = "Créer un compte";
+					Title = AppResources.register;
+					ButtonText = AppResources.completeregister;
                     IsSignUp = true;
                 }
             }
@@ -59,12 +63,59 @@ namespace MeditSolution.PageModels
         {
             if(ValidateCredentials())
             {
-               
-            }
-           
-			await CoreMethods.PopPageModel(true, Device.RuntimePlatform == Device.iOS);
-            await CoreMethods.PushPageModel<ChatPageModel>();
+				IsLoading = true;
 
+				if (IsSignUp)
+				{
+					Dialog.ShowLoading();
+
+					var response = await StoreManager.RegisterAsync(Email, Password);
+
+					if(response!=null && response is TokenResponse)
+						await StoreManager.UserStore.GetCurrentUser();
+					
+					Dialog.HideLoading();
+
+					if(response!=null)
+					{
+						if (response is string)
+						{
+							await ToastService.Show(AppResources.accountexists);
+						}
+						else
+						{							
+							await CoreMethods.PopPageModel(true);
+							await CoreMethods.PushPageModel<ChatPageModel>();
+						}
+					}
+					else
+					{
+						await ToastService.Show(AppResources.erroraccountcreate);
+					}
+				}
+				else
+				{
+					Dialog.ShowLoading();
+
+					var response = await StoreManager.LoginAsync(Email, Password);
+
+					if(response!=null)
+						 await StoreManager.UserStore.GetCurrentUser();
+
+					Dialog.HideLoading();
+
+					if (response != null)
+					{
+						Application.Current.MainPage = TabNavigator.GenerateTabPage();
+					}
+					else
+					{
+						await ToastService.Show(AppResources.incorrectcombo);
+					}
+				}
+
+				IsLoading = false;
+            }           
         });
 
 

@@ -2,6 +2,7 @@
 using System.Collections.ObjectModel;
 using MeditSolution.Models;
 using Xamarin.Forms;
+using MeditSolution.Resources;
 
 namespace MeditSolution.PageModels
 {
@@ -15,48 +16,44 @@ namespace MeditSolution.PageModels
 
 			Menu = new ObservableCollection<object>();
             
-			Menu.Add(new MenuModel(){ Text = "Mon compte", Image = "account.png" });
-			Menu.Add(new MenuModel() { Text = "L’abonnement", Image = "plans.png" });
-			Menu.Add("Méditer");
+			Menu.Add(new MenuModel(){ Text = AppResources.myaccount, Image = "account.png" });
+			Menu.Add(new MenuModel() { Text = AppResources.subscription, Image = "plans.png" });
+			Menu.Add(AppResources.mediter);
 
-			Menu.Add(new MenuModel() { Text = "Méditation Silencieuse", Image = "meditationsilenceCopy.png" });
-			Menu.Add(new MenuModel() { Text = "Cohérence cardiaque", Image = "coherencecardiaque.png" });
-			Menu.Add(new MenuModel() { Text = "Rappels quotidiens", Image = "rappels.png" });
-			Menu.Add(new MenuModel() { Text = "Vidéos", Image = "play.png" });
-			Menu.Add(new MenuModel() { Text = "Paramètres", Image = "settings.png" });
+			Menu.Add(new MenuModel() { Text = AppResources.silentmeditation, Image = "meditationsilenceCopy.png" });
+			Menu.Add(new MenuModel() { Text = AppResources.coherentbreathing, Image = "coherencecardiaque.png" });
+			Menu.Add(new MenuModel() { Text = AppResources.menureminder, Image = "rappels.png" });
+			Menu.Add(new MenuModel() { Text = AppResources.videos, Image = "play.png" });
+			Menu.Add(new MenuModel() { Text = AppResources.settings, Image = "settings.png" });
 
 			Menu.Add("");
 			Menu.Add(new MenuModel() { Text = "CGU", Image = "" });
 		}
 
-		public Command MenuCommand => new Command(async(str) =>
+		public Command MenuCommand => new Command(async (str) =>
 		{
-			switch (str)
-			{
-				case "Mon compte":
-					await CoreMethods.PushPageModel<MyAccountPageModel>();
-					break;
-				case "L’abonnement":
-					await CoreMethods.PushPageModel<SubscriptionPageModel>();
-                    break;
-				case "Vidéos":
-					await CoreMethods.PushPageModel<VideosPageModel>();
-					break;
-				case"Méditation Silencieuse":
-					await CoreMethods.PushPageModel<MeditationSilentPageModel>();
-					break;
-				case "Cohérence cardiaque":
-					await CoreMethods.PushPageModel<MeditationBreathePageModel>();
-					break;
-				case "Paramètres":
-					await CoreMethods.PushPageModel<SettingsPageModel>(data:false);
-                    break;
-				case "Rappels quotidiens":
-					await CoreMethods.PushPageModel<RemindersPageModel>();
-                    break;
-				default:
-					break;
-			}
+
+			if (str.ToString() == AppResources.myaccount)
+				await CoreMethods.PushPageModel<MyAccountPageModel>();
+
+			if (str.ToString() == AppResources.subscription)
+				await CoreMethods.PushPageModel<SubscriptionPageModel>();
+
+			if (str.ToString() == AppResources.videos)
+				await CoreMethods.PushPageModel<VideosPageModel>();
+
+			if (str.ToString() == AppResources.silentmeditation)
+				await CoreMethods.PushPageModel<MeditationSilentPageModel>();
+
+			if (str.ToString() == AppResources.coherentbreathing)
+				await CoreMethods.PushPageModel<MeditationBreathePageModel>();
+
+			if (str.ToString() == AppResources.settings)
+				await CoreMethods.PushPageModel<SettingsPageModel>(data: false);
+
+			if (str.ToString() == AppResources.menureminder)
+				await CoreMethods.PushPageModel<RemindersPageModel>();
+                           
 		});
 
 	}

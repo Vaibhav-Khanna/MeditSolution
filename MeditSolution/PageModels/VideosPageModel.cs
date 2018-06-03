@@ -2,28 +2,43 @@
 using System.Collections.ObjectModel;
 using MeditSolution.Models;
 using Xamarin.Forms;
+using System.Linq;
+using MeditSolution.Helpers;
 
 namespace MeditSolution.PageModels
 {
 	public class VideosPageModel : BasePageModel
     {
 		public ObservableCollection<VideoModel> Videos { get; set; }
-
-
-		public override void Init(object initData)
+        
+		public async override void Init(object initData)
 		{
 			base.Init(initData);
 
+			IsLoading = true;
 
-			Videos = new ObservableCollection<VideoModel>();
-			Videos.Add(new VideoModel() { Title = "Comment meditater", Duration = "3:34" });
-			Videos.Add(new VideoModel() { Title = "Bienavenue", Duration = "2:10" });
-			Videos.Add(new VideoModel() { Title = "Puorquoi mediter", Duration = "5:45" });
+			var items = await StoreManager.VideoStore.GetItemsAsync();
+
+			IsLoading = false;
+
+			if (items != null && items.Any())
+			{
+				Videos = new ObservableCollection<VideoModel>();
+
+				foreach (var item in items)
+				{
+					Videos.Add(new VideoModel(item));
+				}
+			}
+			else
+			{
+				await ToastService.Show("Request failed");
+			}
 		}
 
 		public Command PlayCommand => new Command(async(obj) =>
 		{
-			await CoreMethods.PushPageModel<VideoPlayPageModel>(obj);
+			await CoreMethods.PushPageModel<VideoPlayPageModel>(obj,true);
 		});
 
 	}

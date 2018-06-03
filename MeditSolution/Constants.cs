@@ -17,7 +17,8 @@ namespace MeditSolution
 
 #else  
 
-        public static string RestUrl = "https://api.medit-solutions.com/v1/";
+		public static string RestUrl = "http://apiuat.matsiya.net/medit_solution/v1/";
+        //public static string RestUrl = "https://api.medit-solutions.com/v1/";
 
         public static string ContactRedirectUrl = "http://medit-solutions.com/contact";
 

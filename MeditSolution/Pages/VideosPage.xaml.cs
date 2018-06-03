@@ -17,5 +17,7 @@ namespace MeditSolution.Pages
 			(BindingContext as VideosPageModel).PlayCommand.Execute(e.Item);
 			list.SelectedItem = null;
 		}
+
+
     }
 }
