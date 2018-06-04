@@ -3,58 +3,64 @@ using System.Collections.ObjectModel;
 using MeditSolution.Models;
 using Xamarin.Forms;
 using MeditSolution.Resources;
+using Xamarin.Essentials;
 
 namespace MeditSolution.PageModels
 {
-	public class PlusTabPageModel : BasePageModel
+    public class PlusTabPageModel : BasePageModel
     {
-		public ObservableCollection<object> Menu { get; set; }
+        public ObservableCollection<object> Menu { get; set; }
 
-		public override void Init(object initData)
-		{
-			base.Init(initData);
+        public override void Init(object initData)
+        {
+            base.Init(initData);
 
-			Menu = new ObservableCollection<object>();
-            
-			Menu.Add(new MenuModel(){ Text = AppResources.myaccount, Image = "account.png" });
-			Menu.Add(new MenuModel() { Text = AppResources.subscription, Image = "plans.png" });
-			Menu.Add(AppResources.mediter);
+            Menu = new ObservableCollection<object>();
 
-			Menu.Add(new MenuModel() { Text = AppResources.silentmeditation, Image = "meditationsilenceCopy.png" });
-			Menu.Add(new MenuModel() { Text = AppResources.coherentbreathing, Image = "coherencecardiaque.png" });
-			Menu.Add(new MenuModel() { Text = AppResources.menureminder, Image = "rappels.png" });
-			Menu.Add(new MenuModel() { Text = AppResources.videos, Image = "play.png" });
-			Menu.Add(new MenuModel() { Text = AppResources.settings, Image = "settings.png" });
+            Menu.Add(new MenuModel() { Text = AppResources.myaccount, Image = "account.png" });
+            Menu.Add(new MenuModel() { Text = AppResources.subscription, Image = "plans.png" });
+            Menu.Add(AppResources.mediter);
 
-			Menu.Add("");
-			Menu.Add(new MenuModel() { Text = "CGU", Image = "" });
-		}
+            Menu.Add(new MenuModel() { Text = AppResources.silentmeditation, Image = "meditationsilenceCopy.png" });
+            Menu.Add(new MenuModel() { Text = AppResources.coherentbreathing, Image = "coherencecardiaque.png" });
+            Menu.Add(new MenuModel() { Text = AppResources.menureminder, Image = "rappels.png" });
+            Menu.Add(new MenuModel() { Text = AppResources.videos, Image = "play.png" });
+            Menu.Add(new MenuModel() { Text = AppResources.settings, Image = "settings.png" });
 
-		public Command MenuCommand => new Command(async (str) =>
-		{
+            Menu.Add("");
+            Menu.Add(new MenuModel() { Text = AppResources.cgu, Image = "" });
+        }
 
-			if (str.ToString() == AppResources.myaccount)
-				await CoreMethods.PushPageModel<MyAccountPageModel>();
+        public Command MenuCommand => new Command(async (str) =>
+        {
 
-			if (str.ToString() == AppResources.subscription)
-				await CoreMethods.PushPageModel<SubscriptionPageModel>();
+            if (str.ToString() == AppResources.myaccount)
+                await CoreMethods.PushPageModel<MyAccountPageModel>();
 
-			if (str.ToString() == AppResources.videos)
-				await CoreMethods.PushPageModel<VideosPageModel>();
+            if (str.ToString() == AppResources.subscription)
+                await CoreMethods.PushPageModel<SubscriptionPageModel>();
 
-			if (str.ToString() == AppResources.silentmeditation)
-				await CoreMethods.PushPageModel<MeditationSilentPageModel>();
+            if (str.ToString() == AppResources.videos)
+                await CoreMethods.PushPageModel<VideosPageModel>();
 
-			if (str.ToString() == AppResources.coherentbreathing)
-				await CoreMethods.PushPageModel<MeditationBreathePageModel>();
+            if (str.ToString() == AppResources.silentmeditation)
+                await CoreMethods.PushPageModel<MeditationSilentPageModel>();
 
-			if (str.ToString() == AppResources.settings)
-				await CoreMethods.PushPageModel<SettingsPageModel>(data: false);
+            if (str.ToString() == AppResources.coherentbreathing)
+                await CoreMethods.PushPageModel<MeditationBreathePageModel>();
 
-			if (str.ToString() == AppResources.menureminder)
-				await CoreMethods.PushPageModel<RemindersPageModel>();
-                           
-		});
+            if (str.ToString() == AppResources.settings)
+                await CoreMethods.PushPageModel<SettingsPageModel>(data: false);
 
-	}
+            if (str.ToString() == AppResources.menureminder)
+                await CoreMethods.PushPageModel<RemindersPageModel>();
+
+            if (str.ToString() == AppResources.cgu)
+            {
+                await Browser.OpenAsync(Constants.CGURedirectUrl, BrowserLaunchType.SystemPreferred);
+            }
+
+        });
+
+    }
 }

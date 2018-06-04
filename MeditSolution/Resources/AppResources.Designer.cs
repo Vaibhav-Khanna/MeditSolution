@@ -539,6 +539,12 @@ namespace MeditSolution.Resources {
             }
         }
         
+        internal static string cgu {
+            get {
+                return ResourceManager.GetString("cgu", resourceCulture);
+            }
+        }
+        
         internal static string videos {
             get {
                 return ResourceManager.GetString("videos", resourceCulture);
