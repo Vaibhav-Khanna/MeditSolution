@@ -289,6 +289,7 @@
     <Compile Include="Renderers\ScrollViewRender.cs" />
     <Compile Include="Effects\BorderlessRenderEffect.cs" />
     <Compile Include="Helpers\Settings.cs" />
+    <Compile Include="Renderers\BorderlessEntryRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

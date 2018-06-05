@@ -15,14 +15,8 @@ namespace MeditSolution.PageModels
 
         private MeditationTimer _timer;
 
-        private TimeSpan _totalSeconds;
-        [PropertyChanged.DoNotNotify]
-        public TimeSpan TotalSeconds
-        {
-            get { return _totalSeconds; }
-            set { _totalSeconds = value; }
+        public TimeSpan TotalSeconds { get; set; }
 
-        }
 
         public override void Init(object initData)
         {
@@ -32,23 +26,22 @@ namespace MeditSolution.PageModels
             Duration = (initData as Tuple<int, int>).Item2;
 
 
-            _totalSeconds = TimeSpan.FromSeconds(Duration);
+            TotalSeconds = TimeSpan.FromSeconds(Duration);
 
             _timer = new MeditationTimer(TimeSpan.FromSeconds(1), CountDown);
-            TotalSeconds = _totalSeconds;
 
         }
 
         private void CountDown()
         {
-            if (_totalSeconds.TotalSeconds == 0)
+            if (TotalSeconds.TotalSeconds == 0)
             {
                 TotalSeconds = new TimeSpan(0, 0, 0, 0);
                 _timer.Stop();
             }
             else
             {
-                TotalSeconds = _totalSeconds.Subtract(new TimeSpan(0, 0, 0, 1));
+                TotalSeconds = TotalSeconds.Subtract(new TimeSpan(0, 0, 0, 1));
             }
         }
         public Command PlayPauseCommand => new Command(() =>

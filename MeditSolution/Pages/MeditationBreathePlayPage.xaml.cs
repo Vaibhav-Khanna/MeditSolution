@@ -40,6 +40,8 @@ namespace MeditSolution.Pages
                 Model.IsPlaying = false;
                 PlayAnimation();
             }
+
+
             else
             {
                 if (Model != null)
@@ -69,7 +71,7 @@ namespace MeditSolution.Pages
                 await Task.Delay(200);
             }
 
-            if (Model.Duration != 0)
+            if (Model.TotalSeconds.TotalSeconds != 0)
                 PlayAnimation();
         }
 

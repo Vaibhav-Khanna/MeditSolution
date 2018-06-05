@@ -371,6 +371,7 @@
       <DependentUpon>ForgotPasswordPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="PageModels\ForgotPasswordPageModel.cs" />
+    <Compile Include="Controls\CustomEntry.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FreshIOC">
