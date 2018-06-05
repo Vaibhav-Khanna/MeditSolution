@@ -161,22 +161,18 @@ namespace MeditSolution.PageModels
         {
             await CoreMethods.PopPageModel(true, Device.RuntimePlatform == Device.iOS);
         });
-
-<<<<<<< HEAD
+        
 		async void UpdateSubscription()
         {
             var subscriptionStore = new SubscriptionStore();
             await subscriptionStore.CheckAndUpdateSubscriptionStatus();
             subscriptionStore.Dispose();
         }
-=======
+
         public Command ForgotCommand => new Command(async () =>
         {
             await CoreMethods.PushPageModel<ForgotPasswordPageModel>(Email, true);
         });
-
-
-
->>>>>>> origin/development
+       
     }
 }

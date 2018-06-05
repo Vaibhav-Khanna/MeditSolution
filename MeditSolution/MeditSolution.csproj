@@ -167,6 +167,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.fr.resx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -365,7 +366,7 @@
       <DependentUpon>AppResources.resx</DependentUpon>
     </Compile>
     <Compile Include="Resources\TranslateExtension.cs" />
-    <Compile Include="Resources\Resources.fr.Designer.cs" />
+    <Compile Include="Resources\AppResources.fr.Designer.cs" />
     <Compile Include="Models\MeditationTimer.cs" />
     <Compile Include="Pages\ForgotPasswordPage.xaml.cs">
       <DependentUpon>ForgotPasswordPage.xaml</DependentUpon>
@@ -481,7 +482,6 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="FodyWeavers.xml" />
-    <None Include="Resources\AppResources.fr.resx" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\" />

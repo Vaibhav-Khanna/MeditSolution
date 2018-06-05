@@ -665,12 +665,6 @@ namespace MeditSolution.Resources {
             }
         }
         
-        internal static string ok {
-            get {
-                return ResourceManager.GetString("ok", resourceCulture);
-            }
-        }
-        
         internal static string SubscriptionThanks {
             get {
                 return ResourceManager.GetString("SubscriptionThanks", resourceCulture);
