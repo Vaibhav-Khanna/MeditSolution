@@ -4,33 +4,43 @@ using MeditSolution.Resources;
 
 namespace MeditSolution.PageModels
 {
-	public class MeditationSilentPlayPageModel : BasePageModel
+    public class MeditationSilentPlayPageModel : BasePageModel
     {
-		public double Progress { get; set; }
-        public string TimerText { get; set; } = "00:00";
-		public string HeaderText { get; set; } = AppResources.silentmeditation;
+        public double Progress { get; set; }
+        public string TimerText { get; set; }
+        public string HeaderText { get; set; } = AppResources.silentmeditation;
 
 
-		public override void Init(object initData)
-		{
-			base.Init(initData);
+        public override void Init(object initData)
+        {
+            base.Init(initData);
 
-			Device.StartTimer(new TimeSpan(0, 0, 1), () =>
+            int durationInSeconds = int.Parse(initData.ToString());
+
+            TimeSpan time = TimeSpan.FromSeconds(durationInSeconds);
+
+
+            Device.StartTimer(new TimeSpan(0, 0, 1), () =>
             {
-                Progress += 0.01;
-                TimerText = $"00:{Progress}";
+                Progress -= 0.01;
+                // TimerText = $"00:{Progress}";
+
+                TimerText = time.ToString(@"mm\:ss");
+
+                time = time.Subtract(TimeSpan.FromSeconds(1));
+
                 return Progress >= 1 ? false : true;
             });
-		}
+        }
 
-		public Command PlayPauseCommand => new Command(() =>
+        public Command PlayPauseCommand => new Command(() =>
         {
             IsPlaying = !IsPlaying;
         });
 
-		public Command CloseCommand => new Command(async() =>
-		{
-			await CoreMethods.PopPageModel(true);
-		});
+        public Command CloseCommand => new Command(async () =>
+        {
+            await CoreMethods.PopPageModel(true);
+        });
     }
 }

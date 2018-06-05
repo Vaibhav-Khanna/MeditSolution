@@ -6,63 +6,70 @@ using MeditSolution.Controls;
 using MeditSolution.Helpers;
 using DLToolkit.Forms.Controls;
 using MeditSolution.DataStore.Implementation;
-using MeditSolution.DataStore.Abstraction;
+using System.Collections.Generic;
+using Com.OneSignal;
+using Com.OneSignal.Abstractions;
+
 
 namespace MeditSolution
 {
     public partial class App : Application
     {
-        
+
         public App()
         {
             InitializeComponent();
 
-			FlowListView.Init();
+            FlowListView.Init();
 
-			BasePageModel.Initialize();
-                     
-			BasePageModel.DefaultNavigationBackgroundColor();
-            
-			MainPage = new ContentPage();
+            BasePageModel.Initialize();
 
-			Init();
+            BasePageModel.DefaultNavigationBackgroundColor();
+
+            MainPage = new ContentPage();
+
+
+            OneSignal.Current.StartInit(Constants.OneSignalID).Settings(new Dictionary<string, bool>() {
+               { IOSSettings.kOSSettingsKeyAutoPrompt, false }}).InFocusDisplaying(OSInFocusDisplayOption.Notification).EndInit();
+
+            Init();
         }
 
-		async void Init()
-		{
-			new LanguageService().SetLanguage();
+        async void Init()
+        {
+            new LanguageService().SetLanguage();
 
-			if(Settings.IsLoggedIn)
-			{
-				var storeManager = new BasePageModel().StoreManager;
+            if (Settings.IsLoggedIn)
+            {
+                var storeManager = new BasePageModel().StoreManager;
 
-				if (StoreManager.NeedsTokenRefresh())
-				{
-					var isRefreshed = await storeManager.RegenerateToken();
+                if (StoreManager.NeedsTokenRefresh())
+                {
+                    var isRefreshed = await storeManager.RegenerateToken();
 
-					if (isRefreshed)
-					{
-						await storeManager.UserStore.UpdateCurrentUser();
-						MainPage = TabNavigator.GenerateTabPage();
-					}
-					else
-					{
-						var page = FreshPageModelResolver.ResolvePageModel<TutorialPageModel>();
-						MainPage = new FreshNavigationContainer(page);
-					}
-				}
-				else
-				{
-					await storeManager.UserStore.UpdateCurrentUser();
-					MainPage = TabNavigator.GenerateTabPage();
-				}
-			}
-			else
-			{
-				var page = FreshPageModelResolver.ResolvePageModel<TutorialPageModel>();
+                    if (isRefreshed)
+                    {
+                        await storeManager.UserStore.UpdateCurrentUser();
+                        MainPage = TabNavigator.GenerateTabPage();
+                    }
+                    else
+                    {
+                        var page = FreshPageModelResolver.ResolvePageModel<TutorialPageModel>();
+                        MainPage = new FreshNavigationContainer(page);
+                    }
+                }
+                else
+                {
+                    await storeManager.UserStore.UpdateCurrentUser();
+                    MainPage = TabNavigator.GenerateTabPage();
+                }
+            }
+            else
+            {
+                var page = FreshPageModelResolver.ResolvePageModel<TutorialPageModel>();
                 MainPage = new FreshNavigationContainer(page);
-			}
-		}
+            }
+        }
 
         protected override void OnStart()
         {
@@ -79,7 +86,8 @@ namespace MeditSolution
             // Handle when your app resumes
         }
 
-        public static Action<string> PostSuccessFacebookAction { get; set; } 
-  
+        public static Action<string> PostSuccessFacebookAction { get; set; }
+
+
     }
 }
