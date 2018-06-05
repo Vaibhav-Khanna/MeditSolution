@@ -362,6 +362,7 @@
     </Compile>
     <Compile Include="Resources\TranslateExtension.cs" />
     <Compile Include="Resources\Resources.fr.Designer.cs" />
+    <Compile Include="Models\MeditationTimer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FreshIOC">
