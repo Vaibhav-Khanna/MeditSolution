@@ -5,6 +5,7 @@ using MeditSolution.Helpers;
 using MeditSolution.Controls;
 using MeditSolution.Responses;
 using MeditSolution.Resources;
+using MeditSolution.DataStore.Implementation.Stores;
 
 namespace MeditSolution.PageModels
 {
@@ -86,6 +87,7 @@ namespace MeditSolution.PageModels
 						{							
 							await CoreMethods.PopPageModel(true);
 							await CoreMethods.PushPageModel<ChatPageModel>();
+							UpdateSubscription();
 						}
 					}
 					else
@@ -107,6 +109,7 @@ namespace MeditSolution.PageModels
 					if (response != null)
 					{
 						Application.Current.MainPage = TabNavigator.GenerateTabPage();
+						UpdateSubscription();
 					}
 					else
 					{
@@ -157,5 +160,11 @@ namespace MeditSolution.PageModels
             await CoreMethods.PopPageModel(true,Device.RuntimePlatform == Device.iOS);
         });
 
+		async void UpdateSubscription()
+        {
+            var subscriptionStore = new SubscriptionStore();
+            await subscriptionStore.CheckAndUpdateSubscriptionStatus();
+            subscriptionStore.Dispose();
+        }
     }
 }

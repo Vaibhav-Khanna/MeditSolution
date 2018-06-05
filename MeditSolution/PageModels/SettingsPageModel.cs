@@ -2,6 +2,7 @@
 using Xamarin.Forms;
 using MeditSolution.Resources;
 using MeditSolution.Models.Abstract;
+using MeditSolution.Helpers;
 
 namespace MeditSolution.PageModels
 {
@@ -27,22 +28,30 @@ namespace MeditSolution.PageModels
 				else
 				{
 					Title = AppResources.settings;
-					DefaultLanguageEnglish = false;
-					DefaultGenderMan = false;
+
+					if (!string.IsNullOrEmpty(Settings.Language) && !string.IsNullOrEmpty(Settings.Voice))
+					{
+						DefaultLanguageEnglish = Settings.Language == "en" ? true : false;
+						DefaultGenderMan = Settings.Voice == "male" ? true : false;
+					}
 				}
-			}
-           
+			}   
 		}
 
 		public Command SaveCommand => new Command(async() =>
 		{
+			Settings.Language = DefaultLanguageEnglish.Value ? "en" : "fr";
+            Settings.Voice = DefaultGenderMan.Value ? "male" : "female";
+
 			if (IsPresenterPage)
-			{
-				await CoreMethods.PushPageModel<MeditationPlayPageModel>();
+			{	
+				await CoreMethods.PushPageModel<MeditationPlayPageModel>(animate: false);
 				CoreMethods.RemoveFromNavigation<SettingsPageModel>();
 			}
 			else
-			await CoreMethods.PopPageModel();
+			{
+				await CoreMethods.PopPageModel();
+			}
 		});
 	}
 }

@@ -52,9 +52,9 @@
                 </Button.BorderRadius>>
                     </Button>
 
-                    <Label Text="{resources:Translate or}" Margin="0,20,0,20" TextColor="#9b9b9b" FontSize="16" FontFamily="SFUIText-Semibold" FontAttributes="Bold" HorizontalOptions="Center"/>
+                    <Label Text="{resources:Translate or}" IsVisible="false" Margin="0,20,0,20" TextColor="#9b9b9b" FontSize="16" FontFamily="SFUIText-Semibold" FontAttributes="Bold" HorizontalOptions="Center"/>
                     
-                    <controls:FaceBookLoginButton x:Name="bt_fb" Image="facebook.png" VerticalOptions="StartAndExpand" FontFamily="SFUIText-Semibold" FontSize="18" FontAttributes="Bold" TextColor="White" BackgroundColor="#3b5998" BorderColor="#3b5998" HorizontalOptions="FillAndExpand" Text="{resources:Translate connectfb}"  >
+                    <controls:FaceBookLoginButton x:Name="bt_fb" Image="facebook.png" IsVisible="false" VerticalOptions="StartAndExpand" FontFamily="SFUIText-Semibold" FontSize="18" FontAttributes="Bold" TextColor="White" BackgroundColor="#3b5998" BorderColor="#3b5998" HorizontalOptions="FillAndExpand" Text="{resources:Translate connectfb}"  >
                         <controls:FaceBookLoginButton.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double" Android="60" iOS="50" />
                 </controls:FaceBookLoginButton.HeightRequest>

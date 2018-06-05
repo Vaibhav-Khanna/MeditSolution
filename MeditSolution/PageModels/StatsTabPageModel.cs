@@ -48,9 +48,9 @@ namespace MeditSolution.PageModels
 
 			MeditationTime = user.TotalMinutesMeditated.HasValue ? $"{user.TotalMinutesMeditated.Value/60}h{user.TotalMinutesMeditated.Value%60}min" : "0 min";
 
-			CurrentMax = user.MaxDaysMeditation?.ToString();
+			CurrentMax = user.MaxDaysMeditation.HasValue ? user.MaxDaysMeditation?.ToString() : "0";
 
-			RecordMax = user.RecordMaxDaysMeditation?.ToString();
+			RecordMax = user.RecordMaxDaysMeditation.HasValue ? user.RecordMaxDaysMeditation?.ToString() : "0";
 
 			IsLoading = false;
 		}

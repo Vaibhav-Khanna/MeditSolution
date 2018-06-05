@@ -25,7 +25,7 @@ namespace MeditSolution.Controls
 			bottomBarPage.AddTab<StatsTabPageModel>(AppResources.tab3, "stats.png");
 			var container = bottomBarPage.AddTab<PlusTabPageModel>(AppResources.tab4, "plus.png");
    
-			return (bottomBarPage);
+			return new DynamicNavigationPage(bottomBarPage);
 		}
 
     }

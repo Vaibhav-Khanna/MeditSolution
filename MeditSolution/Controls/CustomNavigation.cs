@@ -67,7 +67,7 @@ namespace MeditSolution.Controls
             if (modal)
 				return this.CurrentPage.Navigation.PushModalAsync(CreateContainerPageSafe(page),Device.RuntimePlatform == Device.iOS);
            
-			return this.CurrentPage.Navigation.PushAsync(page);
+			return animate ? this.CurrentPage.Navigation.PushAsync(page) : this.Navigation.PushAsync(page);
         }
 
         public System.Threading.Tasks.Task PopPage(bool modal = false, bool animate = true)
@@ -75,7 +75,7 @@ namespace MeditSolution.Controls
             if (modal)
 				return this.CurrentPage.Navigation.PopModalAsync(Device.RuntimePlatform == Device.iOS);
 			
-			return this.CurrentPage.Navigation.PopAsync(animate);
+			return animate ? this.CurrentPage.Navigation.PopAsync(true) : this.Navigation.PopAsync(true);
         }
 
         public Task PopToRoot(bool animate = true)

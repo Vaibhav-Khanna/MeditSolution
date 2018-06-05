@@ -363,6 +363,7 @@
     <Compile Include="Resources\TranslateExtension.cs" />
     <Compile Include="Resources\Resources.fr.Designer.cs" />
     <Compile Include="Controls\CustomEntry.cs" />
+    <Compile Include="DataStore\Implementation\Stores\SubscriptionStore.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FreshIOC">
@@ -457,6 +458,15 @@
     </Reference>
     <Reference Include="Com.OneSignal">
       <HintPath>..\packages\Com.OneSignal.3.1.1\lib\netstandard1.0\Com.OneSignal.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.InAppBilling.Abstractions">
+      <HintPath>..\packages\Plugin.InAppBilling.2.0.0\lib\netstandard1.0\Plugin.InAppBilling.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.InAppBilling">
+      <HintPath>..\packages\Plugin.InAppBilling.2.0.0\lib\netstandard1.0\Plugin.InAppBilling.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.CrossPlatformTintedImage.Abstractions">
+      <HintPath>..\packages\Plugin.CrossPlatformTintedImage.1.0.0\lib\portable-net45+wp80+win8+wpa81\Plugin.CrossPlatformTintedImage.Abstractions.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

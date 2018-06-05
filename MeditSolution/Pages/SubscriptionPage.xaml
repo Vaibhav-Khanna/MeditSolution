@@ -8,10 +8,15 @@
     xmlns:controls="clr-namespace:MeditSolution.Controls;assembly=MeditSolution"
     xmlns:converter="clr-namespace:MeditSolution.Converter;assembly=MeditSolution"
     xmlns:resources="clr-namespace:MeditSolution"
+    xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms" 
     x:Class="MeditSolution.Pages.SubscriptionPage"
     Title="{resources:Translate subscription}">
     <base:BasePage.Content>
-        <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" >
+
+    <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" >
+     
+       
+        <StackLayout IsVisible="{Binding IsLoading,Converter={converter:BooleanNegateConverter}}" Orientation="Vertical" VerticalOptions="FillAndExpand" >
 
             <!-- No Subscription View-->
             <Grid IsVisible="{Binding IsSubscribed,Converter={converter:BooleanNegateConverter}}" RowSpacing="17" Padding="14,0,14,17">
@@ -122,8 +127,23 @@
                 </Button>
                 
              </Grid>
-
-            
+              
         </StackLayout>
+
+            <forms:AnimationView 
+    x:Name="animationView" 
+    Animation="animation3.json" 
+    Loop="true"
+    IsVisible="{Binding IsLoading}"
+    Scale="1.8"
+    AutoPlay="true" 
+    HeightRequest="80"
+    Margin="0"
+    WidthRequest="80"
+    HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+            />
+
+
+        </StackLayout>        
     </base:BasePage.Content>
 </base:BasePage>

@@ -13,7 +13,7 @@ namespace MeditSolution.Helpers
 
 			AppResources.Culture = ci;
 
-			Settings.DeviceLanguage = ci.DisplayName;
+			Settings.DeviceLanguage = ci.TwoLetterISOLanguageName == "fr" ? "French" : "English";
            
 			DependencyService.Get<ILocalize>().SetLocale(ci);
 		}

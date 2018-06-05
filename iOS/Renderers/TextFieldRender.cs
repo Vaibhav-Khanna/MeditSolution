@@ -19,10 +19,7 @@ namespace MeditSolution.iOS.Renderers
             {
 
                 var label = (CustomEntry)Element;
-
-                Control.Layer.BorderWidth = 0;
-                Control.BorderStyle = UITextBorderStyle.None;
-
+                               
                 if (Control != null && e.NewElement != null)
                 {
                     var element = e.NewElement as CustomEntry;

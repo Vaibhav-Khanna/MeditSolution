@@ -12,6 +12,7 @@ using Syncfusion.SfPicker.XForms.iOS;
 using UIKit;
 using Xamarin.Forms.Platform.iOS;
 using Xamarin.Essentials;
+using Plugin.CrossPlatformTintedImage.iOS;
 
 namespace MeditSolution.iOS
 {
@@ -26,6 +27,8 @@ namespace MeditSolution.iOS
 			Rox.VideoIos.Init();
             	
             global::Xamarin.Forms.Forms.Init();        
+
+			TintedImageRenderer.Init();
 
 			ProgressRingRenderer.Init();
 

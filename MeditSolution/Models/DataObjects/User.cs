@@ -74,10 +74,10 @@ namespace MeditSolution.Models.DataObjects
 		public string OneSignalPushId { get; set; }
 
 		[JsonProperty("language")]
-		public string Language { get; set; } = Settings.DeviceLanguage;
+		public string Language { get { return Settings.Language; } }
 
 		[JsonProperty("voice")]
-		public string Voice { get; set; } = Settings.Voice;
+		public string Voice { get { return Settings.Voice; } }
 
 		public string CurrentLevelIcon { get; set; }
 

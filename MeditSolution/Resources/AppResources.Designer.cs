@@ -616,5 +616,125 @@ namespace MeditSolution.Resources {
                 return ResourceManager.GetString("Level4", resourceCulture);
             }
         }
+        
+        internal static string name {
+            get {
+                return ResourceManager.GetString("name", resourceCulture);
+            }
+        }
+        
+        internal static string lastname {
+            get {
+                return ResourceManager.GetString("lastname", resourceCulture);
+            }
+        }
+        
+        internal static string ok {
+            get {
+                return ResourceManager.GetString("ok", resourceCulture);
+            }
+        }
+        
+        internal static string SubscriptionThanks {
+            get {
+                return ResourceManager.GetString("SubscriptionThanks", resourceCulture);
+            }
+        }
+        
+        internal static string SubscriptionRequired {
+            get {
+                return ResourceManager.GetString("SubscriptionRequired", resourceCulture);
+            }
+        }
+        
+        internal static string SubscribeMessage {
+            get {
+                return ResourceManager.GetString("SubscribeMessage", resourceCulture);
+            }
+        }
+        
+        internal static string SubscribeNow {
+            get {
+                return ResourceManager.GetString("SubscribeNow", resourceCulture);
+            }
+        }
+        
+        internal static string NotNow {
+            get {
+                return ResourceManager.GetString("NotNow", resourceCulture);
+            }
+        }
+        
+        internal static string ErrorMessageSubscription {
+            get {
+                return ResourceManager.GetString("ErrorMessageSubscription", resourceCulture);
+            }
+        }
+        
+        internal static string UnsubscribeWarning {
+            get {
+                return ResourceManager.GetString("UnsubscribeWarning", resourceCulture);
+            }
+        }
+        
+        internal static string MeditationChat1 {
+            get {
+                return ResourceManager.GetString("MeditationChat1", resourceCulture);
+            }
+        }
+        
+        internal static string MeditationChat2 {
+            get {
+                return ResourceManager.GetString("MeditationChat2", resourceCulture);
+            }
+        }
+        
+        internal static string MeditationChat3 {
+            get {
+                return ResourceManager.GetString("MeditationChat3", resourceCulture);
+            }
+        }
+        
+        internal static string MeditationChat4 {
+            get {
+                return ResourceManager.GetString("MeditationChat4", resourceCulture);
+            }
+        }
+        
+        internal static string MeditationChat5 {
+            get {
+                return ResourceManager.GetString("MeditationChat5", resourceCulture);
+            }
+        }
+        
+        internal static string MeditationChat6 {
+            get {
+                return ResourceManager.GetString("MeditationChat6", resourceCulture);
+            }
+        }
+        
+        internal static string MeditationChat7 {
+            get {
+                return ResourceManager.GetString("MeditationChat7", resourceCulture);
+            }
+        }
+        
+        internal static string MeditationChat8 {
+            get {
+                return ResourceManager.GetString("MeditationChat8", resourceCulture);
+            }
+        }
+        
+        internal static string MeditationChat9 {
+            get {
+                return ResourceManager.GetString("MeditationChat9", resourceCulture);
+            }
+        }
+        
+        internal static string MeditationChat10 {
+            get {
+                return ResourceManager.GetString("MeditationChat10", resourceCulture);
+            }
+        }
     }
 }

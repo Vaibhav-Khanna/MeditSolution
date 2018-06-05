@@ -10,6 +10,17 @@ namespace MeditSolution.Pages
         public MyAccountModifyPage()
         {
             InitializeComponent();
+
+			etname.ReturnButton = Controls.ReturnButtonType.Next;
+			etlastname.ReturnButton = Controls.ReturnButtonType.Next;
+			etemail.ReturnButton = Controls.ReturnButtonType.Next;
+			etpassword.ReturnButton = Controls.ReturnButtonType.Next;
+			etconpass.ReturnButton = Controls.ReturnButtonType.Done;
+
+			etname.NextView = etlastname;
+			etlastname.NextView = etemail;
+			etemail.NextView = etpassword;
+			etpassword.NextView = etconpass;
         }
     }
 }

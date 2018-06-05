@@ -26,8 +26,8 @@
                 PersonTemplate="{StaticResource personTemplate}" />
         </ResourceDictionary>
     </base:BasePage.Resources>
-
     <base:BasePage.Content>
+        
         <StackLayout BackgroundColor="White" Orientation="Vertical" VerticalOptions="FillAndExpand">
 
             <StackLayout Spacing="5" HorizontalOptions="End" Orientation="Horizontal" >

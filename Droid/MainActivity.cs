@@ -15,6 +15,8 @@ using Lottie.Forms.Droid;
 using Plugin.MediaManager.Forms.Android;
 using Plugin.CurrentActivity;
 using Syncfusion.SfPicker.XForms.Droid;
+using Plugin.InAppBilling;
+using Plugin.CrossPlatformTintedImage.Android;
 
 namespace MeditSolution.Droid
 {
@@ -30,6 +32,8 @@ namespace MeditSolution.Droid
             
 			global::Xamarin.Forms.Forms.Init(this, bundle);
 
+			TintedImageRenderer.Init();
+
 			CrossCurrentActivity.Current.Init(this, bundle);
 
 		    var s = new SfPickerRenderer();
@@ -42,5 +46,12 @@ namespace MeditSolution.Droid
 
             LoadApplication(new App());
         }
+
+		protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
+        {
+            base.OnActivityResult(requestCode, resultCode, data);
+            InAppBillingImplementation.HandleActivityResult(requestCode, resultCode, data);
+        }
     }
+
 }

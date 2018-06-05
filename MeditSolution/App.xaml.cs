@@ -9,7 +9,7 @@ using MeditSolution.DataStore.Implementation;
 using System.Collections.Generic;
 using Com.OneSignal;
 using Com.OneSignal.Abstractions;
-
+using MeditSolution.DataStore.Implementation.Stores;
 
 namespace MeditSolution
 {
@@ -27,8 +27,7 @@ namespace MeditSolution
             BasePageModel.DefaultNavigationBackgroundColor();
 
             MainPage = new ContentPage();
-
-
+            
             OneSignal.Current.StartInit(Constants.OneSignalID).Settings(new Dictionary<string, bool>() {
                { IOSSettings.kOSSettingsKeyAutoPrompt, false }}).InFocusDisplaying(OSInFocusDisplayOption.Notification).EndInit();
 
@@ -46,11 +45,20 @@ namespace MeditSolution
                 if (StoreManager.NeedsTokenRefresh())
                 {
                     var isRefreshed = await storeManager.RegenerateToken();
-
+                    
                     if (isRefreshed)
                     {
-                        await storeManager.UserStore.UpdateCurrentUser();
-                        MainPage = TabNavigator.GenerateTabPage();
+						if (Settings.HasToCompleteChat)
+						{
+							// open chat
+							var page = FreshPageModelResolver.ResolvePageModel<ChatPageModel>();
+                            MainPage = new FreshNavigationContainer(page);
+						}
+						else
+						{
+							await storeManager.UserStore.UpdateCurrentUser();
+							MainPage = TabNavigator.GenerateTabPage();
+						}
                     }
                     else
                     {
@@ -60,9 +68,20 @@ namespace MeditSolution
                 }
                 else
                 {
-                    await storeManager.UserStore.UpdateCurrentUser();
-                    MainPage = TabNavigator.GenerateTabPage();
+					if (Settings.HasToCompleteChat)
+					{
+                        // open chat
+						var page = FreshPageModelResolver.ResolvePageModel<ChatPageModel>();
+                        MainPage = new FreshNavigationContainer(page);
+					}
+					else
+					{
+						await storeManager.UserStore.UpdateCurrentUser();
+						MainPage = TabNavigator.GenerateTabPage();
+					}
                 }
+
+				UpdateSubscription();
             }
             else
             {
@@ -87,7 +106,13 @@ namespace MeditSolution
         }
 
         public static Action<string> PostSuccessFacebookAction { get; set; }
+		public static bool OpenReminders = false;
 
-
+		async void UpdateSubscription()
+		{
+			var subscriptionStore = new SubscriptionStore();
+			await subscriptionStore.CheckAndUpdateSubscriptionStatus();
+			subscriptionStore.Dispose();
+		}
     }
 }

@@ -29,7 +29,7 @@ namespace MeditSolution.PageModels
                 
 				Header = TabMeditationModel.Title;
 				Description = Settings.DeviceLanguage == "English" ? TabMeditationModel.Program.Description_EN : TabMeditationModel.Program.Description;
-				CoverPicture = TabMeditationModel.Program.Cover;
+				CoverPicture = Constants.FileUrl + "files" + TabMeditationModel.Program.Cover;
                 
 				ChangeNavigationBackgroundColor(Color.FromHex(TabMeditationModel.Tint.Substring(1)));
 
