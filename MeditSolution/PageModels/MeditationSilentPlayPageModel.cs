@@ -1,14 +1,19 @@
 ﻿using System;
 using Xamarin.Forms;
 using MeditSolution.Resources;
+using MeditSolution.Models;
 
 namespace MeditSolution.PageModels
 {
     public class MeditationSilentPlayPageModel : BasePageModel
     {
         public double Progress { get; set; }
-        public string TimerText { get; set; }
-        public string HeaderText { get; set; } = AppResources.silentmeditation;
+
+        private MeditationTimer _timer;
+
+        public TimeSpan TotalSeconds { get; set; }
+
+        private double step;
 
 
         public override void Init(object initData)
@@ -17,24 +22,33 @@ namespace MeditSolution.PageModels
 
             int durationInSeconds = int.Parse(initData.ToString());
 
-            TimeSpan time = TimeSpan.FromSeconds(durationInSeconds);
+            TotalSeconds = TimeSpan.FromSeconds(durationInSeconds);
 
+            _timer = new MeditationTimer(TimeSpan.FromSeconds(1), CountDown);
+            Progress = 0;
+            step = (1 / TotalSeconds.TotalSeconds);
+            _timer.Start();
 
-            Device.StartTimer(new TimeSpan(0, 0, 1), () =>
-            {
-                Progress -= 0.01;
-                // TimerText = $"00:{Progress}";
-
-                TimerText = time.ToString(@"mm\:ss");
-
-                time = time.Subtract(TimeSpan.FromSeconds(1));
-
-                return Progress >= 1 ? false : true;
-            });
         }
 
+        private void CountDown()
+        {
+            if (TotalSeconds.TotalSeconds == 0)
+            {
+                TotalSeconds = new TimeSpan(0, 0, 0, 0);
+                _timer.Stop();
+            }
+            else
+            {
+                TotalSeconds = TotalSeconds.Subtract(new TimeSpan(0, 0, 0, 1));
+                Progress = Progress + step;
+            }
+        }
         public Command PlayPauseCommand => new Command(() =>
         {
+
+            if (IsPlaying) { _timer.Stop(); }
+            else { _timer.Start(); }
             IsPlaying = !IsPlaying;
         });
 
@@ -42,5 +56,6 @@ namespace MeditSolution.PageModels
         {
             await CoreMethods.PopPageModel(true);
         });
+
     }
 }

@@ -28,8 +28,8 @@
             <ffimageloading:CachedImage x:Name="image" InputTransparent="true" Source="{Binding Image}" WidthRequest="55" HeightRequest="64" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
 
             </Grid>
-                
-            <Label Text="{Binding TimerText}" Grid.Row="2" FontFamily="SFUIText-Regular" FontSize="18" TextColor="{StaticResource primary}" VerticalOptions="Start" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+            <Label Text="{Binding TotalSeconds, StringFormat='{0:mm\\:ss}'}" Grid.Row="2" FontFamily="SFUIText-Regular" FontSize="18" TextColor="{StaticResource primary}" VerticalOptions="Start" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+           
         </Grid>
         
     </ContentView.Content>

@@ -1,0 +1,3 @@
+<fr-FR>
+Première version
+</fr-FR>

@@ -19,7 +19,7 @@ namespace MeditSolution.PageModels
 
         string email;
         [PropertyChanged.DoNotNotify]
-        public string Email { get{ return email; } set { email = value; ValidateCredentials(); } }
+        public string Email { get { return email; } set { email = value; ValidateCredentials(); } }
 
         string password;
         [PropertyChanged.DoNotNotify]
@@ -33,37 +33,38 @@ namespace MeditSolution.PageModels
         {
             App.PostSuccessFacebookAction = token =>
             {
-                
+
             };
         }
 
-		public override void Init(object initData)
-		{
+        public override void Init(object initData)
+        {
             base.Init(initData);
 
-            if(initData is bool)
+            if (initData is bool)
             {
-                if(((bool)initData))
+                if (((bool)initData))
                 {
                     // login
-					Title = AppResources.login;
-					ButtonText = AppResources.login;
+                    Title = AppResources.login;
+                    ButtonText = AppResources.login;
                     IsSignUp = false;
                 }
                 else
                 {
                     //signup
-					Title = AppResources.register;
-					ButtonText = AppResources.completeregister;
+                    Title = AppResources.register;
+                    ButtonText = AppResources.completeregister;
                     IsSignUp = true;
                 }
             }
-		}
+        }
 
-        public Command LoginCommand => new Command(async() =>
+        public Command LoginCommand => new Command(async () =>
         {
-            if(ValidateCredentials())
+            if (ValidateCredentials())
             {
+
 				IsLoading = true;
 
 				if (IsSignUp)
@@ -119,6 +120,7 @@ namespace MeditSolution.PageModels
 
 				IsLoading = false;
             }           
+
         });
 
 
@@ -131,7 +133,7 @@ namespace MeditSolution.PageModels
             else
                 isEmail = false;
 
-            if(IsSignUp)
+            if (IsSignUp)
             {
                 if (!string.IsNullOrWhiteSpace(Password) && !string.IsNullOrWhiteSpace(ConfirmPassword) && Password == ConfirmPassword && isEmail)
                 {
@@ -149,22 +151,32 @@ namespace MeditSolution.PageModels
                     return true;
                 }
                 else
-                    ButtonColor = "#d9d9d9";  
+                    ButtonColor = "#d9d9d9";
             }
 
             return false;
         }
 
-		public Command CloseCommand => new Command(async() =>
+        public Command CloseCommand => new Command(async () =>
         {
-            await CoreMethods.PopPageModel(true,Device.RuntimePlatform == Device.iOS);
+            await CoreMethods.PopPageModel(true, Device.RuntimePlatform == Device.iOS);
         });
 
+<<<<<<< HEAD
 		async void UpdateSubscription()
         {
             var subscriptionStore = new SubscriptionStore();
             await subscriptionStore.CheckAndUpdateSubscriptionStatus();
             subscriptionStore.Dispose();
         }
+=======
+        public Command ForgotCommand => new Command(async () =>
+        {
+            await CoreMethods.PushPageModel<ForgotPasswordPageModel>(Email, true);
+        });
+
+
+
+>>>>>>> origin/development
     }
 }

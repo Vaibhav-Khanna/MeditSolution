@@ -38,7 +38,7 @@
 
                 <StackLayout Spacing="40" Grid.Row="2">
 
-                    <Label Text="{Binding TimerText}"  FontFamily="SFUIText-Regular" FontSize="18" TextColor="{StaticResource primary}" VerticalOptions="Start" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+                    <Label Text="{Binding TotalSeconds, StringFormat='{0:mm\\:ss}'}"  FontFamily="SFUIText-Regular" FontSize="18" TextColor="{StaticResource primary}" VerticalOptions="Start" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
 
                 <Grid>
                     
