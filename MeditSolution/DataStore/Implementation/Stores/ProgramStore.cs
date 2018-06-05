@@ -14,6 +14,7 @@ namespace MeditSolution.DataStore.Implementation.Stores
 		{
 
 			var uri = new Uri(string.Format(Constants.RestUrl + Type + "/" + id + "/pay" + "?" + Auth));
+
 			try
 			{
 				var json = JsonConvert.SerializeObject(item);
@@ -30,6 +31,7 @@ namespace MeditSolution.DataStore.Implementation.Stores
 			}
 			catch (Exception)
 			{
+				
 			}
 
 			return null;
