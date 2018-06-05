@@ -1,5 +1,9 @@
 ﻿using System;
+using MeditSolution.Models.DataObjects;
 using Xamarin.Forms;
+using MeditSolution.Helpers;
+using MeditSolution.PageModels;
+using MeditSolution.Resources;
 
 namespace MeditSolution.Models
 {
@@ -7,14 +11,83 @@ namespace MeditSolution.Models
     public class CatalogueProgramModel
     {
 
-		public CatalogueProgramModel(string TintColor)
+		public CatalogueProgramModel(TabMeditationModel model, Meditation meditation)
 		{
-			Tint = TintColor;
+			Model = model;
+			Meditation = meditation;
+			Tint = model.Tint;
+			Title = (meditation.Length.HasValue ? meditation.Length.Value / 60 : 0) + " min";
+            
+
+			int seanceCount = 0;
+
+			if (meditation.Level1FrWoman != null)
+				seanceCount += 1;
+			if (meditation.Level2FrWoman != null)
+				seanceCount += 1;
+			if (meditation.Level3FrWoman != null)
+				seanceCount += 1;
+
+			SubTitle = seanceCount + (  " " + AppResources.seances);
+
+			var user = new BasePageModel().StoreManager.UserStore.User;
+
+			if(model.Program.IsTraining == true || model.Program.IsInitiation == true)
+			{
+				IsEnabled = true;
+			}
+			else if(model.Program.AvailableWithSubscription == true)
+			{
+				if (user.Subscription == SubscriptionType.free)
+				{
+					IsEnabled = false;
+				}
+				else
+					IsEnabled = true;
+			}
+			else
+			{
+				if (user.Subscription == SubscriptionType.free)
+				{
+					IsEnabled = false;
+				}
+				else
+				{
+					if (model.Program.Price > 0)
+					{
+						if (user.PaidPrograms != null)
+						{
+							foreach (var item in user.PaidPrograms)
+							{
+								if (item.Id == model.Program.Id)
+								{
+									IsEnabled = true;
+									break;
+								}
+								else
+								{
+									IsEnabled = false;
+								}
+							}
+						}
+						else
+							IsEnabled = false;
+					}
+					else if (model.Program.Price == 0)
+					{
+						IsEnabled = true;
+					}
+				}
+			}
 		}
+       
+		public Meditation Meditation { get; set; }
 
-		public string Title { get; set; } = "10 min";
+		public TabMeditationModel Model { get; set; }
 
-		public string SubTitle { get; set; } = "4 seances";    
+		public string Title { get; set; }
+
+		public string SubTitle { get; set; }    
 
 		public bool IsEnabled { get; set; }
 

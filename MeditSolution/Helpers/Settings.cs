@@ -29,6 +29,7 @@ namespace MeditSolution.Helpers
 	    private const string TokenExpirationKey = "TokenExpiration";
 	    private const string UserKey = "User";
 	    private const string LanguageKey = "Language";
+		private const string VoiceLanguageKey = "VoiceLanguage";
 	    private const string VoiceKey = "Voice";
         private const string ReminderUniqueKey = "ReminderUniqueKey";
 		private const string ReminderStorageKey = "ReminderStorageKey";
@@ -60,11 +61,17 @@ namespace MeditSolution.Helpers
 	        set { AppSettings.AddOrUpdateValue(UserKey, value); }
 	    }
 
-	    public static string Language
+	    public static string DeviceLanguage
         {
 	        get { return AppSettings.GetValueOrDefault(LanguageKey, stringDefault); }
 	        set { AppSettings.AddOrUpdateValue(LanguageKey, value); }
 	    }
+
+		public static string Language
+        {
+			get { return AppSettings.GetValueOrDefault(VoiceLanguageKey, stringDefault); }
+			set { AppSettings.AddOrUpdateValue(VoiceLanguageKey, value); }
+        }
 
 	    public static string Voice
         {

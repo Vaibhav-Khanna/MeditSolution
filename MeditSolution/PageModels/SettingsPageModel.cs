@@ -1,6 +1,6 @@
 ﻿using System;
 using Xamarin.Forms;
-
+using MeditSolution.Resources;
 using MeditSolution.Models.Abstract;
 
 namespace MeditSolution.PageModels
@@ -11,7 +11,7 @@ namespace MeditSolution.PageModels
 		public bool? DefaultLanguageEnglish { get; set; }
 		public bool? DefaultGenderMan { get; set; }
 		public bool IsPresenterPage { get; set; } = false;
-		public string Title { get; set; } = "Paramètres";
+		public string Title { get; set; } = AppResources.settings;
 
 
 		public override void Init(object initData)
@@ -23,10 +23,10 @@ namespace MeditSolution.PageModels
 				IsPresenterPage = (bool)initData;
 
 				if (IsPresenterPage)
-					Title = "Votre Préférence";
+					Title = AppResources.yoursetting;
 				else
 				{
-					Title = "Paramètres";
+					Title = AppResources.settings;
 					DefaultLanguageEnglish = false;
 					DefaultGenderMan = false;
 				}

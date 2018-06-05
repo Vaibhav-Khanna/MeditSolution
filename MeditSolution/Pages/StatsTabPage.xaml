@@ -5,16 +5,23 @@
     x:Class="MeditSolution.Pages.StatsTabPage"
     xmlns:skia="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
     xmlns:base="clr-namespace:MeditSolution.Pages;assembly=MeditSolution"
+    xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms" 
     xmlns:controls="clr-namespace:MeditSolution.Controls;assembly=MeditSolution"
-    Title="Mes Stats">
+    xmlns:resources="clr-namespace:MeditSolution"
+    Title="{resources:Translate tab3}">
     <base:BasePage.Content>
-        <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
-            <StackLayout Padding="12,18,12,18" Orientation="Vertical" VerticalOptions="FillAndExpand">
 
-                <Image Source="congrats.png" WidthRequest="52" HeightRequest="90" HorizontalOptions="Center" VerticalOptions="Start" />
-                <Label Text="John Doe" FontFamily="SFUIText-Medium" FontSize="18" FontAttributes="None" TextColor="#4A4A4A" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
-                <Label Text="Évolution 2" FontFamily="SFUIText-Light" FontSize="14" FontAttributes="None" TextColor="#9B9B9B" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
-                <Label Text="10h ou 20 jours avant la prochaine évolution" FontFamily="SFUIText-Medium" FontSize="12" FontAttributes="None" TextColor="#50E3C2" Margin="0,15,0,20" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+        <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand" >
+
+            <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand">
+
+           
+            <StackLayout IsVisible="{Binding IsLoading,Converter={StaticResource BoolNegate}}" Padding="12,18,12,18" Orientation="Vertical" VerticalOptions="FillAndExpand">
+
+                <Image Source="{Binding Icon}" WidthRequest="52" HeightRequest="90" HorizontalOptions="Center" VerticalOptions="Start" />
+                <Label Text="{Binding Name}" FontFamily="SFUIText-Medium" FontSize="18" FontAttributes="None" TextColor="#4A4A4A" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+                <Label Text="{Binding Evolution}" FontFamily="SFUIText-Light" FontSize="14" FontAttributes="None" TextColor="#9B9B9B" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+                <Label Text="" FontFamily="SFUIText-Medium" FontSize="12" FontAttributes="None" TextColor="#50E3C2" Margin="0,15,0,20" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
 
                 <BoxView HorizontalOptions="FillAndExpand" Margin="0,0,0,16" HeightRequest="0.5" Color="#979797" />
 
@@ -22,8 +29,8 @@
                     <controls:RoundedBoxView HeightRequest="150" WidthRequest="150" BackgroundColor="#ffffff" CornerRadius="75" BorderThickness="1" HorizontalOptions="Center" BorderColor="#d9d9d9" />           
                     <StackLayout Spacing="4" TranslationY="-10" Orientation="Vertical">
                         <Image Source="statyoga.png" VerticalOptions="EndAndExpand" HorizontalOptions="Center" WidthRequest="28" HeightRequest="28" />
-                        <Label Text="8h45min" FontFamily="SFUIText-Bold" FontSize="24" FontAttributes="Bold" TextColor="{StaticResource primary}" HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center" />
-                        <Label Text="Heures méditées" FontFamily="SFUIText-Regular" FontSize="14" FontAttributes="None" TextColor="#656565" HorizontalOptions="Center" VerticalOptions="StartAndExpand" HorizontalTextAlignment="Center" />
+                        <Label Text="{Binding MeditationTime}" FontFamily="SFUIText-Bold" FontSize="24" FontAttributes="Bold" TextColor="{StaticResource primary}" HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center" />
+                        <Label Text="{resources:Translate hourmeditated}" FontFamily="SFUIText-Regular" FontSize="14" FontAttributes="None" TextColor="#656565" HorizontalOptions="Center" VerticalOptions="StartAndExpand" HorizontalTextAlignment="Center" />
                     </StackLayout>
                 </Grid>
 
@@ -38,11 +45,11 @@
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-                     <Label Text="JOURS D’ACTIVITES CONSECUTIFS" Margin="0,20,0,25" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0" FontFamily="SFUIText-Regular" FontSize="14" FontAttributes="None" TextColor="#FF656565" HorizontalOptions="Center" HorizontalTextAlignment="Center" />  
-                     <Label Text="En ce moment"  Grid.Row="1" Grid.Column="0" FontFamily="SFUIText" FontSize="12" FontAttributes="None"  TextColor="#FF9B9B9B" HorizontalTextAlignment="Center" />
-                     <Label Text="Meilleure série" Grid.Row="1" Grid.Column="1" FontFamily="SFUIText" FontSize="12" FontAttributes="None"  TextColor="#FF9B9B9B" HorizontalTextAlignment="Center"/>
-                     <Label Text="5" Grid.Row="2" Margin="0,0,0,20"  FontFamily="SFUIText" FontSize="28" FontAttributes="Bold" TextColor="#FF50E3C2" HorizontalTextAlignment="Center" />
-                     <Label Text="15" Grid.Row="2" Margin="0,0,0,20" Grid.Column="1" FontFamily="SFUIText" FontSize="28" FontAttributes="Bold" TextColor="#FF50E3C2" HorizontalTextAlignment="Center" />
+                     <Label Text="{resources:Translate continousactivity}" Margin="0,20,0,25" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0" FontFamily="SFUIText-Regular" FontSize="14" FontAttributes="None" TextColor="#FF656565" HorizontalOptions="Center" HorizontalTextAlignment="Center" />  
+                     <Label Text="{resources:Translate atmoment}"  Grid.Row="1" Grid.Column="0" FontFamily="SFUIText" FontSize="12" FontAttributes="None"  TextColor="#FF9B9B9B" HorizontalTextAlignment="Center" />
+                     <Label Text="{resources:Translate maximum}" Grid.Row="1" Grid.Column="1" FontFamily="SFUIText" FontSize="12" FontAttributes="None"  TextColor="#FF9B9B9B" HorizontalTextAlignment="Center"/>
+                     <Label Text="{Binding CurrentMax}" Grid.Row="2" Margin="0,0,0,20"  FontFamily="SFUIText" FontSize="28" FontAttributes="Bold" TextColor="#FF50E3C2" HorizontalTextAlignment="Center" />
+                     <Label Text="{Binding RecordMax}" Grid.Row="2" Margin="0,0,0,20" Grid.Column="1" FontFamily="SFUIText" FontSize="28" FontAttributes="Bold" TextColor="#FF50E3C2" HorizontalTextAlignment="Center" />
                      <skia:SKCanvasView x:Name="canvasView"
                            PaintSurface="Handle_PaintSurface"
                            Grid.Row="0"                        
@@ -53,6 +60,23 @@
             
                 
             </StackLayout>
+
+             <forms:AnimationView 
+    x:Name="animationView" 
+    Animation="animation3.json" 
+    Loop="true"
+    IsVisible="{Binding IsLoading}"
+    Scale="1.8"
+    AutoPlay="true" 
+    HeightRequest="80"
+    Margin="0"
+    WidthRequest="80"
+    HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+            />
+                
+            </StackLayout>
+
+            
         </ScrollView>
     </base:BasePage.Content>
 </base:BasePage>

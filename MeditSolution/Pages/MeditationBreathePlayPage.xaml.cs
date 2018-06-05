@@ -24,6 +24,12 @@ namespace MeditSolution.Pages
             InitializeComponent();
         }
 
+        protected override bool OnBackButtonPressed()
+        {
+            (BindingContext as MeditationBreathePlayPageModel).CloseCommand.Execute(null);
+            return true;
+        }
+
         protected override void OnBindingContextChanged()
         {
             base.OnBindingContextChanged();
@@ -34,10 +40,12 @@ namespace MeditSolution.Pages
                 Model.IsPlaying = false;
                 PlayAnimation();
             }
+
+
             else
             {
-                if(Model!=null)
-                Model.Duration = 0;
+                if (Model != null)
+                    Model.Duration = 0;
             }
         }
 
@@ -46,24 +54,24 @@ namespace MeditSolution.Pages
             if (!Stop)
             {
                 await expand.ScaleTo(0.4, Convert.ToUInt32(Model.CycleDuration / 2) * 1000, Easing.CubicInOut);
-				Vibration.Vibrate();
+                Vibration.Vibrate();
             }
             else
             {
                 await Task.Delay(200);
             }
-            
+
             if (!Stop)
             {
                 await expand.ScaleTo(1, Convert.ToUInt32(Model.CycleDuration / 2) * 1000, Easing.CubicInOut);
-				Vibration.Vibrate();
+                Vibration.Vibrate();
             }
             else
             {
                 await Task.Delay(200);
             }
-            
-            if (Model.Duration != 0)
+
+            if (Model.TotalSeconds.TotalSeconds != 0)
                 PlayAnimation();
         }
 
@@ -72,27 +80,27 @@ namespace MeditSolution.Pages
         {
             if (isAnimating)
                 return;
-            
+
             isAnimating = true;
-            
+
             if (Model.IsPlaying)
             {
                 image.TranslationX = 0;
                 Stop = false;
-				Vibration.Vibrate();
+                Vibration.Vibrate();
             }
             else
             {
                 image.TranslationX = 4;
                 Stop = true;
-				Vibration.Vibrate();
+                Vibration.Vibrate();
             }
-                       
+
             image.ScaleTo(0.7, 150, Easing.CubicOut);
             await boxView.ScaleTo(0.7, 150, Easing.CubicOut);
 
             image.ScaleTo(1, 150, Easing.CubicOut);
-            await boxView.ScaleTo(1, 150, Easing.CubicOut);      
+            await boxView.ScaleTo(1, 150, Easing.CubicOut);
 
             isAnimating = false;
         }

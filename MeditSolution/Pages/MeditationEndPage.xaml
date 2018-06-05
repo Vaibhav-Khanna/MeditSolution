@@ -3,6 +3,7 @@
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:base="clr-namespace:MeditSolution.Pages;assembly=MeditSolution"
+    xmlns:resources="clr-namespace:MeditSolution"
     x:Class="MeditSolution.Pages.MeditationEndPage">
     <base:BasePage.Content>
         <Grid VerticalOptions="FillAndExpand" Padding="23,0,23,30" RowSpacing="13">

@@ -5,12 +5,14 @@
     x:Class="MeditSolution.Pages.CatalogueDetailPage"
     xmlns:base="clr-namespace:MeditSolution.Pages;assembly=MeditSolution"
     xmlns:controls="clr-namespace:MeditSolution.Controls;assembly=MeditSolution"
+    xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms" 
     xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
     xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
     Title="Programmes">
     <base:BasePage.Content>
 
-            <flv:FlowListView FlowColumnCount="2" SeparatorVisibility="None" HasUnevenRows="true"
+        <StackLayout Orientation="Vertical">
+            <flv:FlowListView IsVisible="{Binding IsLoading,Converter={StaticResource BoolNegate}}" FlowColumnCount="2" SeparatorVisibility="None" HasUnevenRows="true"
                               FlowItemTappedCommand="{Binding ProgramCommand}"
                               FlowItemsSource="{Binding Programs}" >
 
@@ -21,10 +23,10 @@
                             <RowDefinition Height="Auto"/>
                         </Grid.RowDefinitions>
 
-                        <controls:RoundedBoxView Grid.Row="0" HeightRequest="130" WidthRequest="130" BackgroundColor="{Binding BackColor}" CornerRadius="65" BorderThickness="1" BorderColor="{Binding BorderColor}" />
+                        <controls:RoundedBoxView Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="130" WidthRequest="130" BackgroundColor="{Binding BackColor}" CornerRadius="65" BorderThickness="1" BorderColor="{Binding BorderColor}" />
                         <StackLayout Padding="5,40,5,0" Orientation="Vertical">
-                            <Label Text="{Binding Title}" TextColor="{Binding TextColor}" FontFamily="SFUIText-Semibold" FontAttributes="Bold" FontSize="24" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
-                            <Label Text="{Binding SubTitle}" TextColor="{Binding TextColor}" FontFamily="SFUIText-Regular" FontSize="14" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center"/>
+                            <Label Text="{Binding Title}" TextColor="{Binding TextColor}" FontFamily="SFUIText-Semibold" FontAttributes="Bold" FontSize="24" HorizontalOptions="CenterAndExpand" LineBreakMode="TailTruncation" HorizontalTextAlignment="Center" />
+                            <Label Text="{Binding SubTitle}" TextColor="{Binding TextColor}" FontFamily="SFUIText-Regular" FontSize="14" HorizontalOptions="CenterAndExpand" LineBreakMode="TailTruncation" HorizontalTextAlignment="Center"/>
                             <ffimageloading:CachedImage Source="{Binding Image}" WidthRequest="13" HeightRequest="21" DownsampleToViewSize="true" Aspect="AspectFit" HorizontalOptions="Center" />
                         </StackLayout>
                         
@@ -46,6 +48,22 @@
                 </flv:FlowListView.Header>
                 
             </flv:FlowListView>
+
+            <forms:AnimationView 
+    x:Name="animationView" 
+    Animation="animation3.json" 
+    Loop="true"
+    IsVisible="{Binding IsLoading}"
+    Scale="1.8"
+    AutoPlay="true" 
+    HeightRequest="80"
+    Margin="0"
+    WidthRequest="80"
+    HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+            />
+            
+        </StackLayout>
+            
            
     </base:BasePage.Content>
 </base:BasePage>

@@ -2,6 +2,7 @@
 using BottomBar.XamarinForms;
 using MeditSolution.PageModels;
 using Xamarin.Forms;
+using MeditSolution.Resources;
 
 namespace MeditSolution.Controls
 {
@@ -19,12 +20,12 @@ namespace MeditSolution.Controls
 			if (Device.RuntimePlatform == Device.Android)
 				bottomBarPage.BarTextColor = (Color)Application.Current.Resources["primaryDark"];
 
-			bottomBarPage.AddTab<MeditationTabPageModel>("Méditation", "meditation.png");
-			bottomBarPage.AddTab<CatalogueTabPageModel>("Catalogue", "catalogue.png");
-			bottomBarPage.AddTab<StatsTabPageModel>("Mes stats", "stats.png");
-			var container = bottomBarPage.AddTab<PlusTabPageModel>("Plus", "plus.png");
+			bottomBarPage.AddTab<MeditationTabPageModel>(AppResources.tab1, "meditation.png");
+			bottomBarPage.AddTab<CatalogueTabPageModel>(AppResources.tab2, "catalogue.png");
+			bottomBarPage.AddTab<StatsTabPageModel>(AppResources.tab3, "stats.png");
+			var container = bottomBarPage.AddTab<PlusTabPageModel>(AppResources.tab4, "plus.png");
    
-			return new DynamicNavigationPage(bottomBarPage);
+			return (bottomBarPage);
 		}
 
     }

@@ -6,12 +6,13 @@
     x:Class="MeditSolution.Views.Cells.MeditationCell"
     Tapped="Handle_Tapped">
     <ViewCell.View>
+        
        <StackLayout HorizontalOptions="FillAndExpand" Padding="0" Margin="0">
             <StackLayout.GestureRecognizers>
                 <TapGestureRecognizer Tapped="Handle_Tapped"/>
             </StackLayout.GestureRecognizers>
         
-        <Grid Rotation="180" HorizontalOptions="Center" VerticalOptions="Center" Padding="0" Margin="0" >
+        <Grid Rotation="180" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Padding="0" Margin="0" >
             <Grid.GestureRecognizers>
                 <TapGestureRecognizer />
             </Grid.GestureRecognizers>
@@ -27,7 +28,7 @@
                         <TapGestureRecognizer Command="{Binding PlayCommand}" />
                     </Image.GestureRecognizers>
                 </Image>
-                <Label Text="{Binding Title}" TextColor="{Binding TextColor}" FontFamily="SFUIText-Semibold" LineBreakMode="TailTruncation" FontSize="18" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
+                <Label Text="{Binding Title}" TextColor="{Binding TextColor}" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Semibold" LineBreakMode="WordWrap" FontSize="18" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
                 <Image Source="{Binding IconBottom}" VerticalOptions="StartAndExpand" HorizontalOptions="Center" WidthRequest="23" HeightRequest="23" >
                      <Image.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding DownloadCommand}" />

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MeditSolution.App">
+<Application xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:converter="clr-namespace:MeditSolution.Converter;assembly=MeditSolution"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MeditSolution.App">
     <Application.Resources>
         <!-- Application resource dictionary -->
          <ResourceDictionary>
@@ -20,6 +22,8 @@
          <Color x:Key="primaryDark">#00b092</Color>
          <Color x:Key="primaryBlue">#1facff</Color>
 
+         <converter:BooleanNegateConverter x:Key="BoolNegate" />
+            
         </ResourceDictionary>
     </Application.Resources>
 </Application>

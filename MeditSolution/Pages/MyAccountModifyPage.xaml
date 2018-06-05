@@ -5,25 +5,27 @@
     xmlns:base="clr-namespace:MeditSolution.Pages;assembly=MeditSolution"
     x:Class="MeditSolution.Pages.MyAccountModifyPage"
     xmlns:effect="clr-namespace:MeditSolution.Effects;assembly=MeditSolution"
-    Title="Modifier">
+    xmlns:resources="clr-namespace:MeditSolution"
+    Title="{resources:Translate edit}">
     <base:BasePage.ToolbarItems>
-        <ToolbarItem Text="Enregistrer" Command="{Binding SaveCommand}" />
+        <ToolbarItem Text="{resources:Translate save}" Command="{Binding SaveCommand}" />
     </base:BasePage.ToolbarItems>
     <base:BasePage.Content>
         
         <StackLayout Padding="20,30,20,30" Spacing="14" Orientation="Vertical">
             
-             <Entry IsEnabled="{Binding IsLoading}"  Text="{Binding Email,Mode=OneWayToSource}" PlaceholderColor="#9dacb6" FontSize="14" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Light" Keyboard="Email" TextColor="Gray" Placeholder="Votre email" HeightRequest="45" >
+            <!-- <Entry IsEnabled="{Binding IsLoading}"  Text="{Binding Email,Mode=OneWayToSource}" PlaceholderColor="#9dacb6" FontSize="14" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Light" Keyboard="Email" TextColor="Gray" Placeholder="{resources:Translate youremail}" HeightRequest="45" >
                         <Entry.Effects>
                             <effect:BorderEntryEffect/>
                         </Entry.Effects>
-                    </Entry>
-                    <Entry IsEnabled="{Binding IsLoading}"  Text="{Binding Password,Mode=OneWayToSource}" PlaceholderColor="#9dacb6" FontSize="14" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Light" IsPassword="true" TextColor="Gray" Placeholder="Nouveau mot de passe" HeightRequest="45" >
+                    </Entry>-->
+            
+                    <Entry  Text="{Binding Password,Mode=OneWayToSource}" PlaceholderColor="#9dacb6" FontSize="14" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Light" IsPassword="true" TextColor="Gray" Placeholder="{resources:Translate newpassword}" HeightRequest="45" >
                          <Entry.Effects>
                             <effect:BorderEntryEffect/>
                         </Entry.Effects>
                     </Entry>
-                    <Entry IsEnabled="{Binding IsLoading}" Text="{Binding ConfirmPassword,Mode=OneWayToSource}" PlaceholderColor="#9dacb6" FontSize="14" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Light" IsPassword="true" TextColor="Gray" Placeholder="Confirmer votre mot de passe" HeightRequest="45" >
+                    <Entry  Text="{Binding ConfirmPassword,Mode=OneWayToSource}" PlaceholderColor="#9dacb6" FontSize="14" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Light" IsPassword="true" TextColor="Gray" Placeholder="{resources:Translate confirmpassword}" HeightRequest="45" >
                          <Entry.Effects>
                             <effect:BorderEntryEffect/>
                     </Entry.Effects>

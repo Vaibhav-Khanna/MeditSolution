@@ -5,7 +5,8 @@
     xmlns:base="clr-namespace:MeditSolution.Pages;assembly=MeditSolution"
     xmlns:views="clr-namespace:MeditSolution.Views;assembly=MeditSolution"
     x:Class="MeditSolution.Pages.MeditationPlayPage"
-    Title="Faire une pause">
+    xmlns:resources="clr-namespace:MeditSolution"
+    Title="{resources:Translate takebreak}">
     <base:BasePage.Content>
 
         <views:MeditationView />
