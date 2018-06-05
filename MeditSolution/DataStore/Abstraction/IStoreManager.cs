@@ -9,18 +9,19 @@ namespace MeditSolution.DataStore.Abstraction
 {
     public interface IStoreManager
     {
-	    IMeditationStore MeditationStore { get; }
-		IProgramStore ProgramStore { get; }
-		IVideoStore VideoStore { get; }
-		IUserStore UserStore { get; }
+        IMeditationStore MeditationStore { get; }
+        IProgramStore ProgramStore { get; }
+        IVideoStore VideoStore { get; }
+        IUserStore UserStore { get; }
 
-		Task<object> LoginAsync(string email,string password);
-		Task<object> RegisterAsync(string email, string password);
-		Task<bool> RequestNewPassword(ForgotPasswordRequest request);
-		Task<bool> RegenerateToken();
-        
-		Task<User> SubscribeToPremium(string id, SubscriptionPremium item);
-		Task<User> UnSubscribeToPremium(string id);
-		Task<byte[]> GetUserAvatar();
+        Task<object> LoginAsync(string email, string password);
+        void LogoutAsync();
+        Task<object> RegisterAsync(string email, string password);
+        Task<bool> RequestNewPassword(ForgotPasswordRequest request);
+        Task<bool> RegenerateToken();
+
+        Task<User> SubscribeToPremium(string id, SubscriptionPremium item);
+        Task<User> UnSubscribeToPremium(string id);
+        Task<byte[]> GetUserAvatar();
     }
 }

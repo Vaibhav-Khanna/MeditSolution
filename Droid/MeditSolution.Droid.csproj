@@ -464,6 +464,9 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\level_4.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\level_5.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\level_6.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\logout.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\logout.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\logout.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Renderers\" />

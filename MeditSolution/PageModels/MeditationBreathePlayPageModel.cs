@@ -16,7 +16,7 @@ namespace MeditSolution.PageModels
         private MeditationTimer _timer;
 
         private TimeSpan _totalSeconds;
-
+        [PropertyChanged.DoNotNotify]
         public TimeSpan TotalSeconds
         {
             get { return _totalSeconds; }

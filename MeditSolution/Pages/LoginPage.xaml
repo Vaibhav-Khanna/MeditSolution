@@ -38,7 +38,11 @@
                             <effect:BorderEntryEffect/>
                         </Entry.Effects>
                     </Entry>
-                    <Label IsVisible="{Binding IsSignUp,Converter={converter:BooleanNegateConverter}}" Text="{resources:Translate forgotpassword}" TextColor="#4a4a4a" FontSize="14" FontFamily="SFUIText-Light" Margin="0,10,0,0" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" />
+                    <Label IsVisible="{Binding IsSignUp,Converter={converter:BooleanNegateConverter}}" Text="{resources:Translate forgotpassword}" TextColor="#4a4a4a" FontSize="14" FontFamily="SFUIText-Light" Margin="0,10,0,0" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" >
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding ForgotCommand}" />
+                        </Label.GestureRecognizers>
+                    </Label>
                 </StackLayout>
 
                 <StackLayout Margin="0,30,0,0" VerticalOptions="Start">

@@ -59,6 +59,36 @@ namespace MeditSolution.Resources {
             }
         }
         
+        internal static string forgot {
+            get {
+                return ResourceManager.GetString("forgot", resourceCulture);
+            }
+        }
+        
+        internal static string forgotButton {
+            get {
+                return ResourceManager.GetString("forgotButton", resourceCulture);
+            }
+        }
+        
+        internal static string sendnewpassword {
+            get {
+                return ResourceManager.GetString("sendnewpassword", resourceCulture);
+            }
+        }
+        
+        internal static string wrongsendnewpassword {
+            get {
+                return ResourceManager.GetString("wrongsendnewpassword", resourceCulture);
+            }
+        }
+        
+        internal static string ok {
+            get {
+                return ResourceManager.GetString("ok", resourceCulture);
+            }
+        }
+        
         internal static string tutorial0 {
             get {
                 return ResourceManager.GetString("tutorial0", resourceCulture);
@@ -542,6 +572,12 @@ namespace MeditSolution.Resources {
         internal static string cgu {
             get {
                 return ResourceManager.GetString("cgu", resourceCulture);
+            }
+        }
+        
+        internal static string disconnect {
+            get {
+                return ResourceManager.GetString("disconnect", resourceCulture);
             }
         }
         

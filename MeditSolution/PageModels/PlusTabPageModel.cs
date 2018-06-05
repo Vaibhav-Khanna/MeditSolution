@@ -4,6 +4,7 @@ using MeditSolution.Models;
 using Xamarin.Forms;
 using MeditSolution.Resources;
 using Xamarin.Essentials;
+using FreshMvvm;
 
 namespace MeditSolution.PageModels
 {
@@ -26,6 +27,8 @@ namespace MeditSolution.PageModels
             Menu.Add(new MenuModel() { Text = AppResources.menureminder, Image = "rappels.png" });
             Menu.Add(new MenuModel() { Text = AppResources.videos, Image = "play.png" });
             Menu.Add(new MenuModel() { Text = AppResources.settings, Image = "settings.png" });
+            Menu.Add("");
+            Menu.Add(new MenuModel() { Text = AppResources.disconnect, Image = "logout.png" });
 
             Menu.Add("");
             Menu.Add(new MenuModel() { Text = AppResources.cgu, Image = "" });
@@ -51,6 +54,25 @@ namespace MeditSolution.PageModels
 
             if (str.ToString() == AppResources.settings)
                 await CoreMethods.PushPageModel<SettingsPageModel>(data: false);
+
+            if (str.ToString() == AppResources.disconnect)
+            {
+                var response = await CoreMethods.DisplayAlert("Déconnexion", "Voulez-vous continuer ?", "Oui", "Annuler");
+
+                if (response)
+                {
+                    StoreManager.LogoutAsync();
+
+                    Xamarin.Forms.Device.BeginInvokeOnMainThread(() =>
+                    {
+                        var page = FreshPageModelResolver.ResolvePageModel<TutorialPageModel>();
+                        Application.Current.MainPage = new FreshNavigationContainer(page);
+                    });
+                }
+
+
+            }
+
 
             if (str.ToString() == AppResources.menureminder)
                 await CoreMethods.PushPageModel<RemindersPageModel>();

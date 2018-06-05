@@ -18,7 +18,7 @@ namespace MeditSolution.PageModels
 
         string email;
         [PropertyChanged.DoNotNotify]
-        public string Email { get{ return email; } set { email = value; ValidateCredentials(); } }
+        public string Email { get { return email; } set { email = value; ValidateCredentials(); } }
 
         string password;
         [PropertyChanged.DoNotNotify]
@@ -32,90 +32,90 @@ namespace MeditSolution.PageModels
         {
             App.PostSuccessFacebookAction = token =>
             {
-                
+
             };
         }
 
-		public override void Init(object initData)
-		{
+        public override void Init(object initData)
+        {
             base.Init(initData);
 
-            if(initData is bool)
+            if (initData is bool)
             {
-                if(((bool)initData))
+                if (((bool)initData))
                 {
                     // login
-					Title = AppResources.login;
-					ButtonText = AppResources.login;
+                    Title = AppResources.login;
+                    ButtonText = AppResources.login;
                     IsSignUp = false;
                 }
                 else
                 {
                     //signup
-					Title = AppResources.register;
-					ButtonText = AppResources.completeregister;
+                    Title = AppResources.register;
+                    ButtonText = AppResources.completeregister;
                     IsSignUp = true;
                 }
             }
-		}
+        }
 
-        public Command LoginCommand => new Command(async() =>
+        public Command LoginCommand => new Command(async () =>
         {
-            if(ValidateCredentials())
+            if (ValidateCredentials())
             {
-				IsLoading = true;
+                IsLoading = true;
 
-				if (IsSignUp)
-				{
-					Dialog.ShowLoading();
+                if (IsSignUp)
+                {
+                    Dialog.ShowLoading();
 
-					var response = await StoreManager.RegisterAsync(Email, Password);
+                    var response = await StoreManager.RegisterAsync(Email, Password);
 
-					if(response!=null && response is TokenResponse)
-						await StoreManager.UserStore.GetCurrentUser();
-					
-					Dialog.HideLoading();
+                    if (response != null && response is TokenResponse)
+                        await StoreManager.UserStore.GetCurrentUser();
 
-					if(response!=null)
-					{
-						if (response is string)
-						{
-							await ToastService.Show(AppResources.accountexists);
-						}
-						else
-						{							
-							await CoreMethods.PopPageModel(true);
-							await CoreMethods.PushPageModel<ChatPageModel>();
-						}
-					}
-					else
-					{
-						await ToastService.Show(AppResources.erroraccountcreate);
-					}
-				}
-				else
-				{
-					Dialog.ShowLoading();
+                    Dialog.HideLoading();
 
-					var response = await StoreManager.LoginAsync(Email, Password);
+                    if (response != null)
+                    {
+                        if (response is string)
+                        {
+                            await ToastService.Show(AppResources.accountexists);
+                        }
+                        else
+                        {
+                            await CoreMethods.PopPageModel(true);
+                            await CoreMethods.PushPageModel<ChatPageModel>();
+                        }
+                    }
+                    else
+                    {
+                        await ToastService.Show(AppResources.erroraccountcreate);
+                    }
+                }
+                else
+                {
+                    Dialog.ShowLoading();
 
-					if(response!=null)
-						 await StoreManager.UserStore.GetCurrentUser();
+                    var response = await StoreManager.LoginAsync(Email, Password);
 
-					Dialog.HideLoading();
+                    if (response != null)
+                        await StoreManager.UserStore.GetCurrentUser();
 
-					if (response != null)
-					{
-						Application.Current.MainPage = TabNavigator.GenerateTabPage();
-					}
-					else
-					{
-						await ToastService.Show(AppResources.incorrectcombo);
-					}
-				}
+                    Dialog.HideLoading();
 
-				IsLoading = false;
-            }           
+                    if (response != null)
+                    {
+                        Application.Current.MainPage = TabNavigator.GenerateTabPage();
+                    }
+                    else
+                    {
+                        await ToastService.Show(AppResources.incorrectcombo);
+                    }
+                }
+
+                IsLoading = false;
+            }
         });
 
 
@@ -128,7 +128,7 @@ namespace MeditSolution.PageModels
             else
                 isEmail = false;
 
-            if(IsSignUp)
+            if (IsSignUp)
             {
                 if (!string.IsNullOrWhiteSpace(Password) && !string.IsNullOrWhiteSpace(ConfirmPassword) && Password == ConfirmPassword && isEmail)
                 {
@@ -146,16 +146,23 @@ namespace MeditSolution.PageModels
                     return true;
                 }
                 else
-                    ButtonColor = "#d9d9d9";  
+                    ButtonColor = "#d9d9d9";
             }
 
             return false;
         }
 
-		public Command CloseCommand => new Command(async() =>
+        public Command CloseCommand => new Command(async () =>
         {
-            await CoreMethods.PopPageModel(true,Device.RuntimePlatform == Device.iOS);
+            await CoreMethods.PopPageModel(true, Device.RuntimePlatform == Device.iOS);
         });
+
+        public Command ForgotCommand => new Command(async () =>
+        {
+            await CoreMethods.PushPageModel<ForgotPasswordPageModel>(Email, true);
+        });
+
+
 
     }
 }
