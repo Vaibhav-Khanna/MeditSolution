@@ -32,8 +32,7 @@ namespace MeditSolution.Models
 					break;
 				default:
 					break;
-			}
-           
+			} 
 		}
 
 		public Meditation Meditation { get; set; }
@@ -54,26 +53,39 @@ namespace MeditSolution.Models
 
 		public bool IsDownloaded { get; set; }
 
+		public string PlayTint { get { return IsDownloaded ? Tint : White; } }
+
 		public string BorderColor { get { return IsLocked ? Grey : Tint; } }
 
 		public string FillColor { get { return IsLocked ? White : IsDownloaded ? White : Tint; } }
 
 		public string TextColor { get { return IsLocked ? Grey : IsDownloaded ? Grey : White; } }
      
-		public string IconTop { get { return IsLocked ? "locked.png" : IsDownloaded ? "playgreen.png" : "playwhite.png"; } }
+		public string IconTop { get { return IsLocked ? "locked.png" : "playgreen.png"; } }
 
 		public string IconBottom { get { return IsLocked ? "cloud.png" : IsDownloaded ? "cloud.png" : "cloudcheck.png"; } }
-
-
+                
 
 		public Command PlayCommand => new Command(async() =>
 		{
-			await Model.CoreMethods.PushPageModel<SettingsPageModel>(data:true);
+			if(!IsLocked)
+			{
+				if (string.IsNullOrEmpty(Settings.Language))
+					await Model.CoreMethods.PushPageModel<SettingsPageModel>(data: this);
+				else
+				{
+					if (Level != 4)
+						await Model.CoreMethods.PushPageModel<MeditationPlayPageModel>(this, animate: false);
+					else
+						await Model.CoreMethods.PushPageModel<MeditationSilentPlayPageModel>(this, modal: true);
+				}
+			}	
 		});
+
 
 		public Command DownloadCommand => new Command(() =>
         {
-			IsDownloaded = !IsDownloaded;
+			
         });
         
 	}

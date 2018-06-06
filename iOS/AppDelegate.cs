@@ -12,6 +12,8 @@ using Syncfusion.SfPicker.XForms.iOS;
 using UIKit;
 using Xamarin.Forms.Platform.iOS;
 using Xamarin.Essentials;
+using Plugin.CrossPlatformTintedImage.iOS;
+using Plugin.MediaManager;
 
 namespace MeditSolution.iOS
 {
@@ -26,6 +28,8 @@ namespace MeditSolution.iOS
 			Rox.VideoIos.Init();
             	
             global::Xamarin.Forms.Forms.Init();        
+
+			TintedImageRenderer.Init();
 
 			ProgressRingRenderer.Init();
 
@@ -66,7 +70,18 @@ namespace MeditSolution.iOS
         {  
             //return base.OpenUrl(application, url, sourceApplication, annotation);  
             return ApplicationDelegate.SharedInstance.OpenUrl(application, url, sourceApplication, annotation);  
-        }  
+        }
+    }
 
+
+	[Register("MeditSolutionForm")]
+    public class MediaFormsApplication : UIApplication
+    {
+        private MediaManagerImplementation MediaManager => (MediaManagerImplementation)CrossMediaManager.Current;
+
+        public override void RemoteControlReceived(UIEvent theEvent)
+        {
+            MediaManager.MediaRemoteControl.RemoteControlReceived(theEvent);
+        }
     }
 }

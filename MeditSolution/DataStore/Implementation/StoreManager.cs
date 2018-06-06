@@ -69,11 +69,11 @@ namespace MeditSolution.DataStore.Implementation
 
         public void LogoutAsync()
         {
-
             Settings.Token = string.Empty;
-            Settings.User = null;
+			Settings.User = string.Empty;
             Settings.IsLoggedIn = false;
-
+			Settings.Language = "";
+			Settings.Voice = "";
         }
 
         public async Task<bool> RegenerateToken()

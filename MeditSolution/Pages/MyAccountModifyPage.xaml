@@ -4,6 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     xmlns:base="clr-namespace:MeditSolution.Pages;assembly=MeditSolution"
     x:Class="MeditSolution.Pages.MyAccountModifyPage"
+    xmlns:controls="clr-namespace:MeditSolution.Controls;assembly=MeditSolution"
     xmlns:effect="clr-namespace:MeditSolution.Effects;assembly=MeditSolution"
     xmlns:resources="clr-namespace:MeditSolution"
     Title="{resources:Translate edit}">
@@ -13,23 +14,37 @@
     <base:BasePage.Content>
         
         <StackLayout Padding="20,30,20,30" Spacing="14" Orientation="Vertical">
+
+
+            <controls:CustomEntry x:Name="etname"  Text="{Binding Name,Mode=TwoWay}" PlaceholderColor="#9dacb6" FontSize="14" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Light" TextColor="Gray" Placeholder="{resources:Translate name}" HeightRequest="45" >
+                <controls:CustomEntry.Effects>
+                            <effect:BorderEntryEffect/>
+                </controls:CustomEntry.Effects>
+            </controls:CustomEntry>
+
+             <controls:CustomEntry x:Name="etlastname"  Text="{Binding LastName,Mode=TwoWay}" PlaceholderColor="#9dacb6" FontSize="14" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Light" TextColor="Gray" Placeholder="{resources:Translate lastname}" HeightRequest="45" >
+                <controls:CustomEntry.Effects>
+                            <effect:BorderEntryEffect/>
+                </controls:CustomEntry.Effects>
+            </controls:CustomEntry>
+       
+             <controls:CustomEntry  x:Name="etemail" Text="{Binding Email,Mode=TwoWay}" IsEnabled="false" PlaceholderColor="#9dacb6" FontSize="14" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Light" Keyboard="Email" TextColor="Gray" Placeholder="{resources:Translate youremail}" HeightRequest="45" >
+                <controls:CustomEntry.Effects>
+                            <effect:BorderEntryEffect/>
+                </controls:CustomEntry.Effects>
+            </controls:CustomEntry>
             
-            <!-- <Entry IsEnabled="{Binding IsLoading}"  Text="{Binding Email,Mode=OneWayToSource}" PlaceholderColor="#9dacb6" FontSize="14" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Light" Keyboard="Email" TextColor="Gray" Placeholder="{resources:Translate youremail}" HeightRequest="45" >
-                        <Entry.Effects>
+            <controls:CustomEntry x:Name="etpassword" Text="{Binding Password,Mode=OneWayToSource}" PlaceholderColor="#9dacb6" FontSize="14" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Light" IsPassword="true" TextColor="Gray" Placeholder="{resources:Translate newpassword}" HeightRequest="45" >
+                         <controls:CustomEntry.Effects>
                             <effect:BorderEntryEffect/>
-                        </Entry.Effects>
-                    </Entry>-->
-            
-                    <Entry  Text="{Binding Password,Mode=OneWayToSource}" PlaceholderColor="#9dacb6" FontSize="14" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Light" IsPassword="true" TextColor="Gray" Placeholder="{resources:Translate newpassword}" HeightRequest="45" >
-                         <Entry.Effects>
+                        </controls:CustomEntry.Effects>
+            </controls:CustomEntry>
+
+            <controls:CustomEntry x:Name="etconpass" Text="{Binding ConfirmPassword,Mode=OneWayToSource}" PlaceholderColor="#9dacb6" FontSize="14" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Light" IsPassword="true" TextColor="Gray" Placeholder="{resources:Translate confirmpassword}" HeightRequest="45" >
+                         <controls:CustomEntry.Effects>
                             <effect:BorderEntryEffect/>
-                        </Entry.Effects>
-                    </Entry>
-                    <Entry  Text="{Binding ConfirmPassword,Mode=OneWayToSource}" PlaceholderColor="#9dacb6" FontSize="14" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Light" IsPassword="true" TextColor="Gray" Placeholder="{resources:Translate confirmpassword}" HeightRequest="45" >
-                         <Entry.Effects>
-                            <effect:BorderEntryEffect/>
-                    </Entry.Effects>
-             </Entry>
+                    </controls:CustomEntry.Effects>
+            </controls:CustomEntry>
             
         </StackLayout>
     </base:BasePage.Content>

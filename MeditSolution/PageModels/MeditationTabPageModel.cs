@@ -19,16 +19,19 @@ namespace MeditSolution.PageModels
         public string Meditation { get; set; } = "";
         public string MeditationDetail { get; set; } = "";
         public string MeditationIcon { get; set; } = "";
-        public string Tint { get; set; } = "#50e3c2";
-
-
+        public string Tint { get; set; } = "#50e3c2";       
 
         public MeditationTabPageModel()
         {
             Com.OneSignal.Abstractions.IdsAvailableCallback callback = new Com.OneSignal.Abstractions.IdsAvailableCallback(HandleIdsAvailableCallback);
 
-            OneSignal.Current.IdsAvailable(callback);
+            OneSignal.Current.IdsAvailable(callback);   
         }
+
+		async void OpenReminders()
+		{
+			await CoreMethods.PushPageModel<RemindersPageModel>(animate:false);
+		}
 
         async void HandleIdsAvailableCallback(string playerID, string pushToken)
         {
@@ -39,7 +42,7 @@ namespace MeditSolution.PageModels
                 if (CurrentUser != null)
                 {
                     CurrentUser.OneSignalPushId = playerID;
-
+                    
                     var userUpdated = await StoreManager.UserStore.UpdateAsync(CurrentUser);
                 }
             }
@@ -48,17 +51,23 @@ namespace MeditSolution.PageModels
         protected override void ViewIsAppearing(object sender, EventArgs e)
         {
             base.ViewIsAppearing(sender, e);
-
+                      
             if (string.IsNullOrEmpty((user = StoreManager.UserStore.User)?.CurrentMeditationId))
             {
                 IsEmpty = true;
             }
             else
-                IsEmpty = false;
-
+				IsEmpty = false;
 
             OneSignal.Current.RegisterForPushNotifications();
+
             GetMeditation();
+
+			if (App.OpenReminders)
+            {
+                App.OpenReminders = false;
+                OpenReminders();
+            }
         }
 
 
@@ -79,53 +88,78 @@ namespace MeditSolution.PageModels
 
             if (current_meditation != null && current_program != null)
             {
+				// add it to user done meditations if not present
+				if (user.MeditationsDone == null)
+					user.MeditationsDone = new System.Collections.Generic.List<MeditationsDone>();
+
+				if (!user.MeditationsDone.Where((arg) => arg.id == current_meditation.Id).Any())
+				{
+					user.MeditationsDone.Add(new MeditationsDone(){ id = current_meditation.Id });
+				}
+
+				await StoreManager.UserStore.UpdateCurrentUser(user);
+				//
+
+				MeditationsDone current_meditation_progress = user.MeditationsDone.Where((arg) => arg.id == current_meditation.Id).First();
+
                 //Setting main meditation details show at bottom of page
                 Meditation = Settings.DeviceLanguage == "English" ? current_meditation.Label_EN : current_meditation.Label;
                 MeditationDetail = $"{(GetSeanceCount(current_meditation) + 1)} {AppResources.seances} - {current_meditation.Length / 60} min";
-                MeditationIcon = Constants.RestUrl + current_program.Icon;
+				MeditationIcon = Constants.FileUrl + "files" + current_program.Icon;
 
                 if (!string.IsNullOrEmpty(current_program.Color) && current_program.Color.Contains("#"))
                     Tint = current_program.Color;
-                //
+				//
 
                 Seances = new ObservableCollection<object>();
 
                 //LEVEL 1
                 if (current_meditation.Level1FrWoman != null)
                 {
-                    Seances.Add(new SeancesModel(current_meditation, 1) { Tint = Tint, IsDownloaded = false, IsLocked = false, Model = this });
+					Seances.Add(new SeancesModel(current_meditation, 1) { Tint = Tint, IsDownloaded = false, IsLocked = false, Model = this });
                     Seances.Add(Tint); // connecting line
                 }
 
                 if (current_meditation.Level2FrWoman != null)
                 {
-                    Seances.Add(new SeancesModel(current_meditation, 2) { Tint = Tint, IsDownloaded = false, IsLocked = false, Model = this });
+					Seances.Add(new SeancesModel(current_meditation, 2) { Tint = Tint, IsDownloaded = false, IsLocked = !current_meditation_progress.level1Done , Model = this });
                     Seances.Add(Tint); // connecting line
                 }
 
                 if (current_meditation.Level3FrWoman != null)
                 {
-                    Seances.Add(new SeancesModel(current_meditation, 3) { Tint = Tint, IsDownloaded = false, IsLocked = false, Model = this });
+					Seances.Add(new SeancesModel(current_meditation, 3) { Tint = Tint, IsDownloaded = false, IsLocked = !current_meditation_progress.level2Done, Model = this });
                     Seances.Add(Tint); // connecting line
                 }
 
                 if (Seances.Any())
                 {
-                    Seances.Add(new SeancesModel(current_meditation, 4) { Tint = Tint, IsDownloaded = false, IsLocked = false, Model = this });
-                }
+					bool islocked = true;
 
-                Seances.Add("#ffffff"); // connecting line
-                Seances.Add("#ffffff"); // connecting line
-                Seances.Add("#ffffff"); // connecting line
+					var count = GetSeanceCount(current_meditation);
+
+					if (count == 1)
+						islocked = !current_meditation_progress.level1Done;
+					if (count == 2)
+                        islocked = !current_meditation_progress.level2Done;
+					if (count == 3)
+                        islocked = !current_meditation_progress.level3Done;
+
+					Seances.Add( new SeancesModel(current_meditation, 4) { Tint = Tint, IsDownloaded = false, IsLocked = islocked, Model = this });
+     
+					Seances.Add("#ffffff"); // connecting line
+                    Seances.Add("#ffffff"); // connecting line
+                    Seances.Add("#ffffff"); // connecting line
+                }              
             }
 
             IsLoading = false;
         }
 
 
-        public Command StartCommand => new Command(() =>
-        {
-            IsEmpty = false;
+		public Command StartCommand => new Command(async() =>
+		{
+			await CoreMethods.SwitchSelectedTab<CatalogueTabPageModel>();
         });
 
         int GetSeanceCount(Meditation meditation)
@@ -141,26 +175,6 @@ namespace MeditSolution.PageModels
 
             return seanceCount;
         }
-
-
-        //MeditationFile GetMeditationFileForUser(Meditation meditation,int level)
-        //{
-        //	if (meditation == null)
-        //		return null;
-
-        //	if(level==1)
-        //	{
-
-        //	}
-        //	else if(level == 2)
-        //	{
-
-        //	}
-        //	else if(level ==3)
-        //	{
-
-        //	}
-        //}
-
+  
     }
 }

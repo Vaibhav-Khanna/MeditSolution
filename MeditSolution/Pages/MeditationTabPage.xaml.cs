@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using MeditSolution.PageModels;
 using Xamarin.Forms;
 using System.Linq;
+using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 
 namespace MeditSolution.Pages
 {
@@ -10,8 +11,11 @@ namespace MeditSolution.Pages
     {
         public MeditationTabPage()
         {
-			NavigationPage.SetHasNavigationBar(this, false);
+			Xamarin.Forms.NavigationPage.SetHasNavigationBar(this, false);
+
             InitializeComponent();         
+
+			On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);    
         }
 
 		void Handle_ItemTapped(object sender, Xamarin.Forms.ItemTappedEventArgs e)

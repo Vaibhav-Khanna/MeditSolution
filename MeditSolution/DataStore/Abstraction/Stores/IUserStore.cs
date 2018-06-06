@@ -6,10 +6,10 @@ namespace MeditSolution.DataStore.Abstraction.Stores
 {
 	public interface IUserStore : IBaseStore<User>
     {
-		User User { get; set; }
+		User User { get; }
 
 		Task<User> GetCurrentUser();
 
-		Task<User> UpdateCurrentUser();
+		Task<User> UpdateCurrentUser(User user);
     }
 }

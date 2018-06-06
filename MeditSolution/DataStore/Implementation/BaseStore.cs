@@ -51,8 +51,10 @@ namespace MeditSolution.DataStore.Implementation
 		{
 			try
 			{
-				var uri = new Uri(Constants.RestUrl + Type + "?" + Auth);
+				var parameters = "?limit=" + 50 + "&page=" + 0;
 
+				var uri = new Uri(Constants.RestUrl + Type + parameters + "&" + Auth);
+                
 				var response = await client.GetAsync(uri);
 				var content = await response.Content.ReadAsStringAsync();
 

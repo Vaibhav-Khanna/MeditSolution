@@ -377,7 +377,80 @@ However, although you can expect to get the cheapest air ticket if you start sea
     <data name="Level3" xml:space="preserve">
         <value>Slightly Guided</value>
     </data>
+
     <data name="Level4" xml:space="preserve">
         <value>Silent</value>
     </data>
+
+     <data name="name" xml:space="preserve">
+        <value>First name</value>
+    </data>
+
+     <data name="lastname" xml:space="preserve">
+        <value>Last name</value>
+    </data>
+
+
+    <data name="SubscriptionThanks" xml:space="preserve">
+        <value>Thank you for subscribing to Medit'Solutions</value>
+    </data>
+
+    <data name="SubscriptionRequired" xml:space="preserve">
+         <value>Subscription Required</value>
+     </data>
+    
+     <data name="SubscribeMessage" xml:space="preserve">
+         <value>Subscribe now to gain access to all our meditations.</value>
+     </data>
+    
+    <data name="SubscribeNow" xml:space="preserve">
+         <value>Subscribe</value>
+     </data>
+    
+    <data name="NotNow" xml:space="preserve">
+         <value>Not now</value>
+     </data>
+    
+    <data name="ErrorMessageSubscription" xml:space="preserve">
+         <value>An error occurred while carrying out the operation. Please try again in a while.</value>
+    </data>
+
+    <data name="UnsubscribeWarning" xml:space="preserve">
+    <value>To unsubscribe this subscription, you have to go to settings for the device and cancel the subscription explicitly.</value>
+  </data>
+
+   <data name="MeditationChat1" xml:space="preserve">
+    <value>Hi, Is anything playing on your mind at the moment? Do you need some help?</value>
+  </data>
+    <data name="MeditationChat2" xml:space="preserve">
+    <value>And do you know the benefits of meditating?</value>
+  </data>
+    <data name="MeditationChat3" xml:space="preserve">
+    <value>Then follow me.</value>
+  </data>
+    <data name="MeditationChat4" xml:space="preserve">
+    <value>Do you already practice?</value>
+  </data>
+    <data name="MeditationChat5" xml:space="preserve">
+    <value>Then I would like to show you the range of meditations we offer, Will you follow me?</value>
+  </data>
+    <data name="MeditationChat6" xml:space="preserve">
+    <value>Let me introduce you to some simple tools that could help you manage the ups and downs of everyday life.</value>
+  </data>
+    <data name="MeditationChat7" xml:space="preserve">
+    <value>Then I would like to show you the range of meditations we offer.</value>
+  </data>
+    <data name="MeditationChat8" xml:space="preserve">
+    <value>Do you practice regularly?</value>
+  </data>
+    <data name="MeditationChat9" xml:space="preserve">
+    <value>We can help you practice more regularly and so reap the full benefits of meditating.</value>
+  </data>
+    <data name="MeditationChat10" xml:space="preserve">
+    <value>Then I would like to show you the range of meditations we offer.</value>
+  </data>
+  <data name="ProgramPaidThanks" xml:space="preserve">
+    <value>Thank you for purchasing this program</value>
+  </data>
+    
 </root>

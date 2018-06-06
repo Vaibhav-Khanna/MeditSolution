@@ -42,7 +42,7 @@
     HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
             />
 
-                <ListView x:Name="list" ItemTemplate="{StaticResource DataTemplateSelector}" Rotation="180" IsVisible="{Binding IsLoading,Converter={converter:BooleanNegateConverter}}" ItemsSource="{Binding Seances}" ItemTapped="Handle_ItemTapped" CachingStrategy="RetainElement" HasUnevenRows="true" SeparatorVisibility="None" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" >
+                <ListView x:Name="list" ItemTemplate="{StaticResource DataTemplateSelector}" Rotation="180" IsVisible="{Binding IsLoading,Converter={converter:BooleanNegateConverter}}" ItemsSource="{Binding Seances}" ItemTapped="Handle_ItemTapped" CachingStrategy="RecycleElement" HasUnevenRows="true" SeparatorVisibility="None" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" >
                
                 <ListView.Header>
                     <StackLayout Rotation="180" x:Name="footer" Spacing="0" VerticalOptions="End" Padding="20,0,20,20" Orientation="Vertical">

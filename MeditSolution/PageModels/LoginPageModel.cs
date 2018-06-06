@@ -5,6 +5,7 @@ using MeditSolution.Helpers;
 using MeditSolution.Controls;
 using MeditSolution.Responses;
 using MeditSolution.Resources;
+using MeditSolution.DataStore.Implementation.Stores;
 
 namespace MeditSolution.PageModels
 {
@@ -63,59 +64,63 @@ namespace MeditSolution.PageModels
         {
             if (ValidateCredentials())
             {
-                IsLoading = true;
 
-                if (IsSignUp)
-                {
-                    Dialog.ShowLoading();
+				IsLoading = true;
 
-                    var response = await StoreManager.RegisterAsync(Email, Password);
+				if (IsSignUp)
+				{
+					Dialog.ShowLoading();
 
-                    if (response != null && response is TokenResponse)
-                        await StoreManager.UserStore.GetCurrentUser();
+					var response = await StoreManager.RegisterAsync(Email, Password);
 
-                    Dialog.HideLoading();
+					if(response!=null && response is TokenResponse)
+						await StoreManager.UserStore.GetCurrentUser();
+					
+					Dialog.HideLoading();
 
-                    if (response != null)
-                    {
-                        if (response is string)
-                        {
-                            await ToastService.Show(AppResources.accountexists);
-                        }
-                        else
-                        {
-                            await CoreMethods.PopPageModel(true);
-                            await CoreMethods.PushPageModel<ChatPageModel>();
-                        }
-                    }
-                    else
-                    {
-                        await ToastService.Show(AppResources.erroraccountcreate);
-                    }
-                }
-                else
-                {
-                    Dialog.ShowLoading();
+					if(response!=null)
+					{
+						if (response is string)
+						{
+							await ToastService.Show(AppResources.accountexists);
+						}
+						else
+						{							
+							await CoreMethods.PopPageModel(true);
+							await CoreMethods.PushPageModel<ChatPageModel>();
+							UpdateSubscription();
+						}
+					}
+					else
+					{
+						await ToastService.Show(AppResources.erroraccountcreate);
+					}
+				}
+				else
+				{
+					Dialog.ShowLoading();
 
-                    var response = await StoreManager.LoginAsync(Email, Password);
+					var response = await StoreManager.LoginAsync(Email, Password);
 
-                    if (response != null)
-                        await StoreManager.UserStore.GetCurrentUser();
+					if(response!=null)
+						 await StoreManager.UserStore.GetCurrentUser();
 
-                    Dialog.HideLoading();
+					Dialog.HideLoading();
 
-                    if (response != null)
-                    {
-                        Application.Current.MainPage = TabNavigator.GenerateTabPage();
-                    }
-                    else
-                    {
-                        await ToastService.Show(AppResources.incorrectcombo);
-                    }
-                }
+					if (response != null)
+					{
+						Application.Current.MainPage = TabNavigator.GenerateTabPage();
+						UpdateSubscription();
+					}
+					else
+					{
+						await ToastService.Show(AppResources.incorrectcombo);
+					}
+				}
 
-                IsLoading = false;
-            }
+				IsLoading = false;
+            }           
+
         });
 
 
@@ -156,13 +161,18 @@ namespace MeditSolution.PageModels
         {
             await CoreMethods.PopPageModel(true, Device.RuntimePlatform == Device.iOS);
         });
+        
+		async void UpdateSubscription()
+        {
+            var subscriptionStore = new SubscriptionStore();
+            await subscriptionStore.CheckAndUpdateSubscriptionStatus();
+            subscriptionStore.Dispose();
+        }
 
         public Command ForgotCommand => new Command(async () =>
         {
             await CoreMethods.PushPageModel<ForgotPasswordPageModel>(Email, true);
         });
-
-
-
+       
     }
 }

@@ -21,7 +21,7 @@ namespace MeditSolution.Models
 
 			if(!string.IsNullOrEmpty(program.Icon))
 			{
-				Image = program.Icon;
+				Image = Constants.FileUrl + "files" + Program.Icon;
 			}
 		}
 

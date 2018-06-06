@@ -34,6 +34,7 @@ namespace MeditSolution.Helpers
         private const string ReminderUniqueKey = "ReminderUniqueKey";
 		private const string ReminderStorageKey = "ReminderStorageKey";
 	    private const string MeditationProgressKey = "MeditationProgress";
+		private const string TODOCHAT = "TODOCHAT";
 
         #endregion
 
@@ -63,7 +64,7 @@ namespace MeditSolution.Helpers
 
 	    public static string DeviceLanguage
         {
-	        get { return AppSettings.GetValueOrDefault(LanguageKey, stringDefault); }
+			get { return AppSettings.GetValueOrDefault(LanguageKey, stringDefault); }
 	        set { AppSettings.AddOrUpdateValue(LanguageKey, value); }
 	    }
 
@@ -96,5 +97,12 @@ namespace MeditSolution.Helpers
             get { return AppSettings.GetValueOrDefault(ReminderStorageKey, stringDefault); }
 			set { AppSettings.AddOrUpdateValue(ReminderStorageKey, value); }
 		}
+
+		public static bool HasToCompleteChat
+        {
+			get { return AppSettings.GetValueOrDefault(TODOCHAT, false); }
+			set { AppSettings.AddOrUpdateValue(TODOCHAT, value); }
+        }
+  
     }
 }

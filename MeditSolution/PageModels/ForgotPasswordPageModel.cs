@@ -44,7 +44,8 @@ namespace MeditSolution.PageModels
             if (!string.IsNullOrWhiteSpace(Email))
             {
                 isEmail = Regex.IsMatch(Email, @"\A(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)\Z", RegexOptions.IgnoreCase);
-                if (isEmail == true)
+                
+				if (isEmail == true)
                 {
                     ButtonColor = "#50e3c2";
                 }
@@ -69,8 +70,12 @@ namespace MeditSolution.PageModels
             {
                 return new Command(async () =>
                 {
+					if (!ValidateEmail())
+						return;
+
                     Dialog.ShowLoading("");
-                    var Forgot = new ForgotPasswordRequest();
+                    
+					var Forgot = new ForgotPasswordRequest();
                     Forgot.email = Email;
 
                     var result = await StoreManager.RequestNewPassword(Forgot);

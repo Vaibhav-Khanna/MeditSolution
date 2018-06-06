@@ -380,4 +380,76 @@ However, although you can expect to get the cheapest air ticket if you start sea
     <data name="Level4" xml:space="preserve">
         <value>Silent</value>
     </data>
+
+    <data name="name" xml:space="preserve">
+        <value>First name</value>
+    </data>
+
+     <data name="lastname" xml:space="preserve">
+        <value>Last name</value>
+    </data>
+
+    <data name="SubscriptionThanks" xml:space="preserve">
+        <value>Thank you for subscribing to Medit'Solutions</value>
+    </data>
+
+    <data name="SubscriptionRequired" xml:space="preserve">
+         <value>Subscription Required</value>
+     </data>
+    
+     <data name="SubscribeMessage" xml:space="preserve">
+         <value>Subscribe now to gain access to all our meditations.</value>
+     </data>
+    
+    <data name="SubscribeNow" xml:space="preserve">
+         <value>Subscribe</value>
+     </data>
+    
+    <data name="NotNow" xml:space="preserve">
+         <value>Not now</value>
+     </data>
+    
+    <data name="ErrorMessageSubscription" xml:space="preserve">
+         <value>An error occurred while carrying out the operation. Please try again in a while.</value>
+    </data>
+
+    <data name="UnsubscribeWarning" xml:space="preserve">
+    <value>To unsubscribe this subscription, you have to go to settings for the device and cancel the subscription explicitly.</value>
+    </data>
+
+    <data name="MeditationChat1" xml:space="preserve">
+    <value>Bonjour, il y a quelque chose qui vous préoccupe en ce moment ? Vous avez besoin d'un coup de main ?</value>
+  </data>
+    <data name="MeditationChat2" xml:space="preserve">
+    <value>Et vous connaissez les bienfaits de la méditation ?</value>
+  </data>
+    <data name="MeditationChat3" xml:space="preserve">
+    <value>Alors, suivez-moi.</value>
+  </data>
+    <data name="MeditationChat4" xml:space="preserve">
+    <value>Pratiquez-vous déjà ?</value>
+  </data>
+    <data name="MeditationChat5" xml:space="preserve">
+    <value>Je vous propose une méditation Medit’Solutions pour vous initier. Vous me suivez ?</value>
+  </data>
+    <data name="MeditationChat6" xml:space="preserve">
+    <value>Alors je vous propose des outils simples pour gérer les soucis du quotidien.</value>
+  </data>
+    <data name="MeditationChat7" xml:space="preserve">
+    <value>Alors je vous propose de découvrir l'éventail des méditations de Medit’Solutions!</value>
+  </data>
+    <data name="MeditationChat8" xml:space="preserve">
+    <value>Êtes-vous assidu dans votre pratique ?</value>
+  </data>
+    <data name="MeditationChat9" xml:space="preserve">
+    <value>Nous pouvons vous aider à devenir plus assidus et donc profiter pleinement des bienfaits de cette pratique.</value>
+  </data>
+    <data name="MeditationChat10" xml:space="preserve">
+    <value>Alors je vous propose notre programme d'entrainement et vous laisse libre accés à notre éventail de solutions pour améliorer votre vie.</value>
+  </data>
+
+    <data name="ProgramPaidThanks" xml:space="preserve">
+    <value>Thank you for purchasing this program</value>
+  </data>
+    
 </root>

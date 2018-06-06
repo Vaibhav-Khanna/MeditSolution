@@ -21,9 +21,7 @@ namespace AXA.Droid.Renderers
 
             if (Control != null && e.NewElement!= null)
             {
-                Control.Background = null;
-
-
+               
                 var element = e.NewElement as CustomEntry;
               
                 if (element.ReturnButton == ReturnButtonType.Next)

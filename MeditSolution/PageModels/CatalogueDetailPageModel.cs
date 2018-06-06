@@ -6,6 +6,7 @@ using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using MeditSolution.Helpers;
 using MeditSolution.Resources;
+using MeditSolution.Models.DataObjects;
 
 namespace MeditSolution.PageModels
 {
@@ -26,11 +27,11 @@ namespace MeditSolution.PageModels
 			if (initData is TabMeditationModel)
 			{
 				TabMeditationModel = ((TabMeditationModel)initData);
-                
+
 				Header = TabMeditationModel.Title;
 				Description = Settings.DeviceLanguage == "English" ? TabMeditationModel.Program.Description_EN : TabMeditationModel.Program.Description;
-				CoverPicture = TabMeditationModel.Program.Cover;
-                
+				CoverPicture = Constants.FileUrl + "files" + TabMeditationModel.Program.Cover;
+
 				ChangeNavigationBackgroundColor(Color.FromHex(TabMeditationModel.Tint.Substring(1)));
 
 				IsLoading = true;
@@ -65,11 +66,73 @@ namespace MeditSolution.PageModels
 			DefaultNavigationBackgroundColor();
 		}
 
-		public Command ProgramCommand => new Command((obj) =>
+		public Command ProgramSelectCommand => new Command(async(obj) =>
 		{
+			
 			var model = obj as CatalogueProgramModel;
 
-			//model.IsEnabled = !model.IsEnabled;
+			if (model.IsEnabled)
+			{
+				Dialog.ShowLoading();
+
+				var user = StoreManager.UserStore.User;
+
+				user.CurrentMeditationId = model.Meditation.Id;
+
+				user.CurrentProgramId = model.Meditation.ProgramId;    
+
+				await StoreManager.UserStore.UpdateCurrentUser(user);
+
+				Dialog.HideLoading();
+
+				await CoreMethods.PopPageModel();
+
+				await CoreMethods.SwitchSelectedTab<MeditationTabPageModel>();
+			}
+			else
+			{
+				if(model.IsIncludedInSubscription)
+				{
+					var response = await CoreMethods.DisplayAlert(Settings.DeviceLanguage == "English" ? model.Meditation.Label_EN : model.Meditation.Label, AppResources.SubscribeMessage, AppResources.SubscribeNow, AppResources.NotNow);
+
+                    if (response)
+                    {
+						await CoreMethods.PushPageModel<SubscriptionPageModel>();
+						CoreMethods.RemoveFromNavigation<CatalogueDetailPageModel>(true);
+                    }
+				}
+				else
+				{
+					if(StoreManager.UserStore.User.Subscription == Models.DataObjects.SubscriptionType.free)
+					{
+						var response = await CoreMethods.DisplayAlert(Settings.DeviceLanguage == "English" ? model.Meditation.Label_EN : model.Meditation.Label, AppResources.SubscribeMessage, AppResources.SubscribeNow, AppResources.NotNow);
+
+                        if (response)
+                        {
+                            await CoreMethods.PushPageModel<SubscriptionPageModel>();
+                            CoreMethods.RemoveFromNavigation<CatalogueDetailPageModel>(true);
+                        }
+					}
+					else
+					{
+						//puchase the program
+						Dialog.ShowLoading();
+
+						await StoreManager.UserStore.UpdateCurrentUser(StoreManager.UserStore.User);
+
+						var user = await StoreManager.ProgramStore.PayForNewProgram(model.Meditation.ProgramId,new PaidProgram(){ Id = model.Meditation.ProgramId, Ticket = "aaabbbbbbbbbbbbb", Platform = Device.RuntimePlatform.ToLower() });
+
+						Dialog.HideLoading();
+                                              
+						if(user!=null)
+						{
+							await CoreMethods.DisplayAlert(AppResources.ProgramPaidThanks, "", AppResources.ok);
+							await StoreManager.UserStore.UpdateCurrentUser(user);
+							this.Init(TabMeditationModel);
+						}
+					}
+				}
+			}
 		});
 
 	}

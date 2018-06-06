@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using MeditSolution.PageModels;
+using MeditSolution.Resources;
 
 namespace MeditSolution.Models
 {
@@ -12,15 +13,23 @@ namespace MeditSolution.Models
             Model = model;
         }
 
+		public int ID { get; set; }
+
         ChatPageModel Model { get; set; }
+
+		public int NextQuestionIfPositive { get; set; }
+
+		public int NextQuestionIfNegative { get; set; }
 
         public bool IsQuestion { get; set; }
 
+		public string ActionId { get; set; }
+
         public string Question { get; set; }
 
-        public string PositiveOption { get; set; }
+		public string PositiveOption { get; set; } = AppResources.yes;
 
-        public string NegativeOption { get; set; }
+		public string NegativeOption { get; set; } = AppResources.no;
 
         public bool? AnswerIsPositive { get; set; } = null;
 

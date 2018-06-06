@@ -13,7 +13,7 @@
 
         <StackLayout Orientation="Vertical">
             <flv:FlowListView IsVisible="{Binding IsLoading,Converter={StaticResource BoolNegate}}" FlowColumnCount="2" SeparatorVisibility="None" HasUnevenRows="true"
-                              FlowItemTappedCommand="{Binding ProgramCommand}"
+                              FlowItemTappedCommand="{Binding ProgramSelectCommand}"
                               FlowItemsSource="{Binding Programs}" >
 
                 <flv:FlowListView.FlowColumnTemplate>
