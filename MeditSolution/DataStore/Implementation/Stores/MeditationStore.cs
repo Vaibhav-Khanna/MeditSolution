@@ -15,18 +15,25 @@ namespace MeditSolution.DataStore.Implementation.Stores
 		
 		public async Task<bool> AddMeditationTimeAsync(int seconds)
 		{
-			var uri = new Uri(string.Concat(Constants.RestUrl + "users/store/meditation?", Auth));
-
-			var json = JsonConvert.SerializeObject(new Dictionary<string, int> { { "time", seconds } });
-
-			var content = new StringContent(json, Encoding.UTF8, "application/json");
-
-			var response = await client.PostAsync(uri, content);
-
-			if (response.IsSuccessStatusCode)
+			try
 			{
-				var R_content = await response.Content.ReadAsStringAsync();
-				return true;
+				var uri = new Uri(string.Concat(Constants.RestUrl + "users/store/meditation?", Auth));
+
+				var json = JsonConvert.SerializeObject(new Dictionary<string, int> { { "time", seconds } });
+
+				var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+				var response = await client.PostAsync(uri, content);
+
+				if (response.IsSuccessStatusCode)
+				{
+					var R_content = await response.Content.ReadAsStringAsync();
+					return true;
+				}
+			}
+			catch(Exception ex)
+			{
+				
 			}
 
 			return false;
@@ -63,14 +70,22 @@ namespace MeditSolution.DataStore.Implementation.Stores
 		{
 			var uri = new Uri(string.Format(Constants.RestUrl + "next?" + Auth, string.Empty));
 
-			var response = await client.GetAsync(uri);
-
-			var content = await response.Content.ReadAsStringAsync();
-
-			if (response.IsSuccessStatusCode)
+			try
 			{
-				var meditationresponse = JsonConvert.DeserializeObject<NextMeditationResponse.Example>(content);
-				return meditationresponse;
+
+				var response = await client.GetAsync(uri);
+
+				var content = await response.Content.ReadAsStringAsync();
+
+				if (response.IsSuccessStatusCode)
+				{
+					var meditationresponse = JsonConvert.DeserializeObject<NextMeditationResponse.Example>(content);
+					return meditationresponse;
+				}
+			}
+			catch(Exception ex)
+			{
+				
 			}
 
 			return null;

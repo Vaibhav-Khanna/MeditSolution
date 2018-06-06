@@ -56,7 +56,7 @@ namespace MeditSolution
 						}
 						else
 						{
-							await storeManager.UserStore.UpdateCurrentUser();
+							await storeManager.UserStore.UpdateCurrentUser(null);
 							MainPage = TabNavigator.GenerateTabPage();
 						}
                     }
@@ -76,7 +76,7 @@ namespace MeditSolution
 					}
 					else
 					{
-						await storeManager.UserStore.UpdateCurrentUser();
+						await storeManager.UserStore.UpdateCurrentUser(null);
 						MainPage = TabNavigator.GenerateTabPage();
 					}
                 }

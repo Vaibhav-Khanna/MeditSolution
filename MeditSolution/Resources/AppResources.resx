@@ -449,6 +449,8 @@ However, although you can expect to get the cheapest air ticket if you start sea
     <data name="MeditationChat10" xml:space="preserve">
     <value>Then I would like to show you the range of meditations we offer.</value>
   </data>
-
+  <data name="ProgramPaidThanks" xml:space="preserve">
+    <value>Thank you for purchasing this program</value>
+  </data>
     
 </root>

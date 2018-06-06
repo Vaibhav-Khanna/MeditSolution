@@ -200,9 +200,8 @@ namespace MeditSolution.PageModels
                 var user = StoreManager.UserStore.User;
                 user.CurrentProgramId = meditations?.First()?.ProgramId;
                 user.CurrentMeditationId = meditations?.First().Id;
-
-                StoreManager.UserStore.User = user;
-                await StoreManager.UserStore.UpdateCurrentUser();
+                               
+				await StoreManager.UserStore.UpdateCurrentUser(user);
             }
 		}
 	}

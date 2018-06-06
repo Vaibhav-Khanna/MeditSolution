@@ -3,6 +3,7 @@ using Xamarin.Forms;
 using MeditSolution.Resources;
 using MeditSolution.Models.Abstract;
 using MeditSolution.Helpers;
+using MeditSolution.Models;
 
 namespace MeditSolution.PageModels
 {
@@ -14,12 +15,19 @@ namespace MeditSolution.PageModels
 		public bool IsPresenterPage { get; set; } = false;
 		public string Title { get; set; } = AppResources.settings;
 
+		SeancesModel Model;
 
 		public override void Init(object initData)
 		{
 			base.Init(initData);
             
-			if(initData is bool)
+			if(initData is SeancesModel)
+			{
+				IsPresenterPage = true;
+				Title = AppResources.yoursetting;
+				Model = ((SeancesModel)initData);
+			}
+			else if(initData is bool)
 			{
 				IsPresenterPage = (bool)initData;
 
@@ -45,7 +53,7 @@ namespace MeditSolution.PageModels
 
 			if (IsPresenterPage)
 			{	
-				await CoreMethods.PushPageModel<MeditationPlayPageModel>(animate: false);
+				await CoreMethods.PushPageModel<MeditationPlayPageModel>(Model,animate: false);
 				CoreMethods.RemoveFromNavigation<SettingsPageModel>();
 			}
 			else

@@ -1,6 +1,7 @@
 ﻿using System;
 using MeditSolution.Resources;
 using Xamarin.Forms;
+using MeditSolution.Helpers;
 
 namespace MeditSolution.PageModels
 {
@@ -16,36 +17,71 @@ namespace MeditSolution.PageModels
 		public bool IsMeditationEnd;
 
 		public string NextMeditation { get { return IsMeditationEnd ? AppResources.medoverdetail : AppResources.congratsdetail2; } }
-		public string NextMeditatonName { get; set; } = "Instant présent !";
-		public string NextMeditatonDetail { get; set; } = "15 min";
+		public string NextMeditatonName { get; set; } 
+		public string NextMeditatonDetail { get; set; } 
 
-		public override void Init(object initData)
+		string meditationID { get; set; }
+		string programId { get; set; }
+
+		public async override void Init(object initData)
 		{
 			base.Init(initData);
 
 			if (initData is bool)
-			{
-				IsMeditationEnd = ((bool)initData);
+			{				
+				Dialog.ShowLoading();
 
-				if (IsMeditationEnd)
+				var next = await StoreManager.MeditationStore.GetNextMeditation();
+
+				Dialog.HideLoading();
+
+				if (next != null)
 				{
-
-				}
-				else
-				{
-
+					// meditation completed
+					if (next.otherMeditation != null)
+					{
+						IsMeditationEnd = true;
+						NextMeditatonName = Settings.DeviceLanguage == "English" ? next.otherMeditation.label_en : next.otherMeditation.label;
+						NextMeditatonDetail = (next.otherMeditation.length / 60) + " min";
+						meditationID = next.otherMeditation._id;
+						programId = next.otherMeditation.programId;
+					}
+					else if (next.levelUp != null) // session completed
+					{
+						IsMeditationEnd = false;
+						NextMeditatonName = Settings.DeviceLanguage == "English" ? next.levelUp.label_en : next.levelUp.label;
+						NextMeditatonDetail = (next.levelUp.length / 60) + " min";
+						meditationID = next.levelUp._id;
+						programId = next.levelUp.programId;
+					}               
 				}
 			}
 		}
+        
 
-		public Command NextCommand => new Command(() =>
+		public Command NextCommand => new Command(async() =>
 		{
+			if(!string.IsNullOrEmpty(meditationID) && !string.IsNullOrEmpty(programId))
+			{
+				Dialog.ShowLoading();
 
+				var user = StoreManager.UserStore.User;
+
+				user.CurrentMeditationId = meditationID;
+				user.CurrentProgramId = programId;
+
+				await StoreManager.UserStore.UpdateCurrentUser(user);
+
+				Dialog.HideLoading();
+
+				await CoreMethods.PopPageModel(true);
+			}
 		});
 
 		public Command EndCommand => new Command(async() =>
         {
 			await CoreMethods.PopPageModel(true);
+			await CoreMethods.SwitchSelectedTab<CatalogueTabPageModel>();
         });
     }
 }

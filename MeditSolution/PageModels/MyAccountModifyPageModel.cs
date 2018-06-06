@@ -44,8 +44,8 @@ namespace MeditSolution.PageModels
 
 				if(!string.IsNullOrWhiteSpace(Password) && !string.IsNullOrWhiteSpace(ConfirmPassword))
 				user.Password = Password;
-
-				await StoreManager.UserStore.UpdateCurrentUser();
+                    
+				await StoreManager.UserStore.UpdateCurrentUser(user);
 
 				Dialog.HideLoading();
 

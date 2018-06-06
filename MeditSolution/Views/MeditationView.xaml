@@ -5,6 +5,7 @@
     xmlns:control="clr-namespace:ProgressRingControl.Forms.Plugin;assembly=ProgressRing.Forms.Plugin"
     xmlns:controls="clr-namespace:MeditSolution.Controls;assembly=MeditSolution"
     xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms" 
     x:Class="MeditSolution.Views.MeditationView">
     <ContentView.Content>
 
@@ -25,10 +26,25 @@
                     <TapGestureRecognizer Command="{Binding PlayPauseCommand}" Tapped="Handle_Tapped" />
                 </controls:RoundedBoxView.GestureRecognizers>
             </controls:RoundedBoxView> 
-            <ffimageloading:CachedImage x:Name="image" InputTransparent="true" Source="{Binding Image}" WidthRequest="55" HeightRequest="64" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+
+            <forms:AnimationView 
+    x:Name="animationView" 
+    Animation="animation3.json" 
+    Loop="true"
+    IsVisible="{Binding IsLoading}"
+    Scale="1.8"
+    AutoPlay="true" 
+    HeightRequest="70"
+    Margin="0"
+    WidthRequest="70"
+    HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+            />
+                
+            <ffimageloading:CachedImage x:Name="image" IsVisible="{Binding IsLoading,Converter={StaticResource BoolNegate}}" InputTransparent="true" Source="{Binding Image}" WidthRequest="55" HeightRequest="64" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
 
             </Grid>
-            <Label Text="{Binding TotalSeconds, StringFormat='{0:mm\\:ss}'}" Grid.Row="2" FontFamily="SFUIText-Regular" FontSize="18" TextColor="{StaticResource primary}" VerticalOptions="Start" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+            
+            <Label Text="{Binding TimerText}" Grid.Row="2" FontFamily="SFUIText-Regular" FontSize="18" TextColor="{StaticResource primary}" VerticalOptions="Start" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
            
         </Grid>
         

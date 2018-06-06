@@ -766,5 +766,11 @@ namespace MeditSolution.Resources {
                 return ResourceManager.GetString("MeditationChat10", resourceCulture);
             }
         }
+        
+        internal static string ProgramPaidThanks {
+            get {
+                return ResourceManager.GetString("ProgramPaidThanks", resourceCulture);
+            }
+        }
     }
 }

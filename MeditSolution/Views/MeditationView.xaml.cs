@@ -22,7 +22,7 @@ namespace MeditSolution.Views
 			if ((BindingContext as  BasePageModel).IsPlaying)
                 image.TranslationX = 0;
             else
-                image.TranslationX = 8;
+                image.TranslationX = 0;
 
             isAnimating = true;
 

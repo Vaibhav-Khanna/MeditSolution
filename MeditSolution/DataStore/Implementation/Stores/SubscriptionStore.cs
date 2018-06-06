@@ -10,6 +10,7 @@ using MeditSolution.Models.DataObjects;
 using FreshMvvm;
 using MeditSolution.DataStore.Abstraction.Stores;
 using MeditSolution.DataStore.Abstraction;
+using MeditSolution.Helpers;
 
 namespace MeditSolution.DataStore.Implementation.Stores
 {
@@ -311,7 +312,7 @@ namespace MeditSolution.DataStore.Implementation.Stores
         {
             if (user == null)
             {
-				user = await StoreManager.UserStore.GetCurrentUser();
+				user = await StoreManager.UserStore.UpdateCurrentUser(null);
 
                 if (user == null)
                     return;
@@ -323,7 +324,7 @@ namespace MeditSolution.DataStore.Implementation.Stores
                 {
 					user = await StoreManager.UnSubscribeToPremium("me");
 
-					StoreManager.UserStore.User = user;
+					Settings.User = Newtonsoft.Json.JsonConvert.SerializeObject(user);
 
                     MessagingCenter.Send(this, "SubscriptionChanged");
                 }
@@ -339,7 +340,7 @@ namespace MeditSolution.DataStore.Implementation.Stores
 
 					user = await StoreManager.SubscribeToPremium("me", _premium);
 
-					StoreManager.UserStore.User = user;
+					Settings.User = Newtonsoft.Json.JsonConvert.SerializeObject(user);
 
                     MessagingCenter.Send(this, "SubscriptionChanged");
                 }

@@ -65,20 +65,27 @@ namespace MeditSolution.Models
 
 		public string IconBottom { get { return IsLocked ? "cloud.png" : IsDownloaded ? "cloud.png" : "cloudcheck.png"; } }
                 
+
 		public Command PlayCommand => new Command(async() =>
 		{
 			if(!IsLocked)
 			{
 				if (string.IsNullOrEmpty(Settings.Language))
-					await Model.CoreMethods.PushPageModel<SettingsPageModel>(data: true);
+					await Model.CoreMethods.PushPageModel<SettingsPageModel>(data: this);
 				else
-					await Model.CoreMethods.PushPageModel<MeditationPlayPageModel>(animate:false);
+				{
+					if (Level != 4)
+						await Model.CoreMethods.PushPageModel<MeditationPlayPageModel>(this, animate: false);
+					else
+						await Model.CoreMethods.PushPageModel<MeditationSilentPlayPageModel>(this, modal: true);
+				}
 			}	
 		});
 
+
 		public Command DownloadCommand => new Command(() =>
         {
-			IsDownloaded = !IsDownloaded;
+			
         });
         
 	}

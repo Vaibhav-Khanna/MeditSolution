@@ -9,25 +9,16 @@ namespace MeditSolution.DataStore.Implementation.Stores
 {
 	public class UserStore : BaseStore<User>, IUserStore
 	{
-		public User User { get { return getUser(); } set { setUser(value); } }
+		public User User { get { return getUser(); } }
 
 		User getUser()
 		{
 			if(!string.IsNullOrEmpty(Settings.User))
 				return JsonConvert.DeserializeObject<User>(Settings.User);
                   
-
 			return null;
 		}
-
-		void setUser(User user)
-		{
-			if(user!=null)
-			{
-				Settings.User = JsonConvert.SerializeObject(user);
-			}
-		}
-
+               
 		public async Task<User> GetCurrentUser()
 		{
 			var item = await GetItemAsync("me");
@@ -40,19 +31,24 @@ namespace MeditSolution.DataStore.Implementation.Stores
 			return item;
 		}
 
-		public async Task<User> UpdateCurrentUser()
+		public async Task<User> UpdateCurrentUser(User user)
 		{
-			if (string.IsNullOrEmpty(Settings.User))
-				return null;
+			if (user == null)
+				user = JsonConvert.DeserializeObject<User>(Settings.User);
 
-			var user = await UpdateAsync(getUser());
+			if (user != null)
+            {
+                Settings.User = JsonConvert.SerializeObject(user);
+            }
 
-			if(user!=null)
+			var _user = await UpdateAsync(user);
+
+			if(_user!=null)
 			{
-				Settings.User = JsonConvert.SerializeObject(user);
+				Settings.User = JsonConvert.SerializeObject(_user);
 			}
 
-			return user;
+			return _user;
 		}
 	}
 }

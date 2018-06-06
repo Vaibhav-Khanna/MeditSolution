@@ -2,6 +2,9 @@
 using Xamarin.Forms;
 using MeditSolution.Resources;
 using MeditSolution.Models;
+using MeditSolution.Helpers;
+using System.Linq;
+using MeditSolution.Models.DataObjects;
 
 namespace MeditSolution.PageModels
 {
@@ -11,16 +14,33 @@ namespace MeditSolution.PageModels
 
         private MeditationTimer _timer;
 
+		public string TimerText { get; set; }
+
         public TimeSpan TotalSeconds { get; set; }
 
         private double step;
 
+		SeancesModel SeancesModel;
+
+		int TotalTimeMedited;
 
         public override void Init(object initData)
         {
             base.Init(initData);
 
-            int durationInSeconds = int.Parse(initData.ToString());
+			int durationInSeconds = 0;
+
+			if (initData is SeancesModel)
+			{
+				SeancesModel = ((SeancesModel)initData);
+				durationInSeconds = (int)SeancesModel.Meditation.Length;
+			}
+			else
+			{
+				durationInSeconds = int.Parse(initData.ToString());
+			}
+
+			TotalTimeMedited = durationInSeconds;
 
             TotalSeconds = TimeSpan.FromSeconds(durationInSeconds);
 
@@ -28,19 +48,23 @@ namespace MeditSolution.PageModels
             Progress = 0;
             step = (1 / TotalSeconds.TotalSeconds);
             _timer.Start();
-
         }
 
         private void CountDown()
         {
             if (TotalSeconds.TotalSeconds == 0)
             {
+				TimerText = "00:00:00";
                 TotalSeconds = new TimeSpan(0, 0, 0, 0);
                 _timer.Stop();
+				EndMeditation();
             }
             else
             {
                 TotalSeconds = TotalSeconds.Subtract(new TimeSpan(0, 0, 0, 1));
+
+				TimerText = TotalSeconds.ToString("hh':'mm':'ss");
+
                 Progress = Progress + step;
             }
         }
@@ -50,6 +74,8 @@ namespace MeditSolution.PageModels
             if (IsPlaying) { _timer.Stop(); }
             else { _timer.Start(); }
             IsPlaying = !IsPlaying;
+
+			EndMeditation();
         });
 
         public Command CloseCommand => new Command(async () =>
@@ -57,5 +83,55 @@ namespace MeditSolution.PageModels
             await CoreMethods.PopPageModel(true);
         });
 
+		async void EndMeditation()
+		{
+			Dialog.ShowLoading();
+                    
+			var isAdded = await StoreManager.MeditationStore.AddMeditationTimeAsync(TotalTimeMedited);
+
+			var user = await StoreManager.UserStore.UpdateCurrentUser(null);
+
+			var meditiondone = user.MeditationsDone?.Where((arg) => arg.id == SeancesModel.Meditation.Id).First();
+
+            if(meditiondone!=null)
+            {
+				var count = GetSeanceCount(SeancesModel.Meditation);
+
+				if (count == 1)
+					meditiondone.level2Done = true;
+				else if (count == 2)
+					meditiondone.level3Done = true;
+				else if (count == 3)
+					meditiondone.level4Done = true;				
+            }   
+
+			user = await StoreManager.UserStore.UpdateCurrentUser(user);   
+
+			Dialog.HideLoading();
+
+			if (SeancesModel != null)
+			{
+				await CoreMethods.PopPageModel(true);
+				await CoreMethods.PushPageModel<MeditationEndPageModel>(true, modal: true);
+			}
+			else
+			{
+				await CoreMethods.PopPageModel(true);
+			}
+		}
+
+		int GetSeanceCount(Meditation meditation)
+        {
+            int seanceCount = 0;
+
+            if (meditation.Level1FrWoman != null)
+                seanceCount += 1;
+            if (meditation.Level2FrWoman != null)
+                seanceCount += 1;
+            if (meditation.Level3FrWoman != null)
+                seanceCount += 1;
+
+            return seanceCount;
+        }
     }
 }

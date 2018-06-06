@@ -18,7 +18,6 @@ namespace MeditSolution.Models
 			Tint = model.Tint;
 			Title = (meditation.Length.HasValue ? meditation.Length.Value / 60 : 0) + " min";
             
-
 			int seanceCount = 0;
 
 			if (meditation.Level1FrWoman != null)
@@ -38,6 +37,8 @@ namespace MeditSolution.Models
 			}
 			else if(model.Program.AvailableWithSubscription == true)
 			{
+				IsIncludedInSubscription = true;
+
 				if (user.Subscription == SubscriptionType.free)
 				{
 					IsEnabled = false;
@@ -81,7 +82,9 @@ namespace MeditSolution.Models
 			}
 		}
        
-		public Meditation Meditation { get; set; }
+		public bool IsIncludedInSubscription { get; set; }
+
+		public Meditation Meditation { get; set; } 
 
 		public TabMeditationModel Model { get; set; }
 
@@ -98,7 +101,10 @@ namespace MeditSolution.Models
 		public string BackColor { get { return IsEnabled ? Tint : "#ffffff"; } }
 
 		public string BorderColor { get{ return IsEnabled ? Tint : "#d9d9d9"; } }
-
+        
 		public string Image { get { return IsEnabled ? "arrow.png" : "lock.png"; } }
+
+
+
     }
 }

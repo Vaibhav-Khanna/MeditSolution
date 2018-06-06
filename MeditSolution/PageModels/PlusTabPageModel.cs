@@ -62,16 +62,14 @@ namespace MeditSolution.PageModels
 
                 if (response)
                 {
-                    StoreManager.LogoutAsync();
+			        StoreManager.LogoutAsync();
 
                     Xamarin.Forms.Device.BeginInvokeOnMainThread(() =>
                     {
                         var page = FreshPageModelResolver.ResolvePageModel<TutorialPageModel>();
                         Application.Current.MainPage = new FreshNavigationContainer(page);
                     });
-                }
-
-
+                }                  
             }
 
 

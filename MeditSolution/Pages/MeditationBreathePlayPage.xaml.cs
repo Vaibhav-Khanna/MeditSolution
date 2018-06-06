@@ -54,7 +54,7 @@ namespace MeditSolution.Pages
             if (!Stop)
             {
                 await expand.ScaleTo(0.4, Convert.ToUInt32(Model.CycleDuration / 2) * 1000, Easing.CubicInOut);
-                Vibration.Vibrate();
+               
             }
             else
             {
@@ -64,7 +64,7 @@ namespace MeditSolution.Pages
             if (!Stop)
             {
                 await expand.ScaleTo(1, Convert.ToUInt32(Model.CycleDuration / 2) * 1000, Easing.CubicInOut);
-                Vibration.Vibrate();
+               
             }
             else
             {
@@ -87,13 +87,12 @@ namespace MeditSolution.Pages
             {
                 image.TranslationX = 0;
                 Stop = false;
-                Vibration.Vibrate();
+                
             }
             else
             {
                 image.TranslationX = 4;
-                Stop = true;
-                Vibration.Vibrate();
+                Stop = true;               
             }
 
             image.ScaleTo(0.7, 150, Easing.CubicOut);
