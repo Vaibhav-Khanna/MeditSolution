@@ -19,7 +19,7 @@
     <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer: Alexandra DE LA CRUZ (LGFTR3DXKP)</CodesignKey>
+    <CodesignKey>iPhone Developer: vaibhav khanna (97JN4RXR2S)</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
     <MtouchFastDev>true</MtouchFastDev>
@@ -29,7 +29,7 @@
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <PlatformTarget>x86</PlatformTarget>
 
-    <CodesignProvision>MeditSolutions - Development</CodesignProvision>
+    <CodesignProvision>VS: com.meditsolutions.mob Development</CodesignProvision>
 
     <MtouchExtraArgs>--registrar:static</MtouchExtraArgs>
   </PropertyGroup>
@@ -39,7 +39,7 @@
     <OutputPath>bin\iPhone\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer: Manuel LLOP (6U2JH6AF69)</CodesignKey>
+    <CodesignKey>iPhone Developer: vaibhav khanna (97JN4RXR2S)</CodesignKey>
     <MtouchFloat32>true</MtouchFloat32>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchLink>SdkOnly</MtouchLink>
@@ -56,7 +56,7 @@
     <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer: Manuel LLOP (6U2JH6AF69)</CodesignKey>
+    <CodesignKey>iPhone Developer: vaibhav khanna (97JN4RXR2S)</CodesignKey>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
     <MtouchLink>None</MtouchLink>
     <MtouchArch>x86_64</MtouchArch>
@@ -75,7 +75,7 @@
     <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer: Manuel LLOP (6U2JH6AF69)</CodesignKey>
+    <CodesignKey>iPhone Developer: vaibhav khanna (97JN4RXR2S)</CodesignKey>
     <DeviceSpecificBuild>true</DeviceSpecificBuild>
     <MtouchDebug>true</MtouchDebug>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
@@ -96,13 +96,14 @@
     <OutputPath>bin\UAT</OutputPath>
     <DefineConstants></DefineConstants>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Developer: vaibhav khanna (97JN4RXR2S)</CodesignKey>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
     <MtouchVerbosity></MtouchVerbosity>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <MtouchSdkVersion>11.3</MtouchSdkVersion>
     <MtouchArch>ARM64</MtouchArch>
+    <CodesignProvision>VS: com.meditsolutions.mob Development</CodesignProvision>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
