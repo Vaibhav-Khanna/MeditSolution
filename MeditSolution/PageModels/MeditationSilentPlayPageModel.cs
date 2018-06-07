@@ -73,9 +73,7 @@ namespace MeditSolution.PageModels
 
             if (IsPlaying) { _timer.Stop(); }
             else { _timer.Start(); }
-            IsPlaying = !IsPlaying;
-
-			EndMeditation();
+            IsPlaying = !IsPlaying;        
         });
 
         public Command CloseCommand => new Command(async () =>
@@ -91,21 +89,24 @@ namespace MeditSolution.PageModels
 
 			var user = await StoreManager.UserStore.UpdateCurrentUser(null);
 
-			var meditiondone = user.MeditationsDone?.Where((arg) => arg.id == SeancesModel.Meditation.Id).First();
+			if (SeancesModel != null)
+			{
+				var meditiondone = user.MeditationsDone?.Where((arg) => arg.id == SeancesModel.Meditation.Id).First();
 
-            if(meditiondone!=null)
-            {
-				var count = GetSeanceCount(SeancesModel.Meditation);
+				if (meditiondone != null)
+				{
+					var count = GetSeanceCount(SeancesModel.Meditation);
 
-				if (count == 1)
-					meditiondone.level2Done = true;
-				else if (count == 2)
-					meditiondone.level3Done = true;
-				else if (count == 3)
-					meditiondone.level4Done = true;				
-            }   
+					if (count == 1)
+						meditiondone.level2Done = true;
+					else if (count == 2)
+						meditiondone.level3Done = true;
+					else if (count == 3)
+						meditiondone.level4Done = true;
+				}
 
-			user = await StoreManager.UserStore.UpdateCurrentUser(user);   
+				user = await StoreManager.UserStore.UpdateCurrentUser(user);
+			}
 
 			Dialog.HideLoading();
 
