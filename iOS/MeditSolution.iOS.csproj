@@ -250,6 +250,21 @@
     <Reference Include="Plugin.CrossPlatformTintedImage.iOS">
       <HintPath>..\packages\Plugin.CrossPlatformTintedImage.1.0.0\lib\Xamarin.iOS10\Plugin.CrossPlatformTintedImage.iOS.dll</HintPath>
     </Reference>
+    <Reference Include="Plugin.Notifications.Abstractions">
+      <HintPath>..\packages\Plugin.Notifications.4.0.2\lib\Xamarin.iOS10\Plugin.Notifications.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Notifications">
+      <HintPath>..\packages\Plugin.Notifications.4.0.2\lib\Xamarin.iOS10\Plugin.Notifications.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\packages\HtmlAgilityPack.1.5.1\lib\netstandard1.6\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.HtmlLabel">
+      <HintPath>..\packages\Xam.Plugin.HtmlLabel.1.0.4\lib\Xamarin.iOS10\Plugin.HtmlLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.HtmlLabel.iOS">
+      <HintPath>..\packages\Xam.Plugin.HtmlLabel.1.0.4\lib\Xamarin.iOS10\Plugin.HtmlLabel.iOS.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MeditSolution\MeditSolution.csproj">
@@ -273,6 +288,7 @@
     <Folder Include="Resources\" />
     <Folder Include="Effects\" />
     <Folder Include="Renderers\" />
+    <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -297,6 +313,8 @@
     <Compile Include="Helpers\Settings.cs" />
     <Compile Include="Helpers\Localize.cs" />
     <Compile Include="Renderers\TextFieldRender.cs" />
+    <Compile Include="Services\TintColorService.cs" />
+    <Compile Include="Renderers\HyperlinkLabelRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\splash IOS.png" />

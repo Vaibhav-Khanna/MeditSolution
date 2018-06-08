@@ -17,20 +17,33 @@ namespace MeditSolution.PageModels
 		public string TimerText { get; set; }
 		SeancesModel SeanceModel;
 		IAudioPlayer AudioPlayer => CrossMediaManager.Current.AudioPlayer;
+		public Color Tint { get; set; }
+		public Color TintDark { get; set; }
+
+		TimeSpan position;
+		MediaFile file;
 
 
 		public Command PlayPauseCommand => new Command(async()=>
-		{		 
-			if(AudioPlayer.Status == Plugin.MediaManager.Abstractions.Enums.MediaPlayerStatus.Playing)
+		{
+			if (AudioPlayer.Status == Plugin.MediaManager.Abstractions.Enums.MediaPlayerStatus.Playing)
 			{
+				position = AudioPlayer.Position;
 				await AudioPlayer.Pause();
 			}
-			else if(AudioPlayer.Status == Plugin.MediaManager.Abstractions.Enums.MediaPlayerStatus.Paused)
-			{
-				await AudioPlayer.Play();
+			else if (AudioPlayer.Status == Plugin.MediaManager.Abstractions.Enums.MediaPlayerStatus.Paused)
+			{            
+				if (Device.RuntimePlatform == Device.Android)
+				{
+					await AudioPlayer.Play(file);
+					await AudioPlayer.Seek(position);
+				}
+				else
+					await AudioPlayer.Play();
 			}
 		});
         
+
 		public override void Init(object initData)
 		{
 			base.Init(initData);
@@ -40,6 +53,9 @@ namespace MeditSolution.PageModels
 				IsLoading = true;
 
 				SeanceModel = ((SeancesModel)initData);
+
+				Tint = Color.FromHex(SeanceModel.Tint.Substring(1));
+				TintDark = ((Tint).AddLuminosity(-0.2));
 
 				MeditationFile meditationFile = GetMeditationFileForUser(SeanceModel.Meditation,SeanceModel.Level);
                 
@@ -56,7 +72,7 @@ namespace MeditSolution.PageModels
 
 				var url = Constants.RestUrl + "file/" + meditationFile.Path;
                                 
-				AudioPlayer.Play(new MediaFile(url, Plugin.MediaManager.Abstractions.Enums.MediaFileType.Audio, Plugin.MediaManager.Abstractions.Enums.ResourceAvailability.Remote));               
+				AudioPlayer.Play(file = new MediaFile(url, Plugin.MediaManager.Abstractions.Enums.MediaFileType.Audio, Plugin.MediaManager.Abstractions.Enums.ResourceAvailability.Remote));               
 			}
    		}
 
@@ -75,7 +91,7 @@ namespace MeditSolution.PageModels
 
 		void AudioPlayer_PlayingChanged(object sender, Plugin.MediaManager.Abstractions.EventArguments.PlayingChangedEventArgs e)
 		{
-			Progress = e.Progress;
+			Progress = Device.RuntimePlatform == Device.iOS ? e.Progress : e.Progress/100;
 			TimerText = e.Duration.Subtract(e.Position).ToString("hh':'mm':'ss");
 		}
 
@@ -91,10 +107,10 @@ namespace MeditSolution.PageModels
 			var user = await StoreManager.UserStore.UpdateCurrentUser(StoreManager.UserStore.User);
 
 			var isAdded = await StoreManager.MeditationStore.AddMeditationTimeAsync((int)SeanceModel.Meditation.Length);
-             
-			var meditiondone = user.MeditationsDone?.Where((arg) => arg.id == SeanceModel.Meditation.Id).First();
 
-			if(meditiondone!=null)
+			var meditiondone = user?.MeditationsDone?.Where((arg) => arg.id == SeanceModel?.Meditation.Id).First();
+
+			if (meditiondone != null)
 			{
 				if (SeanceModel.Level == 1)
 				{
@@ -107,14 +123,20 @@ namespace MeditSolution.PageModels
 				else if (SeanceModel.Level == 3)
 				{
 					meditiondone.level3Done = true;
-				}    
-			    
-				user = await StoreManager.UserStore.UpdateCurrentUser(user);                              
-			}           
+				}
+
+				user = await StoreManager.UserStore.UpdateCurrentUser(user);
+			}
 
 			Dialog.HideLoading();
 
-			await CoreMethods.PopPageModel(animate:false);
+			if (GetSeanceCount(SeanceModel.Meditation) == SeanceModel.Level)
+			{
+				await CoreMethods.PushPageModel<MeditationEndPageModel>(true, modal: true);
+				CoreMethods.RemoveFromNavigation<MeditationPlayPageModel>(true);
+			}
+			else
+				await CoreMethods.PopPageModel(animate: false);
 		}
 
 		protected override void ViewIsDisappearing(object sender, EventArgs e)
@@ -216,5 +238,44 @@ namespace MeditSolution.PageModels
 				return null;
 		}
 
+		int GetSeanceCount(Meditation meditation)
+        {
+            int seanceCount = 0;
+
+            if (meditation.Level1FrWoman != null)
+                seanceCount += 1;
+            if (meditation.Level2FrWoman != null)
+                seanceCount += 1;
+            if (meditation.Level3FrWoman != null)
+                seanceCount += 1;
+
+			if (seanceCount == 3)
+				seanceCount += 1;
+
+            return seanceCount;
+        }
+
+		public Color ChangeColorBrightness(Color color, float correctionFactor)
+        {
+            float red = (float)color.R;
+            float green = (float)color.G;
+            float blue = (float)color.B;
+            
+            if (correctionFactor < 0)
+            {
+                correctionFactor = 1 + correctionFactor;
+                red *= correctionFactor;
+                green *= correctionFactor;
+                blue *= correctionFactor;
+            }
+            else
+            {
+                red = (255 - red) * correctionFactor + red;
+                green = (255 - green) * correctionFactor + green;
+                blue = (255 - blue) * correctionFactor + blue;
+            }
+
+			return Color.FromRgb((int)red, (int)green, (int)blue );
+        }
 	}
 }

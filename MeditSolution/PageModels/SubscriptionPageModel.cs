@@ -34,6 +34,7 @@ namespace MeditSolution.PageModels
 
 			var products = await SubscriptionStore.GetSubscriptionInfo();
             
+			if(products!=null)
 			foreach (var item in products)
 			{
 				if(item.ProductId == SubscriptionStore.MonthlySubscriptionID)
@@ -56,20 +57,19 @@ namespace MeditSolution.PageModels
 				if (purchasedGoods.Item2.ProductId == SubscriptionStore.MonthlySubscriptionID)
 				{
 					SubscribedTenure = AppResources.monthly;
-					SubscribedDate = AppResources.subscriptionstarted + purchasedGoods?.Item2.TransactionDateUtc.Date.ToString("D");
+					SubscribedDate = AppResources.subscriptionstarted + " "+  purchasedGoods?.Item2.TransactionDateUtc.Date.ToString("D");
 					SubscribedPrice = MonthlyFeeText;
 				}
 				else if (purchasedGoods.Item2.ProductId == SubscriptionStore.AnnuallySubscriptionID)
 				{
 					SubscribedTenure = AppResources.annualy;
-					SubscribedDate = AppResources.subscriptionstarted + purchasedGoods?.Item2.TransactionDateUtc.Date.ToString("D");
+					SubscribedDate = AppResources.subscriptionstarted + " " + purchasedGoods?.Item2.TransactionDateUtc.Date.ToString("D");
 					SubscribedPrice = AnnualFeeText;
 				}
 			}
 
 			IsLoading = false;
 		}
-
 		public Command OptionSelectedCommand => new Command(() =>
 		{
 			SubscribeButtonText = AppResources.isubscribe + (IsMonthlySelected.HasValue ? IsMonthlySelected.Value ? (" - " + MonthlyFeeText) : (" - " + AnnualFeeText) : "");

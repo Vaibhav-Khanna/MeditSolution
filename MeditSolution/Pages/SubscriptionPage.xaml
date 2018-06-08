@@ -9,6 +9,7 @@
     xmlns:converter="clr-namespace:MeditSolution.Converter;assembly=MeditSolution"
     xmlns:resources="clr-namespace:MeditSolution"
     xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms" 
+    xmlns:htmlLabel="clr-namespace:Plugin.HtmlLabel;assembly=Plugin.HtmlLabel"
     x:Class="MeditSolution.Pages.SubscriptionPage"
     Title="{resources:Translate subscription}">
     <base:BasePage.Content>

@@ -10,11 +10,13 @@ namespace MeditSolution.Models
 	[PropertyChanged.AddINotifyPropertyChangedInterface]
     public class SeancesModel
     {
-		public SeancesModel(Meditation meditation,int level)
+		public SeancesModel(Meditation meditation,int level,string tint)
 		{
 			Meditation = meditation;
 
-			Level = level;   
+			Level = level;
+
+			Tint = tint;
 
 			switch (level)
 			{
@@ -47,7 +49,7 @@ namespace MeditSolution.Models
 
 		public string Title { get; private set; }
 
-		public string Tint { get; set; } = "#50e3c2";
+		public string Tint { get; private set; } = "#50e3c2";
         
 		public bool IsLocked { get; set; }
 
@@ -61,11 +63,10 @@ namespace MeditSolution.Models
 
 		public string TextColor { get { return IsLocked ? Grey : IsDownloaded ? Grey : White; } }
      
-		public string IconTop { get { return IsLocked ? "locked.png" : "playgreen.png"; } }
+		public string IconTop { get { return IsLocked ? "locked.png" : IsDownloaded ? "playgreen.png" : "playwhite.png"; } }
 
 		public string IconBottom { get { return IsLocked ? "cloud.png" : IsDownloaded ? "cloud.png" : "cloudcheck.png"; } }
                 
-
 		public Command PlayCommand => new Command(async() =>
 		{
 			if(!IsLocked)

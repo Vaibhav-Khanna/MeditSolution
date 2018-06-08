@@ -35,7 +35,7 @@ namespace MeditSolution.PageModels
 					Title = AppResources.yoursetting;
 				else
 				{
-					Title = AppResources.settings;
+					Title = " ";// AppResources.settings;
 
 					if (!string.IsNullOrEmpty(Settings.Language) && !string.IsNullOrEmpty(Settings.Voice))
 					{

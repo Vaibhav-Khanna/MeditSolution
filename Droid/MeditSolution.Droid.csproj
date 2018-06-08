@@ -292,6 +292,24 @@
     <Reference Include="Plugin.CrossPlatformTintedImage.Android">
       <HintPath>..\packages\Plugin.CrossPlatformTintedImage.1.0.0\lib\MonoAndroid10\Plugin.CrossPlatformTintedImage.Android.dll</HintPath>
     </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\packages\HtmlAgilityPack.1.5.1\lib\netstandard1.6\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.HtmlLabel.Android">
+      <HintPath>..\packages\Xam.Plugin.HtmlLabel.1.0.4\lib\MonoAndroid10\Plugin.HtmlLabel.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.HtmlLabel">
+      <HintPath>..\packages\Xam.Plugin.HtmlLabel.1.0.4\lib\MonoAndroid10\Plugin.HtmlLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Rg.Plugins.Popup">
+      <HintPath>..\packages\Rg.Plugins.Popup.1.0.4\lib\MonoAndroid\Rg.Plugins.Popup.dll</HintPath>
+    </Reference>
+    <Reference Include="Rg.Plugins.Popup.Droid">
+      <HintPath>..\packages\Rg.Plugins.Popup.1.0.4\lib\MonoAndroid\Rg.Plugins.Popup.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="Rg.Plugins.Popup.Platform">
+      <HintPath>..\packages\Rg.Plugins.Popup.1.0.4\lib\MonoAndroid\Rg.Plugins.Popup.Platform.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MeditSolution\MeditSolution.csproj">
@@ -315,6 +333,7 @@
     <Compile Include="Effects\BorderlessRenderEffect.cs" />
     <Compile Include="Helpers\Settings.cs" />
     <Compile Include="Renderers\BorderlessEntryRenderer.cs" />
+    <Compile Include="Helpers\Localize.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

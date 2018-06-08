@@ -12,6 +12,8 @@ namespace MeditSolution.Pages
         {
             InitializeComponent();
 
+			Xamarin.Forms.NavigationPage.SetBackButtonTitle(this, "");
+
             On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);
         }
     }

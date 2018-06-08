@@ -16,7 +16,7 @@ namespace MeditSolution.PageModels
 		bool _playing = true;
         [PropertyChanged.DoNotNotify]
         public bool IsPlaying { get { return _playing; } set { _playing = value; Image = (value) ? "pause.png" : "playbig.png"; RaisePropertyChanged(); } }
-        public string Image { get; set; } = "pause.png";
+        public string Image { get; set; } = "pause.png";       
 
 		public IStoreManager StoreManager = FreshIOC.Container.Resolve<IStoreManager>();
 
@@ -26,11 +26,9 @@ namespace MeditSolution.PageModels
 		{
 			Application.Current.Resources["backgroundColor"] = backColor;
 			Application.Current.Resources["textColor"] = Color.White;
-			if (Device.RuntimePlatform == Device.Android)
-			{
-				IAndroidStatusBarColor AndroidStatusBarColor = DependencyService.Get<IAndroidStatusBarColor>();
-				AndroidStatusBarColor.ChangeColor(backColor, true);
-			}
+            
+			IAndroidStatusBarColor AndroidStatusBarColor = DependencyService.Get<IAndroidStatusBarColor>();
+			AndroidStatusBarColor.ChangeColor(backColor, true);
 		}
 
 		public static void DefaultNavigationBackgroundColor()
@@ -38,11 +36,9 @@ namespace MeditSolution.PageModels
 			Application.Current.Resources["backgroundColor"] = Device.RuntimePlatform == Device.iOS ? Color.White : Application.Current.Resources["primary"];
 			Application.Current.Resources["textColor"] = Device.RuntimePlatform == Device.iOS ? Color.Black : Color.White;
 
-			if (Device.RuntimePlatform == Device.Android)
-			{
-				IAndroidStatusBarColor AndroidStatusBarColor = DependencyService.Get<IAndroidStatusBarColor>();
-				AndroidStatusBarColor.ChangeColor((Color)Application.Current.Resources["primaryDark"]);
-			}
+
+			IAndroidStatusBarColor AndroidStatusBarColor = DependencyService.Get<IAndroidStatusBarColor>();
+			AndroidStatusBarColor.ChangeColor((Color)Application.Current.Resources["primaryDark"]);
 		}
 
 

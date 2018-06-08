@@ -380,6 +380,7 @@
     <Compile Include="PageModels\ForgotPasswordPageModel.cs" />
     <Compile Include="Controls\CustomEntry.cs" />
     <Compile Include="DataStore\Implementation\Stores\SubscriptionStore.cs" />
+    <Compile Include="Controls\HyperlinkLabel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FreshIOC">
@@ -483,6 +484,18 @@
     </Reference>
     <Reference Include="Plugin.CrossPlatformTintedImage.Abstractions">
       <HintPath>..\packages\Plugin.CrossPlatformTintedImage.1.0.0\lib\portable-net45+wp80+win8+wpa81\Plugin.CrossPlatformTintedImage.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Notifications.Abstractions">
+      <HintPath>..\packages\Plugin.Notifications.4.0.2\lib\netstandard1.0\Plugin.Notifications.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Notifications">
+      <HintPath>..\packages\Plugin.Notifications.4.0.2\lib\netstandard1.0\Plugin.Notifications.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\packages\HtmlAgilityPack.1.5.1\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.HtmlLabel">
+      <HintPath>..\packages\Xam.Plugin.HtmlLabel.1.0.4\lib\portable-net45+wp8+wpa81+win8\Plugin.HtmlLabel.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

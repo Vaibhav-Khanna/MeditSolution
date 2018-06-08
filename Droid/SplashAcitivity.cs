@@ -15,7 +15,7 @@ using Android.Widget;
 namespace MeditSolution.Droid
 {
     [Activity(Label = "Medit'Solution", Icon = "@drawable/icon", Theme = "@style/splashscreen", MainLauncher = true, NoHistory = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
-    public class SplashAcitivity : AppCompatActivity
+	public class SplashAcitivity : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {

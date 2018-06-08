@@ -43,10 +43,12 @@ namespace MeditSolution.DataStore.Implementation.Stores
 
 			var _user = await UpdateAsync(user);
 
-			if(_user!=null)
+			if (_user != null)
 			{
 				Settings.User = JsonConvert.SerializeObject(_user);
 			}
+			else
+				return user;
 
 			return _user;
 		}

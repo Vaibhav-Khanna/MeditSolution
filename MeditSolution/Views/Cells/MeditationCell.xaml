@@ -24,11 +24,11 @@
             <controls:RoundedBoxView Grid.Row="0" HorizontalOptions="Center"  HeightRequest="150" WidthRequest="150" BackgroundColor="{Binding FillColor}" CornerRadius="75" BorderThickness="1" BorderColor="{Binding BorderColor}" />
 
             <StackLayout Spacing="5" Orientation="Vertical" WidthRequest="150" VerticalOptions="Center" >
-                <tinted:TintedImage Source="{Binding IconTop}" TintColor="{Binding PlayTint}" TranslationX="2.5" WidthRequest="23" HeightRequest="37" HorizontalOptions="Center" VerticalOptions="EndAndExpand" >
-                    <tinted:TintedImage.GestureRecognizers>
+                <Image Source="{Binding IconTop}" TranslationX="2.5" WidthRequest="23" HeightRequest="37" HorizontalOptions="Center" VerticalOptions="EndAndExpand" >
+                    <Image.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding PlayCommand}" />
-                    </tinted:TintedImage.GestureRecognizers>
-                </tinted:TintedImage>
+                    </Image.GestureRecognizers>
+                </Image>
                 <Label Text="{Binding Title}" TextColor="{Binding TextColor}" WidthRequest="145" HorizontalOptions="CenterAndExpand" FontFamily="SFUIText-Semibold" LineBreakMode="WordWrap" FontSize="18" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
                 <Image Source="{Binding IconBottom}" VerticalOptions="StartAndExpand" HorizontalOptions="Center" WidthRequest="23" HeightRequest="23" >
                      <Image.GestureRecognizers>

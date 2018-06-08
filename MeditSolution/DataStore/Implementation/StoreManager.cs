@@ -68,7 +68,7 @@ namespace MeditSolution.DataStore.Implementation
         }
 
         public void LogoutAsync()
-        {
+        {			
             Settings.Token = string.Empty;
 			Settings.User = string.Empty;
             Settings.IsLoggedIn = false;
