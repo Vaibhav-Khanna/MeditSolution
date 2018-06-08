@@ -66,6 +66,15 @@ namespace MeditSolution.PageModels
             await CoreMethods.PopPageModel(true);
         });
 
+
+		protected override void ViewIsDisappearing(object sender, EventArgs e)
+		{
+			base.ViewIsDisappearing(sender, e);
+
+			_timer?.Stop();
+   
+		}
+
 		async void EndMeditation()
 		{
 			Dialog.ShowLoading();

@@ -48,7 +48,7 @@ namespace MeditSolution.DataStore.Implementation.Stores
 
                 var items = await billing.GetProductInfoAsync(ItemType.Subscription, productIds);
 
-                return items.ToList();
+                return items?.ToList();
 
             }
             catch (InAppBillingPurchaseException ex)

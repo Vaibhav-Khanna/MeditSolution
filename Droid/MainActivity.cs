@@ -17,6 +17,7 @@ using Plugin.CurrentActivity;
 using Syncfusion.SfPicker.XForms.Droid;
 using Plugin.InAppBilling;
 using Plugin.CrossPlatformTintedImage.Android;
+using Plugin.HtmlLabel.Android;
 
 namespace MeditSolution.Droid
 {
@@ -30,8 +31,10 @@ namespace MeditSolution.Droid
 
             base.OnCreate(bundle);
             
-			global::Xamarin.Forms.Forms.Init(this, bundle);
+			HtmlLabelRenderer.Initialize();
 
+			global::Xamarin.Forms.Forms.Init(this, bundle);
+   
 			TintedImageRenderer.Init();
 
 			CrossCurrentActivity.Current.Init(this, bundle);

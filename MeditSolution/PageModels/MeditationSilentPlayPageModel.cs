@@ -24,6 +24,10 @@ namespace MeditSolution.PageModels
 
 		int TotalTimeMedited;
 
+		public string Tint { get; set; } = "#91f0db";
+
+		public string TintDark { get; set; } = "#45d1b2";
+
         public override void Init(object initData)
         {
             base.Init(initData);
@@ -68,18 +72,28 @@ namespace MeditSolution.PageModels
                 Progress = Progress + step;
             }
         }
+
         public Command PlayPauseCommand => new Command(() =>
         {
 
             if (IsPlaying) { _timer.Stop(); }
             else { _timer.Start(); }
-            IsPlaying = !IsPlaying;        
+            IsPlaying = !IsPlaying;
+
+
         });
 
         public Command CloseCommand => new Command(async () =>
         {
             await CoreMethods.PopPageModel(true);
         });
+
+		protected override void ViewIsDisappearing(object sender, EventArgs e)
+        {
+            base.ViewIsDisappearing(sender, e);
+
+            _timer?.Stop();
+        }
 
 		async void EndMeditation()
 		{

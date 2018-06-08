@@ -2,6 +2,7 @@
 <base:BasePage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms" 
     xmlns:base="clr-namespace:MeditSolution.Pages;assembly=MeditSolution"
     xmlns:resources="clr-namespace:MeditSolution"
     x:Class="MeditSolution.Pages.MeditationEndPage">
@@ -14,7 +15,7 @@
                 <RowDefinition Height="60" />
             </Grid.RowDefinitions>
 
-            <ScrollView Grid.Row="0">
+            <ScrollView IsVisible="{Binding IsLoading,Converter={StaticResource BoolNegate}}" Grid.Row="0">
                 <StackLayout Spacing="10" Padding="30,70,30,0" Orientation="Vertical">
                     
                     <Image Source="{Binding ImageHeader}" WidthRequest="100" HeightRequest="90" HorizontalOptions="CenterAndExpand" VerticalOptions="Start" />
@@ -32,9 +33,10 @@
                 </StackLayout>
             </ScrollView>
 
+           
             
                                
-                 <Button x:Name="bt1" Grid.Row="1" VerticalOptions="Start" Text="{Binding ButtonNext}" Command="{Binding NextCommand}" FontAttributes="Bold" FontSize="18" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Bold" TextColor="{StaticResource white}" BorderColor="{StaticResource primary}" BackgroundColor="{StaticResource primary}" BorderWidth="1">
+                 <Button x:Name="bt1" IsVisible="{Binding IsLoading,Converter={StaticResource BoolNegate}}" Grid.Row="1" VerticalOptions="Start" Text="{Binding ButtonNext}" Command="{Binding NextCommand}" FontAttributes="Bold" FontSize="18" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Bold" TextColor="{StaticResource white}" BorderColor="{StaticResource primary}" BackgroundColor="{StaticResource primary}" BorderWidth="1">
                     <Button.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double" Android="60" iOS="50" />
                 </Button.HeightRequest>
@@ -43,7 +45,7 @@
                 </Button.BorderRadius>
                 </Button>
 
-                 <Button x:Name="bt2" Grid.Row="2" VerticalOptions="Start" Text="{Binding ButtonEnd}" Command="{Binding EndCommand}" FontAttributes="Bold" FontSize="18" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Bold" TextColor="{StaticResource textLight}" BorderColor="{StaticResource textLight}" BackgroundColor="White" BorderWidth="1">
+                 <Button x:Name="bt2" IsVisible="{Binding IsLoading,Converter={StaticResource BoolNegate}}" Grid.Row="2" VerticalOptions="Start" Text="{Binding ButtonEnd}" Command="{Binding EndCommand}" FontAttributes="Bold" FontSize="18" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Bold" TextColor="{StaticResource textLight}" BorderColor="{StaticResource textLight}" BackgroundColor="White" BorderWidth="1">
                     <Button.HeightRequest>
                     <OnPlatform x:TypeArguments="x:Double" Android="60" iOS="50" />
                 </Button.HeightRequest>
@@ -52,7 +54,21 @@
                 </Button.BorderRadius>
                 </Button>
                 
-           
+                 <forms:AnimationView 
+    x:Name="animationView" 
+                 Grid.Row="0"
+                Grid.RowSpan="3"
+    Animation="animation3.json" 
+    Loop="true"
+    IsVisible="{Binding IsLoading}"
+    Scale="1.8"
+    AutoPlay="true" 
+    HeightRequest="80"
+    Margin="0"
+    WidthRequest="80"
+    HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+            />
+            
         </Grid>
     </base:BasePage.Content>
 </base:BasePage>

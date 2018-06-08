@@ -14,6 +14,7 @@ using Xamarin.Forms.Platform.iOS;
 using Xamarin.Essentials;
 using Plugin.CrossPlatformTintedImage.iOS;
 using Plugin.MediaManager;
+using Plugin.HtmlLabel.iOS;
 
 namespace MeditSolution.iOS
 {
@@ -26,7 +27,9 @@ namespace MeditSolution.iOS
             Settings.DisplayName = "Xama­r­i­n­F­o­r­m­s­N­a­t­i­v­e­L­ogin";
 
 			Rox.VideoIos.Init();
-            	
+
+			HtmlLabelRenderer.Initialize();
+           
             global::Xamarin.Forms.Forms.Init();        
 
 			TintedImageRenderer.Init();
@@ -34,7 +37,7 @@ namespace MeditSolution.iOS
 			ProgressRingRenderer.Init();
 
             CarouselViewRenderer.Init();
-
+   
 			SfPickerRenderer.Init();
 
 			AnimationViewRenderer.Init();

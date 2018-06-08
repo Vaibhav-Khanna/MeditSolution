@@ -2,6 +2,7 @@
 using MeditSolution.Resources;
 using Xamarin.Forms;
 using MeditSolution.Helpers;
+using System.Threading.Tasks;
 
 namespace MeditSolution.PageModels
 {
@@ -28,12 +29,12 @@ namespace MeditSolution.PageModels
 			base.Init(initData);
 
 			if (initData is bool)
-			{				
-				Dialog.ShowLoading();
+			{
+				IsLoading = true;
 
 				var next = await StoreManager.MeditationStore.GetNextMeditation();
 
-				Dialog.HideLoading();
+				IsLoading = false;
 
 				if (next != null)
 				{
@@ -53,8 +54,12 @@ namespace MeditSolution.PageModels
 						NextMeditatonDetail = (next.levelUp.length / 60) + " min";
 						meditationID = next.levelUp._id;
 						programId = next.levelUp.programId;
-					}               
+					}
+					else
+                        await CoreMethods.PopPageModel(true);
 				}
+				else
+					await CoreMethods.PopPageModel(true);
 			}
 		}
         

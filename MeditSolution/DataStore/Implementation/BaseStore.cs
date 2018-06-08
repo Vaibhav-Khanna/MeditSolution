@@ -16,13 +16,12 @@ namespace MeditSolution.DataStore.Implementation
     {
 		protected readonly HttpClient client;
 		protected readonly string Type;
-		protected string Auth;
+		protected string Auth => string.Concat("token=", Settings.Token);
 
         public BaseStore()
         {
 			client = new HttpClient();
 			Type = typeof(T).Name.ToLower() + "s";
-			Auth = string.Concat("token=", Settings.Token);
         }
 
 		public async Task<T> GetItemAsync(string id)

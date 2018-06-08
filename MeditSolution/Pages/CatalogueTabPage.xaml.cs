@@ -13,7 +13,7 @@ namespace MeditSolution.Pages
 			if (Device.RuntimePlatform == Device.iOS)
 				Xamarin.Forms.NavigationPage.SetHasNavigationBar(this, false);
 
-			Xamarin.Forms.NavigationPage.SetBackButtonTitle(this, "Catalogue");
+			Xamarin.Forms.NavigationPage.SetBackButtonTitle(this, " ");
 			InitializeComponent();
 
 			On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);
