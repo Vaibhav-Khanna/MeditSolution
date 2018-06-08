@@ -48,8 +48,8 @@
                      <Label Text="{resources:Translate continousactivity}" Margin="0,20,0,25" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0" FontFamily="SFUIText-Regular" FontSize="14" FontAttributes="None" TextColor="#FF656565" HorizontalOptions="Center" HorizontalTextAlignment="Center" />  
                      <Label Text="{resources:Translate atmoment}"  Grid.Row="1" Grid.Column="0" FontFamily="SFUIText" FontSize="12" FontAttributes="None"  TextColor="#FF9B9B9B" HorizontalTextAlignment="Center" />
                      <Label Text="{resources:Translate maximum}" Grid.Row="1" Grid.Column="1" FontFamily="SFUIText" FontSize="12" FontAttributes="None"  TextColor="#FF9B9B9B" HorizontalTextAlignment="Center"/>
-                     <Label Text="{Binding CurrentMax}" Grid.Row="2" Margin="0,0,0,20"  FontFamily="SFUIText" FontSize="28" FontAttributes="Bold" TextColor="#FF50E3C2" HorizontalTextAlignment="Center" />
-                     <Label Text="{Binding RecordMax}" Grid.Row="2" Margin="0,0,0,20" Grid.Column="1" FontFamily="SFUIText" FontSize="28" FontAttributes="Bold" TextColor="#FF50E3C2" HorizontalTextAlignment="Center" />
+                     <Label Text="{Binding CurrentMax}" Grid.Row="2" HorizontalOptions="Center" Margin="0,0,0,20"  FontFamily="SFUIText" FontSize="28" FontAttributes="Bold" TextColor="#FF50E3C2" HorizontalTextAlignment="Center" />
+                     <Label Text="{Binding RecordMax}" Grid.Row="2" HorizontalOptions="Center" Margin="0,0,0,20" Grid.Column="1" FontFamily="SFUIText" FontSize="28" FontAttributes="Bold" TextColor="#FF50E3C2" HorizontalTextAlignment="Center" />
                      <skia:SKCanvasView x:Name="canvasView"
                            PaintSurface="Handle_PaintSurface"
                            Grid.Row="0"                        

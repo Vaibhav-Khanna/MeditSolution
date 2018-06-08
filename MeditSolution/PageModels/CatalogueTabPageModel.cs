@@ -31,10 +31,13 @@ namespace MeditSolution.PageModels
 
 		protected async override void ViewIsAppearing(object sender, EventArgs e)
 		{
-			base.ViewIsAppearing(sender, e);
+			base.ViewIsAppearing(sender, e);                      
 
 			if (programs == null)
 			{
+				if (IsLoading)
+					return;
+				
 				IsLoading = true;
 
 				programs = await StoreManager.ProgramStore.GetItemsAsync();

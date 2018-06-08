@@ -193,18 +193,6 @@
     <Reference Include="Lottie.Forms">
       <HintPath>..\packages\Com.Airbnb.Xamarin.Forms.Lottie.2.5.2.1\lib\monoandroid80\Lottie.Forms.dll</HintPath>
     </Reference>
-    <Reference Include="Plugin.MediaManager.Abstractions">
-      <HintPath>..\packages\Plugin.MediaManager.0.4.5\lib\MonoAndroid\Plugin.MediaManager.Abstractions.dll</HintPath>
-    </Reference>
-    <Reference Include="Plugin.MediaManager">
-      <HintPath>..\packages\Plugin.MediaManager.0.4.5\lib\MonoAndroid\Plugin.MediaManager.dll</HintPath>
-    </Reference>
-    <Reference Include="Plugin.MediaManager.Forms.Android">
-      <HintPath>..\packages\Plugin.MediaManager.Forms.0.4.5\lib\MonoAndroid\Plugin.MediaManager.Forms.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Plugin.MediaManager.Forms">
-      <HintPath>..\packages\Plugin.MediaManager.Forms.0.4.5\lib\MonoAndroid\Plugin.MediaManager.Forms.dll</HintPath>
-    </Reference>
     <Reference Include="Rox.Xamarin.Video.Android">
       <HintPath>..\packages\Rox.Xamarin.Video.2.1.0\lib\MonoAndroid10\Rox.Xamarin.Video.Android.dll</HintPath>
     </Reference>
@@ -309,6 +297,24 @@
     </Reference>
     <Reference Include="Rg.Plugins.Popup.Platform">
       <HintPath>..\packages\Rg.Plugins.Popup.1.0.4\lib\MonoAndroid\Rg.Plugins.Popup.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="ExoPlayer">
+      <HintPath>..\packages\Xam.Plugins.Android.ExoPlayer.2.0.4.1\lib\MonoAndroid\ExoPlayer.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.MediaManager.Abstractions">
+      <HintPath>..\packages\Plugin.MediaManager.0.4.3\lib\MonoAndroid\Plugin.MediaManager.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.MediaManager">
+      <HintPath>..\packages\Plugin.MediaManager.0.4.3\lib\MonoAndroid\Plugin.MediaManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.MediaManager.ExoPlayer">
+      <HintPath>..\packages\Plugin.MediaManager.ExoPlayer.0.4.3\lib\MonoAndroid\Plugin.MediaManager.ExoPlayer.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.MediaManager.Forms.Android">
+      <HintPath>..\packages\Plugin.MediaManager.Forms.0.4.3\lib\MonoAndroid\Plugin.MediaManager.Forms.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.MediaManager.Forms">
+      <HintPath>..\packages\Plugin.MediaManager.Forms.0.4.3\lib\MonoAndroid\Plugin.MediaManager.Forms.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

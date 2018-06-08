@@ -18,6 +18,9 @@ using Syncfusion.SfPicker.XForms.Droid;
 using Plugin.InAppBilling;
 using Plugin.CrossPlatformTintedImage.Android;
 using Plugin.HtmlLabel.Android;
+using Plugin.MediaManager;
+using Plugin.MediaManager.ExoPlayer;
+using Plugin.MediaManager.MediaSession;
 
 namespace MeditSolution.Droid
 {
@@ -34,10 +37,14 @@ namespace MeditSolution.Droid
 			HtmlLabelRenderer.Initialize();
 
 			global::Xamarin.Forms.Forms.Init(this, bundle);
-   
-			TintedImageRenderer.Init();
 
 			CrossCurrentActivity.Current.Init(this, bundle);
+                       
+			TintedImageRenderer.Init();
+            
+			//((MediaManagerImplementation)CrossMediaManager.Current).MediaSessionManager = new MediaSessionManager(CrossCurrentActivity.Current.AppContext, typeof(ExoPlayerAudioService), Plugin.MediaManager.CrossMediaManager.Current);
+            //var exoPlayer = new ExoPlayerAudioImplementation(((MediaManagerImplementation)CrossMediaManager.Current).MediaSessionManager);
+            //CrossMediaManager.Current.AudioPlayer = exoPlayer;
 
 		    var s = new SfPickerRenderer();
 
