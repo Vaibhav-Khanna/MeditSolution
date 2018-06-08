@@ -110,9 +110,7 @@ namespace MeditSolution.PageModels
 
 				if (!string.IsNullOrEmpty(current_program.Color) && current_program.Color.Contains("#"))
 					Tint = current_program.Color;
-				//
-
-				Tint = "#ebb967";
+				//   
 
 				Seances = new ObservableCollection<object>();
 

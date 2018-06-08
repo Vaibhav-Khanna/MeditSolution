@@ -27,16 +27,18 @@ namespace MeditSolution.PageModels
 		public Command PlayPauseCommand => new Command(async()=>
 		{
 			if (AudioPlayer.Status == Plugin.MediaManager.Abstractions.Enums.MediaPlayerStatus.Playing)
-			{
-				position = AudioPlayer.Position;
+			{				
 				await AudioPlayer.Pause();
+				position = AudioPlayer.Position;
 			}
 			else if (AudioPlayer.Status == Plugin.MediaManager.Abstractions.Enums.MediaPlayerStatus.Paused)
 			{            
 				if (Device.RuntimePlatform == Device.Android)
 				{
-					await AudioPlayer.Play(file);
+					await AudioPlayer.Play();
 					await AudioPlayer.Seek(position);
+					if (CrossMediaManager.Current.MediaNotificationManager != null)
+                        CrossMediaManager.Current.MediaNotificationManager.StopNotifications();
 				}
 				else
 					await AudioPlayer.Play();
@@ -72,7 +74,10 @@ namespace MeditSolution.PageModels
 
 				var url = Constants.RestUrl + "file/" + meditationFile.Path;
                                 
-				AudioPlayer.Play(file = new MediaFile(url, Plugin.MediaManager.Abstractions.Enums.MediaFileType.Audio, Plugin.MediaManager.Abstractions.Enums.ResourceAvailability.Remote));               
+				AudioPlayer.Play(file = new MediaFile(url, Plugin.MediaManager.Abstractions.Enums.MediaFileType.Audio, Plugin.MediaManager.Abstractions.Enums.ResourceAvailability.Remote));   
+
+				if (CrossMediaManager.Current.MediaNotificationManager != null)
+                    CrossMediaManager.Current.MediaNotificationManager.StopNotifications();
 			}
    		}
 

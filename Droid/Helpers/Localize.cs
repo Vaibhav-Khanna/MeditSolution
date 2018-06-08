@@ -5,7 +5,7 @@ using MeditSolution.Resources;
 using MeditSolution.Service;
 using Xamarin.Forms;
 
-//[assembly: Dependency(typeof(MeditSolution.Droid.Helpers.Localize))]
+[assembly: Dependency(typeof(MeditSolution.Droid.Helpers.Localize))]
 namespace MeditSolution.Droid.Helpers
 {
     public class Localize : ILocalize
