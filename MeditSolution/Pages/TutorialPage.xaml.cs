@@ -15,5 +15,15 @@ namespace MeditSolution.Pages
             InitializeComponent();
             On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);
         }
+
+        //protected override bool OnBackButtonPressed()
+        //{
+        //    //if (Navigation.NavigationStack.Count > 1)
+        //    //{
+        //    //    return true;
+        //    //}
+        //    //else
+        //        //return base.OnBackButtonPressed();
+        //}
     }
 }

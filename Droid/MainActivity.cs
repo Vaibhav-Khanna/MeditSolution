@@ -41,10 +41,6 @@ namespace MeditSolution.Droid
 			CrossCurrentActivity.Current.Init(this, bundle);
                        
 			TintedImageRenderer.Init();
-            
-			//((MediaManagerImplementation)CrossMediaManager.Current).MediaSessionManager = new MediaSessionManager(CrossCurrentActivity.Current.AppContext, typeof(ExoPlayerAudioService), Plugin.MediaManager.CrossMediaManager.Current);
-            //var exoPlayer = new ExoPlayerAudioImplementation(((MediaManagerImplementation)CrossMediaManager.Current).MediaSessionManager);
-            //CrossMediaManager.Current.AudioPlayer = exoPlayer;
 
 		    var s = new SfPickerRenderer();
 

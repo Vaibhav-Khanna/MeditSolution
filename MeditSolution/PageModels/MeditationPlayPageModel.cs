@@ -16,7 +16,7 @@ namespace MeditSolution.PageModels
 		public double Progress { get; set; }
 		public string TimerText { get; set; }
 		SeancesModel SeanceModel;
-		IAudioPlayer AudioPlayer => CrossMediaManager.Current.AudioPlayer;
+        IMediaManager AudioPlayer => CrossMediaManager.Current;
 		public Color Tint { get; set; }
 		public Color TintDark { get; set; }
 
@@ -24,25 +24,17 @@ namespace MeditSolution.PageModels
 		MediaFile file;
 
 
-		public Command PlayPauseCommand => new Command(async()=>
+		public Command PlayPauseCommand => new Command(async() =>
 		{
-			if (AudioPlayer.Status == Plugin.MediaManager.Abstractions.Enums.MediaPlayerStatus.Playing)
-			{				
-				await AudioPlayer.Pause();
-				position = AudioPlayer.Position;
-			}
-			else if (AudioPlayer.Status == Plugin.MediaManager.Abstractions.Enums.MediaPlayerStatus.Paused)
-			{            
-				if (Device.RuntimePlatform == Device.Android)
-				{
-					await AudioPlayer.Play();
-					await AudioPlayer.Seek(position);
-					if (CrossMediaManager.Current.MediaNotificationManager != null)
-                        CrossMediaManager.Current.MediaNotificationManager.StopNotifications();
-				}
-				else
-					await AudioPlayer.Play();
-			}
+            if (AudioPlayer.Status == Plugin.MediaManager.Abstractions.Enums.MediaPlayerStatus.Playing)
+            {
+                position = AudioPlayer.Position;
+                await AudioPlayer.Stop();
+            }
+            else if (AudioPlayer.Status == Plugin.MediaManager.Abstractions.Enums.MediaPlayerStatus.Paused)
+            {
+                await AudioPlayer.Play();
+            }
 		});
         
 
@@ -74,10 +66,8 @@ namespace MeditSolution.PageModels
 
 				var url = Constants.RestUrl + "file/" + meditationFile.Path;
                                 
-				AudioPlayer.Play(file = new MediaFile(url, Plugin.MediaManager.Abstractions.Enums.MediaFileType.Audio, Plugin.MediaManager.Abstractions.Enums.ResourceAvailability.Remote));   
-
-				if (CrossMediaManager.Current.MediaNotificationManager != null)
-                    CrossMediaManager.Current.MediaNotificationManager.StopNotifications();
+				AudioPlayer.Play(file = new MediaFile(url, Plugin.MediaManager.Abstractions.Enums.MediaFileType.Audio, Plugin.MediaManager.Abstractions.Enums.ResourceAvailability.Remote));
+                           
 			}
    		}
 
@@ -149,6 +139,7 @@ namespace MeditSolution.PageModels
 			base.ViewIsDisappearing(sender, e);
 
 			AudioPlayer?.Stop();
+            AudioPlayer.Play("https://www.google.com");
 
 			if (AudioPlayer != null)
 			{

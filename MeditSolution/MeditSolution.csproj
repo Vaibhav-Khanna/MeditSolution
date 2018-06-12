@@ -381,6 +381,7 @@
     <Compile Include="Controls\CustomEntry.cs" />
     <Compile Include="DataStore\Implementation\Stores\SubscriptionStore.cs" />
     <Compile Include="Controls\HyperlinkLabel.cs" />
+    <Compile Include="Service\ICloseApp.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FreshIOC">

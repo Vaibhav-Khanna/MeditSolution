@@ -30,7 +30,9 @@ namespace MeditSolution.iOS
 
 			HtmlLabelRenderer.Initialize();
            
-            global::Xamarin.Forms.Forms.Init();        
+            global::Xamarin.Forms.Forms.Init();
+
+            Rg.Plugins.Popup.IOS.Popup.Init();
 
 			TintedImageRenderer.Init();
 
@@ -53,8 +55,8 @@ namespace MeditSolution.iOS
 
 			UISwitch.Appearance.OnTintColor = ((Xamarin.Forms.Color)Xamarin.Forms.Application.Current.Resources["primary"]).ToUIColor();
 
-			UINavigationBar.Appearance.TintColor = ((Xamarin.Forms.Color)Xamarin.Forms.Application.Current.Resources["primaryDark"]).ToUIColor(); //Tint color of button items
-			UIBarButtonItem.Appearance.TintColor = ((Xamarin.Forms.Color)Xamarin.Forms.Application.Current.Resources["primaryDark"]).ToUIColor(); //Tint color of button items
+			//UINavigationBar.Appearance.TintColor = ((Xamarin.Forms.Color)Xamarin.Forms.Application.Current.Resources["primaryDark"]).ToUIColor(); //Tint color of button items
+			//UIBarButtonItem.Appearance.TintColor = ((Xamarin.Forms.Color)Xamarin.Forms.Application.Current.Resources["primaryDark"]).ToUIColor(); //Tint color of button items
 
             var result = base.FinishedLaunching(app, options);
 

@@ -8,6 +8,7 @@ namespace MeditSolution.Controls
 {
     public class TabNavigator
     {
+        public static NavigationPage currentPage;
 
 		public static Page GenerateTabPage()
 		{
@@ -24,8 +25,8 @@ namespace MeditSolution.Controls
 			bottomBarPage.AddTab<CatalogueTabPageModel>(AppResources.tab2, "catalogue.png");
 			bottomBarPage.AddTab<StatsTabPageModel>(AppResources.tab3, "stats.png");
 			var container = bottomBarPage.AddTab<PlusTabPageModel>(AppResources.tab4, "plus.png");
-   
-			return new DynamicNavigationPage(bottomBarPage);
+
+            return ( currentPage = new DynamicNavigationPage(bottomBarPage));
 		}
 
     }

@@ -9,16 +9,19 @@ namespace MeditSolution.PageModels
 {
     public class MeditationSilentPageModel : BasePageModel
     {
-        object time;
+        
+        object time = new ObservableCollection<object>{ "1", "00" };
         [PropertyChanged.DoNotNotify]
         public object SelectedTime
         {
             get { return time; }
             set
             {
-                time = value;
-                if (time != null)
+                if (value != null)
+                {
+                    time = value;
                     Time = $"{(time as ObservableCollection<object>).First()}:{(time as ObservableCollection<object>).Last()}";
+                }
             }
         }
 
@@ -29,8 +32,8 @@ namespace MeditSolution.PageModels
         {
             try
             {
-                int minute = int.Parse((time as ObservableCollection<object>).First().ToString());
-                int second = int.Parse((time as ObservableCollection<object>).Last().ToString());
+                int minute = int.Parse((SelectedTime as ObservableCollection<object>).First().ToString());
+                int second = int.Parse((SelectedTime as ObservableCollection<object>).Last().ToString());
 
                 object SelectedTimeInSecond = ((minute * 60) + second).ToString();
                 await CoreMethods.PushPageModel<MeditationSilentPlayPageModel>(SelectedTimeInSecond, true);
@@ -38,7 +41,6 @@ namespace MeditSolution.PageModels
             catch (Exception e)
             {
                 Debug.WriteLine("Erreur", e);
-
             }
         });
     }

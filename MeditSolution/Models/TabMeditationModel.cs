@@ -33,6 +33,8 @@ namespace MeditSolution.Models
 
 		public string Tint { get; set; } = "#ebb967";
 
+        public int Level { get; set; }
+
 		public string SubTitle { get; set; }
     }
 }

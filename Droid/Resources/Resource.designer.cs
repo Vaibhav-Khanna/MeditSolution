@@ -432,7 +432,6 @@ namespace MeditSolution.Droid
 			global::BottomBar.Droid.Resource.Color.switch_thumb_material_light = global::MeditSolution.Droid.Resource.Color.switch_thumb_material_light;
 			global::BottomBar.Droid.Resource.Color.switch_thumb_normal_material_dark = global::MeditSolution.Droid.Resource.Color.switch_thumb_normal_material_dark;
 			global::BottomBar.Droid.Resource.Color.switch_thumb_normal_material_light = global::MeditSolution.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::BottomBar.Droid.Resource.Color.white = global::MeditSolution.Droid.Resource.Color.white;
 			global::BottomBar.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
 			global::BottomBar.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_default_height_material;
 			global::BottomBar.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
@@ -1739,6 +1738,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Attribute.alertDialogStyle = global::MeditSolution.Droid.Resource.Attribute.alertDialogStyle;
 			global::BottomNavigationBar.Resource.Attribute.alertDialogTheme = global::MeditSolution.Droid.Resource.Attribute.alertDialogTheme;
 			global::BottomNavigationBar.Resource.Attribute.allowStacking = global::MeditSolution.Droid.Resource.Attribute.allowStacking;
+			global::BottomNavigationBar.Resource.Attribute.alpha = global::MeditSolution.Droid.Resource.Attribute.alpha;
 			global::BottomNavigationBar.Resource.Attribute.arrowHeadLength = global::MeditSolution.Droid.Resource.Attribute.arrowHeadLength;
 			global::BottomNavigationBar.Resource.Attribute.arrowShaftLength = global::MeditSolution.Droid.Resource.Attribute.arrowShaftLength;
 			global::BottomNavigationBar.Resource.Attribute.autoCompleteTextViewStyle = global::MeditSolution.Droid.Resource.Attribute.autoCompleteTextViewStyle;
@@ -1748,9 +1748,11 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Attribute.backgroundTint = global::MeditSolution.Droid.Resource.Attribute.backgroundTint;
 			global::BottomNavigationBar.Resource.Attribute.backgroundTintMode = global::MeditSolution.Droid.Resource.Attribute.backgroundTintMode;
 			global::BottomNavigationBar.Resource.Attribute.barLength = global::MeditSolution.Droid.Resource.Attribute.barLength;
+			global::BottomNavigationBar.Resource.Attribute.behavior_autoHide = global::MeditSolution.Droid.Resource.Attribute.behavior_autoHide;
 			global::BottomNavigationBar.Resource.Attribute.behavior_hideable = global::MeditSolution.Droid.Resource.Attribute.behavior_hideable;
 			global::BottomNavigationBar.Resource.Attribute.behavior_overlapTop = global::MeditSolution.Droid.Resource.Attribute.behavior_overlapTop;
 			global::BottomNavigationBar.Resource.Attribute.behavior_peekHeight = global::MeditSolution.Droid.Resource.Attribute.behavior_peekHeight;
+			global::BottomNavigationBar.Resource.Attribute.behavior_skipCollapsed = global::MeditSolution.Droid.Resource.Attribute.behavior_skipCollapsed;
 			global::BottomNavigationBar.Resource.Attribute.borderWidth = global::MeditSolution.Droid.Resource.Attribute.borderWidth;
 			global::BottomNavigationBar.Resource.Attribute.borderlessButtonStyle = global::MeditSolution.Droid.Resource.Attribute.borderlessButtonStyle;
 			global::BottomNavigationBar.Resource.Attribute.bottomSheetDialogTheme = global::MeditSolution.Droid.Resource.Attribute.bottomSheetDialogTheme;
@@ -1760,6 +1762,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Attribute.buttonBarNeutralButtonStyle = global::MeditSolution.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
 			global::BottomNavigationBar.Resource.Attribute.buttonBarPositiveButtonStyle = global::MeditSolution.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
 			global::BottomNavigationBar.Resource.Attribute.buttonBarStyle = global::MeditSolution.Droid.Resource.Attribute.buttonBarStyle;
+			global::BottomNavigationBar.Resource.Attribute.buttonGravity = global::MeditSolution.Droid.Resource.Attribute.buttonGravity;
 			global::BottomNavigationBar.Resource.Attribute.buttonPanelSideLayout = global::MeditSolution.Droid.Resource.Attribute.buttonPanelSideLayout;
 			global::BottomNavigationBar.Resource.Attribute.buttonStyle = global::MeditSolution.Droid.Resource.Attribute.buttonStyle;
 			global::BottomNavigationBar.Resource.Attribute.buttonStyleSmall = global::MeditSolution.Droid.Resource.Attribute.buttonStyleSmall;
@@ -1775,6 +1778,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Attribute.collapsedTitleTextAppearance = global::MeditSolution.Droid.Resource.Attribute.collapsedTitleTextAppearance;
 			global::BottomNavigationBar.Resource.Attribute.color = global::MeditSolution.Droid.Resource.Attribute.color;
 			global::BottomNavigationBar.Resource.Attribute.colorAccent = global::MeditSolution.Droid.Resource.Attribute.colorAccent;
+			global::BottomNavigationBar.Resource.Attribute.colorBackgroundFloating = global::MeditSolution.Droid.Resource.Attribute.colorBackgroundFloating;
 			global::BottomNavigationBar.Resource.Attribute.colorButtonNormal = global::MeditSolution.Droid.Resource.Attribute.colorButtonNormal;
 			global::BottomNavigationBar.Resource.Attribute.colorControlActivated = global::MeditSolution.Droid.Resource.Attribute.colorControlActivated;
 			global::BottomNavigationBar.Resource.Attribute.colorControlHighlight = global::MeditSolution.Droid.Resource.Attribute.colorControlHighlight;
@@ -1784,9 +1788,11 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Attribute.colorSwitchThumbNormal = global::MeditSolution.Droid.Resource.Attribute.colorSwitchThumbNormal;
 			global::BottomNavigationBar.Resource.Attribute.commitIcon = global::MeditSolution.Droid.Resource.Attribute.commitIcon;
 			global::BottomNavigationBar.Resource.Attribute.contentInsetEnd = global::MeditSolution.Droid.Resource.Attribute.contentInsetEnd;
+			global::BottomNavigationBar.Resource.Attribute.contentInsetEndWithActions = global::MeditSolution.Droid.Resource.Attribute.contentInsetEndWithActions;
 			global::BottomNavigationBar.Resource.Attribute.contentInsetLeft = global::MeditSolution.Droid.Resource.Attribute.contentInsetLeft;
 			global::BottomNavigationBar.Resource.Attribute.contentInsetRight = global::MeditSolution.Droid.Resource.Attribute.contentInsetRight;
 			global::BottomNavigationBar.Resource.Attribute.contentInsetStart = global::MeditSolution.Droid.Resource.Attribute.contentInsetStart;
+			global::BottomNavigationBar.Resource.Attribute.contentInsetStartWithNavigation = global::MeditSolution.Droid.Resource.Attribute.contentInsetStartWithNavigation;
 			global::BottomNavigationBar.Resource.Attribute.contentScrim = global::MeditSolution.Droid.Resource.Attribute.contentScrim;
 			global::BottomNavigationBar.Resource.Attribute.controlBackground = global::MeditSolution.Droid.Resource.Attribute.controlBackground;
 			global::BottomNavigationBar.Resource.Attribute.counterEnabled = global::MeditSolution.Droid.Resource.Attribute.counterEnabled;
@@ -1853,6 +1859,8 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Attribute.layout_behavior = global::MeditSolution.Droid.Resource.Attribute.layout_behavior;
 			global::BottomNavigationBar.Resource.Attribute.layout_collapseMode = global::MeditSolution.Droid.Resource.Attribute.layout_collapseMode;
 			global::BottomNavigationBar.Resource.Attribute.layout_collapseParallaxMultiplier = global::MeditSolution.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::BottomNavigationBar.Resource.Attribute.layout_dodgeInsetEdges = global::MeditSolution.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::BottomNavigationBar.Resource.Attribute.layout_insetEdge = global::MeditSolution.Droid.Resource.Attribute.layout_insetEdge;
 			global::BottomNavigationBar.Resource.Attribute.layout_keyline = global::MeditSolution.Droid.Resource.Attribute.layout_keyline;
 			global::BottomNavigationBar.Resource.Attribute.layout_scrollFlags = global::MeditSolution.Droid.Resource.Attribute.layout_scrollFlags;
 			global::BottomNavigationBar.Resource.Attribute.layout_scrollInterpolator = global::MeditSolution.Droid.Resource.Attribute.layout_scrollInterpolator;
@@ -1860,6 +1868,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Attribute.listDividerAlertDialog = global::MeditSolution.Droid.Resource.Attribute.listDividerAlertDialog;
 			global::BottomNavigationBar.Resource.Attribute.listItemLayout = global::MeditSolution.Droid.Resource.Attribute.listItemLayout;
 			global::BottomNavigationBar.Resource.Attribute.listLayout = global::MeditSolution.Droid.Resource.Attribute.listLayout;
+			global::BottomNavigationBar.Resource.Attribute.listMenuViewStyle = global::MeditSolution.Droid.Resource.Attribute.listMenuViewStyle;
 			global::BottomNavigationBar.Resource.Attribute.listPopupWindowStyle = global::MeditSolution.Droid.Resource.Attribute.listPopupWindowStyle;
 			global::BottomNavigationBar.Resource.Attribute.listPreferredItemHeight = global::MeditSolution.Droid.Resource.Attribute.listPreferredItemHeight;
 			global::BottomNavigationBar.Resource.Attribute.listPreferredItemHeightLarge = global::MeditSolution.Droid.Resource.Attribute.listPreferredItemHeightLarge;
@@ -1882,6 +1891,11 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Attribute.panelBackground = global::MeditSolution.Droid.Resource.Attribute.panelBackground;
 			global::BottomNavigationBar.Resource.Attribute.panelMenuListTheme = global::MeditSolution.Droid.Resource.Attribute.panelMenuListTheme;
 			global::BottomNavigationBar.Resource.Attribute.panelMenuListWidth = global::MeditSolution.Droid.Resource.Attribute.panelMenuListWidth;
+			global::BottomNavigationBar.Resource.Attribute.passwordToggleContentDescription = global::MeditSolution.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::BottomNavigationBar.Resource.Attribute.passwordToggleDrawable = global::MeditSolution.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::BottomNavigationBar.Resource.Attribute.passwordToggleEnabled = global::MeditSolution.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::BottomNavigationBar.Resource.Attribute.passwordToggleTint = global::MeditSolution.Droid.Resource.Attribute.passwordToggleTint;
+			global::BottomNavigationBar.Resource.Attribute.passwordToggleTintMode = global::MeditSolution.Droid.Resource.Attribute.passwordToggleTintMode;
 			global::BottomNavigationBar.Resource.Attribute.popupMenuStyle = global::MeditSolution.Droid.Resource.Attribute.popupMenuStyle;
 			global::BottomNavigationBar.Resource.Attribute.popupTheme = global::MeditSolution.Droid.Resource.Attribute.popupTheme;
 			global::BottomNavigationBar.Resource.Attribute.popupWindowStyle = global::MeditSolution.Droid.Resource.Attribute.popupWindowStyle;
@@ -1897,6 +1911,8 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Attribute.ratingBarStyleSmall = global::MeditSolution.Droid.Resource.Attribute.ratingBarStyleSmall;
 			global::BottomNavigationBar.Resource.Attribute.reverseLayout = global::MeditSolution.Droid.Resource.Attribute.reverseLayout;
 			global::BottomNavigationBar.Resource.Attribute.rippleColor = global::MeditSolution.Droid.Resource.Attribute.rippleColor;
+			global::BottomNavigationBar.Resource.Attribute.scrimAnimationDuration = global::MeditSolution.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::BottomNavigationBar.Resource.Attribute.scrimVisibleHeightTrigger = global::MeditSolution.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
 			global::BottomNavigationBar.Resource.Attribute.searchHintIcon = global::MeditSolution.Droid.Resource.Attribute.searchHintIcon;
 			global::BottomNavigationBar.Resource.Attribute.searchIcon = global::MeditSolution.Droid.Resource.Attribute.searchIcon;
 			global::BottomNavigationBar.Resource.Attribute.searchViewStyle = global::MeditSolution.Droid.Resource.Attribute.searchViewStyle;
@@ -1915,8 +1931,11 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Attribute.srcCompat = global::MeditSolution.Droid.Resource.Attribute.srcCompat;
 			global::BottomNavigationBar.Resource.Attribute.stackFromEnd = global::MeditSolution.Droid.Resource.Attribute.stackFromEnd;
 			global::BottomNavigationBar.Resource.Attribute.state_above_anchor = global::MeditSolution.Droid.Resource.Attribute.state_above_anchor;
+			global::BottomNavigationBar.Resource.Attribute.state_collapsed = global::MeditSolution.Droid.Resource.Attribute.state_collapsed;
+			global::BottomNavigationBar.Resource.Attribute.state_collapsible = global::MeditSolution.Droid.Resource.Attribute.state_collapsible;
 			global::BottomNavigationBar.Resource.Attribute.statusBarBackground = global::MeditSolution.Droid.Resource.Attribute.statusBarBackground;
 			global::BottomNavigationBar.Resource.Attribute.statusBarScrim = global::MeditSolution.Droid.Resource.Attribute.statusBarScrim;
+			global::BottomNavigationBar.Resource.Attribute.subMenuArrow = global::MeditSolution.Droid.Resource.Attribute.subMenuArrow;
 			global::BottomNavigationBar.Resource.Attribute.submitBackground = global::MeditSolution.Droid.Resource.Attribute.submitBackground;
 			global::BottomNavigationBar.Resource.Attribute.subtitle = global::MeditSolution.Droid.Resource.Attribute.subtitle;
 			global::BottomNavigationBar.Resource.Attribute.subtitleTextAppearance = global::MeditSolution.Droid.Resource.Attribute.subtitleTextAppearance;
@@ -1947,6 +1966,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Attribute.textAppearanceLargePopupMenu = global::MeditSolution.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
 			global::BottomNavigationBar.Resource.Attribute.textAppearanceListItem = global::MeditSolution.Droid.Resource.Attribute.textAppearanceListItem;
 			global::BottomNavigationBar.Resource.Attribute.textAppearanceListItemSmall = global::MeditSolution.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::BottomNavigationBar.Resource.Attribute.textAppearancePopupMenuHeader = global::MeditSolution.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
 			global::BottomNavigationBar.Resource.Attribute.textAppearanceSearchResultSubtitle = global::MeditSolution.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
 			global::BottomNavigationBar.Resource.Attribute.textAppearanceSearchResultTitle = global::MeditSolution.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
 			global::BottomNavigationBar.Resource.Attribute.textAppearanceSmallPopupMenu = global::MeditSolution.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
@@ -1956,8 +1976,14 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Attribute.theme = global::MeditSolution.Droid.Resource.Attribute.theme;
 			global::BottomNavigationBar.Resource.Attribute.thickness = global::MeditSolution.Droid.Resource.Attribute.thickness;
 			global::BottomNavigationBar.Resource.Attribute.thumbTextPadding = global::MeditSolution.Droid.Resource.Attribute.thumbTextPadding;
+			global::BottomNavigationBar.Resource.Attribute.thumbTint = global::MeditSolution.Droid.Resource.Attribute.thumbTint;
+			global::BottomNavigationBar.Resource.Attribute.thumbTintMode = global::MeditSolution.Droid.Resource.Attribute.thumbTintMode;
+			global::BottomNavigationBar.Resource.Attribute.tickMark = global::MeditSolution.Droid.Resource.Attribute.tickMark;
+			global::BottomNavigationBar.Resource.Attribute.tickMarkTint = global::MeditSolution.Droid.Resource.Attribute.tickMarkTint;
+			global::BottomNavigationBar.Resource.Attribute.tickMarkTintMode = global::MeditSolution.Droid.Resource.Attribute.tickMarkTintMode;
 			global::BottomNavigationBar.Resource.Attribute.title = global::MeditSolution.Droid.Resource.Attribute.title;
 			global::BottomNavigationBar.Resource.Attribute.titleEnabled = global::MeditSolution.Droid.Resource.Attribute.titleEnabled;
+			global::BottomNavigationBar.Resource.Attribute.titleMargin = global::MeditSolution.Droid.Resource.Attribute.titleMargin;
 			global::BottomNavigationBar.Resource.Attribute.titleMarginBottom = global::MeditSolution.Droid.Resource.Attribute.titleMarginBottom;
 			global::BottomNavigationBar.Resource.Attribute.titleMarginEnd = global::MeditSolution.Droid.Resource.Attribute.titleMarginEnd;
 			global::BottomNavigationBar.Resource.Attribute.titleMarginStart = global::MeditSolution.Droid.Resource.Attribute.titleMarginStart;
@@ -1970,6 +1996,8 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Attribute.toolbarNavigationButtonStyle = global::MeditSolution.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
 			global::BottomNavigationBar.Resource.Attribute.toolbarStyle = global::MeditSolution.Droid.Resource.Attribute.toolbarStyle;
 			global::BottomNavigationBar.Resource.Attribute.track = global::MeditSolution.Droid.Resource.Attribute.track;
+			global::BottomNavigationBar.Resource.Attribute.trackTint = global::MeditSolution.Droid.Resource.Attribute.trackTint;
+			global::BottomNavigationBar.Resource.Attribute.trackTintMode = global::MeditSolution.Droid.Resource.Attribute.trackTintMode;
 			global::BottomNavigationBar.Resource.Attribute.useCompatPadding = global::MeditSolution.Droid.Resource.Attribute.useCompatPadding;
 			global::BottomNavigationBar.Resource.Attribute.voiceIcon = global::MeditSolution.Droid.Resource.Attribute.voiceIcon;
 			global::BottomNavigationBar.Resource.Attribute.windowActionBar = global::MeditSolution.Droid.Resource.Attribute.windowActionBar;
@@ -1990,6 +2018,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Boolean.bb_bottom_bar_is_tablet_mode = global::MeditSolution.Droid.Resource.Boolean.bb_bottom_bar_is_tablet_mode;
 			global::BottomNavigationBar.Resource.Color.abc_background_cache_hint_selector_material_dark = global::MeditSolution.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
 			global::BottomNavigationBar.Resource.Color.abc_background_cache_hint_selector_material_light = global::MeditSolution.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::BottomNavigationBar.Resource.Color.abc_btn_colored_borderless_text_material = global::MeditSolution.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
 			global::BottomNavigationBar.Resource.Color.abc_color_highlight_material = global::MeditSolution.Droid.Resource.Color.abc_color_highlight_material;
 			global::BottomNavigationBar.Resource.Color.abc_input_method_navigation_guard = global::MeditSolution.Droid.Resource.Color.abc_input_method_navigation_guard;
 			global::BottomNavigationBar.Resource.Color.abc_primary_text_disable_only_material_dark = global::MeditSolution.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
@@ -2002,6 +2031,12 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Color.abc_search_url_text_selected = global::MeditSolution.Droid.Resource.Color.abc_search_url_text_selected;
 			global::BottomNavigationBar.Resource.Color.abc_secondary_text_material_dark = global::MeditSolution.Droid.Resource.Color.abc_secondary_text_material_dark;
 			global::BottomNavigationBar.Resource.Color.abc_secondary_text_material_light = global::MeditSolution.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::BottomNavigationBar.Resource.Color.abc_tint_btn_checkable = global::MeditSolution.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::BottomNavigationBar.Resource.Color.abc_tint_default = global::MeditSolution.Droid.Resource.Color.abc_tint_default;
+			global::BottomNavigationBar.Resource.Color.abc_tint_edittext = global::MeditSolution.Droid.Resource.Color.abc_tint_edittext;
+			global::BottomNavigationBar.Resource.Color.abc_tint_seek_thumb = global::MeditSolution.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::BottomNavigationBar.Resource.Color.abc_tint_spinner = global::MeditSolution.Droid.Resource.Color.abc_tint_spinner;
+			global::BottomNavigationBar.Resource.Color.abc_tint_switch_track = global::MeditSolution.Droid.Resource.Color.abc_tint_switch_track;
 			global::BottomNavigationBar.Resource.Color.accent_material_dark = global::MeditSolution.Droid.Resource.Color.accent_material_dark;
 			global::BottomNavigationBar.Resource.Color.accent_material_light = global::MeditSolution.Droid.Resource.Color.accent_material_light;
 			global::BottomNavigationBar.Resource.Color.background_floating_material_dark = global::MeditSolution.Droid.Resource.Color.background_floating_material_dark;
@@ -2009,6 +2044,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Color.background_material_dark = global::MeditSolution.Droid.Resource.Color.background_material_dark;
 			global::BottomNavigationBar.Resource.Color.background_material_light = global::MeditSolution.Droid.Resource.Color.background_material_light;
 			global::BottomNavigationBar.Resource.Color.bb_darkBackgroundColor = global::MeditSolution.Droid.Resource.Color.bb_darkBackgroundColor;
+			global::BottomNavigationBar.Resource.Color.bb_darkInActiveBottomBarItemColor = global::MeditSolution.Droid.Resource.Color.bb_darkInActiveBottomBarItemColor;
 			global::BottomNavigationBar.Resource.Color.bb_inActiveBottomBarItemColor = global::MeditSolution.Droid.Resource.Color.bb_inActiveBottomBarItemColor;
 			global::BottomNavigationBar.Resource.Color.bb_tabletRightBorderDark = global::MeditSolution.Droid.Resource.Color.bb_tabletRightBorderDark;
 			global::BottomNavigationBar.Resource.Color.bright_foreground_disabled_material_dark = global::MeditSolution.Droid.Resource.Color.bright_foreground_disabled_material_dark;
@@ -2019,6 +2055,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Color.bright_foreground_material_light = global::MeditSolution.Droid.Resource.Color.bright_foreground_material_light;
 			global::BottomNavigationBar.Resource.Color.button_material_dark = global::MeditSolution.Droid.Resource.Color.button_material_dark;
 			global::BottomNavigationBar.Resource.Color.button_material_light = global::MeditSolution.Droid.Resource.Color.button_material_light;
+			global::BottomNavigationBar.Resource.Color.design_error = global::MeditSolution.Droid.Resource.Color.design_error;
 			global::BottomNavigationBar.Resource.Color.design_fab_shadow_end_color = global::MeditSolution.Droid.Resource.Color.design_fab_shadow_end_color;
 			global::BottomNavigationBar.Resource.Color.design_fab_shadow_mid_color = global::MeditSolution.Droid.Resource.Color.design_fab_shadow_mid_color;
 			global::BottomNavigationBar.Resource.Color.design_fab_shadow_start_color = global::MeditSolution.Droid.Resource.Color.design_fab_shadow_start_color;
@@ -2027,6 +2064,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Color.design_fab_stroke_top_inner_color = global::MeditSolution.Droid.Resource.Color.design_fab_stroke_top_inner_color;
 			global::BottomNavigationBar.Resource.Color.design_fab_stroke_top_outer_color = global::MeditSolution.Droid.Resource.Color.design_fab_stroke_top_outer_color;
 			global::BottomNavigationBar.Resource.Color.design_snackbar_background_color = global::MeditSolution.Droid.Resource.Color.design_snackbar_background_color;
+			global::BottomNavigationBar.Resource.Color.design_tint_password_toggle = global::MeditSolution.Droid.Resource.Color.design_tint_password_toggle;
 			global::BottomNavigationBar.Resource.Color.dim_foreground_disabled_material_dark = global::MeditSolution.Droid.Resource.Color.dim_foreground_disabled_material_dark;
 			global::BottomNavigationBar.Resource.Color.dim_foreground_disabled_material_light = global::MeditSolution.Droid.Resource.Color.dim_foreground_disabled_material_light;
 			global::BottomNavigationBar.Resource.Color.dim_foreground_material_dark = global::MeditSolution.Droid.Resource.Color.dim_foreground_material_dark;
@@ -2067,11 +2105,12 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Color.switch_thumb_material_light = global::MeditSolution.Droid.Resource.Color.switch_thumb_material_light;
 			global::BottomNavigationBar.Resource.Color.switch_thumb_normal_material_dark = global::MeditSolution.Droid.Resource.Color.switch_thumb_normal_material_dark;
 			global::BottomNavigationBar.Resource.Color.switch_thumb_normal_material_light = global::MeditSolution.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::BottomNavigationBar.Resource.Color.white = global::MeditSolution.Droid.Resource.Color.white;
 			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_content_inset_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
 			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_default_height_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_default_height_material;
 			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_default_padding_end_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
 			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_default_padding_start_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_elevation_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_elevation_material;
 			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
 			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
 			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
@@ -2088,6 +2127,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Dimension.abc_button_inset_vertical_material = global::MeditSolution.Droid.Resource.Dimension.abc_button_inset_vertical_material;
 			global::BottomNavigationBar.Resource.Dimension.abc_button_padding_horizontal_material = global::MeditSolution.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
 			global::BottomNavigationBar.Resource.Dimension.abc_button_padding_vertical_material = global::MeditSolution.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::MeditSolution.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
 			global::BottomNavigationBar.Resource.Dimension.abc_config_prefDialogWidth = global::MeditSolution.Droid.Resource.Dimension.abc_config_prefDialogWidth;
 			global::BottomNavigationBar.Resource.Dimension.abc_control_corner_material = global::MeditSolution.Droid.Resource.Dimension.abc_control_corner_material;
 			global::BottomNavigationBar.Resource.Dimension.abc_control_inset_material = global::MeditSolution.Droid.Resource.Dimension.abc_control_inset_material;
@@ -2111,6 +2151,8 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Dimension.abc_floating_window_z = global::MeditSolution.Droid.Resource.Dimension.abc_floating_window_z;
 			global::BottomNavigationBar.Resource.Dimension.abc_list_item_padding_horizontal_material = global::MeditSolution.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
 			global::BottomNavigationBar.Resource.Dimension.abc_panel_menu_list_width = global::MeditSolution.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::BottomNavigationBar.Resource.Dimension.abc_progress_bar_height_material = global::MeditSolution.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_search_view_preferred_height = global::MeditSolution.Droid.Resource.Dimension.abc_search_view_preferred_height;
 			global::BottomNavigationBar.Resource.Dimension.abc_search_view_preferred_width = global::MeditSolution.Droid.Resource.Dimension.abc_search_view_preferred_width;
 			global::BottomNavigationBar.Resource.Dimension.abc_seekbar_track_background_height_material = global::MeditSolution.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
 			global::BottomNavigationBar.Resource.Dimension.abc_seekbar_track_progress_height_material = global::MeditSolution.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
@@ -2127,6 +2169,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Dimension.abc_text_size_headline_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_headline_material;
 			global::BottomNavigationBar.Resource.Dimension.abc_text_size_large_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_large_material;
 			global::BottomNavigationBar.Resource.Dimension.abc_text_size_medium_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_menu_header_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_menu_header_material;
 			global::BottomNavigationBar.Resource.Dimension.abc_text_size_menu_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_menu_material;
 			global::BottomNavigationBar.Resource.Dimension.abc_text_size_small_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_small_material;
 			global::BottomNavigationBar.Resource.Dimension.abc_text_size_subhead_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_subhead_material;
@@ -2138,7 +2181,14 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Dimension.bb_height = global::MeditSolution.Droid.Resource.Dimension.bb_height;
 			global::BottomNavigationBar.Resource.Dimension.bottom_bar_elevation = global::MeditSolution.Droid.Resource.Dimension.bottom_bar_elevation;
 			global::BottomNavigationBar.Resource.Dimension.design_appbar_elevation = global::MeditSolution.Droid.Resource.Dimension.design_appbar_elevation;
+			global::BottomNavigationBar.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::MeditSolution.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::BottomNavigationBar.Resource.Dimension.design_bottom_navigation_active_text_size = global::MeditSolution.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::BottomNavigationBar.Resource.Dimension.design_bottom_navigation_height = global::MeditSolution.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::BottomNavigationBar.Resource.Dimension.design_bottom_navigation_item_max_width = global::MeditSolution.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::BottomNavigationBar.Resource.Dimension.design_bottom_navigation_margin = global::MeditSolution.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::BottomNavigationBar.Resource.Dimension.design_bottom_navigation_text_size = global::MeditSolution.Droid.Resource.Dimension.design_bottom_navigation_text_size;
 			global::BottomNavigationBar.Resource.Dimension.design_bottom_sheet_modal_elevation = global::MeditSolution.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::BottomNavigationBar.Resource.Dimension.design_bottom_sheet_peek_height_min = global::MeditSolution.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
 			global::BottomNavigationBar.Resource.Dimension.design_fab_border_width = global::MeditSolution.Droid.Resource.Dimension.design_fab_border_width;
 			global::BottomNavigationBar.Resource.Dimension.design_fab_elevation = global::MeditSolution.Droid.Resource.Dimension.design_fab_elevation;
 			global::BottomNavigationBar.Resource.Dimension.design_fab_image_size = global::MeditSolution.Droid.Resource.Dimension.design_fab_image_size;
@@ -2193,17 +2243,27 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Drawable.abc_cab_background_top_material = global::MeditSolution.Droid.Resource.Drawable.abc_cab_background_top_material;
 			global::BottomNavigationBar.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
 			global::BottomNavigationBar.Resource.Drawable.abc_control_background_material = global::MeditSolution.Droid.Resource.Drawable.abc_control_background_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_dialog_material_background = global::MeditSolution.Droid.Resource.Drawable.abc_dialog_material_background;
 			global::BottomNavigationBar.Resource.Drawable.abc_edit_text_material = global::MeditSolution.Droid.Resource.Drawable.abc_edit_text_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_ab_back_material = global::MeditSolution.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::MeditSolution.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_clear_material = global::MeditSolution.Droid.Resource.Drawable.abc_ic_clear_material;
 			global::BottomNavigationBar.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_go_search_api_material = global::MeditSolution.Droid.Resource.Drawable.abc_ic_go_search_api_material;
 			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
 			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_overflow_material = global::MeditSolution.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
 			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
 			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
 			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_search_api_material = global::MeditSolution.Droid.Resource.Drawable.abc_ic_search_api_material;
 			global::BottomNavigationBar.Resource.Drawable.abc_ic_star_black_16dp = global::MeditSolution.Droid.Resource.Drawable.abc_ic_star_black_16dp;
 			global::BottomNavigationBar.Resource.Drawable.abc_ic_star_black_36dp = global::MeditSolution.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_star_black_48dp = global::MeditSolution.Droid.Resource.Drawable.abc_ic_star_black_48dp;
 			global::BottomNavigationBar.Resource.Drawable.abc_ic_star_half_black_16dp = global::MeditSolution.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
 			global::BottomNavigationBar.Resource.Drawable.abc_ic_star_half_black_36dp = global::MeditSolution.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_star_half_black_48dp = global::MeditSolution.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_voice_search_api_material = global::MeditSolution.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
 			global::BottomNavigationBar.Resource.Drawable.abc_item_background_holo_dark = global::MeditSolution.Droid.Resource.Drawable.abc_item_background_holo_dark;
 			global::BottomNavigationBar.Resource.Drawable.abc_item_background_holo_light = global::MeditSolution.Droid.Resource.Drawable.abc_item_background_holo_light;
 			global::BottomNavigationBar.Resource.Drawable.abc_list_divider_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
@@ -2220,6 +2280,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::MeditSolution.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
 			global::BottomNavigationBar.Resource.Drawable.abc_popup_background_mtrl_mult = global::MeditSolution.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
 			global::BottomNavigationBar.Resource.Drawable.abc_ratingbar_indicator_material = global::MeditSolution.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_ratingbar_material = global::MeditSolution.Droid.Resource.Drawable.abc_ratingbar_material;
 			global::BottomNavigationBar.Resource.Drawable.abc_ratingbar_small_material = global::MeditSolution.Droid.Resource.Drawable.abc_ratingbar_small_material;
 			global::BottomNavigationBar.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
 			global::BottomNavigationBar.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::MeditSolution.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
@@ -2227,6 +2288,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
 			global::BottomNavigationBar.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
 			global::BottomNavigationBar.Resource.Drawable.abc_seekbar_thumb_material = global::MeditSolution.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_seekbar_tick_mark_material = global::MeditSolution.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
 			global::BottomNavigationBar.Resource.Drawable.abc_seekbar_track_material = global::MeditSolution.Droid.Resource.Drawable.abc_seekbar_track_material;
 			global::BottomNavigationBar.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
 			global::BottomNavigationBar.Resource.Drawable.abc_spinner_textfield_background_material = global::MeditSolution.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
@@ -2235,14 +2297,23 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Drawable.abc_tab_indicator_material = global::MeditSolution.Droid.Resource.Drawable.abc_tab_indicator_material;
 			global::BottomNavigationBar.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
 			global::BottomNavigationBar.Resource.Drawable.abc_text_cursor_material = global::MeditSolution.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::MeditSolution.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::BottomNavigationBar.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::MeditSolution.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::BottomNavigationBar.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::MeditSolution.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::BottomNavigationBar.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::MeditSolution.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::BottomNavigationBar.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::MeditSolution.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::BottomNavigationBar.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::MeditSolution.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
 			global::BottomNavigationBar.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
 			global::BottomNavigationBar.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
 			global::BottomNavigationBar.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
 			global::BottomNavigationBar.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
 			global::BottomNavigationBar.Resource.Drawable.abc_textfield_search_material = global::MeditSolution.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_vector_test = global::MeditSolution.Droid.Resource.Drawable.abc_vector_test;
 			global::BottomNavigationBar.Resource.Drawable.bb_bottom_bar_top_shadow = global::MeditSolution.Droid.Resource.Drawable.bb_bottom_bar_top_shadow;
 			global::BottomNavigationBar.Resource.Drawable.design_fab_background = global::MeditSolution.Droid.Resource.Drawable.design_fab_background;
+			global::BottomNavigationBar.Resource.Drawable.design_ic_visibility = global::MeditSolution.Droid.Resource.Drawable.design_ic_visibility;
 			global::BottomNavigationBar.Resource.Drawable.design_snackbar_background = global::MeditSolution.Droid.Resource.Drawable.design_snackbar_background;
+			global::BottomNavigationBar.Resource.Drawable.navigation_empty_icon = global::MeditSolution.Droid.Resource.Drawable.navigation_empty_icon;
 			global::BottomNavigationBar.Resource.Drawable.notification_template_icon_bg = global::MeditSolution.Droid.Resource.Drawable.notification_template_icon_bg;
 			global::BottomNavigationBar.Resource.Id.action0 = global::MeditSolution.Droid.Resource.Id.action0;
 			global::BottomNavigationBar.Resource.Id.action_bar = global::MeditSolution.Droid.Resource.Id.action_bar;
@@ -2260,8 +2331,11 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Id.action_mode_bar_stub = global::MeditSolution.Droid.Resource.Id.action_mode_bar_stub;
 			global::BottomNavigationBar.Resource.Id.action_mode_close_button = global::MeditSolution.Droid.Resource.Id.action_mode_close_button;
 			global::BottomNavigationBar.Resource.Id.activity_chooser_view_content = global::MeditSolution.Droid.Resource.Id.activity_chooser_view_content;
+			global::BottomNavigationBar.Resource.Id.add = global::MeditSolution.Droid.Resource.Id.add;
 			global::BottomNavigationBar.Resource.Id.alertTitle = global::MeditSolution.Droid.Resource.Id.alertTitle;
+			global::BottomNavigationBar.Resource.Id.all = global::MeditSolution.Droid.Resource.Id.all;
 			global::BottomNavigationBar.Resource.Id.always = global::MeditSolution.Droid.Resource.Id.always;
+			global::BottomNavigationBar.Resource.Id.auto = global::MeditSolution.Droid.Resource.Id.auto;
 			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_background_overlay = global::MeditSolution.Droid.Resource.Id.bb_bottom_bar_background_overlay;
 			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_background_view = global::MeditSolution.Droid.Resource.Id.bb_bottom_bar_background_view;
 			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_icon = global::MeditSolution.Droid.Resource.Id.bb_bottom_bar_icon;
@@ -2364,11 +2438,13 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Id.src_over = global::MeditSolution.Droid.Resource.Id.src_over;
 			global::BottomNavigationBar.Resource.Id.start = global::MeditSolution.Droid.Resource.Id.start;
 			global::BottomNavigationBar.Resource.Id.status_bar_latest_event_content = global::MeditSolution.Droid.Resource.Id.status_bar_latest_event_content;
+			global::BottomNavigationBar.Resource.Id.submenuarrow = global::MeditSolution.Droid.Resource.Id.submenuarrow;
 			global::BottomNavigationBar.Resource.Id.submit_area = global::MeditSolution.Droid.Resource.Id.submit_area;
 			global::BottomNavigationBar.Resource.Id.tabMode = global::MeditSolution.Droid.Resource.Id.tabMode;
 			global::BottomNavigationBar.Resource.Id.text = global::MeditSolution.Droid.Resource.Id.text;
 			global::BottomNavigationBar.Resource.Id.text2 = global::MeditSolution.Droid.Resource.Id.text2;
 			global::BottomNavigationBar.Resource.Id.textSpacerNoButtons = global::MeditSolution.Droid.Resource.Id.textSpacerNoButtons;
+			global::BottomNavigationBar.Resource.Id.text_input_password_toggle = global::MeditSolution.Droid.Resource.Id.text_input_password_toggle;
 			global::BottomNavigationBar.Resource.Id.time = global::MeditSolution.Droid.Resource.Id.time;
 			global::BottomNavigationBar.Resource.Id.title = global::MeditSolution.Droid.Resource.Id.title;
 			global::BottomNavigationBar.Resource.Id.title_template = global::MeditSolution.Droid.Resource.Id.title_template;
@@ -2382,6 +2458,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Id.wrap_content = global::MeditSolution.Droid.Resource.Id.wrap_content;
 			global::BottomNavigationBar.Resource.Integer.abc_config_activityDefaultDur = global::MeditSolution.Droid.Resource.Integer.abc_config_activityDefaultDur;
 			global::BottomNavigationBar.Resource.Integer.abc_config_activityShortDur = global::MeditSolution.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::BottomNavigationBar.Resource.Integer.app_bar_elevation_anim_duration = global::MeditSolution.Droid.Resource.Integer.app_bar_elevation_anim_duration;
 			global::BottomNavigationBar.Resource.Integer.bottom_sheet_slide_duration = global::MeditSolution.Droid.Resource.Integer.bottom_sheet_slide_duration;
 			global::BottomNavigationBar.Resource.Integer.cancel_button_image_alpha = global::MeditSolution.Droid.Resource.Integer.cancel_button_image_alpha;
 			global::BottomNavigationBar.Resource.Integer.design_snackbar_text_max_lines = global::MeditSolution.Droid.Resource.Integer.design_snackbar_text_max_lines;
@@ -2403,6 +2480,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Layout.abc_list_menu_item_icon = global::MeditSolution.Droid.Resource.Layout.abc_list_menu_item_icon;
 			global::BottomNavigationBar.Resource.Layout.abc_list_menu_item_layout = global::MeditSolution.Droid.Resource.Layout.abc_list_menu_item_layout;
 			global::BottomNavigationBar.Resource.Layout.abc_list_menu_item_radio = global::MeditSolution.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::BottomNavigationBar.Resource.Layout.abc_popup_menu_header_item_layout = global::MeditSolution.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
 			global::BottomNavigationBar.Resource.Layout.abc_popup_menu_item_layout = global::MeditSolution.Droid.Resource.Layout.abc_popup_menu_item_layout;
 			global::BottomNavigationBar.Resource.Layout.abc_screen_content_include = global::MeditSolution.Droid.Resource.Layout.abc_screen_content_include;
 			global::BottomNavigationBar.Resource.Layout.abc_screen_simple = global::MeditSolution.Droid.Resource.Layout.abc_screen_simple;
@@ -2428,6 +2506,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Layout.design_navigation_item_subheader = global::MeditSolution.Droid.Resource.Layout.design_navigation_item_subheader;
 			global::BottomNavigationBar.Resource.Layout.design_navigation_menu = global::MeditSolution.Droid.Resource.Layout.design_navigation_menu;
 			global::BottomNavigationBar.Resource.Layout.design_navigation_menu_item = global::MeditSolution.Droid.Resource.Layout.design_navigation_menu_item;
+			global::BottomNavigationBar.Resource.Layout.design_text_input_password_icon = global::MeditSolution.Droid.Resource.Layout.design_text_input_password_icon;
 			global::BottomNavigationBar.Resource.Layout.notification_media_action = global::MeditSolution.Droid.Resource.Layout.notification_media_action;
 			global::BottomNavigationBar.Resource.Layout.notification_media_cancel_action = global::MeditSolution.Droid.Resource.Layout.notification_media_cancel_action;
 			global::BottomNavigationBar.Resource.Layout.notification_template_big_media = global::MeditSolution.Droid.Resource.Layout.notification_template_big_media;
@@ -2449,6 +2528,18 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.String.abc_activitychooserview_choose_application = global::MeditSolution.Droid.Resource.String.abc_activitychooserview_choose_application;
 			global::BottomNavigationBar.Resource.String.abc_capital_off = global::MeditSolution.Droid.Resource.String.abc_capital_off;
 			global::BottomNavigationBar.Resource.String.abc_capital_on = global::MeditSolution.Droid.Resource.String.abc_capital_on;
+			global::BottomNavigationBar.Resource.String.abc_font_family_body_1_material = global::MeditSolution.Droid.Resource.String.abc_font_family_body_1_material;
+			global::BottomNavigationBar.Resource.String.abc_font_family_body_2_material = global::MeditSolution.Droid.Resource.String.abc_font_family_body_2_material;
+			global::BottomNavigationBar.Resource.String.abc_font_family_button_material = global::MeditSolution.Droid.Resource.String.abc_font_family_button_material;
+			global::BottomNavigationBar.Resource.String.abc_font_family_caption_material = global::MeditSolution.Droid.Resource.String.abc_font_family_caption_material;
+			global::BottomNavigationBar.Resource.String.abc_font_family_display_1_material = global::MeditSolution.Droid.Resource.String.abc_font_family_display_1_material;
+			global::BottomNavigationBar.Resource.String.abc_font_family_display_2_material = global::MeditSolution.Droid.Resource.String.abc_font_family_display_2_material;
+			global::BottomNavigationBar.Resource.String.abc_font_family_display_3_material = global::MeditSolution.Droid.Resource.String.abc_font_family_display_3_material;
+			global::BottomNavigationBar.Resource.String.abc_font_family_display_4_material = global::MeditSolution.Droid.Resource.String.abc_font_family_display_4_material;
+			global::BottomNavigationBar.Resource.String.abc_font_family_headline_material = global::MeditSolution.Droid.Resource.String.abc_font_family_headline_material;
+			global::BottomNavigationBar.Resource.String.abc_font_family_menu_material = global::MeditSolution.Droid.Resource.String.abc_font_family_menu_material;
+			global::BottomNavigationBar.Resource.String.abc_font_family_subhead_material = global::MeditSolution.Droid.Resource.String.abc_font_family_subhead_material;
+			global::BottomNavigationBar.Resource.String.abc_font_family_title_material = global::MeditSolution.Droid.Resource.String.abc_font_family_title_material;
 			global::BottomNavigationBar.Resource.String.abc_search_hint = global::MeditSolution.Droid.Resource.String.abc_search_hint;
 			global::BottomNavigationBar.Resource.String.abc_searchview_description_clear = global::MeditSolution.Droid.Resource.String.abc_searchview_description_clear;
 			global::BottomNavigationBar.Resource.String.abc_searchview_description_query = global::MeditSolution.Droid.Resource.String.abc_searchview_description_query;
@@ -2462,6 +2553,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.String.appbar_scrolling_view_behavior = global::MeditSolution.Droid.Resource.String.appbar_scrolling_view_behavior;
 			global::BottomNavigationBar.Resource.String.bottom_sheet_behavior = global::MeditSolution.Droid.Resource.String.bottom_sheet_behavior;
 			global::BottomNavigationBar.Resource.String.character_counter_pattern = global::MeditSolution.Droid.Resource.String.character_counter_pattern;
+			global::BottomNavigationBar.Resource.String.search_menu_title = global::MeditSolution.Droid.Resource.String.search_menu_title;
 			global::BottomNavigationBar.Resource.String.status_bar_notification_info_overflow = global::MeditSolution.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::BottomNavigationBar.Resource.Style.AlertDialog_AppCompat = global::MeditSolution.Droid.Resource.Style.AlertDialog_AppCompat;
 			global::BottomNavigationBar.Resource.Style.AlertDialog_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.AlertDialog_AppCompat_Light;
@@ -2519,6 +2611,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
 			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
 			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
 			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
 			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
 			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
@@ -2544,15 +2637,19 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::MeditSolution.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
 			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::MeditSolution.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
 			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::MeditSolution.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::MeditSolution.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
 			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
 			global::BottomNavigationBar.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
 			global::BottomNavigationBar.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::MeditSolution.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::BottomNavigationBar.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
 			global::BottomNavigationBar.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::MeditSolution.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
 			global::BottomNavigationBar.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::MeditSolution.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
 			global::BottomNavigationBar.Resource.Style.Base_V21_Theme_AppCompat = global::MeditSolution.Droid.Resource.Style.Base_V21_Theme_AppCompat;
 			global::BottomNavigationBar.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
 			global::BottomNavigationBar.Resource.Style.Base_V21_Theme_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
 			global::BottomNavigationBar.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::MeditSolution.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::BottomNavigationBar.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
 			global::BottomNavigationBar.Resource.Style.Base_V22_Theme_AppCompat = global::MeditSolution.Droid.Resource.Style.Base_V22_Theme_AppCompat;
 			global::BottomNavigationBar.Resource.Style.Base_V22_Theme_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
 			global::BottomNavigationBar.Resource.Style.Base_V23_Theme_AppCompat = global::MeditSolution.Droid.Resource.Style.Base_V23_Theme_AppCompat;
@@ -2561,6 +2658,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
 			global::BottomNavigationBar.Resource.Style.Base_V7_Theme_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
 			global::BottomNavigationBar.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::MeditSolution.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::BottomNavigationBar.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
 			global::BottomNavigationBar.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::MeditSolution.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
 			global::BottomNavigationBar.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::MeditSolution.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
 			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionBar = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
@@ -2598,6 +2696,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
 			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
 			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
 			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
 			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ListView = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
 			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
@@ -2613,11 +2712,13 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_SearchView = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
 			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
 			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_SeekBar = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
 			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Spinner = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
 			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
 			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
 			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Toolbar = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
 			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_Design_AppBarLayout = global::MeditSolution.Droid.Resource.Style.Base_Widget_Design_AppBarLayout;
 			global::BottomNavigationBar.Resource.Style.Base_Widget_Design_TabLayout = global::MeditSolution.Droid.Resource.Style.Base_Widget_Design_TabLayout;
 			global::BottomNavigationBar.Resource.Style.Platform_AppCompat = global::MeditSolution.Droid.Resource.Style.Platform_AppCompat;
 			global::BottomNavigationBar.Resource.Style.Platform_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Platform_AppCompat_Light;
@@ -2683,6 +2784,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
 			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
 			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
 			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
 			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
 			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
@@ -2728,6 +2830,8 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::MeditSolution.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
 			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat_Dark = global::MeditSolution.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
 			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::MeditSolution.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::MeditSolution.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
 			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
 			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionBar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ActionBar;
 			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
@@ -2777,6 +2881,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
 			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_SearchView = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
 			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ListMenuView = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
 			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ListPopupWindow = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
 			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ListView = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ListView;
 			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ListView_DropDown = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
@@ -2792,6 +2897,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_SearchView = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_SearchView;
 			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
 			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_SeekBar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
 			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Spinner = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Spinner;
 			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
 			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
@@ -2814,9 +2920,11 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Styleable.ActionBar_backgroundSplit = global::MeditSolution.Droid.Resource.Styleable.ActionBar_backgroundSplit;
 			global::BottomNavigationBar.Resource.Styleable.ActionBar_backgroundStacked = global::MeditSolution.Droid.Resource.Styleable.ActionBar_backgroundStacked;
 			global::BottomNavigationBar.Resource.Styleable.ActionBar_contentInsetEnd = global::MeditSolution.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::MeditSolution.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
 			global::BottomNavigationBar.Resource.Styleable.ActionBar_contentInsetLeft = global::MeditSolution.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
 			global::BottomNavigationBar.Resource.Styleable.ActionBar_contentInsetRight = global::MeditSolution.Droid.Resource.Styleable.ActionBar_contentInsetRight;
 			global::BottomNavigationBar.Resource.Styleable.ActionBar_contentInsetStart = global::MeditSolution.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::MeditSolution.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
 			global::BottomNavigationBar.Resource.Styleable.ActionBar_customNavigationLayout = global::MeditSolution.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
 			global::BottomNavigationBar.Resource.Styleable.ActionBar_displayOptions = global::MeditSolution.Droid.Resource.Styleable.ActionBar_displayOptions;
 			global::BottomNavigationBar.Resource.Styleable.ActionBar_divider = global::MeditSolution.Droid.Resource.Styleable.ActionBar_divider;
@@ -2863,9 +2971,28 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Styleable.AppBarLayout_android_background = global::MeditSolution.Droid.Resource.Styleable.AppBarLayout_android_background;
 			global::BottomNavigationBar.Resource.Styleable.AppBarLayout_elevation = global::MeditSolution.Droid.Resource.Styleable.AppBarLayout_elevation;
 			global::BottomNavigationBar.Resource.Styleable.AppBarLayout_expanded = global::MeditSolution.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::BottomNavigationBar.Resource.Styleable.AppBarLayoutStates = global::MeditSolution.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::BottomNavigationBar.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::MeditSolution.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::BottomNavigationBar.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::MeditSolution.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::BottomNavigationBar.Resource.Styleable.AppBarLayout_Layout = global::MeditSolution.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::BottomNavigationBar.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::MeditSolution.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::BottomNavigationBar.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::MeditSolution.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
 			global::BottomNavigationBar.Resource.Styleable.AppCompatImageView = global::MeditSolution.Droid.Resource.Styleable.AppCompatImageView;
 			global::BottomNavigationBar.Resource.Styleable.AppCompatImageView_android_src = global::MeditSolution.Droid.Resource.Styleable.AppCompatImageView_android_src;
 			global::BottomNavigationBar.Resource.Styleable.AppCompatImageView_srcCompat = global::MeditSolution.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatSeekBar = global::MeditSolution.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatSeekBar_android_thumb = global::MeditSolution.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatSeekBar_tickMark = global::MeditSolution.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::MeditSolution.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::MeditSolution.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTextHelper = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
 			global::BottomNavigationBar.Resource.Styleable.AppCompatTextView = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextView;
 			global::BottomNavigationBar.Resource.Styleable.AppCompatTextView_android_textAppearance = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
 			global::BottomNavigationBar.Resource.Styleable.AppCompatTextView_textAllCaps = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
@@ -2919,6 +3046,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_checkboxStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
 			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
 			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorAccent = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
 			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
 			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorControlActivated = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
 			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
@@ -2940,6 +3068,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
 			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
 			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
 			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
 			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
 			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
@@ -2965,6 +3094,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
 			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
 			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
 			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
 			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
 			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
@@ -2982,6 +3112,10 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
 			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
 			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowNoTitle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::BottomNavigationBar.Resource.Styleable.BottomSheetBehavior_Layout = global::MeditSolution.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::BottomNavigationBar.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::MeditSolution.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::BottomNavigationBar.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::MeditSolution.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::BottomNavigationBar.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::MeditSolution.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
 			global::BottomNavigationBar.Resource.Styleable.ButtonBarLayout = global::MeditSolution.Droid.Resource.Styleable.ButtonBarLayout;
 			global::BottomNavigationBar.Resource.Styleable.ButtonBarLayout_allowStacking = global::MeditSolution.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
 			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout;
@@ -2995,10 +3129,19 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
 			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
 			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
 			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
 			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_title = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
 			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
 			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_Layout = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::BottomNavigationBar.Resource.Styleable.ColorStateListItem = global::MeditSolution.Droid.Resource.Styleable.ColorStateListItem;
+			global::BottomNavigationBar.Resource.Styleable.ColorStateListItem_alpha = global::MeditSolution.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::BottomNavigationBar.Resource.Styleable.ColorStateListItem_android_alpha = global::MeditSolution.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::BottomNavigationBar.Resource.Styleable.ColorStateListItem_android_color = global::MeditSolution.Droid.Resource.Styleable.ColorStateListItem_android_color;
 			global::BottomNavigationBar.Resource.Styleable.CompoundButton = global::MeditSolution.Droid.Resource.Styleable.CompoundButton;
 			global::BottomNavigationBar.Resource.Styleable.CompoundButton_android_button = global::MeditSolution.Droid.Resource.Styleable.CompoundButton_android_button;
 			global::BottomNavigationBar.Resource.Styleable.CompoundButton_buttonTint = global::MeditSolution.Droid.Resource.Styleable.CompoundButton_buttonTint;
@@ -3006,6 +3149,14 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout = global::MeditSolution.Droid.Resource.Styleable.CoordinatorLayout;
 			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_keylines = global::MeditSolution.Droid.Resource.Styleable.CoordinatorLayout_keylines;
 			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::MeditSolution.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_Layout = global::MeditSolution.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::MeditSolution.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::MeditSolution.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::MeditSolution.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::MeditSolution.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::MeditSolution.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::MeditSolution.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::MeditSolution.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
 			global::BottomNavigationBar.Resource.Styleable.DesignTheme = global::MeditSolution.Droid.Resource.Styleable.DesignTheme;
 			global::BottomNavigationBar.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::MeditSolution.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
 			global::BottomNavigationBar.Resource.Styleable.DesignTheme_bottomSheetStyle = global::MeditSolution.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
@@ -3028,6 +3179,8 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::MeditSolution.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
 			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_rippleColor = global::MeditSolution.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
 			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_useCompatPadding = global::MeditSolution.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::MeditSolution.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::MeditSolution.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
 			global::BottomNavigationBar.Resource.Styleable.ForegroundLinearLayout = global::MeditSolution.Droid.Resource.Styleable.ForegroundLinearLayout;
 			global::BottomNavigationBar.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::MeditSolution.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
 			global::BottomNavigationBar.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::MeditSolution.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
@@ -3084,6 +3237,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Styleable.MenuView_android_verticalDivider = global::MeditSolution.Droid.Resource.Styleable.MenuView_android_verticalDivider;
 			global::BottomNavigationBar.Resource.Styleable.MenuView_android_windowAnimationStyle = global::MeditSolution.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
 			global::BottomNavigationBar.Resource.Styleable.MenuView_preserveIconSpacing = global::MeditSolution.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::BottomNavigationBar.Resource.Styleable.MenuView_subMenuArrow = global::MeditSolution.Droid.Resource.Styleable.MenuView_subMenuArrow;
 			global::BottomNavigationBar.Resource.Styleable.NavigationView = global::MeditSolution.Droid.Resource.Styleable.NavigationView;
 			global::BottomNavigationBar.Resource.Styleable.NavigationView_android_background = global::MeditSolution.Droid.Resource.Styleable.NavigationView_android_background;
 			global::BottomNavigationBar.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::MeditSolution.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
@@ -3096,11 +3250,13 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Styleable.NavigationView_itemTextColor = global::MeditSolution.Droid.Resource.Styleable.NavigationView_itemTextColor;
 			global::BottomNavigationBar.Resource.Styleable.NavigationView_menu = global::MeditSolution.Droid.Resource.Styleable.NavigationView_menu;
 			global::BottomNavigationBar.Resource.Styleable.PopupWindow = global::MeditSolution.Droid.Resource.Styleable.PopupWindow;
+			global::BottomNavigationBar.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::MeditSolution.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
 			global::BottomNavigationBar.Resource.Styleable.PopupWindow_android_popupBackground = global::MeditSolution.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
 			global::BottomNavigationBar.Resource.Styleable.PopupWindow_overlapAnchor = global::MeditSolution.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
 			global::BottomNavigationBar.Resource.Styleable.PopupWindowBackgroundState = global::MeditSolution.Droid.Resource.Styleable.PopupWindowBackgroundState;
 			global::BottomNavigationBar.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::MeditSolution.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
 			global::BottomNavigationBar.Resource.Styleable.RecyclerView = global::MeditSolution.Droid.Resource.Styleable.RecyclerView;
+			global::BottomNavigationBar.Resource.Styleable.RecyclerView_android_descendantFocusability = global::MeditSolution.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
 			global::BottomNavigationBar.Resource.Styleable.RecyclerView_android_orientation = global::MeditSolution.Droid.Resource.Styleable.RecyclerView_android_orientation;
 			global::BottomNavigationBar.Resource.Styleable.RecyclerView_layoutManager = global::MeditSolution.Droid.Resource.Styleable.RecyclerView_layoutManager;
 			global::BottomNavigationBar.Resource.Styleable.RecyclerView_reverseLayout = global::MeditSolution.Droid.Resource.Styleable.RecyclerView_reverseLayout;
@@ -3108,6 +3264,8 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Styleable.RecyclerView_stackFromEnd = global::MeditSolution.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
 			global::BottomNavigationBar.Resource.Styleable.ScrimInsetsFrameLayout = global::MeditSolution.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
 			global::BottomNavigationBar.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::MeditSolution.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::BottomNavigationBar.Resource.Styleable.ScrollingViewBehavior_Layout = global::MeditSolution.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::BottomNavigationBar.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::MeditSolution.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
 			global::BottomNavigationBar.Resource.Styleable.SearchView = global::MeditSolution.Droid.Resource.Styleable.SearchView;
 			global::BottomNavigationBar.Resource.Styleable.SearchView_android_focusable = global::MeditSolution.Droid.Resource.Styleable.SearchView_android_focusable;
 			global::BottomNavigationBar.Resource.Styleable.SearchView_android_imeOptions = global::MeditSolution.Droid.Resource.Styleable.SearchView_android_imeOptions;
@@ -3146,7 +3304,11 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_switchPadding = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_switchPadding;
 			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_switchTextAppearance = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
 			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_thumbTextPadding = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_thumbTint = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_thumbTintMode = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
 			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_track = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_track;
+			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_trackTint = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_trackTintMode = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
 			global::BottomNavigationBar.Resource.Styleable.TabItem = global::MeditSolution.Droid.Resource.Styleable.TabItem;
 			global::BottomNavigationBar.Resource.Styleable.TabItem_android_icon = global::MeditSolution.Droid.Resource.Styleable.TabItem_android_icon;
 			global::BottomNavigationBar.Resource.Styleable.TabItem_android_layout = global::MeditSolution.Droid.Resource.Styleable.TabItem_android_layout;
@@ -3190,15 +3352,23 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::MeditSolution.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
 			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_hintEnabled = global::MeditSolution.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
 			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_hintTextAppearance = global::MeditSolution.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::MeditSolution.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::MeditSolution.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::MeditSolution.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_passwordToggleTint = global::MeditSolution.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::MeditSolution.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
 			global::BottomNavigationBar.Resource.Styleable.Toolbar = global::MeditSolution.Droid.Resource.Styleable.Toolbar;
 			global::BottomNavigationBar.Resource.Styleable.Toolbar_android_gravity = global::MeditSolution.Droid.Resource.Styleable.Toolbar_android_gravity;
 			global::BottomNavigationBar.Resource.Styleable.Toolbar_android_minHeight = global::MeditSolution.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_buttonGravity = global::MeditSolution.Droid.Resource.Styleable.Toolbar_buttonGravity;
 			global::BottomNavigationBar.Resource.Styleable.Toolbar_collapseContentDescription = global::MeditSolution.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
 			global::BottomNavigationBar.Resource.Styleable.Toolbar_collapseIcon = global::MeditSolution.Droid.Resource.Styleable.Toolbar_collapseIcon;
 			global::BottomNavigationBar.Resource.Styleable.Toolbar_contentInsetEnd = global::MeditSolution.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::MeditSolution.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
 			global::BottomNavigationBar.Resource.Styleable.Toolbar_contentInsetLeft = global::MeditSolution.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
 			global::BottomNavigationBar.Resource.Styleable.Toolbar_contentInsetRight = global::MeditSolution.Droid.Resource.Styleable.Toolbar_contentInsetRight;
 			global::BottomNavigationBar.Resource.Styleable.Toolbar_contentInsetStart = global::MeditSolution.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::MeditSolution.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
 			global::BottomNavigationBar.Resource.Styleable.Toolbar_logo = global::MeditSolution.Droid.Resource.Styleable.Toolbar_logo;
 			global::BottomNavigationBar.Resource.Styleable.Toolbar_logoDescription = global::MeditSolution.Droid.Resource.Styleable.Toolbar_logoDescription;
 			global::BottomNavigationBar.Resource.Styleable.Toolbar_maxButtonHeight = global::MeditSolution.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
@@ -3209,6 +3379,7 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Styleable.Toolbar_subtitleTextAppearance = global::MeditSolution.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
 			global::BottomNavigationBar.Resource.Styleable.Toolbar_subtitleTextColor = global::MeditSolution.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
 			global::BottomNavigationBar.Resource.Styleable.Toolbar_title = global::MeditSolution.Droid.Resource.Styleable.Toolbar_title;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleMargin = global::MeditSolution.Droid.Resource.Styleable.Toolbar_titleMargin;
 			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleMarginBottom = global::MeditSolution.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
 			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleMarginEnd = global::MeditSolution.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
 			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleMarginStart = global::MeditSolution.Droid.Resource.Styleable.Toolbar_titleMarginStart;
@@ -14204,6 +14375,9 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f080074
 			public const int bb_darkBackgroundColor = 2131230836;
 			
+			// aapt resource value: 0x7f080073
+			public const int bb_darkInActiveBottomBarItemColor = 2131230835;
+			
 			// aapt resource value: 0x7f080072
 			public const int bb_inActiveBottomBarItemColor = 2131230834;
 			
@@ -14548,9 +14722,6 @@ namespace MeditSolution.Droid
 			
 			// aapt resource value: 0x7f08006e
 			public const int vpi__bright_foreground_inverse_holo_light = 2131230830;
-			
-			// aapt resource value: 0x7f080073
-			public const int white = 2131230835;
 			
 			static Color()
 			{
