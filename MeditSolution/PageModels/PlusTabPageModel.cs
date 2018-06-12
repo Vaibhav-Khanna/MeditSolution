@@ -5,6 +5,8 @@ using Xamarin.Forms;
 using MeditSolution.Resources;
 using Xamarin.Essentials;
 using FreshMvvm;
+using MeditSolution.Controls;
+using MeditSolution.Service;
 
 namespace MeditSolution.PageModels
 {
@@ -54,26 +56,7 @@ namespace MeditSolution.PageModels
 
 				if (str.ToString() == AppResources.settings)
 					await CoreMethods.PushPageModel<SettingsPageModel>(data: false);
-
-           
-            if (str.ToString() == AppResources.disconnect)
-            {
-                var response = await CoreMethods.DisplayAlert("Déconnexion", "Voulez-vous continuer ?", "Oui", "Annuler");
-
-                if (response)
-                {
-			        StoreManager.LogoutAsync();
-
-                    Xamarin.Forms.Device.BeginInvokeOnMainThread(() =>
-                    {
-                        var page = FreshPageModelResolver.ResolvePageModel<TutorialPageModel>();
-                        Application.Current.MainPage = new FreshNavigationContainer(page);
-                    });
-                }                  
-            }
-
-
-
+                
 				if (str.ToString() == AppResources.menureminder)
 					await CoreMethods.PushPageModel<RemindersPageModel>();
 
@@ -81,8 +64,37 @@ namespace MeditSolution.PageModels
 				{
 					await Browser.OpenAsync(Constants.CGURedirectUrl, BrowserLaunchType.SystemPreferred);
 				}
+
+                if (str.ToString() == AppResources.disconnect)
+                {
+                    var response = await CoreMethods.DisplayAlert("Déconnexion", "Voulez-vous continuer ?", "Oui", "Annuler");
+
+                    if (response)
+                    {
+                        Logout();
+                    }
+                }
 			}
         });
 
+        void Logout()
+        {
+            if (Device.RuntimePlatform == Device.iOS)
+            {
+                StoreManager.LogoutAsync();
+
+                Xamarin.Forms.Device.BeginInvokeOnMainThread(() =>
+                {
+                    var page = FreshPageModelResolver.ResolvePageModel<TutorialPageModel>();
+                    Application.Current.MainPage = new FreshNavigationContainer(page);
+                });
+            }
+            else
+            {
+                StoreManager.LogoutAsync();
+
+                DependencyService.Get<ICloseApp>().CloseApp();
+            }
+        }
     }
 }

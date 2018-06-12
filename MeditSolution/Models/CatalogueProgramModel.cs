@@ -31,6 +31,8 @@ namespace MeditSolution.Models
 
 			var user = new BasePageModel().StoreManager.UserStore.User;
 
+            Text = Settings.DeviceLanguage == "English" ? meditation.Label_EN : meditation.Label;
+
 			if(model.Program.IsTraining == true || model.Program.IsInitiation == true)
 			{
 				IsEnabled = true;
@@ -47,7 +49,7 @@ namespace MeditSolution.Models
 					IsEnabled = true;
 			}
 			else
-			{
+			{                
 				if (user.Subscription == SubscriptionType.free)
 				{
 					IsEnabled = false;
@@ -55,14 +57,14 @@ namespace MeditSolution.Models
 				else
 				{
 					if (model.Program.Price > 0)
-					{
+					{                    
 						if (user.PaidPrograms != null)
 						{
 							foreach (var item in user.PaidPrograms)
 							{
 								if (item.Id == model.Program.Id)
 								{
-									IsEnabled = true;
+									IsEnabled = true;                                 
 									break;
 								}
 								else
@@ -81,7 +83,8 @@ namespace MeditSolution.Models
 				}
 			}
 		}
-       
+
+     
 		public bool IsIncludedInSubscription { get; set; }
 
 		public Meditation Meditation { get; set; } 
@@ -96,6 +99,8 @@ namespace MeditSolution.Models
 
 		public string Tint { get; set; } = "#ffffff";
 
+        public string Text { get; set; }
+
 		public string TextColor { get { return IsEnabled ? "#ffffff" : ("#9b9b9b"); } }
 
 		public string BackColor { get { return IsEnabled ? Tint : "#ffffff"; } }
@@ -104,7 +109,7 @@ namespace MeditSolution.Models
         
 		public string Image { get { return IsEnabled ? "arrow.png" : "lock.png"; } }
 
-
+        public string IconTint { get { return IsEnabled ? Tint : "#9b9b9b"; }}
 
     }
 }

@@ -6,6 +6,7 @@ using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using MeditSolution.Helpers;
 using MeditSolution.Resources;
+using System.Linq;
 using MeditSolution.Models.DataObjects;
 
 namespace MeditSolution.PageModels
@@ -19,6 +20,8 @@ namespace MeditSolution.PageModels
 		public string Header { get; set; }
 		public string Description { get; set; }
 
+        public bool HasPrice { get; set; }
+        public string PriceText { get; private set; }
 
 		public async override void Init(object initData)
 		{
@@ -35,6 +38,16 @@ namespace MeditSolution.PageModels
 				ChangeNavigationBackgroundColor(Color.FromHex(TabMeditationModel.Tint.Substring(1)));
 
 				IsLoading = true;
+
+                if (TabMeditationModel.Level == 3 && TabMeditationModel.Program.Price > 0)
+                {
+                    var user = StoreManager.UserStore.User;
+                    HasPrice = true;
+                    PriceText = "Dévérrouiller les séances pour " + TabMeditationModel.Program.Price + "€";
+
+                    if (user.Subscription == SubscriptionType.premium && user.PaidPrograms != null && user.PaidPrograms.Any((arg) => arg.Id == TabMeditationModel.Program.Id))
+                        HasPrice = false;
+                }
 
 				Programs = new ObservableCollection<CatalogueProgramModel>();
 

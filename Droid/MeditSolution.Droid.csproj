@@ -28,6 +28,9 @@
     <DefineConstants>DEBUG;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+    <EnableProguard>true</EnableProguard>
+    <AndroidEnableMultiDex>true</AndroidEnableMultiDex>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -134,9 +137,6 @@
     </Reference>
     <Reference Include="Xamarin.Android.Support.v7.MediaRouter">
       <HintPath>..\packages\Xamarin.Android.Support.v7.MediaRouter.26.1.0.1\lib\MonoAndroid80\Xamarin.Android.Support.v7.MediaRouter.dll</HintPath>
-    </Reference>
-    <Reference Include="BottomNavigationBar">
-      <HintPath>..\packages\BottomNavigationBar.1.1.2\lib\MonoAndroid403\BottomNavigationBar.dll</HintPath>
     </Reference>
     <Reference Include="BottomBar.Droid">
       <HintPath>..\packages\ThriveGmbH.BottomNavigationBar.XF.1.0.2\lib\MonoAndroid10\BottomBar.Droid.dll</HintPath>
@@ -316,6 +316,9 @@
     <Reference Include="Plugin.MediaManager.Forms">
       <HintPath>..\packages\Plugin.MediaManager.Forms.0.4.3\lib\MonoAndroid\Plugin.MediaManager.Forms.dll</HintPath>
     </Reference>
+    <Reference Include="BottomNavigationBar">
+      <HintPath>..\packages\BottomNavigationBar.1.4.0.3\lib\MonoAndroid403\BottomNavigationBar.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MeditSolution\MeditSolution.csproj">
@@ -340,6 +343,7 @@
     <Compile Include="Helpers\Settings.cs" />
     <Compile Include="Renderers\BorderlessEntryRenderer.cs" />
     <Compile Include="Helpers\Localize.cs" />
+    <Compile Include="Service\CloseApp.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

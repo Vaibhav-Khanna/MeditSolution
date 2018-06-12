@@ -42,22 +42,22 @@ namespace MeditSolution.PageModels
 
 				programs = await StoreManager.ProgramStore.GetItemsAsync();
 
-				if (programs != null)
-					foreach (var item in programs)
-					{
-						if (item.IsInitiation == true || item.IsTraining == true)
-						{
-							t1.Meditations.Add(new TabMeditationModel(item));
-						}
-						else if (item.AvailableWithSubscription == true)
-						{
-							t2.Meditations.Add(new TabMeditationModel(item));
-						}
-						else
-						{
-							t3.Meditations.Add(new TabMeditationModel(item));
-						}
-					}
+                if (programs != null)
+                    foreach (var item in programs)
+                    {
+                        if (item.IsInitiation == true || item.IsTraining == true)
+                        {
+                            t1.Meditations.Add(new TabMeditationModel(item) { Level = 1 });
+                        }
+                        else if (item.AvailableWithSubscription == true)
+                        {
+                            t2.Meditations.Add(new TabMeditationModel(item) { Level = 2 });
+                        }
+                        else
+                        {
+                            t3.Meditations.Add(new TabMeditationModel(item) { Level = 3 });
+                        }
+                    }
 				else
 					await ToastService.Show(AppResources.requestfailed);
 
