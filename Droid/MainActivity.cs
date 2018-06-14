@@ -44,6 +44,8 @@ namespace MeditSolution.Droid
 
 		    var s = new SfPickerRenderer();
 
+            Akavache.BlobCache.ApplicationName = "Medit";
+
             CarouselViewRenderer.Init();
           
             AnimationViewRenderer.Init();

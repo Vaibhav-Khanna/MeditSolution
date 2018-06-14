@@ -12901,6 +12901,7 @@ namespace MeditSolution.Droid
 			global::RoxVideo.Resource.Styleable.ViewStubCompat_android_id = global::MeditSolution.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::RoxVideo.Resource.Styleable.ViewStubCompat_android_inflatedId = global::MeditSolution.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::RoxVideo.Resource.Styleable.ViewStubCompat_android_layout = global::MeditSolution.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Splat.Resource.String.library_name = global::MeditSolution.Droid.Resource.String.library_name;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::MeditSolution.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -17870,6 +17871,9 @@ namespace MeditSolution.Droid
 			
 			// aapt resource value: 0x7f070000
 			public const int consumer_onesignal_keep = 2131165184;
+			
+			// aapt resource value: 0x7f070001
+			public const int notification = 2131165185;
 			
 			static Raw()
 			{

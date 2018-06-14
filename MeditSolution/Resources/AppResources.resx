@@ -452,5 +452,16 @@ However, although you can expect to get the cheapest air ticket if you start sea
   <data name="ProgramPaidThanks" xml:space="preserve">
     <value>Thank you for purchasing this program</value>
   </data>
+
+    <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+
+  <data name="NotificationHeader" xml:space="preserve">
+    <value>Medit’Solutions</value>
+  </data>
+    <data name="NotificationContent" xml:space="preserve">
+    <value>Hey! Its time for the Meditation. Get ready</value>
+  </data>
     
 </root>

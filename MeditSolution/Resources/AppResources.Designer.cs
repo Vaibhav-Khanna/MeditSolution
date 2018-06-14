@@ -772,5 +772,23 @@ namespace MeditSolution.Resources {
                 return ResourceManager.GetString("ProgramPaidThanks", resourceCulture);
             }
         }
+        
+        internal static string Delete {
+            get {
+                return ResourceManager.GetString("Delete", resourceCulture);
+            }
+        }
+        
+        internal static string NotificationHeader {
+            get {
+                return ResourceManager.GetString("NotificationHeader", resourceCulture);
+            }
+        }
+        
+        internal static string NotificationContent {
+            get {
+                return ResourceManager.GetString("NotificationContent", resourceCulture);
+            }
+        }
     }
 }

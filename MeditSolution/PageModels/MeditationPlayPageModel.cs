@@ -29,7 +29,7 @@ namespace MeditSolution.PageModels
             if (AudioPlayer.Status == Plugin.MediaManager.Abstractions.Enums.MediaPlayerStatus.Playing)
             {
                 position = AudioPlayer.Position;
-                await AudioPlayer.Stop();
+                await AudioPlayer.Pause();
             }
             else if (AudioPlayer.Status == Plugin.MediaManager.Abstractions.Enums.MediaPlayerStatus.Paused)
             {
@@ -42,33 +42,32 @@ namespace MeditSolution.PageModels
 		{
 			base.Init(initData);
 
-			if(initData is SeancesModel)
-			{
-				IsLoading = true;
+            if (initData is SeancesModel)
+            {
+                IsLoading = true;
 
-				SeanceModel = ((SeancesModel)initData);
+                SeanceModel = ((SeancesModel)initData);
 
-				Tint = Color.FromHex(SeanceModel.Tint.Substring(1));
-				TintDark = ((Tint).AddLuminosity(-0.2));
+                Tint = Color.FromHex(SeanceModel.Tint.Substring(1));
+                TintDark = ((Tint).AddLuminosity(-0.2));
 
-				MeditationFile meditationFile = GetMeditationFileForUser(SeanceModel.Meditation,SeanceModel.Level);
-                
-				if(meditationFile==null)
-				{
-					IsLoading = false;
-					return;
-				}
-                
-				AudioPlayer.PlayingChanged += AudioPlayer_PlayingChanged;
-				AudioPlayer.MediaFailed += AudioPlayer_MediaFailed;
-				AudioPlayer.MediaFinished += AudioPlayer_MediaFinished;                              
-				AudioPlayer.StatusChanged += AudioPlayer_StatusChanged;
+                MeditationFile meditationFile = GetMeditationFileForUser(SeanceModel.Meditation, SeanceModel.Level);
 
-				var url = Constants.RestUrl + "file/" + meditationFile.Path;
-                                
-				AudioPlayer.Play(file = new MediaFile(url, Plugin.MediaManager.Abstractions.Enums.MediaFileType.Audio, Plugin.MediaManager.Abstractions.Enums.ResourceAvailability.Remote));
-                           
-			}
+                if (meditationFile == null)
+                {
+                    IsLoading = false;
+                    return;
+                }
+
+                AudioPlayer.PlayingChanged += AudioPlayer_PlayingChanged;
+                AudioPlayer.MediaFailed += AudioPlayer_MediaFailed;
+                AudioPlayer.MediaFinished += AudioPlayer_MediaFinished;
+                AudioPlayer.StatusChanged += AudioPlayer_StatusChanged;
+
+                var url = Constants.RestUrl + "file/" + meditationFile.Path;
+
+                //AudioPlayer.Play(file = new MediaFile(url, Plugin.MediaManager.Abstractions.Enums.MediaFileType.Audio, Plugin.MediaManager.Abstractions.Enums.ResourceAvailability.Remote));
+            }
    		}
 
 		void AudioPlayer_StatusChanged(object sender, Plugin.MediaManager.Abstractions.EventArguments.StatusChangedEventArgs e)
@@ -139,7 +138,6 @@ namespace MeditSolution.PageModels
 			base.ViewIsDisappearing(sender, e);
 
 			AudioPlayer?.Stop();
-            AudioPlayer.Play("https://www.google.com");
 
 			if (AudioPlayer != null)
 			{
