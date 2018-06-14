@@ -19,6 +19,7 @@ using Plugin.InAppBilling;
 using Plugin.CrossPlatformTintedImage.Android;
 using Plugin.HtmlLabel.Android;
 using Plugin.MediaManager;
+using Akavache;
 using Plugin.MediaManager.ExoPlayer;
 using Plugin.MediaManager.MediaSession;
 
@@ -27,6 +28,8 @@ namespace MeditSolution.Droid
     [Activity(Label = "Medit'Solution", Icon = "@drawable/icon", Theme = "@style/MyTheme", MainLauncher = false, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
+        IBlobCache cache => Akavache.BlobCache.UserAccount;
+
         protected override void OnCreate(Bundle bundle)
         {
             TabLayoutResource = Resource.Layout.Tabbar;
@@ -44,13 +47,13 @@ namespace MeditSolution.Droid
 
 		    var s = new SfPickerRenderer();
 
-            Akavache.BlobCache.ApplicationName = "Medit";
-
             CarouselViewRenderer.Init();
           
             AnimationViewRenderer.Init();
 
             CachedImageRenderer.Init(false);
+
+            BlobCache.ApplicationName = "Medit";
 
             LoadApplication(new App());
         }

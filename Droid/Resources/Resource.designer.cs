@@ -17888,11 +17888,11 @@ namespace MeditSolution.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f090068
-			public const int ApplicationName = 2131296360;
+			// aapt resource value: 0x7f090069
+			public const int ApplicationName = 2131296361;
 			
-			// aapt resource value: 0x7f090067
-			public const int Hello = 2131296359;
+			// aapt resource value: 0x7f090068
+			public const int Hello = 2131296360;
 			
 			// aapt resource value: 0x7f09003e
 			public const int abc_action_bar_home_description = 2131296318;
@@ -18146,8 +18146,8 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f090073
 			public const int fb_login_protocol_scheme = 2131296371;
 			
-			// aapt resource value: 0x7f090069
-			public const int library_name = 2131296361;
+			// aapt resource value: 0x7f090067
+			public const int library_name = 2131296359;
 			
 			// aapt resource value: 0x7f090028
 			public const int messenger_send_button_text = 2131296296;
