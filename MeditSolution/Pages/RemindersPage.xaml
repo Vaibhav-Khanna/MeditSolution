@@ -3,6 +3,7 @@
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:base="clr-namespace:MeditSolution.Pages;assembly=MeditSolution"
+    xmlns:converter="clr-namespace:MeditSolution.Converter;assembly=MeditSolution"
     xmlns:effects="clr-namespace:MeditSolution.Effects;assembly=MeditSolution"
     xmlns:controls="clr-namespace:MeditSolution.Controls;assembly=MeditSolution"
     x:Class="MeditSolution.Pages.RemindersPage"
@@ -20,6 +21,11 @@
                 <DataTemplate>
                     
                     <ViewCell>
+                         <ViewCell.ContextActions >
+                                <MenuItem Command="{Binding DeleteCommand}" IsDestructive = "true" CommandParameter = "{Binding .}"
+                                 Text = "{resources:Translate Delete}" />
+                            </ViewCell.ContextActions>
+                        
                         <Grid RowSpacing="7" Padding="20,15,20,20">
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="76"/>
@@ -42,7 +48,7 @@
 
                             <controls:WrapLayout Orientation="Horizontal" VerticalOptions="StartAndExpand" Spacing="13" Grid.Row="1" Grid.Column="0" HorizontalOptions="FillAndExpand" Grid.ColumnSpan="2" >
                                 
-                                <Button Clicked="Handle_Clicked" Text="{Binding Monday}" FontSize="18" TextColor="#9b9b9b" FontFamily="SFUIText-Regular" HeightRequest="36" WidthRequest="36" BackgroundColor="White" BorderRadius="18" BorderWidth="1" BorderColor="#9b9b9b" >
+                                <Button  BindingContext="{Binding Monday}" Command="{Binding ToggleCommand}" Text="{Binding DisplayText}" FontSize="18" TextColor="{Binding TextColor}" FontFamily="SFUIText-Regular" HeightRequest="36" WidthRequest="36" BackgroundColor="{Binding BackColor}" BorderRadius="18" BorderWidth="1" BorderColor="{Binding BorderColor}" >
                                     <Button.HeightRequest>
                                         <OnPlatform x:TypeArguments="x:Double" iOS="36" Android="48"/>
                                     </Button.HeightRequest>
@@ -53,7 +59,7 @@
                                         <OnPlatform x:TypeArguments="x:Int32" iOS="18" Android="24"/>
                                     </Button.BorderRadius>
                                 </Button>
-                                <Button Clicked="Handle_Clicked" Text="{Binding Tuesday}" FontSize="18" TextColor="#9b9b9b" FontFamily="SFUIText-Regular" HeightRequest="36" WidthRequest="36" BackgroundColor="White" BorderRadius="18" BorderWidth="1" BorderColor="#9b9b9b" >
+                                <Button  BindingContext="{Binding Tuesday}" Command="{Binding ToggleCommand}" Text="{Binding DisplayText}" FontSize="18" TextColor="{Binding TextColor}" FontFamily="SFUIText-Regular" HeightRequest="36" WidthRequest="36"  BackgroundColor="{Binding BackColor}" BorderRadius="18" BorderWidth="1" BorderColor="{Binding BorderColor}" >
                                     <Button.HeightRequest>
                                         <OnPlatform x:TypeArguments="x:Double" iOS="36" Android="48"/>
                                     </Button.HeightRequest>
@@ -64,7 +70,7 @@
                                         <OnPlatform x:TypeArguments="x:Int32" iOS="18" Android="24"/>
                                     </Button.BorderRadius>
                                 </Button>
-                                <Button Clicked="Handle_Clicked" Text="{Binding Wednesday}" FontSize="18" TextColor="#9b9b9b" FontFamily="SFUIText-Regular" HeightRequest="36" WidthRequest="36" BackgroundColor="White" BorderRadius="18" BorderWidth="1" BorderColor="#9b9b9b" >
+                                <Button  BindingContext="{Binding Wednesday}"  Command="{Binding ToggleCommand}" Text="{Binding DisplayText}" FontSize="18" TextColor="{Binding TextColor}" FontFamily="SFUIText-Regular" HeightRequest="36" WidthRequest="36"  BackgroundColor="{Binding BackColor}" BorderRadius="18" BorderWidth="1" BorderColor="{Binding BorderColor}" >
                                     <Button.HeightRequest>
                                         <OnPlatform x:TypeArguments="x:Double" iOS="36" Android="48"/>
                                     </Button.HeightRequest>
@@ -75,7 +81,7 @@
                                         <OnPlatform x:TypeArguments="x:Int32" iOS="18" Android="24"/>
                                     </Button.BorderRadius>
                                 </Button>
-                                <Button Clicked="Handle_Clicked" Text="{Binding Thursday}" FontSize="18" TextColor="#9b9b9b" FontFamily="SFUIText-Regular" HeightRequest="36" WidthRequest="36" BackgroundColor="White" BorderRadius="18" BorderWidth="1" BorderColor="#9b9b9b" >
+                                <Button  BindingContext="{Binding Thursday}"  Command="{Binding ToggleCommand}" Text="{Binding DisplayText}" FontSize="18" TextColor="{Binding TextColor}" FontFamily="SFUIText-Regular" HeightRequest="36" WidthRequest="36"  BackgroundColor="{Binding BackColor}" BorderRadius="18" BorderWidth="1" BorderColor="{Binding BorderColor}" >
                                     <Button.HeightRequest>
                                         <OnPlatform x:TypeArguments="x:Double" iOS="36" Android="48"/>
                                     </Button.HeightRequest>
@@ -86,7 +92,7 @@
                                         <OnPlatform x:TypeArguments="x:Int32" iOS="18" Android="24"/>
                                     </Button.BorderRadius>
                                 </Button>
-                                <Button Clicked="Handle_Clicked" Text="{Binding Friday}" FontSize="18" TextColor="#9b9b9b" FontFamily="SFUIText-Regular" HeightRequest="36" WidthRequest="36" BackgroundColor="White" BorderRadius="18" BorderWidth="1" BorderColor="#9b9b9b" >
+                                <Button  BindingContext="{Binding Friday}"  Command="{Binding ToggleCommand}" Text="{Binding DisplayText}" FontSize="18" TextColor="{Binding TextColor}" FontFamily="SFUIText-Regular" HeightRequest="36" WidthRequest="36"  BackgroundColor="{Binding BackColor}" BorderRadius="18" BorderWidth="1" BorderColor="{Binding BorderColor}" >
                                     <Button.HeightRequest>
                                         <OnPlatform x:TypeArguments="x:Double" iOS="36" Android="48"/>
                                     </Button.HeightRequest>
@@ -97,7 +103,7 @@
                                         <OnPlatform x:TypeArguments="x:Int32" iOS="18" Android="24"/>
                                     </Button.BorderRadius>
                                 </Button>
-                                <Button Clicked="Handle_Clicked" Text="{Binding Saturday}" FontSize="18" TextColor="#9b9b9b" FontFamily="SFUIText-Regular" HeightRequest="36" WidthRequest="36" BackgroundColor="White" BorderRadius="18" BorderWidth="1" BorderColor="#9b9b9b" >
+                                <Button  BindingContext="{Binding Saturday}"  Command="{Binding ToggleCommand}" Text="{Binding DisplayText}" FontSize="18" TextColor="{Binding TextColor}" FontFamily="SFUIText-Regular" HeightRequest="36" WidthRequest="36"  BackgroundColor="{Binding BackColor}" BorderRadius="18" BorderWidth="1" BorderColor="{Binding BorderColor}" >
                                     <Button.HeightRequest>
                                         <OnPlatform x:TypeArguments="x:Double" iOS="36" Android="48"/>
                                     </Button.HeightRequest>
@@ -108,7 +114,8 @@
                                         <OnPlatform x:TypeArguments="x:Int32" iOS="18" Android="24"/>
                                     </Button.BorderRadius>
                                 </Button>
-                                <Button Clicked="Handle_Clicked" Text="{Binding Sunday}" FontSize="18" TextColor="#9b9b9b" FontFamily="SFUIText-Regular" HeightRequest="50" WidthRequest="50" BackgroundColor="White" BorderRadius="25" BorderWidth="1" BorderColor="#9b9b9b" >
+
+                                <Button  BindingContext="{Binding Sunday}"  Command="{Binding ToggleCommand}" Text="{Binding DisplayText}" FontSize="18" TextColor="{Binding TextColor}" FontFamily="SFUIText-Regular" HeightRequest="50" WidthRequest="50"  BackgroundColor="{Binding BackColor}" BorderRadius="25" BorderWidth="1" BorderColor="{Binding BorderColor}" >
                                     <Button.HeightRequest>
                                         <OnPlatform x:TypeArguments="x:Double" iOS="36" Android="48"/>
                                     </Button.HeightRequest>

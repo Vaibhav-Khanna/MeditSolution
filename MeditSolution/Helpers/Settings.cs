@@ -31,6 +31,7 @@ namespace MeditSolution.Helpers
 	    private const string LanguageKey = "Language";
 		private const string VoiceLanguageKey = "VoiceLanguage";
 	    private const string VoiceKey = "Voice";
+        private const string OfflineTime = "OfflineTime";
         private const string ReminderUniqueKey = "ReminderUniqueKey";
 		private const string ReminderStorageKey = "ReminderStorageKey";
 	    private const string MeditationProgressKey = "MeditationProgress";
@@ -104,5 +105,10 @@ namespace MeditSolution.Helpers
 			set { AppSettings.AddOrUpdateValue(TODOCHAT, value); }
         }
   
+        public static int TimeSecondsOffline
+        {
+            get { return AppSettings.GetValueOrDefault(OfflineTime,0); }
+            set { AppSettings.AddOrUpdateValue(OfflineTime, value); }
+        }
     }
 }

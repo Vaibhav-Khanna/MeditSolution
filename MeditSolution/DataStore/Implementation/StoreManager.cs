@@ -13,6 +13,8 @@ using MeditSolution.Models.DataObjects;
 using MeditSolution.Responses;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using System.Reactive.Linq;
+using Akavache;
 
 namespace MeditSolution.DataStore.Implementation
 {
@@ -67,13 +69,16 @@ namespace MeditSolution.DataStore.Implementation
             return null;
         }
 
-        public void LogoutAsync()
-        {			
+        public async void LogoutAsync()
+        {
             Settings.Token = string.Empty;
-			Settings.User = string.Empty;
+            Settings.User = string.Empty;
             Settings.IsLoggedIn = false;
-			Settings.Language = "";
-			Settings.Voice = "";
+            Settings.Language = "";
+            Settings.Voice = "";
+            await BlobCache.UserAccount.InvalidateAll();
+            await Plugin.Notifications.CrossNotifications.Current.CancelAll();
+            Plugin.Settings.CrossSettings.Current.Clear();
         }
 
         public async Task<bool> RegenerateToken()

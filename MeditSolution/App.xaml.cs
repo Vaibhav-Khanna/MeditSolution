@@ -10,12 +10,17 @@ using System.Collections.Generic;
 using Com.OneSignal;
 using Com.OneSignal.Abstractions;
 using MeditSolution.DataStore.Implementation.Stores;
+using Plugin.Notifications;
+using Newtonsoft.Json;
+using MeditSolution.Models;
+using MeditSolution.Resources;
+using System.Linq;
 
 namespace MeditSolution
 {
     public partial class App : Application
     {
-
+        
         public App()
         {
             InitializeComponent();
@@ -114,5 +119,7 @@ namespace MeditSolution
 			await subscriptionStore.CheckAndUpdateSubscriptionStatus();
 			subscriptionStore.Dispose();
 		}
+
+       
     }
 }

@@ -1,12 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using Akavache;
 using MeditSolution.DataStore.Abstraction.Stores;
 using MeditSolution.Models.DataObjects;
 using MeditSolution.Responses;
 using Newtonsoft.Json;
+using System.Reactive.Linq;
+using MeditSolution.Helpers;
 
 namespace MeditSolution.DataStore.Implementation.Stores
 {
@@ -17,19 +21,28 @@ namespace MeditSolution.DataStore.Implementation.Stores
 		{
 			try
 			{
-				var uri = new Uri(string.Concat(Constants.RestUrl + "users/store/meditation?", Auth));
+                if (await Connectivity.IsRemoteReachable("https://www.google.com"))
+                {
+                    var uri = new Uri(string.Concat(Constants.RestUrl + "users/store/meditation?", Auth));
 
-				var json = JsonConvert.SerializeObject(new Dictionary<string, int> { { "time", seconds } });
+                    var json = JsonConvert.SerializeObject(new Dictionary<string, int> { { "time", seconds } });
 
-				var content = new StringContent(json, Encoding.UTF8, "application/json");
+                    var content = new StringContent(json, Encoding.UTF8, "application/json");
 
-				var response = await client.PostAsync(uri, content);
+                    var response = await client.PostAsync(uri, content);
 
-				if (response.IsSuccessStatusCode)
-				{
-					var R_content = await response.Content.ReadAsStringAsync();
-					return true;
-				}
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var R_content = await response.Content.ReadAsStringAsync();
+                        return true;
+                    }
+                }
+                else
+                {
+                    var offline_time = Settings.TimeSecondsOffline;
+                    offline_time += seconds;
+                    Settings.TimeSecondsOffline = offline_time;
+                }
 			}
 			catch(Exception ex)
 			{
@@ -50,17 +63,44 @@ namespace MeditSolution.DataStore.Implementation.Stores
 
             try
             {
-                var response = await client.GetAsync(uri);
-               
-				if (response.IsSuccessStatusCode)
+                if (await Connectivity.IsRemoteReachable("https://www.google.com"))
                 {
-                    var content = await response.Content.ReadAsStringAsync();
-					var result = JsonConvert.DeserializeObject<PaginationResponse<Meditation>>(content);
-					return result.rows;
+
+                    var response = await client.GetAsync(uri);
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var content = await response.Content.ReadAsStringAsync();
+                        var result = JsonConvert.DeserializeObject<PaginationResponse<Meditation>>(content);
+
+                        if (result != null && result.rows != null && result.rows.Any())
+                        {
+                            var diction = new Dictionary<string, Meditation>();
+
+                            foreach (var item in result.rows)
+                            {
+                                diction.Add(item.Id, item);
+                            }
+
+                            await Cache.InsertAllObjects<Meditation>(diction);
+                        }
+
+                        return result.rows;
+                    }
+                }
+                else
+                {
+                    var meditations = await Cache.GetAllObjects<Meditation>();
+
+                    if(meditations!=null && meditations.Any())
+                    {
+                        return meditations.Where((arg) => arg.ProgramId == id);
+                    }
                 }
             }
             catch (Exception)
-            {     				
+            {
+                
             }
 
 			return null;

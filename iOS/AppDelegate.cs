@@ -42,6 +42,8 @@ namespace MeditSolution.iOS
    
 			SfPickerRenderer.Init();
 
+            Akavache.BlobCache.ApplicationName = "Medit";
+
 			AnimationViewRenderer.Init();
 
             CachedImageRenderer.Init();

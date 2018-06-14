@@ -8,7 +8,10 @@ using MeditSolution.DataStore.Abstraction;
 using MeditSolution.Helpers;
 using MeditSolution.Responses;
 using Newtonsoft.Json;
-using Xamarin.Essentials;
+using Plugin.Connectivity.Abstractions;
+using Akavache;
+using System.Reactive.Linq;
+using System.Linq;
 
 namespace MeditSolution.DataStore.Implementation
 {
@@ -17,6 +20,8 @@ namespace MeditSolution.DataStore.Implementation
 		protected readonly HttpClient client;
 		protected readonly string Type;
 		protected string Auth => string.Concat("token=", Settings.Token);
+        protected IBlobCache Cache => BlobCache.UserAccount;
+        protected IConnectivity Connectivity => Plugin.Connectivity.CrossConnectivity.Current;
 
         public BaseStore()
         {
@@ -28,15 +33,23 @@ namespace MeditSolution.DataStore.Implementation
 		{
 			try
 			{
-				var uri = new Uri(Constants.RestUrl + Type + "/" + id + "?" + Auth);
-				var response = await client.GetAsync(uri);
-				var content = await response.Content.ReadAsStringAsync();
+                if (await Connectivity.IsRemoteReachable("https://www.google.com"))
+                {
+                    var uri = new Uri(Constants.RestUrl + Type + "/" + id + "?" + Auth);
+                    var response = await client.GetAsync(uri);
+                    var content = await response.Content.ReadAsStringAsync();
 
-				if (response.IsSuccessStatusCode)
-				{
-					var result = JsonConvert.DeserializeObject<T>(content);
-					return result;
-				}
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var result = JsonConvert.DeserializeObject<T>(content);
+                        return result;
+                    }
+                }
+                else
+                {
+                    var obj = await Cache.GetObject<T>(id);
+                    return obj;
+                }
 			}
 			catch (Exception)
 			{
@@ -50,18 +63,39 @@ namespace MeditSolution.DataStore.Implementation
 		{
 			try
 			{
-				var parameters = "?limit=" + 50 + "&page=" + 0;
+                if (await Connectivity.IsRemoteReachable("https://www.google.com"))
+                {
 
-				var uri = new Uri(Constants.RestUrl + Type + parameters + "&" + Auth);
-                
-				var response = await client.GetAsync(uri);
-				var content = await response.Content.ReadAsStringAsync();
+                    var parameters = "?limit=" + 50 + "&page=" + 0;
 
-				if (response.IsSuccessStatusCode)
-				{
-					var items = JsonConvert.DeserializeObject<PaginationResponse<T>>(content);
-					return items.rows;
-				}
+                    var uri = new Uri(Constants.RestUrl + Type + parameters + "&" + Auth);
+
+                    var response = await client.GetAsync(uri);
+                    var content = await response.Content.ReadAsStringAsync();
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var items = JsonConvert.DeserializeObject<PaginationResponse<T>>(content);
+
+                        if(items!=null && items.rows!=null && items.rows.Any())
+                        {
+                            var diction = new Dictionary<string, T>();
+
+                            foreach (var item in items.rows)
+                            {
+                                diction.Add(item.Id, item);
+                            }
+
+                            await Cache.InsertAllObjects<T>(diction);
+                        }
+
+                        return items.rows;
+                    }
+                }
+                else
+                {
+                    return await Cache.GetAllObjects<T>();
+                }
 			}
 			catch (Exception)
 			{
@@ -110,7 +144,8 @@ namespace MeditSolution.DataStore.Implementation
                 }
             }
             catch (Exception)
-            {               
+            {      
+                
             }
 
 			return false;
@@ -135,6 +170,7 @@ namespace MeditSolution.DataStore.Implementation
             }
             catch (Exception)
             {
+				
             }
 
             return null;

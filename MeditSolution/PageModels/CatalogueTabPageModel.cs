@@ -4,6 +4,8 @@ using System.Collections.ObjectModel;
 using MeditSolution.Models;
 using MeditSolution.Models.DataObjects;
 using MeditSolution.Helpers;
+using Plugin.Connectivity.Abstractions;
+using Plugin.Connectivity;
 using MeditSolution.Resources;
 
 namespace MeditSolution.PageModels
@@ -43,6 +45,7 @@ namespace MeditSolution.PageModels
 				programs = await StoreManager.ProgramStore.GetItemsAsync();
 
                 if (programs != null)
+                {
                     foreach (var item in programs)
                     {
                         if (item.IsInitiation == true || item.IsTraining == true)
@@ -57,10 +60,15 @@ namespace MeditSolution.PageModels
                         {
                             t3.Meditations.Add(new TabMeditationModel(item) { Level = 3 });
                         }
+
+                        //offline Sync
+                        await StoreManager.MeditationStore.GetMeditationsByProgramId(item.Id);
+                        //
                     }
+                }
 				else
 					await ToastService.Show(AppResources.requestfailed);
-
+                
 				IsLoading = false;
 			}            
 		}

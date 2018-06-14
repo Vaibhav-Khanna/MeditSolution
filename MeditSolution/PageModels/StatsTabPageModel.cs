@@ -32,6 +32,11 @@ namespace MeditSolution.PageModels
 				return;
 			}
 
+            if(Settings.TimeSecondsOffline != 0)
+            {
+                user.TotalMinutesMeditated += (Settings.TimeSecondsOffline/60);
+            }
+
 			user = _user;
 
 			Name = $"{user.Firstname} {user.Lastname}";
