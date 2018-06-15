@@ -16,13 +16,12 @@ namespace MeditSolution.PageModels
 		public double Progress { get; set; }
 		public string TimerText { get; set; }
 		SeancesModel SeanceModel;
-        IMediaManager AudioPlayer => CrossMediaManager.Current;
+        IAudioPlayer AudioPlayer => CrossMediaManager.Current.AudioPlayer;
 		public Color Tint { get; set; }
 		public Color TintDark { get; set; }
 
 		TimeSpan position;
 		MediaFile file;
-
 
 		public Command PlayPauseCommand => new Command(async() =>
 		{
@@ -35,7 +34,7 @@ namespace MeditSolution.PageModels
             {
                 await AudioPlayer.Play();
             }
-		});
+		}); 
         
 
         public async override void Init(object initData)

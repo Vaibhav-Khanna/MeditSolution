@@ -793,7 +793,6 @@ namespace MeditSolution.Droid
 			global::BottomBar.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::MeditSolution.Droid.Resource.Interpolator.mr_linear_out_slow_in;
 			global::BottomBar.Droid.Resource.Layout.abc_action_bar_title_item = global::MeditSolution.Droid.Resource.Layout.abc_action_bar_title_item;
 			global::BottomBar.Droid.Resource.Layout.abc_action_bar_up_container = global::MeditSolution.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::BottomBar.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout = global::MeditSolution.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
 			global::BottomBar.Droid.Resource.Layout.abc_action_menu_item_layout = global::MeditSolution.Droid.Resource.Layout.abc_action_menu_item_layout;
 			global::BottomBar.Droid.Resource.Layout.abc_action_menu_layout = global::MeditSolution.Droid.Resource.Layout.abc_action_menu_layout;
 			global::BottomBar.Droid.Resource.Layout.abc_action_mode_bar = global::MeditSolution.Droid.Resource.Layout.abc_action_mode_bar;
@@ -851,8 +850,6 @@ namespace MeditSolution.Droid
 			global::BottomBar.Droid.Resource.Layout.select_dialog_singlechoice_material = global::MeditSolution.Droid.Resource.Layout.select_dialog_singlechoice_material;
 			global::BottomBar.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::MeditSolution.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::BottomBar.Droid.Resource.String.abc_action_bar_home_description = global::MeditSolution.Droid.Resource.String.abc_action_bar_home_description;
-			global::BottomBar.Droid.Resource.String.abc_action_bar_home_description_format = global::MeditSolution.Droid.Resource.String.abc_action_bar_home_description_format;
-			global::BottomBar.Droid.Resource.String.abc_action_bar_home_subtitle_description_format = global::MeditSolution.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
 			global::BottomBar.Droid.Resource.String.abc_action_bar_up_description = global::MeditSolution.Droid.Resource.String.abc_action_bar_up_description;
 			global::BottomBar.Droid.Resource.String.abc_action_menu_overflow_description = global::MeditSolution.Droid.Resource.String.abc_action_menu_overflow_description;
 			global::BottomBar.Droid.Resource.String.abc_action_mode_done = global::MeditSolution.Droid.Resource.String.abc_action_mode_done;
@@ -2465,7 +2462,6 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Integer.status_bar_notification_info_maxnum = global::MeditSolution.Droid.Resource.Integer.status_bar_notification_info_maxnum;
 			global::BottomNavigationBar.Resource.Layout.abc_action_bar_title_item = global::MeditSolution.Droid.Resource.Layout.abc_action_bar_title_item;
 			global::BottomNavigationBar.Resource.Layout.abc_action_bar_up_container = global::MeditSolution.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::BottomNavigationBar.Resource.Layout.abc_action_bar_view_list_nav_layout = global::MeditSolution.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
 			global::BottomNavigationBar.Resource.Layout.abc_action_menu_item_layout = global::MeditSolution.Droid.Resource.Layout.abc_action_menu_item_layout;
 			global::BottomNavigationBar.Resource.Layout.abc_action_menu_layout = global::MeditSolution.Droid.Resource.Layout.abc_action_menu_layout;
 			global::BottomNavigationBar.Resource.Layout.abc_action_mode_bar = global::MeditSolution.Droid.Resource.Layout.abc_action_mode_bar;
@@ -2519,8 +2515,6 @@ namespace MeditSolution.Droid
 			global::BottomNavigationBar.Resource.Layout.select_dialog_singlechoice_material = global::MeditSolution.Droid.Resource.Layout.select_dialog_singlechoice_material;
 			global::BottomNavigationBar.Resource.Layout.support_simple_spinner_dropdown_item = global::MeditSolution.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::BottomNavigationBar.Resource.String.abc_action_bar_home_description = global::MeditSolution.Droid.Resource.String.abc_action_bar_home_description;
-			global::BottomNavigationBar.Resource.String.abc_action_bar_home_description_format = global::MeditSolution.Droid.Resource.String.abc_action_bar_home_description_format;
-			global::BottomNavigationBar.Resource.String.abc_action_bar_home_subtitle_description_format = global::MeditSolution.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
 			global::BottomNavigationBar.Resource.String.abc_action_bar_up_description = global::MeditSolution.Droid.Resource.String.abc_action_bar_up_description;
 			global::BottomNavigationBar.Resource.String.abc_action_menu_overflow_description = global::MeditSolution.Droid.Resource.String.abc_action_menu_overflow_description;
 			global::BottomNavigationBar.Resource.String.abc_action_mode_done = global::MeditSolution.Droid.Resource.String.abc_action_mode_done;
@@ -4514,7 +4508,6 @@ namespace MeditSolution.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Interpolator.mr_linear_out_slow_in = global::MeditSolution.Droid.Resource.Interpolator.mr_linear_out_slow_in;
 			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_bar_title_item = global::MeditSolution.Droid.Resource.Layout.abc_action_bar_title_item;
 			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_bar_up_container = global::MeditSolution.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_bar_view_list_nav_layout = global::MeditSolution.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
 			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_menu_item_layout = global::MeditSolution.Droid.Resource.Layout.abc_action_menu_item_layout;
 			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_menu_layout = global::MeditSolution.Droid.Resource.Layout.abc_action_menu_layout;
 			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_mode_bar = global::MeditSolution.Droid.Resource.Layout.abc_action_mode_bar;
@@ -4581,8 +4574,6 @@ namespace MeditSolution.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::MeditSolution.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::CarouselView.FormsPlugin.Android.Resource.Layout.vertical_viewpager = global::MeditSolution.Droid.Resource.Layout.vertical_viewpager;
 			global::CarouselView.FormsPlugin.Android.Resource.String.abc_action_bar_home_description = global::MeditSolution.Droid.Resource.String.abc_action_bar_home_description;
-			global::CarouselView.FormsPlugin.Android.Resource.String.abc_action_bar_home_description_format = global::MeditSolution.Droid.Resource.String.abc_action_bar_home_description_format;
-			global::CarouselView.FormsPlugin.Android.Resource.String.abc_action_bar_home_subtitle_description_format = global::MeditSolution.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
 			global::CarouselView.FormsPlugin.Android.Resource.String.abc_action_bar_up_description = global::MeditSolution.Droid.Resource.String.abc_action_bar_up_description;
 			global::CarouselView.FormsPlugin.Android.Resource.String.abc_action_menu_overflow_description = global::MeditSolution.Droid.Resource.String.abc_action_menu_overflow_description;
 			global::CarouselView.FormsPlugin.Android.Resource.String.abc_action_mode_done = global::MeditSolution.Droid.Resource.String.abc_action_mode_done;
@@ -4854,16 +4845,6 @@ namespace MeditSolution.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Notification = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification;
-			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Notification_Info = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Info;
-			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Notification_Info_Media = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Info_Media;
-			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Notification_Line2 = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Line2;
-			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Notification_Line2_Media = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Line2_Media;
-			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Notification_Media = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Media;
-			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Notification_Time = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Time;
-			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Notification_Time_Media = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Time_Media;
-			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Notification_Title = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Title;
-			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Notification_Title_Media = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Title_Media;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Small = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Small;
@@ -5608,3566 +5589,6 @@ namespace MeditSolution.Droid
 			global::PCLStorage.Resource.String.Hello = global::MeditSolution.Droid.Resource.String.Hello;
 			global::Plugin.HtmlLabel.Android.Resource.String.ApplicationName = global::MeditSolution.Droid.Resource.String.ApplicationName;
 			global::Plugin.HtmlLabel.Android.Resource.String.Hello = global::MeditSolution.Droid.Resource.String.Hello;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Animation.abc_fade_in = global::MeditSolution.Droid.Resource.Animation.abc_fade_in;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Animation.abc_fade_out = global::MeditSolution.Droid.Resource.Animation.abc_fade_out;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Animation.abc_grow_fade_in_from_bottom = global::MeditSolution.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Animation.abc_popup_enter = global::MeditSolution.Droid.Resource.Animation.abc_popup_enter;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Animation.abc_popup_exit = global::MeditSolution.Droid.Resource.Animation.abc_popup_exit;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Animation.abc_shrink_fade_out_from_bottom = global::MeditSolution.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Animation.abc_slide_in_bottom = global::MeditSolution.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Animation.abc_slide_in_top = global::MeditSolution.Droid.Resource.Animation.abc_slide_in_top;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Animation.abc_slide_out_bottom = global::MeditSolution.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Animation.abc_slide_out_top = global::MeditSolution.Droid.Resource.Animation.abc_slide_out_top;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionBarDivider = global::MeditSolution.Droid.Resource.Attribute.actionBarDivider;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionBarItemBackground = global::MeditSolution.Droid.Resource.Attribute.actionBarItemBackground;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionBarPopupTheme = global::MeditSolution.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionBarSize = global::MeditSolution.Droid.Resource.Attribute.actionBarSize;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionBarSplitStyle = global::MeditSolution.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionBarStyle = global::MeditSolution.Droid.Resource.Attribute.actionBarStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionBarTabBarStyle = global::MeditSolution.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionBarTabStyle = global::MeditSolution.Droid.Resource.Attribute.actionBarTabStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionBarTabTextStyle = global::MeditSolution.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionBarTheme = global::MeditSolution.Droid.Resource.Attribute.actionBarTheme;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionBarWidgetTheme = global::MeditSolution.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionButtonStyle = global::MeditSolution.Droid.Resource.Attribute.actionButtonStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionDropDownStyle = global::MeditSolution.Droid.Resource.Attribute.actionDropDownStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionLayout = global::MeditSolution.Droid.Resource.Attribute.actionLayout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionMenuTextAppearance = global::MeditSolution.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionMenuTextColor = global::MeditSolution.Droid.Resource.Attribute.actionMenuTextColor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionModeBackground = global::MeditSolution.Droid.Resource.Attribute.actionModeBackground;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionModeCloseButtonStyle = global::MeditSolution.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionModeCloseDrawable = global::MeditSolution.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionModeCopyDrawable = global::MeditSolution.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionModeCutDrawable = global::MeditSolution.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionModeFindDrawable = global::MeditSolution.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionModePasteDrawable = global::MeditSolution.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionModePopupWindowStyle = global::MeditSolution.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionModeSelectAllDrawable = global::MeditSolution.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionModeShareDrawable = global::MeditSolution.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionModeSplitBackground = global::MeditSolution.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionModeStyle = global::MeditSolution.Droid.Resource.Attribute.actionModeStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionModeWebSearchDrawable = global::MeditSolution.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionOverflowButtonStyle = global::MeditSolution.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionOverflowMenuStyle = global::MeditSolution.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionProviderClass = global::MeditSolution.Droid.Resource.Attribute.actionProviderClass;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.actionViewClass = global::MeditSolution.Droid.Resource.Attribute.actionViewClass;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.activityChooserViewStyle = global::MeditSolution.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.alertDialogButtonGroupStyle = global::MeditSolution.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.alertDialogCenterButtons = global::MeditSolution.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.alertDialogStyle = global::MeditSolution.Droid.Resource.Attribute.alertDialogStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.alertDialogTheme = global::MeditSolution.Droid.Resource.Attribute.alertDialogTheme;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.allowStacking = global::MeditSolution.Droid.Resource.Attribute.allowStacking;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.alpha = global::MeditSolution.Droid.Resource.Attribute.alpha;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.arrowHeadLength = global::MeditSolution.Droid.Resource.Attribute.arrowHeadLength;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.arrowShaftLength = global::MeditSolution.Droid.Resource.Attribute.arrowShaftLength;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.autoCompleteTextViewStyle = global::MeditSolution.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.background = global::MeditSolution.Droid.Resource.Attribute.background;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.backgroundSplit = global::MeditSolution.Droid.Resource.Attribute.backgroundSplit;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.backgroundStacked = global::MeditSolution.Droid.Resource.Attribute.backgroundStacked;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.backgroundTint = global::MeditSolution.Droid.Resource.Attribute.backgroundTint;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.backgroundTintMode = global::MeditSolution.Droid.Resource.Attribute.backgroundTintMode;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.barLength = global::MeditSolution.Droid.Resource.Attribute.barLength;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.borderlessButtonStyle = global::MeditSolution.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.buttonBarButtonStyle = global::MeditSolution.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.buttonBarNegativeButtonStyle = global::MeditSolution.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.buttonBarNeutralButtonStyle = global::MeditSolution.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.buttonBarPositiveButtonStyle = global::MeditSolution.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.buttonBarStyle = global::MeditSolution.Droid.Resource.Attribute.buttonBarStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.buttonGravity = global::MeditSolution.Droid.Resource.Attribute.buttonGravity;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.buttonPanelSideLayout = global::MeditSolution.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.buttonStyle = global::MeditSolution.Droid.Resource.Attribute.buttonStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.buttonStyleSmall = global::MeditSolution.Droid.Resource.Attribute.buttonStyleSmall;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.buttonTint = global::MeditSolution.Droid.Resource.Attribute.buttonTint;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.buttonTintMode = global::MeditSolution.Droid.Resource.Attribute.buttonTintMode;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.checkboxStyle = global::MeditSolution.Droid.Resource.Attribute.checkboxStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.checkedTextViewStyle = global::MeditSolution.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.closeIcon = global::MeditSolution.Droid.Resource.Attribute.closeIcon;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.closeItemLayout = global::MeditSolution.Droid.Resource.Attribute.closeItemLayout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.collapseContentDescription = global::MeditSolution.Droid.Resource.Attribute.collapseContentDescription;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.collapseIcon = global::MeditSolution.Droid.Resource.Attribute.collapseIcon;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.color = global::MeditSolution.Droid.Resource.Attribute.color;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.colorAccent = global::MeditSolution.Droid.Resource.Attribute.colorAccent;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.colorBackgroundFloating = global::MeditSolution.Droid.Resource.Attribute.colorBackgroundFloating;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.colorButtonNormal = global::MeditSolution.Droid.Resource.Attribute.colorButtonNormal;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.colorControlActivated = global::MeditSolution.Droid.Resource.Attribute.colorControlActivated;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.colorControlHighlight = global::MeditSolution.Droid.Resource.Attribute.colorControlHighlight;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.colorControlNormal = global::MeditSolution.Droid.Resource.Attribute.colorControlNormal;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.colorPrimary = global::MeditSolution.Droid.Resource.Attribute.colorPrimary;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.colorPrimaryDark = global::MeditSolution.Droid.Resource.Attribute.colorPrimaryDark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.colorSwitchThumbNormal = global::MeditSolution.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.commitIcon = global::MeditSolution.Droid.Resource.Attribute.commitIcon;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.contentInsetEnd = global::MeditSolution.Droid.Resource.Attribute.contentInsetEnd;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.contentInsetEndWithActions = global::MeditSolution.Droid.Resource.Attribute.contentInsetEndWithActions;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.contentInsetLeft = global::MeditSolution.Droid.Resource.Attribute.contentInsetLeft;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.contentInsetRight = global::MeditSolution.Droid.Resource.Attribute.contentInsetRight;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.contentInsetStart = global::MeditSolution.Droid.Resource.Attribute.contentInsetStart;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.contentInsetStartWithNavigation = global::MeditSolution.Droid.Resource.Attribute.contentInsetStartWithNavigation;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.controlBackground = global::MeditSolution.Droid.Resource.Attribute.controlBackground;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.customNavigationLayout = global::MeditSolution.Droid.Resource.Attribute.customNavigationLayout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.defaultQueryHint = global::MeditSolution.Droid.Resource.Attribute.defaultQueryHint;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.dialogPreferredPadding = global::MeditSolution.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.dialogTheme = global::MeditSolution.Droid.Resource.Attribute.dialogTheme;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.displayOptions = global::MeditSolution.Droid.Resource.Attribute.displayOptions;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.divider = global::MeditSolution.Droid.Resource.Attribute.divider;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.dividerHorizontal = global::MeditSolution.Droid.Resource.Attribute.dividerHorizontal;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.dividerPadding = global::MeditSolution.Droid.Resource.Attribute.dividerPadding;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.dividerVertical = global::MeditSolution.Droid.Resource.Attribute.dividerVertical;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.drawableSize = global::MeditSolution.Droid.Resource.Attribute.drawableSize;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.drawerArrowStyle = global::MeditSolution.Droid.Resource.Attribute.drawerArrowStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.dropDownListViewStyle = global::MeditSolution.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.dropdownListPreferredItemHeight = global::MeditSolution.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.editTextBackground = global::MeditSolution.Droid.Resource.Attribute.editTextBackground;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.editTextColor = global::MeditSolution.Droid.Resource.Attribute.editTextColor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.editTextStyle = global::MeditSolution.Droid.Resource.Attribute.editTextStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.elevation = global::MeditSolution.Droid.Resource.Attribute.elevation;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.expandActivityOverflowButtonDrawable = global::MeditSolution.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.fastforward_increment = global::MeditSolution.Droid.Resource.Attribute.fastforward_increment;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.gapBetweenBars = global::MeditSolution.Droid.Resource.Attribute.gapBetweenBars;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.goIcon = global::MeditSolution.Droid.Resource.Attribute.goIcon;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.height = global::MeditSolution.Droid.Resource.Attribute.height;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.hideOnContentScroll = global::MeditSolution.Droid.Resource.Attribute.hideOnContentScroll;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.homeAsUpIndicator = global::MeditSolution.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.homeLayout = global::MeditSolution.Droid.Resource.Attribute.homeLayout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.icon = global::MeditSolution.Droid.Resource.Attribute.icon;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.iconifiedByDefault = global::MeditSolution.Droid.Resource.Attribute.iconifiedByDefault;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.imageButtonStyle = global::MeditSolution.Droid.Resource.Attribute.imageButtonStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.indeterminateProgressStyle = global::MeditSolution.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.initialActivityCount = global::MeditSolution.Droid.Resource.Attribute.initialActivityCount;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.isLightTheme = global::MeditSolution.Droid.Resource.Attribute.isLightTheme;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.itemPadding = global::MeditSolution.Droid.Resource.Attribute.itemPadding;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.layout = global::MeditSolution.Droid.Resource.Attribute.layout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.listChoiceBackgroundIndicator = global::MeditSolution.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.listDividerAlertDialog = global::MeditSolution.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.listItemLayout = global::MeditSolution.Droid.Resource.Attribute.listItemLayout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.listLayout = global::MeditSolution.Droid.Resource.Attribute.listLayout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.listMenuViewStyle = global::MeditSolution.Droid.Resource.Attribute.listMenuViewStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.listPopupWindowStyle = global::MeditSolution.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.listPreferredItemHeight = global::MeditSolution.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.listPreferredItemHeightLarge = global::MeditSolution.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.listPreferredItemHeightSmall = global::MeditSolution.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.listPreferredItemPaddingLeft = global::MeditSolution.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.listPreferredItemPaddingRight = global::MeditSolution.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.logo = global::MeditSolution.Droid.Resource.Attribute.logo;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.logoDescription = global::MeditSolution.Droid.Resource.Attribute.logoDescription;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.maxButtonHeight = global::MeditSolution.Droid.Resource.Attribute.maxButtonHeight;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.measureWithLargestChild = global::MeditSolution.Droid.Resource.Attribute.measureWithLargestChild;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.multiChoiceItemLayout = global::MeditSolution.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.navigationContentDescription = global::MeditSolution.Droid.Resource.Attribute.navigationContentDescription;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.navigationIcon = global::MeditSolution.Droid.Resource.Attribute.navigationIcon;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.navigationMode = global::MeditSolution.Droid.Resource.Attribute.navigationMode;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.overlapAnchor = global::MeditSolution.Droid.Resource.Attribute.overlapAnchor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.paddingBottomNoButtons = global::MeditSolution.Droid.Resource.Attribute.paddingBottomNoButtons;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.paddingEnd = global::MeditSolution.Droid.Resource.Attribute.paddingEnd;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.paddingStart = global::MeditSolution.Droid.Resource.Attribute.paddingStart;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.paddingTopNoTitle = global::MeditSolution.Droid.Resource.Attribute.paddingTopNoTitle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.panelBackground = global::MeditSolution.Droid.Resource.Attribute.panelBackground;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.panelMenuListTheme = global::MeditSolution.Droid.Resource.Attribute.panelMenuListTheme;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.panelMenuListWidth = global::MeditSolution.Droid.Resource.Attribute.panelMenuListWidth;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.popupMenuStyle = global::MeditSolution.Droid.Resource.Attribute.popupMenuStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.popupTheme = global::MeditSolution.Droid.Resource.Attribute.popupTheme;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.popupWindowStyle = global::MeditSolution.Droid.Resource.Attribute.popupWindowStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.preserveIconSpacing = global::MeditSolution.Droid.Resource.Attribute.preserveIconSpacing;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.progressBarPadding = global::MeditSolution.Droid.Resource.Attribute.progressBarPadding;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.progressBarStyle = global::MeditSolution.Droid.Resource.Attribute.progressBarStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.queryBackground = global::MeditSolution.Droid.Resource.Attribute.queryBackground;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.queryHint = global::MeditSolution.Droid.Resource.Attribute.queryHint;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.radioButtonStyle = global::MeditSolution.Droid.Resource.Attribute.radioButtonStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.ratingBarStyle = global::MeditSolution.Droid.Resource.Attribute.ratingBarStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.ratingBarStyleIndicator = global::MeditSolution.Droid.Resource.Attribute.ratingBarStyleIndicator;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.ratingBarStyleSmall = global::MeditSolution.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.resize_mode = global::MeditSolution.Droid.Resource.Attribute.resize_mode;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.rewind_increment = global::MeditSolution.Droid.Resource.Attribute.rewind_increment;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.searchHintIcon = global::MeditSolution.Droid.Resource.Attribute.searchHintIcon;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.searchIcon = global::MeditSolution.Droid.Resource.Attribute.searchIcon;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.searchViewStyle = global::MeditSolution.Droid.Resource.Attribute.searchViewStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.seekBarStyle = global::MeditSolution.Droid.Resource.Attribute.seekBarStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.selectableItemBackground = global::MeditSolution.Droid.Resource.Attribute.selectableItemBackground;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.selectableItemBackgroundBorderless = global::MeditSolution.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.showAsAction = global::MeditSolution.Droid.Resource.Attribute.showAsAction;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.showDividers = global::MeditSolution.Droid.Resource.Attribute.showDividers;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.showText = global::MeditSolution.Droid.Resource.Attribute.showText;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.showTitle = global::MeditSolution.Droid.Resource.Attribute.showTitle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.show_timeout = global::MeditSolution.Droid.Resource.Attribute.show_timeout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.singleChoiceItemLayout = global::MeditSolution.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.spinBars = global::MeditSolution.Droid.Resource.Attribute.spinBars;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.spinnerDropDownItemStyle = global::MeditSolution.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.spinnerStyle = global::MeditSolution.Droid.Resource.Attribute.spinnerStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.splitTrack = global::MeditSolution.Droid.Resource.Attribute.splitTrack;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.srcCompat = global::MeditSolution.Droid.Resource.Attribute.srcCompat;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.state_above_anchor = global::MeditSolution.Droid.Resource.Attribute.state_above_anchor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.subMenuArrow = global::MeditSolution.Droid.Resource.Attribute.subMenuArrow;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.submitBackground = global::MeditSolution.Droid.Resource.Attribute.submitBackground;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.subtitle = global::MeditSolution.Droid.Resource.Attribute.subtitle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.subtitleTextAppearance = global::MeditSolution.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.subtitleTextColor = global::MeditSolution.Droid.Resource.Attribute.subtitleTextColor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.subtitleTextStyle = global::MeditSolution.Droid.Resource.Attribute.subtitleTextStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.suggestionRowLayout = global::MeditSolution.Droid.Resource.Attribute.suggestionRowLayout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.switchMinWidth = global::MeditSolution.Droid.Resource.Attribute.switchMinWidth;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.switchPadding = global::MeditSolution.Droid.Resource.Attribute.switchPadding;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.switchStyle = global::MeditSolution.Droid.Resource.Attribute.switchStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.switchTextAppearance = global::MeditSolution.Droid.Resource.Attribute.switchTextAppearance;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.textAllCaps = global::MeditSolution.Droid.Resource.Attribute.textAllCaps;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.textAppearanceLargePopupMenu = global::MeditSolution.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.textAppearanceListItem = global::MeditSolution.Droid.Resource.Attribute.textAppearanceListItem;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.textAppearanceListItemSmall = global::MeditSolution.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.textAppearancePopupMenuHeader = global::MeditSolution.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.textAppearanceSearchResultSubtitle = global::MeditSolution.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.textAppearanceSearchResultTitle = global::MeditSolution.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.textAppearanceSmallPopupMenu = global::MeditSolution.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.textColorAlertDialogListItem = global::MeditSolution.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.textColorSearchUrl = global::MeditSolution.Droid.Resource.Attribute.textColorSearchUrl;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.theme = global::MeditSolution.Droid.Resource.Attribute.theme;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.thickness = global::MeditSolution.Droid.Resource.Attribute.thickness;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.thumbTextPadding = global::MeditSolution.Droid.Resource.Attribute.thumbTextPadding;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.thumbTint = global::MeditSolution.Droid.Resource.Attribute.thumbTint;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.thumbTintMode = global::MeditSolution.Droid.Resource.Attribute.thumbTintMode;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.tickMark = global::MeditSolution.Droid.Resource.Attribute.tickMark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.tickMarkTint = global::MeditSolution.Droid.Resource.Attribute.tickMarkTint;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.tickMarkTintMode = global::MeditSolution.Droid.Resource.Attribute.tickMarkTintMode;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.title = global::MeditSolution.Droid.Resource.Attribute.title;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.titleMargin = global::MeditSolution.Droid.Resource.Attribute.titleMargin;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.titleMarginBottom = global::MeditSolution.Droid.Resource.Attribute.titleMarginBottom;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.titleMarginEnd = global::MeditSolution.Droid.Resource.Attribute.titleMarginEnd;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.titleMarginStart = global::MeditSolution.Droid.Resource.Attribute.titleMarginStart;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.titleMarginTop = global::MeditSolution.Droid.Resource.Attribute.titleMarginTop;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.titleMargins = global::MeditSolution.Droid.Resource.Attribute.titleMargins;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.titleTextAppearance = global::MeditSolution.Droid.Resource.Attribute.titleTextAppearance;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.titleTextColor = global::MeditSolution.Droid.Resource.Attribute.titleTextColor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.titleTextStyle = global::MeditSolution.Droid.Resource.Attribute.titleTextStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.toolbarNavigationButtonStyle = global::MeditSolution.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.toolbarStyle = global::MeditSolution.Droid.Resource.Attribute.toolbarStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.track = global::MeditSolution.Droid.Resource.Attribute.track;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.trackTint = global::MeditSolution.Droid.Resource.Attribute.trackTint;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.trackTintMode = global::MeditSolution.Droid.Resource.Attribute.trackTintMode;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.use_controller = global::MeditSolution.Droid.Resource.Attribute.use_controller;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.use_texture_view = global::MeditSolution.Droid.Resource.Attribute.use_texture_view;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.voiceIcon = global::MeditSolution.Droid.Resource.Attribute.voiceIcon;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.windowActionBar = global::MeditSolution.Droid.Resource.Attribute.windowActionBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.windowActionBarOverlay = global::MeditSolution.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.windowActionModeOverlay = global::MeditSolution.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.windowFixedHeightMajor = global::MeditSolution.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.windowFixedHeightMinor = global::MeditSolution.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.windowFixedWidthMajor = global::MeditSolution.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.windowFixedWidthMinor = global::MeditSolution.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.windowMinWidthMajor = global::MeditSolution.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.windowMinWidthMinor = global::MeditSolution.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Attribute.windowNoTitle = global::MeditSolution.Droid.Resource.Attribute.windowNoTitle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Boolean.abc_action_bar_embed_tabs = global::MeditSolution.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Boolean.abc_allow_stacked_button_bar = global::MeditSolution.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::MeditSolution.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::MeditSolution.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::MeditSolution.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.abc_background_cache_hint_selector_material_dark = global::MeditSolution.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.abc_background_cache_hint_selector_material_light = global::MeditSolution.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.abc_btn_colored_borderless_text_material = global::MeditSolution.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.abc_btn_colored_text_material = global::MeditSolution.Droid.Resource.Color.abc_btn_colored_text_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.abc_color_highlight_material = global::MeditSolution.Droid.Resource.Color.abc_color_highlight_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.abc_hint_foreground_material_dark = global::MeditSolution.Droid.Resource.Color.abc_hint_foreground_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.abc_hint_foreground_material_light = global::MeditSolution.Droid.Resource.Color.abc_hint_foreground_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.abc_input_method_navigation_guard = global::MeditSolution.Droid.Resource.Color.abc_input_method_navigation_guard;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.abc_primary_text_disable_only_material_dark = global::MeditSolution.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.abc_primary_text_disable_only_material_light = global::MeditSolution.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.abc_primary_text_material_dark = global::MeditSolution.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.abc_primary_text_material_light = global::MeditSolution.Droid.Resource.Color.abc_primary_text_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.abc_search_url_text = global::MeditSolution.Droid.Resource.Color.abc_search_url_text;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.abc_search_url_text_normal = global::MeditSolution.Droid.Resource.Color.abc_search_url_text_normal;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.abc_search_url_text_pressed = global::MeditSolution.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.abc_search_url_text_selected = global::MeditSolution.Droid.Resource.Color.abc_search_url_text_selected;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.abc_secondary_text_material_dark = global::MeditSolution.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.abc_secondary_text_material_light = global::MeditSolution.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.abc_tint_btn_checkable = global::MeditSolution.Droid.Resource.Color.abc_tint_btn_checkable;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.abc_tint_default = global::MeditSolution.Droid.Resource.Color.abc_tint_default;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.abc_tint_edittext = global::MeditSolution.Droid.Resource.Color.abc_tint_edittext;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.abc_tint_seek_thumb = global::MeditSolution.Droid.Resource.Color.abc_tint_seek_thumb;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.abc_tint_spinner = global::MeditSolution.Droid.Resource.Color.abc_tint_spinner;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.abc_tint_switch_track = global::MeditSolution.Droid.Resource.Color.abc_tint_switch_track;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.accent_material_dark = global::MeditSolution.Droid.Resource.Color.accent_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.accent_material_light = global::MeditSolution.Droid.Resource.Color.accent_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.background_floating_material_dark = global::MeditSolution.Droid.Resource.Color.background_floating_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.background_floating_material_light = global::MeditSolution.Droid.Resource.Color.background_floating_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.background_material_dark = global::MeditSolution.Droid.Resource.Color.background_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.background_material_light = global::MeditSolution.Droid.Resource.Color.background_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.bright_foreground_disabled_material_dark = global::MeditSolution.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.bright_foreground_disabled_material_light = global::MeditSolution.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.bright_foreground_inverse_material_dark = global::MeditSolution.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.bright_foreground_inverse_material_light = global::MeditSolution.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.bright_foreground_material_dark = global::MeditSolution.Droid.Resource.Color.bright_foreground_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.bright_foreground_material_light = global::MeditSolution.Droid.Resource.Color.bright_foreground_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.button_material_dark = global::MeditSolution.Droid.Resource.Color.button_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.button_material_light = global::MeditSolution.Droid.Resource.Color.button_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.dim_foreground_disabled_material_dark = global::MeditSolution.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.dim_foreground_disabled_material_light = global::MeditSolution.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.dim_foreground_material_dark = global::MeditSolution.Droid.Resource.Color.dim_foreground_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.dim_foreground_material_light = global::MeditSolution.Droid.Resource.Color.dim_foreground_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.foreground_material_dark = global::MeditSolution.Droid.Resource.Color.foreground_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.foreground_material_light = global::MeditSolution.Droid.Resource.Color.foreground_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.highlighted_text_material_dark = global::MeditSolution.Droid.Resource.Color.highlighted_text_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.highlighted_text_material_light = global::MeditSolution.Droid.Resource.Color.highlighted_text_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.material_blue_grey_800 = global::MeditSolution.Droid.Resource.Color.material_blue_grey_800;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.material_blue_grey_900 = global::MeditSolution.Droid.Resource.Color.material_blue_grey_900;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.material_blue_grey_950 = global::MeditSolution.Droid.Resource.Color.material_blue_grey_950;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.material_deep_teal_200 = global::MeditSolution.Droid.Resource.Color.material_deep_teal_200;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.material_deep_teal_500 = global::MeditSolution.Droid.Resource.Color.material_deep_teal_500;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.material_grey_100 = global::MeditSolution.Droid.Resource.Color.material_grey_100;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.material_grey_300 = global::MeditSolution.Droid.Resource.Color.material_grey_300;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.material_grey_50 = global::MeditSolution.Droid.Resource.Color.material_grey_50;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.material_grey_600 = global::MeditSolution.Droid.Resource.Color.material_grey_600;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.material_grey_800 = global::MeditSolution.Droid.Resource.Color.material_grey_800;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.material_grey_850 = global::MeditSolution.Droid.Resource.Color.material_grey_850;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.material_grey_900 = global::MeditSolution.Droid.Resource.Color.material_grey_900;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.notification_action_color_filter = global::MeditSolution.Droid.Resource.Color.notification_action_color_filter;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.notification_icon_bg_color = global::MeditSolution.Droid.Resource.Color.notification_icon_bg_color;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.notification_material_background_media_default_color = global::MeditSolution.Droid.Resource.Color.notification_material_background_media_default_color;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.primary_dark_material_dark = global::MeditSolution.Droid.Resource.Color.primary_dark_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.primary_dark_material_light = global::MeditSolution.Droid.Resource.Color.primary_dark_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.primary_material_dark = global::MeditSolution.Droid.Resource.Color.primary_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.primary_material_light = global::MeditSolution.Droid.Resource.Color.primary_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.primary_text_default_material_dark = global::MeditSolution.Droid.Resource.Color.primary_text_default_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.primary_text_default_material_light = global::MeditSolution.Droid.Resource.Color.primary_text_default_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.primary_text_disabled_material_dark = global::MeditSolution.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.primary_text_disabled_material_light = global::MeditSolution.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.ripple_material_dark = global::MeditSolution.Droid.Resource.Color.ripple_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.ripple_material_light = global::MeditSolution.Droid.Resource.Color.ripple_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.secondary_text_default_material_dark = global::MeditSolution.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.secondary_text_default_material_light = global::MeditSolution.Droid.Resource.Color.secondary_text_default_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.secondary_text_disabled_material_dark = global::MeditSolution.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.secondary_text_disabled_material_light = global::MeditSolution.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.switch_thumb_disabled_material_dark = global::MeditSolution.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.switch_thumb_disabled_material_light = global::MeditSolution.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.switch_thumb_material_dark = global::MeditSolution.Droid.Resource.Color.switch_thumb_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.switch_thumb_material_light = global::MeditSolution.Droid.Resource.Color.switch_thumb_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.switch_thumb_normal_material_dark = global::MeditSolution.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Color.switch_thumb_normal_material_light = global::MeditSolution.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_action_bar_content_inset_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_action_bar_default_height_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_action_bar_default_padding_end_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_action_bar_default_padding_start_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_action_bar_elevation_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_elevation_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_action_bar_progress_bar_size = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_action_bar_stacked_max_height = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_action_button_min_height_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_action_button_min_width_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_action_button_min_width_overflow_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_alert_dialog_button_bar_height = global::MeditSolution.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_button_inset_horizontal_material = global::MeditSolution.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_button_inset_vertical_material = global::MeditSolution.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_button_padding_horizontal_material = global::MeditSolution.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_button_padding_vertical_material = global::MeditSolution.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::MeditSolution.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_config_prefDialogWidth = global::MeditSolution.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_control_corner_material = global::MeditSolution.Droid.Resource.Dimension.abc_control_corner_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_control_inset_material = global::MeditSolution.Droid.Resource.Dimension.abc_control_inset_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_control_padding_material = global::MeditSolution.Droid.Resource.Dimension.abc_control_padding_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_dialog_fixed_height_major = global::MeditSolution.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_dialog_fixed_height_minor = global::MeditSolution.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_dialog_fixed_width_major = global::MeditSolution.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_dialog_fixed_width_minor = global::MeditSolution.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::MeditSolution.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::MeditSolution.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_dialog_min_width_major = global::MeditSolution.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_dialog_min_width_minor = global::MeditSolution.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_dialog_padding_material = global::MeditSolution.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_dialog_padding_top_material = global::MeditSolution.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_dialog_title_divider_material = global::MeditSolution.Droid.Resource.Dimension.abc_dialog_title_divider_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_disabled_alpha_material_dark = global::MeditSolution.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_disabled_alpha_material_light = global::MeditSolution.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_dropdownitem_icon_width = global::MeditSolution.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_dropdownitem_text_padding_left = global::MeditSolution.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_dropdownitem_text_padding_right = global::MeditSolution.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_edit_text_inset_bottom_material = global::MeditSolution.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::MeditSolution.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_edit_text_inset_top_material = global::MeditSolution.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_floating_window_z = global::MeditSolution.Droid.Resource.Dimension.abc_floating_window_z;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_list_item_padding_horizontal_material = global::MeditSolution.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_panel_menu_list_width = global::MeditSolution.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_progress_bar_height_material = global::MeditSolution.Droid.Resource.Dimension.abc_progress_bar_height_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_search_view_preferred_height = global::MeditSolution.Droid.Resource.Dimension.abc_search_view_preferred_height;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_search_view_preferred_width = global::MeditSolution.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_seekbar_track_background_height_material = global::MeditSolution.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_seekbar_track_progress_height_material = global::MeditSolution.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_select_dialog_padding_start_material = global::MeditSolution.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_switch_padding = global::MeditSolution.Droid.Resource.Dimension.abc_switch_padding;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_text_size_body_1_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_text_size_body_2_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_text_size_button_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_text_size_caption_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_text_size_display_1_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_text_size_display_2_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_text_size_display_3_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_text_size_display_4_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_text_size_headline_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_text_size_large_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_text_size_medium_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_text_size_menu_header_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_menu_header_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_text_size_menu_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_text_size_small_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_text_size_subhead_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_text_size_title_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.abc_text_size_title_material_toolbar = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.disabled_alpha_material_dark = global::MeditSolution.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.disabled_alpha_material_light = global::MeditSolution.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.highlight_alpha_material_colored = global::MeditSolution.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.highlight_alpha_material_dark = global::MeditSolution.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.highlight_alpha_material_light = global::MeditSolution.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.hint_alpha_material_dark = global::MeditSolution.Droid.Resource.Dimension.hint_alpha_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.hint_alpha_material_light = global::MeditSolution.Droid.Resource.Dimension.hint_alpha_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.hint_pressed_alpha_material_dark = global::MeditSolution.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.hint_pressed_alpha_material_light = global::MeditSolution.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.notification_action_icon_size = global::MeditSolution.Droid.Resource.Dimension.notification_action_icon_size;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.notification_action_text_size = global::MeditSolution.Droid.Resource.Dimension.notification_action_text_size;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.notification_big_circle_margin = global::MeditSolution.Droid.Resource.Dimension.notification_big_circle_margin;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.notification_content_margin_start = global::MeditSolution.Droid.Resource.Dimension.notification_content_margin_start;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.notification_large_icon_height = global::MeditSolution.Droid.Resource.Dimension.notification_large_icon_height;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.notification_large_icon_width = global::MeditSolution.Droid.Resource.Dimension.notification_large_icon_width;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.notification_main_column_padding_top = global::MeditSolution.Droid.Resource.Dimension.notification_main_column_padding_top;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.notification_media_narrow_margin = global::MeditSolution.Droid.Resource.Dimension.notification_media_narrow_margin;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.notification_right_icon_size = global::MeditSolution.Droid.Resource.Dimension.notification_right_icon_size;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.notification_right_side_padding_top = global::MeditSolution.Droid.Resource.Dimension.notification_right_side_padding_top;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.notification_small_icon_background_padding = global::MeditSolution.Droid.Resource.Dimension.notification_small_icon_background_padding;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.notification_small_icon_size_as_large = global::MeditSolution.Droid.Resource.Dimension.notification_small_icon_size_as_large;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.notification_subtext_size = global::MeditSolution.Droid.Resource.Dimension.notification_subtext_size;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.notification_top_pad = global::MeditSolution.Droid.Resource.Dimension.notification_top_pad;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Dimension.notification_top_pad_large_text = global::MeditSolution.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_action_bar_item_background_material = global::MeditSolution.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_btn_borderless_material = global::MeditSolution.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_btn_check_material = global::MeditSolution.Droid.Resource.Drawable.abc_btn_check_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::MeditSolution.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::MeditSolution.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_btn_colored_material = global::MeditSolution.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_btn_default_mtrl_shape = global::MeditSolution.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_btn_radio_material = global::MeditSolution.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::MeditSolution.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::MeditSolution.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::MeditSolution.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::MeditSolution.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_cab_background_internal_bg = global::MeditSolution.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_cab_background_top_material = global::MeditSolution.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_control_background_material = global::MeditSolution.Droid.Resource.Drawable.abc_control_background_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_dialog_material_background = global::MeditSolution.Droid.Resource.Drawable.abc_dialog_material_background;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_edit_text_material = global::MeditSolution.Droid.Resource.Drawable.abc_edit_text_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_ic_ab_back_material = global::MeditSolution.Droid.Resource.Drawable.abc_ic_ab_back_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::MeditSolution.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_ic_clear_material = global::MeditSolution.Droid.Resource.Drawable.abc_ic_clear_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_ic_go_search_api_material = global::MeditSolution.Droid.Resource.Drawable.abc_ic_go_search_api_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_ic_menu_overflow_material = global::MeditSolution.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_ic_search_api_material = global::MeditSolution.Droid.Resource.Drawable.abc_ic_search_api_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_ic_star_black_16dp = global::MeditSolution.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_ic_star_black_36dp = global::MeditSolution.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_ic_star_black_48dp = global::MeditSolution.Droid.Resource.Drawable.abc_ic_star_black_48dp;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_ic_star_half_black_16dp = global::MeditSolution.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_ic_star_half_black_36dp = global::MeditSolution.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_ic_star_half_black_48dp = global::MeditSolution.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_ic_voice_search_api_material = global::MeditSolution.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_item_background_holo_dark = global::MeditSolution.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_item_background_holo_light = global::MeditSolution.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_list_divider_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_list_focused_holo = global::MeditSolution.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_list_longpressed_holo = global::MeditSolution.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_list_pressed_holo_dark = global::MeditSolution.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_list_pressed_holo_light = global::MeditSolution.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::MeditSolution.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::MeditSolution.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::MeditSolution.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_list_selector_disabled_holo_light = global::MeditSolution.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_list_selector_holo_dark = global::MeditSolution.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_list_selector_holo_light = global::MeditSolution.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::MeditSolution.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_popup_background_mtrl_mult = global::MeditSolution.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_ratingbar_indicator_material = global::MeditSolution.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_ratingbar_material = global::MeditSolution.Droid.Resource.Drawable.abc_ratingbar_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_ratingbar_small_material = global::MeditSolution.Droid.Resource.Drawable.abc_ratingbar_small_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::MeditSolution.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::MeditSolution.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_seekbar_thumb_material = global::MeditSolution.Droid.Resource.Drawable.abc_seekbar_thumb_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_seekbar_tick_mark_material = global::MeditSolution.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_seekbar_track_material = global::MeditSolution.Droid.Resource.Drawable.abc_seekbar_track_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_spinner_textfield_background_material = global::MeditSolution.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_switch_thumb_material = global::MeditSolution.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_switch_track_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_tab_indicator_material = global::MeditSolution.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_text_cursor_material = global::MeditSolution.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::MeditSolution.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::MeditSolution.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::MeditSolution.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::MeditSolution.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::MeditSolution.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::MeditSolution.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_textfield_search_material = global::MeditSolution.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.abc_vector_test = global::MeditSolution.Droid.Resource.Drawable.abc_vector_test;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.exo_controls_fastforward = global::MeditSolution.Droid.Resource.Drawable.exo_controls_fastforward;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.exo_controls_next = global::MeditSolution.Droid.Resource.Drawable.exo_controls_next;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.exo_controls_pause = global::MeditSolution.Droid.Resource.Drawable.exo_controls_pause;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.exo_controls_play = global::MeditSolution.Droid.Resource.Drawable.exo_controls_play;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.exo_controls_previous = global::MeditSolution.Droid.Resource.Drawable.exo_controls_previous;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.exo_controls_rewind = global::MeditSolution.Droid.Resource.Drawable.exo_controls_rewind;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.notification_action_background = global::MeditSolution.Droid.Resource.Drawable.notification_action_background;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.notification_bg = global::MeditSolution.Droid.Resource.Drawable.notification_bg;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.notification_bg_low = global::MeditSolution.Droid.Resource.Drawable.notification_bg_low;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.notification_bg_low_normal = global::MeditSolution.Droid.Resource.Drawable.notification_bg_low_normal;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.notification_bg_low_pressed = global::MeditSolution.Droid.Resource.Drawable.notification_bg_low_pressed;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.notification_bg_normal = global::MeditSolution.Droid.Resource.Drawable.notification_bg_normal;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.notification_bg_normal_pressed = global::MeditSolution.Droid.Resource.Drawable.notification_bg_normal_pressed;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.notification_icon_background = global::MeditSolution.Droid.Resource.Drawable.notification_icon_background;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.notification_template_icon_bg = global::MeditSolution.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.notification_template_icon_low_bg = global::MeditSolution.Droid.Resource.Drawable.notification_template_icon_low_bg;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.notification_tile_bg = global::MeditSolution.Droid.Resource.Drawable.notification_tile_bg;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Drawable.notify_panel_notification_icon_bg = global::MeditSolution.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.action0 = global::MeditSolution.Droid.Resource.Id.action0;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.action_bar = global::MeditSolution.Droid.Resource.Id.action_bar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.action_bar_activity_content = global::MeditSolution.Droid.Resource.Id.action_bar_activity_content;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.action_bar_container = global::MeditSolution.Droid.Resource.Id.action_bar_container;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.action_bar_root = global::MeditSolution.Droid.Resource.Id.action_bar_root;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.action_bar_spinner = global::MeditSolution.Droid.Resource.Id.action_bar_spinner;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.action_bar_subtitle = global::MeditSolution.Droid.Resource.Id.action_bar_subtitle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.action_bar_title = global::MeditSolution.Droid.Resource.Id.action_bar_title;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.action_container = global::MeditSolution.Droid.Resource.Id.action_container;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.action_context_bar = global::MeditSolution.Droid.Resource.Id.action_context_bar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.action_divider = global::MeditSolution.Droid.Resource.Id.action_divider;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.action_image = global::MeditSolution.Droid.Resource.Id.action_image;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.action_menu_divider = global::MeditSolution.Droid.Resource.Id.action_menu_divider;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.action_menu_presenter = global::MeditSolution.Droid.Resource.Id.action_menu_presenter;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.action_mode_bar = global::MeditSolution.Droid.Resource.Id.action_mode_bar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.action_mode_bar_stub = global::MeditSolution.Droid.Resource.Id.action_mode_bar_stub;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.action_mode_close_button = global::MeditSolution.Droid.Resource.Id.action_mode_close_button;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.action_text = global::MeditSolution.Droid.Resource.Id.action_text;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.actions = global::MeditSolution.Droid.Resource.Id.actions;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.activity_chooser_view_content = global::MeditSolution.Droid.Resource.Id.activity_chooser_view_content;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.add = global::MeditSolution.Droid.Resource.Id.add;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.alertTitle = global::MeditSolution.Droid.Resource.Id.alertTitle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.always = global::MeditSolution.Droid.Resource.Id.always;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.beginning = global::MeditSolution.Droid.Resource.Id.beginning;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.bottom = global::MeditSolution.Droid.Resource.Id.bottom;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.buttonPanel = global::MeditSolution.Droid.Resource.Id.buttonPanel;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.cancel_action = global::MeditSolution.Droid.Resource.Id.cancel_action;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.checkbox = global::MeditSolution.Droid.Resource.Id.checkbox;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.chronometer = global::MeditSolution.Droid.Resource.Id.chronometer;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.collapseActionView = global::MeditSolution.Droid.Resource.Id.collapseActionView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.contentPanel = global::MeditSolution.Droid.Resource.Id.contentPanel;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.control = global::MeditSolution.Droid.Resource.Id.control;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.custom = global::MeditSolution.Droid.Resource.Id.custom;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.customPanel = global::MeditSolution.Droid.Resource.Id.customPanel;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.decor_content_parent = global::MeditSolution.Droid.Resource.Id.decor_content_parent;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.default_activity_button = global::MeditSolution.Droid.Resource.Id.default_activity_button;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.disableHome = global::MeditSolution.Droid.Resource.Id.disableHome;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.edit_query = global::MeditSolution.Droid.Resource.Id.edit_query;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.end = global::MeditSolution.Droid.Resource.Id.end;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.end_padder = global::MeditSolution.Droid.Resource.Id.end_padder;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.expand_activities_button = global::MeditSolution.Droid.Resource.Id.expand_activities_button;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.expanded_menu = global::MeditSolution.Droid.Resource.Id.expanded_menu;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.ffwd = global::MeditSolution.Droid.Resource.Id.ffwd;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.fit = global::MeditSolution.Droid.Resource.Id.fit;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.fixed_height = global::MeditSolution.Droid.Resource.Id.fixed_height;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.fixed_width = global::MeditSolution.Droid.Resource.Id.fixed_width;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.home = global::MeditSolution.Droid.Resource.Id.home;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.homeAsUp = global::MeditSolution.Droid.Resource.Id.homeAsUp;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.icon = global::MeditSolution.Droid.Resource.Id.icon;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.icon_group = global::MeditSolution.Droid.Resource.Id.icon_group;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.ifRoom = global::MeditSolution.Droid.Resource.Id.ifRoom;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.image = global::MeditSolution.Droid.Resource.Id.image;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.info = global::MeditSolution.Droid.Resource.Id.info;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.line1 = global::MeditSolution.Droid.Resource.Id.line1;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.line3 = global::MeditSolution.Droid.Resource.Id.line3;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.listMode = global::MeditSolution.Droid.Resource.Id.listMode;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.list_item = global::MeditSolution.Droid.Resource.Id.list_item;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.media_actions = global::MeditSolution.Droid.Resource.Id.media_actions;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.mediacontroller_progress = global::MeditSolution.Droid.Resource.Id.mediacontroller_progress;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.middle = global::MeditSolution.Droid.Resource.Id.middle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.multiply = global::MeditSolution.Droid.Resource.Id.multiply;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.never = global::MeditSolution.Droid.Resource.Id.never;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.next = global::MeditSolution.Droid.Resource.Id.next;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.none = global::MeditSolution.Droid.Resource.Id.none;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.normal = global::MeditSolution.Droid.Resource.Id.normal;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.notification_background = global::MeditSolution.Droid.Resource.Id.notification_background;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.notification_main_column = global::MeditSolution.Droid.Resource.Id.notification_main_column;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.notification_main_column_container = global::MeditSolution.Droid.Resource.Id.notification_main_column_container;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.parentPanel = global::MeditSolution.Droid.Resource.Id.parentPanel;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.play = global::MeditSolution.Droid.Resource.Id.play;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.prev = global::MeditSolution.Droid.Resource.Id.prev;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.progress_circular = global::MeditSolution.Droid.Resource.Id.progress_circular;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.progress_horizontal = global::MeditSolution.Droid.Resource.Id.progress_horizontal;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.radio = global::MeditSolution.Droid.Resource.Id.radio;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.rew = global::MeditSolution.Droid.Resource.Id.rew;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.right_icon = global::MeditSolution.Droid.Resource.Id.right_icon;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.right_side = global::MeditSolution.Droid.Resource.Id.right_side;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.screen = global::MeditSolution.Droid.Resource.Id.screen;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.scrollIndicatorDown = global::MeditSolution.Droid.Resource.Id.scrollIndicatorDown;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.scrollIndicatorUp = global::MeditSolution.Droid.Resource.Id.scrollIndicatorUp;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.scrollView = global::MeditSolution.Droid.Resource.Id.scrollView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.search_badge = global::MeditSolution.Droid.Resource.Id.search_badge;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.search_bar = global::MeditSolution.Droid.Resource.Id.search_bar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.search_button = global::MeditSolution.Droid.Resource.Id.search_button;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.search_close_btn = global::MeditSolution.Droid.Resource.Id.search_close_btn;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.search_edit_frame = global::MeditSolution.Droid.Resource.Id.search_edit_frame;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.search_go_btn = global::MeditSolution.Droid.Resource.Id.search_go_btn;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.search_mag_icon = global::MeditSolution.Droid.Resource.Id.search_mag_icon;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.search_plate = global::MeditSolution.Droid.Resource.Id.search_plate;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.search_src_text = global::MeditSolution.Droid.Resource.Id.search_src_text;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.search_voice_btn = global::MeditSolution.Droid.Resource.Id.search_voice_btn;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.select_dialog_listview = global::MeditSolution.Droid.Resource.Id.select_dialog_listview;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.shortcut = global::MeditSolution.Droid.Resource.Id.shortcut;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.showCustom = global::MeditSolution.Droid.Resource.Id.showCustom;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.showHome = global::MeditSolution.Droid.Resource.Id.showHome;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.showTitle = global::MeditSolution.Droid.Resource.Id.showTitle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.shutter = global::MeditSolution.Droid.Resource.Id.shutter;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.spacer = global::MeditSolution.Droid.Resource.Id.spacer;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.split_action_bar = global::MeditSolution.Droid.Resource.Id.split_action_bar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.src_atop = global::MeditSolution.Droid.Resource.Id.src_atop;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.src_in = global::MeditSolution.Droid.Resource.Id.src_in;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.src_over = global::MeditSolution.Droid.Resource.Id.src_over;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.status_bar_latest_event_content = global::MeditSolution.Droid.Resource.Id.status_bar_latest_event_content;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.submenuarrow = global::MeditSolution.Droid.Resource.Id.submenuarrow;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.submit_area = global::MeditSolution.Droid.Resource.Id.submit_area;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.subtitles = global::MeditSolution.Droid.Resource.Id.subtitles;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.tabMode = global::MeditSolution.Droid.Resource.Id.tabMode;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.text = global::MeditSolution.Droid.Resource.Id.text;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.text2 = global::MeditSolution.Droid.Resource.Id.text2;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.textSpacerNoButtons = global::MeditSolution.Droid.Resource.Id.textSpacerNoButtons;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.textSpacerNoTitle = global::MeditSolution.Droid.Resource.Id.textSpacerNoTitle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.time = global::MeditSolution.Droid.Resource.Id.time;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.time_current = global::MeditSolution.Droid.Resource.Id.time_current;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.title = global::MeditSolution.Droid.Resource.Id.title;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.titleDividerNoCustom = global::MeditSolution.Droid.Resource.Id.titleDividerNoCustom;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.title_template = global::MeditSolution.Droid.Resource.Id.title_template;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.top = global::MeditSolution.Droid.Resource.Id.top;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.topPanel = global::MeditSolution.Droid.Resource.Id.topPanel;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.up = global::MeditSolution.Droid.Resource.Id.up;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.useLogo = global::MeditSolution.Droid.Resource.Id.useLogo;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.video_frame = global::MeditSolution.Droid.Resource.Id.video_frame;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.withText = global::MeditSolution.Droid.Resource.Id.withText;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Id.wrap_content = global::MeditSolution.Droid.Resource.Id.wrap_content;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Integer.abc_config_activityDefaultDur = global::MeditSolution.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Integer.abc_config_activityShortDur = global::MeditSolution.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Integer.cancel_button_image_alpha = global::MeditSolution.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Integer.status_bar_notification_info_maxnum = global::MeditSolution.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.abc_action_bar_title_item = global::MeditSolution.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.abc_action_bar_up_container = global::MeditSolution.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.abc_action_bar_view_list_nav_layout = global::MeditSolution.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.abc_action_menu_item_layout = global::MeditSolution.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.abc_action_menu_layout = global::MeditSolution.Droid.Resource.Layout.abc_action_menu_layout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.abc_action_mode_bar = global::MeditSolution.Droid.Resource.Layout.abc_action_mode_bar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.abc_action_mode_close_item_material = global::MeditSolution.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.abc_activity_chooser_view = global::MeditSolution.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.abc_activity_chooser_view_list_item = global::MeditSolution.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.abc_alert_dialog_button_bar_material = global::MeditSolution.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.abc_alert_dialog_material = global::MeditSolution.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.abc_alert_dialog_title_material = global::MeditSolution.Droid.Resource.Layout.abc_alert_dialog_title_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.abc_dialog_title_material = global::MeditSolution.Droid.Resource.Layout.abc_dialog_title_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.abc_expanded_menu_layout = global::MeditSolution.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.abc_list_menu_item_checkbox = global::MeditSolution.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.abc_list_menu_item_icon = global::MeditSolution.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.abc_list_menu_item_layout = global::MeditSolution.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.abc_list_menu_item_radio = global::MeditSolution.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.abc_popup_menu_header_item_layout = global::MeditSolution.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.abc_popup_menu_item_layout = global::MeditSolution.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.abc_screen_content_include = global::MeditSolution.Droid.Resource.Layout.abc_screen_content_include;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.abc_screen_simple = global::MeditSolution.Droid.Resource.Layout.abc_screen_simple;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.abc_screen_simple_overlay_action_mode = global::MeditSolution.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.abc_screen_toolbar = global::MeditSolution.Droid.Resource.Layout.abc_screen_toolbar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.abc_search_dropdown_item_icons_2line = global::MeditSolution.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.abc_search_view = global::MeditSolution.Droid.Resource.Layout.abc_search_view;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.abc_select_dialog_material = global::MeditSolution.Droid.Resource.Layout.abc_select_dialog_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.exo_playback_control_view = global::MeditSolution.Droid.Resource.Layout.exo_playback_control_view;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.exo_simple_player_view = global::MeditSolution.Droid.Resource.Layout.exo_simple_player_view;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.notification_action = global::MeditSolution.Droid.Resource.Layout.notification_action;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.notification_action_tombstone = global::MeditSolution.Droid.Resource.Layout.notification_action_tombstone;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.notification_media_action = global::MeditSolution.Droid.Resource.Layout.notification_media_action;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.notification_media_cancel_action = global::MeditSolution.Droid.Resource.Layout.notification_media_cancel_action;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.notification_template_big_media = global::MeditSolution.Droid.Resource.Layout.notification_template_big_media;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.notification_template_big_media_custom = global::MeditSolution.Droid.Resource.Layout.notification_template_big_media_custom;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.notification_template_big_media_narrow = global::MeditSolution.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.notification_template_big_media_narrow_custom = global::MeditSolution.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.notification_template_custom_big = global::MeditSolution.Droid.Resource.Layout.notification_template_custom_big;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.notification_template_icon_group = global::MeditSolution.Droid.Resource.Layout.notification_template_icon_group;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.notification_template_lines_media = global::MeditSolution.Droid.Resource.Layout.notification_template_lines_media;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.notification_template_media = global::MeditSolution.Droid.Resource.Layout.notification_template_media;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.notification_template_media_custom = global::MeditSolution.Droid.Resource.Layout.notification_template_media_custom;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.notification_template_part_chronometer = global::MeditSolution.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.notification_template_part_time = global::MeditSolution.Droid.Resource.Layout.notification_template_part_time;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.select_dialog_item_material = global::MeditSolution.Droid.Resource.Layout.select_dialog_item_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.select_dialog_multichoice_material = global::MeditSolution.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.select_dialog_singlechoice_material = global::MeditSolution.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Layout.support_simple_spinner_dropdown_item = global::MeditSolution.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_action_bar_home_description = global::MeditSolution.Droid.Resource.String.abc_action_bar_home_description;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_action_bar_home_description_format = global::MeditSolution.Droid.Resource.String.abc_action_bar_home_description_format;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_action_bar_home_subtitle_description_format = global::MeditSolution.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_action_bar_up_description = global::MeditSolution.Droid.Resource.String.abc_action_bar_up_description;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_action_menu_overflow_description = global::MeditSolution.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_action_mode_done = global::MeditSolution.Droid.Resource.String.abc_action_mode_done;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_activity_chooser_view_see_all = global::MeditSolution.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_activitychooserview_choose_application = global::MeditSolution.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_capital_off = global::MeditSolution.Droid.Resource.String.abc_capital_off;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_capital_on = global::MeditSolution.Droid.Resource.String.abc_capital_on;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_font_family_body_1_material = global::MeditSolution.Droid.Resource.String.abc_font_family_body_1_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_font_family_body_2_material = global::MeditSolution.Droid.Resource.String.abc_font_family_body_2_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_font_family_button_material = global::MeditSolution.Droid.Resource.String.abc_font_family_button_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_font_family_caption_material = global::MeditSolution.Droid.Resource.String.abc_font_family_caption_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_font_family_display_1_material = global::MeditSolution.Droid.Resource.String.abc_font_family_display_1_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_font_family_display_2_material = global::MeditSolution.Droid.Resource.String.abc_font_family_display_2_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_font_family_display_3_material = global::MeditSolution.Droid.Resource.String.abc_font_family_display_3_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_font_family_display_4_material = global::MeditSolution.Droid.Resource.String.abc_font_family_display_4_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_font_family_headline_material = global::MeditSolution.Droid.Resource.String.abc_font_family_headline_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_font_family_menu_material = global::MeditSolution.Droid.Resource.String.abc_font_family_menu_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_font_family_subhead_material = global::MeditSolution.Droid.Resource.String.abc_font_family_subhead_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_font_family_title_material = global::MeditSolution.Droid.Resource.String.abc_font_family_title_material;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_search_hint = global::MeditSolution.Droid.Resource.String.abc_search_hint;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_searchview_description_clear = global::MeditSolution.Droid.Resource.String.abc_searchview_description_clear;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_searchview_description_query = global::MeditSolution.Droid.Resource.String.abc_searchview_description_query;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_searchview_description_search = global::MeditSolution.Droid.Resource.String.abc_searchview_description_search;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_searchview_description_submit = global::MeditSolution.Droid.Resource.String.abc_searchview_description_submit;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_searchview_description_voice = global::MeditSolution.Droid.Resource.String.abc_searchview_description_voice;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_shareactionprovider_share_with = global::MeditSolution.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_shareactionprovider_share_with_application = global::MeditSolution.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.abc_toolbar_collapse_description = global::MeditSolution.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.exo_controls_fastforward_description = global::MeditSolution.Droid.Resource.String.exo_controls_fastforward_description;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.exo_controls_next_description = global::MeditSolution.Droid.Resource.String.exo_controls_next_description;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.exo_controls_pause_description = global::MeditSolution.Droid.Resource.String.exo_controls_pause_description;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.exo_controls_play_description = global::MeditSolution.Droid.Resource.String.exo_controls_play_description;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.exo_controls_previous_description = global::MeditSolution.Droid.Resource.String.exo_controls_previous_description;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.exo_controls_rewind_description = global::MeditSolution.Droid.Resource.String.exo_controls_rewind_description;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.exo_controls_stop_description = global::MeditSolution.Droid.Resource.String.exo_controls_stop_description;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.library_name = global::MeditSolution.Droid.Resource.String.library_name;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.search_menu_title = global::MeditSolution.Droid.Resource.String.search_menu_title;
-			global::Plugin.MediaManager.ExoPlayer.Resource.String.status_bar_notification_info_overflow = global::MeditSolution.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.AlertDialog_AppCompat = global::MeditSolution.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.AlertDialog_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Animation_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Animation_AppCompat_DropDownUp = global::MeditSolution.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_AlertDialog_AppCompat = global::MeditSolution.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_AlertDialog_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Animation_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::MeditSolution.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_DialogWindowTitle_AppCompat = global::MeditSolution.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::MeditSolution.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Button = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Large = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Small = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Title = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Theme_AppCompat = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Theme_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Theme_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_ThemeOverlay_AppCompat = global::MeditSolution.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::MeditSolution.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::MeditSolution.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::MeditSolution.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::MeditSolution.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::MeditSolution.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::MeditSolution.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::MeditSolution.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_V21_Theme_AppCompat = global::MeditSolution.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_V21_Theme_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::MeditSolution.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_V22_Theme_AppCompat = global::MeditSolution.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_V22_Theme_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_V23_Theme_AppCompat = global::MeditSolution.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_V23_Theme_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_V7_Theme_AppCompat = global::MeditSolution.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_V7_Theme_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::MeditSolution.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::MeditSolution.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::MeditSolution.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_ActionBar = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_ActionButton = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_ActionMode = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_Button = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_Button_Small = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_EditText = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_ImageButton = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_ListView = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_RatingBar = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_SearchView = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_SeekBar = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_Spinner = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_Toolbar = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.ExoMediaButton = global::MeditSolution.Droid.Resource.Style.ExoMediaButton;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.ExoMediaButton_FastForward = global::MeditSolution.Droid.Resource.Style.ExoMediaButton_FastForward;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.ExoMediaButton_Next = global::MeditSolution.Droid.Resource.Style.ExoMediaButton_Next;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.ExoMediaButton_Previous = global::MeditSolution.Droid.Resource.Style.ExoMediaButton_Previous;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.ExoMediaButton_Rewind = global::MeditSolution.Droid.Resource.Style.ExoMediaButton_Rewind;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Platform_AppCompat = global::MeditSolution.Droid.Resource.Style.Platform_AppCompat;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Platform_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Platform_ThemeOverlay_AppCompat = global::MeditSolution.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::MeditSolution.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Platform_V11_AppCompat = global::MeditSolution.Droid.Resource.Style.Platform_V11_AppCompat;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Platform_V11_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Platform_V11_AppCompat_Light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Platform_V14_AppCompat = global::MeditSolution.Droid.Resource.Style.Platform_V14_AppCompat;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Platform_V14_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Platform_V14_AppCompat_Light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Platform_V21_AppCompat = global::MeditSolution.Droid.Resource.Style.Platform_V21_AppCompat;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Platform_V21_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Platform_V21_AppCompat_Light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Platform_Widget_AppCompat_Spinner = global::MeditSolution.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::MeditSolution.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::MeditSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::MeditSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::MeditSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::MeditSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::MeditSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::MeditSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::MeditSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::MeditSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::MeditSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::MeditSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::MeditSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::MeditSolution.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::MeditSolution.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Body1 = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Body2 = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Button = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Caption = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Display1 = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Display2 = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Display3 = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Display4 = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Headline = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Inverse = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Large = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Medium = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Menu = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Notification = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Notification_Info = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Info;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Notification_Info_Media = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Info_Media;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Notification_Line2 = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Line2;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Notification_Line2_Media = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Line2_Media;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Notification_Media = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Media;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Notification_Time = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Time;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Notification_Time_Media = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Time_Media;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Notification_Title = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Title;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Notification_Title_Media = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Title_Media;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Small = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Subhead = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Title = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MeditSolution.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MeditSolution.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::MeditSolution.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Theme_AppCompat = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Theme_AppCompat_CompactMenu = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Theme_AppCompat_DayNight = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Theme_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Theme_AppCompat_Dialog_Alert = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Theme_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Theme_AppCompat_Light_Dialog = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Theme_AppCompat_NoActionBar = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.ThemeOverlay_AppCompat = global::MeditSolution.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::MeditSolution.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.ThemeOverlay_AppCompat_Dark = global::MeditSolution.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::MeditSolution.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::MeditSolution.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.ThemeOverlay_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_ActionBar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_ActionButton = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_ActionMode = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_ActivityChooserView = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Button = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Button_Borderless = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Button_Colored = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Button_Small = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_ButtonBar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_EditText = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_ImageButton = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ImageButton;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Light_ActionBar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Light_ActionButton = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Light_SearchView = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_ListMenuView = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_ListPopupWindow = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_ListView = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_ListView_DropDown = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_ListView_Menu = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_PopupMenu = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_PopupWindow = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_ProgressBar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_RatingBar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_RatingBar_Small = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_SearchView = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_SeekBar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_SeekBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Spinner = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Toolbar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar = global::MeditSolution.Droid.Resource.Styleable.ActionBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_background = global::MeditSolution.Droid.Resource.Styleable.ActionBar_background;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_backgroundSplit = global::MeditSolution.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_backgroundStacked = global::MeditSolution.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_contentInsetEnd = global::MeditSolution.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::MeditSolution.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_contentInsetLeft = global::MeditSolution.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_contentInsetRight = global::MeditSolution.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_contentInsetStart = global::MeditSolution.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::MeditSolution.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_customNavigationLayout = global::MeditSolution.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_displayOptions = global::MeditSolution.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_divider = global::MeditSolution.Droid.Resource.Styleable.ActionBar_divider;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_elevation = global::MeditSolution.Droid.Resource.Styleable.ActionBar_elevation;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_height = global::MeditSolution.Droid.Resource.Styleable.ActionBar_height;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_hideOnContentScroll = global::MeditSolution.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_homeAsUpIndicator = global::MeditSolution.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_homeLayout = global::MeditSolution.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_icon = global::MeditSolution.Droid.Resource.Styleable.ActionBar_icon;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::MeditSolution.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_itemPadding = global::MeditSolution.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_logo = global::MeditSolution.Droid.Resource.Styleable.ActionBar_logo;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_navigationMode = global::MeditSolution.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_popupTheme = global::MeditSolution.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_progressBarPadding = global::MeditSolution.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_progressBarStyle = global::MeditSolution.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_subtitle = global::MeditSolution.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_subtitleTextStyle = global::MeditSolution.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_title = global::MeditSolution.Droid.Resource.Styleable.ActionBar_title;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBar_titleTextStyle = global::MeditSolution.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBarLayout = global::MeditSolution.Droid.Resource.Styleable.ActionBarLayout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::MeditSolution.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionMenuItemView = global::MeditSolution.Droid.Resource.Styleable.ActionMenuItemView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionMenuItemView_android_minWidth = global::MeditSolution.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionMenuView = global::MeditSolution.Droid.Resource.Styleable.ActionMenuView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionMode = global::MeditSolution.Droid.Resource.Styleable.ActionMode;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionMode_background = global::MeditSolution.Droid.Resource.Styleable.ActionMode_background;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionMode_backgroundSplit = global::MeditSolution.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionMode_closeItemLayout = global::MeditSolution.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionMode_height = global::MeditSolution.Droid.Resource.Styleable.ActionMode_height;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionMode_subtitleTextStyle = global::MeditSolution.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActionMode_titleTextStyle = global::MeditSolution.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActivityChooserView = global::MeditSolution.Droid.Resource.Styleable.ActivityChooserView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::MeditSolution.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ActivityChooserView_initialActivityCount = global::MeditSolution.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AlertDialog = global::MeditSolution.Droid.Resource.Styleable.AlertDialog;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AlertDialog_android_layout = global::MeditSolution.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::MeditSolution.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AlertDialog_listItemLayout = global::MeditSolution.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AlertDialog_listLayout = global::MeditSolution.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::MeditSolution.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AlertDialog_showTitle = global::MeditSolution.Droid.Resource.Styleable.AlertDialog_showTitle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::MeditSolution.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatImageView = global::MeditSolution.Droid.Resource.Styleable.AppCompatImageView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatImageView_android_src = global::MeditSolution.Droid.Resource.Styleable.AppCompatImageView_android_src;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatImageView_srcCompat = global::MeditSolution.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatSeekBar = global::MeditSolution.Droid.Resource.Styleable.AppCompatSeekBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatSeekBar_android_thumb = global::MeditSolution.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatSeekBar_tickMark = global::MeditSolution.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::MeditSolution.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::MeditSolution.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTextHelper = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextHelper;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTextView = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTextView_android_textAppearance = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTextView_textAllCaps = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionBarDivider = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionBarSize = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionBarStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionBarTheme = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionModeBackground = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionModeStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_buttonStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_checkboxStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_colorAccent = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_colorControlActivated = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_colorControlNormal = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_colorPrimary = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_controlBackground = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_dialogTheme = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_dividerVertical = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_editTextBackground = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_editTextColor = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_editTextStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_panelBackground = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_searchViewStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_seekBarStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_spinnerStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_switchStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_toolbarStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_windowActionBar = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AppCompatTheme_windowNoTitle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AspectRatioFrameLayout = global::MeditSolution.Droid.Resource.Styleable.AspectRatioFrameLayout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.AspectRatioFrameLayout_resize_mode = global::MeditSolution.Droid.Resource.Styleable.AspectRatioFrameLayout_resize_mode;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ButtonBarLayout = global::MeditSolution.Droid.Resource.Styleable.ButtonBarLayout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ButtonBarLayout_allowStacking = global::MeditSolution.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ColorStateListItem = global::MeditSolution.Droid.Resource.Styleable.ColorStateListItem;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ColorStateListItem_alpha = global::MeditSolution.Droid.Resource.Styleable.ColorStateListItem_alpha;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ColorStateListItem_android_alpha = global::MeditSolution.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ColorStateListItem_android_color = global::MeditSolution.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.CompoundButton = global::MeditSolution.Droid.Resource.Styleable.CompoundButton;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.CompoundButton_android_button = global::MeditSolution.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.CompoundButton_buttonTint = global::MeditSolution.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.CompoundButton_buttonTintMode = global::MeditSolution.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.DrawerArrowToggle = global::MeditSolution.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::MeditSolution.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::MeditSolution.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.DrawerArrowToggle_barLength = global::MeditSolution.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.DrawerArrowToggle_color = global::MeditSolution.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.DrawerArrowToggle_drawableSize = global::MeditSolution.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::MeditSolution.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.DrawerArrowToggle_spinBars = global::MeditSolution.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.DrawerArrowToggle_thickness = global::MeditSolution.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.LinearLayoutCompat = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.LinearLayoutCompat_android_gravity = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.LinearLayoutCompat_android_orientation = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.LinearLayoutCompat_divider = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.LinearLayoutCompat_showDividers = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.LinearLayoutCompat_Layout = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ListPopupWindow = global::MeditSolution.Droid.Resource.Styleable.ListPopupWindow;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::MeditSolution.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::MeditSolution.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuGroup = global::MeditSolution.Droid.Resource.Styleable.MenuGroup;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuGroup_android_checkableBehavior = global::MeditSolution.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuGroup_android_enabled = global::MeditSolution.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuGroup_android_id = global::MeditSolution.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuGroup_android_menuCategory = global::MeditSolution.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuGroup_android_orderInCategory = global::MeditSolution.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuGroup_android_visible = global::MeditSolution.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuItem = global::MeditSolution.Droid.Resource.Styleable.MenuItem;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuItem_actionLayout = global::MeditSolution.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuItem_actionProviderClass = global::MeditSolution.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuItem_actionViewClass = global::MeditSolution.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::MeditSolution.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuItem_android_checkable = global::MeditSolution.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuItem_android_checked = global::MeditSolution.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuItem_android_enabled = global::MeditSolution.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuItem_android_icon = global::MeditSolution.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuItem_android_id = global::MeditSolution.Droid.Resource.Styleable.MenuItem_android_id;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuItem_android_menuCategory = global::MeditSolution.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuItem_android_numericShortcut = global::MeditSolution.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuItem_android_onClick = global::MeditSolution.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuItem_android_orderInCategory = global::MeditSolution.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuItem_android_title = global::MeditSolution.Droid.Resource.Styleable.MenuItem_android_title;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuItem_android_titleCondensed = global::MeditSolution.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuItem_android_visible = global::MeditSolution.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuItem_showAsAction = global::MeditSolution.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuView = global::MeditSolution.Droid.Resource.Styleable.MenuView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuView_android_headerBackground = global::MeditSolution.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuView_android_horizontalDivider = global::MeditSolution.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuView_android_itemBackground = global::MeditSolution.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::MeditSolution.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuView_android_itemTextAppearance = global::MeditSolution.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuView_android_verticalDivider = global::MeditSolution.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuView_android_windowAnimationStyle = global::MeditSolution.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuView_preserveIconSpacing = global::MeditSolution.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.MenuView_subMenuArrow = global::MeditSolution.Droid.Resource.Styleable.MenuView_subMenuArrow;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.PlaybackControlView = global::MeditSolution.Droid.Resource.Styleable.PlaybackControlView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.PlaybackControlView_fastforward_increment = global::MeditSolution.Droid.Resource.Styleable.PlaybackControlView_fastforward_increment;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.PlaybackControlView_rewind_increment = global::MeditSolution.Droid.Resource.Styleable.PlaybackControlView_rewind_increment;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.PlaybackControlView_show_timeout = global::MeditSolution.Droid.Resource.Styleable.PlaybackControlView_show_timeout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.PopupWindow = global::MeditSolution.Droid.Resource.Styleable.PopupWindow;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::MeditSolution.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.PopupWindow_android_popupBackground = global::MeditSolution.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.PopupWindow_overlapAnchor = global::MeditSolution.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.PopupWindowBackgroundState = global::MeditSolution.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::MeditSolution.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.RecycleListView = global::MeditSolution.Droid.Resource.Styleable.RecycleListView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::MeditSolution.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::MeditSolution.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SearchView = global::MeditSolution.Droid.Resource.Styleable.SearchView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SearchView_android_focusable = global::MeditSolution.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SearchView_android_imeOptions = global::MeditSolution.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SearchView_android_inputType = global::MeditSolution.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SearchView_android_maxWidth = global::MeditSolution.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SearchView_closeIcon = global::MeditSolution.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SearchView_commitIcon = global::MeditSolution.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SearchView_defaultQueryHint = global::MeditSolution.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SearchView_goIcon = global::MeditSolution.Droid.Resource.Styleable.SearchView_goIcon;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SearchView_iconifiedByDefault = global::MeditSolution.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SearchView_layout = global::MeditSolution.Droid.Resource.Styleable.SearchView_layout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SearchView_queryBackground = global::MeditSolution.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SearchView_queryHint = global::MeditSolution.Droid.Resource.Styleable.SearchView_queryHint;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SearchView_searchHintIcon = global::MeditSolution.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SearchView_searchIcon = global::MeditSolution.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SearchView_submitBackground = global::MeditSolution.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SearchView_suggestionRowLayout = global::MeditSolution.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SearchView_voiceIcon = global::MeditSolution.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SimpleExoPlayerView = global::MeditSolution.Droid.Resource.Styleable.SimpleExoPlayerView;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SimpleExoPlayerView_fastforward_increment = global::MeditSolution.Droid.Resource.Styleable.SimpleExoPlayerView_fastforward_increment;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SimpleExoPlayerView_resize_mode = global::MeditSolution.Droid.Resource.Styleable.SimpleExoPlayerView_resize_mode;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SimpleExoPlayerView_rewind_increment = global::MeditSolution.Droid.Resource.Styleable.SimpleExoPlayerView_rewind_increment;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SimpleExoPlayerView_show_timeout = global::MeditSolution.Droid.Resource.Styleable.SimpleExoPlayerView_show_timeout;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SimpleExoPlayerView_use_controller = global::MeditSolution.Droid.Resource.Styleable.SimpleExoPlayerView_use_controller;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SimpleExoPlayerView_use_texture_view = global::MeditSolution.Droid.Resource.Styleable.SimpleExoPlayerView_use_texture_view;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Spinner = global::MeditSolution.Droid.Resource.Styleable.Spinner;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Spinner_android_dropDownWidth = global::MeditSolution.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Spinner_android_entries = global::MeditSolution.Droid.Resource.Styleable.Spinner_android_entries;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Spinner_android_popupBackground = global::MeditSolution.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Spinner_android_prompt = global::MeditSolution.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Spinner_popupTheme = global::MeditSolution.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SwitchCompat = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SwitchCompat_android_textOff = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SwitchCompat_android_textOn = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SwitchCompat_android_thumb = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SwitchCompat_showText = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SwitchCompat_splitTrack = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SwitchCompat_switchMinWidth = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SwitchCompat_switchPadding = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SwitchCompat_switchTextAppearance = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SwitchCompat_thumbTextPadding = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SwitchCompat_thumbTint = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_thumbTint;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SwitchCompat_thumbTintMode = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SwitchCompat_track = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_track;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SwitchCompat_trackTint = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_trackTint;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.SwitchCompat_trackTintMode = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.TextAppearance = global::MeditSolution.Droid.Resource.Styleable.TextAppearance;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.TextAppearance_android_shadowColor = global::MeditSolution.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.TextAppearance_android_shadowDx = global::MeditSolution.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.TextAppearance_android_shadowDy = global::MeditSolution.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.TextAppearance_android_shadowRadius = global::MeditSolution.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.TextAppearance_android_textColor = global::MeditSolution.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.TextAppearance_android_textColorHint = global::MeditSolution.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.TextAppearance_android_textSize = global::MeditSolution.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.TextAppearance_android_textStyle = global::MeditSolution.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.TextAppearance_android_typeface = global::MeditSolution.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.TextAppearance_textAllCaps = global::MeditSolution.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar = global::MeditSolution.Droid.Resource.Styleable.Toolbar;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_android_gravity = global::MeditSolution.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_android_minHeight = global::MeditSolution.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_buttonGravity = global::MeditSolution.Droid.Resource.Styleable.Toolbar_buttonGravity;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_collapseContentDescription = global::MeditSolution.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_collapseIcon = global::MeditSolution.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_contentInsetEnd = global::MeditSolution.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::MeditSolution.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_contentInsetLeft = global::MeditSolution.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_contentInsetRight = global::MeditSolution.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_contentInsetStart = global::MeditSolution.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::MeditSolution.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_logo = global::MeditSolution.Droid.Resource.Styleable.Toolbar_logo;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_logoDescription = global::MeditSolution.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_maxButtonHeight = global::MeditSolution.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_navigationContentDescription = global::MeditSolution.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_navigationIcon = global::MeditSolution.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_popupTheme = global::MeditSolution.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_subtitle = global::MeditSolution.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_subtitleTextAppearance = global::MeditSolution.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_subtitleTextColor = global::MeditSolution.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_title = global::MeditSolution.Droid.Resource.Styleable.Toolbar_title;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_titleMargin = global::MeditSolution.Droid.Resource.Styleable.Toolbar_titleMargin;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_titleMarginBottom = global::MeditSolution.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_titleMarginEnd = global::MeditSolution.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_titleMarginStart = global::MeditSolution.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_titleMarginTop = global::MeditSolution.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_titleMargins = global::MeditSolution.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_titleTextAppearance = global::MeditSolution.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.Toolbar_titleTextColor = global::MeditSolution.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.View = global::MeditSolution.Droid.Resource.Styleable.View;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.View_android_focusable = global::MeditSolution.Droid.Resource.Styleable.View_android_focusable;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.View_android_theme = global::MeditSolution.Droid.Resource.Styleable.View_android_theme;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.View_paddingEnd = global::MeditSolution.Droid.Resource.Styleable.View_paddingEnd;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.View_paddingStart = global::MeditSolution.Droid.Resource.Styleable.View_paddingStart;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.View_theme = global::MeditSolution.Droid.Resource.Styleable.View_theme;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ViewBackgroundHelper = global::MeditSolution.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ViewBackgroundHelper_android_background = global::MeditSolution.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::MeditSolution.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::MeditSolution.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ViewStubCompat = global::MeditSolution.Droid.Resource.Styleable.ViewStubCompat;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ViewStubCompat_android_id = global::MeditSolution.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ViewStubCompat_android_inflatedId = global::MeditSolution.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::Plugin.MediaManager.ExoPlayer.Resource.Styleable.ViewStubCompat_android_layout = global::MeditSolution.Droid.Resource.Styleable.ViewStubCompat_android_layout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_fade_in = global::MeditSolution.Droid.Resource.Animation.abc_fade_in;
-			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_fade_out = global::MeditSolution.Droid.Resource.Animation.abc_fade_out;
-			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::MeditSolution.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_popup_enter = global::MeditSolution.Droid.Resource.Animation.abc_popup_enter;
-			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_popup_exit = global::MeditSolution.Droid.Resource.Animation.abc_popup_exit;
-			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::MeditSolution.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_slide_in_bottom = global::MeditSolution.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_slide_in_top = global::MeditSolution.Droid.Resource.Animation.abc_slide_in_top;
-			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_slide_out_bottom = global::MeditSolution.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_slide_out_top = global::MeditSolution.Droid.Resource.Animation.abc_slide_out_top;
-			global::Plugin.MediaManager.Forms.Android.Resource.Animation.design_bottom_sheet_slide_in = global::MeditSolution.Droid.Resource.Animation.design_bottom_sheet_slide_in;
-			global::Plugin.MediaManager.Forms.Android.Resource.Animation.design_bottom_sheet_slide_out = global::MeditSolution.Droid.Resource.Animation.design_bottom_sheet_slide_out;
-			global::Plugin.MediaManager.Forms.Android.Resource.Animation.design_snackbar_in = global::MeditSolution.Droid.Resource.Animation.design_snackbar_in;
-			global::Plugin.MediaManager.Forms.Android.Resource.Animation.design_snackbar_out = global::MeditSolution.Droid.Resource.Animation.design_snackbar_out;
-			global::Plugin.MediaManager.Forms.Android.Resource.Animator.design_appbar_state_list_animator = global::MeditSolution.Droid.Resource.Animator.design_appbar_state_list_animator;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarDivider = global::MeditSolution.Droid.Resource.Attribute.actionBarDivider;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarItemBackground = global::MeditSolution.Droid.Resource.Attribute.actionBarItemBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarPopupTheme = global::MeditSolution.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarSize = global::MeditSolution.Droid.Resource.Attribute.actionBarSize;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarSplitStyle = global::MeditSolution.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarStyle = global::MeditSolution.Droid.Resource.Attribute.actionBarStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarTabBarStyle = global::MeditSolution.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarTabStyle = global::MeditSolution.Droid.Resource.Attribute.actionBarTabStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarTabTextStyle = global::MeditSolution.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarTheme = global::MeditSolution.Droid.Resource.Attribute.actionBarTheme;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarWidgetTheme = global::MeditSolution.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionButtonStyle = global::MeditSolution.Droid.Resource.Attribute.actionButtonStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionDropDownStyle = global::MeditSolution.Droid.Resource.Attribute.actionDropDownStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionLayout = global::MeditSolution.Droid.Resource.Attribute.actionLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionMenuTextAppearance = global::MeditSolution.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionMenuTextColor = global::MeditSolution.Droid.Resource.Attribute.actionMenuTextColor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeBackground = global::MeditSolution.Droid.Resource.Attribute.actionModeBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeCloseButtonStyle = global::MeditSolution.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeCloseDrawable = global::MeditSolution.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeCopyDrawable = global::MeditSolution.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeCutDrawable = global::MeditSolution.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeFindDrawable = global::MeditSolution.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModePasteDrawable = global::MeditSolution.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModePopupWindowStyle = global::MeditSolution.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeSelectAllDrawable = global::MeditSolution.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeShareDrawable = global::MeditSolution.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeSplitBackground = global::MeditSolution.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeStyle = global::MeditSolution.Droid.Resource.Attribute.actionModeStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeWebSearchDrawable = global::MeditSolution.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionOverflowButtonStyle = global::MeditSolution.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionOverflowMenuStyle = global::MeditSolution.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionProviderClass = global::MeditSolution.Droid.Resource.Attribute.actionProviderClass;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionViewClass = global::MeditSolution.Droid.Resource.Attribute.actionViewClass;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.activityChooserViewStyle = global::MeditSolution.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::MeditSolution.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.alertDialogCenterButtons = global::MeditSolution.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.alertDialogStyle = global::MeditSolution.Droid.Resource.Attribute.alertDialogStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.alertDialogTheme = global::MeditSolution.Droid.Resource.Attribute.alertDialogTheme;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.allowStacking = global::MeditSolution.Droid.Resource.Attribute.allowStacking;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.alpha = global::MeditSolution.Droid.Resource.Attribute.alpha;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.arrowHeadLength = global::MeditSolution.Droid.Resource.Attribute.arrowHeadLength;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.arrowShaftLength = global::MeditSolution.Droid.Resource.Attribute.arrowShaftLength;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.autoCompleteTextViewStyle = global::MeditSolution.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.background = global::MeditSolution.Droid.Resource.Attribute.background;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.backgroundSplit = global::MeditSolution.Droid.Resource.Attribute.backgroundSplit;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.backgroundStacked = global::MeditSolution.Droid.Resource.Attribute.backgroundStacked;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.backgroundTint = global::MeditSolution.Droid.Resource.Attribute.backgroundTint;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.backgroundTintMode = global::MeditSolution.Droid.Resource.Attribute.backgroundTintMode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.barLength = global::MeditSolution.Droid.Resource.Attribute.barLength;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.behavior_autoHide = global::MeditSolution.Droid.Resource.Attribute.behavior_autoHide;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.behavior_hideable = global::MeditSolution.Droid.Resource.Attribute.behavior_hideable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.behavior_overlapTop = global::MeditSolution.Droid.Resource.Attribute.behavior_overlapTop;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.behavior_peekHeight = global::MeditSolution.Droid.Resource.Attribute.behavior_peekHeight;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.behavior_skipCollapsed = global::MeditSolution.Droid.Resource.Attribute.behavior_skipCollapsed;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.borderWidth = global::MeditSolution.Droid.Resource.Attribute.borderWidth;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.borderlessButtonStyle = global::MeditSolution.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.bottomSheetDialogTheme = global::MeditSolution.Droid.Resource.Attribute.bottomSheetDialogTheme;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.bottomSheetStyle = global::MeditSolution.Droid.Resource.Attribute.bottomSheetStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonBarButtonStyle = global::MeditSolution.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::MeditSolution.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::MeditSolution.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::MeditSolution.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonBarStyle = global::MeditSolution.Droid.Resource.Attribute.buttonBarStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonGravity = global::MeditSolution.Droid.Resource.Attribute.buttonGravity;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonPanelSideLayout = global::MeditSolution.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonStyle = global::MeditSolution.Droid.Resource.Attribute.buttonStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonStyleSmall = global::MeditSolution.Droid.Resource.Attribute.buttonStyleSmall;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonTint = global::MeditSolution.Droid.Resource.Attribute.buttonTint;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonTintMode = global::MeditSolution.Droid.Resource.Attribute.buttonTintMode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.cardBackgroundColor = global::MeditSolution.Droid.Resource.Attribute.cardBackgroundColor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.cardCornerRadius = global::MeditSolution.Droid.Resource.Attribute.cardCornerRadius;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.cardElevation = global::MeditSolution.Droid.Resource.Attribute.cardElevation;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.cardMaxElevation = global::MeditSolution.Droid.Resource.Attribute.cardMaxElevation;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.cardPreventCornerOverlap = global::MeditSolution.Droid.Resource.Attribute.cardPreventCornerOverlap;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.cardUseCompatPadding = global::MeditSolution.Droid.Resource.Attribute.cardUseCompatPadding;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.checkboxStyle = global::MeditSolution.Droid.Resource.Attribute.checkboxStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.checkedTextViewStyle = global::MeditSolution.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.closeIcon = global::MeditSolution.Droid.Resource.Attribute.closeIcon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.closeItemLayout = global::MeditSolution.Droid.Resource.Attribute.closeItemLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.collapseContentDescription = global::MeditSolution.Droid.Resource.Attribute.collapseContentDescription;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.collapseIcon = global::MeditSolution.Droid.Resource.Attribute.collapseIcon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.collapsedTitleGravity = global::MeditSolution.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.collapsedTitleTextAppearance = global::MeditSolution.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.color = global::MeditSolution.Droid.Resource.Attribute.color;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.colorAccent = global::MeditSolution.Droid.Resource.Attribute.colorAccent;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.colorBackgroundFloating = global::MeditSolution.Droid.Resource.Attribute.colorBackgroundFloating;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.colorButtonNormal = global::MeditSolution.Droid.Resource.Attribute.colorButtonNormal;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.colorControlActivated = global::MeditSolution.Droid.Resource.Attribute.colorControlActivated;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.colorControlHighlight = global::MeditSolution.Droid.Resource.Attribute.colorControlHighlight;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.colorControlNormal = global::MeditSolution.Droid.Resource.Attribute.colorControlNormal;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.colorPrimary = global::MeditSolution.Droid.Resource.Attribute.colorPrimary;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.colorPrimaryDark = global::MeditSolution.Droid.Resource.Attribute.colorPrimaryDark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.colorSwitchThumbNormal = global::MeditSolution.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.commitIcon = global::MeditSolution.Droid.Resource.Attribute.commitIcon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentInsetEnd = global::MeditSolution.Droid.Resource.Attribute.contentInsetEnd;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentInsetEndWithActions = global::MeditSolution.Droid.Resource.Attribute.contentInsetEndWithActions;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentInsetLeft = global::MeditSolution.Droid.Resource.Attribute.contentInsetLeft;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentInsetRight = global::MeditSolution.Droid.Resource.Attribute.contentInsetRight;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentInsetStart = global::MeditSolution.Droid.Resource.Attribute.contentInsetStart;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentInsetStartWithNavigation = global::MeditSolution.Droid.Resource.Attribute.contentInsetStartWithNavigation;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentPadding = global::MeditSolution.Droid.Resource.Attribute.contentPadding;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentPaddingBottom = global::MeditSolution.Droid.Resource.Attribute.contentPaddingBottom;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentPaddingLeft = global::MeditSolution.Droid.Resource.Attribute.contentPaddingLeft;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentPaddingRight = global::MeditSolution.Droid.Resource.Attribute.contentPaddingRight;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentPaddingTop = global::MeditSolution.Droid.Resource.Attribute.contentPaddingTop;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentScrim = global::MeditSolution.Droid.Resource.Attribute.contentScrim;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.controlBackground = global::MeditSolution.Droid.Resource.Attribute.controlBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.counterEnabled = global::MeditSolution.Droid.Resource.Attribute.counterEnabled;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.counterMaxLength = global::MeditSolution.Droid.Resource.Attribute.counterMaxLength;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.counterOverflowTextAppearance = global::MeditSolution.Droid.Resource.Attribute.counterOverflowTextAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.counterTextAppearance = global::MeditSolution.Droid.Resource.Attribute.counterTextAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.customNavigationLayout = global::MeditSolution.Droid.Resource.Attribute.customNavigationLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.defaultQueryHint = global::MeditSolution.Droid.Resource.Attribute.defaultQueryHint;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.dialogPreferredPadding = global::MeditSolution.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.dialogTheme = global::MeditSolution.Droid.Resource.Attribute.dialogTheme;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.displayOptions = global::MeditSolution.Droid.Resource.Attribute.displayOptions;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.divider = global::MeditSolution.Droid.Resource.Attribute.divider;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.dividerHorizontal = global::MeditSolution.Droid.Resource.Attribute.dividerHorizontal;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.dividerPadding = global::MeditSolution.Droid.Resource.Attribute.dividerPadding;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.dividerVertical = global::MeditSolution.Droid.Resource.Attribute.dividerVertical;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.drawableSize = global::MeditSolution.Droid.Resource.Attribute.drawableSize;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.drawerArrowStyle = global::MeditSolution.Droid.Resource.Attribute.drawerArrowStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.dropDownListViewStyle = global::MeditSolution.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::MeditSolution.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.editTextBackground = global::MeditSolution.Droid.Resource.Attribute.editTextBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.editTextColor = global::MeditSolution.Droid.Resource.Attribute.editTextColor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.editTextStyle = global::MeditSolution.Droid.Resource.Attribute.editTextStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.elevation = global::MeditSolution.Droid.Resource.Attribute.elevation;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.errorEnabled = global::MeditSolution.Droid.Resource.Attribute.errorEnabled;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.errorTextAppearance = global::MeditSolution.Droid.Resource.Attribute.errorTextAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::MeditSolution.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.expanded = global::MeditSolution.Droid.Resource.Attribute.expanded;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.expandedTitleGravity = global::MeditSolution.Droid.Resource.Attribute.expandedTitleGravity;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.expandedTitleMargin = global::MeditSolution.Droid.Resource.Attribute.expandedTitleMargin;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.expandedTitleMarginBottom = global::MeditSolution.Droid.Resource.Attribute.expandedTitleMarginBottom;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.expandedTitleMarginEnd = global::MeditSolution.Droid.Resource.Attribute.expandedTitleMarginEnd;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.expandedTitleMarginStart = global::MeditSolution.Droid.Resource.Attribute.expandedTitleMarginStart;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.expandedTitleMarginTop = global::MeditSolution.Droid.Resource.Attribute.expandedTitleMarginTop;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.expandedTitleTextAppearance = global::MeditSolution.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.externalRouteEnabledDrawable = global::MeditSolution.Droid.Resource.Attribute.externalRouteEnabledDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.fabSize = global::MeditSolution.Droid.Resource.Attribute.fabSize;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.foregroundInsidePadding = global::MeditSolution.Droid.Resource.Attribute.foregroundInsidePadding;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.gapBetweenBars = global::MeditSolution.Droid.Resource.Attribute.gapBetweenBars;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.goIcon = global::MeditSolution.Droid.Resource.Attribute.goIcon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.headerLayout = global::MeditSolution.Droid.Resource.Attribute.headerLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.height = global::MeditSolution.Droid.Resource.Attribute.height;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.hideOnContentScroll = global::MeditSolution.Droid.Resource.Attribute.hideOnContentScroll;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.hintAnimationEnabled = global::MeditSolution.Droid.Resource.Attribute.hintAnimationEnabled;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.hintEnabled = global::MeditSolution.Droid.Resource.Attribute.hintEnabled;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.hintTextAppearance = global::MeditSolution.Droid.Resource.Attribute.hintTextAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.homeAsUpIndicator = global::MeditSolution.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.homeLayout = global::MeditSolution.Droid.Resource.Attribute.homeLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.icon = global::MeditSolution.Droid.Resource.Attribute.icon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.iconifiedByDefault = global::MeditSolution.Droid.Resource.Attribute.iconifiedByDefault;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.imageButtonStyle = global::MeditSolution.Droid.Resource.Attribute.imageButtonStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.indeterminateProgressStyle = global::MeditSolution.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.initialActivityCount = global::MeditSolution.Droid.Resource.Attribute.initialActivityCount;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.insetForeground = global::MeditSolution.Droid.Resource.Attribute.insetForeground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.isLightTheme = global::MeditSolution.Droid.Resource.Attribute.isLightTheme;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.itemBackground = global::MeditSolution.Droid.Resource.Attribute.itemBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.itemIconTint = global::MeditSolution.Droid.Resource.Attribute.itemIconTint;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.itemPadding = global::MeditSolution.Droid.Resource.Attribute.itemPadding;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.itemTextAppearance = global::MeditSolution.Droid.Resource.Attribute.itemTextAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.itemTextColor = global::MeditSolution.Droid.Resource.Attribute.itemTextColor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.keylines = global::MeditSolution.Droid.Resource.Attribute.keylines;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout = global::MeditSolution.Droid.Resource.Attribute.layout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layoutManager = global::MeditSolution.Droid.Resource.Attribute.layoutManager;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_anchor = global::MeditSolution.Droid.Resource.Attribute.layout_anchor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_anchorGravity = global::MeditSolution.Droid.Resource.Attribute.layout_anchorGravity;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_behavior = global::MeditSolution.Droid.Resource.Attribute.layout_behavior;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_collapseMode = global::MeditSolution.Droid.Resource.Attribute.layout_collapseMode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::MeditSolution.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_dodgeInsetEdges = global::MeditSolution.Droid.Resource.Attribute.layout_dodgeInsetEdges;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_insetEdge = global::MeditSolution.Droid.Resource.Attribute.layout_insetEdge;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_keyline = global::MeditSolution.Droid.Resource.Attribute.layout_keyline;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_scrollFlags = global::MeditSolution.Droid.Resource.Attribute.layout_scrollFlags;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_scrollInterpolator = global::MeditSolution.Droid.Resource.Attribute.layout_scrollInterpolator;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::MeditSolution.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listDividerAlertDialog = global::MeditSolution.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listItemLayout = global::MeditSolution.Droid.Resource.Attribute.listItemLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listLayout = global::MeditSolution.Droid.Resource.Attribute.listLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listMenuViewStyle = global::MeditSolution.Droid.Resource.Attribute.listMenuViewStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listPopupWindowStyle = global::MeditSolution.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listPreferredItemHeight = global::MeditSolution.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listPreferredItemHeightLarge = global::MeditSolution.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listPreferredItemHeightSmall = global::MeditSolution.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::MeditSolution.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listPreferredItemPaddingRight = global::MeditSolution.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.logo = global::MeditSolution.Droid.Resource.Attribute.logo;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.logoDescription = global::MeditSolution.Droid.Resource.Attribute.logoDescription;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.maxActionInlineWidth = global::MeditSolution.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.maxButtonHeight = global::MeditSolution.Droid.Resource.Attribute.maxButtonHeight;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.measureWithLargestChild = global::MeditSolution.Droid.Resource.Attribute.measureWithLargestChild;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteAudioTrackDrawable = global::MeditSolution.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteButtonStyle = global::MeditSolution.Droid.Resource.Attribute.mediaRouteButtonStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteCloseDrawable = global::MeditSolution.Droid.Resource.Attribute.mediaRouteCloseDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::MeditSolution.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteDefaultIconDrawable = global::MeditSolution.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRoutePauseDrawable = global::MeditSolution.Droid.Resource.Attribute.mediaRoutePauseDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRoutePlayDrawable = global::MeditSolution.Droid.Resource.Attribute.mediaRoutePlayDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::MeditSolution.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::MeditSolution.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteStopDrawable = global::MeditSolution.Droid.Resource.Attribute.mediaRouteStopDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteTheme = global::MeditSolution.Droid.Resource.Attribute.mediaRouteTheme;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteTvIconDrawable = global::MeditSolution.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.menu = global::MeditSolution.Droid.Resource.Attribute.menu;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.multiChoiceItemLayout = global::MeditSolution.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.navigationContentDescription = global::MeditSolution.Droid.Resource.Attribute.navigationContentDescription;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.navigationIcon = global::MeditSolution.Droid.Resource.Attribute.navigationIcon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.navigationMode = global::MeditSolution.Droid.Resource.Attribute.navigationMode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.overlapAnchor = global::MeditSolution.Droid.Resource.Attribute.overlapAnchor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.paddingBottomNoButtons = global::MeditSolution.Droid.Resource.Attribute.paddingBottomNoButtons;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.paddingEnd = global::MeditSolution.Droid.Resource.Attribute.paddingEnd;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.paddingStart = global::MeditSolution.Droid.Resource.Attribute.paddingStart;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.paddingTopNoTitle = global::MeditSolution.Droid.Resource.Attribute.paddingTopNoTitle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.panelBackground = global::MeditSolution.Droid.Resource.Attribute.panelBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.panelMenuListTheme = global::MeditSolution.Droid.Resource.Attribute.panelMenuListTheme;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.panelMenuListWidth = global::MeditSolution.Droid.Resource.Attribute.panelMenuListWidth;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.passwordToggleContentDescription = global::MeditSolution.Droid.Resource.Attribute.passwordToggleContentDescription;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.passwordToggleDrawable = global::MeditSolution.Droid.Resource.Attribute.passwordToggleDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.passwordToggleEnabled = global::MeditSolution.Droid.Resource.Attribute.passwordToggleEnabled;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.passwordToggleTint = global::MeditSolution.Droid.Resource.Attribute.passwordToggleTint;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.passwordToggleTintMode = global::MeditSolution.Droid.Resource.Attribute.passwordToggleTintMode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.popupMenuStyle = global::MeditSolution.Droid.Resource.Attribute.popupMenuStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.popupTheme = global::MeditSolution.Droid.Resource.Attribute.popupTheme;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.popupWindowStyle = global::MeditSolution.Droid.Resource.Attribute.popupWindowStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.preserveIconSpacing = global::MeditSolution.Droid.Resource.Attribute.preserveIconSpacing;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.pressedTranslationZ = global::MeditSolution.Droid.Resource.Attribute.pressedTranslationZ;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.progressBarPadding = global::MeditSolution.Droid.Resource.Attribute.progressBarPadding;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.progressBarStyle = global::MeditSolution.Droid.Resource.Attribute.progressBarStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.queryBackground = global::MeditSolution.Droid.Resource.Attribute.queryBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.queryHint = global::MeditSolution.Droid.Resource.Attribute.queryHint;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.radioButtonStyle = global::MeditSolution.Droid.Resource.Attribute.radioButtonStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.ratingBarStyle = global::MeditSolution.Droid.Resource.Attribute.ratingBarStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.ratingBarStyleIndicator = global::MeditSolution.Droid.Resource.Attribute.ratingBarStyleIndicator;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.ratingBarStyleSmall = global::MeditSolution.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.reverseLayout = global::MeditSolution.Droid.Resource.Attribute.reverseLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.rippleColor = global::MeditSolution.Droid.Resource.Attribute.rippleColor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.scrimAnimationDuration = global::MeditSolution.Droid.Resource.Attribute.scrimAnimationDuration;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::MeditSolution.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.searchHintIcon = global::MeditSolution.Droid.Resource.Attribute.searchHintIcon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.searchIcon = global::MeditSolution.Droid.Resource.Attribute.searchIcon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.searchViewStyle = global::MeditSolution.Droid.Resource.Attribute.searchViewStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.seekBarStyle = global::MeditSolution.Droid.Resource.Attribute.seekBarStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.selectableItemBackground = global::MeditSolution.Droid.Resource.Attribute.selectableItemBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::MeditSolution.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.showAsAction = global::MeditSolution.Droid.Resource.Attribute.showAsAction;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.showDividers = global::MeditSolution.Droid.Resource.Attribute.showDividers;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.showText = global::MeditSolution.Droid.Resource.Attribute.showText;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.showTitle = global::MeditSolution.Droid.Resource.Attribute.showTitle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.singleChoiceItemLayout = global::MeditSolution.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.spanCount = global::MeditSolution.Droid.Resource.Attribute.spanCount;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.spinBars = global::MeditSolution.Droid.Resource.Attribute.spinBars;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.spinnerDropDownItemStyle = global::MeditSolution.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.spinnerStyle = global::MeditSolution.Droid.Resource.Attribute.spinnerStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.splitTrack = global::MeditSolution.Droid.Resource.Attribute.splitTrack;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.srcCompat = global::MeditSolution.Droid.Resource.Attribute.srcCompat;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.stackFromEnd = global::MeditSolution.Droid.Resource.Attribute.stackFromEnd;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.state_above_anchor = global::MeditSolution.Droid.Resource.Attribute.state_above_anchor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.state_collapsed = global::MeditSolution.Droid.Resource.Attribute.state_collapsed;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.state_collapsible = global::MeditSolution.Droid.Resource.Attribute.state_collapsible;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.statusBarBackground = global::MeditSolution.Droid.Resource.Attribute.statusBarBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.statusBarScrim = global::MeditSolution.Droid.Resource.Attribute.statusBarScrim;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.subMenuArrow = global::MeditSolution.Droid.Resource.Attribute.subMenuArrow;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.submitBackground = global::MeditSolution.Droid.Resource.Attribute.submitBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.subtitle = global::MeditSolution.Droid.Resource.Attribute.subtitle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.subtitleTextAppearance = global::MeditSolution.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.subtitleTextColor = global::MeditSolution.Droid.Resource.Attribute.subtitleTextColor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.subtitleTextStyle = global::MeditSolution.Droid.Resource.Attribute.subtitleTextStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.suggestionRowLayout = global::MeditSolution.Droid.Resource.Attribute.suggestionRowLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.switchMinWidth = global::MeditSolution.Droid.Resource.Attribute.switchMinWidth;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.switchPadding = global::MeditSolution.Droid.Resource.Attribute.switchPadding;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.switchStyle = global::MeditSolution.Droid.Resource.Attribute.switchStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.switchTextAppearance = global::MeditSolution.Droid.Resource.Attribute.switchTextAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabBackground = global::MeditSolution.Droid.Resource.Attribute.tabBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabContentStart = global::MeditSolution.Droid.Resource.Attribute.tabContentStart;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabGravity = global::MeditSolution.Droid.Resource.Attribute.tabGravity;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabIndicatorColor = global::MeditSolution.Droid.Resource.Attribute.tabIndicatorColor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabIndicatorHeight = global::MeditSolution.Droid.Resource.Attribute.tabIndicatorHeight;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabMaxWidth = global::MeditSolution.Droid.Resource.Attribute.tabMaxWidth;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabMinWidth = global::MeditSolution.Droid.Resource.Attribute.tabMinWidth;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabMode = global::MeditSolution.Droid.Resource.Attribute.tabMode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabPadding = global::MeditSolution.Droid.Resource.Attribute.tabPadding;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabPaddingBottom = global::MeditSolution.Droid.Resource.Attribute.tabPaddingBottom;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabPaddingEnd = global::MeditSolution.Droid.Resource.Attribute.tabPaddingEnd;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabPaddingStart = global::MeditSolution.Droid.Resource.Attribute.tabPaddingStart;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabPaddingTop = global::MeditSolution.Droid.Resource.Attribute.tabPaddingTop;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabSelectedTextColor = global::MeditSolution.Droid.Resource.Attribute.tabSelectedTextColor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabTextAppearance = global::MeditSolution.Droid.Resource.Attribute.tabTextAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabTextColor = global::MeditSolution.Droid.Resource.Attribute.tabTextColor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textAllCaps = global::MeditSolution.Droid.Resource.Attribute.textAllCaps;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::MeditSolution.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textAppearanceListItem = global::MeditSolution.Droid.Resource.Attribute.textAppearanceListItem;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textAppearanceListItemSmall = global::MeditSolution.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::MeditSolution.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::MeditSolution.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::MeditSolution.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::MeditSolution.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textColorAlertDialogListItem = global::MeditSolution.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textColorError = global::MeditSolution.Droid.Resource.Attribute.textColorError;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textColorSearchUrl = global::MeditSolution.Droid.Resource.Attribute.textColorSearchUrl;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.theme = global::MeditSolution.Droid.Resource.Attribute.theme;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.thickness = global::MeditSolution.Droid.Resource.Attribute.thickness;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.thumbTextPadding = global::MeditSolution.Droid.Resource.Attribute.thumbTextPadding;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.thumbTint = global::MeditSolution.Droid.Resource.Attribute.thumbTint;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.thumbTintMode = global::MeditSolution.Droid.Resource.Attribute.thumbTintMode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tickMark = global::MeditSolution.Droid.Resource.Attribute.tickMark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tickMarkTint = global::MeditSolution.Droid.Resource.Attribute.tickMarkTint;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tickMarkTintMode = global::MeditSolution.Droid.Resource.Attribute.tickMarkTintMode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.title = global::MeditSolution.Droid.Resource.Attribute.title;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleEnabled = global::MeditSolution.Droid.Resource.Attribute.titleEnabled;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleMargin = global::MeditSolution.Droid.Resource.Attribute.titleMargin;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleMarginBottom = global::MeditSolution.Droid.Resource.Attribute.titleMarginBottom;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleMarginEnd = global::MeditSolution.Droid.Resource.Attribute.titleMarginEnd;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleMarginStart = global::MeditSolution.Droid.Resource.Attribute.titleMarginStart;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleMarginTop = global::MeditSolution.Droid.Resource.Attribute.titleMarginTop;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleMargins = global::MeditSolution.Droid.Resource.Attribute.titleMargins;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleTextAppearance = global::MeditSolution.Droid.Resource.Attribute.titleTextAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleTextColor = global::MeditSolution.Droid.Resource.Attribute.titleTextColor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleTextStyle = global::MeditSolution.Droid.Resource.Attribute.titleTextStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.toolbarId = global::MeditSolution.Droid.Resource.Attribute.toolbarId;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::MeditSolution.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.toolbarStyle = global::MeditSolution.Droid.Resource.Attribute.toolbarStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.track = global::MeditSolution.Droid.Resource.Attribute.track;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.trackTint = global::MeditSolution.Droid.Resource.Attribute.trackTint;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.trackTintMode = global::MeditSolution.Droid.Resource.Attribute.trackTintMode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.useCompatPadding = global::MeditSolution.Droid.Resource.Attribute.useCompatPadding;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.voiceIcon = global::MeditSolution.Droid.Resource.Attribute.voiceIcon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowActionBar = global::MeditSolution.Droid.Resource.Attribute.windowActionBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowActionBarOverlay = global::MeditSolution.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowActionModeOverlay = global::MeditSolution.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowFixedHeightMajor = global::MeditSolution.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowFixedHeightMinor = global::MeditSolution.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowFixedWidthMajor = global::MeditSolution.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowFixedWidthMinor = global::MeditSolution.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowMinWidthMajor = global::MeditSolution.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowMinWidthMinor = global::MeditSolution.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowNoTitle = global::MeditSolution.Droid.Resource.Attribute.windowNoTitle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::MeditSolution.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::Plugin.MediaManager.Forms.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::MeditSolution.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::MeditSolution.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::Plugin.MediaManager.Forms.Android.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::MeditSolution.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
-			global::Plugin.MediaManager.Forms.Android.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::MeditSolution.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::MeditSolution.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::MeditSolution.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::MeditSolution.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_btn_colored_text_material = global::MeditSolution.Droid.Resource.Color.abc_btn_colored_text_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_color_highlight_material = global::MeditSolution.Droid.Resource.Color.abc_color_highlight_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_hint_foreground_material_dark = global::MeditSolution.Droid.Resource.Color.abc_hint_foreground_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_hint_foreground_material_light = global::MeditSolution.Droid.Resource.Color.abc_hint_foreground_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_input_method_navigation_guard = global::MeditSolution.Droid.Resource.Color.abc_input_method_navigation_guard;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::MeditSolution.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::MeditSolution.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_primary_text_material_dark = global::MeditSolution.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_primary_text_material_light = global::MeditSolution.Droid.Resource.Color.abc_primary_text_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_search_url_text = global::MeditSolution.Droid.Resource.Color.abc_search_url_text;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_search_url_text_normal = global::MeditSolution.Droid.Resource.Color.abc_search_url_text_normal;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_search_url_text_pressed = global::MeditSolution.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_search_url_text_selected = global::MeditSolution.Droid.Resource.Color.abc_search_url_text_selected;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_secondary_text_material_dark = global::MeditSolution.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_secondary_text_material_light = global::MeditSolution.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_tint_btn_checkable = global::MeditSolution.Droid.Resource.Color.abc_tint_btn_checkable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_tint_default = global::MeditSolution.Droid.Resource.Color.abc_tint_default;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_tint_edittext = global::MeditSolution.Droid.Resource.Color.abc_tint_edittext;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_tint_seek_thumb = global::MeditSolution.Droid.Resource.Color.abc_tint_seek_thumb;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_tint_spinner = global::MeditSolution.Droid.Resource.Color.abc_tint_spinner;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_tint_switch_track = global::MeditSolution.Droid.Resource.Color.abc_tint_switch_track;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.accent_material_dark = global::MeditSolution.Droid.Resource.Color.accent_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.accent_material_light = global::MeditSolution.Droid.Resource.Color.accent_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.background_floating_material_dark = global::MeditSolution.Droid.Resource.Color.background_floating_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.background_floating_material_light = global::MeditSolution.Droid.Resource.Color.background_floating_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.background_material_dark = global::MeditSolution.Droid.Resource.Color.background_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.background_material_light = global::MeditSolution.Droid.Resource.Color.background_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.bright_foreground_disabled_material_dark = global::MeditSolution.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.bright_foreground_disabled_material_light = global::MeditSolution.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.bright_foreground_inverse_material_dark = global::MeditSolution.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.bright_foreground_inverse_material_light = global::MeditSolution.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.bright_foreground_material_dark = global::MeditSolution.Droid.Resource.Color.bright_foreground_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.bright_foreground_material_light = global::MeditSolution.Droid.Resource.Color.bright_foreground_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.button_material_dark = global::MeditSolution.Droid.Resource.Color.button_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.button_material_light = global::MeditSolution.Droid.Resource.Color.button_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.cardview_dark_background = global::MeditSolution.Droid.Resource.Color.cardview_dark_background;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.cardview_light_background = global::MeditSolution.Droid.Resource.Color.cardview_light_background;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.cardview_shadow_end_color = global::MeditSolution.Droid.Resource.Color.cardview_shadow_end_color;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.cardview_shadow_start_color = global::MeditSolution.Droid.Resource.Color.cardview_shadow_start_color;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_bottom_navigation_shadow_color = global::MeditSolution.Droid.Resource.Color.design_bottom_navigation_shadow_color;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_error = global::MeditSolution.Droid.Resource.Color.design_error;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_fab_shadow_end_color = global::MeditSolution.Droid.Resource.Color.design_fab_shadow_end_color;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_fab_shadow_mid_color = global::MeditSolution.Droid.Resource.Color.design_fab_shadow_mid_color;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_fab_shadow_start_color = global::MeditSolution.Droid.Resource.Color.design_fab_shadow_start_color;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_fab_stroke_end_inner_color = global::MeditSolution.Droid.Resource.Color.design_fab_stroke_end_inner_color;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_fab_stroke_end_outer_color = global::MeditSolution.Droid.Resource.Color.design_fab_stroke_end_outer_color;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_fab_stroke_top_inner_color = global::MeditSolution.Droid.Resource.Color.design_fab_stroke_top_inner_color;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_fab_stroke_top_outer_color = global::MeditSolution.Droid.Resource.Color.design_fab_stroke_top_outer_color;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_snackbar_background_color = global::MeditSolution.Droid.Resource.Color.design_snackbar_background_color;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_tint_password_toggle = global::MeditSolution.Droid.Resource.Color.design_tint_password_toggle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.dim_foreground_disabled_material_dark = global::MeditSolution.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.dim_foreground_disabled_material_light = global::MeditSolution.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.dim_foreground_material_dark = global::MeditSolution.Droid.Resource.Color.dim_foreground_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.dim_foreground_material_light = global::MeditSolution.Droid.Resource.Color.dim_foreground_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.foreground_material_dark = global::MeditSolution.Droid.Resource.Color.foreground_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.foreground_material_light = global::MeditSolution.Droid.Resource.Color.foreground_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.highlighted_text_material_dark = global::MeditSolution.Droid.Resource.Color.highlighted_text_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.highlighted_text_material_light = global::MeditSolution.Droid.Resource.Color.highlighted_text_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_blue_grey_800 = global::MeditSolution.Droid.Resource.Color.material_blue_grey_800;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_blue_grey_900 = global::MeditSolution.Droid.Resource.Color.material_blue_grey_900;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_blue_grey_950 = global::MeditSolution.Droid.Resource.Color.material_blue_grey_950;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_deep_teal_200 = global::MeditSolution.Droid.Resource.Color.material_deep_teal_200;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_deep_teal_500 = global::MeditSolution.Droid.Resource.Color.material_deep_teal_500;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_grey_100 = global::MeditSolution.Droid.Resource.Color.material_grey_100;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_grey_300 = global::MeditSolution.Droid.Resource.Color.material_grey_300;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_grey_50 = global::MeditSolution.Droid.Resource.Color.material_grey_50;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_grey_600 = global::MeditSolution.Droid.Resource.Color.material_grey_600;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_grey_800 = global::MeditSolution.Droid.Resource.Color.material_grey_800;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_grey_850 = global::MeditSolution.Droid.Resource.Color.material_grey_850;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_grey_900 = global::MeditSolution.Droid.Resource.Color.material_grey_900;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.notification_action_color_filter = global::MeditSolution.Droid.Resource.Color.notification_action_color_filter;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.notification_icon_bg_color = global::MeditSolution.Droid.Resource.Color.notification_icon_bg_color;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.notification_material_background_media_default_color = global::MeditSolution.Droid.Resource.Color.notification_material_background_media_default_color;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.primary_dark_material_dark = global::MeditSolution.Droid.Resource.Color.primary_dark_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.primary_dark_material_light = global::MeditSolution.Droid.Resource.Color.primary_dark_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.primary_material_dark = global::MeditSolution.Droid.Resource.Color.primary_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.primary_material_light = global::MeditSolution.Droid.Resource.Color.primary_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.primary_text_default_material_dark = global::MeditSolution.Droid.Resource.Color.primary_text_default_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.primary_text_default_material_light = global::MeditSolution.Droid.Resource.Color.primary_text_default_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.primary_text_disabled_material_dark = global::MeditSolution.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.primary_text_disabled_material_light = global::MeditSolution.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.ripple_material_dark = global::MeditSolution.Droid.Resource.Color.ripple_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.ripple_material_light = global::MeditSolution.Droid.Resource.Color.ripple_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.secondary_text_default_material_dark = global::MeditSolution.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.secondary_text_default_material_light = global::MeditSolution.Droid.Resource.Color.secondary_text_default_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.secondary_text_disabled_material_dark = global::MeditSolution.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.secondary_text_disabled_material_light = global::MeditSolution.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.switch_thumb_disabled_material_dark = global::MeditSolution.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.switch_thumb_disabled_material_light = global::MeditSolution.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.switch_thumb_material_dark = global::MeditSolution.Droid.Resource.Color.switch_thumb_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.switch_thumb_material_light = global::MeditSolution.Droid.Resource.Color.switch_thumb_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.switch_thumb_normal_material_dark = global::MeditSolution.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Color.switch_thumb_normal_material_light = global::MeditSolution.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_default_height_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_elevation_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_elevation_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_progress_bar_size = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_button_min_height_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_button_min_width_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::MeditSolution.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::MeditSolution.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::MeditSolution.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_button_inset_vertical_material = global::MeditSolution.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::MeditSolution.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_button_padding_vertical_material = global::MeditSolution.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::MeditSolution.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_config_prefDialogWidth = global::MeditSolution.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_control_corner_material = global::MeditSolution.Droid.Resource.Dimension.abc_control_corner_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_control_inset_material = global::MeditSolution.Droid.Resource.Dimension.abc_control_inset_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_control_padding_material = global::MeditSolution.Droid.Resource.Dimension.abc_control_padding_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::MeditSolution.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::MeditSolution.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::MeditSolution.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::MeditSolution.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::MeditSolution.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::MeditSolution.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_min_width_major = global::MeditSolution.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_min_width_minor = global::MeditSolution.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_padding_material = global::MeditSolution.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_padding_top_material = global::MeditSolution.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_title_divider_material = global::MeditSolution.Droid.Resource.Dimension.abc_dialog_title_divider_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::MeditSolution.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::MeditSolution.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::MeditSolution.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::MeditSolution.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::MeditSolution.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::MeditSolution.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::MeditSolution.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::MeditSolution.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_floating_window_z = global::MeditSolution.Droid.Resource.Dimension.abc_floating_window_z;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::MeditSolution.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_panel_menu_list_width = global::MeditSolution.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_progress_bar_height_material = global::MeditSolution.Droid.Resource.Dimension.abc_progress_bar_height_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_search_view_preferred_height = global::MeditSolution.Droid.Resource.Dimension.abc_search_view_preferred_height;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_search_view_preferred_width = global::MeditSolution.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::MeditSolution.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::MeditSolution.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::MeditSolution.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_switch_padding = global::MeditSolution.Droid.Resource.Dimension.abc_switch_padding;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_body_1_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_body_2_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_button_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_caption_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_display_1_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_display_2_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_display_3_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_display_4_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_headline_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_large_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_medium_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_menu_header_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_menu_header_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_menu_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_small_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_subhead_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_title_material = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::MeditSolution.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.cardview_compat_inset_shadow = global::MeditSolution.Droid.Resource.Dimension.cardview_compat_inset_shadow;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.cardview_default_elevation = global::MeditSolution.Droid.Resource.Dimension.cardview_default_elevation;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.cardview_default_radius = global::MeditSolution.Droid.Resource.Dimension.cardview_default_radius;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_appbar_elevation = global::MeditSolution.Droid.Resource.Dimension.design_appbar_elevation;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::MeditSolution.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::MeditSolution.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_navigation_elevation = global::MeditSolution.Droid.Resource.Dimension.design_bottom_navigation_elevation;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_navigation_height = global::MeditSolution.Droid.Resource.Dimension.design_bottom_navigation_height;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::MeditSolution.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::MeditSolution.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_navigation_margin = global::MeditSolution.Droid.Resource.Dimension.design_bottom_navigation_margin;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::MeditSolution.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_navigation_text_size = global::MeditSolution.Droid.Resource.Dimension.design_bottom_navigation_text_size;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::MeditSolution.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::MeditSolution.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_fab_border_width = global::MeditSolution.Droid.Resource.Dimension.design_fab_border_width;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_fab_elevation = global::MeditSolution.Droid.Resource.Dimension.design_fab_elevation;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_fab_image_size = global::MeditSolution.Droid.Resource.Dimension.design_fab_image_size;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_fab_size_mini = global::MeditSolution.Droid.Resource.Dimension.design_fab_size_mini;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_fab_size_normal = global::MeditSolution.Droid.Resource.Dimension.design_fab_size_normal;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_fab_translation_z_pressed = global::MeditSolution.Droid.Resource.Dimension.design_fab_translation_z_pressed;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_navigation_elevation = global::MeditSolution.Droid.Resource.Dimension.design_navigation_elevation;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_navigation_icon_padding = global::MeditSolution.Droid.Resource.Dimension.design_navigation_icon_padding;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_navigation_icon_size = global::MeditSolution.Droid.Resource.Dimension.design_navigation_icon_size;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_navigation_max_width = global::MeditSolution.Droid.Resource.Dimension.design_navigation_max_width;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_navigation_padding_bottom = global::MeditSolution.Droid.Resource.Dimension.design_navigation_padding_bottom;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::MeditSolution.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::MeditSolution.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::MeditSolution.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_elevation = global::MeditSolution.Droid.Resource.Dimension.design_snackbar_elevation;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::MeditSolution.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_max_width = global::MeditSolution.Droid.Resource.Dimension.design_snackbar_max_width;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_min_width = global::MeditSolution.Droid.Resource.Dimension.design_snackbar_min_width;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::MeditSolution.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_padding_vertical = global::MeditSolution.Droid.Resource.Dimension.design_snackbar_padding_vertical;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::MeditSolution.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_text_size = global::MeditSolution.Droid.Resource.Dimension.design_snackbar_text_size;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_tab_max_width = global::MeditSolution.Droid.Resource.Dimension.design_tab_max_width;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_tab_scrollable_min_width = global::MeditSolution.Droid.Resource.Dimension.design_tab_scrollable_min_width;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_tab_text_size = global::MeditSolution.Droid.Resource.Dimension.design_tab_text_size;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_tab_text_size_2line = global::MeditSolution.Droid.Resource.Dimension.design_tab_text_size_2line;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.disabled_alpha_material_dark = global::MeditSolution.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.disabled_alpha_material_light = global::MeditSolution.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.highlight_alpha_material_colored = global::MeditSolution.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.highlight_alpha_material_dark = global::MeditSolution.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.highlight_alpha_material_light = global::MeditSolution.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.hint_alpha_material_dark = global::MeditSolution.Droid.Resource.Dimension.hint_alpha_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.hint_alpha_material_light = global::MeditSolution.Droid.Resource.Dimension.hint_alpha_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::MeditSolution.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::MeditSolution.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::MeditSolution.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::MeditSolution.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::MeditSolution.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_item_height = global::MeditSolution.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::MeditSolution.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_max_height = global::MeditSolution.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::MeditSolution.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.mr_dialog_fixed_width_major = global::MeditSolution.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.mr_dialog_fixed_width_minor = global::MeditSolution.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_action_icon_size = global::MeditSolution.Droid.Resource.Dimension.notification_action_icon_size;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_action_text_size = global::MeditSolution.Droid.Resource.Dimension.notification_action_text_size;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_big_circle_margin = global::MeditSolution.Droid.Resource.Dimension.notification_big_circle_margin;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_content_margin_start = global::MeditSolution.Droid.Resource.Dimension.notification_content_margin_start;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_large_icon_height = global::MeditSolution.Droid.Resource.Dimension.notification_large_icon_height;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_large_icon_width = global::MeditSolution.Droid.Resource.Dimension.notification_large_icon_width;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_main_column_padding_top = global::MeditSolution.Droid.Resource.Dimension.notification_main_column_padding_top;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_media_narrow_margin = global::MeditSolution.Droid.Resource.Dimension.notification_media_narrow_margin;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_right_icon_size = global::MeditSolution.Droid.Resource.Dimension.notification_right_icon_size;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_right_side_padding_top = global::MeditSolution.Droid.Resource.Dimension.notification_right_side_padding_top;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_small_icon_background_padding = global::MeditSolution.Droid.Resource.Dimension.notification_small_icon_background_padding;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_small_icon_size_as_large = global::MeditSolution.Droid.Resource.Dimension.notification_small_icon_size_as_large;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_subtext_size = global::MeditSolution.Droid.Resource.Dimension.notification_subtext_size;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_top_pad = global::MeditSolution.Droid.Resource.Dimension.notification_top_pad;
-			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_top_pad_large_text = global::MeditSolution.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_action_bar_item_background_material = global::MeditSolution.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_borderless_material = global::MeditSolution.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_check_material = global::MeditSolution.Droid.Resource.Drawable.abc_btn_check_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::MeditSolution.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::MeditSolution.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_colored_material = global::MeditSolution.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::MeditSolution.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_radio_material = global::MeditSolution.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::MeditSolution.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::MeditSolution.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::MeditSolution.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::MeditSolution.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_cab_background_internal_bg = global::MeditSolution.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_cab_background_top_material = global::MeditSolution.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_control_background_material = global::MeditSolution.Droid.Resource.Drawable.abc_control_background_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_dialog_material_background = global::MeditSolution.Droid.Resource.Drawable.abc_dialog_material_background;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_edit_text_material = global::MeditSolution.Droid.Resource.Drawable.abc_edit_text_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_ab_back_material = global::MeditSolution.Droid.Resource.Drawable.abc_ic_ab_back_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::MeditSolution.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_clear_material = global::MeditSolution.Droid.Resource.Drawable.abc_ic_clear_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_go_search_api_material = global::MeditSolution.Droid.Resource.Drawable.abc_ic_go_search_api_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::MeditSolution.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_search_api_material = global::MeditSolution.Droid.Resource.Drawable.abc_ic_search_api_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_star_black_16dp = global::MeditSolution.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_star_black_36dp = global::MeditSolution.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_star_black_48dp = global::MeditSolution.Droid.Resource.Drawable.abc_ic_star_black_48dp;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::MeditSolution.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::MeditSolution.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_star_half_black_48dp = global::MeditSolution.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::MeditSolution.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_item_background_holo_dark = global::MeditSolution.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_item_background_holo_light = global::MeditSolution.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_focused_holo = global::MeditSolution.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_longpressed_holo = global::MeditSolution.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::MeditSolution.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_pressed_holo_light = global::MeditSolution.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::MeditSolution.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::MeditSolution.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::MeditSolution.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::MeditSolution.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_selector_holo_dark = global::MeditSolution.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_selector_holo_light = global::MeditSolution.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::MeditSolution.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::MeditSolution.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::MeditSolution.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ratingbar_material = global::MeditSolution.Droid.Resource.Drawable.abc_ratingbar_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ratingbar_small_material = global::MeditSolution.Droid.Resource.Drawable.abc_ratingbar_small_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::MeditSolution.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::MeditSolution.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_seekbar_thumb_material = global::MeditSolution.Droid.Resource.Drawable.abc_seekbar_thumb_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::MeditSolution.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_seekbar_track_material = global::MeditSolution.Droid.Resource.Drawable.abc_seekbar_track_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::MeditSolution.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_switch_thumb_material = global::MeditSolution.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_tab_indicator_material = global::MeditSolution.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_text_cursor_material = global::MeditSolution.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::MeditSolution.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::MeditSolution.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::MeditSolution.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::MeditSolution.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::MeditSolution.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::MeditSolution.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::MeditSolution.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_textfield_search_material = global::MeditSolution.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_vector_test = global::MeditSolution.Droid.Resource.Drawable.abc_vector_test;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.avd_hide_password = global::MeditSolution.Droid.Resource.Drawable.avd_hide_password;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.avd_show_password = global::MeditSolution.Droid.Resource.Drawable.avd_show_password;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.design_bottom_navigation_item_background = global::MeditSolution.Droid.Resource.Drawable.design_bottom_navigation_item_background;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.design_fab_background = global::MeditSolution.Droid.Resource.Drawable.design_fab_background;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.design_ic_visibility = global::MeditSolution.Droid.Resource.Drawable.design_ic_visibility;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.design_ic_visibility_off = global::MeditSolution.Droid.Resource.Drawable.design_ic_visibility_off;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.design_password_eye = global::MeditSolution.Droid.Resource.Drawable.design_password_eye;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.design_snackbar_background = global::MeditSolution.Droid.Resource.Drawable.design_snackbar_background;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_audiotrack_dark = global::MeditSolution.Droid.Resource.Drawable.ic_audiotrack_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_audiotrack_light = global::MeditSolution.Droid.Resource.Drawable.ic_audiotrack_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_dialog_close_dark = global::MeditSolution.Droid.Resource.Drawable.ic_dialog_close_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_dialog_close_light = global::MeditSolution.Droid.Resource.Drawable.ic_dialog_close_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_00 = global::MeditSolution.Droid.Resource.Drawable.ic_group_collapse_00;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_01 = global::MeditSolution.Droid.Resource.Drawable.ic_group_collapse_01;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_02 = global::MeditSolution.Droid.Resource.Drawable.ic_group_collapse_02;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_03 = global::MeditSolution.Droid.Resource.Drawable.ic_group_collapse_03;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_04 = global::MeditSolution.Droid.Resource.Drawable.ic_group_collapse_04;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_05 = global::MeditSolution.Droid.Resource.Drawable.ic_group_collapse_05;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_06 = global::MeditSolution.Droid.Resource.Drawable.ic_group_collapse_06;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_07 = global::MeditSolution.Droid.Resource.Drawable.ic_group_collapse_07;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_08 = global::MeditSolution.Droid.Resource.Drawable.ic_group_collapse_08;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_09 = global::MeditSolution.Droid.Resource.Drawable.ic_group_collapse_09;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_10 = global::MeditSolution.Droid.Resource.Drawable.ic_group_collapse_10;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_11 = global::MeditSolution.Droid.Resource.Drawable.ic_group_collapse_11;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_12 = global::MeditSolution.Droid.Resource.Drawable.ic_group_collapse_12;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_13 = global::MeditSolution.Droid.Resource.Drawable.ic_group_collapse_13;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_14 = global::MeditSolution.Droid.Resource.Drawable.ic_group_collapse_14;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_15 = global::MeditSolution.Droid.Resource.Drawable.ic_group_collapse_15;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_00 = global::MeditSolution.Droid.Resource.Drawable.ic_group_expand_00;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_01 = global::MeditSolution.Droid.Resource.Drawable.ic_group_expand_01;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_02 = global::MeditSolution.Droid.Resource.Drawable.ic_group_expand_02;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_03 = global::MeditSolution.Droid.Resource.Drawable.ic_group_expand_03;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_04 = global::MeditSolution.Droid.Resource.Drawable.ic_group_expand_04;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_05 = global::MeditSolution.Droid.Resource.Drawable.ic_group_expand_05;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_06 = global::MeditSolution.Droid.Resource.Drawable.ic_group_expand_06;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_07 = global::MeditSolution.Droid.Resource.Drawable.ic_group_expand_07;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_08 = global::MeditSolution.Droid.Resource.Drawable.ic_group_expand_08;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_09 = global::MeditSolution.Droid.Resource.Drawable.ic_group_expand_09;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_10 = global::MeditSolution.Droid.Resource.Drawable.ic_group_expand_10;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_11 = global::MeditSolution.Droid.Resource.Drawable.ic_group_expand_11;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_12 = global::MeditSolution.Droid.Resource.Drawable.ic_group_expand_12;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_13 = global::MeditSolution.Droid.Resource.Drawable.ic_group_expand_13;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_14 = global::MeditSolution.Droid.Resource.Drawable.ic_group_expand_14;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_15 = global::MeditSolution.Droid.Resource.Drawable.ic_group_expand_15;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_media_pause_dark = global::MeditSolution.Droid.Resource.Drawable.ic_media_pause_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_media_pause_light = global::MeditSolution.Droid.Resource.Drawable.ic_media_pause_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_media_play_dark = global::MeditSolution.Droid.Resource.Drawable.ic_media_play_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_media_play_light = global::MeditSolution.Droid.Resource.Drawable.ic_media_play_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_media_stop_dark = global::MeditSolution.Droid.Resource.Drawable.ic_media_stop_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_media_stop_light = global::MeditSolution.Droid.Resource.Drawable.ic_media_stop_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_00_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_00_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_01_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_01_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_02_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_02_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_03_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_03_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_04_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_04_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_05_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_05_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_06_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_06_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_07_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_07_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_08_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_08_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_09_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_09_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_10_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_10_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_11_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_11_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_12_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_12_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_13_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_13_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_14_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_14_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_15_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_15_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_16_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_16_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_17_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_17_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_18_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_18_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_19_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_19_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_20_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_20_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_21_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_21_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_22_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_22_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_00_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_00_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_01_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_01_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_02_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_02_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_03_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_03_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_04_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_04_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_05_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_05_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_06_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_06_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_07_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_07_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_08_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_08_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_09_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_09_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_10_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_10_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_11_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_11_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_12_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_12_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_13_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_13_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_14_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_14_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_15_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_15_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_16_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_16_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_17_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_17_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_18_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_18_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_19_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_19_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_20_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_20_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_21_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_21_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_22_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_22_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_disabled_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_disabled_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_disabled_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_disconnected_dark = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_disconnected_light = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_grey = global::MeditSolution.Droid.Resource.Drawable.ic_mr_button_grey;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_vol_type_speaker_dark = global::MeditSolution.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_vol_type_speaker_group_dark = global::MeditSolution.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_vol_type_speaker_group_light = global::MeditSolution.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_vol_type_speaker_light = global::MeditSolution.Droid.Resource.Drawable.ic_vol_type_speaker_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_vol_type_tv_dark = global::MeditSolution.Droid.Resource.Drawable.ic_vol_type_tv_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_vol_type_tv_light = global::MeditSolution.Droid.Resource.Drawable.ic_vol_type_tv_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_button_connected_dark = global::MeditSolution.Droid.Resource.Drawable.mr_button_connected_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_button_connected_light = global::MeditSolution.Droid.Resource.Drawable.mr_button_connected_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_button_connecting_dark = global::MeditSolution.Droid.Resource.Drawable.mr_button_connecting_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_button_connecting_light = global::MeditSolution.Droid.Resource.Drawable.mr_button_connecting_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_button_dark = global::MeditSolution.Droid.Resource.Drawable.mr_button_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_button_light = global::MeditSolution.Droid.Resource.Drawable.mr_button_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_dialog_close_dark = global::MeditSolution.Droid.Resource.Drawable.mr_dialog_close_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_dialog_close_light = global::MeditSolution.Droid.Resource.Drawable.mr_dialog_close_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_dialog_material_background_dark = global::MeditSolution.Droid.Resource.Drawable.mr_dialog_material_background_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_dialog_material_background_light = global::MeditSolution.Droid.Resource.Drawable.mr_dialog_material_background_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_group_collapse = global::MeditSolution.Droid.Resource.Drawable.mr_group_collapse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_group_expand = global::MeditSolution.Droid.Resource.Drawable.mr_group_expand;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_media_pause_dark = global::MeditSolution.Droid.Resource.Drawable.mr_media_pause_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_media_pause_light = global::MeditSolution.Droid.Resource.Drawable.mr_media_pause_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_media_play_dark = global::MeditSolution.Droid.Resource.Drawable.mr_media_play_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_media_play_light = global::MeditSolution.Droid.Resource.Drawable.mr_media_play_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_media_stop_dark = global::MeditSolution.Droid.Resource.Drawable.mr_media_stop_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_media_stop_light = global::MeditSolution.Droid.Resource.Drawable.mr_media_stop_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_vol_type_audiotrack_dark = global::MeditSolution.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_vol_type_audiotrack_light = global::MeditSolution.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.navigation_empty_icon = global::MeditSolution.Droid.Resource.Drawable.navigation_empty_icon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_action_background = global::MeditSolution.Droid.Resource.Drawable.notification_action_background;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_bg = global::MeditSolution.Droid.Resource.Drawable.notification_bg;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_bg_low = global::MeditSolution.Droid.Resource.Drawable.notification_bg_low;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_bg_low_normal = global::MeditSolution.Droid.Resource.Drawable.notification_bg_low_normal;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_bg_low_pressed = global::MeditSolution.Droid.Resource.Drawable.notification_bg_low_pressed;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_bg_normal = global::MeditSolution.Droid.Resource.Drawable.notification_bg_normal;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_bg_normal_pressed = global::MeditSolution.Droid.Resource.Drawable.notification_bg_normal_pressed;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_icon_background = global::MeditSolution.Droid.Resource.Drawable.notification_icon_background;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_template_icon_bg = global::MeditSolution.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_template_icon_low_bg = global::MeditSolution.Droid.Resource.Drawable.notification_template_icon_low_bg;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_tile_bg = global::MeditSolution.Droid.Resource.Drawable.notification_tile_bg;
-			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::MeditSolution.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.action0 = global::MeditSolution.Droid.Resource.Id.action0;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_bar = global::MeditSolution.Droid.Resource.Id.action_bar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_bar_activity_content = global::MeditSolution.Droid.Resource.Id.action_bar_activity_content;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_bar_container = global::MeditSolution.Droid.Resource.Id.action_bar_container;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_bar_root = global::MeditSolution.Droid.Resource.Id.action_bar_root;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_bar_spinner = global::MeditSolution.Droid.Resource.Id.action_bar_spinner;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_bar_subtitle = global::MeditSolution.Droid.Resource.Id.action_bar_subtitle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_bar_title = global::MeditSolution.Droid.Resource.Id.action_bar_title;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_container = global::MeditSolution.Droid.Resource.Id.action_container;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_context_bar = global::MeditSolution.Droid.Resource.Id.action_context_bar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_divider = global::MeditSolution.Droid.Resource.Id.action_divider;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_image = global::MeditSolution.Droid.Resource.Id.action_image;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_menu_divider = global::MeditSolution.Droid.Resource.Id.action_menu_divider;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_menu_presenter = global::MeditSolution.Droid.Resource.Id.action_menu_presenter;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_mode_bar = global::MeditSolution.Droid.Resource.Id.action_mode_bar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_mode_bar_stub = global::MeditSolution.Droid.Resource.Id.action_mode_bar_stub;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_mode_close_button = global::MeditSolution.Droid.Resource.Id.action_mode_close_button;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_text = global::MeditSolution.Droid.Resource.Id.action_text;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.actions = global::MeditSolution.Droid.Resource.Id.actions;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.activity_chooser_view_content = global::MeditSolution.Droid.Resource.Id.activity_chooser_view_content;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.add = global::MeditSolution.Droid.Resource.Id.add;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.alertTitle = global::MeditSolution.Droid.Resource.Id.alertTitle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.all = global::MeditSolution.Droid.Resource.Id.all;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.always = global::MeditSolution.Droid.Resource.Id.always;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.auto = global::MeditSolution.Droid.Resource.Id.auto;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.beginning = global::MeditSolution.Droid.Resource.Id.beginning;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.bottom = global::MeditSolution.Droid.Resource.Id.bottom;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.buttonPanel = global::MeditSolution.Droid.Resource.Id.buttonPanel;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.cancel_action = global::MeditSolution.Droid.Resource.Id.cancel_action;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.center = global::MeditSolution.Droid.Resource.Id.center;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.center_horizontal = global::MeditSolution.Droid.Resource.Id.center_horizontal;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.center_vertical = global::MeditSolution.Droid.Resource.Id.center_vertical;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.checkbox = global::MeditSolution.Droid.Resource.Id.checkbox;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.chronometer = global::MeditSolution.Droid.Resource.Id.chronometer;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.clip_horizontal = global::MeditSolution.Droid.Resource.Id.clip_horizontal;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.clip_vertical = global::MeditSolution.Droid.Resource.Id.clip_vertical;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.collapseActionView = global::MeditSolution.Droid.Resource.Id.collapseActionView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.contentPanel = global::MeditSolution.Droid.Resource.Id.contentPanel;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.custom = global::MeditSolution.Droid.Resource.Id.custom;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.customPanel = global::MeditSolution.Droid.Resource.Id.customPanel;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.decor_content_parent = global::MeditSolution.Droid.Resource.Id.decor_content_parent;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.default_activity_button = global::MeditSolution.Droid.Resource.Id.default_activity_button;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.design_bottom_sheet = global::MeditSolution.Droid.Resource.Id.design_bottom_sheet;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.design_menu_item_action_area = global::MeditSolution.Droid.Resource.Id.design_menu_item_action_area;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.design_menu_item_action_area_stub = global::MeditSolution.Droid.Resource.Id.design_menu_item_action_area_stub;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.design_menu_item_text = global::MeditSolution.Droid.Resource.Id.design_menu_item_text;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.design_navigation_view = global::MeditSolution.Droid.Resource.Id.design_navigation_view;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.disableHome = global::MeditSolution.Droid.Resource.Id.disableHome;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.edit_query = global::MeditSolution.Droid.Resource.Id.edit_query;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.end = global::MeditSolution.Droid.Resource.Id.end;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.end_padder = global::MeditSolution.Droid.Resource.Id.end_padder;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.enterAlways = global::MeditSolution.Droid.Resource.Id.enterAlways;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.enterAlwaysCollapsed = global::MeditSolution.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.exitUntilCollapsed = global::MeditSolution.Droid.Resource.Id.exitUntilCollapsed;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.expand_activities_button = global::MeditSolution.Droid.Resource.Id.expand_activities_button;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.expanded_menu = global::MeditSolution.Droid.Resource.Id.expanded_menu;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.fill = global::MeditSolution.Droid.Resource.Id.fill;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.fill_horizontal = global::MeditSolution.Droid.Resource.Id.fill_horizontal;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.fill_vertical = global::MeditSolution.Droid.Resource.Id.fill_vertical;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.@fixed = global::MeditSolution.Droid.Resource.Id.@fixed;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.home = global::MeditSolution.Droid.Resource.Id.home;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.homeAsUp = global::MeditSolution.Droid.Resource.Id.homeAsUp;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.icon = global::MeditSolution.Droid.Resource.Id.icon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.icon_group = global::MeditSolution.Droid.Resource.Id.icon_group;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.ifRoom = global::MeditSolution.Droid.Resource.Id.ifRoom;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.image = global::MeditSolution.Droid.Resource.Id.image;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.info = global::MeditSolution.Droid.Resource.Id.info;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.item_touch_helper_previous_elevation = global::MeditSolution.Droid.Resource.Id.item_touch_helper_previous_elevation;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.largeLabel = global::MeditSolution.Droid.Resource.Id.largeLabel;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.left = global::MeditSolution.Droid.Resource.Id.left;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.line1 = global::MeditSolution.Droid.Resource.Id.line1;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.line3 = global::MeditSolution.Droid.Resource.Id.line3;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.listMode = global::MeditSolution.Droid.Resource.Id.listMode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.list_item = global::MeditSolution.Droid.Resource.Id.list_item;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.masked = global::MeditSolution.Droid.Resource.Id.masked;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.media_actions = global::MeditSolution.Droid.Resource.Id.media_actions;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.middle = global::MeditSolution.Droid.Resource.Id.middle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.mini = global::MeditSolution.Droid.Resource.Id.mini;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_art = global::MeditSolution.Droid.Resource.Id.mr_art;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_chooser_list = global::MeditSolution.Droid.Resource.Id.mr_chooser_list;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_chooser_route_desc = global::MeditSolution.Droid.Resource.Id.mr_chooser_route_desc;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_chooser_route_icon = global::MeditSolution.Droid.Resource.Id.mr_chooser_route_icon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_chooser_route_name = global::MeditSolution.Droid.Resource.Id.mr_chooser_route_name;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_chooser_title = global::MeditSolution.Droid.Resource.Id.mr_chooser_title;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_close = global::MeditSolution.Droid.Resource.Id.mr_close;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_control_divider = global::MeditSolution.Droid.Resource.Id.mr_control_divider;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_control_playback_ctrl = global::MeditSolution.Droid.Resource.Id.mr_control_playback_ctrl;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_control_subtitle = global::MeditSolution.Droid.Resource.Id.mr_control_subtitle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_control_title = global::MeditSolution.Droid.Resource.Id.mr_control_title;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_control_title_container = global::MeditSolution.Droid.Resource.Id.mr_control_title_container;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_custom_control = global::MeditSolution.Droid.Resource.Id.mr_custom_control;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_default_control = global::MeditSolution.Droid.Resource.Id.mr_default_control;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_dialog_area = global::MeditSolution.Droid.Resource.Id.mr_dialog_area;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_expandable_area = global::MeditSolution.Droid.Resource.Id.mr_expandable_area;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_group_expand_collapse = global::MeditSolution.Droid.Resource.Id.mr_group_expand_collapse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_media_main_control = global::MeditSolution.Droid.Resource.Id.mr_media_main_control;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_name = global::MeditSolution.Droid.Resource.Id.mr_name;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_playback_control = global::MeditSolution.Droid.Resource.Id.mr_playback_control;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_title_bar = global::MeditSolution.Droid.Resource.Id.mr_title_bar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_volume_control = global::MeditSolution.Droid.Resource.Id.mr_volume_control;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_volume_group_list = global::MeditSolution.Droid.Resource.Id.mr_volume_group_list;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_volume_item_icon = global::MeditSolution.Droid.Resource.Id.mr_volume_item_icon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_volume_slider = global::MeditSolution.Droid.Resource.Id.mr_volume_slider;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.multiply = global::MeditSolution.Droid.Resource.Id.multiply;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.navigation_header_container = global::MeditSolution.Droid.Resource.Id.navigation_header_container;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.never = global::MeditSolution.Droid.Resource.Id.never;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.none = global::MeditSolution.Droid.Resource.Id.none;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.normal = global::MeditSolution.Droid.Resource.Id.normal;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.notification_background = global::MeditSolution.Droid.Resource.Id.notification_background;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.notification_main_column = global::MeditSolution.Droid.Resource.Id.notification_main_column;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.notification_main_column_container = global::MeditSolution.Droid.Resource.Id.notification_main_column_container;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.parallax = global::MeditSolution.Droid.Resource.Id.parallax;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.parentPanel = global::MeditSolution.Droid.Resource.Id.parentPanel;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.pin = global::MeditSolution.Droid.Resource.Id.pin;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.progress_circular = global::MeditSolution.Droid.Resource.Id.progress_circular;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.progress_horizontal = global::MeditSolution.Droid.Resource.Id.progress_horizontal;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.radio = global::MeditSolution.Droid.Resource.Id.radio;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.right = global::MeditSolution.Droid.Resource.Id.right;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.right_icon = global::MeditSolution.Droid.Resource.Id.right_icon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.right_side = global::MeditSolution.Droid.Resource.Id.right_side;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.screen = global::MeditSolution.Droid.Resource.Id.screen;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.scroll = global::MeditSolution.Droid.Resource.Id.scroll;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.scrollIndicatorDown = global::MeditSolution.Droid.Resource.Id.scrollIndicatorDown;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.scrollIndicatorUp = global::MeditSolution.Droid.Resource.Id.scrollIndicatorUp;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.scrollView = global::MeditSolution.Droid.Resource.Id.scrollView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.scrollable = global::MeditSolution.Droid.Resource.Id.scrollable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_badge = global::MeditSolution.Droid.Resource.Id.search_badge;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_bar = global::MeditSolution.Droid.Resource.Id.search_bar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_button = global::MeditSolution.Droid.Resource.Id.search_button;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_close_btn = global::MeditSolution.Droid.Resource.Id.search_close_btn;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_edit_frame = global::MeditSolution.Droid.Resource.Id.search_edit_frame;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_go_btn = global::MeditSolution.Droid.Resource.Id.search_go_btn;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_mag_icon = global::MeditSolution.Droid.Resource.Id.search_mag_icon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_plate = global::MeditSolution.Droid.Resource.Id.search_plate;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_src_text = global::MeditSolution.Droid.Resource.Id.search_src_text;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_voice_btn = global::MeditSolution.Droid.Resource.Id.search_voice_btn;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.select_dialog_listview = global::MeditSolution.Droid.Resource.Id.select_dialog_listview;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.shortcut = global::MeditSolution.Droid.Resource.Id.shortcut;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.showCustom = global::MeditSolution.Droid.Resource.Id.showCustom;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.showHome = global::MeditSolution.Droid.Resource.Id.showHome;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.showTitle = global::MeditSolution.Droid.Resource.Id.showTitle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.smallLabel = global::MeditSolution.Droid.Resource.Id.smallLabel;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.snackbar_action = global::MeditSolution.Droid.Resource.Id.snackbar_action;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.snackbar_text = global::MeditSolution.Droid.Resource.Id.snackbar_text;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.snap = global::MeditSolution.Droid.Resource.Id.snap;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.spacer = global::MeditSolution.Droid.Resource.Id.spacer;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.split_action_bar = global::MeditSolution.Droid.Resource.Id.split_action_bar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.src_atop = global::MeditSolution.Droid.Resource.Id.src_atop;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.src_in = global::MeditSolution.Droid.Resource.Id.src_in;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.src_over = global::MeditSolution.Droid.Resource.Id.src_over;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.start = global::MeditSolution.Droid.Resource.Id.start;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.status_bar_latest_event_content = global::MeditSolution.Droid.Resource.Id.status_bar_latest_event_content;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.submenuarrow = global::MeditSolution.Droid.Resource.Id.submenuarrow;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.submit_area = global::MeditSolution.Droid.Resource.Id.submit_area;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.tabMode = global::MeditSolution.Droid.Resource.Id.tabMode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.text = global::MeditSolution.Droid.Resource.Id.text;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.text2 = global::MeditSolution.Droid.Resource.Id.text2;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.textSpacerNoButtons = global::MeditSolution.Droid.Resource.Id.textSpacerNoButtons;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.textSpacerNoTitle = global::MeditSolution.Droid.Resource.Id.textSpacerNoTitle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.text_input_password_toggle = global::MeditSolution.Droid.Resource.Id.text_input_password_toggle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.textinput_counter = global::MeditSolution.Droid.Resource.Id.textinput_counter;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.textinput_error = global::MeditSolution.Droid.Resource.Id.textinput_error;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.time = global::MeditSolution.Droid.Resource.Id.time;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.title = global::MeditSolution.Droid.Resource.Id.title;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.titleDividerNoCustom = global::MeditSolution.Droid.Resource.Id.titleDividerNoCustom;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.title_template = global::MeditSolution.Droid.Resource.Id.title_template;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.top = global::MeditSolution.Droid.Resource.Id.top;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.topPanel = global::MeditSolution.Droid.Resource.Id.topPanel;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.touch_outside = global::MeditSolution.Droid.Resource.Id.touch_outside;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.transition_current_scene = global::MeditSolution.Droid.Resource.Id.transition_current_scene;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.transition_scene_layoutid_cache = global::MeditSolution.Droid.Resource.Id.transition_scene_layoutid_cache;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.up = global::MeditSolution.Droid.Resource.Id.up;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.useLogo = global::MeditSolution.Droid.Resource.Id.useLogo;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.view_offset_helper = global::MeditSolution.Droid.Resource.Id.view_offset_helper;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.visible = global::MeditSolution.Droid.Resource.Id.visible;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.volume_item_container = global::MeditSolution.Droid.Resource.Id.volume_item_container;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.withText = global::MeditSolution.Droid.Resource.Id.withText;
-			global::Plugin.MediaManager.Forms.Android.Resource.Id.wrap_content = global::MeditSolution.Droid.Resource.Id.wrap_content;
-			global::Plugin.MediaManager.Forms.Android.Resource.Integer.abc_config_activityDefaultDur = global::MeditSolution.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::Plugin.MediaManager.Forms.Android.Resource.Integer.abc_config_activityShortDur = global::MeditSolution.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::Plugin.MediaManager.Forms.Android.Resource.Integer.app_bar_elevation_anim_duration = global::MeditSolution.Droid.Resource.Integer.app_bar_elevation_anim_duration;
-			global::Plugin.MediaManager.Forms.Android.Resource.Integer.bottom_sheet_slide_duration = global::MeditSolution.Droid.Resource.Integer.bottom_sheet_slide_duration;
-			global::Plugin.MediaManager.Forms.Android.Resource.Integer.cancel_button_image_alpha = global::MeditSolution.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::Plugin.MediaManager.Forms.Android.Resource.Integer.design_snackbar_text_max_lines = global::MeditSolution.Droid.Resource.Integer.design_snackbar_text_max_lines;
-			global::Plugin.MediaManager.Forms.Android.Resource.Integer.hide_password_duration = global::MeditSolution.Droid.Resource.Integer.hide_password_duration;
-			global::Plugin.MediaManager.Forms.Android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::MeditSolution.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
-			global::Plugin.MediaManager.Forms.Android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::MeditSolution.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
-			global::Plugin.MediaManager.Forms.Android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::MeditSolution.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
-			global::Plugin.MediaManager.Forms.Android.Resource.Integer.show_password_duration = global::MeditSolution.Droid.Resource.Integer.show_password_duration;
-			global::Plugin.MediaManager.Forms.Android.Resource.Integer.status_bar_notification_info_maxnum = global::MeditSolution.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::Plugin.MediaManager.Forms.Android.Resource.Interpolator.mr_fast_out_slow_in = global::MeditSolution.Droid.Resource.Interpolator.mr_fast_out_slow_in;
-			global::Plugin.MediaManager.Forms.Android.Resource.Interpolator.mr_linear_out_slow_in = global::MeditSolution.Droid.Resource.Interpolator.mr_linear_out_slow_in;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_action_bar_title_item = global::MeditSolution.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_action_bar_up_container = global::MeditSolution.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_action_bar_view_list_nav_layout = global::MeditSolution.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_action_menu_item_layout = global::MeditSolution.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_action_menu_layout = global::MeditSolution.Droid.Resource.Layout.abc_action_menu_layout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_action_mode_bar = global::MeditSolution.Droid.Resource.Layout.abc_action_mode_bar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_action_mode_close_item_material = global::MeditSolution.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_activity_chooser_view = global::MeditSolution.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::MeditSolution.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::MeditSolution.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_alert_dialog_material = global::MeditSolution.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_alert_dialog_title_material = global::MeditSolution.Droid.Resource.Layout.abc_alert_dialog_title_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_dialog_title_material = global::MeditSolution.Droid.Resource.Layout.abc_dialog_title_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_expanded_menu_layout = global::MeditSolution.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_list_menu_item_checkbox = global::MeditSolution.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_list_menu_item_icon = global::MeditSolution.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_list_menu_item_layout = global::MeditSolution.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_list_menu_item_radio = global::MeditSolution.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::MeditSolution.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_popup_menu_item_layout = global::MeditSolution.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_screen_content_include = global::MeditSolution.Droid.Resource.Layout.abc_screen_content_include;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_screen_simple = global::MeditSolution.Droid.Resource.Layout.abc_screen_simple;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::MeditSolution.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_screen_toolbar = global::MeditSolution.Droid.Resource.Layout.abc_screen_toolbar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::MeditSolution.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_search_view = global::MeditSolution.Droid.Resource.Layout.abc_search_view;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_select_dialog_material = global::MeditSolution.Droid.Resource.Layout.abc_select_dialog_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_bottom_navigation_item = global::MeditSolution.Droid.Resource.Layout.design_bottom_navigation_item;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_bottom_sheet_dialog = global::MeditSolution.Droid.Resource.Layout.design_bottom_sheet_dialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_layout_snackbar = global::MeditSolution.Droid.Resource.Layout.design_layout_snackbar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_layout_snackbar_include = global::MeditSolution.Droid.Resource.Layout.design_layout_snackbar_include;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_layout_tab_icon = global::MeditSolution.Droid.Resource.Layout.design_layout_tab_icon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_layout_tab_text = global::MeditSolution.Droid.Resource.Layout.design_layout_tab_text;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_menu_item_action_area = global::MeditSolution.Droid.Resource.Layout.design_menu_item_action_area;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_navigation_item = global::MeditSolution.Droid.Resource.Layout.design_navigation_item;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_navigation_item_header = global::MeditSolution.Droid.Resource.Layout.design_navigation_item_header;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_navigation_item_separator = global::MeditSolution.Droid.Resource.Layout.design_navigation_item_separator;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_navigation_item_subheader = global::MeditSolution.Droid.Resource.Layout.design_navigation_item_subheader;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_navigation_menu = global::MeditSolution.Droid.Resource.Layout.design_navigation_menu;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_navigation_menu_item = global::MeditSolution.Droid.Resource.Layout.design_navigation_menu_item;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_text_input_password_icon = global::MeditSolution.Droid.Resource.Layout.design_text_input_password_icon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.mr_chooser_dialog = global::MeditSolution.Droid.Resource.Layout.mr_chooser_dialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.mr_chooser_list_item = global::MeditSolution.Droid.Resource.Layout.mr_chooser_list_item;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.mr_controller_material_dialog_b = global::MeditSolution.Droid.Resource.Layout.mr_controller_material_dialog_b;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.mr_controller_volume_item = global::MeditSolution.Droid.Resource.Layout.mr_controller_volume_item;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.mr_playback_control = global::MeditSolution.Droid.Resource.Layout.mr_playback_control;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.mr_volume_control = global::MeditSolution.Droid.Resource.Layout.mr_volume_control;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_action = global::MeditSolution.Droid.Resource.Layout.notification_action;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_action_tombstone = global::MeditSolution.Droid.Resource.Layout.notification_action_tombstone;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_media_action = global::MeditSolution.Droid.Resource.Layout.notification_media_action;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_media_cancel_action = global::MeditSolution.Droid.Resource.Layout.notification_media_cancel_action;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_big_media = global::MeditSolution.Droid.Resource.Layout.notification_template_big_media;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_big_media_custom = global::MeditSolution.Droid.Resource.Layout.notification_template_big_media_custom;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_big_media_narrow = global::MeditSolution.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::MeditSolution.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_custom_big = global::MeditSolution.Droid.Resource.Layout.notification_template_custom_big;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_icon_group = global::MeditSolution.Droid.Resource.Layout.notification_template_icon_group;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_lines_media = global::MeditSolution.Droid.Resource.Layout.notification_template_lines_media;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_media = global::MeditSolution.Droid.Resource.Layout.notification_template_media;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_media_custom = global::MeditSolution.Droid.Resource.Layout.notification_template_media_custom;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_part_chronometer = global::MeditSolution.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_part_time = global::MeditSolution.Droid.Resource.Layout.notification_template_part_time;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.select_dialog_item_material = global::MeditSolution.Droid.Resource.Layout.select_dialog_item_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.select_dialog_multichoice_material = global::MeditSolution.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.select_dialog_singlechoice_material = global::MeditSolution.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::MeditSolution.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.ApplicationName = global::MeditSolution.Droid.Resource.String.ApplicationName;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.Hello = global::MeditSolution.Droid.Resource.String.Hello;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_action_bar_home_description = global::MeditSolution.Droid.Resource.String.abc_action_bar_home_description;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_action_bar_home_description_format = global::MeditSolution.Droid.Resource.String.abc_action_bar_home_description_format;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_action_bar_home_subtitle_description_format = global::MeditSolution.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_action_bar_up_description = global::MeditSolution.Droid.Resource.String.abc_action_bar_up_description;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_action_menu_overflow_description = global::MeditSolution.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_action_mode_done = global::MeditSolution.Droid.Resource.String.abc_action_mode_done;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_activity_chooser_view_see_all = global::MeditSolution.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_activitychooserview_choose_application = global::MeditSolution.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_capital_off = global::MeditSolution.Droid.Resource.String.abc_capital_off;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_capital_on = global::MeditSolution.Droid.Resource.String.abc_capital_on;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_body_1_material = global::MeditSolution.Droid.Resource.String.abc_font_family_body_1_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_body_2_material = global::MeditSolution.Droid.Resource.String.abc_font_family_body_2_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_button_material = global::MeditSolution.Droid.Resource.String.abc_font_family_button_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_caption_material = global::MeditSolution.Droid.Resource.String.abc_font_family_caption_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_display_1_material = global::MeditSolution.Droid.Resource.String.abc_font_family_display_1_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_display_2_material = global::MeditSolution.Droid.Resource.String.abc_font_family_display_2_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_display_3_material = global::MeditSolution.Droid.Resource.String.abc_font_family_display_3_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_display_4_material = global::MeditSolution.Droid.Resource.String.abc_font_family_display_4_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_headline_material = global::MeditSolution.Droid.Resource.String.abc_font_family_headline_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_menu_material = global::MeditSolution.Droid.Resource.String.abc_font_family_menu_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_subhead_material = global::MeditSolution.Droid.Resource.String.abc_font_family_subhead_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_title_material = global::MeditSolution.Droid.Resource.String.abc_font_family_title_material;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_search_hint = global::MeditSolution.Droid.Resource.String.abc_search_hint;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_searchview_description_clear = global::MeditSolution.Droid.Resource.String.abc_searchview_description_clear;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_searchview_description_query = global::MeditSolution.Droid.Resource.String.abc_searchview_description_query;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_searchview_description_search = global::MeditSolution.Droid.Resource.String.abc_searchview_description_search;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_searchview_description_submit = global::MeditSolution.Droid.Resource.String.abc_searchview_description_submit;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_searchview_description_voice = global::MeditSolution.Droid.Resource.String.abc_searchview_description_voice;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_shareactionprovider_share_with = global::MeditSolution.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_shareactionprovider_share_with_application = global::MeditSolution.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_toolbar_collapse_description = global::MeditSolution.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.appbar_scrolling_view_behavior = global::MeditSolution.Droid.Resource.String.appbar_scrolling_view_behavior;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.bottom_sheet_behavior = global::MeditSolution.Droid.Resource.String.bottom_sheet_behavior;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.character_counter_pattern = global::MeditSolution.Droid.Resource.String.character_counter_pattern;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_button_content_description = global::MeditSolution.Droid.Resource.String.mr_button_content_description;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_cast_button_connected = global::MeditSolution.Droid.Resource.String.mr_cast_button_connected;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_cast_button_connecting = global::MeditSolution.Droid.Resource.String.mr_cast_button_connecting;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_cast_button_disconnected = global::MeditSolution.Droid.Resource.String.mr_cast_button_disconnected;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_chooser_searching = global::MeditSolution.Droid.Resource.String.mr_chooser_searching;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_chooser_title = global::MeditSolution.Droid.Resource.String.mr_chooser_title;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_album_art = global::MeditSolution.Droid.Resource.String.mr_controller_album_art;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_casting_screen = global::MeditSolution.Droid.Resource.String.mr_controller_casting_screen;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_close_description = global::MeditSolution.Droid.Resource.String.mr_controller_close_description;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_collapse_group = global::MeditSolution.Droid.Resource.String.mr_controller_collapse_group;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_disconnect = global::MeditSolution.Droid.Resource.String.mr_controller_disconnect;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_expand_group = global::MeditSolution.Droid.Resource.String.mr_controller_expand_group;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_no_info_available = global::MeditSolution.Droid.Resource.String.mr_controller_no_info_available;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_no_media_selected = global::MeditSolution.Droid.Resource.String.mr_controller_no_media_selected;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_pause = global::MeditSolution.Droid.Resource.String.mr_controller_pause;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_play = global::MeditSolution.Droid.Resource.String.mr_controller_play;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_stop = global::MeditSolution.Droid.Resource.String.mr_controller_stop;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_stop_casting = global::MeditSolution.Droid.Resource.String.mr_controller_stop_casting;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_volume_slider = global::MeditSolution.Droid.Resource.String.mr_controller_volume_slider;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_system_route_name = global::MeditSolution.Droid.Resource.String.mr_system_route_name;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_user_route_category_name = global::MeditSolution.Droid.Resource.String.mr_user_route_category_name;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.password_toggle_content_description = global::MeditSolution.Droid.Resource.String.password_toggle_content_description;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.path_password_eye = global::MeditSolution.Droid.Resource.String.path_password_eye;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.path_password_eye_mask_strike_through = global::MeditSolution.Droid.Resource.String.path_password_eye_mask_strike_through;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.path_password_eye_mask_visible = global::MeditSolution.Droid.Resource.String.path_password_eye_mask_visible;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.path_password_strike_through = global::MeditSolution.Droid.Resource.String.path_password_strike_through;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.search_menu_title = global::MeditSolution.Droid.Resource.String.search_menu_title;
-			global::Plugin.MediaManager.Forms.Android.Resource.String.status_bar_notification_info_overflow = global::MeditSolution.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.AlertDialog_AppCompat = global::MeditSolution.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.AlertDialog_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Animation_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::MeditSolution.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::MeditSolution.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_AlertDialog_AppCompat = global::MeditSolution.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::MeditSolution.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_CardView = global::MeditSolution.Droid.Resource.Style.Base_CardView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::MeditSolution.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::MeditSolution.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::MeditSolution.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::MeditSolution.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::MeditSolution.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::MeditSolution.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::MeditSolution.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::MeditSolution.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::MeditSolution.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::MeditSolution.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::MeditSolution.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::MeditSolution.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat = global::MeditSolution.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::MeditSolution.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V22_Theme_AppCompat = global::MeditSolution.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V23_Theme_AppCompat = global::MeditSolution.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat = global::MeditSolution.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::MeditSolution.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::MeditSolution.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::MeditSolution.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::MeditSolution.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_Design_AppBarLayout = global::MeditSolution.Droid.Resource.Style.Base_Widget_Design_AppBarLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_Design_TabLayout = global::MeditSolution.Droid.Resource.Style.Base_Widget_Design_TabLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.CardView = global::MeditSolution.Droid.Resource.Style.CardView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.CardView_Dark = global::MeditSolution.Droid.Resource.Style.CardView_Dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.CardView_Light = global::MeditSolution.Droid.Resource.Style.CardView_Light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_AppCompat = global::MeditSolution.Droid.Resource.Style.Platform_AppCompat;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::MeditSolution.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::MeditSolution.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_V11_AppCompat = global::MeditSolution.Droid.Resource.Style.Platform_V11_AppCompat;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_V11_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Platform_V11_AppCompat_Light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_V14_AppCompat = global::MeditSolution.Droid.Resource.Style.Platform_V14_AppCompat;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_V14_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Platform_V14_AppCompat_Light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_V21_AppCompat = global::MeditSolution.Droid.Resource.Style.Platform_V21_AppCompat;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_V21_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Platform_V21_AppCompat_Light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::MeditSolution.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::MeditSolution.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::MeditSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::MeditSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::MeditSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::MeditSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::MeditSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::MeditSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::MeditSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::MeditSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::MeditSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::MeditSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::MeditSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::MeditSolution.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::MeditSolution.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Button = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Large = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification_Info = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Info;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification_Info_Media = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Info_Media;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification_Line2 = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Line2;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification_Line2_Media = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Line2_Media;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification_Media = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Media;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification_Time = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Time;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification_Time_Media = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Time_Media;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification_Title = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Title;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification_Title_Media = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Title_Media;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Small = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Title = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::MeditSolution.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Design_Counter = global::MeditSolution.Droid.Resource.Style.TextAppearance_Design_Counter;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::MeditSolution.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Design_Error = global::MeditSolution.Droid.Resource.Style.TextAppearance_Design_Error;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Design_Hint = global::MeditSolution.Droid.Resource.Style.TextAppearance_Design_Hint;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::MeditSolution.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Design_Tab = global::MeditSolution.Droid.Resource.Style.TextAppearance_Design_Tab;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::MeditSolution.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::MeditSolution.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_MediaRouter_Title = global::MeditSolution.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MeditSolution.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MeditSolution.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::MeditSolution.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_DayNight = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::MeditSolution.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_Design = global::MeditSolution.Droid.Resource.Style.Theme_Design;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::MeditSolution.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_Design_Light = global::MeditSolution.Droid.Resource.Style.Theme_Design_Light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::MeditSolution.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::MeditSolution.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_Design_NoActionBar = global::MeditSolution.Droid.Resource.Style.Theme_Design_NoActionBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_MediaRouter = global::MeditSolution.Droid.Resource.Style.Theme_MediaRouter;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_MediaRouter_Light = global::MeditSolution.Droid.Resource.Style.Theme_MediaRouter_Light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::MeditSolution.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_MediaRouter_LightControlPanel = global::MeditSolution.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.ThemeOverlay_AppCompat = global::MeditSolution.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::MeditSolution.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::MeditSolution.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::MeditSolution.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::MeditSolution.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::MeditSolution.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::MeditSolution.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::MeditSolution.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.ThemeOverlay_MediaRouter_Light = global::MeditSolution.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActionButton = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActionMode = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Button = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Button_Small = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_EditText = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ImageButton = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ImageButton;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ListView = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_RatingBar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_SearchView = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_SeekBar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_SeekBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Spinner = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Toolbar = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::MeditSolution.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_AppBarLayout = global::MeditSolution.Droid.Resource.Style.Widget_Design_AppBarLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_BottomNavigationView = global::MeditSolution.Droid.Resource.Style.Widget_Design_BottomNavigationView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::MeditSolution.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::MeditSolution.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_CoordinatorLayout = global::MeditSolution.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_FloatingActionButton = global::MeditSolution.Droid.Resource.Style.Widget_Design_FloatingActionButton;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_NavigationView = global::MeditSolution.Droid.Resource.Style.Widget_Design_NavigationView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::MeditSolution.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_Snackbar = global::MeditSolution.Droid.Resource.Style.Widget_Design_Snackbar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_TabLayout = global::MeditSolution.Droid.Resource.Style.Widget_Design_TabLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_TextInputLayout = global::MeditSolution.Droid.Resource.Style.Widget_Design_TextInputLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::MeditSolution.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
-			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::MeditSolution.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar = global::MeditSolution.Droid.Resource.Styleable.ActionBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_background = global::MeditSolution.Droid.Resource.Styleable.ActionBar_background;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_backgroundSplit = global::MeditSolution.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_backgroundStacked = global::MeditSolution.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::MeditSolution.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::MeditSolution.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::MeditSolution.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_contentInsetRight = global::MeditSolution.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_contentInsetStart = global::MeditSolution.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::MeditSolution.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::MeditSolution.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_displayOptions = global::MeditSolution.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_divider = global::MeditSolution.Droid.Resource.Styleable.ActionBar_divider;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_elevation = global::MeditSolution.Droid.Resource.Styleable.ActionBar_elevation;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_height = global::MeditSolution.Droid.Resource.Styleable.ActionBar_height;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::MeditSolution.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::MeditSolution.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_homeLayout = global::MeditSolution.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_icon = global::MeditSolution.Droid.Resource.Styleable.ActionBar_icon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::MeditSolution.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_itemPadding = global::MeditSolution.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_logo = global::MeditSolution.Droid.Resource.Styleable.ActionBar_logo;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_navigationMode = global::MeditSolution.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_popupTheme = global::MeditSolution.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_progressBarPadding = global::MeditSolution.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_progressBarStyle = global::MeditSolution.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_subtitle = global::MeditSolution.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::MeditSolution.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_title = global::MeditSolution.Droid.Resource.Styleable.ActionBar_title;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_titleTextStyle = global::MeditSolution.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBarLayout = global::MeditSolution.Droid.Resource.Styleable.ActionBarLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::MeditSolution.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMenuItemView = global::MeditSolution.Droid.Resource.Styleable.ActionMenuItemView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::MeditSolution.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMenuView = global::MeditSolution.Droid.Resource.Styleable.ActionMenuView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMode = global::MeditSolution.Droid.Resource.Styleable.ActionMode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMode_background = global::MeditSolution.Droid.Resource.Styleable.ActionMode_background;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMode_backgroundSplit = global::MeditSolution.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMode_closeItemLayout = global::MeditSolution.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMode_height = global::MeditSolution.Droid.Resource.Styleable.ActionMode_height;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::MeditSolution.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMode_titleTextStyle = global::MeditSolution.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActivityChooserView = global::MeditSolution.Droid.Resource.Styleable.ActivityChooserView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::MeditSolution.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::MeditSolution.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AlertDialog = global::MeditSolution.Droid.Resource.Styleable.AlertDialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AlertDialog_android_layout = global::MeditSolution.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::MeditSolution.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AlertDialog_listItemLayout = global::MeditSolution.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AlertDialog_listLayout = global::MeditSolution.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::MeditSolution.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AlertDialog_showTitle = global::MeditSolution.Droid.Resource.Styleable.AlertDialog_showTitle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::MeditSolution.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayout = global::MeditSolution.Droid.Resource.Styleable.AppBarLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayout_android_background = global::MeditSolution.Droid.Resource.Styleable.AppBarLayout_android_background;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayout_elevation = global::MeditSolution.Droid.Resource.Styleable.AppBarLayout_elevation;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayout_expanded = global::MeditSolution.Droid.Resource.Styleable.AppBarLayout_expanded;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayoutStates = global::MeditSolution.Droid.Resource.Styleable.AppBarLayoutStates;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::MeditSolution.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::MeditSolution.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayout_Layout = global::MeditSolution.Droid.Resource.Styleable.AppBarLayout_Layout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::MeditSolution.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::MeditSolution.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatImageView = global::MeditSolution.Droid.Resource.Styleable.AppCompatImageView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatImageView_android_src = global::MeditSolution.Droid.Resource.Styleable.AppCompatImageView_android_src;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::MeditSolution.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatSeekBar = global::MeditSolution.Droid.Resource.Styleable.AppCompatSeekBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::MeditSolution.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::MeditSolution.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::MeditSolution.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::MeditSolution.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextHelper = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextHelper;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextView = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::MeditSolution.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::MeditSolution.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomNavigationView = global::MeditSolution.Droid.Resource.Styleable.BottomNavigationView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomNavigationView_elevation = global::MeditSolution.Droid.Resource.Styleable.BottomNavigationView_elevation;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomNavigationView_itemBackground = global::MeditSolution.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomNavigationView_itemIconTint = global::MeditSolution.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomNavigationView_itemTextColor = global::MeditSolution.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomNavigationView_menu = global::MeditSolution.Droid.Resource.Styleable.BottomNavigationView_menu;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::MeditSolution.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::MeditSolution.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::MeditSolution.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::MeditSolution.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ButtonBarLayout = global::MeditSolution.Droid.Resource.Styleable.ButtonBarLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::MeditSolution.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView = global::MeditSolution.Droid.Resource.Styleable.CardView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_android_minHeight = global::MeditSolution.Droid.Resource.Styleable.CardView_android_minHeight;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_android_minWidth = global::MeditSolution.Droid.Resource.Styleable.CardView_android_minWidth;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_cardBackgroundColor = global::MeditSolution.Droid.Resource.Styleable.CardView_cardBackgroundColor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_cardCornerRadius = global::MeditSolution.Droid.Resource.Styleable.CardView_cardCornerRadius;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_cardElevation = global::MeditSolution.Droid.Resource.Styleable.CardView_cardElevation;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_cardMaxElevation = global::MeditSolution.Droid.Resource.Styleable.CardView_cardMaxElevation;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::MeditSolution.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::MeditSolution.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_contentPadding = global::MeditSolution.Droid.Resource.Styleable.CardView_contentPadding;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_contentPaddingBottom = global::MeditSolution.Droid.Resource.Styleable.CardView_contentPaddingBottom;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_contentPaddingLeft = global::MeditSolution.Droid.Resource.Styleable.CardView_contentPaddingLeft;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_contentPaddingRight = global::MeditSolution.Droid.Resource.Styleable.CardView_contentPaddingRight;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_contentPaddingTop = global::MeditSolution.Droid.Resource.Styleable.CardView_contentPaddingTop;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::MeditSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ColorStateListItem = global::MeditSolution.Droid.Resource.Styleable.ColorStateListItem;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ColorStateListItem_alpha = global::MeditSolution.Droid.Resource.Styleable.ColorStateListItem_alpha;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::MeditSolution.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ColorStateListItem_android_color = global::MeditSolution.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CompoundButton = global::MeditSolution.Droid.Resource.Styleable.CompoundButton;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CompoundButton_android_button = global::MeditSolution.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CompoundButton_buttonTint = global::MeditSolution.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::MeditSolution.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout = global::MeditSolution.Droid.Resource.Styleable.CoordinatorLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_keylines = global::MeditSolution.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::MeditSolution.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout = global::MeditSolution.Droid.Resource.Styleable.CoordinatorLayout_Layout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::MeditSolution.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::MeditSolution.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::MeditSolution.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::MeditSolution.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::MeditSolution.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::MeditSolution.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::MeditSolution.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DesignTheme = global::MeditSolution.Droid.Resource.Styleable.DesignTheme;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::MeditSolution.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::MeditSolution.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DesignTheme_textColorError = global::MeditSolution.Droid.Resource.Styleable.DesignTheme_textColorError;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DrawerArrowToggle = global::MeditSolution.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::MeditSolution.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::MeditSolution.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::MeditSolution.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DrawerArrowToggle_color = global::MeditSolution.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::MeditSolution.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::MeditSolution.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::MeditSolution.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::MeditSolution.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton = global::MeditSolution.Droid.Resource.Styleable.FloatingActionButton;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::MeditSolution.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::MeditSolution.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::MeditSolution.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_elevation = global::MeditSolution.Droid.Resource.Styleable.FloatingActionButton_elevation;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_fabSize = global::MeditSolution.Droid.Resource.Styleable.FloatingActionButton_fabSize;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::MeditSolution.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::MeditSolution.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::MeditSolution.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::MeditSolution.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::MeditSolution.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ForegroundLinearLayout = global::MeditSolution.Droid.Resource.Styleable.ForegroundLinearLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::MeditSolution.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::MeditSolution.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::MeditSolution.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_divider = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::MeditSolution.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ListPopupWindow = global::MeditSolution.Droid.Resource.Styleable.ListPopupWindow;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::MeditSolution.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::MeditSolution.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MediaRouteButton = global::MeditSolution.Droid.Resource.Styleable.MediaRouteButton;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MediaRouteButton_android_minHeight = global::MeditSolution.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MediaRouteButton_android_minWidth = global::MeditSolution.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::MeditSolution.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuGroup = global::MeditSolution.Droid.Resource.Styleable.MenuGroup;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::MeditSolution.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuGroup_android_enabled = global::MeditSolution.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuGroup_android_id = global::MeditSolution.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::MeditSolution.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::MeditSolution.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuGroup_android_visible = global::MeditSolution.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem = global::MeditSolution.Droid.Resource.Styleable.MenuItem;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_actionLayout = global::MeditSolution.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_actionProviderClass = global::MeditSolution.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_actionViewClass = global::MeditSolution.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::MeditSolution.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_checkable = global::MeditSolution.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_checked = global::MeditSolution.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_enabled = global::MeditSolution.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_icon = global::MeditSolution.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_id = global::MeditSolution.Droid.Resource.Styleable.MenuItem_android_id;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_menuCategory = global::MeditSolution.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::MeditSolution.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_onClick = global::MeditSolution.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::MeditSolution.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_title = global::MeditSolution.Droid.Resource.Styleable.MenuItem_android_title;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::MeditSolution.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_visible = global::MeditSolution.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_showAsAction = global::MeditSolution.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView = global::MeditSolution.Droid.Resource.Styleable.MenuView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView_android_headerBackground = global::MeditSolution.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::MeditSolution.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView_android_itemBackground = global::MeditSolution.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::MeditSolution.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::MeditSolution.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView_android_verticalDivider = global::MeditSolution.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::MeditSolution.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::MeditSolution.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView_subMenuArrow = global::MeditSolution.Droid.Resource.Styleable.MenuView_subMenuArrow;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView = global::MeditSolution.Droid.Resource.Styleable.NavigationView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_android_background = global::MeditSolution.Droid.Resource.Styleable.NavigationView_android_background;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::MeditSolution.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_android_maxWidth = global::MeditSolution.Droid.Resource.Styleable.NavigationView_android_maxWidth;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_elevation = global::MeditSolution.Droid.Resource.Styleable.NavigationView_elevation;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_headerLayout = global::MeditSolution.Droid.Resource.Styleable.NavigationView_headerLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_itemBackground = global::MeditSolution.Droid.Resource.Styleable.NavigationView_itemBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_itemIconTint = global::MeditSolution.Droid.Resource.Styleable.NavigationView_itemIconTint;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::MeditSolution.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_itemTextColor = global::MeditSolution.Droid.Resource.Styleable.NavigationView_itemTextColor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_menu = global::MeditSolution.Droid.Resource.Styleable.NavigationView_menu;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.PopupWindow = global::MeditSolution.Droid.Resource.Styleable.PopupWindow;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::MeditSolution.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::MeditSolution.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::MeditSolution.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.PopupWindowBackgroundState = global::MeditSolution.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::MeditSolution.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecycleListView = global::MeditSolution.Droid.Resource.Styleable.RecycleListView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::MeditSolution.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::MeditSolution.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecyclerView = global::MeditSolution.Droid.Resource.Styleable.RecyclerView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::MeditSolution.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecyclerView_android_orientation = global::MeditSolution.Droid.Resource.Styleable.RecyclerView_android_orientation;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecyclerView_layoutManager = global::MeditSolution.Droid.Resource.Styleable.RecyclerView_layoutManager;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecyclerView_reverseLayout = global::MeditSolution.Droid.Resource.Styleable.RecyclerView_reverseLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecyclerView_spanCount = global::MeditSolution.Droid.Resource.Styleable.RecyclerView_spanCount;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::MeditSolution.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::MeditSolution.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::MeditSolution.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::MeditSolution.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::MeditSolution.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView = global::MeditSolution.Droid.Resource.Styleable.SearchView;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_android_focusable = global::MeditSolution.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_android_imeOptions = global::MeditSolution.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_android_inputType = global::MeditSolution.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_android_maxWidth = global::MeditSolution.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_closeIcon = global::MeditSolution.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_commitIcon = global::MeditSolution.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_defaultQueryHint = global::MeditSolution.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_goIcon = global::MeditSolution.Droid.Resource.Styleable.SearchView_goIcon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::MeditSolution.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_layout = global::MeditSolution.Droid.Resource.Styleable.SearchView_layout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_queryBackground = global::MeditSolution.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_queryHint = global::MeditSolution.Droid.Resource.Styleable.SearchView_queryHint;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_searchHintIcon = global::MeditSolution.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_searchIcon = global::MeditSolution.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_submitBackground = global::MeditSolution.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::MeditSolution.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_voiceIcon = global::MeditSolution.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SnackbarLayout = global::MeditSolution.Droid.Resource.Styleable.SnackbarLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::MeditSolution.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SnackbarLayout_elevation = global::MeditSolution.Droid.Resource.Styleable.SnackbarLayout_elevation;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::MeditSolution.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Spinner = global::MeditSolution.Droid.Resource.Styleable.Spinner;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::MeditSolution.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Spinner_android_entries = global::MeditSolution.Droid.Resource.Styleable.Spinner_android_entries;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Spinner_android_popupBackground = global::MeditSolution.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Spinner_android_prompt = global::MeditSolution.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Spinner_popupTheme = global::MeditSolution.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_android_textOff = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_android_textOn = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_android_thumb = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_showText = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_splitTrack = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_switchPadding = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_thumbTint = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_thumbTint;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_track = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_track;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_trackTint = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_trackTint;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::MeditSolution.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabItem = global::MeditSolution.Droid.Resource.Styleable.TabItem;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabItem_android_icon = global::MeditSolution.Droid.Resource.Styleable.TabItem_android_icon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabItem_android_layout = global::MeditSolution.Droid.Resource.Styleable.TabItem_android_layout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabItem_android_text = global::MeditSolution.Droid.Resource.Styleable.TabItem_android_text;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout = global::MeditSolution.Droid.Resource.Styleable.TabLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabBackground = global::MeditSolution.Droid.Resource.Styleable.TabLayout_tabBackground;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabContentStart = global::MeditSolution.Droid.Resource.Styleable.TabLayout_tabContentStart;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabGravity = global::MeditSolution.Droid.Resource.Styleable.TabLayout_tabGravity;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::MeditSolution.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::MeditSolution.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::MeditSolution.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabMinWidth = global::MeditSolution.Droid.Resource.Styleable.TabLayout_tabMinWidth;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabMode = global::MeditSolution.Droid.Resource.Styleable.TabLayout_tabMode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabPadding = global::MeditSolution.Droid.Resource.Styleable.TabLayout_tabPadding;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::MeditSolution.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::MeditSolution.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::MeditSolution.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::MeditSolution.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::MeditSolution.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::MeditSolution.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabTextColor = global::MeditSolution.Droid.Resource.Styleable.TabLayout_tabTextColor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance = global::MeditSolution.Droid.Resource.Styleable.TextAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::MeditSolution.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::MeditSolution.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::MeditSolution.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::MeditSolution.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_android_textColor = global::MeditSolution.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::MeditSolution.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_android_textSize = global::MeditSolution.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_android_textStyle = global::MeditSolution.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_android_typeface = global::MeditSolution.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_textAllCaps = global::MeditSolution.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout = global::MeditSolution.Droid.Resource.Styleable.TextInputLayout;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_android_hint = global::MeditSolution.Droid.Resource.Styleable.TextInputLayout_android_hint;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::MeditSolution.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::MeditSolution.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::MeditSolution.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::MeditSolution.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::MeditSolution.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::MeditSolution.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::MeditSolution.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::MeditSolution.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::MeditSolution.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::MeditSolution.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::MeditSolution.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::MeditSolution.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::MeditSolution.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::MeditSolution.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::MeditSolution.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar = global::MeditSolution.Droid.Resource.Styleable.Toolbar;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_android_gravity = global::MeditSolution.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_android_minHeight = global::MeditSolution.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_buttonGravity = global::MeditSolution.Droid.Resource.Styleable.Toolbar_buttonGravity;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::MeditSolution.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_collapseIcon = global::MeditSolution.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::MeditSolution.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::MeditSolution.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::MeditSolution.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_contentInsetRight = global::MeditSolution.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_contentInsetStart = global::MeditSolution.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::MeditSolution.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_logo = global::MeditSolution.Droid.Resource.Styleable.Toolbar_logo;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_logoDescription = global::MeditSolution.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::MeditSolution.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::MeditSolution.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_navigationIcon = global::MeditSolution.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_popupTheme = global::MeditSolution.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_subtitle = global::MeditSolution.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::MeditSolution.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::MeditSolution.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_title = global::MeditSolution.Droid.Resource.Styleable.Toolbar_title;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_titleMargin = global::MeditSolution.Droid.Resource.Styleable.Toolbar_titleMargin;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::MeditSolution.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::MeditSolution.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_titleMarginStart = global::MeditSolution.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_titleMarginTop = global::MeditSolution.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_titleMargins = global::MeditSolution.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::MeditSolution.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_titleTextColor = global::MeditSolution.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.View = global::MeditSolution.Droid.Resource.Styleable.View;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.View_android_focusable = global::MeditSolution.Droid.Resource.Styleable.View_android_focusable;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.View_android_theme = global::MeditSolution.Droid.Resource.Styleable.View_android_theme;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.View_paddingEnd = global::MeditSolution.Droid.Resource.Styleable.View_paddingEnd;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.View_paddingStart = global::MeditSolution.Droid.Resource.Styleable.View_paddingStart;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.View_theme = global::MeditSolution.Droid.Resource.Styleable.View_theme;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ViewBackgroundHelper = global::MeditSolution.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::MeditSolution.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::MeditSolution.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::MeditSolution.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ViewStubCompat = global::MeditSolution.Droid.Resource.Styleable.ViewStubCompat;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ViewStubCompat_android_id = global::MeditSolution.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::MeditSolution.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ViewStubCompat_android_layout = global::MeditSolution.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.abc_fade_in = global::MeditSolution.Droid.Resource.Animation.abc_fade_in;
 			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.abc_fade_out = global::MeditSolution.Droid.Resource.Animation.abc_fade_out;
 			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::MeditSolution.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -10244,7 +6665,6 @@ namespace MeditSolution.Droid
 			global::ProgressRingControl.Forms.Plugin.Android.Resource.Interpolator.mr_linear_out_slow_in = global::MeditSolution.Droid.Resource.Interpolator.mr_linear_out_slow_in;
 			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_action_bar_title_item = global::MeditSolution.Droid.Resource.Layout.abc_action_bar_title_item;
 			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_action_bar_up_container = global::MeditSolution.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_action_bar_view_list_nav_layout = global::MeditSolution.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
 			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_action_menu_item_layout = global::MeditSolution.Droid.Resource.Layout.abc_action_menu_item_layout;
 			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_action_menu_layout = global::MeditSolution.Droid.Resource.Layout.abc_action_menu_layout;
 			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_action_mode_bar = global::MeditSolution.Droid.Resource.Layout.abc_action_mode_bar;
@@ -10309,8 +6729,6 @@ namespace MeditSolution.Droid
 			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.select_dialog_singlechoice_material = global::MeditSolution.Droid.Resource.Layout.select_dialog_singlechoice_material;
 			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::MeditSolution.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_action_bar_home_description = global::MeditSolution.Droid.Resource.String.abc_action_bar_home_description;
-			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_action_bar_home_description_format = global::MeditSolution.Droid.Resource.String.abc_action_bar_home_description_format;
-			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_action_bar_home_subtitle_description_format = global::MeditSolution.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
 			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_action_bar_up_description = global::MeditSolution.Droid.Resource.String.abc_action_bar_up_description;
 			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_action_menu_overflow_description = global::MeditSolution.Droid.Resource.String.abc_action_menu_overflow_description;
 			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_action_mode_done = global::MeditSolution.Droid.Resource.String.abc_action_mode_done;
@@ -10582,16 +7000,6 @@ namespace MeditSolution.Droid
 			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
 			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
 			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Notification = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification;
-			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Notification_Info = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Info;
-			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Notification_Info_Media = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Info_Media;
-			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Notification_Line2 = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Line2;
-			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Notification_Line2_Media = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Line2_Media;
-			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Notification_Media = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Media;
-			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Notification_Time = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Time;
-			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Notification_Time_Media = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Time_Media;
-			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Notification_Title = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Title;
-			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Notification_Title_Media = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Title_Media;
 			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
 			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
 			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Small = global::MeditSolution.Droid.Resource.Style.TextAppearance_AppCompat_Small;
@@ -12024,7 +8432,6 @@ namespace MeditSolution.Droid
 			global::RoxVideo.Resource.Interpolator.mr_linear_out_slow_in = global::MeditSolution.Droid.Resource.Interpolator.mr_linear_out_slow_in;
 			global::RoxVideo.Resource.Layout.abc_action_bar_title_item = global::MeditSolution.Droid.Resource.Layout.abc_action_bar_title_item;
 			global::RoxVideo.Resource.Layout.abc_action_bar_up_container = global::MeditSolution.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::RoxVideo.Resource.Layout.abc_action_bar_view_list_nav_layout = global::MeditSolution.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
 			global::RoxVideo.Resource.Layout.abc_action_menu_item_layout = global::MeditSolution.Droid.Resource.Layout.abc_action_menu_item_layout;
 			global::RoxVideo.Resource.Layout.abc_action_menu_layout = global::MeditSolution.Droid.Resource.Layout.abc_action_menu_layout;
 			global::RoxVideo.Resource.Layout.abc_action_mode_bar = global::MeditSolution.Droid.Resource.Layout.abc_action_mode_bar;
@@ -12079,8 +8486,6 @@ namespace MeditSolution.Droid
 			global::RoxVideo.Resource.String.ApplicationName = global::MeditSolution.Droid.Resource.String.ApplicationName;
 			global::RoxVideo.Resource.String.Hello = global::MeditSolution.Droid.Resource.String.Hello;
 			global::RoxVideo.Resource.String.abc_action_bar_home_description = global::MeditSolution.Droid.Resource.String.abc_action_bar_home_description;
-			global::RoxVideo.Resource.String.abc_action_bar_home_description_format = global::MeditSolution.Droid.Resource.String.abc_action_bar_home_description_format;
-			global::RoxVideo.Resource.String.abc_action_bar_home_subtitle_description_format = global::MeditSolution.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
 			global::RoxVideo.Resource.String.abc_action_bar_up_description = global::MeditSolution.Droid.Resource.String.abc_action_bar_up_description;
 			global::RoxVideo.Resource.String.abc_action_menu_overflow_description = global::MeditSolution.Droid.Resource.String.abc_action_menu_overflow_description;
 			global::RoxVideo.Resource.String.abc_action_mode_done = global::MeditSolution.Droid.Resource.String.abc_action_mode_done;
@@ -13494,9 +9899,6 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f010018
 			public const int fastScrollVerticalTrackDrawable = 2130771992;
 			
-			// aapt resource value: 0x7f010191
-			public const int fastforward_increment = 2130772369;
-			
 			// aapt resource value: 0x7f010183
 			public const int font = 2130772355;
 			
@@ -13866,14 +10268,8 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0100d5
 			public const int ratingBarStyleSmall = 2130772181;
 			
-			// aapt resource value: 0x7f010192
-			public const int resize_mode = 2130772370;
-			
 			// aapt resource value: 0x7f010014
 			public const int reverseLayout = 2130771988;
-			
-			// aapt resource value: 0x7f010193
-			public const int rewind_increment = 2130772371;
 			
 			// aapt resource value: 0x7f01014e
 			public const int rippleColor = 2130772302;
@@ -13916,9 +10312,6 @@ namespace MeditSolution.Droid
 			
 			// aapt resource value: 0x7f01005a
 			public const int showTitle = 2130772058;
-			
-			// aapt resource value: 0x7f010194
-			public const int show_timeout = 2130772372;
 			
 			// aapt resource value: 0x7f010058
 			public const int singleChoiceItemLayout = 2130772056;
@@ -14169,41 +10562,35 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f010152
 			public const int useCompatPadding = 2130772306;
 			
-			// aapt resource value: 0x7f010195
-			public const int use_controller = 2130772373;
-			
-			// aapt resource value: 0x7f010196
-			public const int use_texture_view = 2130772374;
-			
 			// aapt resource value: 0x7f010104
 			public const int voiceIcon = 2130772228;
 			
-			// aapt resource value: 0x7f010198
-			public const int vpiCentered = 2130772376;
+			// aapt resource value: 0x7f010192
+			public const int vpiCentered = 2130772370;
+			
+			// aapt resource value: 0x7f010191
+			public const int vpiCirclePageIndicatorStyle = 2130772369;
 			
 			// aapt resource value: 0x7f010197
-			public const int vpiCirclePageIndicatorStyle = 2130772375;
+			public const int vpiFillColor = 2130772375;
 			
-			// aapt resource value: 0x7f01019d
-			public const int vpiFillColor = 2130772381;
+			// aapt resource value: 0x7f010194
+			public const int vpiOrientation = 2130772372;
 			
-			// aapt resource value: 0x7f01019a
-			public const int vpiOrientation = 2130772378;
+			// aapt resource value: 0x7f010193
+			public const int vpiPageColor = 2130772371;
+			
+			// aapt resource value: 0x7f010196
+			public const int vpiRadius = 2130772374;
+			
+			// aapt resource value: 0x7f010195
+			public const int vpiSnap = 2130772373;
+			
+			// aapt resource value: 0x7f010198
+			public const int vpiStrokeColor = 2130772376;
 			
 			// aapt resource value: 0x7f010199
-			public const int vpiPageColor = 2130772377;
-			
-			// aapt resource value: 0x7f01019c
-			public const int vpiRadius = 2130772380;
-			
-			// aapt resource value: 0x7f01019b
-			public const int vpiSnap = 2130772379;
-			
-			// aapt resource value: 0x7f01019e
-			public const int vpiStrokeColor = 2130772382;
-			
-			// aapt resource value: 0x7f01019f
-			public const int vpiStrokeWidth = 2130772383;
+			public const int vpiStrokeWidth = 2130772377;
 			
 			// aapt resource value: 0x7f010068
 			public const int windowActionBar = 2130772072;
@@ -15592,26 +11979,26 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f020056
 			public const int avd_hide_password = 2130837590;
 			
-			// aapt resource value: 0x7f0201b7
-			public const int avd_hide_password_1 = 2130837943;
+			// aapt resource value: 0x7f0201b1
+			public const int avd_hide_password_1 = 2130837937;
 			
-			// aapt resource value: 0x7f0201b8
-			public const int avd_hide_password_2 = 2130837944;
+			// aapt resource value: 0x7f0201b2
+			public const int avd_hide_password_2 = 2130837938;
 			
-			// aapt resource value: 0x7f0201b9
-			public const int avd_hide_password_3 = 2130837945;
+			// aapt resource value: 0x7f0201b3
+			public const int avd_hide_password_3 = 2130837939;
 			
 			// aapt resource value: 0x7f020057
 			public const int avd_show_password = 2130837591;
 			
-			// aapt resource value: 0x7f0201ba
-			public const int avd_show_password_1 = 2130837946;
+			// aapt resource value: 0x7f0201b4
+			public const int avd_show_password_1 = 2130837940;
 			
-			// aapt resource value: 0x7f0201bb
-			public const int avd_show_password_2 = 2130837947;
+			// aapt resource value: 0x7f0201b5
+			public const int avd_show_password_2 = 2130837941;
 			
-			// aapt resource value: 0x7f0201bc
-			public const int avd_show_password_3 = 2130837948;
+			// aapt resource value: 0x7f0201b6
+			public const int avd_show_password_3 = 2130837942;
 			
 			// aapt resource value: 0x7f020058
 			public const int bb_bottom_bar_top_shadow = 2130837592;
@@ -15806,865 +12193,847 @@ namespace MeditSolution.Droid
 			public const int Down = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int exo_controls_fastforward = 2130837656;
+			public const int facebook = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int exo_controls_next = 2130837657;
+			public const int femme = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int exo_controls_pause = 2130837658;
+			public const int fr = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int exo_controls_play = 2130837659;
+			public const int googleg_disabled_color_18 = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int exo_controls_previous = 2130837660;
+			public const int googleg_standard_color_18 = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int exo_controls_rewind = 2130837661;
+			public const int homme = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int facebook = 2130837662;
+			public const int ic_audiotrack_dark = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int femme = 2130837663;
+			public const int ic_audiotrack_light = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int fr = 2130837664;
+			public const int ic_dialog_close_dark = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int googleg_disabled_color_18 = 2130837665;
+			public const int ic_dialog_close_light = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int googleg_standard_color_18 = 2130837666;
+			public const int ic_group_collapse_00 = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int homme = 2130837667;
+			public const int ic_group_collapse_01 = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int ic_audiotrack_dark = 2130837668;
+			public const int ic_group_collapse_02 = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int ic_audiotrack_light = 2130837669;
+			public const int ic_group_collapse_03 = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int ic_dialog_close_dark = 2130837670;
+			public const int ic_group_collapse_04 = 2130837670;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int ic_dialog_close_light = 2130837671;
+			public const int ic_group_collapse_05 = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int ic_group_collapse_00 = 2130837672;
+			public const int ic_group_collapse_06 = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int ic_group_collapse_01 = 2130837673;
+			public const int ic_group_collapse_07 = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int ic_group_collapse_02 = 2130837674;
+			public const int ic_group_collapse_08 = 2130837674;
 			
 			// aapt resource value: 0x7f0200ab
-			public const int ic_group_collapse_03 = 2130837675;
+			public const int ic_group_collapse_09 = 2130837675;
 			
 			// aapt resource value: 0x7f0200ac
-			public const int ic_group_collapse_04 = 2130837676;
+			public const int ic_group_collapse_10 = 2130837676;
 			
 			// aapt resource value: 0x7f0200ad
-			public const int ic_group_collapse_05 = 2130837677;
+			public const int ic_group_collapse_11 = 2130837677;
 			
 			// aapt resource value: 0x7f0200ae
-			public const int ic_group_collapse_06 = 2130837678;
+			public const int ic_group_collapse_12 = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int ic_group_collapse_07 = 2130837679;
+			public const int ic_group_collapse_13 = 2130837679;
 			
 			// aapt resource value: 0x7f0200b0
-			public const int ic_group_collapse_08 = 2130837680;
+			public const int ic_group_collapse_14 = 2130837680;
 			
 			// aapt resource value: 0x7f0200b1
-			public const int ic_group_collapse_09 = 2130837681;
+			public const int ic_group_collapse_15 = 2130837681;
 			
 			// aapt resource value: 0x7f0200b2
-			public const int ic_group_collapse_10 = 2130837682;
+			public const int ic_group_expand_00 = 2130837682;
 			
 			// aapt resource value: 0x7f0200b3
-			public const int ic_group_collapse_11 = 2130837683;
+			public const int ic_group_expand_01 = 2130837683;
 			
 			// aapt resource value: 0x7f0200b4
-			public const int ic_group_collapse_12 = 2130837684;
+			public const int ic_group_expand_02 = 2130837684;
 			
 			// aapt resource value: 0x7f0200b5
-			public const int ic_group_collapse_13 = 2130837685;
+			public const int ic_group_expand_03 = 2130837685;
 			
 			// aapt resource value: 0x7f0200b6
-			public const int ic_group_collapse_14 = 2130837686;
+			public const int ic_group_expand_04 = 2130837686;
 			
 			// aapt resource value: 0x7f0200b7
-			public const int ic_group_collapse_15 = 2130837687;
+			public const int ic_group_expand_05 = 2130837687;
 			
 			// aapt resource value: 0x7f0200b8
-			public const int ic_group_expand_00 = 2130837688;
+			public const int ic_group_expand_06 = 2130837688;
 			
 			// aapt resource value: 0x7f0200b9
-			public const int ic_group_expand_01 = 2130837689;
+			public const int ic_group_expand_07 = 2130837689;
 			
 			// aapt resource value: 0x7f0200ba
-			public const int ic_group_expand_02 = 2130837690;
+			public const int ic_group_expand_08 = 2130837690;
 			
 			// aapt resource value: 0x7f0200bb
-			public const int ic_group_expand_03 = 2130837691;
+			public const int ic_group_expand_09 = 2130837691;
 			
 			// aapt resource value: 0x7f0200bc
-			public const int ic_group_expand_04 = 2130837692;
+			public const int ic_group_expand_10 = 2130837692;
 			
 			// aapt resource value: 0x7f0200bd
-			public const int ic_group_expand_05 = 2130837693;
+			public const int ic_group_expand_11 = 2130837693;
 			
 			// aapt resource value: 0x7f0200be
-			public const int ic_group_expand_06 = 2130837694;
+			public const int ic_group_expand_12 = 2130837694;
 			
 			// aapt resource value: 0x7f0200bf
-			public const int ic_group_expand_07 = 2130837695;
+			public const int ic_group_expand_13 = 2130837695;
 			
 			// aapt resource value: 0x7f0200c0
-			public const int ic_group_expand_08 = 2130837696;
+			public const int ic_group_expand_14 = 2130837696;
 			
 			// aapt resource value: 0x7f0200c1
-			public const int ic_group_expand_09 = 2130837697;
+			public const int ic_group_expand_15 = 2130837697;
 			
 			// aapt resource value: 0x7f0200c2
-			public const int ic_group_expand_10 = 2130837698;
+			public const int ic_media_pause_dark = 2130837698;
 			
 			// aapt resource value: 0x7f0200c3
-			public const int ic_group_expand_11 = 2130837699;
+			public const int ic_media_pause_light = 2130837699;
 			
 			// aapt resource value: 0x7f0200c4
-			public const int ic_group_expand_12 = 2130837700;
+			public const int ic_media_play_dark = 2130837700;
 			
 			// aapt resource value: 0x7f0200c5
-			public const int ic_group_expand_13 = 2130837701;
+			public const int ic_media_play_light = 2130837701;
 			
 			// aapt resource value: 0x7f0200c6
-			public const int ic_group_expand_14 = 2130837702;
+			public const int ic_media_stop_dark = 2130837702;
 			
 			// aapt resource value: 0x7f0200c7
-			public const int ic_group_expand_15 = 2130837703;
+			public const int ic_media_stop_light = 2130837703;
 			
 			// aapt resource value: 0x7f0200c8
-			public const int ic_media_pause_dark = 2130837704;
+			public const int ic_mr_button_connected_00_dark = 2130837704;
 			
 			// aapt resource value: 0x7f0200c9
-			public const int ic_media_pause_light = 2130837705;
+			public const int ic_mr_button_connected_00_light = 2130837705;
 			
 			// aapt resource value: 0x7f0200ca
-			public const int ic_media_play_dark = 2130837706;
+			public const int ic_mr_button_connected_01_dark = 2130837706;
 			
 			// aapt resource value: 0x7f0200cb
-			public const int ic_media_play_light = 2130837707;
+			public const int ic_mr_button_connected_01_light = 2130837707;
 			
 			// aapt resource value: 0x7f0200cc
-			public const int ic_media_stop_dark = 2130837708;
+			public const int ic_mr_button_connected_02_dark = 2130837708;
 			
 			// aapt resource value: 0x7f0200cd
-			public const int ic_media_stop_light = 2130837709;
+			public const int ic_mr_button_connected_02_light = 2130837709;
 			
 			// aapt resource value: 0x7f0200ce
-			public const int ic_mr_button_connected_00_dark = 2130837710;
+			public const int ic_mr_button_connected_03_dark = 2130837710;
 			
 			// aapt resource value: 0x7f0200cf
-			public const int ic_mr_button_connected_00_light = 2130837711;
+			public const int ic_mr_button_connected_03_light = 2130837711;
 			
 			// aapt resource value: 0x7f0200d0
-			public const int ic_mr_button_connected_01_dark = 2130837712;
+			public const int ic_mr_button_connected_04_dark = 2130837712;
 			
 			// aapt resource value: 0x7f0200d1
-			public const int ic_mr_button_connected_01_light = 2130837713;
+			public const int ic_mr_button_connected_04_light = 2130837713;
 			
 			// aapt resource value: 0x7f0200d2
-			public const int ic_mr_button_connected_02_dark = 2130837714;
+			public const int ic_mr_button_connected_05_dark = 2130837714;
 			
 			// aapt resource value: 0x7f0200d3
-			public const int ic_mr_button_connected_02_light = 2130837715;
+			public const int ic_mr_button_connected_05_light = 2130837715;
 			
 			// aapt resource value: 0x7f0200d4
-			public const int ic_mr_button_connected_03_dark = 2130837716;
+			public const int ic_mr_button_connected_06_dark = 2130837716;
 			
 			// aapt resource value: 0x7f0200d5
-			public const int ic_mr_button_connected_03_light = 2130837717;
+			public const int ic_mr_button_connected_06_light = 2130837717;
 			
 			// aapt resource value: 0x7f0200d6
-			public const int ic_mr_button_connected_04_dark = 2130837718;
+			public const int ic_mr_button_connected_07_dark = 2130837718;
 			
 			// aapt resource value: 0x7f0200d7
-			public const int ic_mr_button_connected_04_light = 2130837719;
+			public const int ic_mr_button_connected_07_light = 2130837719;
 			
 			// aapt resource value: 0x7f0200d8
-			public const int ic_mr_button_connected_05_dark = 2130837720;
+			public const int ic_mr_button_connected_08_dark = 2130837720;
 			
 			// aapt resource value: 0x7f0200d9
-			public const int ic_mr_button_connected_05_light = 2130837721;
+			public const int ic_mr_button_connected_08_light = 2130837721;
 			
 			// aapt resource value: 0x7f0200da
-			public const int ic_mr_button_connected_06_dark = 2130837722;
+			public const int ic_mr_button_connected_09_dark = 2130837722;
 			
 			// aapt resource value: 0x7f0200db
-			public const int ic_mr_button_connected_06_light = 2130837723;
+			public const int ic_mr_button_connected_09_light = 2130837723;
 			
 			// aapt resource value: 0x7f0200dc
-			public const int ic_mr_button_connected_07_dark = 2130837724;
+			public const int ic_mr_button_connected_10_dark = 2130837724;
 			
 			// aapt resource value: 0x7f0200dd
-			public const int ic_mr_button_connected_07_light = 2130837725;
+			public const int ic_mr_button_connected_10_light = 2130837725;
 			
 			// aapt resource value: 0x7f0200de
-			public const int ic_mr_button_connected_08_dark = 2130837726;
+			public const int ic_mr_button_connected_11_dark = 2130837726;
 			
 			// aapt resource value: 0x7f0200df
-			public const int ic_mr_button_connected_08_light = 2130837727;
+			public const int ic_mr_button_connected_11_light = 2130837727;
 			
 			// aapt resource value: 0x7f0200e0
-			public const int ic_mr_button_connected_09_dark = 2130837728;
+			public const int ic_mr_button_connected_12_dark = 2130837728;
 			
 			// aapt resource value: 0x7f0200e1
-			public const int ic_mr_button_connected_09_light = 2130837729;
+			public const int ic_mr_button_connected_12_light = 2130837729;
 			
 			// aapt resource value: 0x7f0200e2
-			public const int ic_mr_button_connected_10_dark = 2130837730;
+			public const int ic_mr_button_connected_13_dark = 2130837730;
 			
 			// aapt resource value: 0x7f0200e3
-			public const int ic_mr_button_connected_10_light = 2130837731;
+			public const int ic_mr_button_connected_13_light = 2130837731;
 			
 			// aapt resource value: 0x7f0200e4
-			public const int ic_mr_button_connected_11_dark = 2130837732;
+			public const int ic_mr_button_connected_14_dark = 2130837732;
 			
 			// aapt resource value: 0x7f0200e5
-			public const int ic_mr_button_connected_11_light = 2130837733;
+			public const int ic_mr_button_connected_14_light = 2130837733;
 			
 			// aapt resource value: 0x7f0200e6
-			public const int ic_mr_button_connected_12_dark = 2130837734;
+			public const int ic_mr_button_connected_15_dark = 2130837734;
 			
 			// aapt resource value: 0x7f0200e7
-			public const int ic_mr_button_connected_12_light = 2130837735;
+			public const int ic_mr_button_connected_15_light = 2130837735;
 			
 			// aapt resource value: 0x7f0200e8
-			public const int ic_mr_button_connected_13_dark = 2130837736;
+			public const int ic_mr_button_connected_16_dark = 2130837736;
 			
 			// aapt resource value: 0x7f0200e9
-			public const int ic_mr_button_connected_13_light = 2130837737;
+			public const int ic_mr_button_connected_16_light = 2130837737;
 			
 			// aapt resource value: 0x7f0200ea
-			public const int ic_mr_button_connected_14_dark = 2130837738;
+			public const int ic_mr_button_connected_17_dark = 2130837738;
 			
 			// aapt resource value: 0x7f0200eb
-			public const int ic_mr_button_connected_14_light = 2130837739;
+			public const int ic_mr_button_connected_17_light = 2130837739;
 			
 			// aapt resource value: 0x7f0200ec
-			public const int ic_mr_button_connected_15_dark = 2130837740;
+			public const int ic_mr_button_connected_18_dark = 2130837740;
 			
 			// aapt resource value: 0x7f0200ed
-			public const int ic_mr_button_connected_15_light = 2130837741;
+			public const int ic_mr_button_connected_18_light = 2130837741;
 			
 			// aapt resource value: 0x7f0200ee
-			public const int ic_mr_button_connected_16_dark = 2130837742;
+			public const int ic_mr_button_connected_19_dark = 2130837742;
 			
 			// aapt resource value: 0x7f0200ef
-			public const int ic_mr_button_connected_16_light = 2130837743;
+			public const int ic_mr_button_connected_19_light = 2130837743;
 			
 			// aapt resource value: 0x7f0200f0
-			public const int ic_mr_button_connected_17_dark = 2130837744;
+			public const int ic_mr_button_connected_20_dark = 2130837744;
 			
 			// aapt resource value: 0x7f0200f1
-			public const int ic_mr_button_connected_17_light = 2130837745;
+			public const int ic_mr_button_connected_20_light = 2130837745;
 			
 			// aapt resource value: 0x7f0200f2
-			public const int ic_mr_button_connected_18_dark = 2130837746;
+			public const int ic_mr_button_connected_21_dark = 2130837746;
 			
 			// aapt resource value: 0x7f0200f3
-			public const int ic_mr_button_connected_18_light = 2130837747;
+			public const int ic_mr_button_connected_21_light = 2130837747;
 			
 			// aapt resource value: 0x7f0200f4
-			public const int ic_mr_button_connected_19_dark = 2130837748;
+			public const int ic_mr_button_connected_22_dark = 2130837748;
 			
 			// aapt resource value: 0x7f0200f5
-			public const int ic_mr_button_connected_19_light = 2130837749;
+			public const int ic_mr_button_connected_22_light = 2130837749;
 			
 			// aapt resource value: 0x7f0200f6
-			public const int ic_mr_button_connected_20_dark = 2130837750;
+			public const int ic_mr_button_connected_23_dark = 2130837750;
 			
 			// aapt resource value: 0x7f0200f7
-			public const int ic_mr_button_connected_20_light = 2130837751;
+			public const int ic_mr_button_connected_23_light = 2130837751;
 			
 			// aapt resource value: 0x7f0200f8
-			public const int ic_mr_button_connected_21_dark = 2130837752;
+			public const int ic_mr_button_connected_24_dark = 2130837752;
 			
 			// aapt resource value: 0x7f0200f9
-			public const int ic_mr_button_connected_21_light = 2130837753;
+			public const int ic_mr_button_connected_24_light = 2130837753;
 			
 			// aapt resource value: 0x7f0200fa
-			public const int ic_mr_button_connected_22_dark = 2130837754;
+			public const int ic_mr_button_connected_25_dark = 2130837754;
 			
 			// aapt resource value: 0x7f0200fb
-			public const int ic_mr_button_connected_22_light = 2130837755;
+			public const int ic_mr_button_connected_25_light = 2130837755;
 			
 			// aapt resource value: 0x7f0200fc
-			public const int ic_mr_button_connected_23_dark = 2130837756;
+			public const int ic_mr_button_connected_26_dark = 2130837756;
 			
 			// aapt resource value: 0x7f0200fd
-			public const int ic_mr_button_connected_23_light = 2130837757;
+			public const int ic_mr_button_connected_26_light = 2130837757;
 			
 			// aapt resource value: 0x7f0200fe
-			public const int ic_mr_button_connected_24_dark = 2130837758;
+			public const int ic_mr_button_connected_27_dark = 2130837758;
 			
 			// aapt resource value: 0x7f0200ff
-			public const int ic_mr_button_connected_24_light = 2130837759;
+			public const int ic_mr_button_connected_27_light = 2130837759;
 			
 			// aapt resource value: 0x7f020100
-			public const int ic_mr_button_connected_25_dark = 2130837760;
+			public const int ic_mr_button_connected_28_dark = 2130837760;
 			
 			// aapt resource value: 0x7f020101
-			public const int ic_mr_button_connected_25_light = 2130837761;
+			public const int ic_mr_button_connected_28_light = 2130837761;
 			
 			// aapt resource value: 0x7f020102
-			public const int ic_mr_button_connected_26_dark = 2130837762;
+			public const int ic_mr_button_connected_29_dark = 2130837762;
 			
 			// aapt resource value: 0x7f020103
-			public const int ic_mr_button_connected_26_light = 2130837763;
+			public const int ic_mr_button_connected_29_light = 2130837763;
 			
 			// aapt resource value: 0x7f020104
-			public const int ic_mr_button_connected_27_dark = 2130837764;
+			public const int ic_mr_button_connected_30_dark = 2130837764;
 			
 			// aapt resource value: 0x7f020105
-			public const int ic_mr_button_connected_27_light = 2130837765;
+			public const int ic_mr_button_connected_30_light = 2130837765;
 			
 			// aapt resource value: 0x7f020106
-			public const int ic_mr_button_connected_28_dark = 2130837766;
+			public const int ic_mr_button_connecting_00_dark = 2130837766;
 			
 			// aapt resource value: 0x7f020107
-			public const int ic_mr_button_connected_28_light = 2130837767;
+			public const int ic_mr_button_connecting_00_light = 2130837767;
 			
 			// aapt resource value: 0x7f020108
-			public const int ic_mr_button_connected_29_dark = 2130837768;
+			public const int ic_mr_button_connecting_01_dark = 2130837768;
 			
 			// aapt resource value: 0x7f020109
-			public const int ic_mr_button_connected_29_light = 2130837769;
+			public const int ic_mr_button_connecting_01_light = 2130837769;
 			
 			// aapt resource value: 0x7f02010a
-			public const int ic_mr_button_connected_30_dark = 2130837770;
+			public const int ic_mr_button_connecting_02_dark = 2130837770;
 			
 			// aapt resource value: 0x7f02010b
-			public const int ic_mr_button_connected_30_light = 2130837771;
+			public const int ic_mr_button_connecting_02_light = 2130837771;
 			
 			// aapt resource value: 0x7f02010c
-			public const int ic_mr_button_connecting_00_dark = 2130837772;
+			public const int ic_mr_button_connecting_03_dark = 2130837772;
 			
 			// aapt resource value: 0x7f02010d
-			public const int ic_mr_button_connecting_00_light = 2130837773;
+			public const int ic_mr_button_connecting_03_light = 2130837773;
 			
 			// aapt resource value: 0x7f02010e
-			public const int ic_mr_button_connecting_01_dark = 2130837774;
+			public const int ic_mr_button_connecting_04_dark = 2130837774;
 			
 			// aapt resource value: 0x7f02010f
-			public const int ic_mr_button_connecting_01_light = 2130837775;
+			public const int ic_mr_button_connecting_04_light = 2130837775;
 			
 			// aapt resource value: 0x7f020110
-			public const int ic_mr_button_connecting_02_dark = 2130837776;
+			public const int ic_mr_button_connecting_05_dark = 2130837776;
 			
 			// aapt resource value: 0x7f020111
-			public const int ic_mr_button_connecting_02_light = 2130837777;
+			public const int ic_mr_button_connecting_05_light = 2130837777;
 			
 			// aapt resource value: 0x7f020112
-			public const int ic_mr_button_connecting_03_dark = 2130837778;
+			public const int ic_mr_button_connecting_06_dark = 2130837778;
 			
 			// aapt resource value: 0x7f020113
-			public const int ic_mr_button_connecting_03_light = 2130837779;
+			public const int ic_mr_button_connecting_06_light = 2130837779;
 			
 			// aapt resource value: 0x7f020114
-			public const int ic_mr_button_connecting_04_dark = 2130837780;
+			public const int ic_mr_button_connecting_07_dark = 2130837780;
 			
 			// aapt resource value: 0x7f020115
-			public const int ic_mr_button_connecting_04_light = 2130837781;
+			public const int ic_mr_button_connecting_07_light = 2130837781;
 			
 			// aapt resource value: 0x7f020116
-			public const int ic_mr_button_connecting_05_dark = 2130837782;
+			public const int ic_mr_button_connecting_08_dark = 2130837782;
 			
 			// aapt resource value: 0x7f020117
-			public const int ic_mr_button_connecting_05_light = 2130837783;
+			public const int ic_mr_button_connecting_08_light = 2130837783;
 			
 			// aapt resource value: 0x7f020118
-			public const int ic_mr_button_connecting_06_dark = 2130837784;
+			public const int ic_mr_button_connecting_09_dark = 2130837784;
 			
 			// aapt resource value: 0x7f020119
-			public const int ic_mr_button_connecting_06_light = 2130837785;
+			public const int ic_mr_button_connecting_09_light = 2130837785;
 			
 			// aapt resource value: 0x7f02011a
-			public const int ic_mr_button_connecting_07_dark = 2130837786;
+			public const int ic_mr_button_connecting_10_dark = 2130837786;
 			
 			// aapt resource value: 0x7f02011b
-			public const int ic_mr_button_connecting_07_light = 2130837787;
+			public const int ic_mr_button_connecting_10_light = 2130837787;
 			
 			// aapt resource value: 0x7f02011c
-			public const int ic_mr_button_connecting_08_dark = 2130837788;
+			public const int ic_mr_button_connecting_11_dark = 2130837788;
 			
 			// aapt resource value: 0x7f02011d
-			public const int ic_mr_button_connecting_08_light = 2130837789;
+			public const int ic_mr_button_connecting_11_light = 2130837789;
 			
 			// aapt resource value: 0x7f02011e
-			public const int ic_mr_button_connecting_09_dark = 2130837790;
+			public const int ic_mr_button_connecting_12_dark = 2130837790;
 			
 			// aapt resource value: 0x7f02011f
-			public const int ic_mr_button_connecting_09_light = 2130837791;
+			public const int ic_mr_button_connecting_12_light = 2130837791;
 			
 			// aapt resource value: 0x7f020120
-			public const int ic_mr_button_connecting_10_dark = 2130837792;
+			public const int ic_mr_button_connecting_13_dark = 2130837792;
 			
 			// aapt resource value: 0x7f020121
-			public const int ic_mr_button_connecting_10_light = 2130837793;
+			public const int ic_mr_button_connecting_13_light = 2130837793;
 			
 			// aapt resource value: 0x7f020122
-			public const int ic_mr_button_connecting_11_dark = 2130837794;
+			public const int ic_mr_button_connecting_14_dark = 2130837794;
 			
 			// aapt resource value: 0x7f020123
-			public const int ic_mr_button_connecting_11_light = 2130837795;
+			public const int ic_mr_button_connecting_14_light = 2130837795;
 			
 			// aapt resource value: 0x7f020124
-			public const int ic_mr_button_connecting_12_dark = 2130837796;
+			public const int ic_mr_button_connecting_15_dark = 2130837796;
 			
 			// aapt resource value: 0x7f020125
-			public const int ic_mr_button_connecting_12_light = 2130837797;
+			public const int ic_mr_button_connecting_15_light = 2130837797;
 			
 			// aapt resource value: 0x7f020126
-			public const int ic_mr_button_connecting_13_dark = 2130837798;
+			public const int ic_mr_button_connecting_16_dark = 2130837798;
 			
 			// aapt resource value: 0x7f020127
-			public const int ic_mr_button_connecting_13_light = 2130837799;
+			public const int ic_mr_button_connecting_16_light = 2130837799;
 			
 			// aapt resource value: 0x7f020128
-			public const int ic_mr_button_connecting_14_dark = 2130837800;
+			public const int ic_mr_button_connecting_17_dark = 2130837800;
 			
 			// aapt resource value: 0x7f020129
-			public const int ic_mr_button_connecting_14_light = 2130837801;
+			public const int ic_mr_button_connecting_17_light = 2130837801;
 			
 			// aapt resource value: 0x7f02012a
-			public const int ic_mr_button_connecting_15_dark = 2130837802;
+			public const int ic_mr_button_connecting_18_dark = 2130837802;
 			
 			// aapt resource value: 0x7f02012b
-			public const int ic_mr_button_connecting_15_light = 2130837803;
+			public const int ic_mr_button_connecting_18_light = 2130837803;
 			
 			// aapt resource value: 0x7f02012c
-			public const int ic_mr_button_connecting_16_dark = 2130837804;
+			public const int ic_mr_button_connecting_19_dark = 2130837804;
 			
 			// aapt resource value: 0x7f02012d
-			public const int ic_mr_button_connecting_16_light = 2130837805;
+			public const int ic_mr_button_connecting_19_light = 2130837805;
 			
 			// aapt resource value: 0x7f02012e
-			public const int ic_mr_button_connecting_17_dark = 2130837806;
+			public const int ic_mr_button_connecting_20_dark = 2130837806;
 			
 			// aapt resource value: 0x7f02012f
-			public const int ic_mr_button_connecting_17_light = 2130837807;
+			public const int ic_mr_button_connecting_20_light = 2130837807;
 			
 			// aapt resource value: 0x7f020130
-			public const int ic_mr_button_connecting_18_dark = 2130837808;
+			public const int ic_mr_button_connecting_21_dark = 2130837808;
 			
 			// aapt resource value: 0x7f020131
-			public const int ic_mr_button_connecting_18_light = 2130837809;
+			public const int ic_mr_button_connecting_21_light = 2130837809;
 			
 			// aapt resource value: 0x7f020132
-			public const int ic_mr_button_connecting_19_dark = 2130837810;
+			public const int ic_mr_button_connecting_22_dark = 2130837810;
 			
 			// aapt resource value: 0x7f020133
-			public const int ic_mr_button_connecting_19_light = 2130837811;
+			public const int ic_mr_button_connecting_22_light = 2130837811;
 			
 			// aapt resource value: 0x7f020134
-			public const int ic_mr_button_connecting_20_dark = 2130837812;
+			public const int ic_mr_button_connecting_23_dark = 2130837812;
 			
 			// aapt resource value: 0x7f020135
-			public const int ic_mr_button_connecting_20_light = 2130837813;
+			public const int ic_mr_button_connecting_23_light = 2130837813;
 			
 			// aapt resource value: 0x7f020136
-			public const int ic_mr_button_connecting_21_dark = 2130837814;
+			public const int ic_mr_button_connecting_24_dark = 2130837814;
 			
 			// aapt resource value: 0x7f020137
-			public const int ic_mr_button_connecting_21_light = 2130837815;
+			public const int ic_mr_button_connecting_24_light = 2130837815;
 			
 			// aapt resource value: 0x7f020138
-			public const int ic_mr_button_connecting_22_dark = 2130837816;
+			public const int ic_mr_button_connecting_25_dark = 2130837816;
 			
 			// aapt resource value: 0x7f020139
-			public const int ic_mr_button_connecting_22_light = 2130837817;
+			public const int ic_mr_button_connecting_25_light = 2130837817;
 			
 			// aapt resource value: 0x7f02013a
-			public const int ic_mr_button_connecting_23_dark = 2130837818;
+			public const int ic_mr_button_connecting_26_dark = 2130837818;
 			
 			// aapt resource value: 0x7f02013b
-			public const int ic_mr_button_connecting_23_light = 2130837819;
+			public const int ic_mr_button_connecting_26_light = 2130837819;
 			
 			// aapt resource value: 0x7f02013c
-			public const int ic_mr_button_connecting_24_dark = 2130837820;
+			public const int ic_mr_button_connecting_27_dark = 2130837820;
 			
 			// aapt resource value: 0x7f02013d
-			public const int ic_mr_button_connecting_24_light = 2130837821;
+			public const int ic_mr_button_connecting_27_light = 2130837821;
 			
 			// aapt resource value: 0x7f02013e
-			public const int ic_mr_button_connecting_25_dark = 2130837822;
+			public const int ic_mr_button_connecting_28_dark = 2130837822;
 			
 			// aapt resource value: 0x7f02013f
-			public const int ic_mr_button_connecting_25_light = 2130837823;
+			public const int ic_mr_button_connecting_28_light = 2130837823;
 			
 			// aapt resource value: 0x7f020140
-			public const int ic_mr_button_connecting_26_dark = 2130837824;
+			public const int ic_mr_button_connecting_29_dark = 2130837824;
 			
 			// aapt resource value: 0x7f020141
-			public const int ic_mr_button_connecting_26_light = 2130837825;
+			public const int ic_mr_button_connecting_29_light = 2130837825;
 			
 			// aapt resource value: 0x7f020142
-			public const int ic_mr_button_connecting_27_dark = 2130837826;
+			public const int ic_mr_button_connecting_30_dark = 2130837826;
 			
 			// aapt resource value: 0x7f020143
-			public const int ic_mr_button_connecting_27_light = 2130837827;
+			public const int ic_mr_button_connecting_30_light = 2130837827;
 			
 			// aapt resource value: 0x7f020144
-			public const int ic_mr_button_connecting_28_dark = 2130837828;
+			public const int ic_mr_button_disabled_dark = 2130837828;
 			
 			// aapt resource value: 0x7f020145
-			public const int ic_mr_button_connecting_28_light = 2130837829;
+			public const int ic_mr_button_disabled_light = 2130837829;
 			
 			// aapt resource value: 0x7f020146
-			public const int ic_mr_button_connecting_29_dark = 2130837830;
+			public const int ic_mr_button_disconnected_dark = 2130837830;
 			
 			// aapt resource value: 0x7f020147
-			public const int ic_mr_button_connecting_29_light = 2130837831;
+			public const int ic_mr_button_disconnected_light = 2130837831;
 			
 			// aapt resource value: 0x7f020148
-			public const int ic_mr_button_connecting_30_dark = 2130837832;
+			public const int ic_mr_button_grey = 2130837832;
 			
 			// aapt resource value: 0x7f020149
-			public const int ic_mr_button_connecting_30_light = 2130837833;
+			public const int ic_os_notification_fallback_white_24dp = 2130837833;
 			
 			// aapt resource value: 0x7f02014a
-			public const int ic_mr_button_disabled_dark = 2130837834;
+			public const int ic_vol_type_speaker_dark = 2130837834;
 			
 			// aapt resource value: 0x7f02014b
-			public const int ic_mr_button_disabled_light = 2130837835;
+			public const int ic_vol_type_speaker_group_dark = 2130837835;
 			
 			// aapt resource value: 0x7f02014c
-			public const int ic_mr_button_disconnected_dark = 2130837836;
+			public const int ic_vol_type_speaker_group_light = 2130837836;
 			
 			// aapt resource value: 0x7f02014d
-			public const int ic_mr_button_disconnected_light = 2130837837;
+			public const int ic_vol_type_speaker_light = 2130837837;
 			
 			// aapt resource value: 0x7f02014e
-			public const int ic_mr_button_grey = 2130837838;
+			public const int ic_vol_type_tv_dark = 2130837838;
 			
 			// aapt resource value: 0x7f02014f
-			public const int ic_os_notification_fallback_white_24dp = 2130837839;
+			public const int ic_vol_type_tv_light = 2130837839;
 			
 			// aapt resource value: 0x7f020150
-			public const int ic_vol_type_speaker_dark = 2130837840;
+			public const int icon = 2130837840;
 			
 			// aapt resource value: 0x7f020151
-			public const int ic_vol_type_speaker_group_dark = 2130837841;
+			public const int iconempty = 2130837841;
 			
 			// aapt resource value: 0x7f020152
-			public const int ic_vol_type_speaker_group_light = 2130837842;
+			public const int level_1 = 2130837842;
 			
 			// aapt resource value: 0x7f020153
-			public const int ic_vol_type_speaker_light = 2130837843;
+			public const int level_2 = 2130837843;
 			
 			// aapt resource value: 0x7f020154
-			public const int ic_vol_type_tv_dark = 2130837844;
+			public const int level_3 = 2130837844;
 			
 			// aapt resource value: 0x7f020155
-			public const int ic_vol_type_tv_light = 2130837845;
+			public const int level_4 = 2130837845;
 			
 			// aapt resource value: 0x7f020156
-			public const int icon = 2130837846;
+			public const int level_5 = 2130837846;
 			
 			// aapt resource value: 0x7f020157
-			public const int iconempty = 2130837847;
+			public const int level_6 = 2130837847;
 			
 			// aapt resource value: 0x7f020158
-			public const int level_1 = 2130837848;
+			public const int @lock = 2130837848;
 			
 			// aapt resource value: 0x7f020159
-			public const int level_2 = 2130837849;
+			public const int locked = 2130837849;
 			
 			// aapt resource value: 0x7f02015a
-			public const int level_3 = 2130837850;
+			public const int logo = 2130837850;
 			
 			// aapt resource value: 0x7f02015b
-			public const int level_4 = 2130837851;
+			public const int logom = 2130837851;
 			
 			// aapt resource value: 0x7f02015c
-			public const int level_5 = 2130837852;
+			public const int logout = 2130837852;
 			
 			// aapt resource value: 0x7f02015d
-			public const int level_6 = 2130837853;
+			public const int meditation = 2130837853;
 			
 			// aapt resource value: 0x7f02015e
-			public const int @lock = 2130837854;
+			public const int meditationsilenceCopy = 2130837854;
 			
 			// aapt resource value: 0x7f02015f
-			public const int locked = 2130837855;
+			public const int messenger_bubble_large_blue = 2130837855;
 			
 			// aapt resource value: 0x7f020160
-			public const int logo = 2130837856;
+			public const int messenger_bubble_large_white = 2130837856;
 			
 			// aapt resource value: 0x7f020161
-			public const int logom = 2130837857;
+			public const int messenger_bubble_small_blue = 2130837857;
 			
 			// aapt resource value: 0x7f020162
-			public const int logout = 2130837858;
+			public const int messenger_bubble_small_white = 2130837858;
 			
 			// aapt resource value: 0x7f020163
-			public const int meditation = 2130837859;
+			public const int messenger_button_blue_bg_round = 2130837859;
 			
 			// aapt resource value: 0x7f020164
-			public const int meditationsilenceCopy = 2130837860;
+			public const int messenger_button_blue_bg_selector = 2130837860;
 			
 			// aapt resource value: 0x7f020165
-			public const int messenger_bubble_large_blue = 2130837861;
+			public const int messenger_button_send_round_shadow = 2130837861;
 			
 			// aapt resource value: 0x7f020166
-			public const int messenger_bubble_large_white = 2130837862;
+			public const int messenger_button_white_bg_round = 2130837862;
 			
 			// aapt resource value: 0x7f020167
-			public const int messenger_bubble_small_blue = 2130837863;
+			public const int messenger_button_white_bg_selector = 2130837863;
 			
 			// aapt resource value: 0x7f020168
-			public const int messenger_bubble_small_white = 2130837864;
+			public const int mr_button_connected_dark = 2130837864;
 			
 			// aapt resource value: 0x7f020169
-			public const int messenger_button_blue_bg_round = 2130837865;
+			public const int mr_button_connected_light = 2130837865;
 			
 			// aapt resource value: 0x7f02016a
-			public const int messenger_button_blue_bg_selector = 2130837866;
+			public const int mr_button_connecting_dark = 2130837866;
 			
 			// aapt resource value: 0x7f02016b
-			public const int messenger_button_send_round_shadow = 2130837867;
+			public const int mr_button_connecting_light = 2130837867;
 			
 			// aapt resource value: 0x7f02016c
-			public const int messenger_button_white_bg_round = 2130837868;
+			public const int mr_button_dark = 2130837868;
 			
 			// aapt resource value: 0x7f02016d
-			public const int messenger_button_white_bg_selector = 2130837869;
+			public const int mr_button_light = 2130837869;
 			
 			// aapt resource value: 0x7f02016e
-			public const int mr_button_connected_dark = 2130837870;
+			public const int mr_dialog_close_dark = 2130837870;
 			
 			// aapt resource value: 0x7f02016f
-			public const int mr_button_connected_light = 2130837871;
+			public const int mr_dialog_close_light = 2130837871;
 			
 			// aapt resource value: 0x7f020170
-			public const int mr_button_connecting_dark = 2130837872;
+			public const int mr_dialog_material_background_dark = 2130837872;
 			
 			// aapt resource value: 0x7f020171
-			public const int mr_button_connecting_light = 2130837873;
+			public const int mr_dialog_material_background_light = 2130837873;
 			
 			// aapt resource value: 0x7f020172
-			public const int mr_button_dark = 2130837874;
+			public const int mr_group_collapse = 2130837874;
 			
 			// aapt resource value: 0x7f020173
-			public const int mr_button_light = 2130837875;
+			public const int mr_group_expand = 2130837875;
 			
 			// aapt resource value: 0x7f020174
-			public const int mr_dialog_close_dark = 2130837876;
+			public const int mr_media_pause_dark = 2130837876;
 			
 			// aapt resource value: 0x7f020175
-			public const int mr_dialog_close_light = 2130837877;
+			public const int mr_media_pause_light = 2130837877;
 			
 			// aapt resource value: 0x7f020176
-			public const int mr_dialog_material_background_dark = 2130837878;
+			public const int mr_media_play_dark = 2130837878;
 			
 			// aapt resource value: 0x7f020177
-			public const int mr_dialog_material_background_light = 2130837879;
+			public const int mr_media_play_light = 2130837879;
 			
 			// aapt resource value: 0x7f020178
-			public const int mr_group_collapse = 2130837880;
+			public const int mr_media_stop_dark = 2130837880;
 			
 			// aapt resource value: 0x7f020179
-			public const int mr_group_expand = 2130837881;
+			public const int mr_media_stop_light = 2130837881;
 			
 			// aapt resource value: 0x7f02017a
-			public const int mr_media_pause_dark = 2130837882;
+			public const int mr_vol_type_audiotrack_dark = 2130837882;
 			
 			// aapt resource value: 0x7f02017b
-			public const int mr_media_pause_light = 2130837883;
+			public const int mr_vol_type_audiotrack_light = 2130837883;
 			
 			// aapt resource value: 0x7f02017c
-			public const int mr_media_play_dark = 2130837884;
+			public const int navigation_empty_icon = 2130837884;
 			
 			// aapt resource value: 0x7f02017d
-			public const int mr_media_play_light = 2130837885;
+			public const int Next = 2130837885;
 			
 			// aapt resource value: 0x7f02017e
-			public const int mr_media_stop_dark = 2130837886;
+			public const int notification_action_background = 2130837886;
 			
 			// aapt resource value: 0x7f02017f
-			public const int mr_media_stop_light = 2130837887;
+			public const int notification_bg = 2130837887;
 			
 			// aapt resource value: 0x7f020180
-			public const int mr_vol_type_audiotrack_dark = 2130837888;
+			public const int notification_bg_low = 2130837888;
 			
 			// aapt resource value: 0x7f020181
-			public const int mr_vol_type_audiotrack_light = 2130837889;
+			public const int notification_bg_low_normal = 2130837889;
 			
 			// aapt resource value: 0x7f020182
-			public const int navigation_empty_icon = 2130837890;
+			public const int notification_bg_low_pressed = 2130837890;
 			
 			// aapt resource value: 0x7f020183
-			public const int Next = 2130837891;
+			public const int notification_bg_normal = 2130837891;
 			
 			// aapt resource value: 0x7f020184
-			public const int notification_action_background = 2130837892;
+			public const int notification_bg_normal_pressed = 2130837892;
 			
 			// aapt resource value: 0x7f020185
-			public const int notification_bg = 2130837893;
-			
-			// aapt resource value: 0x7f020186
-			public const int notification_bg_low = 2130837894;
-			
-			// aapt resource value: 0x7f020187
-			public const int notification_bg_low_normal = 2130837895;
-			
-			// aapt resource value: 0x7f020188
-			public const int notification_bg_low_pressed = 2130837896;
-			
-			// aapt resource value: 0x7f020189
-			public const int notification_bg_normal = 2130837897;
-			
-			// aapt resource value: 0x7f02018a
-			public const int notification_bg_normal_pressed = 2130837898;
-			
-			// aapt resource value: 0x7f02018b
-			public const int notification_icon_background = 2130837899;
-			
-			// aapt resource value: 0x7f0201b5
-			public const int notification_template_icon_bg = 2130837941;
-			
-			// aapt resource value: 0x7f0201b6
-			public const int notification_template_icon_low_bg = 2130837942;
-			
-			// aapt resource value: 0x7f02018c
-			public const int notification_tile_bg = 2130837900;
-			
-			// aapt resource value: 0x7f02018d
-			public const int notify_panel_notification_icon_bg = 2130837901;
-			
-			// aapt resource value: 0x7f02018e
-			public const int pause = 2130837902;
-			
-			// aapt resource value: 0x7f02018f
-			public const int pbody = 2130837903;
-			
-			// aapt resource value: 0x7f020190
-			public const int pbreath = 2130837904;
-			
-			// aapt resource value: 0x7f020191
-			public const int pemergency = 2130837905;
-			
-			// aapt resource value: 0x7f020192
-			public const int pemotion = 2130837906;
-			
-			// aapt resource value: 0x7f020193
-			public const int pgroom = 2130837907;
-			
-			// aapt resource value: 0x7f020194
-			public const int pheart = 2130837908;
-			
-			// aapt resource value: 0x7f020195
-			public const int pinitiation = 2130837909;
-			
-			// aapt resource value: 0x7f020196
-			public const int pinstant = 2130837910;
-			
-			// aapt resource value: 0x7f020197
-			public const int pkids = 2130837911;
-			
-			// aapt resource value: 0x7f020198
-			public const int plans = 2130837912;
-			
-			// aapt resource value: 0x7f020199
-			public const int play = 2130837913;
-			
-			// aapt resource value: 0x7f02019a
-			public const int playbig = 2130837914;
-			
-			// aapt resource value: 0x7f02019b
-			public const int playgreen = 2130837915;
-			
-			// aapt resource value: 0x7f02019c
-			public const int playO = 2130837916;
-			
-			// aapt resource value: 0x7f02019d
-			public const int playwhite = 2130837917;
-			
-			// aapt resource value: 0x7f02019e
-			public const int plus = 2130837918;
-			
-			// aapt resource value: 0x7f02019f
-			public const int Prev = 2130837919;
-			
-			// aapt resource value: 0x7f0201a0
-			public const int psee = 2130837920;
-			
-			// aapt resource value: 0x7f0201a1
-			public const int psound = 2130837921;
-			
-			// aapt resource value: 0x7f0201a2
-			public const int pthink = 2130837922;
-			
-			// aapt resource value: 0x7f0201a3
-			public const int ptraining = 2130837923;
-			
-			// aapt resource value: 0x7f0201a4
-			public const int rappels = 2130837924;
-			
-			// aapt resource value: 0x7f0201a5
-			public const int RoundedCornerEntry = 2130837925;
-			
-			// aapt resource value: 0x7f0201a6
-			public const int settings = 2130837926;
-			
-			// aapt resource value: 0x7f0201a7
-			public const int splash_android = 2130837927;
-			
-			// aapt resource value: 0x7f0201a8
-			public const int splashscreen = 2130837928;
-			
-			// aapt resource value: 0x7f0201a9
-			public const int stats = 2130837929;
-			
-			// aapt resource value: 0x7f0201aa
-			public const int statyoga = 2130837930;
-			
-			// aapt resource value: 0x7f0201ab
-			public const int stones = 2130837931;
-			
-			// aapt resource value: 0x7f0201ac
-			public const int tooltip_frame_dark = 2130837932;
-			
-			// aapt resource value: 0x7f0201ad
-			public const int tooltip_frame_light = 2130837933;
-			
-			// aapt resource value: 0x7f0201ae
-			public const int uk = 2130837934;
+			public const int notification_icon_background = 2130837893;
 			
 			// aapt resource value: 0x7f0201af
-			public const int unlock = 2130837935;
+			public const int notification_template_icon_bg = 2130837935;
 			
 			// aapt resource value: 0x7f0201b0
-			public const int Up = 2130837936;
+			public const int notification_template_icon_low_bg = 2130837936;
 			
-			// aapt resource value: 0x7f0201b1
-			public const int vector1 = 2130837937;
+			// aapt resource value: 0x7f020186
+			public const int notification_tile_bg = 2130837894;
 			
-			// aapt resource value: 0x7f0201b2
-			public const int vector2 = 2130837938;
+			// aapt resource value: 0x7f020187
+			public const int notify_panel_notification_icon_bg = 2130837895;
 			
-			// aapt resource value: 0x7f0201b3
-			public const int vector3 = 2130837939;
+			// aapt resource value: 0x7f020188
+			public const int pause = 2130837896;
 			
-			// aapt resource value: 0x7f0201b4
-			public const int vector4 = 2130837940;
+			// aapt resource value: 0x7f020189
+			public const int pbody = 2130837897;
+			
+			// aapt resource value: 0x7f02018a
+			public const int pbreath = 2130837898;
+			
+			// aapt resource value: 0x7f02018b
+			public const int pemergency = 2130837899;
+			
+			// aapt resource value: 0x7f02018c
+			public const int pemotion = 2130837900;
+			
+			// aapt resource value: 0x7f02018d
+			public const int pgroom = 2130837901;
+			
+			// aapt resource value: 0x7f02018e
+			public const int pheart = 2130837902;
+			
+			// aapt resource value: 0x7f02018f
+			public const int pinitiation = 2130837903;
+			
+			// aapt resource value: 0x7f020190
+			public const int pinstant = 2130837904;
+			
+			// aapt resource value: 0x7f020191
+			public const int pkids = 2130837905;
+			
+			// aapt resource value: 0x7f020192
+			public const int plans = 2130837906;
+			
+			// aapt resource value: 0x7f020193
+			public const int play = 2130837907;
+			
+			// aapt resource value: 0x7f020194
+			public const int playbig = 2130837908;
+			
+			// aapt resource value: 0x7f020195
+			public const int playgreen = 2130837909;
+			
+			// aapt resource value: 0x7f020196
+			public const int playO = 2130837910;
+			
+			// aapt resource value: 0x7f020197
+			public const int playwhite = 2130837911;
+			
+			// aapt resource value: 0x7f020198
+			public const int plus = 2130837912;
+			
+			// aapt resource value: 0x7f020199
+			public const int Prev = 2130837913;
+			
+			// aapt resource value: 0x7f02019a
+			public const int psee = 2130837914;
+			
+			// aapt resource value: 0x7f02019b
+			public const int psound = 2130837915;
+			
+			// aapt resource value: 0x7f02019c
+			public const int pthink = 2130837916;
+			
+			// aapt resource value: 0x7f02019d
+			public const int ptraining = 2130837917;
+			
+			// aapt resource value: 0x7f02019e
+			public const int rappels = 2130837918;
+			
+			// aapt resource value: 0x7f02019f
+			public const int RoundedCornerEntry = 2130837919;
+			
+			// aapt resource value: 0x7f0201a0
+			public const int settings = 2130837920;
+			
+			// aapt resource value: 0x7f0201a1
+			public const int splash_android = 2130837921;
+			
+			// aapt resource value: 0x7f0201a2
+			public const int splashscreen = 2130837922;
+			
+			// aapt resource value: 0x7f0201a3
+			public const int stats = 2130837923;
+			
+			// aapt resource value: 0x7f0201a4
+			public const int statyoga = 2130837924;
+			
+			// aapt resource value: 0x7f0201a5
+			public const int stones = 2130837925;
+			
+			// aapt resource value: 0x7f0201a6
+			public const int tooltip_frame_dark = 2130837926;
+			
+			// aapt resource value: 0x7f0201a7
+			public const int tooltip_frame_light = 2130837927;
+			
+			// aapt resource value: 0x7f0201a8
+			public const int uk = 2130837928;
+			
+			// aapt resource value: 0x7f0201a9
+			public const int unlock = 2130837929;
+			
+			// aapt resource value: 0x7f0201aa
+			public const int Up = 2130837930;
+			
+			// aapt resource value: 0x7f0201ab
+			public const int vector1 = 2130837931;
+			
+			// aapt resource value: 0x7f0201ac
+			public const int vector2 = 2130837932;
+			
+			// aapt resource value: 0x7f0201ad
+			public const int vector3 = 2130837933;
+			
+			// aapt resource value: 0x7f0201ae
+			public const int vector4 = 2130837934;
 			
 			static Drawable()
 			{
@@ -16679,59 +13048,59 @@ namespace MeditSolution.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0d004a
-			public const int ALT = 2131558474;
-			
 			// aapt resource value: 0x7f0d004b
-			public const int CTRL = 2131558475;
+			public const int ALT = 2131558475;
 			
 			// aapt resource value: 0x7f0d004c
-			public const int FUNCTION = 2131558476;
+			public const int CTRL = 2131558476;
 			
 			// aapt resource value: 0x7f0d004d
-			public const int META = 2131558477;
+			public const int FUNCTION = 2131558477;
 			
 			// aapt resource value: 0x7f0d004e
-			public const int SHIFT = 2131558478;
+			public const int META = 2131558478;
 			
 			// aapt resource value: 0x7f0d004f
-			public const int SYM = 2131558479;
+			public const int SHIFT = 2131558479;
 			
-			// aapt resource value: 0x7f0d00f8
-			public const int action0 = 2131558648;
+			// aapt resource value: 0x7f0d0050
+			public const int SYM = 2131558480;
 			
-			// aapt resource value: 0x7f0d0097
-			public const int action_bar = 2131558551;
+			// aapt resource value: 0x7f0d00ec
+			public const int action0 = 2131558636;
+			
+			// aapt resource value: 0x7f0d0095
+			public const int action_bar = 2131558549;
 			
 			// aapt resource value: 0x7f0d0001
 			public const int action_bar_activity_content = 2131558401;
 			
-			// aapt resource value: 0x7f0d0096
-			public const int action_bar_container = 2131558550;
+			// aapt resource value: 0x7f0d0094
+			public const int action_bar_container = 2131558548;
 			
-			// aapt resource value: 0x7f0d0092
-			public const int action_bar_root = 2131558546;
+			// aapt resource value: 0x7f0d0090
+			public const int action_bar_root = 2131558544;
 			
 			// aapt resource value: 0x7f0d0002
 			public const int action_bar_spinner = 2131558402;
 			
-			// aapt resource value: 0x7f0d0076
-			public const int action_bar_subtitle = 2131558518;
+			// aapt resource value: 0x7f0d0074
+			public const int action_bar_subtitle = 2131558516;
 			
-			// aapt resource value: 0x7f0d0075
-			public const int action_bar_title = 2131558517;
+			// aapt resource value: 0x7f0d0073
+			public const int action_bar_title = 2131558515;
 			
-			// aapt resource value: 0x7f0d00f5
-			public const int action_container = 2131558645;
+			// aapt resource value: 0x7f0d00e9
+			public const int action_container = 2131558633;
 			
-			// aapt resource value: 0x7f0d0098
-			public const int action_context_bar = 2131558552;
+			// aapt resource value: 0x7f0d0096
+			public const int action_context_bar = 2131558550;
 			
-			// aapt resource value: 0x7f0d00fc
-			public const int action_divider = 2131558652;
+			// aapt resource value: 0x7f0d00f0
+			public const int action_divider = 2131558640;
 			
-			// aapt resource value: 0x7f0d00f6
-			public const int action_image = 2131558646;
+			// aapt resource value: 0x7f0d00ea
+			public const int action_image = 2131558634;
 			
 			// aapt resource value: 0x7f0d0003
 			public const int action_menu_divider = 2131558403;
@@ -16739,257 +13108,242 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0d0004
 			public const int action_menu_presenter = 2131558404;
 			
-			// aapt resource value: 0x7f0d0094
-			public const int action_mode_bar = 2131558548;
+			// aapt resource value: 0x7f0d0092
+			public const int action_mode_bar = 2131558546;
 			
-			// aapt resource value: 0x7f0d0093
-			public const int action_mode_bar_stub = 2131558547;
+			// aapt resource value: 0x7f0d0091
+			public const int action_mode_bar_stub = 2131558545;
 			
-			// aapt resource value: 0x7f0d0077
-			public const int action_mode_close_button = 2131558519;
+			// aapt resource value: 0x7f0d0075
+			public const int action_mode_close_button = 2131558517;
 			
-			// aapt resource value: 0x7f0d00f7
-			public const int action_text = 2131558647;
-			
-			// aapt resource value: 0x7f0d0104
-			public const int actions = 2131558660;
-			
-			// aapt resource value: 0x7f0d0078
-			public const int activity_chooser_view_content = 2131558520;
-			
-			// aapt resource value: 0x7f0d0044
-			public const int add = 2131558468;
-			
-			// aapt resource value: 0x7f0d001d
-			public const int adjust_height = 2131558429;
-			
-			// aapt resource value: 0x7f0d001e
-			public const int adjust_width = 2131558430;
-			
-			// aapt resource value: 0x7f0d008b
-			public const int alertTitle = 2131558539;
-			
-			// aapt resource value: 0x7f0d0064
-			public const int all = 2131558500;
-			
-			// aapt resource value: 0x7f0d0050
-			public const int always = 2131558480;
-			
-			// aapt resource value: 0x7f0d0068
-			public const int async = 2131558504;
-			
-			// aapt resource value: 0x7f0d0023
-			public const int auto = 2131558435;
-			
-			// aapt resource value: 0x7f0d0031
-			public const int automatic = 2131558449;
-			
-			// aapt resource value: 0x7f0d00aa
-			public const int bb_bottom_bar_background_overlay = 2131558570;
-			
-			// aapt resource value: 0x7f0d00a9
-			public const int bb_bottom_bar_background_view = 2131558569;
-			
-			// aapt resource value: 0x7f0d00ad
-			public const int bb_bottom_bar_icon = 2131558573;
-			
-			// aapt resource value: 0x7f0d00ab
-			public const int bb_bottom_bar_item_container = 2131558571;
-			
-			// aapt resource value: 0x7f0d00a7
-			public const int bb_bottom_bar_outer_container = 2131558567;
-			
-			// aapt resource value: 0x7f0d00a8
-			public const int bb_bottom_bar_shadow = 2131558568;
-			
-			// aapt resource value: 0x7f0d00ae
-			public const int bb_bottom_bar_title = 2131558574;
-			
-			// aapt resource value: 0x7f0d00ac
-			public const int bb_tablet_right_border = 2131558572;
-			
-			// aapt resource value: 0x7f0d00a6
-			public const int bb_user_content_container = 2131558566;
-			
-			// aapt resource value: 0x7f0d0047
-			public const int beginning = 2131558471;
-			
-			// aapt resource value: 0x7f0d0069
-			public const int blocking = 2131558505;
-			
-			// aapt resource value: 0x7f0d002b
-			public const int bottom = 2131558443;
-			
-			// aapt resource value: 0x7f0d0029
-			public const int box_count = 2131558441;
-			
-			// aapt resource value: 0x7f0d002a
-			public const int button = 2131558442;
-			
-			// aapt resource value: 0x7f0d007e
-			public const int buttonPanel = 2131558526;
+			// aapt resource value: 0x7f0d00eb
+			public const int action_text = 2131558635;
 			
 			// aapt resource value: 0x7f0d00f9
-			public const int cancel_action = 2131558649;
+			public const int actions = 2131558649;
 			
-			// aapt resource value: 0x7f0d00b3
-			public const int cancel_button = 2131558579;
+			// aapt resource value: 0x7f0d0076
+			public const int activity_chooser_view_content = 2131558518;
 			
-			// aapt resource value: 0x7f0d002e
-			public const int center = 2131558446;
+			// aapt resource value: 0x7f0d0040
+			public const int add = 2131558464;
 			
-			// aapt resource value: 0x7f0d005a
-			public const int center_horizontal = 2131558490;
+			// aapt resource value: 0x7f0d001e
+			public const int adjust_height = 2131558430;
 			
-			// aapt resource value: 0x7f0d005b
-			public const int center_vertical = 2131558491;
+			// aapt resource value: 0x7f0d001f
+			public const int adjust_width = 2131558431;
 			
-			// aapt resource value: 0x7f0d008e
-			public const int checkbox = 2131558542;
+			// aapt resource value: 0x7f0d0089
+			public const int alertTitle = 2131558537;
 			
-			// aapt resource value: 0x7f0d0100
-			public const int chronometer = 2131558656;
-			
-			// aapt resource value: 0x7f0d0060
-			public const int clip_horizontal = 2131558496;
-			
-			// aapt resource value: 0x7f0d0061
-			public const int clip_vertical = 2131558497;
+			// aapt resource value: 0x7f0d0065
+			public const int all = 2131558501;
 			
 			// aapt resource value: 0x7f0d0051
-			public const int collapseActionView = 2131558481;
+			public const int always = 2131558481;
 			
-			// aapt resource value: 0x7f0d00b7
-			public const int com_facebook_body_frame = 2131558583;
-			
-			// aapt resource value: 0x7f0d00b9
-			public const int com_facebook_button_xout = 2131558585;
-			
-			// aapt resource value: 0x7f0d00b2
-			public const int com_facebook_device_auth_instructions = 2131558578;
-			
-			// aapt resource value: 0x7f0d00af
-			public const int com_facebook_fragment_container = 2131558575;
-			
-			// aapt resource value: 0x7f0d00b4
-			public const int com_facebook_login_activity_progress_bar = 2131558580;
-			
-			// aapt resource value: 0x7f0d00b5
-			public const int com_facebook_smart_instructions_0 = 2131558581;
-			
-			// aapt resource value: 0x7f0d00b6
-			public const int com_facebook_smart_instructions_or = 2131558582;
-			
-			// aapt resource value: 0x7f0d00bb
-			public const int com_facebook_tooltip_bubble_view_bottom_pointer = 2131558587;
-			
-			// aapt resource value: 0x7f0d00ba
-			public const int com_facebook_tooltip_bubble_view_text_body = 2131558586;
-			
-			// aapt resource value: 0x7f0d00b8
-			public const int com_facebook_tooltip_bubble_view_top_pointer = 2131558584;
-			
-			// aapt resource value: 0x7f0d00b0
-			public const int confirmation_code = 2131558576;
-			
-			// aapt resource value: 0x7f0d00be
-			public const int container = 2131558590;
-			
-			// aapt resource value: 0x7f0d0081
-			public const int contentPanel = 2131558529;
-			
-			// aapt resource value: 0x7f0d00d5
-			public const int control = 2131558613;
-			
-			// aapt resource value: 0x7f0d00bf
-			public const int coordinator = 2131558591;
-			
-			// aapt resource value: 0x7f0d0088
-			public const int custom = 2131558536;
-			
-			// aapt resource value: 0x7f0d0087
-			public const int customPanel = 2131558535;
+			// aapt resource value: 0x7f0d0069
+			public const int async = 2131558505;
 			
 			// aapt resource value: 0x7f0d0024
-			public const int dark = 2131558436;
-			
-			// aapt resource value: 0x7f0d0095
-			public const int decor_content_parent = 2131558549;
-			
-			// aapt resource value: 0x7f0d007b
-			public const int default_activity_button = 2131558523;
-			
-			// aapt resource value: 0x7f0d00c1
-			public const int design_bottom_sheet = 2131558593;
-			
-			// aapt resource value: 0x7f0d00c8
-			public const int design_menu_item_action_area = 2131558600;
-			
-			// aapt resource value: 0x7f0d00c7
-			public const int design_menu_item_action_area_stub = 2131558599;
-			
-			// aapt resource value: 0x7f0d00c6
-			public const int design_menu_item_text = 2131558598;
-			
-			// aapt resource value: 0x7f0d00c5
-			public const int design_navigation_view = 2131558597;
-			
-			// aapt resource value: 0x7f0d0039
-			public const int disableHome = 2131558457;
+			public const int auto = 2131558436;
 			
 			// aapt resource value: 0x7f0d0032
-			public const int display_always = 2131558450;
+			public const int automatic = 2131558450;
 			
-			// aapt resource value: 0x7f0d0099
-			public const int edit_query = 2131558553;
+			// aapt resource value: 0x7f0d00a8
+			public const int bb_bottom_bar_background_overlay = 2131558568;
+			
+			// aapt resource value: 0x7f0d00a7
+			public const int bb_bottom_bar_background_view = 2131558567;
+			
+			// aapt resource value: 0x7f0d00ab
+			public const int bb_bottom_bar_icon = 2131558571;
+			
+			// aapt resource value: 0x7f0d00a9
+			public const int bb_bottom_bar_item_container = 2131558569;
+			
+			// aapt resource value: 0x7f0d00a5
+			public const int bb_bottom_bar_outer_container = 2131558565;
+			
+			// aapt resource value: 0x7f0d00a6
+			public const int bb_bottom_bar_shadow = 2131558566;
+			
+			// aapt resource value: 0x7f0d00ac
+			public const int bb_bottom_bar_title = 2131558572;
+			
+			// aapt resource value: 0x7f0d00aa
+			public const int bb_tablet_right_border = 2131558570;
+			
+			// aapt resource value: 0x7f0d00a4
+			public const int bb_user_content_container = 2131558564;
 			
 			// aapt resource value: 0x7f0d0048
-			public const int end = 2131558472;
-			
-			// aapt resource value: 0x7f0d0106
-			public const int end_padder = 2131558662;
-			
-			// aapt resource value: 0x7f0d0055
-			public const int enterAlways = 2131558485;
-			
-			// aapt resource value: 0x7f0d0056
-			public const int enterAlwaysCollapsed = 2131558486;
-			
-			// aapt resource value: 0x7f0d0057
-			public const int exitUntilCollapsed = 2131558487;
-			
-			// aapt resource value: 0x7f0d0079
-			public const int expand_activities_button = 2131558521;
-			
-			// aapt resource value: 0x7f0d008d
-			public const int expanded_menu = 2131558541;
-			
-			// aapt resource value: 0x7f0d00cd
-			public const int ffwd = 2131558605;
-			
-			// aapt resource value: 0x7f0d0062
-			public const int fill = 2131558498;
-			
-			// aapt resource value: 0x7f0d0063
-			public const int fill_horizontal = 2131558499;
-			
-			// aapt resource value: 0x7f0d005c
-			public const int fill_vertical = 2131558492;
-			
-			// aapt resource value: 0x7f0d0070
-			public const int fit = 2131558512;
-			
-			// aapt resource value: 0x7f0d0066
-			public const int @fixed = 2131558502;
-			
-			// aapt resource value: 0x7f0d0071
-			public const int fixed_height = 2131558513;
-			
-			// aapt resource value: 0x7f0d0072
-			public const int fixed_width = 2131558514;
+			public const int beginning = 2131558472;
 			
 			// aapt resource value: 0x7f0d006a
-			public const int forever = 2131558506;
+			public const int blocking = 2131558506;
+			
+			// aapt resource value: 0x7f0d002c
+			public const int bottom = 2131558444;
+			
+			// aapt resource value: 0x7f0d002a
+			public const int box_count = 2131558442;
+			
+			// aapt resource value: 0x7f0d002b
+			public const int button = 2131558443;
+			
+			// aapt resource value: 0x7f0d007c
+			public const int buttonPanel = 2131558524;
+			
+			// aapt resource value: 0x7f0d00ed
+			public const int cancel_action = 2131558637;
+			
+			// aapt resource value: 0x7f0d00b1
+			public const int cancel_button = 2131558577;
+			
+			// aapt resource value: 0x7f0d002f
+			public const int center = 2131558447;
+			
+			// aapt resource value: 0x7f0d005b
+			public const int center_horizontal = 2131558491;
+			
+			// aapt resource value: 0x7f0d005c
+			public const int center_vertical = 2131558492;
+			
+			// aapt resource value: 0x7f0d008c
+			public const int checkbox = 2131558540;
+			
+			// aapt resource value: 0x7f0d00f5
+			public const int chronometer = 2131558645;
+			
+			// aapt resource value: 0x7f0d0061
+			public const int clip_horizontal = 2131558497;
+			
+			// aapt resource value: 0x7f0d0062
+			public const int clip_vertical = 2131558498;
+			
+			// aapt resource value: 0x7f0d0052
+			public const int collapseActionView = 2131558482;
+			
+			// aapt resource value: 0x7f0d00b5
+			public const int com_facebook_body_frame = 2131558581;
+			
+			// aapt resource value: 0x7f0d00b7
+			public const int com_facebook_button_xout = 2131558583;
+			
+			// aapt resource value: 0x7f0d00b0
+			public const int com_facebook_device_auth_instructions = 2131558576;
+			
+			// aapt resource value: 0x7f0d00ad
+			public const int com_facebook_fragment_container = 2131558573;
+			
+			// aapt resource value: 0x7f0d00b2
+			public const int com_facebook_login_activity_progress_bar = 2131558578;
+			
+			// aapt resource value: 0x7f0d00b3
+			public const int com_facebook_smart_instructions_0 = 2131558579;
+			
+			// aapt resource value: 0x7f0d00b4
+			public const int com_facebook_smart_instructions_or = 2131558580;
+			
+			// aapt resource value: 0x7f0d00b9
+			public const int com_facebook_tooltip_bubble_view_bottom_pointer = 2131558585;
+			
+			// aapt resource value: 0x7f0d00b8
+			public const int com_facebook_tooltip_bubble_view_text_body = 2131558584;
+			
+			// aapt resource value: 0x7f0d00b6
+			public const int com_facebook_tooltip_bubble_view_top_pointer = 2131558582;
+			
+			// aapt resource value: 0x7f0d00ae
+			public const int confirmation_code = 2131558574;
+			
+			// aapt resource value: 0x7f0d00bc
+			public const int container = 2131558588;
+			
+			// aapt resource value: 0x7f0d007f
+			public const int contentPanel = 2131558527;
+			
+			// aapt resource value: 0x7f0d00bd
+			public const int coordinator = 2131558589;
+			
+			// aapt resource value: 0x7f0d0086
+			public const int custom = 2131558534;
+			
+			// aapt resource value: 0x7f0d0085
+			public const int customPanel = 2131558533;
+			
+			// aapt resource value: 0x7f0d0025
+			public const int dark = 2131558437;
+			
+			// aapt resource value: 0x7f0d0093
+			public const int decor_content_parent = 2131558547;
+			
+			// aapt resource value: 0x7f0d0079
+			public const int default_activity_button = 2131558521;
+			
+			// aapt resource value: 0x7f0d00bf
+			public const int design_bottom_sheet = 2131558591;
+			
+			// aapt resource value: 0x7f0d00c6
+			public const int design_menu_item_action_area = 2131558598;
+			
+			// aapt resource value: 0x7f0d00c5
+			public const int design_menu_item_action_area_stub = 2131558597;
+			
+			// aapt resource value: 0x7f0d00c4
+			public const int design_menu_item_text = 2131558596;
+			
+			// aapt resource value: 0x7f0d00c3
+			public const int design_navigation_view = 2131558595;
+			
+			// aapt resource value: 0x7f0d003a
+			public const int disableHome = 2131558458;
+			
+			// aapt resource value: 0x7f0d0033
+			public const int display_always = 2131558451;
+			
+			// aapt resource value: 0x7f0d0097
+			public const int edit_query = 2131558551;
+			
+			// aapt resource value: 0x7f0d0049
+			public const int end = 2131558473;
+			
+			// aapt resource value: 0x7f0d00fb
+			public const int end_padder = 2131558651;
+			
+			// aapt resource value: 0x7f0d0056
+			public const int enterAlways = 2131558486;
+			
+			// aapt resource value: 0x7f0d0057
+			public const int enterAlwaysCollapsed = 2131558487;
+			
+			// aapt resource value: 0x7f0d0058
+			public const int exitUntilCollapsed = 2131558488;
+			
+			// aapt resource value: 0x7f0d0077
+			public const int expand_activities_button = 2131558519;
+			
+			// aapt resource value: 0x7f0d008b
+			public const int expanded_menu = 2131558539;
+			
+			// aapt resource value: 0x7f0d0063
+			public const int fill = 2131558499;
+			
+			// aapt resource value: 0x7f0d0064
+			public const int fill_horizontal = 2131558500;
+			
+			// aapt resource value: 0x7f0d005d
+			public const int fill_vertical = 2131558493;
+			
+			// aapt resource value: 0x7f0d0067
+			public const int @fixed = 2131558503;
+			
+			// aapt resource value: 0x7f0d006b
+			public const int forever = 2131558507;
 			
 			// aapt resource value: 0x7f0d000a
 			public const int ghost_view = 2131558410;
@@ -16997,53 +13351,53 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0d0005
 			public const int home = 2131558405;
 			
-			// aapt resource value: 0x7f0d003a
-			public const int homeAsUp = 2131558458;
+			// aapt resource value: 0x7f0d003b
+			public const int homeAsUp = 2131558459;
 			
-			// aapt resource value: 0x7f0d0073
-			public const int horizontal = 2131558515;
+			// aapt resource value: 0x7f0d0071
+			public const int horizontal = 2131558513;
 			
-			// aapt resource value: 0x7f0d007d
-			public const int icon = 2131558525;
+			// aapt resource value: 0x7f0d007b
+			public const int icon = 2131558523;
 			
-			// aapt resource value: 0x7f0d0105
-			public const int icon_group = 2131558661;
+			// aapt resource value: 0x7f0d00fa
+			public const int icon_group = 2131558650;
 			
-			// aapt resource value: 0x7f0d0020
-			public const int icon_only = 2131558432;
+			// aapt resource value: 0x7f0d0021
+			public const int icon_only = 2131558433;
 			
-			// aapt resource value: 0x7f0d0052
-			public const int ifRoom = 2131558482;
+			// aapt resource value: 0x7f0d0053
+			public const int ifRoom = 2131558483;
 			
-			// aapt resource value: 0x7f0d007a
-			public const int image = 2131558522;
+			// aapt resource value: 0x7f0d0078
+			public const int image = 2131558520;
 			
-			// aapt resource value: 0x7f0d00d9
-			public const int indicator = 2131558617;
+			// aapt resource value: 0x7f0d00cd
+			public const int indicator = 2131558605;
 			
-			// aapt resource value: 0x7f0d0101
-			public const int info = 2131558657;
+			// aapt resource value: 0x7f0d00f6
+			public const int info = 2131558646;
 			
-			// aapt resource value: 0x7f0d002c
-			public const int inline = 2131558444;
+			// aapt resource value: 0x7f0d002d
+			public const int inline = 2131558445;
 			
-			// aapt resource value: 0x7f0d006b
-			public const int italic = 2131558507;
+			// aapt resource value: 0x7f0d006c
+			public const int italic = 2131558508;
 			
 			// aapt resource value: 0x7f0d0000
 			public const int item_touch_helper_previous_elevation = 2131558400;
 			
-			// aapt resource value: 0x7f0d0034
-			public const int large = 2131558452;
+			// aapt resource value: 0x7f0d0035
+			public const int large = 2131558453;
 			
-			// aapt resource value: 0x7f0d00bd
-			public const int largeLabel = 2131558589;
+			// aapt resource value: 0x7f0d00bb
+			public const int largeLabel = 2131558587;
 			
-			// aapt resource value: 0x7f0d002f
-			public const int left = 2131558447;
+			// aapt resource value: 0x7f0d0030
+			public const int left = 2131558448;
 			
-			// aapt resource value: 0x7f0d0025
-			public const int light = 2131558437;
+			// aapt resource value: 0x7f0d0026
+			public const int light = 2131558438;
 			
 			// aapt resource value: 0x7f0d0017
 			public const int line1 = 2131558423;
@@ -17051,191 +13405,185 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0d0018
 			public const int line3 = 2131558424;
 			
-			// aapt resource value: 0x7f0d0037
-			public const int listMode = 2131558455;
+			// aapt resource value: 0x7f0d0038
+			public const int listMode = 2131558456;
 			
-			// aapt resource value: 0x7f0d007c
-			public const int list_item = 2131558524;
+			// aapt resource value: 0x7f0d007a
+			public const int list_item = 2131558522;
 			
-			// aapt resource value: 0x7f0d001c
-			public const int lottie_layer_name = 2131558428;
+			// aapt resource value: 0x7f0d001d
+			public const int lottie_layer_name = 2131558429;
 			
-			// aapt resource value: 0x7f0d0110
-			public const int masked = 2131558672;
-			
-			// aapt resource value: 0x7f0d00fb
-			public const int media_actions = 2131558651;
-			
-			// aapt resource value: 0x7f0d00d0
-			public const int mediacontroller_progress = 2131558608;
-			
-			// aapt resource value: 0x7f0d010e
-			public const int message = 2131558670;
-			
-			// aapt resource value: 0x7f0d00da
-			public const int messenger_send_button = 2131558618;
-			
-			// aapt resource value: 0x7f0d0049
-			public const int middle = 2131558473;
-			
-			// aapt resource value: 0x7f0d0065
-			public const int mini = 2131558501;
-			
-			// aapt resource value: 0x7f0d00e7
-			public const int mr_art = 2131558631;
-			
-			// aapt resource value: 0x7f0d00dc
-			public const int mr_chooser_list = 2131558620;
-			
-			// aapt resource value: 0x7f0d00df
-			public const int mr_chooser_route_desc = 2131558623;
-			
-			// aapt resource value: 0x7f0d00dd
-			public const int mr_chooser_route_icon = 2131558621;
-			
-			// aapt resource value: 0x7f0d00de
-			public const int mr_chooser_route_name = 2131558622;
-			
-			// aapt resource value: 0x7f0d00db
-			public const int mr_chooser_title = 2131558619;
-			
-			// aapt resource value: 0x7f0d00e4
-			public const int mr_close = 2131558628;
-			
-			// aapt resource value: 0x7f0d00ea
-			public const int mr_control_divider = 2131558634;
-			
-			// aapt resource value: 0x7f0d00f0
-			public const int mr_control_playback_ctrl = 2131558640;
-			
-			// aapt resource value: 0x7f0d00f3
-			public const int mr_control_subtitle = 2131558643;
-			
-			// aapt resource value: 0x7f0d00f2
-			public const int mr_control_title = 2131558642;
-			
-			// aapt resource value: 0x7f0d00f1
-			public const int mr_control_title_container = 2131558641;
-			
-			// aapt resource value: 0x7f0d00e5
-			public const int mr_custom_control = 2131558629;
-			
-			// aapt resource value: 0x7f0d00e6
-			public const int mr_default_control = 2131558630;
-			
-			// aapt resource value: 0x7f0d00e1
-			public const int mr_dialog_area = 2131558625;
-			
-			// aapt resource value: 0x7f0d00e0
-			public const int mr_expandable_area = 2131558624;
-			
-			// aapt resource value: 0x7f0d00f4
-			public const int mr_group_expand_collapse = 2131558644;
-			
-			// aapt resource value: 0x7f0d00e8
-			public const int mr_media_main_control = 2131558632;
-			
-			// aapt resource value: 0x7f0d00e3
-			public const int mr_name = 2131558627;
-			
-			// aapt resource value: 0x7f0d00e9
-			public const int mr_playback_control = 2131558633;
-			
-			// aapt resource value: 0x7f0d00e2
-			public const int mr_title_bar = 2131558626;
-			
-			// aapt resource value: 0x7f0d00eb
-			public const int mr_volume_control = 2131558635;
-			
-			// aapt resource value: 0x7f0d00ec
-			public const int mr_volume_group_list = 2131558636;
-			
-			// aapt resource value: 0x7f0d00ee
-			public const int mr_volume_item_icon = 2131558638;
+			// aapt resource value: 0x7f0d0105
+			public const int masked = 2131558661;
 			
 			// aapt resource value: 0x7f0d00ef
-			public const int mr_volume_slider = 2131558639;
-			
-			// aapt resource value: 0x7f0d003f
-			public const int multiply = 2131558463;
-			
-			// aapt resource value: 0x7f0d00c4
-			public const int navigation_header_container = 2131558596;
-			
-			// aapt resource value: 0x7f0d0053
-			public const int never = 2131558483;
-			
-			// aapt resource value: 0x7f0d0033
-			public const int never_display = 2131558451;
-			
-			// aapt resource value: 0x7f0d00ce
-			public const int next = 2131558606;
-			
-			// aapt resource value: 0x7f0d00d8
-			public const int nextArrow = 2131558616;
-			
-			// aapt resource value: 0x7f0d001f
-			public const int none = 2131558431;
-			
-			// aapt resource value: 0x7f0d0035
-			public const int normal = 2131558453;
+			public const int media_actions = 2131558639;
 			
 			// aapt resource value: 0x7f0d0103
-			public const int notification_background = 2131558659;
+			public const int message = 2131558659;
 			
-			// aapt resource value: 0x7f0d00fe
-			public const int notification_main_column = 2131558654;
+			// aapt resource value: 0x7f0d00ce
+			public const int messenger_send_button = 2131558606;
 			
-			// aapt resource value: 0x7f0d00fd
-			public const int notification_main_column_container = 2131558653;
+			// aapt resource value: 0x7f0d004a
+			public const int middle = 2131558474;
 			
-			// aapt resource value: 0x7f0d0026
-			public const int open_graph = 2131558438;
+			// aapt resource value: 0x7f0d0066
+			public const int mini = 2131558502;
 			
-			// aapt resource value: 0x7f0d0108
-			public const int os_bgimage_notif_bgimage = 2131558664;
+			// aapt resource value: 0x7f0d00db
+			public const int mr_art = 2131558619;
 			
-			// aapt resource value: 0x7f0d0107
-			public const int os_bgimage_notif_bgimage_align_layout = 2131558663;
+			// aapt resource value: 0x7f0d00d0
+			public const int mr_chooser_list = 2131558608;
 			
-			// aapt resource value: 0x7f0d0109
-			public const int os_bgimage_notif_bgimage_right_aligned = 2131558665;
+			// aapt resource value: 0x7f0d00d3
+			public const int mr_chooser_route_desc = 2131558611;
 			
-			// aapt resource value: 0x7f0d010b
-			public const int os_bgimage_notif_body = 2131558667;
+			// aapt resource value: 0x7f0d00d1
+			public const int mr_chooser_route_icon = 2131558609;
 			
-			// aapt resource value: 0x7f0d010a
-			public const int os_bgimage_notif_title = 2131558666;
+			// aapt resource value: 0x7f0d00d2
+			public const int mr_chooser_route_name = 2131558610;
 			
-			// aapt resource value: 0x7f0d0027
-			public const int page = 2131558439;
+			// aapt resource value: 0x7f0d00cf
+			public const int mr_chooser_title = 2131558607;
+			
+			// aapt resource value: 0x7f0d00d8
+			public const int mr_close = 2131558616;
+			
+			// aapt resource value: 0x7f0d00de
+			public const int mr_control_divider = 2131558622;
+			
+			// aapt resource value: 0x7f0d00e4
+			public const int mr_control_playback_ctrl = 2131558628;
+			
+			// aapt resource value: 0x7f0d00e7
+			public const int mr_control_subtitle = 2131558631;
+			
+			// aapt resource value: 0x7f0d00e6
+			public const int mr_control_title = 2131558630;
+			
+			// aapt resource value: 0x7f0d00e5
+			public const int mr_control_title_container = 2131558629;
+			
+			// aapt resource value: 0x7f0d00d9
+			public const int mr_custom_control = 2131558617;
+			
+			// aapt resource value: 0x7f0d00da
+			public const int mr_default_control = 2131558618;
+			
+			// aapt resource value: 0x7f0d00d5
+			public const int mr_dialog_area = 2131558613;
+			
+			// aapt resource value: 0x7f0d00d4
+			public const int mr_expandable_area = 2131558612;
+			
+			// aapt resource value: 0x7f0d00e8
+			public const int mr_group_expand_collapse = 2131558632;
+			
+			// aapt resource value: 0x7f0d00dc
+			public const int mr_media_main_control = 2131558620;
+			
+			// aapt resource value: 0x7f0d00d7
+			public const int mr_name = 2131558615;
+			
+			// aapt resource value: 0x7f0d00dd
+			public const int mr_playback_control = 2131558621;
 			
 			// aapt resource value: 0x7f0d00d6
-			public const int pager = 2131558614;
+			public const int mr_title_bar = 2131558614;
 			
-			// aapt resource value: 0x7f0d005e
-			public const int parallax = 2131558494;
+			// aapt resource value: 0x7f0d00df
+			public const int mr_volume_control = 2131558623;
 			
-			// aapt resource value: 0x7f0d0080
-			public const int parentPanel = 2131558528;
+			// aapt resource value: 0x7f0d00e0
+			public const int mr_volume_group_list = 2131558624;
+			
+			// aapt resource value: 0x7f0d00e2
+			public const int mr_volume_item_icon = 2131558626;
+			
+			// aapt resource value: 0x7f0d00e3
+			public const int mr_volume_slider = 2131558627;
+			
+			// aapt resource value: 0x7f0d0041
+			public const int multiply = 2131558465;
+			
+			// aapt resource value: 0x7f0d00c2
+			public const int navigation_header_container = 2131558594;
+			
+			// aapt resource value: 0x7f0d0054
+			public const int never = 2131558484;
+			
+			// aapt resource value: 0x7f0d0034
+			public const int never_display = 2131558452;
+			
+			// aapt resource value: 0x7f0d00cb
+			public const int next = 2131558603;
+			
+			// aapt resource value: 0x7f0d00cc
+			public const int nextArrow = 2131558604;
+			
+			// aapt resource value: 0x7f0d0020
+			public const int none = 2131558432;
+			
+			// aapt resource value: 0x7f0d0036
+			public const int normal = 2131558454;
+			
+			// aapt resource value: 0x7f0d00f8
+			public const int notification_background = 2131558648;
+			
+			// aapt resource value: 0x7f0d00f2
+			public const int notification_main_column = 2131558642;
+			
+			// aapt resource value: 0x7f0d00f1
+			public const int notification_main_column_container = 2131558641;
+			
+			// aapt resource value: 0x7f0d0027
+			public const int open_graph = 2131558439;
+			
+			// aapt resource value: 0x7f0d00fd
+			public const int os_bgimage_notif_bgimage = 2131558653;
+			
+			// aapt resource value: 0x7f0d00fc
+			public const int os_bgimage_notif_bgimage_align_layout = 2131558652;
+			
+			// aapt resource value: 0x7f0d00fe
+			public const int os_bgimage_notif_bgimage_right_aligned = 2131558654;
+			
+			// aapt resource value: 0x7f0d0100
+			public const int os_bgimage_notif_body = 2131558656;
+			
+			// aapt resource value: 0x7f0d00ff
+			public const int os_bgimage_notif_title = 2131558655;
+			
+			// aapt resource value: 0x7f0d0028
+			public const int page = 2131558440;
+			
+			// aapt resource value: 0x7f0d00c8
+			public const int pager = 2131558600;
+			
+			// aapt resource value: 0x7f0d005f
+			public const int parallax = 2131558495;
+			
+			// aapt resource value: 0x7f0d007e
+			public const int parentPanel = 2131558526;
 			
 			// aapt resource value: 0x7f0d000b
 			public const int parent_matrix = 2131558411;
 			
-			// aapt resource value: 0x7f0d005f
-			public const int pin = 2131558495;
+			// aapt resource value: 0x7f0d0060
+			public const int pin = 2131558496;
 			
-			// aapt resource value: 0x7f0d00cc
-			public const int play = 2131558604;
+			// aapt resource value: 0x7f0d00c9
+			public const int prev = 2131558601;
 			
 			// aapt resource value: 0x7f0d00ca
-			public const int prev = 2131558602;
+			public const int prevArrow = 2131558602;
 			
-			// aapt resource value: 0x7f0d00d7
-			public const int prevArrow = 2131558615;
-			
-			// aapt resource value: 0x7f0d00b1
-			public const int progress_bar = 2131558577;
+			// aapt resource value: 0x7f0d00af
+			public const int progress_bar = 2131558575;
 			
 			// aapt resource value: 0x7f0d0006
 			public const int progress_circular = 2131558406;
@@ -17243,26 +13591,23 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0d0007
 			public const int progress_horizontal = 2131558407;
 			
-			// aapt resource value: 0x7f0d0090
-			public const int radio = 2131558544;
-			
-			// aapt resource value: 0x7f0d006c
-			public const int restart = 2131558508;
+			// aapt resource value: 0x7f0d008e
+			public const int radio = 2131558542;
 			
 			// aapt resource value: 0x7f0d006d
-			public const int reverse = 2131558509;
+			public const int restart = 2131558509;
 			
-			// aapt resource value: 0x7f0d00cb
-			public const int rew = 2131558603;
+			// aapt resource value: 0x7f0d006e
+			public const int reverse = 2131558510;
 			
-			// aapt resource value: 0x7f0d0030
-			public const int right = 2131558448;
+			// aapt resource value: 0x7f0d0031
+			public const int right = 2131558449;
 			
-			// aapt resource value: 0x7f0d0102
-			public const int right_icon = 2131558658;
+			// aapt resource value: 0x7f0d00f7
+			public const int right_icon = 2131558647;
 			
-			// aapt resource value: 0x7f0d00ff
-			public const int right_side = 2131558655;
+			// aapt resource value: 0x7f0d00f3
+			public const int right_side = 2131558643;
 			
 			// aapt resource value: 0x7f0d000c
 			public const int save_image_matrix = 2131558412;
@@ -17273,143 +13618,140 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0d000e
 			public const int save_scale_type = 2131558414;
 			
-			// aapt resource value: 0x7f0d0040
-			public const int screen = 2131558464;
-			
-			// aapt resource value: 0x7f0d0058
-			public const int scroll = 2131558488;
-			
-			// aapt resource value: 0x7f0d0086
-			public const int scrollIndicatorDown = 2131558534;
-			
-			// aapt resource value: 0x7f0d0082
-			public const int scrollIndicatorUp = 2131558530;
-			
-			// aapt resource value: 0x7f0d0083
-			public const int scrollView = 2131558531;
-			
-			// aapt resource value: 0x7f0d0067
-			public const int scrollable = 2131558503;
-			
-			// aapt resource value: 0x7f0d009b
-			public const int search_badge = 2131558555;
-			
-			// aapt resource value: 0x7f0d009a
-			public const int search_bar = 2131558554;
-			
-			// aapt resource value: 0x7f0d009c
-			public const int search_button = 2131558556;
-			
-			// aapt resource value: 0x7f0d00a1
-			public const int search_close_btn = 2131558561;
-			
-			// aapt resource value: 0x7f0d009d
-			public const int search_edit_frame = 2131558557;
-			
-			// aapt resource value: 0x7f0d00a3
-			public const int search_go_btn = 2131558563;
-			
-			// aapt resource value: 0x7f0d009e
-			public const int search_mag_icon = 2131558558;
-			
-			// aapt resource value: 0x7f0d009f
-			public const int search_plate = 2131558559;
-			
-			// aapt resource value: 0x7f0d00a0
-			public const int search_src_text = 2131558560;
-			
-			// aapt resource value: 0x7f0d00a4
-			public const int search_voice_btn = 2131558564;
-			
-			// aapt resource value: 0x7f0d00a5
-			public const int select_dialog_listview = 2131558565;
-			
-			// aapt resource value: 0x7f0d008f
-			public const int shortcut = 2131558543;
-			
-			// aapt resource value: 0x7f0d003b
-			public const int showCustom = 2131558459;
-			
-			// aapt resource value: 0x7f0d003c
-			public const int showHome = 2131558460;
-			
-			// aapt resource value: 0x7f0d003d
-			public const int showTitle = 2131558461;
-			
-			// aapt resource value: 0x7f0d00d3
-			public const int shutter = 2131558611;
-			
-			// aapt resource value: 0x7f0d010c
-			public const int sliding_tabs = 2131558668;
-			
-			// aapt resource value: 0x7f0d0036
-			public const int small = 2131558454;
-			
-			// aapt resource value: 0x7f0d00bc
-			public const int smallLabel = 2131558588;
-			
-			// aapt resource value: 0x7f0d00c3
-			public const int snackbar_action = 2131558595;
-			
-			// aapt resource value: 0x7f0d00c2
-			public const int snackbar_text = 2131558594;
+			// aapt resource value: 0x7f0d0042
+			public const int screen = 2131558466;
 			
 			// aapt resource value: 0x7f0d0059
-			public const int snap = 2131558489;
+			public const int scroll = 2131558489;
 			
-			// aapt resource value: 0x7f0d007f
-			public const int spacer = 2131558527;
+			// aapt resource value: 0x7f0d0084
+			public const int scrollIndicatorDown = 2131558532;
+			
+			// aapt resource value: 0x7f0d0080
+			public const int scrollIndicatorUp = 2131558528;
+			
+			// aapt resource value: 0x7f0d0081
+			public const int scrollView = 2131558529;
+			
+			// aapt resource value: 0x7f0d0068
+			public const int scrollable = 2131558504;
+			
+			// aapt resource value: 0x7f0d0099
+			public const int search_badge = 2131558553;
+			
+			// aapt resource value: 0x7f0d0098
+			public const int search_bar = 2131558552;
+			
+			// aapt resource value: 0x7f0d009a
+			public const int search_button = 2131558554;
+			
+			// aapt resource value: 0x7f0d009f
+			public const int search_close_btn = 2131558559;
+			
+			// aapt resource value: 0x7f0d009b
+			public const int search_edit_frame = 2131558555;
+			
+			// aapt resource value: 0x7f0d00a1
+			public const int search_go_btn = 2131558561;
+			
+			// aapt resource value: 0x7f0d009c
+			public const int search_mag_icon = 2131558556;
+			
+			// aapt resource value: 0x7f0d009d
+			public const int search_plate = 2131558557;
+			
+			// aapt resource value: 0x7f0d009e
+			public const int search_src_text = 2131558558;
+			
+			// aapt resource value: 0x7f0d00a2
+			public const int search_voice_btn = 2131558562;
+			
+			// aapt resource value: 0x7f0d00a3
+			public const int select_dialog_listview = 2131558563;
+			
+			// aapt resource value: 0x7f0d008d
+			public const int shortcut = 2131558541;
+			
+			// aapt resource value: 0x7f0d003c
+			public const int showCustom = 2131558460;
+			
+			// aapt resource value: 0x7f0d003d
+			public const int showHome = 2131558461;
+			
+			// aapt resource value: 0x7f0d003e
+			public const int showTitle = 2131558462;
+			
+			// aapt resource value: 0x7f0d0101
+			public const int sliding_tabs = 2131558657;
+			
+			// aapt resource value: 0x7f0d0037
+			public const int small = 2131558455;
+			
+			// aapt resource value: 0x7f0d00ba
+			public const int smallLabel = 2131558586;
+			
+			// aapt resource value: 0x7f0d00c1
+			public const int snackbar_action = 2131558593;
+			
+			// aapt resource value: 0x7f0d00c0
+			public const int snackbar_text = 2131558592;
+			
+			// aapt resource value: 0x7f0d005a
+			public const int snap = 2131558490;
+			
+			// aapt resource value: 0x7f0d007d
+			public const int spacer = 2131558525;
 			
 			// aapt resource value: 0x7f0d0008
 			public const int split_action_bar = 2131558408;
 			
-			// aapt resource value: 0x7f0d0041
-			public const int src_atop = 2131558465;
-			
-			// aapt resource value: 0x7f0d0042
-			public const int src_in = 2131558466;
-			
 			// aapt resource value: 0x7f0d0043
-			public const int src_over = 2131558467;
+			public const int src_atop = 2131558467;
 			
-			// aapt resource value: 0x7f0d0021
-			public const int standard = 2131558433;
+			// aapt resource value: 0x7f0d0044
+			public const int src_in = 2131558468;
 			
-			// aapt resource value: 0x7f0d005d
-			public const int start = 2131558493;
+			// aapt resource value: 0x7f0d0045
+			public const int src_over = 2131558469;
 			
-			// aapt resource value: 0x7f0d00fa
-			public const int status_bar_latest_event_content = 2131558650;
+			// aapt resource value: 0x7f0d0022
+			public const int standard = 2131558434;
 			
-			// aapt resource value: 0x7f0d006e
-			public const int strong = 2131558510;
+			// aapt resource value: 0x7f0d005e
+			public const int start = 2131558494;
 			
-			// aapt resource value: 0x7f0d0091
-			public const int submenuarrow = 2131558545;
+			// aapt resource value: 0x7f0d00ee
+			public const int status_bar_latest_event_content = 2131558638;
 			
-			// aapt resource value: 0x7f0d00a2
-			public const int submit_area = 2131558562;
+			// aapt resource value: 0x7f0d006f
+			public const int strong = 2131558511;
 			
-			// aapt resource value: 0x7f0d00d4
-			public const int subtitles = 2131558612;
+			// aapt resource value: 0x7f0d008f
+			public const int submenuarrow = 2131558543;
 			
-			// aapt resource value: 0x7f0d0038
-			public const int tabMode = 2131558456;
+			// aapt resource value: 0x7f0d00a0
+			public const int submit_area = 2131558560;
+			
+			// aapt resource value: 0x7f0d0039
+			public const int tabMode = 2131558457;
 			
 			// aapt resource value: 0x7f0d0019
-			public const int text = 2131558425;
+			public const int tag_transition_group = 2131558425;
 			
 			// aapt resource value: 0x7f0d001a
-			public const int text2 = 2131558426;
+			public const int text = 2131558426;
 			
-			// aapt resource value: 0x7f0d0085
-			public const int textSpacerNoButtons = 2131558533;
+			// aapt resource value: 0x7f0d001b
+			public const int text2 = 2131558427;
 			
-			// aapt resource value: 0x7f0d0084
-			public const int textSpacerNoTitle = 2131558532;
+			// aapt resource value: 0x7f0d0083
+			public const int textSpacerNoButtons = 2131558531;
 			
-			// aapt resource value: 0x7f0d00c9
-			public const int text_input_password_toggle = 2131558601;
+			// aapt resource value: 0x7f0d0082
+			public const int textSpacerNoTitle = 2131558530;
+			
+			// aapt resource value: 0x7f0d00c7
+			public const int text_input_password_toggle = 2131558599;
 			
 			// aapt resource value: 0x7f0d0014
 			public const int textinput_counter = 2131558420;
@@ -17417,32 +13759,29 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0d0015
 			public const int textinput_error = 2131558421;
 			
-			// aapt resource value: 0x7f0d00d1
-			public const int time = 2131558609;
+			// aapt resource value: 0x7f0d00f4
+			public const int time = 2131558644;
 			
-			// aapt resource value: 0x7f0d00cf
-			public const int time_current = 2131558607;
-			
-			// aapt resource value: 0x7f0d001b
-			public const int title = 2131558427;
-			
-			// aapt resource value: 0x7f0d008c
-			public const int titleDividerNoCustom = 2131558540;
+			// aapt resource value: 0x7f0d001c
+			public const int title = 2131558428;
 			
 			// aapt resource value: 0x7f0d008a
-			public const int title_template = 2131558538;
+			public const int titleDividerNoCustom = 2131558538;
 			
-			// aapt resource value: 0x7f0d010d
-			public const int toolbar = 2131558669;
+			// aapt resource value: 0x7f0d0088
+			public const int title_template = 2131558536;
 			
-			// aapt resource value: 0x7f0d002d
-			public const int top = 2131558445;
+			// aapt resource value: 0x7f0d0102
+			public const int toolbar = 2131558658;
 			
-			// aapt resource value: 0x7f0d0089
-			public const int topPanel = 2131558537;
+			// aapt resource value: 0x7f0d002e
+			public const int top = 2131558446;
 			
-			// aapt resource value: 0x7f0d00c0
-			public const int touch_outside = 2131558592;
+			// aapt resource value: 0x7f0d0087
+			public const int topPanel = 2131558535;
+			
+			// aapt resource value: 0x7f0d00be
+			public const int touch_outside = 2131558590;
 			
 			// aapt resource value: 0x7f0d000f
 			public const int transition_current_scene = 2131558415;
@@ -17459,44 +13798,41 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0d0013
 			public const int transition_transform = 2131558419;
 			
-			// aapt resource value: 0x7f0d0045
-			public const int uniform = 2131558469;
+			// aapt resource value: 0x7f0d0046
+			public const int uniform = 2131558470;
 			
-			// aapt resource value: 0x7f0d0028
-			public const int unknown = 2131558440;
+			// aapt resource value: 0x7f0d0029
+			public const int unknown = 2131558441;
 			
 			// aapt resource value: 0x7f0d0009
 			public const int up = 2131558409;
 			
-			// aapt resource value: 0x7f0d003e
-			public const int useLogo = 2131558462;
+			// aapt resource value: 0x7f0d003f
+			public const int useLogo = 2131558463;
 			
-			// aapt resource value: 0x7f0d0074
-			public const int vertical = 2131558516;
-			
-			// aapt resource value: 0x7f0d00d2
-			public const int video_frame = 2131558610;
+			// aapt resource value: 0x7f0d0072
+			public const int vertical = 2131558514;
 			
 			// aapt resource value: 0x7f0d0016
 			public const int view_offset_helper = 2131558422;
 			
-			// aapt resource value: 0x7f0d010f
-			public const int visible = 2131558671;
+			// aapt resource value: 0x7f0d0104
+			public const int visible = 2131558660;
 			
-			// aapt resource value: 0x7f0d00ed
-			public const int volume_item_container = 2131558637;
+			// aapt resource value: 0x7f0d00e1
+			public const int volume_item_container = 2131558625;
 			
-			// aapt resource value: 0x7f0d006f
-			public const int weak = 2131558511;
+			// aapt resource value: 0x7f0d0070
+			public const int weak = 2131558512;
 			
-			// aapt resource value: 0x7f0d0022
-			public const int wide = 2131558434;
+			// aapt resource value: 0x7f0d0023
+			public const int wide = 2131558435;
 			
-			// aapt resource value: 0x7f0d0054
-			public const int withText = 2131558484;
+			// aapt resource value: 0x7f0d0055
+			public const int withText = 2131558485;
 			
-			// aapt resource value: 0x7f0d0046
-			public const int wrap_content = 2131558470;
+			// aapt resource value: 0x7f0d0047
+			public const int wrap_content = 2131558471;
 			
 			static Id()
 			{
@@ -17595,268 +13931,259 @@ namespace MeditSolution.Droid
 			public const int abc_action_bar_up_container = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int abc_action_bar_view_list_nav_layout = 2130903042;
+			public const int abc_action_menu_item_layout = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int abc_action_menu_item_layout = 2130903043;
+			public const int abc_action_menu_layout = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int abc_action_menu_layout = 2130903044;
+			public const int abc_action_mode_bar = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int abc_action_mode_bar = 2130903045;
+			public const int abc_action_mode_close_item_material = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int abc_action_mode_close_item_material = 2130903046;
+			public const int abc_activity_chooser_view = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int abc_activity_chooser_view = 2130903047;
+			public const int abc_activity_chooser_view_list_item = 2130903047;
 			
 			// aapt resource value: 0x7f030008
-			public const int abc_activity_chooser_view_list_item = 2130903048;
+			public const int abc_alert_dialog_button_bar_material = 2130903048;
 			
 			// aapt resource value: 0x7f030009
-			public const int abc_alert_dialog_button_bar_material = 2130903049;
+			public const int abc_alert_dialog_material = 2130903049;
 			
 			// aapt resource value: 0x7f03000a
-			public const int abc_alert_dialog_material = 2130903050;
+			public const int abc_alert_dialog_title_material = 2130903050;
 			
 			// aapt resource value: 0x7f03000b
-			public const int abc_alert_dialog_title_material = 2130903051;
+			public const int abc_dialog_title_material = 2130903051;
 			
 			// aapt resource value: 0x7f03000c
-			public const int abc_dialog_title_material = 2130903052;
+			public const int abc_expanded_menu_layout = 2130903052;
 			
 			// aapt resource value: 0x7f03000d
-			public const int abc_expanded_menu_layout = 2130903053;
+			public const int abc_list_menu_item_checkbox = 2130903053;
 			
 			// aapt resource value: 0x7f03000e
-			public const int abc_list_menu_item_checkbox = 2130903054;
+			public const int abc_list_menu_item_icon = 2130903054;
 			
 			// aapt resource value: 0x7f03000f
-			public const int abc_list_menu_item_icon = 2130903055;
+			public const int abc_list_menu_item_layout = 2130903055;
 			
 			// aapt resource value: 0x7f030010
-			public const int abc_list_menu_item_layout = 2130903056;
+			public const int abc_list_menu_item_radio = 2130903056;
 			
 			// aapt resource value: 0x7f030011
-			public const int abc_list_menu_item_radio = 2130903057;
+			public const int abc_popup_menu_header_item_layout = 2130903057;
 			
 			// aapt resource value: 0x7f030012
-			public const int abc_popup_menu_header_item_layout = 2130903058;
+			public const int abc_popup_menu_item_layout = 2130903058;
 			
 			// aapt resource value: 0x7f030013
-			public const int abc_popup_menu_item_layout = 2130903059;
+			public const int abc_screen_content_include = 2130903059;
 			
 			// aapt resource value: 0x7f030014
-			public const int abc_screen_content_include = 2130903060;
+			public const int abc_screen_simple = 2130903060;
 			
 			// aapt resource value: 0x7f030015
-			public const int abc_screen_simple = 2130903061;
+			public const int abc_screen_simple_overlay_action_mode = 2130903061;
 			
 			// aapt resource value: 0x7f030016
-			public const int abc_screen_simple_overlay_action_mode = 2130903062;
+			public const int abc_screen_toolbar = 2130903062;
 			
 			// aapt resource value: 0x7f030017
-			public const int abc_screen_toolbar = 2130903063;
+			public const int abc_search_dropdown_item_icons_2line = 2130903063;
 			
 			// aapt resource value: 0x7f030018
-			public const int abc_search_dropdown_item_icons_2line = 2130903064;
+			public const int abc_search_view = 2130903064;
 			
 			// aapt resource value: 0x7f030019
-			public const int abc_search_view = 2130903065;
+			public const int abc_select_dialog_material = 2130903065;
 			
 			// aapt resource value: 0x7f03001a
-			public const int abc_select_dialog_material = 2130903066;
+			public const int bb_bottom_bar_item_container = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int bb_bottom_bar_item_container = 2130903067;
+			public const int bb_bottom_bar_item_container_tablet = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int bb_bottom_bar_item_container_tablet = 2130903068;
+			public const int bb_bottom_bar_item_fixed = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
-			public const int bb_bottom_bar_item_fixed = 2130903069;
+			public const int bb_bottom_bar_item_fixed_tablet = 2130903069;
 			
 			// aapt resource value: 0x7f03001e
-			public const int bb_bottom_bar_item_fixed_tablet = 2130903070;
+			public const int bb_bottom_bar_item_shifting = 2130903070;
 			
 			// aapt resource value: 0x7f03001f
-			public const int bb_bottom_bar_item_shifting = 2130903071;
+			public const int com_facebook_activity_layout = 2130903071;
 			
 			// aapt resource value: 0x7f030020
-			public const int com_facebook_activity_layout = 2130903072;
+			public const int com_facebook_device_auth_dialog_fragment = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public const int com_facebook_device_auth_dialog_fragment = 2130903073;
+			public const int com_facebook_login_fragment = 2130903073;
 			
 			// aapt resource value: 0x7f030022
-			public const int com_facebook_login_fragment = 2130903074;
+			public const int com_facebook_smart_device_dialog_fragment = 2130903074;
 			
 			// aapt resource value: 0x7f030023
-			public const int com_facebook_smart_device_dialog_fragment = 2130903075;
+			public const int com_facebook_tooltip_bubble = 2130903075;
 			
 			// aapt resource value: 0x7f030024
-			public const int com_facebook_tooltip_bubble = 2130903076;
+			public const int design_bottom_navigation_item = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public const int design_bottom_navigation_item = 2130903077;
+			public const int design_bottom_sheet_dialog = 2130903077;
 			
 			// aapt resource value: 0x7f030026
-			public const int design_bottom_sheet_dialog = 2130903078;
+			public const int design_layout_snackbar = 2130903078;
 			
 			// aapt resource value: 0x7f030027
-			public const int design_layout_snackbar = 2130903079;
+			public const int design_layout_snackbar_include = 2130903079;
 			
 			// aapt resource value: 0x7f030028
-			public const int design_layout_snackbar_include = 2130903080;
+			public const int design_layout_tab_icon = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public const int design_layout_tab_icon = 2130903081;
+			public const int design_layout_tab_text = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
-			public const int design_layout_tab_text = 2130903082;
+			public const int design_menu_item_action_area = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int design_menu_item_action_area = 2130903083;
+			public const int design_navigation_item = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int design_navigation_item = 2130903084;
+			public const int design_navigation_item_header = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int design_navigation_item_header = 2130903085;
+			public const int design_navigation_item_separator = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int design_navigation_item_separator = 2130903086;
+			public const int design_navigation_item_subheader = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int design_navigation_item_subheader = 2130903087;
+			public const int design_navigation_menu = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int design_navigation_menu = 2130903088;
+			public const int design_navigation_menu_item = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int design_navigation_menu_item = 2130903089;
+			public const int design_text_input_password_icon = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int design_text_input_password_icon = 2130903090;
+			public const int horizontal_viewpager = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int exo_playback_control_view = 2130903091;
+			public const int messenger_button_send_blue_large = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int exo_simple_player_view = 2130903092;
+			public const int messenger_button_send_blue_round = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int horizontal_viewpager = 2130903093;
+			public const int messenger_button_send_blue_small = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int messenger_button_send_blue_large = 2130903094;
+			public const int messenger_button_send_white_large = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int messenger_button_send_blue_round = 2130903095;
+			public const int messenger_button_send_white_round = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int messenger_button_send_blue_small = 2130903096;
+			public const int messenger_button_send_white_small = 2130903096;
 			
 			// aapt resource value: 0x7f030039
-			public const int messenger_button_send_white_large = 2130903097;
+			public const int mr_chooser_dialog = 2130903097;
 			
 			// aapt resource value: 0x7f03003a
-			public const int messenger_button_send_white_round = 2130903098;
+			public const int mr_chooser_list_item = 2130903098;
 			
 			// aapt resource value: 0x7f03003b
-			public const int messenger_button_send_white_small = 2130903099;
+			public const int mr_controller_material_dialog_b = 2130903099;
 			
 			// aapt resource value: 0x7f03003c
-			public const int mr_chooser_dialog = 2130903100;
+			public const int mr_controller_volume_item = 2130903100;
 			
 			// aapt resource value: 0x7f03003d
-			public const int mr_chooser_list_item = 2130903101;
+			public const int mr_playback_control = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int mr_controller_material_dialog_b = 2130903102;
+			public const int mr_volume_control = 2130903102;
 			
 			// aapt resource value: 0x7f03003f
-			public const int mr_controller_volume_item = 2130903103;
+			public const int notification_action = 2130903103;
 			
 			// aapt resource value: 0x7f030040
-			public const int mr_playback_control = 2130903104;
+			public const int notification_action_tombstone = 2130903104;
 			
 			// aapt resource value: 0x7f030041
-			public const int mr_volume_control = 2130903105;
+			public const int notification_media_action = 2130903105;
 			
 			// aapt resource value: 0x7f030042
-			public const int notification_action = 2130903106;
+			public const int notification_media_cancel_action = 2130903106;
 			
 			// aapt resource value: 0x7f030043
-			public const int notification_action_tombstone = 2130903107;
+			public const int notification_template_big_media = 2130903107;
 			
 			// aapt resource value: 0x7f030044
-			public const int notification_media_action = 2130903108;
+			public const int notification_template_big_media_custom = 2130903108;
 			
 			// aapt resource value: 0x7f030045
-			public const int notification_media_cancel_action = 2130903109;
+			public const int notification_template_big_media_narrow = 2130903109;
 			
 			// aapt resource value: 0x7f030046
-			public const int notification_template_big_media = 2130903110;
+			public const int notification_template_big_media_narrow_custom = 2130903110;
 			
 			// aapt resource value: 0x7f030047
-			public const int notification_template_big_media_custom = 2130903111;
+			public const int notification_template_custom_big = 2130903111;
 			
 			// aapt resource value: 0x7f030048
-			public const int notification_template_big_media_narrow = 2130903112;
+			public const int notification_template_icon_group = 2130903112;
 			
 			// aapt resource value: 0x7f030049
-			public const int notification_template_big_media_narrow_custom = 2130903113;
+			public const int notification_template_lines_media = 2130903113;
 			
 			// aapt resource value: 0x7f03004a
-			public const int notification_template_custom_big = 2130903114;
+			public const int notification_template_media = 2130903114;
 			
 			// aapt resource value: 0x7f03004b
-			public const int notification_template_icon_group = 2130903115;
+			public const int notification_template_media_custom = 2130903115;
 			
 			// aapt resource value: 0x7f03004c
-			public const int notification_template_lines_media = 2130903116;
+			public const int notification_template_part_chronometer = 2130903116;
 			
 			// aapt resource value: 0x7f03004d
-			public const int notification_template_media = 2130903117;
+			public const int notification_template_part_time = 2130903117;
 			
 			// aapt resource value: 0x7f03004e
-			public const int notification_template_media_custom = 2130903118;
+			public const int onesignal_bgimage_notif_layout = 2130903118;
 			
 			// aapt resource value: 0x7f03004f
-			public const int notification_template_part_chronometer = 2130903119;
+			public const int select_dialog_item_material = 2130903119;
 			
 			// aapt resource value: 0x7f030050
-			public const int notification_template_part_time = 2130903120;
+			public const int select_dialog_multichoice_material = 2130903120;
 			
 			// aapt resource value: 0x7f030051
-			public const int onesignal_bgimage_notif_layout = 2130903121;
+			public const int select_dialog_singlechoice_material = 2130903121;
 			
 			// aapt resource value: 0x7f030052
-			public const int select_dialog_item_material = 2130903122;
+			public const int support_simple_spinner_dropdown_item = 2130903122;
 			
 			// aapt resource value: 0x7f030053
-			public const int select_dialog_multichoice_material = 2130903123;
+			public const int Tabbar = 2130903123;
 			
 			// aapt resource value: 0x7f030054
-			public const int select_dialog_singlechoice_material = 2130903124;
+			public const int Toolbar = 2130903124;
 			
 			// aapt resource value: 0x7f030055
-			public const int support_simple_spinner_dropdown_item = 2130903125;
+			public const int tooltip = 2130903125;
 			
 			// aapt resource value: 0x7f030056
-			public const int Tabbar = 2130903126;
-			
-			// aapt resource value: 0x7f030057
-			public const int Toolbar = 2130903127;
-			
-			// aapt resource value: 0x7f030058
-			public const int tooltip = 2130903128;
-			
-			// aapt resource value: 0x7f030059
-			public const int vertical_viewpager = 2130903129;
+			public const int vertical_viewpager = 2130903126;
 			
 			static Layout()
 			{
@@ -17900,109 +14227,103 @@ namespace MeditSolution.Droid
 			public const int abc_action_bar_home_description = 2131230784;
 			
 			// aapt resource value: 0x7f080041
-			public const int abc_action_bar_home_description_format = 2131230785;
+			public const int abc_action_bar_up_description = 2131230785;
 			
 			// aapt resource value: 0x7f080042
-			public const int abc_action_bar_home_subtitle_description_format = 2131230786;
+			public const int abc_action_menu_overflow_description = 2131230786;
 			
 			// aapt resource value: 0x7f080043
-			public const int abc_action_bar_up_description = 2131230787;
+			public const int abc_action_mode_done = 2131230787;
 			
 			// aapt resource value: 0x7f080044
-			public const int abc_action_menu_overflow_description = 2131230788;
+			public const int abc_activity_chooser_view_see_all = 2131230788;
 			
 			// aapt resource value: 0x7f080045
-			public const int abc_action_mode_done = 2131230789;
+			public const int abc_activitychooserview_choose_application = 2131230789;
 			
 			// aapt resource value: 0x7f080046
-			public const int abc_activity_chooser_view_see_all = 2131230790;
+			public const int abc_capital_off = 2131230790;
 			
 			// aapt resource value: 0x7f080047
-			public const int abc_activitychooserview_choose_application = 2131230791;
-			
-			// aapt resource value: 0x7f080048
-			public const int abc_capital_off = 2131230792;
-			
-			// aapt resource value: 0x7f080049
-			public const int abc_capital_on = 2131230793;
-			
-			// aapt resource value: 0x7f080055
-			public const int abc_font_family_body_1_material = 2131230805;
-			
-			// aapt resource value: 0x7f080056
-			public const int abc_font_family_body_2_material = 2131230806;
-			
-			// aapt resource value: 0x7f080057
-			public const int abc_font_family_button_material = 2131230807;
-			
-			// aapt resource value: 0x7f080058
-			public const int abc_font_family_caption_material = 2131230808;
-			
-			// aapt resource value: 0x7f080059
-			public const int abc_font_family_display_1_material = 2131230809;
-			
-			// aapt resource value: 0x7f08005a
-			public const int abc_font_family_display_2_material = 2131230810;
-			
-			// aapt resource value: 0x7f08005b
-			public const int abc_font_family_display_3_material = 2131230811;
-			
-			// aapt resource value: 0x7f08005c
-			public const int abc_font_family_display_4_material = 2131230812;
-			
-			// aapt resource value: 0x7f08005d
-			public const int abc_font_family_headline_material = 2131230813;
-			
-			// aapt resource value: 0x7f08005e
-			public const int abc_font_family_menu_material = 2131230814;
-			
-			// aapt resource value: 0x7f08005f
-			public const int abc_font_family_subhead_material = 2131230815;
-			
-			// aapt resource value: 0x7f080060
-			public const int abc_font_family_title_material = 2131230816;
-			
-			// aapt resource value: 0x7f08004a
-			public const int abc_search_hint = 2131230794;
-			
-			// aapt resource value: 0x7f08004b
-			public const int abc_searchview_description_clear = 2131230795;
-			
-			// aapt resource value: 0x7f08004c
-			public const int abc_searchview_description_query = 2131230796;
-			
-			// aapt resource value: 0x7f08004d
-			public const int abc_searchview_description_search = 2131230797;
-			
-			// aapt resource value: 0x7f08004e
-			public const int abc_searchview_description_submit = 2131230798;
-			
-			// aapt resource value: 0x7f08004f
-			public const int abc_searchview_description_voice = 2131230799;
-			
-			// aapt resource value: 0x7f080050
-			public const int abc_shareactionprovider_share_with = 2131230800;
-			
-			// aapt resource value: 0x7f080051
-			public const int abc_shareactionprovider_share_with_application = 2131230801;
+			public const int abc_capital_on = 2131230791;
 			
 			// aapt resource value: 0x7f080052
-			public const int abc_toolbar_collapse_description = 2131230802;
+			public const int abc_font_family_body_1_material = 2131230802;
 			
-			// aapt resource value: 0x7f080072
-			public const int app_id = 2131230834;
+			// aapt resource value: 0x7f080053
+			public const int abc_font_family_body_2_material = 2131230803;
 			
-			// aapt resource value: 0x7f080071
-			public const int app_name = 2131230833;
+			// aapt resource value: 0x7f080054
+			public const int abc_font_family_button_material = 2131230804;
 			
-			// aapt resource value: 0x7f080061
-			public const int appbar_scrolling_view_behavior = 2131230817;
+			// aapt resource value: 0x7f080055
+			public const int abc_font_family_caption_material = 2131230805;
 			
-			// aapt resource value: 0x7f080062
-			public const int bottom_sheet_behavior = 2131230818;
+			// aapt resource value: 0x7f080056
+			public const int abc_font_family_display_1_material = 2131230806;
 			
-			// aapt resource value: 0x7f080063
-			public const int character_counter_pattern = 2131230819;
+			// aapt resource value: 0x7f080057
+			public const int abc_font_family_display_2_material = 2131230807;
+			
+			// aapt resource value: 0x7f080058
+			public const int abc_font_family_display_3_material = 2131230808;
+			
+			// aapt resource value: 0x7f080059
+			public const int abc_font_family_display_4_material = 2131230809;
+			
+			// aapt resource value: 0x7f08005a
+			public const int abc_font_family_headline_material = 2131230810;
+			
+			// aapt resource value: 0x7f08005b
+			public const int abc_font_family_menu_material = 2131230811;
+			
+			// aapt resource value: 0x7f08005c
+			public const int abc_font_family_subhead_material = 2131230812;
+			
+			// aapt resource value: 0x7f08005d
+			public const int abc_font_family_title_material = 2131230813;
+			
+			// aapt resource value: 0x7f080048
+			public const int abc_search_hint = 2131230792;
+			
+			// aapt resource value: 0x7f080049
+			public const int abc_searchview_description_clear = 2131230793;
+			
+			// aapt resource value: 0x7f08004a
+			public const int abc_searchview_description_query = 2131230794;
+			
+			// aapt resource value: 0x7f08004b
+			public const int abc_searchview_description_search = 2131230795;
+			
+			// aapt resource value: 0x7f08004c
+			public const int abc_searchview_description_submit = 2131230796;
+			
+			// aapt resource value: 0x7f08004d
+			public const int abc_searchview_description_voice = 2131230797;
+			
+			// aapt resource value: 0x7f08004e
+			public const int abc_shareactionprovider_share_with = 2131230798;
+			
+			// aapt resource value: 0x7f08004f
+			public const int abc_shareactionprovider_share_with_application = 2131230799;
+			
+			// aapt resource value: 0x7f080050
+			public const int abc_toolbar_collapse_description = 2131230800;
+			
+			// aapt resource value: 0x7f080069
+			public const int app_id = 2131230825;
+			
+			// aapt resource value: 0x7f080068
+			public const int app_name = 2131230824;
+			
+			// aapt resource value: 0x7f08005e
+			public const int appbar_scrolling_view_behavior = 2131230814;
+			
+			// aapt resource value: 0x7f08005f
+			public const int bottom_sheet_behavior = 2131230815;
+			
+			// aapt resource value: 0x7f080060
+			public const int character_counter_pattern = 2131230816;
 			
 			// aapt resource value: 0x7f080013
 			public const int com_facebook_device_auth_instructions = 2131230739;
@@ -18125,31 +14446,10 @@ namespace MeditSolution.Droid
 			public const int common_signin_button_text_long = 2131230737;
 			
 			// aapt resource value: 0x7f08006a
-			public const int exo_controls_fastforward_description = 2131230826;
+			public const int fb_login_protocol_scheme = 2131230826;
 			
-			// aapt resource value: 0x7f08006b
-			public const int exo_controls_next_description = 2131230827;
-			
-			// aapt resource value: 0x7f08006c
-			public const int exo_controls_pause_description = 2131230828;
-			
-			// aapt resource value: 0x7f08006d
-			public const int exo_controls_play_description = 2131230829;
-			
-			// aapt resource value: 0x7f08006e
-			public const int exo_controls_previous_description = 2131230830;
-			
-			// aapt resource value: 0x7f08006f
-			public const int exo_controls_rewind_description = 2131230831;
-			
-			// aapt resource value: 0x7f080070
-			public const int exo_controls_stop_description = 2131230832;
-			
-			// aapt resource value: 0x7f080073
-			public const int fb_login_protocol_scheme = 2131230835;
-			
-			// aapt resource value: 0x7f080069
-			public const int library_name = 2131230825;
+			// aapt resource value: 0x7f080067
+			public const int library_name = 2131230823;
 			
 			// aapt resource value: 0x7f08002a
 			public const int messenger_send_button_text = 2131230762;
@@ -18217,26 +14517,26 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f08003f
 			public const int mr_user_route_category_name = 2131230783;
 			
+			// aapt resource value: 0x7f080061
+			public const int password_toggle_content_description = 2131230817;
+			
+			// aapt resource value: 0x7f080062
+			public const int path_password_eye = 2131230818;
+			
+			// aapt resource value: 0x7f080063
+			public const int path_password_eye_mask_strike_through = 2131230819;
+			
 			// aapt resource value: 0x7f080064
-			public const int password_toggle_content_description = 2131230820;
+			public const int path_password_eye_mask_visible = 2131230820;
 			
 			// aapt resource value: 0x7f080065
-			public const int path_password_eye = 2131230821;
+			public const int path_password_strike_through = 2131230821;
+			
+			// aapt resource value: 0x7f080051
+			public const int search_menu_title = 2131230801;
 			
 			// aapt resource value: 0x7f080066
-			public const int path_password_eye_mask_strike_through = 2131230822;
-			
-			// aapt resource value: 0x7f080067
-			public const int path_password_eye_mask_visible = 2131230823;
-			
-			// aapt resource value: 0x7f080068
-			public const int path_password_strike_through = 2131230824;
-			
-			// aapt resource value: 0x7f080053
-			public const int search_menu_title = 2131230803;
-			
-			// aapt resource value: 0x7f080054
-			public const int status_bar_notification_info_overflow = 2131230804;
+			public const int status_bar_notification_info_overflow = 2131230822;
 			
 			static String()
 			{
@@ -18251,74 +14551,74 @@ namespace MeditSolution.Droid
 		public partial class Style
 		{
 			
+			// aapt resource value: 0x7f0c00bc
+			public const int AlertDialog_AppCompat = 2131493052;
+			
+			// aapt resource value: 0x7f0c00bd
+			public const int AlertDialog_AppCompat_Light = 2131493053;
+			
+			// aapt resource value: 0x7f0c00be
+			public const int Animation_AppCompat_Dialog = 2131493054;
+			
+			// aapt resource value: 0x7f0c00bf
+			public const int Animation_AppCompat_DropDownUp = 2131493055;
+			
+			// aapt resource value: 0x7f0c00c0
+			public const int Animation_AppCompat_Tooltip = 2131493056;
+			
+			// aapt resource value: 0x7f0c0186
+			public const int Animation_Design_BottomSheetDialog = 2131493254;
+			
+			// aapt resource value: 0x7f0c01b5
+			public const int AppCompatDialogStyle = 2131493301;
+			
+			// aapt resource value: 0x7f0c01b1
+			public const int BB_BottomBarBadge_Text = 2131493297;
+			
+			// aapt resource value: 0x7f0c01aa
+			public const int BB_BottomBarItem = 2131493290;
+			
+			// aapt resource value: 0x7f0c01ab
+			public const int BB_BottomBarItem_Fixed = 2131493291;
+			
+			// aapt resource value: 0x7f0c01ad
+			public const int BB_BottomBarItem_Fixed_TitleAppearance = 2131493293;
+			
+			// aapt resource value: 0x7f0c01ae
+			public const int BB_BottomBarItem_Shifting = 2131493294;
+			
+			// aapt resource value: 0x7f0c01af
+			public const int BB_BottomBarItem_Shifting_TitleAppearance = 2131493295;
+			
+			// aapt resource value: 0x7f0c01b0
+			public const int BB_BottomBarItem_Tablet = 2131493296;
+			
+			// aapt resource value: 0x7f0c01ac
+			public const int BB_BottomBarItem_TitleStyle = 2131493292;
+			
+			// aapt resource value: 0x7f0c00c1
+			public const int Base_AlertDialog_AppCompat = 2131493057;
+			
+			// aapt resource value: 0x7f0c00c2
+			public const int Base_AlertDialog_AppCompat_Light = 2131493058;
+			
+			// aapt resource value: 0x7f0c00c3
+			public const int Base_Animation_AppCompat_Dialog = 2131493059;
+			
 			// aapt resource value: 0x7f0c00c4
-			public const int AlertDialog_AppCompat = 2131493060;
+			public const int Base_Animation_AppCompat_DropDownUp = 2131493060;
 			
 			// aapt resource value: 0x7f0c00c5
-			public const int AlertDialog_AppCompat_Light = 2131493061;
-			
-			// aapt resource value: 0x7f0c00c6
-			public const int Animation_AppCompat_Dialog = 2131493062;
-			
-			// aapt resource value: 0x7f0c00c7
-			public const int Animation_AppCompat_DropDownUp = 2131493063;
-			
-			// aapt resource value: 0x7f0c00c8
-			public const int Animation_AppCompat_Tooltip = 2131493064;
-			
-			// aapt resource value: 0x7f0c0190
-			public const int Animation_Design_BottomSheetDialog = 2131493264;
-			
-			// aapt resource value: 0x7f0c01c4
-			public const int AppCompatDialogStyle = 2131493316;
-			
-			// aapt resource value: 0x7f0c01c0
-			public const int BB_BottomBarBadge_Text = 2131493312;
-			
-			// aapt resource value: 0x7f0c01b9
-			public const int BB_BottomBarItem = 2131493305;
-			
-			// aapt resource value: 0x7f0c01ba
-			public const int BB_BottomBarItem_Fixed = 2131493306;
-			
-			// aapt resource value: 0x7f0c01bc
-			public const int BB_BottomBarItem_Fixed_TitleAppearance = 2131493308;
-			
-			// aapt resource value: 0x7f0c01bd
-			public const int BB_BottomBarItem_Shifting = 2131493309;
-			
-			// aapt resource value: 0x7f0c01be
-			public const int BB_BottomBarItem_Shifting_TitleAppearance = 2131493310;
-			
-			// aapt resource value: 0x7f0c01bf
-			public const int BB_BottomBarItem_Tablet = 2131493311;
-			
-			// aapt resource value: 0x7f0c01bb
-			public const int BB_BottomBarItem_TitleStyle = 2131493307;
-			
-			// aapt resource value: 0x7f0c00c9
-			public const int Base_AlertDialog_AppCompat = 2131493065;
-			
-			// aapt resource value: 0x7f0c00ca
-			public const int Base_AlertDialog_AppCompat_Light = 2131493066;
-			
-			// aapt resource value: 0x7f0c00cb
-			public const int Base_Animation_AppCompat_Dialog = 2131493067;
-			
-			// aapt resource value: 0x7f0c00cc
-			public const int Base_Animation_AppCompat_DropDownUp = 2131493068;
-			
-			// aapt resource value: 0x7f0c00cd
-			public const int Base_Animation_AppCompat_Tooltip = 2131493069;
+			public const int Base_Animation_AppCompat_Tooltip = 2131493061;
 			
 			// aapt resource value: 0x7f0c0024
 			public const int Base_CardView = 2131492900;
 			
-			// aapt resource value: 0x7f0c00ce
-			public const int Base_DialogWindowTitle_AppCompat = 2131493070;
+			// aapt resource value: 0x7f0c00c6
+			public const int Base_DialogWindowTitle_AppCompat = 2131493062;
 			
-			// aapt resource value: 0x7f0c00cf
-			public const int Base_DialogWindowTitleBackground_AppCompat = 2131493071;
+			// aapt resource value: 0x7f0c00c7
+			public const int Base_DialogWindowTitleBackground_AppCompat = 2131493063;
 			
 			// aapt resource value: 0x7f0c0060
 			public const int Base_TextAppearance_AppCompat = 2131492960;
@@ -18374,8 +14674,8 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c006d
 			public const int Base_TextAppearance_AppCompat_Menu = 2131492973;
 			
-			// aapt resource value: 0x7f0c00d0
-			public const int Base_TextAppearance_AppCompat_SearchResult = 2131493072;
+			// aapt resource value: 0x7f0c00c8
+			public const int Base_TextAppearance_AppCompat_SearchResult = 2131493064;
 			
 			// aapt resource value: 0x7f0c006e
 			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131492974;
@@ -18401,11 +14701,11 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c0037
 			public const int Base_TextAppearance_AppCompat_Title_Inverse = 2131492919;
 			
-			// aapt resource value: 0x7f0c00d1
-			public const int Base_TextAppearance_AppCompat_Tooltip = 2131493073;
+			// aapt resource value: 0x7f0c00c9
+			public const int Base_TextAppearance_AppCompat_Tooltip = 2131493065;
 			
-			// aapt resource value: 0x7f0c00b5
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131493045;
+			// aapt resource value: 0x7f0c00ad
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131493037;
 			
 			// aapt resource value: 0x7f0c0073
 			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131492979;
@@ -18428,17 +14728,17 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c0079
 			public const int Base_TextAppearance_AppCompat_Widget_Button = 2131492985;
 			
-			// aapt resource value: 0x7f0c00bc
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131493052;
+			// aapt resource value: 0x7f0c00b4
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131493044;
 			
-			// aapt resource value: 0x7f0c00bd
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131493053;
+			// aapt resource value: 0x7f0c00b5
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131493045;
 			
-			// aapt resource value: 0x7f0c00b6
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131493046;
+			// aapt resource value: 0x7f0c00ae
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131493038;
 			
-			// aapt resource value: 0x7f0c00d2
-			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131493074;
+			// aapt resource value: 0x7f0c00ca
+			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131493066;
 			
 			// aapt resource value: 0x7f0c007a
 			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131492986;
@@ -18455,8 +14755,8 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c007e
 			public const int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131492990;
 			
-			// aapt resource value: 0x7f0c00d3
-			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131493075;
+			// aapt resource value: 0x7f0c00cb
+			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131493067;
 			
 			// aapt resource value: 0x7f0c007f
 			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131492991;
@@ -18467,8 +14767,8 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c0081
 			public const int Base_Theme_AppCompat = 2131492993;
 			
-			// aapt resource value: 0x7f0c00d4
-			public const int Base_Theme_AppCompat_CompactMenu = 2131493076;
+			// aapt resource value: 0x7f0c00cc
+			public const int Base_Theme_AppCompat_CompactMenu = 2131493068;
 			
 			// aapt resource value: 0x7f0c0038
 			public const int Base_Theme_AppCompat_Dialog = 2131492920;
@@ -18476,8 +14776,8 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c0039
 			public const int Base_Theme_AppCompat_Dialog_Alert = 2131492921;
 			
-			// aapt resource value: 0x7f0c00d5
-			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131493077;
+			// aapt resource value: 0x7f0c00cd
+			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131493069;
 			
 			// aapt resource value: 0x7f0c003a
 			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131492922;
@@ -18488,8 +14788,8 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c0082
 			public const int Base_Theme_AppCompat_Light = 2131492994;
 			
-			// aapt resource value: 0x7f0c00d6
-			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131493078;
+			// aapt resource value: 0x7f0c00ce
+			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131493070;
 			
 			// aapt resource value: 0x7f0c003b
 			public const int Base_Theme_AppCompat_Light_Dialog = 2131492923;
@@ -18497,8 +14797,8 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c003c
 			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131492924;
 			
-			// aapt resource value: 0x7f0c00d7
-			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131493079;
+			// aapt resource value: 0x7f0c00cf
+			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131493071;
 			
 			// aapt resource value: 0x7f0c003d
 			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131492925;
@@ -18506,17 +14806,17 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c0029
 			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131492905;
 			
-			// aapt resource value: 0x7f0c00d8
-			public const int Base_ThemeOverlay_AppCompat = 2131493080;
+			// aapt resource value: 0x7f0c00d0
+			public const int Base_ThemeOverlay_AppCompat = 2131493072;
 			
-			// aapt resource value: 0x7f0c00d9
-			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131493081;
+			// aapt resource value: 0x7f0c00d1
+			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131493073;
 			
-			// aapt resource value: 0x7f0c00da
-			public const int Base_ThemeOverlay_AppCompat_Dark = 2131493082;
+			// aapt resource value: 0x7f0c00d2
+			public const int Base_ThemeOverlay_AppCompat_Dark = 2131493074;
 			
-			// aapt resource value: 0x7f0c00db
-			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131493083;
+			// aapt resource value: 0x7f0c00d3
+			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131493075;
 			
 			// aapt resource value: 0x7f0c003e
 			public const int Base_ThemeOverlay_AppCompat_Dialog = 2131492926;
@@ -18524,8 +14824,8 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c003f
 			public const int Base_ThemeOverlay_AppCompat_Dialog_Alert = 2131492927;
 			
-			// aapt resource value: 0x7f0c00dc
-			public const int Base_ThemeOverlay_AppCompat_Light = 2131493084;
+			// aapt resource value: 0x7f0c00d4
+			public const int Base_ThemeOverlay_AppCompat_Light = 2131493076;
 			
 			// aapt resource value: 0x7f0c0040
 			public const int Base_V11_Theme_AppCompat_Dialog = 2131492928;
@@ -18542,8 +14842,8 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c004b
 			public const int Base_V12_Widget_AppCompat_EditText = 2131492939;
 			
-			// aapt resource value: 0x7f0c0191
-			public const int Base_V14_Widget_Design_AppBarLayout = 2131493265;
+			// aapt resource value: 0x7f0c0187
+			public const int Base_V14_Widget_Design_AppBarLayout = 2131493255;
 			
 			// aapt resource value: 0x7f0c0083
 			public const int Base_V21_Theme_AppCompat = 2131492995;
@@ -18560,65 +14860,65 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c0087
 			public const int Base_V21_ThemeOverlay_AppCompat_Dialog = 2131492999;
 			
-			// aapt resource value: 0x7f0c018d
-			public const int Base_V21_Widget_Design_AppBarLayout = 2131493261;
+			// aapt resource value: 0x7f0c0183
+			public const int Base_V21_Widget_Design_AppBarLayout = 2131493251;
 			
-			// aapt resource value: 0x7f0c00b3
-			public const int Base_V22_Theme_AppCompat = 2131493043;
+			// aapt resource value: 0x7f0c00ab
+			public const int Base_V22_Theme_AppCompat = 2131493035;
 			
-			// aapt resource value: 0x7f0c00b4
-			public const int Base_V22_Theme_AppCompat_Light = 2131493044;
+			// aapt resource value: 0x7f0c00ac
+			public const int Base_V22_Theme_AppCompat_Light = 2131493036;
 			
-			// aapt resource value: 0x7f0c00b7
-			public const int Base_V23_Theme_AppCompat = 2131493047;
+			// aapt resource value: 0x7f0c00af
+			public const int Base_V23_Theme_AppCompat = 2131493039;
+			
+			// aapt resource value: 0x7f0c00b0
+			public const int Base_V23_Theme_AppCompat_Light = 2131493040;
 			
 			// aapt resource value: 0x7f0c00b8
-			public const int Base_V23_Theme_AppCompat_Light = 2131493048;
+			public const int Base_V26_Theme_AppCompat = 2131493048;
 			
-			// aapt resource value: 0x7f0c00c0
-			public const int Base_V26_Theme_AppCompat = 2131493056;
+			// aapt resource value: 0x7f0c00b9
+			public const int Base_V26_Theme_AppCompat_Light = 2131493049;
 			
-			// aapt resource value: 0x7f0c00c1
-			public const int Base_V26_Theme_AppCompat_Light = 2131493057;
+			// aapt resource value: 0x7f0c00ba
+			public const int Base_V26_Widget_AppCompat_Toolbar = 2131493050;
 			
-			// aapt resource value: 0x7f0c00c2
-			public const int Base_V26_Widget_AppCompat_Toolbar = 2131493058;
+			// aapt resource value: 0x7f0c0185
+			public const int Base_V26_Widget_Design_AppBarLayout = 2131493253;
 			
-			// aapt resource value: 0x7f0c018f
-			public const int Base_V26_Widget_Design_AppBarLayout = 2131493263;
+			// aapt resource value: 0x7f0c00d5
+			public const int Base_V7_Theme_AppCompat = 2131493077;
+			
+			// aapt resource value: 0x7f0c00d6
+			public const int Base_V7_Theme_AppCompat_Dialog = 2131493078;
+			
+			// aapt resource value: 0x7f0c00d7
+			public const int Base_V7_Theme_AppCompat_Light = 2131493079;
+			
+			// aapt resource value: 0x7f0c00d8
+			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131493080;
+			
+			// aapt resource value: 0x7f0c00d9
+			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131493081;
+			
+			// aapt resource value: 0x7f0c00da
+			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131493082;
+			
+			// aapt resource value: 0x7f0c00db
+			public const int Base_V7_Widget_AppCompat_EditText = 2131493083;
+			
+			// aapt resource value: 0x7f0c00dc
+			public const int Base_V7_Widget_AppCompat_Toolbar = 2131493084;
 			
 			// aapt resource value: 0x7f0c00dd
-			public const int Base_V7_Theme_AppCompat = 2131493085;
+			public const int Base_Widget_AppCompat_ActionBar = 2131493085;
 			
 			// aapt resource value: 0x7f0c00de
-			public const int Base_V7_Theme_AppCompat_Dialog = 2131493086;
+			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131493086;
 			
 			// aapt resource value: 0x7f0c00df
-			public const int Base_V7_Theme_AppCompat_Light = 2131493087;
-			
-			// aapt resource value: 0x7f0c00e0
-			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131493088;
-			
-			// aapt resource value: 0x7f0c00e1
-			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131493089;
-			
-			// aapt resource value: 0x7f0c00e2
-			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131493090;
-			
-			// aapt resource value: 0x7f0c00e3
-			public const int Base_V7_Widget_AppCompat_EditText = 2131493091;
-			
-			// aapt resource value: 0x7f0c00e4
-			public const int Base_V7_Widget_AppCompat_Toolbar = 2131493092;
-			
-			// aapt resource value: 0x7f0c00e5
-			public const int Base_Widget_AppCompat_ActionBar = 2131493093;
-			
-			// aapt resource value: 0x7f0c00e6
-			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131493094;
-			
-			// aapt resource value: 0x7f0c00e7
-			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131493095;
+			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131493087;
 			
 			// aapt resource value: 0x7f0c0088
 			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131493000;
@@ -18635,11 +14935,11 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c008c
 			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131493004;
 			
-			// aapt resource value: 0x7f0c00e8
-			public const int Base_Widget_AppCompat_ActionMode = 2131493096;
+			// aapt resource value: 0x7f0c00e0
+			public const int Base_Widget_AppCompat_ActionMode = 2131493088;
 			
-			// aapt resource value: 0x7f0c00e9
-			public const int Base_Widget_AppCompat_ActivityChooserView = 2131493097;
+			// aapt resource value: 0x7f0c00e1
+			public const int Base_Widget_AppCompat_ActivityChooserView = 2131493089;
 			
 			// aapt resource value: 0x7f0c004c
 			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131492940;
@@ -18653,11 +14953,11 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c008f
 			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131493007;
 			
-			// aapt resource value: 0x7f0c00ea
-			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131493098;
+			// aapt resource value: 0x7f0c00e2
+			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131493090;
 			
-			// aapt resource value: 0x7f0c00b9
-			public const int Base_Widget_AppCompat_Button_Colored = 2131493049;
+			// aapt resource value: 0x7f0c00b1
+			public const int Base_Widget_AppCompat_Button_Colored = 2131493041;
 			
 			// aapt resource value: 0x7f0c0090
 			public const int Base_Widget_AppCompat_Button_Small = 2131493008;
@@ -18665,8 +14965,8 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c0091
 			public const int Base_Widget_AppCompat_ButtonBar = 2131493009;
 			
-			// aapt resource value: 0x7f0c00eb
-			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131493099;
+			// aapt resource value: 0x7f0c00e3
+			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131493091;
 			
 			// aapt resource value: 0x7f0c0092
 			public const int Base_Widget_AppCompat_CompoundButton_CheckBox = 2131493010;
@@ -18674,14 +14974,14 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c0093
 			public const int Base_Widget_AppCompat_CompoundButton_RadioButton = 2131493011;
 			
-			// aapt resource value: 0x7f0c00ec
-			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131493100;
+			// aapt resource value: 0x7f0c00e4
+			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131493092;
 			
 			// aapt resource value: 0x7f0c0027
 			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131492903;
 			
-			// aapt resource value: 0x7f0c00ed
-			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131493101;
+			// aapt resource value: 0x7f0c00e5
+			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131493093;
 			
 			// aapt resource value: 0x7f0c0094
 			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131493012;
@@ -18692,14 +14992,14 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c0095
 			public const int Base_Widget_AppCompat_ImageButton = 2131493013;
 			
-			// aapt resource value: 0x7f0c00ee
-			public const int Base_Widget_AppCompat_Light_ActionBar = 2131493102;
+			// aapt resource value: 0x7f0c00e6
+			public const int Base_Widget_AppCompat_Light_ActionBar = 2131493094;
 			
-			// aapt resource value: 0x7f0c00ef
-			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131493103;
+			// aapt resource value: 0x7f0c00e7
+			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131493095;
 			
-			// aapt resource value: 0x7f0c00f0
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131493104;
+			// aapt resource value: 0x7f0c00e8
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131493096;
 			
 			// aapt resource value: 0x7f0c0096
 			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131493014;
@@ -18716,8 +15016,8 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c009a
 			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131493018;
 			
-			// aapt resource value: 0x7f0c00f1
-			public const int Base_Widget_AppCompat_ListMenuView = 2131493105;
+			// aapt resource value: 0x7f0c00e9
+			public const int Base_Widget_AppCompat_ListMenuView = 2131493097;
 			
 			// aapt resource value: 0x7f0c009b
 			public const int Base_Widget_AppCompat_ListPopupWindow = 2131493019;
@@ -18737,8 +15037,8 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c00a0
 			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131493024;
 			
-			// aapt resource value: 0x7f0c00f2
-			public const int Base_Widget_AppCompat_PopupWindow = 2131493106;
+			// aapt resource value: 0x7f0c00ea
+			public const int Base_Widget_AppCompat_PopupWindow = 2131493098;
 			
 			// aapt resource value: 0x7f0c0043
 			public const int Base_Widget_AppCompat_ProgressBar = 2131492931;
@@ -18749,23 +15049,23 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c00a1
 			public const int Base_Widget_AppCompat_RatingBar = 2131493025;
 			
-			// aapt resource value: 0x7f0c00ba
-			public const int Base_Widget_AppCompat_RatingBar_Indicator = 2131493050;
+			// aapt resource value: 0x7f0c00b2
+			public const int Base_Widget_AppCompat_RatingBar_Indicator = 2131493042;
 			
-			// aapt resource value: 0x7f0c00bb
-			public const int Base_Widget_AppCompat_RatingBar_Small = 2131493051;
+			// aapt resource value: 0x7f0c00b3
+			public const int Base_Widget_AppCompat_RatingBar_Small = 2131493043;
 			
-			// aapt resource value: 0x7f0c00f3
-			public const int Base_Widget_AppCompat_SearchView = 2131493107;
+			// aapt resource value: 0x7f0c00eb
+			public const int Base_Widget_AppCompat_SearchView = 2131493099;
 			
-			// aapt resource value: 0x7f0c00f4
-			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131493108;
+			// aapt resource value: 0x7f0c00ec
+			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131493100;
 			
 			// aapt resource value: 0x7f0c00a2
 			public const int Base_Widget_AppCompat_SeekBar = 2131493026;
 			
-			// aapt resource value: 0x7f0c00f5
-			public const int Base_Widget_AppCompat_SeekBar_Discrete = 2131493109;
+			// aapt resource value: 0x7f0c00ed
+			public const int Base_Widget_AppCompat_SeekBar_Discrete = 2131493101;
 			
 			// aapt resource value: 0x7f0c00a3
 			public const int Base_Widget_AppCompat_Spinner = 2131493027;
@@ -18776,17 +15076,17 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c00a4
 			public const int Base_Widget_AppCompat_TextView_SpinnerItem = 2131493028;
 			
-			// aapt resource value: 0x7f0c00c3
-			public const int Base_Widget_AppCompat_Toolbar = 2131493059;
+			// aapt resource value: 0x7f0c00bb
+			public const int Base_Widget_AppCompat_Toolbar = 2131493051;
 			
 			// aapt resource value: 0x7f0c00a5
 			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131493029;
 			
-			// aapt resource value: 0x7f0c018e
-			public const int Base_Widget_Design_AppBarLayout = 2131493262;
+			// aapt resource value: 0x7f0c0184
+			public const int Base_Widget_Design_AppBarLayout = 2131493252;
 			
-			// aapt resource value: 0x7f0c0192
-			public const int Base_Widget_Design_TabLayout = 2131493266;
+			// aapt resource value: 0x7f0c0188
+			public const int Base_Widget_Design_TabLayout = 2131493256;
 			
 			// aapt resource value: 0x7f0c0023
 			public const int CardView = 2131492899;
@@ -18796,21 +15096,6 @@ namespace MeditSolution.Droid
 			
 			// aapt resource value: 0x7f0c0026
 			public const int CardView_Light = 2131492902;
-			
-			// aapt resource value: 0x7f0c01b1
-			public const int ExoMediaButton = 2131493297;
-			
-			// aapt resource value: 0x7f0c01b2
-			public const int ExoMediaButton_FastForward = 2131493298;
-			
-			// aapt resource value: 0x7f0c01b3
-			public const int ExoMediaButton_Next = 2131493299;
-			
-			// aapt resource value: 0x7f0c01b4
-			public const int ExoMediaButton_Previous = 2131493300;
-			
-			// aapt resource value: 0x7f0c01b5
-			public const int ExoMediaButton_Rewind = 2131493301;
 			
 			// aapt resource value: 0x7f0c0000
 			public const int MessengerButton = 2131492864;
@@ -18854,11 +15139,11 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c000d
 			public const int MessengerButtonText_White_Small = 2131492877;
 			
-			// aapt resource value: 0x7f0c01c2
-			public const int MyTheme = 2131493314;
+			// aapt resource value: 0x7f0c01b3
+			public const int MyTheme = 2131493299;
 			
-			// aapt resource value: 0x7f0c01c3
-			public const int MyTheme_Base = 2131493315;
+			// aapt resource value: 0x7f0c01b4
+			public const int MyTheme_Base = 2131493300;
 			
 			// aapt resource value: 0x7f0c0045
 			public const int Platform_AppCompat = 2131492933;
@@ -18893,11 +15178,11 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c00aa
 			public const int Platform_V21_AppCompat_Light = 2131493034;
 			
-			// aapt resource value: 0x7f0c00be
-			public const int Platform_V25_AppCompat = 2131493054;
+			// aapt resource value: 0x7f0c00b6
+			public const int Platform_V25_AppCompat = 2131493046;
 			
-			// aapt resource value: 0x7f0c00bf
-			public const int Platform_V25_AppCompat_Light = 2131493055;
+			// aapt resource value: 0x7f0c00b7
+			public const int Platform_V25_AppCompat_Light = 2131493047;
 			
 			// aapt resource value: 0x7f0c0049
 			public const int Platform_Widget_AppCompat_Spinner = 2131492937;
@@ -18944,230 +15229,200 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c005f
 			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131492959;
 			
+			// aapt resource value: 0x7f0c00ee
+			public const int TextAppearance_AppCompat = 2131493102;
+			
+			// aapt resource value: 0x7f0c00ef
+			public const int TextAppearance_AppCompat_Body1 = 2131493103;
+			
+			// aapt resource value: 0x7f0c00f0
+			public const int TextAppearance_AppCompat_Body2 = 2131493104;
+			
+			// aapt resource value: 0x7f0c00f1
+			public const int TextAppearance_AppCompat_Button = 2131493105;
+			
+			// aapt resource value: 0x7f0c00f2
+			public const int TextAppearance_AppCompat_Caption = 2131493106;
+			
+			// aapt resource value: 0x7f0c00f3
+			public const int TextAppearance_AppCompat_Display1 = 2131493107;
+			
+			// aapt resource value: 0x7f0c00f4
+			public const int TextAppearance_AppCompat_Display2 = 2131493108;
+			
+			// aapt resource value: 0x7f0c00f5
+			public const int TextAppearance_AppCompat_Display3 = 2131493109;
+			
 			// aapt resource value: 0x7f0c00f6
-			public const int TextAppearance_AppCompat = 2131493110;
+			public const int TextAppearance_AppCompat_Display4 = 2131493110;
 			
 			// aapt resource value: 0x7f0c00f7
-			public const int TextAppearance_AppCompat_Body1 = 2131493111;
+			public const int TextAppearance_AppCompat_Headline = 2131493111;
 			
 			// aapt resource value: 0x7f0c00f8
-			public const int TextAppearance_AppCompat_Body2 = 2131493112;
+			public const int TextAppearance_AppCompat_Inverse = 2131493112;
 			
 			// aapt resource value: 0x7f0c00f9
-			public const int TextAppearance_AppCompat_Button = 2131493113;
+			public const int TextAppearance_AppCompat_Large = 2131493113;
 			
 			// aapt resource value: 0x7f0c00fa
-			public const int TextAppearance_AppCompat_Caption = 2131493114;
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131493114;
 			
 			// aapt resource value: 0x7f0c00fb
-			public const int TextAppearance_AppCompat_Display1 = 2131493115;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131493115;
 			
 			// aapt resource value: 0x7f0c00fc
-			public const int TextAppearance_AppCompat_Display2 = 2131493116;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131493116;
 			
 			// aapt resource value: 0x7f0c00fd
-			public const int TextAppearance_AppCompat_Display3 = 2131493117;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131493117;
 			
 			// aapt resource value: 0x7f0c00fe
-			public const int TextAppearance_AppCompat_Display4 = 2131493118;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131493118;
 			
 			// aapt resource value: 0x7f0c00ff
-			public const int TextAppearance_AppCompat_Headline = 2131493119;
+			public const int TextAppearance_AppCompat_Medium = 2131493119;
 			
 			// aapt resource value: 0x7f0c0100
-			public const int TextAppearance_AppCompat_Inverse = 2131493120;
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131493120;
 			
 			// aapt resource value: 0x7f0c0101
-			public const int TextAppearance_AppCompat_Large = 2131493121;
+			public const int TextAppearance_AppCompat_Menu = 2131493121;
 			
 			// aapt resource value: 0x7f0c0102
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131493122;
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131493122;
 			
 			// aapt resource value: 0x7f0c0103
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131493123;
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131493123;
 			
 			// aapt resource value: 0x7f0c0104
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131493124;
+			public const int TextAppearance_AppCompat_Small = 2131493124;
 			
 			// aapt resource value: 0x7f0c0105
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131493125;
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131493125;
 			
 			// aapt resource value: 0x7f0c0106
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131493126;
+			public const int TextAppearance_AppCompat_Subhead = 2131493126;
 			
 			// aapt resource value: 0x7f0c0107
-			public const int TextAppearance_AppCompat_Medium = 2131493127;
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131493127;
 			
 			// aapt resource value: 0x7f0c0108
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131493128;
+			public const int TextAppearance_AppCompat_Title = 2131493128;
 			
 			// aapt resource value: 0x7f0c0109
-			public const int TextAppearance_AppCompat_Menu = 2131493129;
-			
-			// aapt resource value: 0x7f0c00ab
-			public const int TextAppearance_AppCompat_Notification = 2131493035;
-			
-			// aapt resource value: 0x7f0c00ac
-			public const int TextAppearance_AppCompat_Notification_Info = 2131493036;
-			
-			// aapt resource value: 0x7f0c00ad
-			public const int TextAppearance_AppCompat_Notification_Info_Media = 2131493037;
-			
-			// aapt resource value: 0x7f0c010a
-			public const int TextAppearance_AppCompat_Notification_Line2 = 2131493130;
-			
-			// aapt resource value: 0x7f0c010b
-			public const int TextAppearance_AppCompat_Notification_Line2_Media = 2131493131;
-			
-			// aapt resource value: 0x7f0c00ae
-			public const int TextAppearance_AppCompat_Notification_Media = 2131493038;
-			
-			// aapt resource value: 0x7f0c00af
-			public const int TextAppearance_AppCompat_Notification_Time = 2131493039;
-			
-			// aapt resource value: 0x7f0c00b0
-			public const int TextAppearance_AppCompat_Notification_Time_Media = 2131493040;
-			
-			// aapt resource value: 0x7f0c00b1
-			public const int TextAppearance_AppCompat_Notification_Title = 2131493041;
-			
-			// aapt resource value: 0x7f0c00b2
-			public const int TextAppearance_AppCompat_Notification_Title_Media = 2131493042;
-			
-			// aapt resource value: 0x7f0c010c
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131493132;
-			
-			// aapt resource value: 0x7f0c010d
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131493133;
-			
-			// aapt resource value: 0x7f0c010e
-			public const int TextAppearance_AppCompat_Small = 2131493134;
-			
-			// aapt resource value: 0x7f0c010f
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131493135;
-			
-			// aapt resource value: 0x7f0c0110
-			public const int TextAppearance_AppCompat_Subhead = 2131493136;
-			
-			// aapt resource value: 0x7f0c0111
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131493137;
-			
-			// aapt resource value: 0x7f0c0112
-			public const int TextAppearance_AppCompat_Title = 2131493138;
-			
-			// aapt resource value: 0x7f0c0113
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131493139;
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131493129;
 			
 			// aapt resource value: 0x7f0c0051
 			public const int TextAppearance_AppCompat_Tooltip = 2131492945;
 			
+			// aapt resource value: 0x7f0c010a
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131493130;
+			
+			// aapt resource value: 0x7f0c010b
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131493131;
+			
+			// aapt resource value: 0x7f0c010c
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131493132;
+			
+			// aapt resource value: 0x7f0c010d
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131493133;
+			
+			// aapt resource value: 0x7f0c010e
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131493134;
+			
+			// aapt resource value: 0x7f0c010f
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131493135;
+			
+			// aapt resource value: 0x7f0c0110
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131493136;
+			
+			// aapt resource value: 0x7f0c0111
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131493137;
+			
+			// aapt resource value: 0x7f0c0112
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131493138;
+			
+			// aapt resource value: 0x7f0c0113
+			public const int TextAppearance_AppCompat_Widget_Button = 2131493139;
+			
 			// aapt resource value: 0x7f0c0114
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131493140;
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131493140;
 			
 			// aapt resource value: 0x7f0c0115
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131493141;
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131493141;
 			
 			// aapt resource value: 0x7f0c0116
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131493142;
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131493142;
 			
 			// aapt resource value: 0x7f0c0117
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131493143;
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131493143;
 			
 			// aapt resource value: 0x7f0c0118
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131493144;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131493144;
 			
 			// aapt resource value: 0x7f0c0119
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131493145;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131493145;
 			
 			// aapt resource value: 0x7f0c011a
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131493146;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131493146;
 			
 			// aapt resource value: 0x7f0c011b
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131493147;
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131493147;
 			
 			// aapt resource value: 0x7f0c011c
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131493148;
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131493148;
 			
-			// aapt resource value: 0x7f0c011d
-			public const int TextAppearance_AppCompat_Widget_Button = 2131493149;
+			// aapt resource value: 0x7f0c01a0
+			public const int TextAppearance_Compat_Notification = 2131493280;
 			
-			// aapt resource value: 0x7f0c011e
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131493150;
+			// aapt resource value: 0x7f0c01a1
+			public const int TextAppearance_Compat_Notification_Info = 2131493281;
 			
-			// aapt resource value: 0x7f0c011f
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131493151;
+			// aapt resource value: 0x7f0c017d
+			public const int TextAppearance_Compat_Notification_Info_Media = 2131493245;
 			
-			// aapt resource value: 0x7f0c0120
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131493152;
+			// aapt resource value: 0x7f0c01a6
+			public const int TextAppearance_Compat_Notification_Line2 = 2131493286;
 			
-			// aapt resource value: 0x7f0c0121
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131493153;
+			// aapt resource value: 0x7f0c0181
+			public const int TextAppearance_Compat_Notification_Line2_Media = 2131493249;
 			
-			// aapt resource value: 0x7f0c0122
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131493154;
+			// aapt resource value: 0x7f0c017e
+			public const int TextAppearance_Compat_Notification_Media = 2131493246;
 			
-			// aapt resource value: 0x7f0c0123
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131493155;
+			// aapt resource value: 0x7f0c01a2
+			public const int TextAppearance_Compat_Notification_Time = 2131493282;
 			
-			// aapt resource value: 0x7f0c0124
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131493156;
+			// aapt resource value: 0x7f0c017f
+			public const int TextAppearance_Compat_Notification_Time_Media = 2131493247;
 			
-			// aapt resource value: 0x7f0c0125
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131493157;
+			// aapt resource value: 0x7f0c01a3
+			public const int TextAppearance_Compat_Notification_Title = 2131493283;
 			
-			// aapt resource value: 0x7f0c0126
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131493158;
-			
-			// aapt resource value: 0x7f0c01aa
-			public const int TextAppearance_Compat_Notification = 2131493290;
-			
-			// aapt resource value: 0x7f0c01ab
-			public const int TextAppearance_Compat_Notification_Info = 2131493291;
-			
-			// aapt resource value: 0x7f0c0187
-			public const int TextAppearance_Compat_Notification_Info_Media = 2131493255;
-			
-			// aapt resource value: 0x7f0c01b0
-			public const int TextAppearance_Compat_Notification_Line2 = 2131493296;
-			
-			// aapt resource value: 0x7f0c018b
-			public const int TextAppearance_Compat_Notification_Line2_Media = 2131493259;
-			
-			// aapt resource value: 0x7f0c0188
-			public const int TextAppearance_Compat_Notification_Media = 2131493256;
-			
-			// aapt resource value: 0x7f0c01ac
-			public const int TextAppearance_Compat_Notification_Time = 2131493292;
+			// aapt resource value: 0x7f0c0180
+			public const int TextAppearance_Compat_Notification_Title_Media = 2131493248;
 			
 			// aapt resource value: 0x7f0c0189
-			public const int TextAppearance_Compat_Notification_Time_Media = 2131493257;
-			
-			// aapt resource value: 0x7f0c01ad
-			public const int TextAppearance_Compat_Notification_Title = 2131493293;
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131493257;
 			
 			// aapt resource value: 0x7f0c018a
-			public const int TextAppearance_Compat_Notification_Title_Media = 2131493258;
+			public const int TextAppearance_Design_Counter = 2131493258;
 			
-			// aapt resource value: 0x7f0c0193
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131493267;
+			// aapt resource value: 0x7f0c018b
+			public const int TextAppearance_Design_Counter_Overflow = 2131493259;
 			
-			// aapt resource value: 0x7f0c0194
-			public const int TextAppearance_Design_Counter = 2131493268;
+			// aapt resource value: 0x7f0c018c
+			public const int TextAppearance_Design_Error = 2131493260;
 			
-			// aapt resource value: 0x7f0c0195
-			public const int TextAppearance_Design_Counter_Overflow = 2131493269;
+			// aapt resource value: 0x7f0c018d
+			public const int TextAppearance_Design_Hint = 2131493261;
 			
-			// aapt resource value: 0x7f0c0196
-			public const int TextAppearance_Design_Error = 2131493270;
+			// aapt resource value: 0x7f0c018e
+			public const int TextAppearance_Design_Snackbar_Message = 2131493262;
 			
-			// aapt resource value: 0x7f0c0197
-			public const int TextAppearance_Design_Hint = 2131493271;
-			
-			// aapt resource value: 0x7f0c0198
-			public const int TextAppearance_Design_Snackbar_Message = 2131493272;
-			
-			// aapt resource value: 0x7f0c0199
-			public const int TextAppearance_Design_Tab = 2131493273;
+			// aapt resource value: 0x7f0c018f
+			public const int TextAppearance_Design_Tab = 2131493263;
 			
 			// aapt resource value: 0x7f0c0018
 			public const int TextAppearance_MediaRouter_PrimaryText = 2131492888;
@@ -19178,20 +15433,20 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c001a
 			public const int TextAppearance_MediaRouter_Title = 2131492890;
 			
-			// aapt resource value: 0x7f0c0127
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131493159;
+			// aapt resource value: 0x7f0c011d
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131493149;
 			
-			// aapt resource value: 0x7f0c0128
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131493160;
+			// aapt resource value: 0x7f0c011e
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131493150;
 			
-			// aapt resource value: 0x7f0c0129
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131493161;
+			// aapt resource value: 0x7f0c011f
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131493151;
 			
-			// aapt resource value: 0x7f0c012a
-			public const int Theme_AppCompat = 2131493162;
+			// aapt resource value: 0x7f0c0120
+			public const int Theme_AppCompat = 2131493152;
 			
-			// aapt resource value: 0x7f0c012b
-			public const int Theme_AppCompat_CompactMenu = 2131493163;
+			// aapt resource value: 0x7f0c0121
+			public const int Theme_AppCompat_CompactMenu = 2131493153;
 			
 			// aapt resource value: 0x7f0c002b
 			public const int Theme_AppCompat_DayNight = 2131492907;
@@ -19214,59 +15469,59 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c0031
 			public const int Theme_AppCompat_DayNight_NoActionBar = 2131492913;
 			
+			// aapt resource value: 0x7f0c0122
+			public const int Theme_AppCompat_Dialog = 2131493154;
+			
+			// aapt resource value: 0x7f0c0123
+			public const int Theme_AppCompat_Dialog_Alert = 2131493155;
+			
+			// aapt resource value: 0x7f0c0124
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131493156;
+			
+			// aapt resource value: 0x7f0c0125
+			public const int Theme_AppCompat_DialogWhenLarge = 2131493157;
+			
+			// aapt resource value: 0x7f0c0126
+			public const int Theme_AppCompat_Light = 2131493158;
+			
+			// aapt resource value: 0x7f0c0127
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131493159;
+			
+			// aapt resource value: 0x7f0c0128
+			public const int Theme_AppCompat_Light_Dialog = 2131493160;
+			
+			// aapt resource value: 0x7f0c0129
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131493161;
+			
+			// aapt resource value: 0x7f0c012a
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131493162;
+			
+			// aapt resource value: 0x7f0c012b
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131493163;
+			
 			// aapt resource value: 0x7f0c012c
-			public const int Theme_AppCompat_Dialog = 2131493164;
+			public const int Theme_AppCompat_Light_NoActionBar = 2131493164;
 			
 			// aapt resource value: 0x7f0c012d
-			public const int Theme_AppCompat_Dialog_Alert = 2131493165;
+			public const int Theme_AppCompat_NoActionBar = 2131493165;
 			
-			// aapt resource value: 0x7f0c012e
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131493166;
+			// aapt resource value: 0x7f0c0190
+			public const int Theme_Design = 2131493264;
 			
-			// aapt resource value: 0x7f0c012f
-			public const int Theme_AppCompat_DialogWhenLarge = 2131493167;
+			// aapt resource value: 0x7f0c0191
+			public const int Theme_Design_BottomSheetDialog = 2131493265;
 			
-			// aapt resource value: 0x7f0c0130
-			public const int Theme_AppCompat_Light = 2131493168;
+			// aapt resource value: 0x7f0c0192
+			public const int Theme_Design_Light = 2131493266;
 			
-			// aapt resource value: 0x7f0c0131
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131493169;
+			// aapt resource value: 0x7f0c0193
+			public const int Theme_Design_Light_BottomSheetDialog = 2131493267;
 			
-			// aapt resource value: 0x7f0c0132
-			public const int Theme_AppCompat_Light_Dialog = 2131493170;
+			// aapt resource value: 0x7f0c0194
+			public const int Theme_Design_Light_NoActionBar = 2131493268;
 			
-			// aapt resource value: 0x7f0c0133
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131493171;
-			
-			// aapt resource value: 0x7f0c0134
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131493172;
-			
-			// aapt resource value: 0x7f0c0135
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131493173;
-			
-			// aapt resource value: 0x7f0c0136
-			public const int Theme_AppCompat_Light_NoActionBar = 2131493174;
-			
-			// aapt resource value: 0x7f0c0137
-			public const int Theme_AppCompat_NoActionBar = 2131493175;
-			
-			// aapt resource value: 0x7f0c019a
-			public const int Theme_Design = 2131493274;
-			
-			// aapt resource value: 0x7f0c019b
-			public const int Theme_Design_BottomSheetDialog = 2131493275;
-			
-			// aapt resource value: 0x7f0c019c
-			public const int Theme_Design_Light = 2131493276;
-			
-			// aapt resource value: 0x7f0c019d
-			public const int Theme_Design_Light_BottomSheetDialog = 2131493277;
-			
-			// aapt resource value: 0x7f0c019e
-			public const int Theme_Design_Light_NoActionBar = 2131493278;
-			
-			// aapt resource value: 0x7f0c019f
-			public const int Theme_Design_NoActionBar = 2131493279;
+			// aapt resource value: 0x7f0c0195
+			public const int Theme_Design_NoActionBar = 2131493269;
 			
 			// aapt resource value: 0x7f0c001b
 			public const int Theme_MediaRouter = 2131492891;
@@ -19280,29 +15535,29 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c001e
 			public const int Theme_MediaRouter_LightControlPanel = 2131492894;
 			
-			// aapt resource value: 0x7f0c01b6
-			public const int Theme_PageIndicatorDefaults = 2131493302;
+			// aapt resource value: 0x7f0c01a7
+			public const int Theme_PageIndicatorDefaults = 2131493287;
 			
-			// aapt resource value: 0x7f0c0138
-			public const int ThemeOverlay_AppCompat = 2131493176;
+			// aapt resource value: 0x7f0c012e
+			public const int ThemeOverlay_AppCompat = 2131493166;
 			
-			// aapt resource value: 0x7f0c0139
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131493177;
+			// aapt resource value: 0x7f0c012f
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131493167;
 			
-			// aapt resource value: 0x7f0c013a
-			public const int ThemeOverlay_AppCompat_Dark = 2131493178;
+			// aapt resource value: 0x7f0c0130
+			public const int ThemeOverlay_AppCompat_Dark = 2131493168;
 			
-			// aapt resource value: 0x7f0c013b
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131493179;
+			// aapt resource value: 0x7f0c0131
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131493169;
 			
-			// aapt resource value: 0x7f0c013c
-			public const int ThemeOverlay_AppCompat_Dialog = 2131493180;
+			// aapt resource value: 0x7f0c0132
+			public const int ThemeOverlay_AppCompat_Dialog = 2131493170;
 			
-			// aapt resource value: 0x7f0c013d
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131493181;
+			// aapt resource value: 0x7f0c0133
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131493171;
 			
-			// aapt resource value: 0x7f0c013e
-			public const int ThemeOverlay_AppCompat_Light = 2131493182;
+			// aapt resource value: 0x7f0c0134
+			public const int ThemeOverlay_AppCompat_Light = 2131493172;
 			
 			// aapt resource value: 0x7f0c001f
 			public const int ThemeOverlay_MediaRouter_Dark = 2131492895;
@@ -19310,266 +15565,266 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c0020
 			public const int ThemeOverlay_MediaRouter_Light = 2131492896;
 			
-			// aapt resource value: 0x7f0c01b7
-			public const int Widget = 2131493303;
+			// aapt resource value: 0x7f0c01a8
+			public const int Widget = 2131493288;
+			
+			// aapt resource value: 0x7f0c0135
+			public const int Widget_AppCompat_ActionBar = 2131493173;
+			
+			// aapt resource value: 0x7f0c0136
+			public const int Widget_AppCompat_ActionBar_Solid = 2131493174;
+			
+			// aapt resource value: 0x7f0c0137
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131493175;
+			
+			// aapt resource value: 0x7f0c0138
+			public const int Widget_AppCompat_ActionBar_TabText = 2131493176;
+			
+			// aapt resource value: 0x7f0c0139
+			public const int Widget_AppCompat_ActionBar_TabView = 2131493177;
+			
+			// aapt resource value: 0x7f0c013a
+			public const int Widget_AppCompat_ActionButton = 2131493178;
+			
+			// aapt resource value: 0x7f0c013b
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131493179;
+			
+			// aapt resource value: 0x7f0c013c
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131493180;
+			
+			// aapt resource value: 0x7f0c013d
+			public const int Widget_AppCompat_ActionMode = 2131493181;
+			
+			// aapt resource value: 0x7f0c013e
+			public const int Widget_AppCompat_ActivityChooserView = 2131493182;
 			
 			// aapt resource value: 0x7f0c013f
-			public const int Widget_AppCompat_ActionBar = 2131493183;
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131493183;
 			
 			// aapt resource value: 0x7f0c0140
-			public const int Widget_AppCompat_ActionBar_Solid = 2131493184;
+			public const int Widget_AppCompat_Button = 2131493184;
 			
 			// aapt resource value: 0x7f0c0141
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131493185;
+			public const int Widget_AppCompat_Button_Borderless = 2131493185;
 			
 			// aapt resource value: 0x7f0c0142
-			public const int Widget_AppCompat_ActionBar_TabText = 2131493186;
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131493186;
 			
 			// aapt resource value: 0x7f0c0143
-			public const int Widget_AppCompat_ActionBar_TabView = 2131493187;
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131493187;
 			
 			// aapt resource value: 0x7f0c0144
-			public const int Widget_AppCompat_ActionButton = 2131493188;
+			public const int Widget_AppCompat_Button_Colored = 2131493188;
 			
 			// aapt resource value: 0x7f0c0145
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131493189;
+			public const int Widget_AppCompat_Button_Small = 2131493189;
 			
 			// aapt resource value: 0x7f0c0146
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131493190;
+			public const int Widget_AppCompat_ButtonBar = 2131493190;
 			
 			// aapt resource value: 0x7f0c0147
-			public const int Widget_AppCompat_ActionMode = 2131493191;
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131493191;
 			
 			// aapt resource value: 0x7f0c0148
-			public const int Widget_AppCompat_ActivityChooserView = 2131493192;
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131493192;
 			
 			// aapt resource value: 0x7f0c0149
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131493193;
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131493193;
 			
 			// aapt resource value: 0x7f0c014a
-			public const int Widget_AppCompat_Button = 2131493194;
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131493194;
 			
 			// aapt resource value: 0x7f0c014b
-			public const int Widget_AppCompat_Button_Borderless = 2131493195;
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131493195;
 			
 			// aapt resource value: 0x7f0c014c
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131493196;
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131493196;
 			
 			// aapt resource value: 0x7f0c014d
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131493197;
+			public const int Widget_AppCompat_EditText = 2131493197;
 			
 			// aapt resource value: 0x7f0c014e
-			public const int Widget_AppCompat_Button_Colored = 2131493198;
+			public const int Widget_AppCompat_ImageButton = 2131493198;
 			
 			// aapt resource value: 0x7f0c014f
-			public const int Widget_AppCompat_Button_Small = 2131493199;
+			public const int Widget_AppCompat_Light_ActionBar = 2131493199;
 			
 			// aapt resource value: 0x7f0c0150
-			public const int Widget_AppCompat_ButtonBar = 2131493200;
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131493200;
 			
 			// aapt resource value: 0x7f0c0151
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131493201;
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131493201;
 			
 			// aapt resource value: 0x7f0c0152
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131493202;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131493202;
 			
 			// aapt resource value: 0x7f0c0153
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131493203;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131493203;
 			
 			// aapt resource value: 0x7f0c0154
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131493204;
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131493204;
 			
 			// aapt resource value: 0x7f0c0155
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131493205;
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131493205;
 			
 			// aapt resource value: 0x7f0c0156
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131493206;
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131493206;
 			
 			// aapt resource value: 0x7f0c0157
-			public const int Widget_AppCompat_EditText = 2131493207;
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131493207;
 			
 			// aapt resource value: 0x7f0c0158
-			public const int Widget_AppCompat_ImageButton = 2131493208;
+			public const int Widget_AppCompat_Light_ActionButton = 2131493208;
 			
 			// aapt resource value: 0x7f0c0159
-			public const int Widget_AppCompat_Light_ActionBar = 2131493209;
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131493209;
 			
 			// aapt resource value: 0x7f0c015a
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131493210;
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131493210;
 			
 			// aapt resource value: 0x7f0c015b
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131493211;
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131493211;
 			
 			// aapt resource value: 0x7f0c015c
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131493212;
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131493212;
 			
 			// aapt resource value: 0x7f0c015d
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131493213;
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131493213;
 			
 			// aapt resource value: 0x7f0c015e
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131493214;
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131493214;
 			
 			// aapt resource value: 0x7f0c015f
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131493215;
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131493215;
 			
 			// aapt resource value: 0x7f0c0160
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131493216;
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131493216;
 			
 			// aapt resource value: 0x7f0c0161
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131493217;
+			public const int Widget_AppCompat_Light_PopupMenu = 2131493217;
 			
 			// aapt resource value: 0x7f0c0162
-			public const int Widget_AppCompat_Light_ActionButton = 2131493218;
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131493218;
 			
 			// aapt resource value: 0x7f0c0163
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131493219;
+			public const int Widget_AppCompat_Light_SearchView = 2131493219;
 			
 			// aapt resource value: 0x7f0c0164
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131493220;
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131493220;
 			
 			// aapt resource value: 0x7f0c0165
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131493221;
+			public const int Widget_AppCompat_ListMenuView = 2131493221;
 			
 			// aapt resource value: 0x7f0c0166
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131493222;
+			public const int Widget_AppCompat_ListPopupWindow = 2131493222;
 			
 			// aapt resource value: 0x7f0c0167
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131493223;
+			public const int Widget_AppCompat_ListView = 2131493223;
 			
 			// aapt resource value: 0x7f0c0168
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131493224;
+			public const int Widget_AppCompat_ListView_DropDown = 2131493224;
 			
 			// aapt resource value: 0x7f0c0169
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131493225;
+			public const int Widget_AppCompat_ListView_Menu = 2131493225;
 			
 			// aapt resource value: 0x7f0c016a
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131493226;
+			public const int Widget_AppCompat_PopupMenu = 2131493226;
 			
 			// aapt resource value: 0x7f0c016b
-			public const int Widget_AppCompat_Light_PopupMenu = 2131493227;
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131493227;
 			
 			// aapt resource value: 0x7f0c016c
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131493228;
+			public const int Widget_AppCompat_PopupWindow = 2131493228;
 			
 			// aapt resource value: 0x7f0c016d
-			public const int Widget_AppCompat_Light_SearchView = 2131493229;
+			public const int Widget_AppCompat_ProgressBar = 2131493229;
 			
 			// aapt resource value: 0x7f0c016e
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131493230;
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131493230;
 			
 			// aapt resource value: 0x7f0c016f
-			public const int Widget_AppCompat_ListMenuView = 2131493231;
+			public const int Widget_AppCompat_RatingBar = 2131493231;
 			
 			// aapt resource value: 0x7f0c0170
-			public const int Widget_AppCompat_ListPopupWindow = 2131493232;
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131493232;
 			
 			// aapt resource value: 0x7f0c0171
-			public const int Widget_AppCompat_ListView = 2131493233;
+			public const int Widget_AppCompat_RatingBar_Small = 2131493233;
 			
 			// aapt resource value: 0x7f0c0172
-			public const int Widget_AppCompat_ListView_DropDown = 2131493234;
+			public const int Widget_AppCompat_SearchView = 2131493234;
 			
 			// aapt resource value: 0x7f0c0173
-			public const int Widget_AppCompat_ListView_Menu = 2131493235;
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131493235;
 			
 			// aapt resource value: 0x7f0c0174
-			public const int Widget_AppCompat_PopupMenu = 2131493236;
+			public const int Widget_AppCompat_SeekBar = 2131493236;
 			
 			// aapt resource value: 0x7f0c0175
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131493237;
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131493237;
 			
 			// aapt resource value: 0x7f0c0176
-			public const int Widget_AppCompat_PopupWindow = 2131493238;
+			public const int Widget_AppCompat_Spinner = 2131493238;
 			
 			// aapt resource value: 0x7f0c0177
-			public const int Widget_AppCompat_ProgressBar = 2131493239;
+			public const int Widget_AppCompat_Spinner_DropDown = 2131493239;
 			
 			// aapt resource value: 0x7f0c0178
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131493240;
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131493240;
 			
 			// aapt resource value: 0x7f0c0179
-			public const int Widget_AppCompat_RatingBar = 2131493241;
+			public const int Widget_AppCompat_Spinner_Underlined = 2131493241;
 			
 			// aapt resource value: 0x7f0c017a
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131493242;
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131493242;
 			
 			// aapt resource value: 0x7f0c017b
-			public const int Widget_AppCompat_RatingBar_Small = 2131493243;
+			public const int Widget_AppCompat_Toolbar = 2131493243;
 			
 			// aapt resource value: 0x7f0c017c
-			public const int Widget_AppCompat_SearchView = 2131493244;
-			
-			// aapt resource value: 0x7f0c017d
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131493245;
-			
-			// aapt resource value: 0x7f0c017e
-			public const int Widget_AppCompat_SeekBar = 2131493246;
-			
-			// aapt resource value: 0x7f0c017f
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131493247;
-			
-			// aapt resource value: 0x7f0c0180
-			public const int Widget_AppCompat_Spinner = 2131493248;
-			
-			// aapt resource value: 0x7f0c0181
-			public const int Widget_AppCompat_Spinner_DropDown = 2131493249;
-			
-			// aapt resource value: 0x7f0c0182
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131493250;
-			
-			// aapt resource value: 0x7f0c0183
-			public const int Widget_AppCompat_Spinner_Underlined = 2131493251;
-			
-			// aapt resource value: 0x7f0c0184
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131493252;
-			
-			// aapt resource value: 0x7f0c0185
-			public const int Widget_AppCompat_Toolbar = 2131493253;
-			
-			// aapt resource value: 0x7f0c0186
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131493254;
-			
-			// aapt resource value: 0x7f0c01b8
-			public const int Widget_CirclePageIndicator = 2131493304;
-			
-			// aapt resource value: 0x7f0c01ae
-			public const int Widget_Compat_NotificationActionContainer = 2131493294;
-			
-			// aapt resource value: 0x7f0c01af
-			public const int Widget_Compat_NotificationActionText = 2131493295;
-			
-			// aapt resource value: 0x7f0c01a0
-			public const int Widget_Design_AppBarLayout = 2131493280;
-			
-			// aapt resource value: 0x7f0c01a1
-			public const int Widget_Design_BottomNavigationView = 2131493281;
-			
-			// aapt resource value: 0x7f0c01a2
-			public const int Widget_Design_BottomSheet_Modal = 2131493282;
-			
-			// aapt resource value: 0x7f0c01a3
-			public const int Widget_Design_CollapsingToolbar = 2131493283;
-			
-			// aapt resource value: 0x7f0c01a4
-			public const int Widget_Design_CoordinatorLayout = 2131493284;
-			
-			// aapt resource value: 0x7f0c01a5
-			public const int Widget_Design_FloatingActionButton = 2131493285;
-			
-			// aapt resource value: 0x7f0c01a6
-			public const int Widget_Design_NavigationView = 2131493286;
-			
-			// aapt resource value: 0x7f0c01a7
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131493287;
-			
-			// aapt resource value: 0x7f0c01a8
-			public const int Widget_Design_Snackbar = 2131493288;
-			
-			// aapt resource value: 0x7f0c018c
-			public const int Widget_Design_TabLayout = 2131493260;
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131493244;
 			
 			// aapt resource value: 0x7f0c01a9
-			public const int Widget_Design_TextInputLayout = 2131493289;
+			public const int Widget_CirclePageIndicator = 2131493289;
+			
+			// aapt resource value: 0x7f0c01a4
+			public const int Widget_Compat_NotificationActionContainer = 2131493284;
+			
+			// aapt resource value: 0x7f0c01a5
+			public const int Widget_Compat_NotificationActionText = 2131493285;
+			
+			// aapt resource value: 0x7f0c0196
+			public const int Widget_Design_AppBarLayout = 2131493270;
+			
+			// aapt resource value: 0x7f0c0197
+			public const int Widget_Design_BottomNavigationView = 2131493271;
+			
+			// aapt resource value: 0x7f0c0198
+			public const int Widget_Design_BottomSheet_Modal = 2131493272;
+			
+			// aapt resource value: 0x7f0c0199
+			public const int Widget_Design_CollapsingToolbar = 2131493273;
+			
+			// aapt resource value: 0x7f0c019a
+			public const int Widget_Design_CoordinatorLayout = 2131493274;
+			
+			// aapt resource value: 0x7f0c019b
+			public const int Widget_Design_FloatingActionButton = 2131493275;
+			
+			// aapt resource value: 0x7f0c019c
+			public const int Widget_Design_NavigationView = 2131493276;
+			
+			// aapt resource value: 0x7f0c019d
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131493277;
+			
+			// aapt resource value: 0x7f0c019e
+			public const int Widget_Design_Snackbar = 2131493278;
+			
+			// aapt resource value: 0x7f0c0182
+			public const int Widget_Design_TabLayout = 2131493250;
+			
+			// aapt resource value: 0x7f0c019f
+			public const int Widget_Design_TextInputLayout = 2131493279;
 			
 			// aapt resource value: 0x7f0c0021
 			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131492897;
@@ -19604,8 +15859,8 @@ namespace MeditSolution.Droid
 			// aapt resource value: 0x7f0c0016
 			public const int com_facebook_loginview_silver_style = 2131492886;
 			
-			// aapt resource value: 0x7f0c01c1
-			public const int splashscreen = 2131493313;
+			// aapt resource value: 0x7f0c01b2
+			public const int splashscreen = 2131493298;
 			
 			// aapt resource value: 0x7f0c0017
 			public const int tooltip_bubble_text = 2131492887;
@@ -20441,12 +16696,6 @@ namespace MeditSolution.Droid
 			// aapt resource value: 3
 			public const int AppCompatTheme_windowNoTitle = 3;
 			
-			public static int[] AspectRatioFrameLayout = new int[] {
-					2130772370};
-			
-			// aapt resource value: 0
-			public const int AspectRatioFrameLayout_resize_mode = 0;
-			
 			public static int[] BottomNavigationView = new int[] {
 					2130772048,
 					2130772309,
@@ -20544,14 +16793,14 @@ namespace MeditSolution.Droid
 			public const int CardView_contentPaddingTop = 11;
 			
 			public static int[] CirclePageIndicator = new int[] {
+					2130772370,
+					2130772371,
+					2130772372,
+					2130772373,
+					2130772374,
+					2130772375,
 					2130772376,
-					2130772377,
-					2130772378,
-					2130772379,
-					2130772380,
-					2130772381,
-					2130772382,
-					2130772383};
+					2130772377};
 			
 			// aapt resource value: 0
 			public const int CirclePageIndicator_vpiCentered = 0;
@@ -20836,18 +17085,30 @@ namespace MeditSolution.Droid
 			public const int FontFamily_fontProviderQuery = 2;
 			
 			public static int[] FontFamilyFont = new int[] {
+					16844082,
+					16844083,
+					16844095,
 					2130772354,
 					2130772355,
 					2130772356};
 			
-			// aapt resource value: 1
-			public const int FontFamilyFont_font = 1;
-			
 			// aapt resource value: 0
-			public const int FontFamilyFont_fontStyle = 0;
+			public const int FontFamilyFont_android_font = 0;
 			
 			// aapt resource value: 2
-			public const int FontFamilyFont_fontWeight = 2;
+			public const int FontFamilyFont_android_fontStyle = 2;
+			
+			// aapt resource value: 1
+			public const int FontFamilyFont_android_fontWeight = 1;
+			
+			// aapt resource value: 4
+			public const int FontFamilyFont_font = 4;
+			
+			// aapt resource value: 3
+			public const int FontFamilyFont_fontStyle = 3;
+			
+			// aapt resource value: 5
+			public const int FontFamilyFont_fontWeight = 5;
 			
 			public static int[] ForegroundLinearLayout = new int[] {
 					16843017,
@@ -21211,20 +17472,6 @@ namespace MeditSolution.Droid
 			// aapt resource value: 4
 			public const int NavigationView_menu = 4;
 			
-			public static int[] PlaybackControlView = new int[] {
-					2130772369,
-					2130772371,
-					2130772372};
-			
-			// aapt resource value: 0
-			public const int PlaybackControlView_fastforward_increment = 0;
-			
-			// aapt resource value: 1
-			public const int PlaybackControlView_rewind_increment = 1;
-			
-			// aapt resource value: 2
-			public const int PlaybackControlView_show_timeout = 2;
-			
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
@@ -21396,32 +17643,6 @@ namespace MeditSolution.Droid
 			
 			// aapt resource value: 2
 			public const int SignInButton_scopeUris = 2;
-			
-			public static int[] SimpleExoPlayerView = new int[] {
-					2130772369,
-					2130772370,
-					2130772371,
-					2130772372,
-					2130772373,
-					2130772374};
-			
-			// aapt resource value: 0
-			public const int SimpleExoPlayerView_fastforward_increment = 0;
-			
-			// aapt resource value: 1
-			public const int SimpleExoPlayerView_resize_mode = 1;
-			
-			// aapt resource value: 2
-			public const int SimpleExoPlayerView_rewind_increment = 2;
-			
-			// aapt resource value: 3
-			public const int SimpleExoPlayerView_show_timeout = 3;
-			
-			// aapt resource value: 4
-			public const int SimpleExoPlayerView_use_controller = 4;
-			
-			// aapt resource value: 5
-			public const int SimpleExoPlayerView_use_texture_view = 5;
 			
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
@@ -21872,7 +18093,7 @@ namespace MeditSolution.Droid
 			public const int ViewBackgroundHelper_backgroundTintMode = 2;
 			
 			public static int[] ViewPagerIndicator = new int[] {
-					2130772375};
+					2130772369};
 			
 			// aapt resource value: 0
 			public const int ViewPagerIndicator_vpiCirclePageIndicatorStyle = 0;
