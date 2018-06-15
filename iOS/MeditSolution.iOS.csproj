@@ -43,7 +43,7 @@
     <CodesignKey>iPhone Developer: vaibhav khanna (97JN4RXR2S)</CodesignKey>
     <MtouchFloat32>true</MtouchFloat32>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
-    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchLink>None</MtouchLink>
     <MtouchArch>ARM64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <PlatformTarget>x86</PlatformTarget>
@@ -91,7 +91,7 @@
 
     <CodesignProvision>VS: com.meditsolutions.mob Development</CodesignProvision>
 
-    <MtouchSdkVersion>11.3</MtouchSdkVersion>
+    <MtouchSdkVersion>11.4</MtouchSdkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'UAT|AnyCPU' ">
     <Optimize>false</Optimize>
@@ -101,9 +101,8 @@
     <CodesignKey>iPhone Developer: vaibhav khanna (97JN4RXR2S)</CodesignKey>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
     <MtouchVerbosity></MtouchVerbosity>
-    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchLink>None</MtouchLink>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
-    <MtouchSdkVersion>11.3</MtouchSdkVersion>
     <MtouchArch>ARM64</MtouchArch>
     <CodesignProvision>VS: com.meditsolutions.mob Development</CodesignProvision>
   </PropertyGroup>
@@ -311,6 +310,12 @@
     </Reference>
     <Reference Include="Plugin.Connectivity">
       <HintPath>..\packages\Xam.Plugin.Connectivity.3.1.1\lib\Xamarin.iOS10\Plugin.Connectivity.dll</HintPath>
+    </Reference>
+    <Reference Include="PCLStorage.Abstractions">
+      <HintPath>..\packages\PCLStorage.1.0.2\lib\portable-Xamarin.iOS+Xamarin.Mac\PCLStorage.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="PCLStorage">
+      <HintPath>..\packages\PCLStorage.1.0.2\lib\portable-Xamarin.iOS+Xamarin.Mac\PCLStorage.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -20,6 +20,7 @@ using Plugin.CrossPlatformTintedImage.Android;
 using Plugin.HtmlLabel.Android;
 using Plugin.MediaManager;
 using Akavache;
+using Plugin.Notifications;
 using Plugin.MediaManager.ExoPlayer;
 using Plugin.MediaManager.MediaSession;
 
@@ -29,6 +30,7 @@ namespace MeditSolution.Droid
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         IBlobCache cache => Akavache.BlobCache.UserAccount;
+        Type s = typeof(Xamarin.Essentials.Browser);
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -36,13 +38,15 @@ namespace MeditSolution.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(bundle);
-            
+           
 			HtmlLabelRenderer.Initialize();
 
 			global::Xamarin.Forms.Forms.Init(this, bundle);
 
 			CrossCurrentActivity.Current.Init(this, bundle);
-                       
+
+            CrossNotifications.Current.GetType();
+
 			TintedImageRenderer.Init();
 
 		    var s = new SfPickerRenderer();

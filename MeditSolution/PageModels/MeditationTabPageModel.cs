@@ -52,7 +52,7 @@ namespace MeditSolution.PageModels
         protected override void ViewIsAppearing(object sender, EventArgs e)
         {
             base.ViewIsAppearing(sender, e);
-                      
+                                
             if (string.IsNullOrEmpty((user = StoreManager.UserStore.User)?.CurrentMeditationId))
             {
                 IsEmpty = true;
@@ -70,12 +70,15 @@ namespace MeditSolution.PageModels
                 OpenReminders();
             }
         }
-
-
+         
         async void GetMeditation()
         {
+            //IsLoading = Seances.Any() ? false : true;
 
-            IsLoading = Seances.Any() ? false : true;
+            if (IsLoading)
+                return;
+
+            IsLoading = true;
 
             if (user == null)
             {
@@ -117,19 +120,25 @@ namespace MeditSolution.PageModels
 				//LEVEL 1
 				if (current_meditation.Level1FrWoman != null)
 				{
-					Seances.Add(new SeancesModel(current_meditation, 1, Tint) { IsDownloaded = false, IsLocked = false, Model = this });
+                    var is_downloaded = await StoreManager.MeditationStore.IsAvailableOffline(current_meditation.Id + "1"+ Settings.Voice + Settings.Language);
+
+                    Seances.Add(new SeancesModel(current_meditation, 1, Tint) { IsDownloaded = is_downloaded.Item1, IsLocked = false, Model = this });
 				}
 
 				if (current_meditation.Level2FrWoman != null)
 				{
+                    var is_downloaded = await StoreManager.MeditationStore.IsAvailableOffline(current_meditation.Id + "2"+ Settings.Voice + Settings.Language);
+
 					Seances.Add(Grey); // connecting line
-					Seances.Add(new SeancesModel(current_meditation, 2, Tint) { IsDownloaded = false, IsLocked = !current_meditation_progress.level1Done, Model = this });
+                    Seances.Add(new SeancesModel(current_meditation, 2, Tint) { IsDownloaded = is_downloaded.Item1, IsLocked = !current_meditation_progress.level1Done, Model = this });
 				}
 
 				if (current_meditation.Level3FrWoman != null)
-				{
+				{                  
+                    var is_downloaded = await StoreManager.MeditationStore.IsAvailableOffline(current_meditation.Id + "3"+ Settings.Voice + Settings.Language);
+
 					Seances.Add(Grey); // connecting line
-					Seances.Add(new SeancesModel(current_meditation, 3, Tint) { IsDownloaded = false, IsLocked = !current_meditation_progress.level2Done, Model = this });
+                    Seances.Add(new SeancesModel(current_meditation, 3, Tint) { IsDownloaded = is_downloaded.Item1, IsLocked = !current_meditation_progress.level2Done, Model = this });
 				}
 
 				if (Seances.Any() && GetSeanceCount(current_meditation) == 3)
@@ -152,7 +161,7 @@ namespace MeditSolution.PageModels
 			await CoreMethods.SwitchSelectedTab<CatalogueTabPageModel>();
         });
 
-        int GetSeanceCount(Meditation meditation)
+        public int GetSeanceCount(Meditation meditation)
         {
             int seanceCount = 0;
 
@@ -164,6 +173,90 @@ namespace MeditSolution.PageModels
                 seanceCount += 1;
 
             return seanceCount;
+        }
+
+        public MeditationFile GetMeditationFileForUser(Meditation meditation, int level)
+        {
+            if (meditation == null)
+                return null;
+
+            if (level == 1)
+            {
+                if (Settings.Language == "en")
+                {
+                    if (Settings.Voice == "male")
+                    {
+                        return meditation.Level1EnMan;
+                    }
+                    else
+                    {
+                        return meditation.Level1EnWoman;
+                    }
+                }
+                else
+                {
+                    if (Settings.Voice == "male")
+                    {
+                        return meditation.Level1FrMan;
+                    }
+                    else
+                    {
+                        return meditation.Level1FrWoman;
+                    }
+                }
+            }
+            else if (level == 2)
+            {
+                if (Settings.Language == "en")
+                {
+                    if (Settings.Voice == "male")
+                    {
+                        return meditation.Level2EnMan;
+                    }
+                    else
+                    {
+                        return meditation.Level2EnWoman;
+                    }
+                }
+                else
+                {
+                    if (Settings.Voice == "male")
+                    {
+                        return meditation.Level2FrMan;
+                    }
+                    else
+                    {
+                        return meditation.Level2FrWoman;
+                    }
+                }
+            }
+            else if (level == 3)
+            {
+                if (Settings.Language == "en")
+                {
+                    if (Settings.Voice == "male")
+                    {
+                        return meditation.Level3EnMan;
+                    }
+                    else
+                    {
+                        return meditation.Level3EnWoman;
+                    }
+                }
+                else
+                {
+                    if (Settings.Voice == "male")
+                    {
+                        return meditation.Level3FrMan;
+                    }
+                    else
+                    {
+                        return meditation.Level3FrWoman;
+                    }
+                }
+            }
+            else
+                return null;
         }
   
     }

@@ -4,17 +4,19 @@ using Xamarin.Forms;
 
 namespace MeditSolution.Views.Cells
 {
-	public class ConnectingCell : ViewCell
+    public class ConnectingCell : ContentView
     {
 		BoxView box;
 
         public ConnectingCell()
         {
-         
+
+            HeightRequest = 20;
+
 			box = new BoxView() { HorizontalOptions = LayoutOptions.Center, Color = (Color.FromHex("9b9b9b")), WidthRequest = 1, VerticalOptions = LayoutOptions.FillAndExpand, HeightRequest = 20 };
 			//box.SetBinding(BoxView.ColorProperty, ".");
 
-			View = box;
+            Content = box;
         }
 
 

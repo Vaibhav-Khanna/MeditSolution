@@ -7,6 +7,7 @@ using MeditSolution.Helpers;
 using Plugin.Connectivity.Abstractions;
 using Plugin.Connectivity;
 using MeditSolution.Resources;
+using Xamarin.Forms;
 
 namespace MeditSolution.PageModels
 {
@@ -33,16 +34,16 @@ namespace MeditSolution.PageModels
 
 		protected async override void ViewIsAppearing(object sender, EventArgs e)
 		{
-			base.ViewIsAppearing(sender, e);                      
+			base.ViewIsAppearing(sender, e);
 
-			if (programs == null)
-			{
-				if (IsLoading)
-					return;
-				
-				IsLoading = true;
+            if (programs == null)
+            {
+                if (IsLoading)
+                    return;
 
-				programs = await StoreManager.ProgramStore.GetItemsAsync();
+                IsLoading = true;
+
+                programs = await StoreManager.ProgramStore.GetItemsAsync();
 
                 if (programs != null)
                 {
@@ -60,18 +61,34 @@ namespace MeditSolution.PageModels
                         {
                             t3.Meditations.Add(new TabMeditationModel(item) { Level = 3 });
                         }
-
-                        //offline Sync
-                        await StoreManager.MeditationStore.GetMeditationsByProgramId(item.Id);
-                        //
                     }
+
+                    CacheDataAsync();
                 }
-				else
-					await ToastService.Show(AppResources.requestfailed);
-                
-				IsLoading = false;
-			}            
+                else
+                    await ToastService.Show(AppResources.requestfailed);
+
+                IsLoading = false;
+            }
+            else
+            {
+                if (Device.RuntimePlatform == Device.Android)
+                {
+                    var index = SelectedIndex;
+                    SelectedIndex = 0;
+                    SelectedIndex = index;
+                }
+            }
 		}
 
+        async void CacheDataAsync()
+        {
+            //offline Sync
+            foreach (var item in programs)
+            {
+                await StoreManager.MeditationStore.GetMeditationsByProgramId(item.Id);
+            }
+            //
+        }
 	}
 }

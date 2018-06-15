@@ -32,9 +32,14 @@ namespace MeditSolution.PageModels
 				return;
 			}
 
-            if(Settings.TimeSecondsOffline != 0)
+            if (Settings.TimeSecondsOffline != 0)
             {
-                user.TotalMinutesMeditated += (Settings.TimeSecondsOffline/60);
+                if (user.TotalMinutesMeditated.HasValue)
+                {
+                    var minutes = user.TotalMinutesMeditated.HasValue ? user.TotalMinutesMeditated.Value : 0;
+                    minutes += (Settings.TimeSecondsOffline / 60);
+                    user.TotalMinutesMeditated = minutes;
+                }
             }
 
 			user = _user;

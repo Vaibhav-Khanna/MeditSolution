@@ -4,6 +4,7 @@ using Xamarin.Forms;
 using MeditSolution.Models.DataObjects;
 using MeditSolution.Helpers;
 using MeditSolution.Resources;
+using Plugin.Connectivity;
 
 namespace MeditSolution.Models
 {
@@ -84,10 +85,36 @@ namespace MeditSolution.Models
 		});
 
 
-		public Command DownloadCommand => new Command(() =>
+        public Command DownloadCommand => new Command(async() =>
         {
-			
+            if (!IsLocked && !IsDownloaded && Level < 4 && !string.IsNullOrEmpty(Settings.Language) && !string.IsNullOrEmpty(Settings.Voice))
+            {
+                if (await CrossConnectivity.Current.IsRemoteReachable("https://www.google.com"))
+                {
+                    Dialog.ShowLoading(AppResources.downloading);
+
+                    var file = Model.GetMeditationFileForUser(Meditation, Level);
+                    var url = Constants.RestUrl + "file/" + file.Path;
+
+                    var downloaded = await Model.StoreManager.MeditationStore.DownloadMeditationFile(url,Meditation.Id+Level+Settings.Voice+Settings.Language);
+
+                    Dialog.HideLoading();
+
+                    if (!downloaded)
+                    {
+                        await Model.CoreMethods.DisplayAlert(AppResources.error, AppResources.downloadFailed, AppResources.ok);
+                    }
+                    else
+                    {
+                        IsDownloaded = true;
+                    }
+                }
+                else
+                {
+                    await Model.CoreMethods.DisplayAlert(AppResources.error, AppResources.ActiveIntNeeded, AppResources.ok);
+                }
+            }
         });
-        
+
 	}
 }

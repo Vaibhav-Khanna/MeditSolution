@@ -790,5 +790,29 @@ namespace MeditSolution.Resources {
                 return ResourceManager.GetString("NotificationContent", resourceCulture);
             }
         }
+        
+        internal static string downloading {
+            get {
+                return ResourceManager.GetString("downloading", resourceCulture);
+            }
+        }
+        
+        internal static string downloadFailed {
+            get {
+                return ResourceManager.GetString("downloadFailed", resourceCulture);
+            }
+        }
+        
+        internal static string error {
+            get {
+                return ResourceManager.GetString("error", resourceCulture);
+            }
+        }
+        
+        internal static string ActiveIntNeeded {
+            get {
+                return ResourceManager.GetString("ActiveIntNeeded", resourceCulture);
+            }
+        }
     }
 }

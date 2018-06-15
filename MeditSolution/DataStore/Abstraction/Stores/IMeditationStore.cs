@@ -13,5 +13,9 @@ namespace MeditSolution.DataStore.Abstraction.Stores
 		Task<bool> AddMeditationTimeAsync(int seconds);
 
 		Task<NextMeditationResponse.Example> GetNextMeditation();
+
+        Task<bool> DownloadMeditationFile(string url,string fileName);
+
+        Task<Tuple<bool,string>> IsAvailableOffline(string fileName);
     }
 }

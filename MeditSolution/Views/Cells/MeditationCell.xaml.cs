@@ -4,7 +4,7 @@ using Xamarin.Forms;
 
 namespace MeditSolution.Views.Cells
 {
-    public partial class MeditationCell : ViewCell
+    public partial class MeditationCell : ContentView
     {
         public MeditationCell()
         {

@@ -52,7 +52,38 @@ namespace MeditSolution.DataStore.Implementation.Stores
 			return false;
 		}
 
-		public async Task<IEnumerable<Meditation>> GetMeditationsByProgramId(string id)
+        public async Task<bool> DownloadMeditationFile(string url, string fileName)
+        {
+            try
+            {
+                // download
+			
+                var _client = new HttpClient();
+
+                var response = await _client.GetAsync(url);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var bytes = await response.Content.ReadAsByteArrayAsync();
+
+                    if (bytes != null && bytes.Any())
+                    {
+                        var is_saved = await PCLStore.WriteFileAsync(bytes, ".mp3", fileName);
+
+                        if (!string.IsNullOrEmpty(is_saved))
+                            return true;
+                    }
+                }               
+            }
+            catch(Exception)
+            {    
+                
+            }
+
+            return false;
+        }
+
+        public async Task<IEnumerable<Meditation>> GetMeditationsByProgramId(string id)
 		{
 			
 			var parameters = "?limit=" + 100 + "&page=" + 0 + "&programId=" + id; 
@@ -112,7 +143,6 @@ namespace MeditSolution.DataStore.Implementation.Stores
 
 			try
 			{
-
 				var response = await client.GetAsync(uri);
 
 				var content = await response.Content.ReadAsStringAsync();
@@ -131,5 +161,23 @@ namespace MeditSolution.DataStore.Implementation.Stores
 			return null;
 		}
 
-	}
+        public async Task<Tuple<bool,string>> IsAvailableOffline(string fileName)
+        {
+            try
+            {
+                var name = await PCLStore.CheckFileExists(".mp3", fileName);
+
+                if(!string.IsNullOrEmpty(name))
+                {
+                    return new Tuple<bool, string>(true, name);
+                }
+            }
+            catch(Exception)
+            {
+                
+            }
+
+            return new Tuple<bool,string>(false,"");
+        }
+    }
 }
