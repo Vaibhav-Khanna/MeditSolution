@@ -21,7 +21,6 @@ using Plugin.HtmlLabel.Android;
 using Plugin.MediaManager;
 using Akavache;
 using Plugin.Notifications;
-using Plugin.MediaManager.ExoPlayer;
 using Plugin.MediaManager.MediaSession;
 
 namespace MeditSolution.Droid
@@ -44,6 +43,18 @@ namespace MeditSolution.Droid
 			global::Xamarin.Forms.Forms.Init(this, bundle);
 
 			CrossCurrentActivity.Current.Init(this, bundle);
+
+            CrossMediaManager.Current = new MediaManagerImplementation();	
+
+            // use custom Android notifications
+            CrossMediaManager.Current.MediaNotificationManager = new PVLMediaNotificationManager(this,typeof(Plugin.MediaManager.ExoPlayer.ExoPlayerAudioService));
+            //CrossMediaManager.Current.MediaNotificationManager = new PVLMediaNotificationManager(this, typeof(MediaPlayerService));
+
+            // use exoPlayer
+            MediaManagerImplementation current = CrossMediaManager.Current as MediaManagerImplementation;
+            var exoPlayer = new Plugin.MediaManager.ExoPlayer.ExoPlayerAudioImplementation(current.MediaSessionManager);
+            CrossMediaManager.Current.AudioPlayer = exoPlayer;
+
 
             CrossNotifications.Current.GetType();
 

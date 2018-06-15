@@ -36,6 +36,8 @@ namespace MeditSolution.iOS
 
 			TintedImageRenderer.Init();
 
+            CrossMediaManager.Current = new MediaManagerImplementation();
+
 			ProgressRingRenderer.Init();
 
             CarouselViewRenderer.Init();
