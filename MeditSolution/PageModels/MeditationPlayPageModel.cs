@@ -38,7 +38,7 @@ namespace MeditSolution.PageModels
 		});
         
 
-		public override void Init(object initData)
+        public async override void Init(object initData)
 		{
 			base.Init(initData);
 
@@ -66,7 +66,25 @@ namespace MeditSolution.PageModels
 
                 var url = Constants.RestUrl + "file/" + meditationFile.Path;
 
-                //AudioPlayer.Play(file = new MediaFile(url, Plugin.MediaManager.Abstractions.Enums.MediaFileType.Audio, Plugin.MediaManager.Abstractions.Enums.ResourceAvailability.Remote));
+                if (SeanceModel.IsDownloaded)
+                {
+                    var data = await StoreManager.MeditationStore.IsAvailableOffline(SeanceModel.Meditation.Id+SeanceModel.Level + Settings.Voice + Settings.Language);
+
+                    if(data!=null && data.Item1 && data.Item2!=null)
+                    {
+                        var pathToFileURL = new System.Uri(data.Item2).AbsolutePath;
+
+                        await AudioPlayer.Play(file = new MediaFile("file://" + pathToFileURL));
+                    }
+                    else
+                    {
+                        await AudioPlayer.Play(file = new MediaFile(url, Plugin.MediaManager.Abstractions.Enums.MediaFileType.Audio, Plugin.MediaManager.Abstractions.Enums.ResourceAvailability.Remote));
+                    }  
+                }
+                else
+                {
+                    await AudioPlayer.Play(file = new MediaFile(url, Plugin.MediaManager.Abstractions.Enums.MediaFileType.Audio, Plugin.MediaManager.Abstractions.Enums.ResourceAvailability.Remote));
+                }
             }
    		}
 

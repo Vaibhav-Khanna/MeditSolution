@@ -1,9 +1,10 @@
 ﻿using System;
 using Xamarin.Forms;
+using DLToolkit.Forms;
 
 namespace MeditSolution.Views.Templates
 {
-	public class MeditationCellSelector : DataTemplateSelector
+    public class MeditationCellSelector : DataTemplateSelector
 	{
 		public DataTemplate ConnectingLine { get; set; }
         public DataTemplate RoundedView { get; set; }

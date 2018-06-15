@@ -60,10 +60,10 @@ namespace MeditSolution.PageModels
 				if (str.ToString() == AppResources.menureminder)
 					await CoreMethods.PushPageModel<RemindersPageModel>();
 
-				if (str.ToString() == AppResources.cgu)
-				{
-					await Browser.OpenAsync(Constants.CGURedirectUrl, BrowserLaunchType.SystemPreferred);
-				}
+                if (str.ToString() == AppResources.cgu)
+                {
+                    Device.OpenUri(new Uri(Constants.CGURedirectUrl));
+                }
 
                 if (str.ToString() == AppResources.disconnect)
                 {

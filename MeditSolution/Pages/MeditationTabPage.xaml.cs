@@ -11,11 +11,11 @@ namespace MeditSolution.Pages
     {
         public MeditationTabPage()
         {
-			Xamarin.Forms.NavigationPage.SetHasNavigationBar(this, false);
+            Xamarin.Forms.NavigationPage.SetHasNavigationBar(this, false);
 
-            InitializeComponent();         
+            InitializeComponent();
 
-			On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);    
+            On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);
         }
 
 		void Handle_ItemTapped(object sender, Xamarin.Forms.ItemTappedEventArgs e)
@@ -23,6 +23,6 @@ namespace MeditSolution.Pages
 			list.SelectedItem = null;
 		}
 
-
-	}
+      
+    }
 }

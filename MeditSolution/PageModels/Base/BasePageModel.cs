@@ -26,9 +26,12 @@ namespace MeditSolution.PageModels
 		{
 			Application.Current.Resources["backgroundColor"] = backColor;
 			Application.Current.Resources["textColor"] = Color.White;
-            
-			IAndroidStatusBarColor AndroidStatusBarColor = DependencyService.Get<IAndroidStatusBarColor>();
-			AndroidStatusBarColor.ChangeColor(backColor, true);
+
+            if (backColor != Color.White)
+            {
+                IAndroidStatusBarColor AndroidStatusBarColor = DependencyService.Get<IAndroidStatusBarColor>();
+                AndroidStatusBarColor.ChangeColor(backColor, true);
+            }
 		}
 
 		public static void DefaultNavigationBackgroundColor()

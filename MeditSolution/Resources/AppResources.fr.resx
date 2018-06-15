@@ -461,6 +461,16 @@ However, although you can expect to get the cheapest air ticket if you start sea
     <data name="NotificationContent" xml:space="preserve">
     <value>Il est temps de méditer, préparez vous</value>
   </data>
+  <data name="downloading" xml:space="preserve">
+        <value>Downloading... Please do not exit the app</value>
+    </data>
 
+    <data name="downloadFailed" xml:space="preserve">
+        <value>The file could not be downloaded. Please try again.</value>
+    </data>
+
+    <data name="ActiveIntNeeded" xml:space="preserve">
+        <value>An active internet connection is needed. Please try again.</value>
+    </data>
     
 </root>

@@ -21,9 +21,9 @@
                 <Image Source="{Binding Icon}" WidthRequest="52" HeightRequest="90" HorizontalOptions="Center" VerticalOptions="Start" />
                 <Label Text="{Binding Name}" FontFamily="SFUIText-Medium" FontSize="18" FontAttributes="None" TextColor="#4A4A4A" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
                 <Label Text="{Binding Evolution}" FontFamily="SFUIText-Light" FontSize="14" FontAttributes="None" TextColor="#9B9B9B" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
-                <Label Text="" FontFamily="SFUIText-Medium" FontSize="12" FontAttributes="None" TextColor="#50E3C2" Margin="0,15,0,20" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+               <!-- <Label Text="" FontFamily="SFUIText-Medium" FontSize="12" FontAttributes="None" TextColor="#50E3C2" Margin="0,15,0,20" HorizontalOptions="Center" HorizontalTextAlignment="Center" />-->
 
-                <BoxView HorizontalOptions="FillAndExpand" Margin="0,0,0,16" HeightRequest="0.5" Color="#979797" />
+                <BoxView HorizontalOptions="FillAndExpand" Margin="0,15,0,16" HeightRequest="0.5" Color="#979797" />
 
                 <Grid HorizontalOptions="Center">
                     <controls:RoundedBoxView HeightRequest="150" WidthRequest="150" BackgroundColor="#ffffff" CornerRadius="75" BorderThickness="1" HorizontalOptions="Center" BorderColor="#d9d9d9" />           

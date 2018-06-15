@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ViewCell 
+<ContentView 
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     xmlns:controls="clr-namespace:MeditSolution.Controls;assembly=MeditSolution"
     xmlns:tinted="clr-namespace:Plugin.CrossPlatformTintedImage.Abstractions;assembly=Plugin.CrossPlatformTintedImage.Abstractions"
-    x:Class="MeditSolution.Views.Cells.MeditationCell"
-    Tapped="Handle_Tapped">
-    <ViewCell.View>
+    x:Class="MeditSolution.Views.Cells.MeditationCell" >
+    <ContentView.Content>
         
        <StackLayout HorizontalOptions="FillAndExpand" Padding="0" Margin="0">
             <StackLayout.GestureRecognizers>
@@ -39,5 +38,5 @@
 
         </Grid>
     </StackLayout>
-    </ViewCell.View>
-</ViewCell>
+    </ContentView.Content>
+</ContentView>
