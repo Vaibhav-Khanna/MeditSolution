@@ -6,8 +6,9 @@ using MeditSolution.Helpers;
 using Plugin.MediaManager;
 using System.Linq;
 using MeditSolution.Resources;
-using Plugin.MediaManager.Abstractions;
 using Plugin.MediaManager.Abstractions.Implementations;
+using Plugin.MediaManager.Abstractions.Enums;
+using Plugin.MediaManager.Abstractions;
 
 namespace MeditSolution.PageModels
 {
@@ -16,7 +17,7 @@ namespace MeditSolution.PageModels
 		public double Progress { get; set; }
 		public string TimerText { get; set; }
 		SeancesModel SeanceModel;
-        IAudioPlayer AudioPlayer => CrossMediaManager.Current.AudioPlayer;
+        IMediaManager AudioPlayer => CrossMediaManager.Current;
 		public Color Tint { get; set; }
 		public Color TintDark { get; set; }
 
@@ -25,14 +26,19 @@ namespace MeditSolution.PageModels
 
 		public Command PlayPauseCommand => new Command(async() =>
 		{
-            if (AudioPlayer.Status == Plugin.MediaManager.Abstractions.Enums.MediaPlayerStatus.Playing)
-            {
-                position = AudioPlayer.Position;
+            if (AudioPlayer.Status == MediaPlayerStatus.Playing)
+            {               
                 await AudioPlayer.Pause();
+                position = AudioPlayer.Position;
             }
-            else if (AudioPlayer.Status == Plugin.MediaManager.Abstractions.Enums.MediaPlayerStatus.Paused)
+            else if (AudioPlayer.Status == MediaPlayerStatus.Paused)
             {
+                if(Device.RuntimePlatform==Device.iOS)
                 await AudioPlayer.Play();
+                else
+                {
+                    await AudioPlayer.Play();                  
+                }
             }
 		}); 
         
@@ -72,8 +78,10 @@ namespace MeditSolution.PageModels
                     if(data!=null && data.Item1 && data.Item2!=null)
                     {
                         var pathToFileURL = new System.Uri(data.Item2).AbsolutePath;
-
-                        await AudioPlayer.Play(file = new MediaFile("file://" + pathToFileURL));
+                        if (Device.RuntimePlatform == Device.Android)
+                            await AudioPlayer.Play(file = new MediaFile(pathToFileURL, Plugin.MediaManager.Abstractions.Enums.MediaFileType.Audio, ResourceAvailability.Local));
+                        else
+                            await AudioPlayer.Play(file = new MediaFile("file://" + pathToFileURL));
                     }
                     else
                     {
@@ -106,9 +114,9 @@ namespace MeditSolution.PageModels
 			TimerText = e.Duration.Subtract(e.Position).ToString("hh':'mm':'ss");
 		}
 
-		async void AudioPlayer_MediaFailed(object sender, Plugin.MediaManager.Abstractions.EventArguments.MediaFailedEventArgs e)
+	    void AudioPlayer_MediaFailed(object sender, Plugin.MediaManager.Abstractions.EventArguments.MediaFailedEventArgs e)
 		{
-			await ToastService.Show("Cannot play this file");
+			//await ToastService.Show("Cannot play this file");
 		}
 
 		async void AudioPlayer_MediaFinished(object sender, Plugin.MediaManager.Abstractions.EventArguments.MediaFinishedEventArgs e)
