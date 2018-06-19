@@ -2,6 +2,7 @@
 using System.Collections.ObjectModel;
 using Syncfusion.SfPicker.XForms;
 using Xamarin.Forms;
+using MeditSolution.Resources;
 
 namespace MeditSolution.Controls
 {
@@ -32,19 +33,19 @@ namespace MeditSolution.Controls
 
 			if (Device.RuntimePlatform == Device.Android)
 			{
-				Headers.Add("MINUTE");
+                Headers.Add(AppResources.minute.ToUpper());
 
-				Headers.Add("SECOND");
+                Headers.Add(AppResources.seconds.ToUpper());
     
 			}
 			else
 			{
-				Headers.Add("Minute");
+                Headers.Add(AppResources.minute);
 
-				Headers.Add("Second");               
+                Headers.Add(AppResources.seconds);              
 			}
    
-			HeaderText = "PICK DURATION";
+            HeaderText = AppResources.pickduration;
 			ShowColumnHeader = true;
 			ShowFooter = true;
 

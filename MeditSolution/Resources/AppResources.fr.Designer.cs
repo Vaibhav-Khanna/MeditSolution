@@ -556,5 +556,37 @@ namespace MeditSolution.Resources {
                 return ResourceManager.GetString("requestfailed", resourceCulture);
             }
         }
+
+        internal static string seance
+        {
+            get
+            {
+                return ResourceManager.GetString("seance", resourceCulture);
+            }
+        }
+
+        internal static string minute
+        {
+            get
+            {
+                return ResourceManager.GetString("minute", resourceCulture);
+            }
+        }
+
+        internal static string seconds
+        {
+            get
+            {
+                return ResourceManager.GetString("seconds", resourceCulture);
+            }
+        }
+
+        internal static string pickduration
+        {
+            get
+            {
+                return ResourceManager.GetString("pickduration", resourceCulture);
+            }
+        }
     }
 }

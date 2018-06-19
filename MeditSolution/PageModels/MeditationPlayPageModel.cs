@@ -20,27 +20,32 @@ namespace MeditSolution.PageModels
         IMediaManager AudioPlayer => CrossMediaManager.Current;
 		public Color Tint { get; set; }
 		public Color TintDark { get; set; }
-
 		TimeSpan position;
 		MediaFile file;
 
-		public Command PlayPauseCommand => new Command(async() =>
-		{
+		public Command PlayPauseCommand => new Command(async () =>
+        {
             if (AudioPlayer.Status == MediaPlayerStatus.Playing)
-            {               
-                await AudioPlayer.Pause();
-                position = AudioPlayer.Position;
+            {
+                Device.BeginInvokeOnMainThread(async () => 
+                { 
+                    await AudioPlayer.Pause(); 
+                    position = AudioPlayer.Position; 
+                });
             }
             else if (AudioPlayer.Status == MediaPlayerStatus.Paused)
             {
-                if(Device.RuntimePlatform==Device.iOS)
-                await AudioPlayer.Play();
-                else
+                Device.BeginInvokeOnMainThread(async () =>
                 {
-                    await AudioPlayer.Play();                  
-                }
+                    if (Device.RuntimePlatform == Device.iOS)
+                        await AudioPlayer.Play();
+                    else
+                    {
+                        await AudioPlayer.Play();
+                    }
+                });
             }
-		}); 
+        }); 
         
 
         public async override void Init(object initData)
@@ -73,24 +78,37 @@ namespace MeditSolution.PageModels
 
                 if (SeanceModel.IsDownloaded)
                 {
-                    var data = await StoreManager.MeditationStore.IsAvailableOffline(SeanceModel.Meditation.Id+SeanceModel.Level + Settings.Voice + Settings.Language);
+                    var data = await StoreManager.MeditationStore.IsAvailableOffline(SeanceModel.Meditation.Id + SeanceModel.Level + Settings.Voice + Settings.Language);
 
-                    if(data!=null && data.Item1 && data.Item2!=null)
+                    if (data != null && data.Item1 && data.Item2 != null)
                     {
                         var pathToFileURL = new System.Uri(data.Item2).AbsolutePath;
+
                         if (Device.RuntimePlatform == Device.Android)
-                            await AudioPlayer.Play(file = new MediaFile(pathToFileURL, Plugin.MediaManager.Abstractions.Enums.MediaFileType.Audio, ResourceAvailability.Local));
+                            Device.BeginInvokeOnMainThread(async () =>
+                           {
+                               await AudioPlayer.Play(file = new MediaFile(pathToFileURL, Plugin.MediaManager.Abstractions.Enums.MediaFileType.Audio, ResourceAvailability.Local));
+                           });
                         else
-                            await AudioPlayer.Play(file = new MediaFile("file://" + pathToFileURL));
+                            Device.BeginInvokeOnMainThread(async () =>
+                            {
+                                await AudioPlayer.Play(file = new MediaFile("file://" + pathToFileURL));
+                            });
                     }
                     else
                     {
-                        await AudioPlayer.Play(file = new MediaFile(url, Plugin.MediaManager.Abstractions.Enums.MediaFileType.Audio, Plugin.MediaManager.Abstractions.Enums.ResourceAvailability.Remote));
-                    }  
+                        Device.BeginInvokeOnMainThread(async () =>
+                        {
+                            await AudioPlayer.Play(file = new MediaFile(url, Plugin.MediaManager.Abstractions.Enums.MediaFileType.Audio, Plugin.MediaManager.Abstractions.Enums.ResourceAvailability.Remote));
+                        });
+                    }
                 }
                 else
                 {
-                    await AudioPlayer.Play(file = new MediaFile(url, Plugin.MediaManager.Abstractions.Enums.MediaFileType.Audio, Plugin.MediaManager.Abstractions.Enums.ResourceAvailability.Remote));
+                    Device.BeginInvokeOnMainThread(async () =>
+                    {
+                        await AudioPlayer.Play(file = new MediaFile(url, Plugin.MediaManager.Abstractions.Enums.MediaFileType.Audio, Plugin.MediaManager.Abstractions.Enums.ResourceAvailability.Remote));
+                    });
                 }
             }
    		}

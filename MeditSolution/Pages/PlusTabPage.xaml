@@ -11,7 +11,8 @@
     xmlns:base="clr-namespace:MeditSolution.Pages;assembly=MeditSolution"
     Title="{resources:Translate tab4}">
     <base:BasePage.Resources>
-    <ResourceDictionary>
+
+        <ResourceDictionary>
             <DataTemplate x:Key="group">
                  <views:GroupCell />
             </DataTemplate>
@@ -22,6 +23,7 @@
                 Group="{StaticResource group}"
                 Cell="{StaticResource cell}" />
         </ResourceDictionary>
+
     </base:BasePage.Resources>
     
     <base:BasePage.Content>

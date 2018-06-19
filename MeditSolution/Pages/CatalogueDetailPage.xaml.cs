@@ -11,8 +11,6 @@ namespace MeditSolution.Pages
         public CatalogueDetailPage()
         {
             InitializeComponent();
-
-			image.On<Xamarin.Forms.PlatformConfiguration.iOS>().UseBlurEffect(BlurEffectStyle.Light);
         }
     }
 }

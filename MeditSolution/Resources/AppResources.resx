@@ -281,6 +281,7 @@
     <data name="month" xml:space="preserve">
         <value>Mois</value>
     </data>
+     
     <data name="year" xml:space="preserve">
         <value>An</value>
     </data>
@@ -478,6 +479,22 @@ However, although you can expect to get the cheapest air ticket if you start sea
 
     <data name="ActiveIntNeeded" xml:space="preserve">
         <value>An active internet connection is needed. Please try again.</value>
+    </data> 
+
+    <data name="seance" xml:space="preserve">
+        <value>séance</value>
+    </data>
+
+     <data name="minute" xml:space="preserve">
+        <value>Minute</value>
+    </data>
+
+     <data name="seconds" xml:space="preserve">
+        <value>Seconds</value>
+    </data>
+    
+    <data name="pickduration" xml:space="preserve">
+        <value>Pick Duration</value>
     </data>
 
     

@@ -23,17 +23,17 @@
             <controls:RoundedBoxView Grid.Row="0" HorizontalOptions="Center"  HeightRequest="150" WidthRequest="150" BackgroundColor="{Binding FillColor}" CornerRadius="75" BorderThickness="1" BorderColor="{Binding BorderColor}" />
 
             <StackLayout Spacing="5" Orientation="Vertical" WidthRequest="150" VerticalOptions="Center" >
-                <Image Source="{Binding IconTop}" TranslationX="2.5" WidthRequest="23" HeightRequest="37" HorizontalOptions="Center" VerticalOptions="EndAndExpand" >
-                    <Image.GestureRecognizers>
+                <tinted:TintedImage Source="{Binding IconTop}" TintColor="{Binding TintTop}" TranslationX="2.5" WidthRequest="23" HeightRequest="37" HorizontalOptions="Center" VerticalOptions="EndAndExpand" >
+                    <tinted:TintedImage.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding PlayCommand}" />
-                    </Image.GestureRecognizers>
-                </Image>
+                    </tinted:TintedImage.GestureRecognizers>
+                </tinted:TintedImage>
                 <Label Text="{Binding Title}" TextColor="{Binding TextColor}" WidthRequest="145" HorizontalOptions="CenterAndExpand" FontFamily="SFUIText-Semibold" LineBreakMode="WordWrap" FontSize="18" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
-                <Image Source="{Binding IconBottom}" VerticalOptions="StartAndExpand" HorizontalOptions="Center" WidthRequest="23" HeightRequest="23" >
-                     <Image.GestureRecognizers>
+                    <tinted:TintedImage Source="{Binding IconBottom}" TintColor="{Binding TintBottom}" VerticalOptions="StartAndExpand" HorizontalOptions="Center" WidthRequest="23" HeightRequest="23" >
+                     <tinted:TintedImage.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding DownloadCommand}" />
-                    </Image.GestureRecognizers>
-                </Image>
+                    </tinted:TintedImage.GestureRecognizers>
+                  </tinted:TintedImage>
             </StackLayout>
 
         </Grid>
