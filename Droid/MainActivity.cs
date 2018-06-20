@@ -22,6 +22,7 @@ using Plugin.MediaManager;
 using Akavache;
 using Plugin.Notifications;
 using Plugin.MediaManager.MediaSession;
+using Plugin.MediaManager.ExoPlayer;
 
 namespace MeditSolution.Droid
 {
@@ -34,6 +35,7 @@ namespace MeditSolution.Droid
         protected override void OnCreate(Bundle bundle)
         {
             TabLayoutResource = Resource.Layout.Tabbar;
+
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(bundle);
@@ -44,23 +46,29 @@ namespace MeditSolution.Droid
 
 			CrossCurrentActivity.Current.Init(this, bundle);
 
+            if (CrossMediaManager.Current == null)
             CrossMediaManager.Current = new MediaManagerImplementation();	
 
             // use custom Android notifications
-            CrossMediaManager.Current.MediaNotificationManager = new PVLMediaNotificationManager(this,typeof(Plugin.MediaManager.ExoPlayer.ExoPlayerAudioService));
+
+            CrossMediaManager.Current.MediaNotificationManager = new PVLMediaNotificationManager(this, typeof(ExoPlayerAudioService));
             //CrossMediaManager.Current.MediaNotificationManager = new PVLMediaNotificationManager(this, typeof(MediaPlayerService));
 
             // use exoPlayer
-            MediaManagerImplementation current = CrossMediaManager.Current as MediaManagerImplementation;
-            var exoPlayer = new Plugin.MediaManager.ExoPlayer.ExoPlayerAudioImplementation(current.MediaSessionManager);
-            CrossMediaManager.Current.AudioPlayer = exoPlayer;
-
+            if (CrossMediaManager.Current != null)
+            {
+                MediaManagerImplementation current = CrossMediaManager.Current as MediaManagerImplementation;
+                var exoPlayer = new ExoPlayerAudioImplementation(current.MediaSessionManager);
+                CrossMediaManager.Current.AudioPlayer = exoPlayer;
+            }
 
             CrossNotifications.Current.GetType();
 
 			TintedImageRenderer.Init();
 
 		    var s = new SfPickerRenderer();
+
+            VideoViewRenderer.Init();
 
             CarouselViewRenderer.Init();
           

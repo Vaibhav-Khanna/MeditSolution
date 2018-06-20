@@ -81,10 +81,10 @@
 
   <ItemGroup>
     <Reference Include="MediaManager">
-      <HintPath>..\..\..\Downloads\MediaManager.bin\MediaManager.dll</HintPath>
+      <HintPath>..\ReferenceLibraries\MediaManager.dll</HintPath>
     </Reference>
     <Reference Include="MediaManager.Forms">
-      <HintPath>..\..\..\Downloads\MediaManager.bin\MediaManager.Forms.dll</HintPath>
+      <HintPath>..\ReferenceLibraries\MediaManager.Forms.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>

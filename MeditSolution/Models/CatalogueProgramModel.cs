@@ -27,7 +27,7 @@ namespace MeditSolution.Models
 			if (meditation.Level3FrWoman != null)
 				seanceCount += 1;
 
-			SubTitle = seanceCount + (  " " + AppResources.seances);
+            SubTitle = seanceCount + (  " " + (seanceCount == 1 ? AppResources.seance : AppResources.seances));
 
 			var user = new BasePageModel().StoreManager.UserStore.User;
 

@@ -19,6 +19,8 @@ namespace MeditSolution.PageModels
 		public string CoverPicture { get; set; }
 		public string Header { get; set; }
 		public string Description { get; set; }
+        public int ColoumnCount { get; set; } = 2;
+        public string Tint { get; set; }
 
         public bool HasPrice { get; set; }
         public string PriceText { get; private set; }
@@ -27,17 +29,21 @@ namespace MeditSolution.PageModels
 		{
 			base.Init(initData);
 
-			if (initData is TabMeditationModel)
-			{
-				TabMeditationModel = ((TabMeditationModel)initData);
+            if (initData is TabMeditationModel)
+            {
+                TabMeditationModel = ((TabMeditationModel)initData);
 
-				Header = TabMeditationModel.Title;
-				Description = Settings.DeviceLanguage == "English" ? TabMeditationModel.Program.Description_EN : TabMeditationModel.Program.Description;
-				CoverPicture = Constants.FileUrl + "files" + TabMeditationModel.Program.Cover;
+                Header = TabMeditationModel.Title;
+                Description = Settings.DeviceLanguage == "English" ? TabMeditationModel.Program.Description_EN : TabMeditationModel.Program.Description;
+                CoverPicture = Constants.FileUrl + "files" + TabMeditationModel.Program.Cover;
+                Tint = TabMeditationModel.Tint;
 
-				ChangeNavigationBackgroundColor(Color.FromHex(TabMeditationModel.Tint.Substring(1)));
+                ChangeNavigationBackgroundColor(Color.FromHex(TabMeditationModel.Tint.Substring(1)));
 
-				IsLoading = true;
+                IsLoading = true;
+
+                if (TabMeditationModel.Level == 3)
+                    ColoumnCount = 1;
 
                 if (TabMeditationModel.Level == 3 && TabMeditationModel.Program.Price > 0)
                 {
@@ -49,20 +55,20 @@ namespace MeditSolution.PageModels
                         HasPrice = false;
                 }
 
-				Programs = new ObservableCollection<CatalogueProgramModel>();
+                Programs = new ObservableCollection<CatalogueProgramModel>();
 
-				var meditations = await StoreManager.MeditationStore.GetMeditationsByProgramId(TabMeditationModel.Program.Id);
+                var meditations = await StoreManager.MeditationStore.GetMeditationsByProgramId(TabMeditationModel.Program.Id);
 
-				if (meditations != null)
-					foreach (var item in meditations)
-					{
-						Programs.Add(new CatalogueProgramModel(TabMeditationModel, item));
-					}
-				else
-					await ToastService.Show(AppResources.requestfailed);
+                if (meditations != null)
+                    foreach (var item in meditations)
+                    {
+                        Programs.Add(new CatalogueProgramModel(TabMeditationModel, item));
+                    }
+                else
+                    await ToastService.Show(AppResources.requestfailed);
 
-				IsLoading = false;
-			}
+                IsLoading = false;
+            }
 		}
 
 		protected override void ViewIsAppearing(object sender, EventArgs e)

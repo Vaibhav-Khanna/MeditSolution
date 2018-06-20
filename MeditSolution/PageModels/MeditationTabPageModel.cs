@@ -89,7 +89,6 @@ namespace MeditSolution.PageModels
             var current_meditation = await StoreManager.MeditationStore.GetItemAsync(user.CurrentMeditationId);
             var current_program = await StoreManager.ProgramStore.GetItemAsync(user.CurrentProgramId);
 
-
 			if (current_meditation != null && current_program != null)
 			{
 				// add it to user done meditations if not present
@@ -108,7 +107,9 @@ namespace MeditSolution.PageModels
 
 				//Setting main meditation details show at bottom of page
 				Meditation = Settings.DeviceLanguage == "English" ? current_meditation.Label_EN : current_meditation.Label;
-				MeditationDetail = $"{(GetSeanceCount(current_meditation) + (GetSeanceCount(current_meditation) == 3 ? 1:0 ))} {AppResources.seances} - {current_meditation.Length / 60} min";
+                var seanceCount = (GetSeanceCount(current_meditation));
+                var seance_text = seanceCount == 1 ? AppResources.seance : AppResources.seances;
+                MeditationDetail = $"{(GetSeanceCount(current_meditation) + (GetSeanceCount(current_meditation) == 3 ? 1 : 0))} {seance_text} - {current_meditation.Length / 60} min";
 				MeditationIcon = Constants.FileUrl + "files" + current_program.Icon;
 
 				if (!string.IsNullOrEmpty(current_program.Color) && current_program.Color.Contains("#"))

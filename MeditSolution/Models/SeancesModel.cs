@@ -66,8 +66,12 @@ namespace MeditSolution.Models
      
 		public string IconTop { get { return IsLocked ? "locked.png" : IsDownloaded ? "playgreen.png" : "playwhite.png"; } }
 
-		public string IconBottom { get { return IsLocked ? "cloud.png" : IsDownloaded ? "cloud.png" : "cloudcheck.png"; } }
+        public string IconBottom { get { return IsDownloaded ? "cloud.png" : "cloudcheck.png"; } }
                 
+        public string TintTop { get { return IsLocked ? Tint : IsDownloaded ? Tint : White; } }
+
+        public string TintBottom { get { return IsLocked ? Tint : IsDownloaded ? Tint : White; }}
+
 		public Command PlayCommand => new Command(async() =>
 		{
 			if(!IsLocked)
@@ -84,10 +88,9 @@ namespace MeditSolution.Models
 			}	
 		});
 
-
         public Command DownloadCommand => new Command(async() =>
         {
-            if (!IsLocked && !IsDownloaded && Level < 4 && !string.IsNullOrEmpty(Settings.Language) && !string.IsNullOrEmpty(Settings.Voice))
+            if ( !IsDownloaded && Level < 4 && !string.IsNullOrEmpty(Settings.Language) && !string.IsNullOrEmpty(Settings.Voice))
             {
                 if (await CrossConnectivity.Current.IsRemoteReachable("https://www.google.com"))
                 {
