@@ -8,12 +8,14 @@ namespace MeditSolution.PageModels
 {
 	public class MeditationEndPageModel : BasePageModel
     {
-		public string ImageHeader { get { return IsMeditationEnd ? "unlock.png" : "stones.png"; } }
+		public string ImageHeader { get { return IsMeditationEnd ? "" : "stones.png"; } }
 		public string ButtonNext { get { return IsMeditationEnd ? AppResources.medoverdetail : AppResources.nextseance; } }
 		public string ButtonEnd { get { return IsMeditationEnd ? AppResources.explorecatalogue : AppResources.backtocatalogue; } }
 		public string Header { get { return IsMeditationEnd ? AppResources.medover : AppResources.congrats; }}
 		public string SubHeader { get { return IsMeditationEnd ? "" : AppResources.congratsdetail; } }
 		public string TextColor { get { return IsMeditationEnd ? "#9b9b9b" : "#50E3C2"; } }
+
+        public string Icon { get { return "lock.json"; } }
 
 		public bool IsMeditationEnd;
 
@@ -30,6 +32,9 @@ namespace MeditSolution.PageModels
 
 			if (initData is bool)
 			{
+                if (IsLoading)
+                    return;
+
 				IsLoading = true;
 
 				var next = await StoreManager.MeditationStore.GetNextMeditation();
@@ -38,15 +43,15 @@ namespace MeditSolution.PageModels
 
 				if (next != null)
 				{
-					// meditation completed
-					if (next.otherMeditation != null)
-					{
-						IsMeditationEnd = true;
-						NextMeditatonName = Settings.DeviceLanguage == "English" ? next.otherMeditation.label_en : next.otherMeditation.label;
-						NextMeditatonDetail = (next.otherMeditation.length / 60) + " min";
-						meditationID = next.otherMeditation._id;
-						programId = next.otherMeditation.programId;
-					}
+                    // meditation completed
+                    if (next.otherMeditation != null)
+                    {
+                        IsMeditationEnd = true;
+                        NextMeditatonName = Settings.DeviceLanguage == "English" ? next.otherMeditation.label_en : next.otherMeditation.label;
+                        NextMeditatonDetail = (next.otherMeditation.length / 60) + " min";
+                        meditationID = next.otherMeditation._id;
+                        programId = next.otherMeditation.programId;
+                    }
 					else if (next.levelUp != null) // session completed
 					{
 						IsMeditationEnd = false;

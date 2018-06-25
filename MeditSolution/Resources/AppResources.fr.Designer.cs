@@ -588,5 +588,21 @@ namespace MeditSolution.Resources {
                 return ResourceManager.GetString("pickduration", resourceCulture);
             }
         }
+
+        internal static string logout
+        {
+            get
+            {
+                return ResourceManager.GetString("logout", resourceCulture);
+            }
+        }
+
+        internal static string logoutmessage
+        {
+            get
+            {
+                return ResourceManager.GetString("logoutmessage", resourceCulture);
+            }
+        }
     }
 }

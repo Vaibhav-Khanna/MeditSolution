@@ -5,6 +5,7 @@ using MeditSolution.Models;
 using MeditSolution.Helpers;
 using System.Linq;
 using MeditSolution.Models.DataObjects;
+using MeditSolution.Service;
 
 namespace MeditSolution.PageModels
 {
@@ -97,6 +98,8 @@ namespace MeditSolution.PageModels
 
 		async void EndMeditation()
 		{
+            DependencyService.Get<IPlayNotificationSound>().PlaySound();
+
 			Dialog.ShowLoading();
                     
 			var isAdded = await StoreManager.MeditationStore.AddMeditationTimeAsync(TotalTimeMedited);

@@ -23,26 +23,41 @@ namespace MeditSolution.PageModels
 		TimeSpan position;
 		MediaFile file;
 
-		public Command PlayPauseCommand => new Command(async () =>
+		public Command PlayPauseCommand => new Command(() =>
         {
             if (AudioPlayer.Status == MediaPlayerStatus.Playing)
             {
                 Device.BeginInvokeOnMainThread(async () => 
                 { 
                     await AudioPlayer.Pause(); 
-                    position = AudioPlayer.Position; 
+                    position = AudioPlayer.Position;
+                    AudioPlayer_MediaFinished(null, null);
                 });
             }
             else if (AudioPlayer.Status == MediaPlayerStatus.Paused)
             {
                 Device.BeginInvokeOnMainThread(async () =>
                 {
-                    if (Device.RuntimePlatform == Device.iOS)
-                        await AudioPlayer.Play();
-                    else
-                    {
-                        await AudioPlayer.Play();
-                    }
+                    await AudioPlayer.Play();
+                });
+            }
+            else if(Device.RuntimePlatform == Device.Android && AudioPlayer.Status == MediaPlayerStatus.Stopped)
+            { 
+                AudioPlayer.PlayingChanged -= AudioPlayer_PlayingChanged;
+                AudioPlayer.MediaFailed -= AudioPlayer_MediaFailed;
+                AudioPlayer.MediaFinished -= AudioPlayer_MediaFinished;
+                AudioPlayer.StatusChanged -= AudioPlayer_StatusChanged;
+
+                Device.BeginInvokeOnMainThread(async () =>
+                { 
+                    AudioPlayer.PlayingChanged += AudioPlayer_PlayingChanged;
+                    AudioPlayer.MediaFailed += AudioPlayer_MediaFailed;
+                    AudioPlayer.MediaFinished += AudioPlayer_MediaFinished;
+                    AudioPlayer.StatusChanged += AudioPlayer_StatusChanged;
+
+
+                    await AudioPlayer.Play(file);
+                    await AudioPlayer.Seek(position);
                 });
             }
         }); 
@@ -53,7 +68,7 @@ namespace MeditSolution.PageModels
 			base.Init(initData);
 
             if (initData is SeancesModel)
-            {
+            {                               
                 IsLoading = true;
 
                 SeanceModel = ((SeancesModel)initData);
@@ -115,15 +130,20 @@ namespace MeditSolution.PageModels
 
 		void AudioPlayer_StatusChanged(object sender, Plugin.MediaManager.Abstractions.EventArguments.StatusChangedEventArgs e)
 		{
-			if(e.Status == Plugin.MediaManager.Abstractions.Enums.MediaPlayerStatus.Paused)
-			{
-				IsPlaying = false;
-			}
-			else if(e.Status == Plugin.MediaManager.Abstractions.Enums.MediaPlayerStatus.Playing)
-			{
-				IsLoading = false;
-				IsPlaying = true;
-			}
+            if (e.Status == Plugin.MediaManager.Abstractions.Enums.MediaPlayerStatus.Paused)
+            {
+                IsPlaying = false;
+            }
+            else if (e.Status == Plugin.MediaManager.Abstractions.Enums.MediaPlayerStatus.Playing)
+            {
+                IsLoading = false;
+                IsPlaying = true;
+            }
+            else if (e.Status == MediaPlayerStatus.Stopped)
+            {
+                position = AudioPlayer.Position;
+                IsPlaying = false;
+            }
 		}
 
 		void AudioPlayer_PlayingChanged(object sender, Plugin.MediaManager.Abstractions.EventArguments.PlayingChangedEventArgs e)
@@ -134,11 +154,16 @@ namespace MeditSolution.PageModels
 
 	    void AudioPlayer_MediaFailed(object sender, Plugin.MediaManager.Abstractions.EventArguments.MediaFailedEventArgs e)
 		{
-			//await ToastService.Show("Cannot play this file");
+		   
 		}
 
 		async void AudioPlayer_MediaFinished(object sender, Plugin.MediaManager.Abstractions.EventArguments.MediaFinishedEventArgs e)
 		{
+            if (IsLoading)
+                return;
+
+            IsLoading = true;
+
 			Dialog.ShowLoading();
 
 			var user = await StoreManager.UserStore.UpdateCurrentUser(StoreManager.UserStore.User);
@@ -167,6 +192,8 @@ namespace MeditSolution.PageModels
 
 			Dialog.HideLoading();
 
+            IsLoading = false;
+
 			if (GetSeanceCount(SeanceModel.Meditation) == SeanceModel.Level)
 			{
 				await CoreMethods.PushPageModel<MeditationEndPageModel>(true, modal: true);
@@ -181,7 +208,7 @@ namespace MeditSolution.PageModels
 			base.ViewIsDisappearing(sender, e);
 
 			AudioPlayer?.Stop();
-
+          
 			if (AudioPlayer != null)
 			{
 				AudioPlayer.PlayingChanged -= AudioPlayer_PlayingChanged;
@@ -189,9 +216,24 @@ namespace MeditSolution.PageModels
 				AudioPlayer.MediaFinished -= AudioPlayer_MediaFinished;
 				AudioPlayer.StatusChanged -= AudioPlayer_StatusChanged;
 			}
+
+            if(Device.RuntimePlatform == Device.Android)
+            {
+                DefaultNavigationBackgroundColor();
+            }
 		}
 
-		MeditationFile GetMeditationFileForUser(Meditation meditation, int level)
+        protected override void ViewIsAppearing(object sender, EventArgs e)
+        {
+            base.ViewIsAppearing(sender, e);
+
+            if (Device.RuntimePlatform == Device.Android)
+            {
+                ChangeNavigationBackgroundColor(Tint);
+            }
+        }
+
+        MeditationFile GetMeditationFileForUser(Meditation meditation, int level)
 		{
 			if (meditation == null)
 				return null;

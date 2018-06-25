@@ -49,10 +49,10 @@
 
                     <Button x:Name="bt" VerticalOptions="StartAndExpand" Command="{Binding LoginCommand}" FontFamily="SFUIText-Semibold" FontSize="18" FontAttributes="Bold" TextColor="White" BackgroundColor="{Binding ButtonColor}" BorderColor="{Binding ButtonColor}" HorizontalOptions="FillAndExpand" Text="{Binding ButtonText}" >
                         <Button.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double" Android="60" iOS="50" />
+                    <OnPlatform x:TypeArguments="x:Double" Android="50" iOS="50" />
                 </Button.HeightRequest>
                 <Button.BorderRadius>
-                    <OnPlatform x:TypeArguments="x:Int32" Android="30" iOS="25" />
+                    <OnPlatform x:TypeArguments="x:Int32" Android="25" iOS="25" />
                 </Button.BorderRadius>>
                     </Button>
 
@@ -60,10 +60,10 @@
                     
                     <controls:FaceBookLoginButton x:Name="bt_fb" Image="facebook.png" IsVisible="false" VerticalOptions="StartAndExpand" FontFamily="SFUIText-Semibold" FontSize="18" FontAttributes="Bold" TextColor="White" BackgroundColor="#3b5998" BorderColor="#3b5998" HorizontalOptions="FillAndExpand" Text="{resources:Translate connectfb}"  >
                         <controls:FaceBookLoginButton.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double" Android="60" iOS="50" />
+                    <OnPlatform x:TypeArguments="x:Double" Android="50" iOS="50" />
                 </controls:FaceBookLoginButton.HeightRequest>
                 <controls:FaceBookLoginButton.BorderRadius>
-                    <OnPlatform x:TypeArguments="x:Int32" Android="30" iOS="25" />
+                    <OnPlatform x:TypeArguments="x:Int32" Android="25" iOS="25" />
                    </controls:FaceBookLoginButton.BorderRadius>
                     </controls:FaceBookLoginButton>
                    

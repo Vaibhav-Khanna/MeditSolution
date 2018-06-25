@@ -11,7 +11,7 @@ namespace MeditSolution.Views.Templates
 
         protected override DataTemplate OnSelectTemplate(object item, BindableObject container)
         {
-            return ((CatalogueProgramModel)item).Model.Level == 3 ? NewTemplate : OldTemplate;
+            return ((CatalogueProgramModel)item).Model.Level == 2 ? OldTemplate : NewTemplate;
         }
     }
 }

@@ -26,7 +26,7 @@ using Plugin.MediaManager.ExoPlayer;
 
 namespace MeditSolution.Droid
 {
-    [Activity(Label = "Medit'Solution", Icon = "@drawable/icon", Theme = "@style/MyTheme", MainLauncher = false, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "Medit'Solutions", Icon = "@drawable/icon", Theme = "@style/MyTheme", LaunchMode = LaunchMode.SingleTask, MainLauncher = false, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         IBlobCache cache => Akavache.BlobCache.UserAccount;
@@ -44,23 +44,19 @@ namespace MeditSolution.Droid
 
 			global::Xamarin.Forms.Forms.Init(this, bundle);
 
-			CrossCurrentActivity.Current.Init(this, bundle);
+            CrossCurrentActivity.Current.Init(this, bundle);
 
             if (CrossMediaManager.Current == null)
-            CrossMediaManager.Current = new MediaManagerImplementation();	
+            CrossMediaManager.Current = new MediaManagerImplementation();
 
             // use custom Android notifications
-
-            CrossMediaManager.Current.MediaNotificationManager = new PVLMediaNotificationManager(this, typeof(ExoPlayerAudioService));
-            //CrossMediaManager.Current.MediaNotificationManager = new PVLMediaNotificationManager(this, typeof(MediaPlayerService));
+            CrossMediaManager.Current.MediaNotificationManager = new PVLMediaNotificationManager(Android.App.Application.Context, typeof(ExoPlayerAudioService));
+            //CrossMediaManager.Current.MediaNotificationManager = new PVLMediaNotificationManager(Android.App.Application.Context, typeof(MediaPlayerService));
 
             // use exoPlayer
-            if (CrossMediaManager.Current != null)
-            {
-                MediaManagerImplementation current = CrossMediaManager.Current as MediaManagerImplementation;
-                var exoPlayer = new ExoPlayerAudioImplementation(current.MediaSessionManager);
-                CrossMediaManager.Current.AudioPlayer = exoPlayer;
-            }
+            MediaManagerImplementation current = CrossMediaManager.Current as MediaManagerImplementation;
+            var exoPlayer = new ExoPlayerAudioImplementation(current.MediaSessionManager);
+            CrossMediaManager.Current.AudioPlayer = exoPlayer;
 
             CrossNotifications.Current.GetType();
 
@@ -77,6 +73,9 @@ namespace MeditSolution.Droid
             CachedImageRenderer.Init(false);
 
             BlobCache.ApplicationName = "Medit";
+
+            // prevent screen from sleeping 
+            this.Window.SetFlags(WindowManagerFlags.KeepScreenOn, WindowManagerFlags.KeepScreenOn);
 
             LoadApplication(new App());
         }

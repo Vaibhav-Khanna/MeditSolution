@@ -21,12 +21,15 @@ namespace MeditSolution.PageModels
         public string MeditationIcon { get; set; } = "";
         public string Tint { get; set; } = "#50e3c2";
 		public string Grey { get; set; } = "#9b9b9b";
+        public bool IsAndroid { get; set; }
 
         public MeditationTabPageModel()
         {
             Com.OneSignal.Abstractions.IdsAvailableCallback callback = new Com.OneSignal.Abstractions.IdsAvailableCallback(HandleIdsAvailableCallback);
 
-            OneSignal.Current.IdsAvailable(callback);   
+            OneSignal.Current.IdsAvailable(callback);
+
+            IsAndroid = Device.RuntimePlatform == Device.Android;
         }
 
 		async void OpenReminders()
@@ -71,7 +74,7 @@ namespace MeditSolution.PageModels
             }
         }
          
-        async void GetMeditation()
+        public async void GetMeditation()
         {
             //IsLoading = Seances.Any() ? false : true;
 

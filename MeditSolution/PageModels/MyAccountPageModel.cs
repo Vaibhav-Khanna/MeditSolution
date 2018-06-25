@@ -38,10 +38,7 @@ namespace MeditSolution.PageModels
             Email = user.Email;
             Evolution = AppResources.evolution + " " + (user.CurrentLevel + 1);
 
-            if (Device.RuntimePlatform == Device.iOS)
-                Icon = "level" + (user.CurrentLevel + 1) + ".png";
-            else
-                Icon = "level_" + (user.CurrentLevel + 1) + ".png";
+            Icon = "level" + (user.CurrentLevel + 1) + ".json";
 		}
 	}
 }

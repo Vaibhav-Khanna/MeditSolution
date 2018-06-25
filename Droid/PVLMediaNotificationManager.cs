@@ -5,7 +5,6 @@ using Android.App;
 using Android.Content;
 using Android.Graphics;
 using Android.Media;
-using Android.Provider;
 using Android.Support.V4.App;
 using Android.Support.V4.Media;
 using Android.Support.V4.Media.Session;
@@ -111,7 +110,7 @@ namespace MeditSolution.Droid
             _builder.SetVisibility(1);
 
             NotificationManagerCompat.From(_applicationContext)
-                .Notify(_notificationId, _builder.Build());
+                                     .Notify(_notificationId, _builder.Build());
         }
 
         public void StopNotifications()
@@ -239,7 +238,7 @@ namespace MeditSolution.Droid
             //builder.PutBitmap(MediaMetadata.MetadataKeyAlbumArt, currentTrack?.Metadata.AlbumArt as Bitmap);
 
             // Uncomment these lines and replace the "splash" with your own drawable resource to use a lock screen pic
-            //var id = Resource.Drawable.splash;
+            //var id = Resource.Drawable.ic_vol_type_tv_dark;
             //var art = BitmapFactory.DecodeResource(resources, id);
             //builder.PutBitmap(MediaMetadata.MetadataKeyAlbumArt, art);
 

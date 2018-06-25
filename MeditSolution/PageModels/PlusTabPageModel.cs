@@ -67,7 +67,7 @@ namespace MeditSolution.PageModels
 
                 if (str.ToString() == AppResources.disconnect)
                 {
-                    var response = await CoreMethods.DisplayAlert("Déconnexion", "Voulez-vous continuer ?", "Oui", "Annuler");
+                    var response = await CoreMethods.DisplayAlert(AppResources.logout, AppResources.logoutmessage, AppResources.yes, AppResources.no);
 
                     if (response)
                     {

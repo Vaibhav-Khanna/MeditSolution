@@ -4,6 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:base="clr-namespace:MeditSolution.Pages;assembly=MeditSolution"
     xmlns:resources="clr-namespace:MeditSolution"
+    xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms" 
     x:Class="MeditSolution.Pages.AvatarGrowPage">
     <base:BasePage.Content>
         <StackLayout Spacing="5" Orientation="Vertical">
@@ -14,7 +15,7 @@
                 </Image.GestureRecognizers>
             </Image>
 
-            <Image Source="congrats.png" HeightRequest="128" WidthRequest="86" HorizontalOptions="CenterAndExpand" />
+            <forms:AnimationView Animation="{Binding Icon}" Scale="1.5" AutoPlay="true" Loop="true" HeightRequest="128" WidthRequest="86" HorizontalOptions="CenterAndExpand" />
 
             <Label Text="{resources:Translate bravo}" FontFamily="Merienda-Bold" Margin="0,21,0,0" FontSize="36" FontAttributes="Bold" TextColor="#FF50E3C2" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
 
@@ -24,7 +25,7 @@
 
             <Label Text="{resources:Translate bravodetail3}" FontFamily="SFUIText-Light" FontSize="20" TextColor="#FF9B9B9B" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
 
-            <Label Text="{resources:Translate evolution}" FontFamily="SFUIText-Bold"  FontSize="16" FontAttributes="Bold" TextColor="#FF9B9B9B" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+            <Label Text="{resources:Translate evolution}" FontFamily="SFUIText-Bold"  FontSize="16" FontAttributes="Bold" TextColor="#FF9B9B9B" HorizontalOptions="Center" HorizontalTextAlignment="Center" />  
             
         </StackLayout>
     </base:BasePage.Content>

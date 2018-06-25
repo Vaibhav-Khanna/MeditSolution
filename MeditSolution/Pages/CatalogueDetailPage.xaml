@@ -81,7 +81,7 @@
                         <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
                         
-                        <Image x:Name="image" Grid.Row="0" Source="{Binding CoverPicture}" BackgroundColor="Transparent" HeightRequest="175" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFill"  />
+                        <Image x:Name="image" Grid.Row="0" Source="{Binding CoverPicture}" BackgroundColor="Transparent" HeightRequest="175" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit"  />
 
                         <StackLayout Grid.Row="0" Spacing="20" Padding="15,30,15,15" BackgroundColor="Transparent">
                             <Label Text="{Binding Header}" FontFamily="Merienda-Regular_0_wt" TextColor="White" FontSize="40" LineBreakMode="WordWrap" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />

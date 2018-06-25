@@ -42,7 +42,7 @@ namespace MeditSolution.PageModels
 
                 IsLoading = true;
 
-                if (TabMeditationModel.Level == 3)
+                if (TabMeditationModel.Level == 3 || TabMeditationModel.Level == 1)
                     ColoumnCount = 1;
 
                 if (TabMeditationModel.Level == 3 && TabMeditationModel.Program.Price > 0)

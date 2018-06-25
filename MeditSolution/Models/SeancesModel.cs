@@ -110,6 +110,7 @@ namespace MeditSolution.Models
                     else
                     {
                         IsDownloaded = true;
+                        Model.GetMeditation();
                     }
                 }
                 else

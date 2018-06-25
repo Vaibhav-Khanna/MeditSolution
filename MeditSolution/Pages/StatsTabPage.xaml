@@ -14,29 +14,31 @@
         <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand" >
 
             <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand">
-
-           
+                       
             <StackLayout IsVisible="{Binding IsLoading,Converter={StaticResource BoolNegate}}" Padding="12,18,12,18" Orientation="Vertical" VerticalOptions="FillAndExpand">
 
-                <Image Source="{Binding Icon}" WidthRequest="52" HeightRequest="90" HorizontalOptions="Center" VerticalOptions="Start" />
-                <Label Text="{Binding Name}" FontFamily="SFUIText-Medium" FontSize="18" FontAttributes="None" TextColor="#4A4A4A" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
-                <Label Text="{Binding Evolution}" FontFamily="SFUIText-Light" FontSize="14" FontAttributes="None" TextColor="#9B9B9B" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
-               <!-- <Label Text="" FontFamily="SFUIText-Medium" FontSize="12" FontAttributes="None" TextColor="#50E3C2" Margin="0,15,0,20" HorizontalOptions="Center" HorizontalTextAlignment="Center" />-->
+                <forms:AnimationView Animation="{Binding Icon}" IsPlaying="{Binding Play}" Scale="1.8" AutoPlay="true" Loop="true" WidthRequest="52" HeightRequest="90" HorizontalOptions="Center" VerticalOptions="Start" />
 
+                    <Label Text="{Binding Name}" FontFamily="SFUIText-Medium" FontSize="18" FontAttributes="None" TextColor="#4A4A4A" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+
+                    <Label Text="{Binding Evolution}" FontFamily="SFUIText-Light" FontSize="14" FontAttributes="None" TextColor="#9B9B9B" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+
+                    <!--<Label Text="" FontFamily="SFUIText-Medium" FontSize="12" FontAttributes="None" TextColor="#50E3C2" Margin="0,15,0,20" HorizontalOptions="Center" HorizontalTextAlignment="Center" />-->
+                                       
                 <BoxView HorizontalOptions="FillAndExpand" Margin="0,15,0,16" HeightRequest="0.5" Color="#979797" />
+                               
+                    <Grid HorizontalOptions="Center">
+                        <controls:RoundedBoxView HeightRequest="150" WidthRequest="150" BackgroundColor="#ffffff" CornerRadius="75" BorderThickness="1" HorizontalOptions="Center" BorderColor="#d9d9d9" />           
+                        <StackLayout Spacing="4" TranslationY="-10" Orientation="Vertical">
+                            <Image Source="statyoga.png" VerticalOptions="EndAndExpand" HorizontalOptions="Center" WidthRequest="28" HeightRequest="28" />
+                            <Label Text="{Binding MeditationTime}" FontFamily="SFUIText-Bold" FontSize="24" FontAttributes="Bold" TextColor="{StaticResource primary}" HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center" />
+                            <Label Text="{resources:Translate hourmeditated}" FontFamily="SFUIText-Regular" FontSize="14" FontAttributes="None" TextColor="#656565" HorizontalOptions="Center" VerticalOptions="StartAndExpand" HorizontalTextAlignment="Center" />
+                        </StackLayout>
+                    </Grid>
+               
+                    <Grid Margin="0,16,0,30" RowSpacing="0" BackgroundColor="#f8f8f8" Padding="0" HorizontalOptions="FillAndExpand" >
 
-                <Grid HorizontalOptions="Center">
-                    <controls:RoundedBoxView HeightRequest="150" WidthRequest="150" BackgroundColor="#ffffff" CornerRadius="75" BorderThickness="1" HorizontalOptions="Center" BorderColor="#d9d9d9" />           
-                    <StackLayout Spacing="4" TranslationY="-10" Orientation="Vertical">
-                        <Image Source="statyoga.png" VerticalOptions="EndAndExpand" HorizontalOptions="Center" WidthRequest="28" HeightRequest="28" />
-                        <Label Text="{Binding MeditationTime}" FontFamily="SFUIText-Bold" FontSize="24" FontAttributes="Bold" TextColor="{StaticResource primary}" HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center" />
-                        <Label Text="{resources:Translate hourmeditated}" FontFamily="SFUIText-Regular" FontSize="14" FontAttributes="None" TextColor="#656565" HorizontalOptions="Center" VerticalOptions="StartAndExpand" HorizontalTextAlignment="Center" />
-                    </StackLayout>
-                </Grid>
-
-                
-                <Grid Margin="0,16,0,30" RowSpacing="0" BackgroundColor="#f8f8f8" Padding="0" HorizontalOptions="FillAndExpand" >
-                    <Grid.RowDefinitions>
+                        <Grid.RowDefinitions>
                         <RowDefinition Height="Auto" />
                         <RowDefinition Height="Auto" />
                         <RowDefinition Height="Auto" />
@@ -56,9 +58,8 @@
                            Grid.RowSpan="3"
                            Grid.Column="0"
                            Grid.ColumnSpan="2" />
-                </Grid>
-            
-                
+                    </Grid>
+                    
             </StackLayout>
 
              <forms:AnimationView 
