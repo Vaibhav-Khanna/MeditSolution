@@ -46,6 +46,7 @@
     <AndroidSigningStorePass>CpE5J436q14a274</AndroidSigningStorePass>
     <AndroidSigningKeyAlias>meditsolution</AndroidSigningKeyAlias>
     <AndroidSigningKeyPass>CpE5J436q14a274</AndroidSigningKeyPass>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'UAT|AnyCPU' ">
     <DebugType></DebugType>
@@ -115,13 +116,7 @@
     <Reference Include="Xamarin.Facebook">
       <HintPath>..\packages\Xamarin.Facebook.Android.4.26.0\lib\MonoAndroid70\Xamarin.Facebook.dll</HintPath>
     </Reference>
-    <Reference Include="Lottie.Android">
-      <HintPath>..\packages\Com.Airbnb.Android.Lottie.2.5.2.1\lib\monoandroid80\Lottie.Android.dll</HintPath>
-    </Reference>
     <Reference Include="Java.Interop" />
-    <Reference Include="Lottie.Forms">
-      <HintPath>..\packages\Com.Airbnb.Xamarin.Forms.Lottie.2.5.2.1\lib\monoandroid80\Lottie.Forms.dll</HintPath>
-    </Reference>
     <Reference Include="Rox.Xamarin.Video.Android">
       <HintPath>..\packages\Rox.Xamarin.Video.2.1.0\lib\MonoAndroid10\Rox.Xamarin.Video.Android.dll</HintPath>
     </Reference>
@@ -274,9 +269,6 @@
     <Reference Include="Plugin.Connectivity">
       <HintPath>..\packages\Xam.Plugin.Connectivity.3.1.1\lib\MonoAndroid10\Plugin.Connectivity.dll</HintPath>
     </Reference>
-    <Reference Include="XamarinShortcutBadger">
-      <HintPath>..\packages\Xamarin.Android.ShortcutBadger.1.1.982\lib\MonoAndroid10\XamarinShortcutBadger.dll</HintPath>
-    </Reference>
     <Reference Include="System.IdentityModel" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
@@ -384,6 +376,15 @@
     </Reference>
     <Reference Include="Xamarin.Forms.Xaml">
       <HintPath>..\packages\Xamarin.Forms.3.1.0.583944\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll</HintPath>
+    </Reference>
+    <Reference Include="Lottie.Android">
+      <HintPath>..\packages\Com.Airbnb.Android.Lottie.2.5.2.1\lib\monoandroid80\Lottie.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Lottie.Forms">
+      <HintPath>..\packages\Com.Airbnb.Xamarin.Forms.Lottie.2.5.2.1\lib\monoandroid80\Lottie.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="XamarinShortcutBadger">
+      <HintPath>..\packages\Xamarin.Android.ShortcutBadger.1.1.982\lib\MonoAndroid10\XamarinShortcutBadger.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
