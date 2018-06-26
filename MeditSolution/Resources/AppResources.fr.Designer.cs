@@ -597,12 +597,21 @@ namespace MeditSolution.Resources {
             }
         }
 
-        internal static string logoutmessage
+        internal static string backbutton
         {
             get
             {
-                return ResourceManager.GetString("logoutmessage", resourceCulture);
+                return ResourceManager.GetString("backbutton", resourceCulture);
             }
         }
+
+        internal static string MeditationChat0
+        {
+            get
+            {
+                return ResourceManager.GetString("MeditationChat0", resourceCulture);
+            }
+        }
+
     }
 }

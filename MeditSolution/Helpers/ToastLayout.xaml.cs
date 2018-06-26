@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Rg.Plugins.Popup.Pages;
 using Xamarin.Forms;
+using MeditSolution.Controls;
 
 namespace MeditSolution.Helpers
 {
     public partial class ToastLayout : PopupPage
     {
        
-
         public ToastLayout(string text,Color? color)
         {
             InitializeComponent();
@@ -23,7 +23,7 @@ namespace MeditSolution.Helpers
 
         protected override Task OnAppearingAnimationEnd()
         {
-            Device.StartTimer(new TimeSpan(0, 0, 3), () =>
+            Device.StartTimer(new TimeSpan(0, 0, 4), () =>
             {
                 Device.BeginInvokeOnMainThread(async () =>
                 {
@@ -36,5 +36,18 @@ namespace MeditSolution.Helpers
             return base.OnAppearingAnimationEnd();
         }
 
+        protected override bool OnBackButtonPressed()
+        {
+            if (Navigation.NavigationStack.Count == 1 && Navigation.ModalStack.Count == 0)
+            {
+                if(Navigation.NavigationStack[0].GetType() == typeof(CustomNavigation))
+                {
+                    Navigation.NavigationStack[0].SendBackButtonPressed();
+                    return true;
+                }
+            }          
+         
+            return base.OnBackButtonPressed();
+        }
     }
 }

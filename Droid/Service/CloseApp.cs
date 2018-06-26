@@ -11,9 +11,13 @@ namespace MeditSolution.Droid.Service
 {
 	public class CloseApp : ICloseApp
     {       
-        void ICloseApp.CloseApp()
-        {            
-            Plugin.CurrentActivity.CrossCurrentActivity.Current.Activity.StartActivity(typeof(MainActivity));
+        void ICloseApp.CloseApp(bool reopen = true)
+        {
+            if (reopen)
+            {
+                Plugin.CurrentActivity.CrossCurrentActivity.Current.Activity.StartActivity(typeof(MainActivity));
+            }
+
             Plugin.CurrentActivity.CrossCurrentActivity.Current.Activity.Finish();
         }
     }

@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 using BottomBar.XamarinForms;
 using FreshMvvm;
 using Xamarin.Forms;
+using MeditSolution.Helpers;
+using MeditSolution.Resources;
+using MeditSolution.Service;
 
 namespace MeditSolution.Controls
 {
@@ -91,6 +94,34 @@ namespace MeditSolution.Controls
             {
                 if (page is NavigationPage)
                     ((NavigationPage)page).NotifyAllChildrenPopped();
+            }
+        }
+
+        bool isWaitingForBack { get; set; }
+
+        protected override bool OnBackButtonPressed()
+        {
+            if(this.CurrentPage.Navigation.NavigationStack.Count == 1 && this.CurrentPage.Navigation?.ModalStack?.Count == 0)
+            {
+                if(isWaitingForBack)
+                {
+                    DependencyService.Get<ICloseApp>().CloseApp(false);
+                }
+
+                isWaitingForBack = true;
+
+                Device.StartTimer(new TimeSpan(0, 0, 4), () =>
+                   {                 
+                       isWaitingForBack = false;
+                       return false;
+                   });
+
+                ToastService.Show(AppResources.backbutton);
+                return true; 
+            }
+            else
+            {
+                return base.OnBackButtonPressed();   
             }
         }
 

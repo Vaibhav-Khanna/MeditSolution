@@ -3,6 +3,6 @@ namespace MeditSolution.Service
 {
     public interface ICloseApp
     {
-        void CloseApp();
+        void CloseApp(bool reopen = true);
     }
 }

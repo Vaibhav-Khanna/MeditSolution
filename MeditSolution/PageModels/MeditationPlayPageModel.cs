@@ -16,6 +16,8 @@ namespace MeditSolution.PageModels
     {
 		public double Progress { get; set; }
 		public string TimerText { get; set; }
+        public string Title { get; set; }
+
 		SeancesModel SeanceModel;
         IMediaManager AudioPlayer => CrossMediaManager.Current;
 		public Color Tint { get; set; }
@@ -31,7 +33,6 @@ namespace MeditSolution.PageModels
                 { 
                     await AudioPlayer.Pause(); 
                     position = AudioPlayer.Position;
-                    AudioPlayer_MediaFinished(null, null);
                 });
             }
             else if (AudioPlayer.Status == MediaPlayerStatus.Paused)
@@ -75,6 +76,7 @@ namespace MeditSolution.PageModels
 
                 Tint = Color.FromHex(SeanceModel.Tint.Substring(1));
                 TintDark = ((Tint).AddLuminosity(-0.2));
+                Title = Settings.DeviceLanguage == "English" ? SeanceModel.Meditation.Label_EN : SeanceModel.Meditation.Label;
 
                 MeditationFile meditationFile = GetMeditationFileForUser(SeanceModel.Meditation, SeanceModel.Level);
 

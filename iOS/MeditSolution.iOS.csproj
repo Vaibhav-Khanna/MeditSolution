@@ -335,6 +335,11 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-80.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-120.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-180.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-20.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-29.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-76.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-152.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-167.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
@@ -366,10 +371,10 @@
     <Compile Include="Helpers\Localize.cs" />
     <Compile Include="Renderers\TextFieldRender.cs" />
     <Compile Include="Services\TintColorService.cs" />
-    <Compile Include="Renderers\HyperlinkLabelRenderer.cs" />
     <Compile Include="AkavacheSqliteLinkerOverride.cs" />
     <Compile Include="Services\CancelNotifications.cs" />
     <Compile Include="Services\PlayNotificationSound.cs" />
+    <Compile Include="Renderers\HyperLinkLabelRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\splash IOS.png" />

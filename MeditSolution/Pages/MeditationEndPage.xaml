@@ -18,10 +18,10 @@
             <ScrollView IsVisible="{Binding IsLoading,Converter={StaticResource BoolNegate}}" Grid.Row="0">
                 <StackLayout Spacing="10" Padding="30,70,30,0" Orientation="Vertical">
                     
-                    <Image Source="{Binding ImageHeader}" IsVisible="{Binding IsMeditationEnd,Converter={StaticResource BoolNegate}}" WidthRequest="100" HeightRequest="90" HorizontalOptions="CenterAndExpand" VerticalOptions="Start" />
+                    <Image Source="{Binding ImageHeader}" WidthRequest="100" HeightRequest="90" HorizontalOptions="CenterAndExpand" VerticalOptions="Start" />
 
-                    <forms:AnimationView IsVisible="{Binding IsMeditationEnd}" Scale="1.8" Animation="{Binding Icon}" AutoPlay="true" Loop="true" WidthRequest="100" HeightRequest="90" HorizontalOptions="CenterAndExpand" VerticalOptions="Start" />
-                    
+                    <!--<forms:AnimationView IsVisible="{Binding IsMeditationEnd}" Scale="1.8" Animation="{Binding Icon}" AutoPlay="true" Loop="true" WidthRequest="100" HeightRequest="90" HorizontalOptions="CenterAndExpand" VerticalOptions="Start" />
+                    -->
                     <Label Text="{Binding Header}" FontFamily="Merienda" FontSize="36" FontAttributes="Bold" TextColor="#50E3C2" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
 
                     <Label Text="{Binding SubHeader}" Margin="0,0,0,45" FontFamily="SFUIText-Regular" FontSize="16" TextColor="#50E3C2" HorizontalOptions="Center" HorizontalTextAlignment="Center" />

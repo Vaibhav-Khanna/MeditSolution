@@ -6,7 +6,7 @@
     xmlns:views="clr-namespace:MeditSolution.Views;assembly=MeditSolution"
     x:Class="MeditSolution.Pages.MeditationPlayPage"
     xmlns:resources="clr-namespace:MeditSolution"
-    Title="{resources:Translate takebreak}">
+    Title="{Binding Title}">
     <base:BasePage.Content>
 
         <views:MeditationView />

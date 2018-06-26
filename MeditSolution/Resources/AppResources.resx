@@ -60,7 +60,7 @@
     </resheader>
 
 
-     <!-- Text inside pages -->
+    <!-- Text inside pages -->
     <data name="signup" xml:space="preserve">
         <value>Sign up</value>
     </data>
@@ -158,7 +158,7 @@
         <value>More</value>
     </data>
     <data name="program" xml:space="preserve">
-        <value>Programs</value>
+        <value>Program</value>
     </data>
     <data name="seances" xml:space="preserve">
         <value>sessions</value>
@@ -349,7 +349,7 @@
         <value>Request failed</value>
     </data>
     <data name="programmes" xml:space="preserve">
-        <value>programmes</value>
+        <value>programs</value>
     </data>
     <data name="buyterms" xml:space="preserve">
         <value>A round-the-world trip remains the world’s greatest journey. For two out of every three people, this is the ultimate travel experience, according to recent research. Needless to say, in a world obsessed by travel, travelers and travel agents are both looking for the cheapest tickets and airfares available.
@@ -420,9 +420,9 @@ However, although you can expect to get the cheapest air ticket if you start sea
     <data name="UnsubscribeWarning" xml:space="preserve">
     <value>To unsubscribe, you have to go to settings for the device and cancel the subscription explicitly.</value>
   </data>
-
+     
    <data name="MeditationChat1" xml:space="preserve">
-    <value>Hi, Is anything playing on your mind at the moment? Do you need some help?</value>
+    <value>Is anything playing on your mind at the moment? Do you need some help?</value>
   </data>
     <data name="MeditationChat2" xml:space="preserve">
     <value>And do you know the benefits of meditating?</value>
@@ -494,13 +494,20 @@ However, although you can expect to get the cheapest air ticket if you start sea
  <data name="pickduration" xml:space="preserve">
      <value>Pick a duration</value>
  </data>
-
      <data name="logout" xml:space="preserve">
         <value>Log out</value>
     </data>
 
      <data name="logoutmessage" xml:space="preserve">
         <value>Do you wish to continue?</value>
+    </data>
+
+    <data name="backbutton" xml:space="preserve">
+        <value>Press again to exit</value>
+    </data>
+    
+    <data name="MeditationChat0" xml:space="preserve">
+        <value>Hello and welcome to Medit'Solutions. I will be your assistant throughout your meditations.</value>
     </data>
     
 </root>

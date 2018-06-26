@@ -93,7 +93,7 @@
         <value>Une section pour les enfants, petits et grands, pour les emmener vers l'autorégulation de leurs émotions</value>
     </data>
     <data name="tutorial4" xml:space="preserve">
-        <value>Un assistant personnel qui vous guide sur votre chemin et un avatar qui évolue avec vous; il est le reflet de votre propre évolution​</value>
+        <value>Une assistante personnelle qui vous guide sur votre chemin et un avatar qui évolue avec vous. Il est le reflet de votre propre évolution​</value>
     </data>
     <data name="forgotpassword" xml:space="preserve">
         <value>Mot de passe oublié</value>
@@ -114,7 +114,7 @@
         <value>Créer un compte</value>
     </data>
     <data name="register" xml:space="preserve">
-        <value>S’incrire</value>
+        <value>S’inscrire</value>
     </data>
     <data name="or" xml:space="preserve">
         <value>Ou</value>
@@ -171,7 +171,7 @@
         <value>En quelle langue souhaitez-vous méditer ?</value>
     </data>
     <data name="choosevoice" xml:space="preserve">
-        <value>Quelle genre de voix préférez vous pour cette méditation ?</value>
+        <value>Quel genre de voix préférez-vous pour cette méditation ?</value>
     </data>
     <data name="start" xml:space="preserve">
         <value>Démarrer</value>
@@ -180,7 +180,7 @@
         <value>Le saviez-vous ?</value>
     </data>
     <data name="doyouknowdetail" xml:space="preserve">
-        <value>Vous pouvez changer ces paramètres à tout moments dans les paramètres de méditation</value>
+        <value>Vous pouvez changer ces paramètres à tout moment dans les paramètres de méditation</value>
     </data>
     <data name="nomeditation" xml:space="preserve">
         <value>Vous n’avez aucune méditation en cours</value>
@@ -198,7 +198,7 @@
         <value>Heures méditées</value>
     </data>
     <data name="continousactivity" xml:space="preserve">
-        <value>JOURS D’ACTIVITES CONSECUTIFS</value>
+        <value>Jours d'activté consécutifs</value>
     </data>
     <data name="atmoment" xml:space="preserve">
         <value>En ce moment</value>
@@ -210,7 +210,7 @@
         <value>Bravo !</value>
     </data>
     <data name="bravodetail" xml:space="preserve">
-        <value>Vous montez en grade</value>
+        <value>Votre avatar évolue</value>
     </data>
     <data name="bravodetail2" xml:space="preserve">
         <value>Vous avez médité 10 jours consécutifs</value>
@@ -228,7 +228,7 @@
         <value>Explorer le catalogue</value>
     </data>
     <data name="congrats" xml:space="preserve">
-        <value>Féllicitation !</value>
+        <value>Félicitations !</value>
     </data>
     <data name="congratsdetail" xml:space="preserve">
         <value>Vous avez terminé votre séance</value>
@@ -267,7 +267,7 @@
         <value>Paramètres</value>
     </data>
     <data name="subscription" xml:space="preserve">
-        <value>L’abonnement</value>
+        <value>Abonnement</value>
     </data>
     <data name="monthly" xml:space="preserve">
         <value>Mensuel</value>
@@ -297,7 +297,7 @@
         <value>Vous êtes abonné depuis le</value>
     </data>
     <data name="seeterms" xml:space="preserve">
-        <value>Consultez les conditions de vente</value>
+        <value>Consulter les conditions de vente</value>
     </data>
     <data name="unsubscribe" xml:space="preserve">
         <value>Se désabonner</value>
@@ -315,7 +315,7 @@
         <value>Modifier</value>
     </data>
     <data name="mediter" xml:space="preserve">
-        <value>Méditer</value>
+        <value>Autre</value>
     </data>
     <data name="menureminder" xml:space="preserve">
         <value>Rappels quotidiens</value>
@@ -416,9 +416,9 @@ However, although you can expect to get the cheapest air ticket if you start sea
     <data name="UnsubscribeWarning" xml:space="preserve">
     <value>Pour vous désabonner, rendez vous dans les parametres de votre téléphone et annulez explicitement votre abonnement</value>
     </data>
-
+     
     <data name="MeditationChat1" xml:space="preserve">
-    <value>Bonjour, il y a quelque chose qui vous préoccupe en ce moment ? Vous avez besoin d'un coup de main ?</value>
+    <value>Il y a quelque chose qui vous préoccupe en ce moment ? Vous avez besoin d'un coup de main ?</value>
   </data>
     <data name="MeditationChat2" xml:space="preserve">
     <value>Et vous connaissez les bienfaits de la méditation ?</value>
@@ -497,4 +497,12 @@ However, although you can expect to get the cheapest air ticket if you start sea
         <value>Voulez-vous continuer ?</value>
     </data>
 
+    <data name="backbutton" xml:space="preserve">
+        <value>Appuyer a nouveau pour quitter</value>
+    </data>
+
+     <data name="MeditationChat0" xml:space="preserve">
+        <value>Bonjour et bienvenue sur Medit’Solutions. Je serais votre assistante tout au long de vos méditations.</value>
+    </data>
+   
 </root>

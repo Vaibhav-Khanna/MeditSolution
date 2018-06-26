@@ -414,6 +414,7 @@
     <Compile Include="AkavacheSqliteLinkerOverride.cs" />
     <Compile Include="PVLMediaNotificationManager.cs" />
     <Compile Include="Service\PlayNotificationSound.cs" />
+    <Compile Include="Renderers\HyperLinkLabelRederer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

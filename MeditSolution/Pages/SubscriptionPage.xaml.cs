@@ -25,11 +25,15 @@ namespace MeditSolution.Pages
 
             On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);
 
-            lb_terms.Text = "Conditions d'utilisation - https://medit-solutions.com/cgu" + Environment.NewLine + Environment.NewLine + "Politique de confidentialité - http://medit-solutions.com/politique-de-confidentialite/" + Environment.NewLine + Environment.NewLine;
-
+            lb_link1.Text = "https://medit-solutions.com/cgu";
+            lb_link2.Text = "http://medit-solutions.com/politique-de-confidentialite/";
+            lb_privacy.Text = Settings.DeviceLanguage == "English" ? "Terms & Conditions - " : "Conditions d'utilisation - ";
+            lb_termslink.Text = Settings.DeviceLanguage == "English" ? "Privacy Policy - " : "Politique de confidentialité - ";
+          
             if (Settings.DeviceLanguage == "English")
-                lb_terms.Text += terms_EN;
-            else lb_terms.Text += terms_FR;
+                lb_terms.Text = terms_EN;
+            else lb_terms.Text = terms_FR;
+
         }
        
 		void Handle_PaintSurfaceL(object sender, SkiaSharp.Views.Forms.SKPaintSurfaceEventArgs e)

@@ -25,9 +25,9 @@ namespace MeditSolution.PageModels
 
 		int TotalTimeMedited;
 
-		public string Tint { get; set; } = "#91f0db";
+        public Color Tint { get; set; } = Color.FromHex("91f0db");
 
-		public string TintDark { get; set; } = "#45d1b2";
+        public Color TintDark { get; set; } = Color.FromHex("45d1b2");
 
         public override void Init(object initData)
         {
@@ -39,6 +39,9 @@ namespace MeditSolution.PageModels
 			{
 				SeancesModel = ((SeancesModel)initData);
 				durationInSeconds = (int)SeancesModel.Meditation.Length;
+
+                Tint = Color.FromHex(SeancesModel.Tint.Substring(1));
+                TintDark = ((Tint).AddLuminosity(-0.2));
 			}
 			else
 			{

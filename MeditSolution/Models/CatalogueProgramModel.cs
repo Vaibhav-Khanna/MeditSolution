@@ -25,7 +25,7 @@ namespace MeditSolution.Models
 			if (meditation.Level2FrWoman != null)
 				seanceCount += 1;
 			if (meditation.Level3FrWoman != null)
-				seanceCount += 1;
+				seanceCount += 2;
 
             SubTitle = seanceCount + (  " " + (seanceCount == 1 ? AppResources.seance : AppResources.seances));
 
