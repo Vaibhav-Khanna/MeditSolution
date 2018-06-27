@@ -73,10 +73,7 @@ namespace MeditSolution.Droid
             CachedImageRenderer.Init(false);
 
             BlobCache.ApplicationName = "Medit";
-
-            // prevent screen from sleeping 
-            this.Window.SetFlags(WindowManagerFlags.KeepScreenOn, WindowManagerFlags.KeepScreenOn);
-
+             
             LoadApplication(new App());
         }
 

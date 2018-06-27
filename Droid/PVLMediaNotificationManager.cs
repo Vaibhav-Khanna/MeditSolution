@@ -103,14 +103,14 @@ namespace MeditSolution.Droid
 
             _builder.SetStyle(_style);
 
-            _builder.SetSmallIcon(icon);
+            _builder.SetSmallIcon(icon);     
             _builder.SetContentIntent(_pendingIntent);
             _builder.SetOngoing(mediaIsPlaying);
             _builder.SetColorized(true);
             _builder.SetVisibility(1);
 
-            NotificationManagerCompat.From(_applicationContext)
-                                     .Notify(_notificationId, _builder.Build());
+            //NotificationManagerCompat.From(_applicationContext)
+                                     //.Notify(_notificationId, _builder.Build());
         }
 
         public void StopNotifications()
@@ -126,12 +126,13 @@ namespace MeditSolution.Droid
                 var isPlaying = status == MediaPlayerStatus.Playing || status == MediaPlayerStatus.Buffering;
                 var isPersistent = status == MediaPlayerStatus.Playing || status == MediaPlayerStatus.Buffering || status == MediaPlayerStatus.Paused;
                 var nm = NotificationManagerCompat.From(_applicationContext);
+
                 if (nm != null && _builder != null)
                 {
                     SetMetadata(mediaFile);
                     AddActionButtons(isPlaying);
                     _builder.SetOngoing(isPersistent);
-                    nm.Notify(_notificationId, _builder.Build());
+                    //nm.Notify(_notificationId, _builder.Build());
                 }
                 else
                 {

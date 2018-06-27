@@ -8,7 +8,8 @@ namespace MeditSolution.Controls
 {
 	public class CustomTimePicker : SfPicker
     {
-		public ObservableCollection<object> Time { get; set; }
+		
+        public ObservableCollection<object> Time { get; set; }
   
 		public ObservableCollection<object> Second;
          
@@ -35,8 +36,7 @@ namespace MeditSolution.Controls
 			{
                 Headers.Add(AppResources.minute.ToUpper());
 
-                Headers.Add(AppResources.seconds.ToUpper());
-    
+                Headers.Add(AppResources.seconds.ToUpper());    
 			}
 			else
 			{
@@ -47,12 +47,18 @@ namespace MeditSolution.Controls
    
             HeaderText = AppResources.pickduration;
 			ShowColumnHeader = true;
-			ShowFooter = true;
+            ShowFooter = true;
+            FooterHeight = 40;
+            var lb = new Label() { Text = AppResources.ok, FontSize = 18, VerticalOptions = LayoutOptions.CenterAndExpand, VerticalTextAlignment = TextAlignment.Center, TextColor = (Color)App.Current.Resources["primary"], HorizontalOptions = LayoutOptions.FillAndExpand, HorizontalTextAlignment = TextAlignment.Center };
+            lb.GestureRecognizers.Add(new TapGestureRecognizer((obj) =>
+            {
+                IsOpen = false;
+            }));
+            FooterView = lb;
 
 			HeaderTextColor = (Color)App.Current.Resources["primaryDark"];
 			ColumnHeaderTextColor = (Color)App.Current.Resources["primary"];
                     
-
 			this.ColumnHeaderText = Headers;
 		}
 

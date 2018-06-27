@@ -9,6 +9,7 @@ using MeditSolution.Resources;
 using Plugin.MediaManager.Abstractions.Implementations;
 using Plugin.MediaManager.Abstractions.Enums;
 using Plugin.MediaManager.Abstractions;
+using System.Threading.Tasks;
 
 namespace MeditSolution.PageModels
 {
@@ -43,7 +44,7 @@ namespace MeditSolution.PageModels
                 });
             }
             else if(Device.RuntimePlatform == Device.Android && AudioPlayer.Status == MediaPlayerStatus.Stopped)
-            { 
+            {
                 AudioPlayer.PlayingChanged -= AudioPlayer_PlayingChanged;
                 AudioPlayer.MediaFailed -= AudioPlayer_MediaFailed;
                 AudioPlayer.MediaFinished -= AudioPlayer_MediaFinished;
@@ -73,6 +74,8 @@ namespace MeditSolution.PageModels
                 IsLoading = true;
 
                 SeanceModel = ((SeancesModel)initData);
+
+                this.PageWasPopped += Handle_PageWasPopped;
 
                 Tint = Color.FromHex(SeanceModel.Tint.Substring(1));
                 TintDark = ((Tint).AddLuminosity(-0.2));
@@ -205,25 +208,25 @@ namespace MeditSolution.PageModels
 				await CoreMethods.PopPageModel(animate: false);
 		}
 
-		protected override void ViewIsDisappearing(object sender, EventArgs e)
-		{
-			base.ViewIsDisappearing(sender, e);
+        void Handle_PageWasPopped(object sender, EventArgs e)
+        {
+            AudioPlayer?.Stop();
+            this.PageWasPopped -= Handle_PageWasPopped;
 
-			AudioPlayer?.Stop();
-          
-			if (AudioPlayer != null)
-			{
-				AudioPlayer.PlayingChanged -= AudioPlayer_PlayingChanged;
-				AudioPlayer.MediaFailed -= AudioPlayer_MediaFailed;
-				AudioPlayer.MediaFinished -= AudioPlayer_MediaFinished;
-				AudioPlayer.StatusChanged -= AudioPlayer_StatusChanged;
-			}
+            if (AudioPlayer != null)
+            {
+                
+                AudioPlayer.PlayingChanged -= AudioPlayer_PlayingChanged;
+                AudioPlayer.MediaFailed -= AudioPlayer_MediaFailed;
+                AudioPlayer.MediaFinished -= AudioPlayer_MediaFinished;
+                AudioPlayer.StatusChanged -= AudioPlayer_StatusChanged;
+            }
 
-            if(Device.RuntimePlatform == Device.Android)
+            if (Device.RuntimePlatform == Device.Android)
             {
                 DefaultNavigationBackgroundColor();
             }
-		}
+        }
 
         protected override void ViewIsAppearing(object sender, EventArgs e)
         {

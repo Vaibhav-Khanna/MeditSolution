@@ -46,7 +46,6 @@
     <AndroidSigningStorePass>CpE5J436q14a274</AndroidSigningStorePass>
     <AndroidSigningKeyAlias>meditsolution</AndroidSigningKeyAlias>
     <AndroidSigningKeyPass>CpE5J436q14a274</AndroidSigningKeyPass>
-    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'UAT|AnyCPU' ">
     <DebugType></DebugType>
