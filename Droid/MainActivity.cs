@@ -26,7 +26,7 @@ using Plugin.MediaManager.ExoPlayer;
 
 namespace MeditSolution.Droid
 {
-    [Activity(Label = "Medit'Solutions", Icon = "@drawable/icon", Theme = "@style/MyTheme", LaunchMode = LaunchMode.SingleTask, MainLauncher = false, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "Medit'Solutions", Icon = "@drawable/icon", Theme = "@style/MyTheme", MainLauncher = false, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         IBlobCache cache => Akavache.BlobCache.UserAccount;

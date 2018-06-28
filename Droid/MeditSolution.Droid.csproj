@@ -40,12 +40,14 @@
     <WarningLevel>4</WarningLevel>
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
-    <AndroidSupportedAbis>armeabi-v7a;armeabi;arm64-v8a;x86;x86_64</AndroidSupportedAbis>
+    <AndroidSupportedAbis>armeabi-v7a;armeabi;arm64-v8a</AndroidSupportedAbis>
     <AndroidKeyStore>True</AndroidKeyStore>
     <AndroidSigningKeyStore>/Users/vaibhavkhanna/Projects/_git/MeditSolution/ContinuousIntegration/Certificates/Android/meditsolution.keystore</AndroidSigningKeyStore>
     <AndroidSigningStorePass>CpE5J436q14a274</AndroidSigningStorePass>
     <AndroidSigningKeyAlias>meditsolution</AndroidSigningKeyAlias>
     <AndroidSigningKeyPass>CpE5J436q14a274</AndroidSigningKeyPass>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+    <EnableProguard>false</EnableProguard>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'UAT|AnyCPU' ">
     <DebugType></DebugType>
