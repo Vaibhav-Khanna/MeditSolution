@@ -34,6 +34,7 @@ namespace MeditSolution.PageModels
                 { 
                     await AudioPlayer.Pause(); 
                     position = AudioPlayer.Position;
+                    //AudioPlayer_MediaFinished(null, null);
                 });
             }
             else if (AudioPlayer.Status == MediaPlayerStatus.Paused)

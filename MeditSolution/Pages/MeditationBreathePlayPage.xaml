@@ -32,7 +32,7 @@
               
                     <controls:RoundedBoxView HeightRequest="230" WidthRequest="230" BackgroundColor="#7cf0d6" CornerRadius="115" BorderThickness="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" BorderColor="#7cf0d6" />
 
-                    <controls:RoundedBoxView x:Name="expand" HeightRequest="230" WidthRequest="230" Scale="0.6" BackgroundColor="#50e3c2" CornerRadius="115" BorderThickness="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" BorderColor="#50e3c2" />
+                    <controls:RoundedBoxView x:Name="expand" HeightRequest="230" WidthRequest="230" Scale="0.2" BackgroundColor="#50e3c2" CornerRadius="115" BorderThickness="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" BorderColor="#50e3c2" />
                 
                 </Grid>
 

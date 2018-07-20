@@ -3,6 +3,7 @@ using MeditSolution.Resources;
 using Xamarin.Forms;
 using MeditSolution.Helpers;
 using System.Threading.Tasks;
+using System.Linq;
 
 namespace MeditSolution.PageModels
 {
@@ -19,12 +20,14 @@ namespace MeditSolution.PageModels
 
 		public bool IsMeditationEnd;
 
+
 		public string NextMeditation { get { return IsMeditationEnd ? AppResources.medoverdetail : AppResources.congratsdetail2; } }
 		public string NextMeditatonName { get; set; } 
 		public string NextMeditatonDetail { get; set; } 
 
 		string meditationID { get; set; }
 		string programId { get; set; }
+        bool BlockNextAccess { get; set; } = false;
 
 		public async override void Init(object initData)
 		{
@@ -38,8 +41,7 @@ namespace MeditSolution.PageModels
 				IsLoading = true;
 
 				var next = await StoreManager.MeditationStore.GetNextMeditation();
-
-				IsLoading = false;
+               	
 
 				if (next != null)
 				{
@@ -51,6 +53,22 @@ namespace MeditSolution.PageModels
                         NextMeditatonDetail = (next.otherMeditation.length / 60) + " min";
                         meditationID = next.otherMeditation._id;
                         programId = next.otherMeditation.programId;
+
+                        //check here for subscription validation
+                        var programs = await StoreManager.ProgramStore.GetItemsAsync();
+
+                        var user = await StoreManager.UserStore.GetCurrentUser();
+
+                        if (programs != null && programs.Any() && user.Subscription == Models.DataObjects.SubscriptionType.free)
+                        {
+                           var isGoodtoGo = programs.Where((arg) => arg.IsInitiation.Value || arg.IsTraining.Value).Select((arg) => arg.Id).Contains(programId);
+
+                            if(!isGoodtoGo)
+                            {
+                                BlockNextAccess = true;
+                            }
+                        }
+                        //
                     }
 					else if (next.levelUp != null) // session completed
 					{
@@ -65,12 +83,21 @@ namespace MeditSolution.PageModels
 				}
 				else
                     await CoreMethods.PopPageModel(null, modal: true);
+
+                IsLoading = false;
 			}
 		}
         
 
 		public Command NextCommand => new Command(async() =>
 		{
+            if (BlockNextAccess)
+            {
+                await CoreMethods.PopPageModel(true);
+                return;  
+            }
+                
+
 			if(!string.IsNullOrEmpty(meditationID) && !string.IsNullOrEmpty(programId))
 			{
 				Dialog.ShowLoading();

@@ -32,6 +32,8 @@ namespace MeditSolution.PageModels
                 return;
             }
 
+            user = _user;
+
             if (Settings.TimeSecondsOffline != 0)
             {
                 if (user.TotalMinutesMeditated.HasValue)
@@ -41,8 +43,6 @@ namespace MeditSolution.PageModels
                     user.TotalMinutesMeditated = minutes;
                 }
             }
-
-            user = _user;
 
             Name = $"{user.Firstname} {user.Lastname}";
 

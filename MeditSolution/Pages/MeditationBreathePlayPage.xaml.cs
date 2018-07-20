@@ -53,22 +53,22 @@ namespace MeditSolution.Pages
         {
             if (!Stop)
             {
-                await expand.ScaleTo(0.4, Convert.ToUInt32(Model.CycleDuration / 2) * 1000, Easing.CubicInOut);
-               
-            }
-            else
-            {
-                await Task.Delay(200);
-            }
-
-            if (!Stop)
-            {
                 await expand.ScaleTo(1, Convert.ToUInt32(Model.CycleDuration / 2) * 1000, Easing.CubicInOut);
                
             }
             else
             {
-                await Task.Delay(200);
+                await Task.Delay(100);
+            }
+
+            if (!Stop)
+            {
+                await expand.ScaleTo(0.2, Convert.ToUInt32(Model.CycleDuration / 2) * 1000, Easing.CubicInOut);
+
+            }
+            else
+            {
+                await Task.Delay(100);
             }
 
             if (Model.TotalSeconds.TotalSeconds != 0)

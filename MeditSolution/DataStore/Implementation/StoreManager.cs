@@ -79,7 +79,9 @@ namespace MeditSolution.DataStore.Implementation
             await BlobCache.UserAccount.InvalidateAll();
             await Plugin.Notifications.CrossNotifications.Current.CancelAll();
             Plugin.Settings.CrossSettings.Current.Clear();
-            await PCLStore.DeleteEverything();
+
+            // Do not remove downloads on log out. As per client request.
+            //await PCLStore.DeleteEverything();
         }
 
         public async Task<bool> RegenerateToken()

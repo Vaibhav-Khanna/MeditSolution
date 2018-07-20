@@ -1,8 +1,11 @@
 ﻿using System;
 using AVFoundation;
 using Foundation;
+using MeditSolution.iOS.Services;
 using MeditSolution.Service;
+using Xamarin.Forms;
 
+[assembly: Dependency(typeof(PlayNotificationSound))]
 namespace MeditSolution.iOS.Services
 {
     public class PlayNotificationSound : IPlayNotificationSound

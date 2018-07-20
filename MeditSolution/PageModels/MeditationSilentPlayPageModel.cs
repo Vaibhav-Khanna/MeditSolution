@@ -65,7 +65,7 @@ namespace MeditSolution.PageModels
 				TimerText = "00:00:00";
                 TotalSeconds = new TimeSpan(0, 0, 0, 0);
                 _timer.Stop();
-				EndMeditation();
+				//EndMeditation();
             }
             else
             {
@@ -80,7 +80,7 @@ namespace MeditSolution.PageModels
         public Command PlayPauseCommand => new Command(() =>
         {
 
-            if (IsPlaying) { _timer.Stop(); }
+            if (IsPlaying) { _timer.Stop(); EndMeditation(); }
             else { _timer.Start(); }
             IsPlaying = !IsPlaying;
 
@@ -101,7 +101,7 @@ namespace MeditSolution.PageModels
 
 		async void EndMeditation()
 		{
-            DependencyService.Get<IPlayNotificationSound>().PlaySound();
+            DependencyService.Get<IPlayNotificationSound>()?.PlaySound();
 
 			Dialog.ShowLoading();
                     
