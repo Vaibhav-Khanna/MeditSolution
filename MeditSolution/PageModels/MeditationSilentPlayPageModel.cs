@@ -63,9 +63,12 @@ namespace MeditSolution.PageModels
             if (TotalSeconds.TotalSeconds == 0)
             {
 				TimerText = "00:00:00";
+
                 TotalSeconds = new TimeSpan(0, 0, 0, 0);
+
                 _timer.Stop();
-				//EndMeditation();
+				
+                EndMeditation();
             }
             else
             {
@@ -79,12 +82,9 @@ namespace MeditSolution.PageModels
 
         public Command PlayPauseCommand => new Command(() =>
         {
-
-            if (IsPlaying) { _timer.Stop(); EndMeditation(); }
+            if (IsPlaying) { _timer.Stop();  }
             else { _timer.Start(); }
             IsPlaying = !IsPlaying;
-
-
         });
 
         public Command CloseCommand => new Command(async () =>

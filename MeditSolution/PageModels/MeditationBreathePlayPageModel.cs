@@ -21,7 +21,7 @@ namespace MeditSolution.PageModels
 
         public TimeSpan TotalSeconds { get; set; }
 
-		int TotalTimeMedited;
+        public int TotalTimeMedited;
 
         public override void Init(object initData)
         {

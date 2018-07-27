@@ -30,9 +30,9 @@ namespace MeditSolution.PageModels
         {
             if (AudioPlayer.Status == MediaPlayerStatus.Playing)
             {
-                Device.BeginInvokeOnMainThread(async () => 
-                { 
-                    await AudioPlayer.Pause(); 
+                Device.BeginInvokeOnMainThread(async () =>
+                {
+                    await AudioPlayer.Pause();
                     position = AudioPlayer.Position;
                     //AudioPlayer_MediaFinished(null, null);
                 });

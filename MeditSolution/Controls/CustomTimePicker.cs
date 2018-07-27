@@ -48,7 +48,7 @@ namespace MeditSolution.Controls
                 Headers.Add(AppResources.seconds);              
 			}
 
-            this.SelectionChanged += Handle_SelectionChanged;
+            //this.SelectionChanged += Handle_SelectionChanged;
    
             HeaderText = AppResources.pickduration;
 			ShowColumnHeader = true;
@@ -70,7 +70,7 @@ namespace MeditSolution.Controls
         private void PopulateTimeCollection(bool isMaxLimit = false)
         {
    
-            for (int i = 1; i <= 12; i++)
+            for (int i = 1; i <= 1000; i++)
             {
                 Minute.Add(i.ToString());
             }

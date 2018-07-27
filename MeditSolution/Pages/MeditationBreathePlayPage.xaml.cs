@@ -38,7 +38,7 @@ namespace MeditSolution.Pages
             {
                 Model = (((MeditationBreathePlayPageModel)BindingContext));
                 Model.IsPlaying = false;
-                PlayAnimation();
+                //PlayAnimation();
             }
 
 
@@ -53,8 +53,8 @@ namespace MeditSolution.Pages
         {
             if (!Stop)
             {
-                await expand.ScaleTo(1, Convert.ToUInt32(Model.CycleDuration / 2) * 1000, Easing.CubicInOut);
-               
+                if(expand.Scale < 0.5)
+                    await expand.ScaleTo(1, Convert.ToUInt32(Model.CycleDuration / 2) * 1000, Easing.CubicInOut);               
             }
             else
             {
@@ -63,8 +63,8 @@ namespace MeditSolution.Pages
 
             if (!Stop)
             {
-                await expand.ScaleTo(0.2, Convert.ToUInt32(Model.CycleDuration / 2) * 1000, Easing.CubicInOut);
-
+                if(expand.Scale > 0.5)
+                    await expand.ScaleTo(0.2, Convert.ToUInt32(Model.CycleDuration / 2) * 1000, Easing.CubicInOut);
             }
             else
             {
@@ -87,7 +87,11 @@ namespace MeditSolution.Pages
             {
                 image.TranslationX = 0;
                 Stop = false;
-                
+
+                if(Model.TotalTimeMedited - (int)Model.TotalSeconds.TotalSeconds == 0)
+                {
+                    PlayAnimation();
+                }
             }
             else
             {
