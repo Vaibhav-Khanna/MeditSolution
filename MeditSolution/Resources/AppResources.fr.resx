@@ -500,9 +500,9 @@ However, although you can expect to get the cheapest air ticket if you start sea
     <data name="backbutton" xml:space="preserve">
         <value>Appuyer a nouveau pour quitter</value>
     </data>
-
+   
      <data name="MeditationChat0" xml:space="preserve">
-        <value>Bonjour et bienvenue sur Medit’Solutions. Je serais votre assistante tout au long de vos méditations.</value>
+        <value>Bonjour et bienvenue sur Medit’Solutions. Je serai votre assistante tout au long de vos méditations.</value>
     </data>
    
 </root>

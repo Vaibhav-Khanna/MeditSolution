@@ -102,12 +102,12 @@ namespace MeditSolution
 
         protected override void OnSleep()
         {
-            
+            ApplicationIsPaused?.Invoke(true);
         }
 
         protected override void OnResume()
         {
-            
+            ApplicationIsPaused?.Invoke(false);
         }
 
         public static Action<string> PostSuccessFacebookAction { get; set; }
