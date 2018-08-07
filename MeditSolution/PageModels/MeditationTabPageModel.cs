@@ -7,6 +7,7 @@ using MeditSolution.Helpers;
 using MeditSolution.Resources;
 using System.Linq;
 using Com.OneSignal;
+using System.Threading.Tasks;
 
 namespace MeditSolution.PageModels
 {
@@ -22,6 +23,7 @@ namespace MeditSolution.PageModels
         public string Tint { get; set; } = "#50e3c2";
 		public string Grey { get; set; } = "#9b9b9b";
         public bool IsAndroid { get; set; }
+        public bool IsRefreshing { get; set; }
 
         public MeditationTabPageModel()
         {
@@ -74,7 +76,7 @@ namespace MeditSolution.PageModels
             }
         }
          
-        public async void GetMeditation()
+        public async Task GetMeditation()
         {
             //IsLoading = Seances.Any() ? false : true;
 
@@ -103,6 +105,7 @@ namespace MeditSolution.PageModels
 					user.MeditationsDone.Add(new MeditationsDone() { id = current_meditation.Id });
 				}
 
+                user.Language = Settings.Language;
 				await StoreManager.UserStore.UpdateCurrentUser(user);
 				//
 
@@ -163,6 +166,12 @@ namespace MeditSolution.PageModels
 		public Command StartCommand => new Command(async() =>
 		{
 			await CoreMethods.SwitchSelectedTab<CatalogueTabPageModel>();
+        });
+
+        public Command RefreshCommand => new Command(async() =>
+        {
+            await GetMeditation();
+            IsRefreshing = false;
         });
 
         public int GetSeanceCount(Meditation meditation)

@@ -44,7 +44,7 @@
             />
 
 
-               <ListView x:Name="list" ItemTapped="Handle_ItemTapped" ItemTemplate="{StaticResource DataTemplateSelector}" IsVisible="{Binding IsLoading,Converter={converter:BooleanNegateConverter}}" CachingStrategy="RetainElement" Rotation="180" ItemsSource="{Binding Seances}" VerticalOptions="FillAndExpand" HasUnevenRows="true" SeparatorVisibility="None" HorizontalOptions="FillAndExpand" >               
+               <ListView x:Name="list" IsRefreshing="{Binding IsRefreshing}" RefreshCommand="{Binding RefreshCommand}" IsPullToRefreshEnabled="true" ItemTapped="Handle_ItemTapped" ItemTemplate="{StaticResource DataTemplateSelector}" IsVisible="{Binding IsLoading,Converter={converter:BooleanNegateConverter}}" CachingStrategy="RetainElement" Rotation="180" ItemsSource="{Binding Seances}" VerticalOptions="FillAndExpand" HasUnevenRows="true" SeparatorVisibility="None" HorizontalOptions="FillAndExpand" >               
                 <ListView.Header>
                     <StackLayout Rotation="180"  Spacing="0" VerticalOptions="End" Padding="20,0,20,20" Orientation="Vertical">
                         <BoxView WidthRequest="1" Color="{Binding Grey}" HorizontalOptions="Center" HeightRequest="20" VerticalOptions="Start" />

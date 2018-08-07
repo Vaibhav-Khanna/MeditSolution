@@ -21,7 +21,7 @@ namespace MeditSolution.PageModels
 
         private double step;
 
-		SeancesModel SeancesModel;
+        SeancesModel SeancesModel;
 
 		int TotalTimeMedited;
 
@@ -29,12 +29,14 @@ namespace MeditSolution.PageModels
 
         public Color TintDark { get; set; } = Color.FromHex("45d1b2");
 
+      
         public override void Init(object initData)
         {
             base.Init(initData);
 
 			int durationInSeconds = 0;
 
+           
 			if (initData is SeancesModel)
 			{
 				SeancesModel = ((SeancesModel)initData);
@@ -58,6 +60,7 @@ namespace MeditSolution.PageModels
             _timer.Start();
         }
 
+       
         private void CountDown()
         {
             if (TotalSeconds.TotalSeconds == 0)
@@ -68,6 +71,7 @@ namespace MeditSolution.PageModels
 
                 _timer.Stop();
 				
+
                 EndMeditation();
             }
             else
@@ -89,6 +93,7 @@ namespace MeditSolution.PageModels
 
         public Command CloseCommand => new Command(async () =>
         {
+            
             await CoreMethods.PopPageModel(true);
         });
 
@@ -129,9 +134,9 @@ namespace MeditSolution.PageModels
 			}
 
 			Dialog.HideLoading();
-
-			if (SeancesModel != null)
-			{
+			
+            if (SeancesModel != null)
+			{                
 				await CoreMethods.PopPageModel(true);
 				await CoreMethods.PushPageModel<MeditationEndPageModel>(true, modal: true);
 			}

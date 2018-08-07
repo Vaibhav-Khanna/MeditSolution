@@ -26,7 +26,7 @@ using Plugin.MediaManager.ExoPlayer;
 
 namespace MeditSolution.Droid
 {
-    [Activity(Label = "Medit'Solutions", Icon = "@drawable/icon", Theme = "@style/MyTheme", MainLauncher = false, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "Medit'Solutions", Icon = "@drawable/icon", Theme = "@style/MyTheme", MainLauncher = false, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation, ScreenOrientation = ScreenOrientation.Portrait )]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         IBlobCache cache => Akavache.BlobCache.UserAccount;
@@ -41,6 +41,8 @@ namespace MeditSolution.Droid
             base.OnCreate(bundle);
            
 			HtmlLabelRenderer.Initialize();
+
+            Window.AddFlags(WindowManagerFlags.KeepScreenOn);
 
 			global::Xamarin.Forms.Forms.Init(this, bundle);
 

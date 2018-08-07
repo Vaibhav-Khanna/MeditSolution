@@ -73,9 +73,16 @@ namespace MeditSolution.PageModels
 
 					var response = await StoreManager.RegisterAsync(Email, Password);
 
-					if(response!=null && response is TokenResponse)
-						await StoreManager.UserStore.GetCurrentUser();
-					
+                    if (response != null && response is TokenResponse)
+                    {
+                        var user = await StoreManager.UserStore.GetCurrentUser();
+                        if(user!=null)
+                        {
+                            user.Language = Settings.DeviceLanguage;
+                            await StoreManager.UserStore.UpdateAsync(user);
+                        }
+                    }
+
 					Dialog.HideLoading();
 
 					if(response!=null)

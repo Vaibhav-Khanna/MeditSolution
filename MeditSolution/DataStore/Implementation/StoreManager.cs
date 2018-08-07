@@ -74,11 +74,15 @@ namespace MeditSolution.DataStore.Implementation
             Settings.Token = string.Empty;
             Settings.User = string.Empty;
             Settings.IsLoggedIn = false;
-            Settings.Language = "";
-            Settings.Voice = "";
+            var language = Settings.Language;
+            var voice = Settings.Voice;
             await BlobCache.UserAccount.InvalidateAll();
             await Plugin.Notifications.CrossNotifications.Current.CancelAll();
+
             Plugin.Settings.CrossSettings.Current.Clear();
+
+            Settings.Language = language;
+            Settings.Voice = voice;
 
             // Do not remove downloads on log out. As per client request.
             //await PCLStore.DeleteEverything();
