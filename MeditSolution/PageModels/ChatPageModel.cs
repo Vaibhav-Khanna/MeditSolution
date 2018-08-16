@@ -25,6 +25,7 @@ namespace MeditSolution.PageModels
 			Settings.HasToCompleteChat = true;
 
 			ItemSource = new ObservableCollection<ChatModel>();
+            ItemSource.Add(new ChatModel(this) { Question = AppResources.MeditationChat0, IsQuestion = false } );
 
 			QuestionBank.Add(new ChatModel(this) { Question = AppResources.MeditationChat1, ID = 1, NextQuestionIfNegative = 2, NextQuestionIfPositive = 2, IsQuestion = true });
 			QuestionBank.Add(new ChatModel(this) { Question = AppResources.MeditationChat2, ID = 2, IsQuestion = true, NextQuestionIfPositive = 4, NextQuestionIfNegative = 3, });

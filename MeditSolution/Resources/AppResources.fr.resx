@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
     <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -60,7 +60,7 @@
     </resheader>
     <!-- Text inside pages -->
     <data name="signup" xml:space="preserve">
-        <value>Je m’incris gratuitement</value>
+        <value>Je m’inscris gratuitement</value>
     </data>
     <data name="login" xml:space="preserve">
         <value>Se connecter</value>
@@ -93,7 +93,7 @@
         <value>Une section pour les enfants, petits et grands, pour les emmener vers l'autorégulation de leurs émotions</value>
     </data>
     <data name="tutorial4" xml:space="preserve">
-        <value>Un assistant personnel qui vous guide sur votre chemin et un avatar qui évolue avec vous; il est le reflet de votre propre évolution​</value>
+        <value>Une assistante personnelle qui vous guide sur votre chemin et un avatar qui évolue avec vous. Il est le reflet de votre propre évolution​</value>
     </data>
     <data name="forgotpassword" xml:space="preserve">
         <value>Mot de passe oublié</value>
@@ -114,7 +114,7 @@
         <value>Créer un compte</value>
     </data>
     <data name="register" xml:space="preserve">
-        <value>S’incrire</value>
+        <value>S’inscrire</value>
     </data>
     <data name="or" xml:space="preserve">
         <value>Ou</value>
@@ -171,7 +171,7 @@
         <value>En quelle langue souhaitez-vous méditer ?</value>
     </data>
     <data name="choosevoice" xml:space="preserve">
-        <value>Quelle genre de voix préférez vous pour cette méditation ?</value>
+        <value>Quel genre de voix préférez-vous pour cette méditation ?</value>
     </data>
     <data name="start" xml:space="preserve">
         <value>Démarrer</value>
@@ -180,7 +180,7 @@
         <value>Le saviez-vous ?</value>
     </data>
     <data name="doyouknowdetail" xml:space="preserve">
-        <value>Vous pouvez changer ces paramètres à tout moments dans les paramètres de méditation</value>
+        <value>Vous pouvez changer ces paramètres à tout moment dans les paramètres de méditation</value>
     </data>
     <data name="nomeditation" xml:space="preserve">
         <value>Vous n’avez aucune méditation en cours</value>
@@ -198,7 +198,7 @@
         <value>Heures méditées</value>
     </data>
     <data name="continousactivity" xml:space="preserve">
-        <value>JOURS D’ACTIVITES CONSECUTIFS</value>
+        <value>Jours d'activté consécutifs</value>
     </data>
     <data name="atmoment" xml:space="preserve">
         <value>En ce moment</value>
@@ -210,7 +210,7 @@
         <value>Bravo !</value>
     </data>
     <data name="bravodetail" xml:space="preserve">
-        <value>Vous montez en grade</value>
+        <value>Votre avatar évolue</value>
     </data>
     <data name="bravodetail2" xml:space="preserve">
         <value>Vous avez médité 10 jours consécutifs</value>
@@ -228,7 +228,7 @@
         <value>Explorer le catalogue</value>
     </data>
     <data name="congrats" xml:space="preserve">
-        <value>Féllicitation !</value>
+        <value>Félicitations !</value>
     </data>
     <data name="congratsdetail" xml:space="preserve">
         <value>Vous avez terminé votre séance</value>
@@ -267,7 +267,7 @@
         <value>Paramètres</value>
     </data>
     <data name="subscription" xml:space="preserve">
-        <value>L’abonnement</value>
+        <value>Abonnement</value>
     </data>
     <data name="monthly" xml:space="preserve">
         <value>Mensuel</value>
@@ -281,19 +281,6 @@
     <data name="month" xml:space="preserve">
         <value>Mois</value>
     </data>
-    
-    <data name="minute" xml:space="preserve">
-        <value>Minute</value>
-    </data>
-
-     <data name="seconds" xml:space="preserve">
-        <value>Seconds</value>
-    </data>
-    
-    <data name="pickduration" xml:space="preserve">
-        <value>Pick Duration</value>
-    </data>
-    
     <data name="year" xml:space="preserve">
         <value>An</value>
     </data>
@@ -310,7 +297,7 @@
         <value>Vous êtes abonné depuis le</value>
     </data>
     <data name="seeterms" xml:space="preserve">
-        <value>Consultez les conditions de vente</value>
+        <value>Consulter les conditions de vente</value>
     </data>
     <data name="unsubscribe" xml:space="preserve">
         <value>Se désabonner</value>
@@ -328,7 +315,7 @@
         <value>Modifier</value>
     </data>
     <data name="mediter" xml:space="preserve">
-        <value>Méditer</value>
+        <value>Autre</value>
     </data>
     <data name="menureminder" xml:space="preserve">
         <value>Rappels quotidiens</value>
@@ -348,16 +335,16 @@
     <!-- Text inside code files -->
     <!-- ENGLISH TO FRENCH CONVERT -->
     <data name="accountexists" xml:space="preserve">
-        <value>An account already exists with same email</value>
+        <value>Un compte existe déja avec cet email</value>
     </data>
     <data name="erroraccountcreate" xml:space="preserve">
-        <value>Error while creating the account</value>
+        <value>Erreur durant la création du compte. Veuillez réessayer</value>
     </data>
     <data name="incorrectcombo" xml:space="preserve">
-        <value>Incorrect email or password. Try again.</value>
+        <value>Email ou mot de passe incorrect. Veuillez réessayer</value>
     </data>
     <data name="requestfailed" xml:space="preserve">
-        <value>Request failed</value>
+        <value>Erreur de la requete</value>
     </data>
     <data name="programmes" xml:space="preserve">
         <value>programmes</value>
@@ -382,56 +369,56 @@ Airlines usually publish their scheduled flights and prices six months in advanc
 However, although you can expect to get the cheapest air ticket if you start searching many months ahead, there are some exceptions. At times like Christmas or other periods of high demand the prices are usually inflated and planes fill up many months in advance. If you can be flexible and travel on actual holiday days such as Christmas day or New Years Eve you can find some pretty attractive discounts.</value>
     </data>
     <data name="Level1" xml:space="preserve">
-        <value>Guided</value>
+        <value>Guidée</value>
     </data>
     <data name="Level2" xml:space="preserve">
-        <value>Moderately Guided</value>
+        <value>Moyennement guidée</value>
     </data>
     <data name="Level3" xml:space="preserve">
-        <value>Slightly Guided</value>
+        <value>Peu guidée</value>
     </data>
     <data name="Level4" xml:space="preserve">
-        <value>Silent</value>
+        <value>Silencieuse</value>
     </data>
 
     <data name="name" xml:space="preserve">
-        <value>First name</value>
+        <value>Prénom</value>
     </data>
 
      <data name="lastname" xml:space="preserve">
-        <value>Last name</value>
+        <value>Nom</value>
     </data>
 
     <data name="SubscriptionThanks" xml:space="preserve">
-        <value>Thank you for subscribing to Medit'Solutions</value>
+        <value>Merci de vous être abooné à Médit'Solutions</value>
     </data>
 
     <data name="SubscriptionRequired" xml:space="preserve">
-         <value>Subscription Required</value>
+         <value>Abonnement requis</value>
      </data>
-    
+
      <data name="SubscribeMessage" xml:space="preserve">
-         <value>Subscribe now to gain access to all our meditations.</value>
+         <value>Abonnez vous dès maintenant pour accéder à toutes vos méditations</value>
      </data>
-    
+
     <data name="SubscribeNow" xml:space="preserve">
-         <value>Subscribe</value>
+         <value>S'abonner</value>
      </data>
-    
+
     <data name="NotNow" xml:space="preserve">
-         <value>Not now</value>
+         <value>Plus tard</value>
      </data>
-    
+
     <data name="ErrorMessageSubscription" xml:space="preserve">
-         <value>An error occurred while carrying out the operation. Please try again in a while.</value>
+         <value>Une erreur s'est produite durant l'opérations. Veuillez réessayer ultérieurement.</value>
     </data>
 
     <data name="UnsubscribeWarning" xml:space="preserve">
-    <value>To unsubscribe this subscription, you have to go to settings for the device and cancel the subscription explicitly.</value>
+    <value>Pour vous désabonner, rendez vous dans les parametres de votre téléphone et annulez explicitement votre abonnement</value>
     </data>
-
+     
     <data name="MeditationChat1" xml:space="preserve">
-    <value>Bonjour, il y a quelque chose qui vous préoccupe en ce moment ? Vous avez besoin d'un coup de main ?</value>
+    <value>Il y a quelque chose qui vous préoccupe en ce moment ? Vous avez besoin d'un coup de main ?</value>
   </data>
     <data name="MeditationChat2" xml:space="preserve">
     <value>Et vous connaissez les bienfaits de la méditation ?</value>
@@ -462,7 +449,7 @@ However, although you can expect to get the cheapest air ticket if you start sea
   </data>
 
     <data name="ProgramPaidThanks" xml:space="preserve">
-    <value>Thank you for purchasing this program</value>
+    <value>Merci d'avoir acheter ce programme</value>
   </data>
 
      <data name="Delete" xml:space="preserve">
@@ -475,19 +462,47 @@ However, although you can expect to get the cheapest air ticket if you start sea
     <value>Il est temps de méditer, préparez vous</value>
   </data>
   <data name="downloading" xml:space="preserve">
-        <value>Downloading... Please do not exit the app</value>
+        <value>Téléchargement... Ne fermez pas l'application</value>
     </data>
 
     <data name="downloadFailed" xml:space="preserve">
-        <value>The file could not be downloaded. Please try again.</value>
+        <value>Le fichier ne peut pas etre téléchargé. Veuillez réessayer.</value>
     </data>
 
     <data name="ActiveIntNeeded" xml:space="preserve">
-        <value>An active internet connection is needed. Please try again.</value>
+        <value>Une connexion internet active est nécéssaire. Veuillez réessayer.</value>
     </data>
 
     <data name="seance" xml:space="preserve">
         <value>séance</value>
     </data>
-    
+
+     <data name="minute" xml:space="preserve">
+        <value>Minutes</value>
+    </data>
+
+     <data name="seconds" xml:space="preserve">
+        <value>Secondes</value>
+    </data>
+
+    <data name="pickduration" xml:space="preserve">
+        <value>Choisissez la durée</value>
+    </data>
+
+     <data name="logout" xml:space="preserve">
+        <value>Déconnexion</value>
+    </data>
+
+     <data name="logoutmessage" xml:space="preserve">
+        <value>Voulez-vous continuer ?</value>
+    </data>
+
+    <data name="backbutton" xml:space="preserve">
+        <value>Appuyer a nouveau pour quitter</value>
+    </data>
+   
+     <data name="MeditationChat0" xml:space="preserve">
+        <value>Bonjour et bienvenue sur Medit’Solutions. Je serai votre assistante tout au long de vos méditations.</value>
+    </data>
+   
 </root>

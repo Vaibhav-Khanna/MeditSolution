@@ -43,19 +43,18 @@
     HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
             />
 
-                <flv:FlowListView x:Name="list" FlowColumnTemplate="{StaticResource DataTemplateSelector}" Rotation="180" IsVisible="{Binding IsLoading,Converter={converter:BooleanNegateConverter}}" FlowItemsSource="{Binding Seances}" HasUnevenRows="true" FlowColumnCount="1" SeparatorVisibility="None" HorizontalOptions="FillAndExpand" >
-               
-                <flv:FlowListView.Header>
-                    <StackLayout Rotation="180" x:Name="footer" Spacing="0" VerticalOptions="End" Padding="20,0,20,20" Orientation="Vertical">
+
+               <ListView x:Name="list" IsRefreshing="{Binding IsRefreshing}" RefreshCommand="{Binding RefreshCommand}" IsPullToRefreshEnabled="true" ItemTapped="Handle_ItemTapped" ItemTemplate="{StaticResource DataTemplateSelector}" IsVisible="{Binding IsLoading,Converter={converter:BooleanNegateConverter}}" CachingStrategy="RetainElement" Rotation="180" ItemsSource="{Binding Seances}" VerticalOptions="FillAndExpand" HasUnevenRows="true" SeparatorVisibility="None" HorizontalOptions="FillAndExpand" >               
+                <ListView.Header>
+                    <StackLayout Rotation="180"  Spacing="0" VerticalOptions="End" Padding="20,0,20,20" Orientation="Vertical">
                         <BoxView WidthRequest="1" Color="{Binding Grey}" HorizontalOptions="Center" HeightRequest="20" VerticalOptions="Start" />
                         <Image Source="{Binding MeditationIcon}" WidthRequest="60" HeightRequest="60" HorizontalOptions="Center" Margin="0,0,0,20" />
                         <Label Text="{Binding Meditation}" Margin="0,0,0,5" FontFamily="Merienda-Bold" FontAttributes="Bold" FontSize="24" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" TextColor="#656565" />
                         <Label Text="{Binding MeditationDetail}" FontFamily="SFUIText-Light" FontSize="16" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" TextColor="#656565" />
                     </StackLayout>
-                </flv:FlowListView.Header>
+                </ListView.Header>
+                </ListView>
 
-                </flv:FlowListView>
-                
             </StackLayout>
            
 
@@ -65,10 +64,10 @@
             <Label Text="{resources:Translate nomeditation}" TextColor="{StaticResource textLight}" FontSize="16" FontFamily="SFUIText-Regular" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" Margin="20,10,20,30" />
             <Button Text="{resources:Translate startinitiate}" Command="{Binding StartCommand}" TextColor="White" FontFamily="SFUIText-Semibold" FontAttributes="Bold" FontSize="18" HorizontalOptions="FillAndExpand" BackgroundColor="{StaticResource primary}" >
                  <Button.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double" Android="60" iOS="50" />
+                    <OnPlatform x:TypeArguments="x:Double" Android="50" iOS="50" />
                 </Button.HeightRequest>
                 <Button.BorderRadius>
-                    <OnPlatform x:TypeArguments="x:Int32" Android="30" iOS="25" />
+                    <OnPlatform x:TypeArguments="x:Int32" Android="25" iOS="25" />
                 </Button.BorderRadius>
             </Button>
         </StackLayout>

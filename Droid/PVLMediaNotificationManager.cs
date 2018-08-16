@@ -5,7 +5,6 @@ using Android.App;
 using Android.Content;
 using Android.Graphics;
 using Android.Media;
-using Android.Provider;
 using Android.Support.V4.App;
 using Android.Support.V4.Media;
 using Android.Support.V4.Media.Session;
@@ -104,14 +103,14 @@ namespace MeditSolution.Droid
 
             _builder.SetStyle(_style);
 
-            _builder.SetSmallIcon(icon);
+            _builder.SetSmallIcon(icon);     
             _builder.SetContentIntent(_pendingIntent);
             _builder.SetOngoing(mediaIsPlaying);
             _builder.SetColorized(true);
             _builder.SetVisibility(1);
 
-            NotificationManagerCompat.From(_applicationContext)
-                .Notify(_notificationId, _builder.Build());
+            //NotificationManagerCompat.From(_applicationContext)
+                                     //.Notify(_notificationId, _builder.Build());
         }
 
         public void StopNotifications()
@@ -127,12 +126,13 @@ namespace MeditSolution.Droid
                 var isPlaying = status == MediaPlayerStatus.Playing || status == MediaPlayerStatus.Buffering;
                 var isPersistent = status == MediaPlayerStatus.Playing || status == MediaPlayerStatus.Buffering || status == MediaPlayerStatus.Paused;
                 var nm = NotificationManagerCompat.From(_applicationContext);
+
                 if (nm != null && _builder != null)
                 {
                     SetMetadata(mediaFile);
                     AddActionButtons(isPlaying);
                     _builder.SetOngoing(isPersistent);
-                    nm.Notify(_notificationId, _builder.Build());
+                    //nm.Notify(_notificationId, _builder.Build());
                 }
                 else
                 {
@@ -239,7 +239,7 @@ namespace MeditSolution.Droid
             //builder.PutBitmap(MediaMetadata.MetadataKeyAlbumArt, currentTrack?.Metadata.AlbumArt as Bitmap);
 
             // Uncomment these lines and replace the "splash" with your own drawable resource to use a lock screen pic
-            //var id = Resource.Drawable.splash;
+            //var id = Resource.Drawable.ic_vol_type_tv_dark;
             //var art = BitmapFactory.DecodeResource(resources, id);
             //builder.PutBitmap(MediaMetadata.MetadataKeyAlbumArt, art);
 

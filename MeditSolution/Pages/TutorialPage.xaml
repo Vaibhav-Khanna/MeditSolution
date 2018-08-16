@@ -26,10 +26,10 @@
             <StackLayout Grid.Row="1" Spacing="10" Margin="0" Padding="20,0,20,20" VerticalOptions="End" Orientation="Vertical">
                 <Button Text="{resources:Translate signup}" Command="{Binding SignUpCommand}" FontAttributes="Bold" FontSize="18" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Bold" TextColor="{StaticResource primary}" BorderColor="{StaticResource primary}" BackgroundColor="{StaticResource white}" BorderWidth="1">
                     <Button.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double" Android="60" iOS="50" />
+                    <OnPlatform x:TypeArguments="x:Double" Android="50" iOS="50" />
                 </Button.HeightRequest>
                 <Button.BorderRadius>
-                    <OnPlatform x:TypeArguments="x:Int32" Android="30" iOS="25" />
+                    <OnPlatform x:TypeArguments="x:Int32" Android="25" iOS="25" />
                 </Button.BorderRadius>>
                 </Button>
 
@@ -37,10 +37,10 @@
 
                 <Button x:Name="s" Text="{resources:Translate login}" Command="{Binding LoginCommand}" FontAttributes="Bold" FontSize="18" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Bold" TextColor="{StaticResource white}" BorderColor="{StaticResource primaryBlue}" BackgroundColor="{StaticResource primaryBlue}" BorderWidth="1" >
                      <Button.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double" Android="60" iOS="50" />
+                    <OnPlatform x:TypeArguments="x:Double" Android="50" iOS="50" />
                 </Button.HeightRequest>
                 <Button.BorderRadius>
-                    <OnPlatform x:TypeArguments="x:Int32" Android="30" iOS="25" />
+                    <OnPlatform x:TypeArguments="x:Int32" Android="25" iOS="25" />
                 </Button.BorderRadius>
                 </Button>  
                 

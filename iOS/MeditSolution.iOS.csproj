@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.props" Condition="Exists('..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.props')" />
+  <Import Project="..\packages\Xamarin.Forms.3.1.0.583944\build\netstandard2.0\Xamarin.Forms.props" Condition="Exists('..\packages\Xamarin.Forms.3.1.0.583944\build\netstandard2.0\Xamarin.Forms.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
@@ -19,7 +19,7 @@
     <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer: vaibhav khanna (97JN4RXR2S)</CodesignKey>
+    <CodesignKey>iPhone Developer: Alexandra DE LA CRUZ (LGFTR3DXKP)</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
     <MtouchFastDev>true</MtouchFastDev>
@@ -29,7 +29,7 @@
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <PlatformTarget>x86</PlatformTarget>
 
-    <CodesignProvision>VS: com.meditsolutions.mob Development</CodesignProvision>
+    <CodesignProvision>VS: com.meditsolutions.mobile Development</CodesignProvision>
 
     <MtouchExtraArgs>--registrar:static</MtouchExtraArgs>
     <MtouchSdkVersion>11.4</MtouchSdkVersion>
@@ -40,16 +40,16 @@
     <OutputPath>bin\iPhone\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer: vaibhav khanna (97JN4RXR2S)</CodesignKey>
+    <CodesignKey>iPhone Distribution: AEA SOLUTIONS (398SMSRSZ3)</CodesignKey>
     <MtouchFloat32>true</MtouchFloat32>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
-    <MtouchLink>None</MtouchLink>
+    <MtouchLink>SdkOnly</MtouchLink>
     <MtouchArch>ARM64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <PlatformTarget>x86</PlatformTarget>
 
-    <CodesignProvision>VS: com.meditsolutions.mob Development</CodesignProvision>
-
+    <MtouchSdkVersion>11.4</MtouchSdkVersion>
+    <CodesignProvision>MeditSolutions - Distribution</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>pdbonly</DebugType>
@@ -57,14 +57,14 @@
     <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer: vaibhav khanna (97JN4RXR2S)</CodesignKey>
+    <CodesignKey>iPhone Developer: Alexandra DE LA CRUZ (LGFTR3DXKP)</CodesignKey>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
     <MtouchLink>None</MtouchLink>
     <MtouchArch>x86_64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <PlatformTarget>x86</PlatformTarget>
 
-    <CodesignProvision>VS: com.meditsolutions.mob Development</CodesignProvision>
+    <CodesignProvision>VS: com.meditsolutions.mobile Development</CodesignProvision>
 
 
   </PropertyGroup>
@@ -76,7 +76,7 @@
     <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer: vaibhav khanna (97JN4RXR2S)</CodesignKey>
+    <CodesignKey>iPhone Developer: Alexandra DE LA CRUZ (LGFTR3DXKP)</CodesignKey>
     <DeviceSpecificBuild>true</DeviceSpecificBuild>
     <MtouchDebug>true</MtouchDebug>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
@@ -89,7 +89,7 @@
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <PlatformTarget>x86</PlatformTarget>
 
-    <CodesignProvision>VS: com.meditsolutions.mob Development</CodesignProvision>
+    <CodesignProvision>VS: com.meditsolutions.mobile Development</CodesignProvision>
 
     <MtouchSdkVersion>11.4</MtouchSdkVersion>
   </PropertyGroup>
@@ -98,28 +98,19 @@
     <OutputPath>bin\UAT</OutputPath>
     <DefineConstants></DefineConstants>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer: vaibhav khanna (97JN4RXR2S)</CodesignKey>
+    <CodesignKey>iPhone Developer: Alexandra DE LA CRUZ (LGFTR3DXKP)</CodesignKey>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
     <MtouchVerbosity></MtouchVerbosity>
     <MtouchLink>None</MtouchLink>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <MtouchArch>ARM64</MtouchArch>
-    <CodesignProvision>VS: com.meditsolutions.mob Development</CodesignProvision>
+    <CodesignProvision>VS: com.meditsolutions.mobile Development</CodesignProvision>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
-    <Reference Include="Xamarin.Forms.Core">
-      <HintPath>..\packages\Xamarin.Forms.2.5.0.121934\lib\Xamarin.iOS10\Xamarin.Forms.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.Forms.Platform.iOS">
-      <HintPath>..\packages\Xamarin.Forms.2.5.0.121934\lib\Xamarin.iOS10\Xamarin.Forms.Platform.iOS.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.Forms.Xaml">
-      <HintPath>..\packages\Xamarin.Forms.2.5.0.121934\lib\Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
-    </Reference>
     <Reference Include="FreshIOC">
       <HintPath>..\packages\FreshMvvm.2.2.4\lib\netstandard1.0\FreshIOC.dll</HintPath>
     </Reference>
@@ -214,9 +205,6 @@
     </Reference>
     <Reference Include="Rg.Plugins.Popup.Platform">
       <HintPath>..\packages\Rg.Plugins.Popup.1.0.4\lib\Xamarin.IOS\Rg.Plugins.Popup.Platform.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.Forms.Platform">
-      <HintPath>..\packages\Xamarin.Forms.2.5.0.121934\lib\Xamarin.iOS10\Xamarin.Forms.Platform.dll</HintPath>
     </Reference>
     <Reference Include="Com.OneSignal.Abstractions">
       <HintPath>..\packages\Com.OneSignal.3.1.1\lib\Xamarin.iOS10\Com.OneSignal.Abstractions.dll</HintPath>
@@ -317,6 +305,18 @@
     <Reference Include="MediaManager.iOS">
       <HintPath>..\ReferenceLibraries\MediaManager.iOS.dll</HintPath>
     </Reference>
+    <Reference Include="Xamarin.Forms.Core">
+      <HintPath>..\packages\Xamarin.Forms.3.1.0.583944\lib\Xamarin.iOS10\Xamarin.Forms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform">
+      <HintPath>..\packages\Xamarin.Forms.3.1.0.583944\lib\Xamarin.iOS10\Xamarin.Forms.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform.iOS">
+      <HintPath>..\packages\Xamarin.Forms.3.1.0.583944\lib\Xamarin.iOS10\Xamarin.Forms.Platform.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Xaml">
+      <HintPath>..\packages\Xamarin.Forms.3.1.0.583944\lib\Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MeditSolution\MeditSolution.csproj">
@@ -335,6 +335,11 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-80.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-120.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-180.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-20.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-29.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-76.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-152.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-167.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
@@ -366,9 +371,10 @@
     <Compile Include="Helpers\Localize.cs" />
     <Compile Include="Renderers\TextFieldRender.cs" />
     <Compile Include="Services\TintColorService.cs" />
-    <Compile Include="Renderers\HyperlinkLabelRenderer.cs" />
     <Compile Include="AkavacheSqliteLinkerOverride.cs" />
     <Compile Include="Services\CancelNotifications.cs" />
+    <Compile Include="Services\PlayNotificationSound.cs" />
+    <Compile Include="Renderers\HyperLinkLabelRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\splash IOS.png" />
@@ -561,8 +567,15 @@
     <BundleResource Include="Resources\logout%402x.png" />
     <BundleResource Include="Resources\logout.png" />
     <BundleResource Include="Resources\notification.caf" />
+    <BundleResource Include="level1.json" />
+    <BundleResource Include="level2.json" />
+    <BundleResource Include="level3.json" />
+    <BundleResource Include="lock.json" />
+    <BundleResource Include="level5.json" />
+    <BundleResource Include="level6.json" />
+    <BundleResource Include="level4.json" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
-  <Import Project="..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets')" />
   <Import Project="..\packages\Fody.3.0.3\build\Fody.targets" Condition="Exists('..\packages\Fody.3.0.3\build\Fody.targets')" />
+  <Import Project="..\packages\Xamarin.Forms.3.1.0.583944\build\netstandard2.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.3.1.0.583944\build\netstandard2.0\Xamarin.Forms.targets')" />
 </Project>

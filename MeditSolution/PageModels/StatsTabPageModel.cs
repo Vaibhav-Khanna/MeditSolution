@@ -15,22 +15,24 @@ namespace MeditSolution.PageModels
 		public string RecordMax { get; set; } = " ";
 		public string Icon { get; set; }
 		User user;
-              
+        public bool Play { get; set; }
 
-		protected async override void ViewIsAppearing(object sender, EventArgs e)
-		{
-			base.ViewIsAppearing(sender, e);
+        protected async override void ViewIsAppearing(object sender, EventArgs e)
+        {
+            base.ViewIsAppearing(sender, e);
 
-			IsLoading = user == null;
+            IsLoading = user == null;
 
-			var _user = await StoreManager.UserStore.GetCurrentUser();
+            var _user = await StoreManager.UserStore.GetCurrentUser();
 
-			if(_user==null)
-			{
-				await ToastService.Show(AppResources.requestfailed);
-				IsLoading = false;
-				return;
-			}
+            if (_user == null)
+            {
+                await ToastService.Show(AppResources.requestfailed);
+                IsLoading = false;
+                return;
+            }
+
+            user = _user;
 
             if (Settings.TimeSecondsOffline != 0)
             {
@@ -42,28 +44,23 @@ namespace MeditSolution.PageModels
                 }
             }
 
-			user = _user;
+            Name = $"{user.Firstname} {user.Lastname}";
 
-			Name = $"{user.Firstname} {user.Lastname}";
+            Icon = "level" + (user.CurrentLevel + 1) + ".json";
 
-			if (Device.RuntimePlatform == Device.iOS)
-				Icon = "level" + (user.CurrentLevel+1) + ".png";
-            else
-				Icon = "level_" + (user.CurrentLevel+1) + ".png";
+            if (string.IsNullOrWhiteSpace(Name))
+                Name = user.Email;
 
-			if (string.IsNullOrWhiteSpace(Name))
-				Name = user.Email;
+            Evolution = AppResources.evolution + " " + (user.CurrentLevel + 1);
 
-			Evolution = AppResources.evolution + " " + (user.CurrentLevel + 1);
+            MeditationTime = user.TotalMinutesMeditated.HasValue ? $"{user.TotalMinutesMeditated.Value / 60}h{user.TotalMinutesMeditated.Value % 60}min" : "0 min";
 
-			MeditationTime = user.TotalMinutesMeditated.HasValue ? $"{user.TotalMinutesMeditated.Value/60}h{user.TotalMinutesMeditated.Value%60}min" : "0 min";
+            CurrentMax = user.MaxDaysMeditation.HasValue ? user.MaxDaysMeditation?.ToString() : "0";
 
-			CurrentMax = user.MaxDaysMeditation.HasValue ? user.MaxDaysMeditation?.ToString() : "0";
+            RecordMax = user.RecordMaxDaysMeditation.HasValue ? user.RecordMaxDaysMeditation?.ToString() : "0";
 
-			RecordMax = user.RecordMaxDaysMeditation.HasValue ? user.RecordMaxDaysMeditation?.ToString() : "0";
-
-			IsLoading = false;
-		}
+            IsLoading = false;
+        }
 
 	}
 }

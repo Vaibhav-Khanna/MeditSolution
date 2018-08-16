@@ -56,7 +56,6 @@ namespace MeditSolution.iOS
 
 			UITabBar.Appearance.TintColor = ((Xamarin.Forms.Color)Xamarin.Forms.Application.Current.Resources["primaryDark"]).ToUIColor();
             UITabBar.Appearance.SelectedImageTintColor = ((Xamarin.Forms.Color)Xamarin.Forms.Application.Current.Resources["primaryDark"]).ToUIColor();
-
 			UISwitch.Appearance.OnTintColor = ((Xamarin.Forms.Color)Xamarin.Forms.Application.Current.Resources["primary"]).ToUIColor();
 
 			//UINavigationBar.Appearance.TintColor = ((Xamarin.Forms.Color)Xamarin.Forms.Application.Current.Resources["primaryDark"]).ToUIColor(); //Tint color of button items

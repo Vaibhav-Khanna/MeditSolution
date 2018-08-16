@@ -74,46 +74,60 @@ namespace MeditSolution.DataStore.Implementation
             Settings.Token = string.Empty;
             Settings.User = string.Empty;
             Settings.IsLoggedIn = false;
-            Settings.Language = "";
-            Settings.Voice = "";
+            var language = Settings.Language;
+            var voice = Settings.Voice;
             await BlobCache.UserAccount.InvalidateAll();
             await Plugin.Notifications.CrossNotifications.Current.CancelAll();
+
             Plugin.Settings.CrossSettings.Current.Clear();
-            await PCLStore.DeleteEverything();
+
+            Settings.Language = language;
+            Settings.Voice = voice;
+
+            // Do not remove downloads on log out. As per client request.
+            //await PCLStore.DeleteEverything();
         }
 
         public async Task<bool> RegenerateToken()
         {
-            string Auth = string.Concat("token=", Settings.Token);
-
-            var uri = new Uri(string.Format(Constants.RestUrl + "regenerate" + "?" + Auth));
-
-            var client = new HttpClient();
-
-            var response = await client.GetAsync(uri);
-
-            var content = await response.Content.ReadAsStringAsync();
-
-            if (response.IsSuccessStatusCode)
+            try
             {
-                var resp = JsonConvert.DeserializeObject<TokenResponse>(content);
-                // Store token in settings
-                Settings.Token = resp.token;
-                Settings.TokenExpiration = resp.tokenExpiration;
-                //
-                return true;
+                string Auth = string.Concat("token=", Settings.Token);
+
+                var uri = new Uri(string.Format(Constants.RestUrl + "regenerate" + "?" + Auth));
+
+                var client = new HttpClient();
+
+                var response = await client.GetAsync(uri);
+
+                var content = await response.Content.ReadAsStringAsync();
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var resp = JsonConvert.DeserializeObject<TokenResponse>(content);
+                    // Store token in settings
+                    Settings.Token = resp.token;
+                    Settings.TokenExpiration = resp.tokenExpiration;
+                    //
+                    return true;
+                }
+            }
+            catch(Exception)
+            {
+                
             }
 
             return false;
         }
 
-        public async Task<object> RegisterAsync(string email, string password)
+        public async Task<object> RegisterAsync(string email, string password,string deviceLanguage)
         {
             var uri = new Uri(string.Format(Constants.RestUrl + "register", string.Empty));
 
             var credentials = new JObject();
             credentials["email"] = email;
             credentials["password"] = password;
+            credentials["language"] = deviceLanguage;
 
             var content = new StringContent(credentials.ToString(), Encoding.UTF8, "application/json");
 

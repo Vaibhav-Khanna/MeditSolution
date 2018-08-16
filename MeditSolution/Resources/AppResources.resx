@@ -58,280 +58,281 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
+
+
     <!-- Text inside pages -->
     <data name="signup" xml:space="preserve">
-        <value>Register</value>
+        <value>Sign up</value>
     </data>
     <data name="login" xml:space="preserve">
         <value>Login</value>
     </data>
     <data name="forgot" xml:space="preserve">
-        <value>Mot de passe oublié</value>
+        <value>Forgot your password?</value>
     </data>
     <data name="forgotButton" xml:space="preserve">
-        <value>Renvoyer le mot de passe</value>
+        <value>Send</value>
     </data>
     <data name="sendnewpassword" xml:space="preserve">
-        <value>Un nouveau mot de passe vient de vous être envoyé.</value>
+        <value>A new password has just been sent</value>
     </data>
     <data name="wrongsendnewpassword" xml:space="preserve">
-        <value>L'envoi du mot de passe a échoué. Merci de recommencer.</value>
+        <value>We didn't manage to send you a new password. Please try again</value>
     </data>
     <data name="ok" xml:space="preserve">
         <value>Ok</value>
     </data>
     <data name="tutorial0" xml:space="preserve">
-        <value>Are you already registered ?</value>
+        <value>Already registered ?</value>
     </data>
     <data name="tutorial1" xml:space="preserve">
-        <value>2 langues, 4 voix, + de 150 méditations dans le pur respect de la Pleine Conscience. Un parcours pédagogique pour vous emmener progressivement vers l'autonomie dans votre pratique</value>
+        <value>2 languages, 4 voices, 150+ meditations that totally respect the principles of Mindfulness. Specially designed to progressively lead you  to full autonomy in your practice</value>
     </data>
     <data name="tutorial2" xml:space="preserve">
-        <value>La cohérence cardiaque pour entraîner votre organisme à mieux faire face aux situations de stress, de douleurs et d'émotions négatives</value>
+        <value>Cardiac coherence to train your organism to better cope with stressful situations, pain and negative emotions</value>
     </data>
     <data name="tutorial3" xml:space="preserve">
-        <value>Une section pour les enfants, petits et grands, pour les emmener vers l'autorégulation de leurs émotions</value>
+        <value>A section for children, big and small, to help them self-regulate their emotions</value>
     </data>
     <data name="tutorial4" xml:space="preserve">
-        <value>Un assistant personnel qui vous guide sur votre chemin et un avatar qui évolue avec vous; il est le reflet de votre propre évolution​</value>
+        <value>A personal assistant to guide you through the app and an avatar that evolves as you do. He reflects your own evolution​</value>
     </data>
     <data name="forgotpassword" xml:space="preserve">
-        <value>Mot de passe oublié</value>
+        <value>Forgot your password?</value>
     </data>
     <data name="enteremail" xml:space="preserve">
-        <value>Entrez votre email</value>
+        <value>Email</value>
     </data>
     <data name="enterpassword" xml:space="preserve">
-        <value>Entrez votre mot de passe</value>
+        <value>Password</value>
     </data>
     <data name="connectfb" xml:space="preserve">
-        <value>Se connecter avec Facebook</value>
+        <value>Connect with Facebook</value>
     </data>
     <data name="confirmpassword" xml:space="preserve">
-        <value>Confirmer votre mot de passe</value>
+        <value>Confirm your password</value>
     </data>
     <data name="completeregister" xml:space="preserve">
-        <value>Créer un compte</value>
+        <value>No account yet? Sign up for free</value>
     </data>
     <data name="register" xml:space="preserve">
-        <value>S’incrire</value>
+        <value>Sign up</value>
     </data>
     <data name="or" xml:space="preserve">
         <value>Or</value>
     </data>
     <data name="skip" xml:space="preserve">
-        <value>Passer</value>
+        <value>Skip</value>
     </data>
     <data name="yes" xml:space="preserve">
-        <value>Oui</value>
+        <value>Yes</value>
     </data>
     <data name="no" xml:space="preserve">
-        <value>Non</value>
+        <value>No</value>
     </data>
     <data name="letsgo" xml:space="preserve">
-        <value>C’est parti !</value>
+        <value>Lets go!</value>
     </data>
     <data name="nothanks" xml:space="preserve">
-        <value>Non merci</value>
+        <value>No thanks</value>
     </data>
     <data name="Initiate" xml:space="preserve">
         <value>Initiation</value>
     </data>
     <data name="subscribedprograms" xml:space="preserve">
-        <value>Approfondissement</value>
+        <value>Towards proficiency</value>
     </data>
     <data name="otherprograms" xml:space="preserve">
-        <value>Autres</value>
+        <value>Other</value>
     </data>
     <data name="tab1" xml:space="preserve">
-        <value>Méditation</value>
+        <value>Meditation</value>
     </data>
     <data name="tab2" xml:space="preserve">
-        <value>Catalogue</value>
+        <value>Catalog</value>
     </data>
     <data name="tab3" xml:space="preserve">
-        <value>Mes stats</value>
+        <value>My stats</value>
     </data>
     <data name="tab4" xml:space="preserve">
-        <value>Plus</value>
+        <value>More</value>
     </data>
     <data name="program" xml:space="preserve">
-        <value>Programmes</value>
+        <value>Program</value>
     </data>
     <data name="seances" xml:space="preserve">
-        <value>séances</value>
+        <value>sessions</value>
     </data>
     <data name="takebreak" xml:space="preserve">
-        <value>Faire une pause</value>
+        <value>Pausing</value>
     </data>
     <data name="yoursetting" xml:space="preserve">
-        <value>Votre Préférence</value>
+        <value>Your settings</value>
     </data>
     <data name="chooselanguage" xml:space="preserve">
-        <value>En quelle langue souhaitez-vous méditer ?</value>
+        <value>Which language would you like to meditate in?</value>
     </data>
     <data name="choosevoice" xml:space="preserve">
-        <value>Quelle genre de voix préférez vous pour cette méditation ?</value>
+        <value>Which voice gender would you prefer for this meditation? ?</value>
     </data>
     <data name="start" xml:space="preserve">
-        <value>Démarrer</value>
+        <value>Start</value>
     </data>
     <data name="doyouknow" xml:space="preserve">
-        <value>Le saviez-vous ?</value>
+        <value>Did you know?</value>
     </data>
     <data name="doyouknowdetail" xml:space="preserve">
-        <value>Vous pouvez changer ces paramètres à tout moments dans les paramètres de méditation</value>
+        <value>You can change these parameters at any time in "settings"</value>
     </data>
     <data name="nomeditation" xml:space="preserve">
-        <value>Vous n’avez aucune méditation en cours</value>
+        <value>You have no ongoing meditation</value>
     </data>
     <data name="startinitiate" xml:space="preserve">
-        <value>Démarrer l’initiation</value>
+        <value>Begin the initiation</value>
     </data>
     <data name="evolution" xml:space="preserve">
-        <value>Évolution</value>
+        <value>Evolution</value>
     </data>
     <data name="tonextlevel" xml:space="preserve">
-        <value>10h ou 20 jours avant la prochaine évolution</value>
+        <value>10h or 20 days until your next evolution</value>
     </data>
     <data name="hourmeditated" xml:space="preserve">
-        <value>Heures méditées</value>
+        <value>Hours meditated</value>
     </data>
     <data name="continousactivity" xml:space="preserve">
-        <value>JOURS D’ACTIVITES CONSECUTIFS</value>
+        <value>Number of consecutive days</value>
     </data>
     <data name="atmoment" xml:space="preserve">
-        <value>En ce moment</value>
+        <value>Current</value>
     </data>
     <data name="maximum" xml:space="preserve">
-        <value>Meilleure série</value>
+        <value>Best series</value>
     </data>
     <data name="bravo" xml:space="preserve">
-        <value>Bravo !</value>
+        <value>Congratulations!</value>
     </data>
     <data name="bravodetail" xml:space="preserve">
-        <value>Vous montez en grade</value>
+        <value>Your avatar is going to evolve</value>
     </data>
     <data name="bravodetail2" xml:space="preserve">
-        <value>Vous avez médité 10 jours consécutifs</value>
+        <value>You have meditated 10 days consequtively</value>
     </data>
     <data name="bravodetail3" xml:space="preserve">
-        <value>Vous êtes désormais </value>
+        <value>You are now</value>
     </data>
     <data name="medover" xml:space="preserve">
-        <value>Étape terminée !</value>
+        <value>Level completed!</value>
     </data>
     <data name="medoverdetail" xml:space="preserve">
-        <value>Étape suivante</value>
+        <value>Next level</value>
     </data>
     <data name="explorecatalogue" xml:space="preserve">
-        <value>Explorer le catalogue</value>
+        <value>Explore the catalogue</value>
     </data>
     <data name="congrats" xml:space="preserve">
-        <value>Féllicitation !</value>
+        <value>Congratulations!</value>
     </data>
     <data name="congratsdetail" xml:space="preserve">
-        <value>Vous avez terminé votre séance</value>
+        <value>You have finished your session</value>
     </data>
     <data name="congratsdetail2" xml:space="preserve">
-        <value>Méditation suivante</value>
+        <value>Next meditation</value>
     </data>
     <data name="nextseance" xml:space="preserve">
-        <value>Séance suivante</value>
+        <value>Next session</value>
     </data>
     <data name="backtocatalogue" xml:space="preserve">
-        <value>Retour au catalogue</value>
+        <value>Return to catalog</value>
     </data>
     <data name="reminders" xml:space="preserve">
-        <value>Rappels</value>
+        <value>Reminders</value>
     </data>
     <data name="add" xml:space="preserve">
-        <value>Ajouter</value>
+        <value>Add</value>
     </data>
     <data name="coherentbreathing" xml:space="preserve">
-        <value>Cohérence cardiaque</value>
+        <value>Cardiac coherence</value>
     </data>
     <data name="nocycles" xml:space="preserve">
-        <value>Durée des cycles en secondes</value>
+        <value>Length of cycles in seconds</value>
     </data>
     <data name="noduration" xml:space="preserve">
-        <value>Durée de la séance</value>
+        <value>Session time</value>
     </data>
     <data name="silentmeditation" xml:space="preserve">
-        <value>Méditation silencieuse</value>
+        <value>Silent meditation</value>
     </data>
     <data name="chooseduration" xml:space="preserve">
-        <value>Choisissez votre temps de méditation</value>
+        <value>Choose your meditation time</value>
     </data>
     <data name="settings" xml:space="preserve">
-        <value>Paramètres</value>
+        <value>Settings</value>
     </data>
     <data name="subscription" xml:space="preserve">
-        <value>L’abonnement</value>
+        <value>Subscription</value>
     </data>
     <data name="monthly" xml:space="preserve">
-        <value>Mensuel</value>
+        <value>Monthly</value>
     </data>
     <data name="annualy" xml:space="preserve">
-        <value>Annuel</value>
+        <value>Annual</value>
     </data>
     <data name="termscondition" xml:space="preserve">
-        <value>Conditions de vente</value>
+        <value>Terms of sale</value>
     </data>
     <data name="month" xml:space="preserve">
-        <value>Mois</value>
+        <value>Month</value>
     </data>
-     
     <data name="year" xml:space="preserve">
-        <value>An</value>
+        <value>Year</value>
     </data>
     <data name="isubscribe" xml:space="preserve">
-        <value>Je m’abonne</value>
+        <value>Subscribe</value>
     </data>
     <data name="restorepurchase" xml:space="preserve">
-        <value>Restaurer l’achat</value>
+        <value>Restore purchase</value>
     </data>
     <data name="mysubscription" xml:space="preserve">
-        <value>Mon abonnement en cours</value>
+        <value>My current subscription</value>
     </data>
     <data name="subscriptionstarted" xml:space="preserve">
-        <value>Vous êtes abonné depuis le</value>
+        <value>You subscribed</value>
     </data>
     <data name="seeterms" xml:space="preserve">
-        <value>Consultez les conditions de vente</value>
+        <value>Consultez the general terms of sale</value>
     </data>
     <data name="unsubscribe" xml:space="preserve">
-        <value>Se désabonner</value>
+        <value>Unsubscribe</value>
     </data>
     <data name="youremail" xml:space="preserve">
-        <value>Votre email</value>
+        <value>Email</value>
     </data>
     <data name="newpassword" xml:space="preserve">
-        <value>Nouveau mot de passe</value>
+        <value>New password</value>
     </data>
     <data name="myaccount" xml:space="preserve">
-        <value>Mon compte</value>
+        <value>My account</value>
     </data>
     <data name="edit" xml:space="preserve">
-        <value>Modifier</value>
+        <value>Edit</value>
     </data>
     <data name="mediter" xml:space="preserve">
-        <value>Méditer</value>
+        <value>Other</value>
     </data>
     <data name="menureminder" xml:space="preserve">
-        <value>Rappels quotidiens</value>
+        <value>Daily reminders</value>
     </data>
     <data name="cgu" xml:space="preserve">
-        <value>C.G.U</value>
+        <value>GTU</value>
     </data>
     <data name="disconnect" xml:space="preserve">
-        <value>Déconnexion</value>
+        <value>Disconnect</value>
     </data>
     <data name="videos" xml:space="preserve">
-        <value>Vidéos</value>
+        <value>Videos</value>
     </data>
     <data name="save" xml:space="preserve">
-        <value>Enregistrer</value>
+        <value>Save</value>
     </data>
     <!-- Text inside code files -->
     <!-- ENGLISH TO FRENCH CONVERT -->
@@ -342,16 +343,16 @@
         <value>Error while creating the account</value>
     </data>
     <data name="incorrectcombo" xml:space="preserve">
-        <value>Incorrect email or password. Try again.</value>
+        <value>Incorrect email or password. Please try again.</value>
     </data>
     <data name="requestfailed" xml:space="preserve">
         <value>Request failed</value>
     </data>
     <data name="programmes" xml:space="preserve">
-        <value>programmes</value>
+        <value>programs</value>
     </data>
     <data name="buyterms" xml:space="preserve">
-        <value>https://www.google.com -the-world trip remains the world’s greatest journey. For two out of every three people, this is the ultimate travel experience, according to recent research. Needless to say, in a world obsessed by travel, travelers and travel agents are both looking for the cheapest tickets and airfares available.
+        <value>A round-the-world trip remains the world’s greatest journey. For two out of every three people, this is the ultimate travel experience, according to recent research. Needless to say, in a world obsessed by travel, travelers and travel agents are both looking for the cheapest tickets and airfares available.
 
 Cheap airline tickets, in most cases, can be obtained from wholesale dealers and discounters.
 
@@ -399,29 +400,29 @@ However, although you can expect to get the cheapest air ticket if you start sea
     <data name="SubscriptionRequired" xml:space="preserve">
          <value>Subscription Required</value>
      </data>
-    
+
      <data name="SubscribeMessage" xml:space="preserve">
          <value>Subscribe now to gain access to all our meditations.</value>
      </data>
-    
+
     <data name="SubscribeNow" xml:space="preserve">
          <value>Subscribe</value>
      </data>
-    
+
     <data name="NotNow" xml:space="preserve">
-         <value>Not now</value>
+         <value>Later</value>
      </data>
-    
+
     <data name="ErrorMessageSubscription" xml:space="preserve">
          <value>An error occurred while carrying out the operation. Please try again in a while.</value>
     </data>
 
     <data name="UnsubscribeWarning" xml:space="preserve">
-    <value>To unsubscribe this subscription, you have to go to settings for the device and cancel the subscription explicitly.</value>
+    <value>To unsubscribe, you have to go to settings for the device and cancel the subscription explicitly.</value>
   </data>
-
+     
    <data name="MeditationChat1" xml:space="preserve">
-    <value>Hi, Is anything playing on your mind at the moment? Do you need some help?</value>
+    <value>Is anything playing on your mind at the moment? Do you need some help?</value>
   </data>
     <data name="MeditationChat2" xml:space="preserve">
     <value>And do you know the benefits of meditating?</value>
@@ -454,48 +455,59 @@ However, although you can expect to get the cheapest air ticket if you start sea
     <value>Thank you for purchasing this program</value>
   </data>
 
-    <data name="Delete" xml:space="preserve">
-    <value>Delete</value>
-  </data>
+  <data name="Delete" xml:space="preserve">
+     <value>Delete</value>
+ </data>
 
-  <data name="NotificationHeader" xml:space="preserve">
-    <value>Medit’Solutions</value>
-  </data>
-    <data name="NotificationContent" xml:space="preserve">
-    <value>Hey! Its time for the Meditation. Get ready</value>
-  </data>
+ <data name="NotificationHeader" xml:space="preserve">
+ <value>Medit’Solutions</value>
+</data>
 
-    <data name="downloading" xml:space="preserve">
-        <value>Downloading... Please do not exit the app</value>
+ <data name="NotificationContent" xml:space="preserve">
+ <value>Time to meditate, get ready</value>
+</data>
+
+<data name="downloading" xml:space="preserve">
+     <value>Downloading... Please wait</value>
+ </data>
+
+ <data name="downloadFailed" xml:space="preserve">
+     <value>The file cannot get dowloaded. Please try again later</value>
+ </data>
+
+ <data name="ActiveIntNeeded" xml:space="preserve">
+     <value>Active internet connexion is needed. Please try again later</value>
+ </data>
+
+ <data name="seance" xml:space="preserve">
+     <value>Session</value>
+ </data>
+
+  <data name="minute" xml:space="preserve">
+     <value>Minutes</value>
+ </data>
+
+  <data name="seconds" xml:space="preserve">
+     <value>Seconds</value>
+ </data>
+
+ <data name="pickduration" xml:space="preserve">
+     <value>Pick a duration</value>
+ </data>
+     <data name="logout" xml:space="preserve">
+        <value>Log out</value>
     </data>
 
-     <data name="downloadFailed" xml:space="preserve">
-        <value>The file could not be downloaded. Please try again.</value>
+     <data name="logoutmessage" xml:space="preserve">
+        <value>Do you wish to continue?</value>
     </data>
 
-    <data name="error" xml:space="preserve">
-        <value>Error</value>
-    </data>
-
-    <data name="ActiveIntNeeded" xml:space="preserve">
-        <value>An active internet connection is needed. Please try again.</value>
-    </data> 
-
-    <data name="seance" xml:space="preserve">
-        <value>séance</value>
-    </data>
-
-     <data name="minute" xml:space="preserve">
-        <value>Minute</value>
-    </data>
-
-     <data name="seconds" xml:space="preserve">
-        <value>Seconds</value>
+    <data name="backbutton" xml:space="preserve">
+        <value>Press again to exit</value>
     </data>
     
-    <data name="pickduration" xml:space="preserve">
-        <value>Pick Duration</value>
+    <data name="MeditationChat0" xml:space="preserve">
+        <value>Hello and welcome to Medit'Solutions. I will be your assistant throughout your meditations.</value>
     </data>
-
     
 </root>

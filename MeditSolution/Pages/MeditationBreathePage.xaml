@@ -21,11 +21,11 @@
 
                 <ScrollView HorizontalOptions="FillAndExpand" Margin="0,16,0,0" Padding="0" Orientation="Horizontal">
                 <StackLayout  HorizontalOptions="CenterAndExpand" Spacing="20" Orientation="Horizontal">
-                    <Button x:Name="bt1" Text="6" Clicked="Handle_Clicked" FontFamily="SFUIText-Regular" FontSize="16" TextColor="{StaticResource white}" HeightRequest="48" WidthRequest="48" BorderRadius="24" BorderWidth="1" BorderColor="{StaticResource primary}" BackgroundColor="{StaticResource primary}" />
-                    <Button x:Name="bt2" Text="8" Clicked="Handle_Clicked" FontFamily="SFUIText-Regular" FontSize="16" TextColor="#9b9b9b" HeightRequest="48" WidthRequest="48" BorderRadius="24" BorderWidth="1" BorderColor="#9b9b9b" BackgroundColor="White" />
-                    <Button x:Name="bt3" Text="10" Clicked="Handle_Clicked" FontFamily="SFUIText-Regular" FontSize="16" TextColor="#9b9b9b" HeightRequest="48" WidthRequest="48" BorderRadius="24" BorderWidth="1" BorderColor="#9b9b9b" BackgroundColor="White" />
-                    <Button x:Name="bt4" Text="12" Clicked="Handle_Clicked" FontFamily="SFUIText-Regular" FontSize="16" TextColor="#9b9b9b" HeightRequest="48" WidthRequest="48" BorderRadius="24" BorderWidth="1" BorderColor="#9b9b9b" BackgroundColor="White" />
-                    <Button x:Name="bt5" Text="14" Clicked="Handle_Clicked" FontFamily="SFUIText-Regular" FontSize="16" TextColor="#9b9b9b" HeightRequest="48" WidthRequest="48" BorderRadius="24" BorderWidth="1" BorderColor="#9b9b9b" BackgroundColor="White" />
+                    <Button x:Name="bt1" Text="6" Clicked="Handle_Clicked" FontFamily="SFUIText-Regular" VerticalOptions="Center" FontSize="16" TextColor="{StaticResource white}" HeightRequest="48" WidthRequest="48" BorderRadius="24" BorderWidth="1" BorderColor="{StaticResource primary}" BackgroundColor="{StaticResource primary}" />
+                    <Button x:Name="bt2" Text="8" Clicked="Handle_Clicked" FontFamily="SFUIText-Regular" VerticalOptions="Center" FontSize="16" TextColor="#9b9b9b" HeightRequest="48" WidthRequest="48" BorderRadius="24" BorderWidth="1" BorderColor="#9b9b9b" BackgroundColor="White" />
+                    <Button x:Name="bt3" Text="10" Clicked="Handle_Clicked" FontFamily="SFUIText-Regular" VerticalOptions="Center" FontSize="20" TextColor="#9b9b9b" HeightRequest="60" WidthRequest="60" FontAttributes="Bold" BorderRadius="30" BorderWidth="2" BorderColor="#9b9b9b" BackgroundColor="White" />
+                    <Button x:Name="bt4" Text="12" Clicked="Handle_Clicked" FontFamily="SFUIText-Regular" VerticalOptions="Center" FontSize="16" TextColor="#9b9b9b" HeightRequest="48" WidthRequest="48" BorderRadius="24" BorderWidth="1" BorderColor="#9b9b9b" BackgroundColor="White" />
+                    <Button x:Name="bt5" Text="14" Clicked="Handle_Clicked" FontFamily="SFUIText-Regular" VerticalOptions="Center" FontSize="16" TextColor="#9b9b9b" HeightRequest="48" WidthRequest="48" BorderRadius="24" BorderWidth="1" BorderColor="#9b9b9b" BackgroundColor="White" />
                 </StackLayout>
                 </ScrollView>
                 
@@ -44,10 +44,10 @@
 
              <Button x:Name="s" Text="{resources:Translate start}" Grid.Row="1" VerticalOptions="Start" Command="{Binding StartCommand}" FontAttributes="Bold" FontSize="18" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Bold" TextColor="{StaticResource white}" BorderColor="{StaticResource primary}" BackgroundColor="{StaticResource primary}" BorderWidth="1" >
                 <Button.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double" Android="60" iOS="50" />
+                    <OnPlatform x:TypeArguments="x:Double" Android="50" iOS="50" />
                 </Button.HeightRequest>
                 <Button.BorderRadius>
-                    <OnPlatform x:TypeArguments="x:Int32" Android="30" iOS="25" />
+                    <OnPlatform x:TypeArguments="x:Int32" Android="25" iOS="25" />
                 </Button.BorderRadius>
             </Button>
             

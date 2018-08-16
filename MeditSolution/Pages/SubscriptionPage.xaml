@@ -70,17 +70,28 @@
                 </StackLayout>
 
                 <ScrollView Orientation="Vertical" Grid.Row="1">
-                    
-                    <Label x:Name="lb_terms" Text="{resources:Translate buyterms}" FontFamily="SFUIText-Regular" TextColor="#656565" FontSize="14" LineBreakMode="WordWrap" />
-                  
+
+                    <StackLayout Orientation="Vertical">
+
+                            <Label x:Name="lb_privacy" FontFamily="SFUIText-Regular" TextColor="#656565" FontSize="14" LineBreakMode="WordWrap" />
+
+                            <controls:HyperLinkLabel x:Name="lb_link1" FontFamily="SFUIText-Regular" TextColor="Blue" FontSize="14" LineBreakMode="WordWrap" />
+
+                            <Label x:Name="lb_termslink" FontFamily="SFUIText-Regular" TextColor="#656565" FontSize="14" LineBreakMode="WordWrap" />
+                            
+                            <controls:HyperLinkLabel x:Name="lb_link2" FontFamily="SFUIText-Regular" TextColor="Blue" FontSize="14" LineBreakMode="WordWrap" />
+
+                            <Label x:Name="lb_terms" FontFamily="SFUIText-Regular" TextColor="#656565" FontSize="14" LineBreakMode="WordWrap" />
+
+                        </StackLayout>
                 </ScrollView>
 
                 <Button x:Name="btSub" Grid.Row="2" VerticalOptions="Start" Text="{Binding SubscribeButtonText}" Command="{Binding SubscribeCommand}" FontAttributes="Bold" FontSize="18" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Bold" TextColor="{StaticResource white}" BorderColor="#d9d9d9" BackgroundColor="#d9d9d9" BorderWidth="1">
                     <Button.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double" Android="60" iOS="50" />
+                    <OnPlatform x:TypeArguments="x:Double" Android="50" iOS="50" />
                 </Button.HeightRequest>
                 <Button.BorderRadius>
-                    <OnPlatform x:TypeArguments="x:Int32" Android="30" iOS="25" />
+                    <OnPlatform x:TypeArguments="x:Int32" Android="25" iOS="25" />
                 </Button.BorderRadius>
                 </Button>
 
@@ -120,10 +131,10 @@
 
                 <Button x:Name="btUnSub" Grid.Row="1" VerticalOptions="Start" Text="{resources:Translate unsubscribe}" Command="{Binding UnSubscribeCommand}" FontAttributes="Bold" FontSize="18" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Bold" TextColor="{StaticResource white}" BorderColor="#9b9b9b" BackgroundColor="#9b9b9b" BorderWidth="1">
                     <Button.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double" Android="60" iOS="50" />
+                    <OnPlatform x:TypeArguments="x:Double" Android="50" iOS="50" />
                 </Button.HeightRequest>
                 <Button.BorderRadius>
-                    <OnPlatform x:TypeArguments="x:Int32" Android="30" iOS="25" />
+                    <OnPlatform x:TypeArguments="x:Int32" Android="25" iOS="25" />
                 </Button.BorderRadius>
                 </Button>
                 

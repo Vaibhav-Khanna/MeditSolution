@@ -69,6 +69,15 @@ namespace MeditSolution.DataStore.Implementation.Stores
                         Settings.TimeSecondsOffline = 0;
                 }
 
+                // check the premium status change
+                var item = await GetItemAsync("me");
+
+                if (item != null)
+                {
+                    user.IsExplicitPremium = item.IsExplicitPremium;
+                }
+                //
+
                 var _user = await UpdateAsync(user);
 
                 if (_user != null)

@@ -5,13 +5,11 @@
 	<key>CFBundleDisplayName</key>
 	<string>MeditSolution</string>
 	<key>CFBundleName</key>
-	<string>MeditSolution</string>
+	<string>Medit&apos;Solutions</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.meditsolutions.mob</string>
+	<string>com.meditsolutions.mobile</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
-	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>20180807.2</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MinimumOSVersion</key>
@@ -19,6 +17,7 @@
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>1</integer>
+		<integer>2</integer>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
@@ -67,6 +66,7 @@
 	<string>en</string>
 	<key>CFBundleLocalizations</key>
 	<array>
+		<string>en</string>
 		<string>fr</string>
 	</array>
 	<key>UIBackgroundModes</key>
@@ -74,5 +74,7 @@
 		<string>audio</string>
 		<string>remote-notification</string>
 	</array>
+	<key>CFBundleVersion</key>
+	<string>23</string>
 </dict>
 </plist>

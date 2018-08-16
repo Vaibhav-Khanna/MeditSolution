@@ -7,7 +7,6 @@ namespace MeditSolution
 
 
 #if UAT
-
         public static string RestUrl = "http://apiuat.matsiya.net/medit_solution/v1/";
 
 		public static string FileUrl = "http://apiuat.matsiya.net/medit_solution/";
@@ -18,9 +17,7 @@ namespace MeditSolution
 
 		public static string OneSignalID = "78268c76-54e1-443a-9e92-527ff34a32fb";
 
-#else
-
-             
+#else                    
 		public static string RestUrl = "https://api.medit-solutions.com/v1/";
 
 		public static string FileUrl = "https://api.medit-solutions.com/";

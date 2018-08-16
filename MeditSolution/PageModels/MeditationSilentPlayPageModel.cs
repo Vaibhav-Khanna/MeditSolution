@@ -5,6 +5,7 @@ using MeditSolution.Models;
 using MeditSolution.Helpers;
 using System.Linq;
 using MeditSolution.Models.DataObjects;
+using MeditSolution.Service;
 
 namespace MeditSolution.PageModels
 {
@@ -20,24 +21,29 @@ namespace MeditSolution.PageModels
 
         private double step;
 
-		SeancesModel SeancesModel;
+        SeancesModel SeancesModel;
 
 		int TotalTimeMedited;
 
-		public string Tint { get; set; } = "#91f0db";
+        public Color Tint { get; set; } = Color.FromHex("91f0db");
 
-		public string TintDark { get; set; } = "#45d1b2";
+        public Color TintDark { get; set; } = Color.FromHex("45d1b2");
 
+      
         public override void Init(object initData)
         {
             base.Init(initData);
 
 			int durationInSeconds = 0;
 
+           
 			if (initData is SeancesModel)
 			{
 				SeancesModel = ((SeancesModel)initData);
 				durationInSeconds = (int)SeancesModel.Meditation.Length;
+
+                Tint = Color.FromHex(SeancesModel.Tint.Substring(1));
+                TintDark = ((Tint).AddLuminosity(-0.2));
 			}
 			else
 			{
@@ -54,14 +60,19 @@ namespace MeditSolution.PageModels
             _timer.Start();
         }
 
+       
         private void CountDown()
         {
             if (TotalSeconds.TotalSeconds == 0)
             {
 				TimerText = "00:00:00";
+
                 TotalSeconds = new TimeSpan(0, 0, 0, 0);
+
                 _timer.Stop();
-				EndMeditation();
+				
+
+                EndMeditation();
             }
             else
             {
@@ -75,16 +86,14 @@ namespace MeditSolution.PageModels
 
         public Command PlayPauseCommand => new Command(() =>
         {
-
-            if (IsPlaying) { _timer.Stop(); }
+            if (IsPlaying) { _timer.Stop();  }
             else { _timer.Start(); }
             IsPlaying = !IsPlaying;
-
-
         });
 
         public Command CloseCommand => new Command(async () =>
         {
+            
             await CoreMethods.PopPageModel(true);
         });
 
@@ -97,6 +106,8 @@ namespace MeditSolution.PageModels
 
 		async void EndMeditation()
 		{
+            DependencyService.Get<IPlayNotificationSound>()?.PlaySound();
+
 			Dialog.ShowLoading();
                     
 			var isAdded = await StoreManager.MeditationStore.AddMeditationTimeAsync(TotalTimeMedited);
@@ -123,9 +134,9 @@ namespace MeditSolution.PageModels
 			}
 
 			Dialog.HideLoading();
-
-			if (SeancesModel != null)
-			{
+			
+            if (SeancesModel != null)
+			{                
 				await CoreMethods.PopPageModel(true);
 				await CoreMethods.PushPageModel<MeditationEndPageModel>(true, modal: true);
 			}

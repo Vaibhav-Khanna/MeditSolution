@@ -20,13 +20,15 @@ namespace MeditSolution.PageModels
                 if (value != null)
                 {
                     time = value;
+
                     Time = $"{(time as ObservableCollection<object>).First()}:{(time as ObservableCollection<object>).Last()}";
+
+
                 }
             }
         }
 
         public string Time { get; set; } = "1:00";
-
 
         public Command StartCommand => new Command(async () =>
         {
@@ -43,5 +45,6 @@ namespace MeditSolution.PageModels
                 Debug.WriteLine("Erreur", e);
             }
         });
+
     }
 }

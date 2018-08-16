@@ -13,7 +13,7 @@ namespace MeditSolution.Pages
         {
             Xamarin.Forms.NavigationPage.SetHasNavigationBar(this, false);
 
-            InitializeComponent();
+            InitializeComponent();                  
 
             On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);
         }
@@ -22,7 +22,6 @@ namespace MeditSolution.Pages
 		{
 			list.SelectedItem = null;
 		}
-
-      
+          
     }
 }

@@ -7,6 +7,7 @@ using MeditSolution.Helpers;
 using MeditSolution.Resources;
 using System.Linq;
 using Com.OneSignal;
+using System.Threading.Tasks;
 
 namespace MeditSolution.PageModels
 {
@@ -21,12 +22,24 @@ namespace MeditSolution.PageModels
         public string MeditationIcon { get; set; } = "";
         public string Tint { get; set; } = "#50e3c2";
 		public string Grey { get; set; } = "#9b9b9b";
+        public bool IsAndroid { get; set; }
+        public bool IsRefreshing { get; set; }
 
         public MeditationTabPageModel()
         {
             Com.OneSignal.Abstractions.IdsAvailableCallback callback = new Com.OneSignal.Abstractions.IdsAvailableCallback(HandleIdsAvailableCallback);
 
-            OneSignal.Current.IdsAvailable(callback);   
+            OneSignal.Current.IdsAvailable(callback);
+
+            IsAndroid = Device.RuntimePlatform == Device.Android;
+
+            MessagingCenter.Unsubscribe<MeditationEndPageModel>(this, "NextMeditation");
+            MessagingCenter.Subscribe<MeditationEndPageModel>(this, "NextMeditation", RefreshNextMeditation);
+        }
+
+        async void RefreshNextMeditation(MeditationEndPageModel obj)
+        {
+            await GetMeditation();
         }
 
 		async void OpenReminders()
@@ -62,6 +75,11 @@ namespace MeditSolution.PageModels
 
             OneSignal.Current.RegisterForPushNotifications();
 
+            if (Device.RuntimePlatform == Device.Android)
+            {
+                DefaultNavigationBackgroundColor();
+            }
+
             GetMeditation();
 
 			if (App.OpenReminders)
@@ -71,7 +89,7 @@ namespace MeditSolution.PageModels
             }
         }
          
-        async void GetMeditation()
+        public async Task GetMeditation()
         {
             //IsLoading = Seances.Any() ? false : true;
 
@@ -79,6 +97,13 @@ namespace MeditSolution.PageModels
                 return;
 
             IsLoading = true;
+
+            user = await StoreManager.UserStore.GetCurrentUser();
+
+            if (Device.RuntimePlatform == Device.Android)
+            {
+                DefaultNavigationBackgroundColor();
+            }
 
             if (user == null)
             {
@@ -160,6 +185,12 @@ namespace MeditSolution.PageModels
 		public Command StartCommand => new Command(async() =>
 		{
 			await CoreMethods.SwitchSelectedTab<CatalogueTabPageModel>();
+        });
+
+        public Command RefreshCommand => new Command(async() =>
+        {
+            await GetMeditation();
+            IsRefreshing = false;
         });
 
         public int GetSeanceCount(Meditation meditation)

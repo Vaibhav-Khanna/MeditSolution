@@ -30,6 +30,10 @@ namespace MeditSolution.Pages
 				{
 					(BindingContext as VideoPlayPageModel).CloseCommand.Execute(null);
 				}
+                else if(videoView.VideoState == VideoStateType.Playing)
+                {
+                    
+                }
 			}
 		}
 

@@ -90,31 +90,39 @@ namespace MeditSolution.Models
 
         public Command DownloadCommand => new Command(async() =>
         {
-            if ( !IsDownloaded && Level < 4 && !string.IsNullOrEmpty(Settings.Language) && !string.IsNullOrEmpty(Settings.Voice))
+            if ( !IsDownloaded && Level < 4 )
             {
-                if (await CrossConnectivity.Current.IsRemoteReachable("https://www.google.com"))
+                if (string.IsNullOrEmpty(Settings.Language) || string.IsNullOrEmpty(Settings.Voice))
                 {
-                    Dialog.ShowLoading(AppResources.downloading);
-
-                    var file = Model.GetMeditationFileForUser(Meditation, Level);
-                    var url = Constants.RestUrl + "file/" + file.Path;
-
-                    var downloaded = await Model.StoreManager.MeditationStore.DownloadMeditationFile(url,Meditation.Id+Level+Settings.Voice+Settings.Language);
-
-                    Dialog.HideLoading();
-
-                    if (!downloaded)
-                    {
-                        await Model.CoreMethods.DisplayAlert(AppResources.error, AppResources.downloadFailed, AppResources.ok);
-                    }
-                    else
-                    {
-                        IsDownloaded = true;
-                    }
+                    await Model.CoreMethods.PushPageModel<SettingsPageModel>(data:false);
                 }
                 else
                 {
-                    await Model.CoreMethods.DisplayAlert(AppResources.error, AppResources.ActiveIntNeeded, AppResources.ok);
+                    if (await CrossConnectivity.Current.IsRemoteReachable("https://www.google.com"))
+                    {
+                        Dialog.ShowLoading(AppResources.downloading);
+
+                        var file = Model.GetMeditationFileForUser(Meditation, Level);
+                        var url = Constants.RestUrl + "file/" + file.Path;
+
+                        var downloaded = await Model.StoreManager.MeditationStore.DownloadMeditationFile(url, Meditation.Id + Level + Settings.Voice + Settings.Language);
+
+                        Dialog.HideLoading();
+
+                        if (!downloaded)
+                        {
+                            await Model.CoreMethods.DisplayAlert(AppResources.error, AppResources.downloadFailed, AppResources.ok);
+                        }
+                        else
+                        {
+                            IsDownloaded = true;
+                            Model.GetMeditation();
+                        }
+                    }
+                    else
+                    {
+                        await Model.CoreMethods.DisplayAlert(AppResources.error, AppResources.ActiveIntNeeded, AppResources.ok);
+                    }
                 }
             }
         });

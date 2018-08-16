@@ -3,6 +3,7 @@ using MeditSolution.Resources;
 using Xamarin.Forms;
 using MeditSolution.Helpers;
 using System.Threading.Tasks;
+using System.Linq;
 
 namespace MeditSolution.PageModels
 {
@@ -15,7 +16,10 @@ namespace MeditSolution.PageModels
 		public string SubHeader { get { return IsMeditationEnd ? "" : AppResources.congratsdetail; } }
 		public string TextColor { get { return IsMeditationEnd ? "#9b9b9b" : "#50E3C2"; } }
 
+        //public string Icon { get { return "lock.json"; } }
+
 		public bool IsMeditationEnd;
+
 
 		public string NextMeditation { get { return IsMeditationEnd ? AppResources.medoverdetail : AppResources.congratsdetail2; } }
 		public string NextMeditatonName { get; set; } 
@@ -23,6 +27,7 @@ namespace MeditSolution.PageModels
 
 		string meditationID { get; set; }
 		string programId { get; set; }
+        bool BlockNextAccess { get; set; } = false;
 
 		public async override void Init(object initData)
 		{
@@ -30,42 +35,85 @@ namespace MeditSolution.PageModels
 
 			if (initData is bool)
 			{
+                if(IsLoading)
+                    return;
+
 				IsLoading = true;
 
 				var next = await StoreManager.MeditationStore.GetNextMeditation();
 
-				IsLoading = false;
+                if (next != null)
+                {
+                    // meditation completed
+                    if (next.otherMeditation != null)
+                    {
+                        IsMeditationEnd = true;
+                        NextMeditatonName = Settings.DeviceLanguage == "English" ? next.otherMeditation.label_en : next.otherMeditation.label;
+                        NextMeditatonDetail = (next.otherMeditation.length / 60) + " min";
+                        meditationID = next.otherMeditation._id;
+                        programId = next.otherMeditation.programId;
 
-				if (next != null)
-				{
-					// meditation completed
-					if (next.otherMeditation != null)
-					{
-						IsMeditationEnd = true;
-						NextMeditatonName = Settings.DeviceLanguage == "English" ? next.otherMeditation.label_en : next.otherMeditation.label;
-						NextMeditatonDetail = (next.otherMeditation.length / 60) + " min";
-						meditationID = next.otherMeditation._id;
-						programId = next.otherMeditation.programId;
-					}
-					else if (next.levelUp != null) // session completed
-					{
-						IsMeditationEnd = false;
-						NextMeditatonName = Settings.DeviceLanguage == "English" ? next.levelUp.label_en : next.levelUp.label;
-						NextMeditatonDetail = (next.levelUp.length / 60) + " min";
-						meditationID = next.levelUp._id;
-						programId = next.levelUp.programId;
-					}
-					else
-                        await CoreMethods.PopPageModel(true);
-				}
-				else
-					await CoreMethods.PopPageModel(true);
+                        //check here for subscription validation
+                        var programs = await StoreManager.ProgramStore.GetItemsAsync();
+
+                        var user = await StoreManager.UserStore.GetCurrentUser();
+
+                        if (programs != null && programs.Any() && user.Subscription == Models.DataObjects.SubscriptionType.free)
+                        {
+                            var isGoodtoGo = programs.Where((arg) => arg.IsInitiation.Value || arg.IsTraining.Value).Select((arg) => arg.Id).Contains(programId);
+
+                            if (!isGoodtoGo)
+                            {
+                                BlockNextAccess = true;
+                            }
+                        }
+                        //
+                    }
+                    else if (next.levelUp != null) // session completed
+                    {
+                        IsMeditationEnd = false;
+                        NextMeditatonName = Settings.DeviceLanguage == "English" ? next.levelUp.label_en : next.levelUp.label;
+                        NextMeditatonDetail = (next.levelUp.length / 60) + " min";
+                        meditationID = next.levelUp._id;
+                        programId = next.levelUp.programId;
+                    }
+                    else
+                    {
+                        if (Device.RuntimePlatform == Device.Android)
+                        {
+                            DefaultNavigationBackgroundColor();
+                        }
+
+                        MessagingCenter.Send(this, "NextMeditation");
+                        await CoreMethods.PopPageModel(null, modal: true);
+                    }
+                }
+                else
+                {
+                    if (Device.RuntimePlatform == Device.Android)
+                    {
+                        DefaultNavigationBackgroundColor();
+                    }
+
+                    MessagingCenter.Send(this, "NextMeditation");
+                    await CoreMethods.PopPageModel(null, modal: true);
+                }
+
+                IsLoading = false;
 			}
 		}
         
 
 		public Command NextCommand => new Command(async() =>
 		{
+            if (BlockNextAccess)
+            {
+                MessagingCenter.Send(this, "NextMeditation");
+                await CoreMethods.PopPageModel(true);
+                return;  
+            }
+                
+
 			if(!string.IsNullOrEmpty(meditationID) && !string.IsNullOrEmpty(programId))
 			{
 				Dialog.ShowLoading();
@@ -78,6 +126,8 @@ namespace MeditSolution.PageModels
 				await StoreManager.UserStore.UpdateCurrentUser(user);
 
 				Dialog.HideLoading();
+
+                MessagingCenter.Send(this, "NextMeditation");
 
 				await CoreMethods.PopPageModel(true);
 			}

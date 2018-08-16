@@ -44,7 +44,7 @@
 
                             <Label x:Name="lbtime" InputTransparent="true" Text="{Binding TimeString}" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" FontFamily="SFUIText-Light" FontSize="64" FontAttributes="Bold" TextColor="#656565" />                               
 
-                            <Switch IsToggled="{Binding IsActive}" Grid.Row="0" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="Center" />
+                            <Switch IsToggled="{Binding IsActive}" OnColor="{StaticResource primary}" Grid.Row="0" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="Center" />
 
                             <controls:WrapLayout Orientation="Horizontal" VerticalOptions="StartAndExpand" Spacing="13" Grid.Row="1" Grid.Column="0" HorizontalOptions="FillAndExpand" Grid.ColumnSpan="2" >
                                 

@@ -44,10 +44,10 @@
 
                <Button x:Name="btSave" VerticalOptions="EndAndExpand" IsVisible="false" Text="{resources:Translate start}" Command="{Binding SaveCommand}" FontAttributes="Bold" FontSize="18" HorizontalOptions="FillAndExpand" FontFamily="SFUIText-Bold" TextColor="{StaticResource white}" BorderColor="{StaticResource primary}" BackgroundColor="{StaticResource primary}" BorderWidth="1">
                     <Button.HeightRequest>
-                    <OnPlatform x:TypeArguments="x:Double" Android="60" iOS="50" />
+                    <OnPlatform x:TypeArguments="x:Double" Android="50" iOS="50" />
                 </Button.HeightRequest>
                 <Button.BorderRadius>
-                    <OnPlatform x:TypeArguments="x:Int32" Android="30" iOS="25" />
+                    <OnPlatform x:TypeArguments="x:Int32" Android="25" iOS="25" />
                 </Button.BorderRadius>
                 </Button>
 

@@ -1,11 +1,12 @@
-﻿using MeditSolution.iOS.Renderers;
+﻿using System;
 using Foundation;
+using MeditSolution.Controls;
+using MeditSolution.iOS.Renderers;
 using UIKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
-using MeditSolution.Controls;
 
-[assembly: ExportRenderer(typeof(HyperlinkLabel), typeof(HyperlinkLabelRenderer))]
+[assembly: ExportRenderer(typeof(HyperLinkLabel), typeof(HyperlinkLabelRenderer))]
 namespace MeditSolution.iOS.Renderers
 {
     public class HyperlinkLabelRenderer : LabelRenderer
@@ -22,7 +23,7 @@ namespace MeditSolution.iOS.Renderers
 
             gesture.AddTarget(() =>
             {
-                var url = new NSUrl("https://" + Control.Text);
+                var url = new NSUrl(Control.Text);
 
                 if (UIApplication.SharedApplication.CanOpenUrl(url))
                     UIApplication.SharedApplication.OpenUrl(url);
