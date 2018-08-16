@@ -21,11 +21,11 @@
 
                 <ScrollView HorizontalOptions="FillAndExpand" Margin="0,16,0,0" Padding="0" Orientation="Horizontal">
                 <StackLayout  HorizontalOptions="CenterAndExpand" Spacing="20" Orientation="Horizontal">
-                    <Button x:Name="bt1" Text="6" Clicked="Handle_Clicked" FontFamily="SFUIText-Regular" FontSize="16" TextColor="{StaticResource white}" HeightRequest="48" WidthRequest="48" BorderRadius="24" BorderWidth="1" BorderColor="{StaticResource primary}" BackgroundColor="{StaticResource primary}" />
-                    <Button x:Name="bt2" Text="8" Clicked="Handle_Clicked" FontFamily="SFUIText-Regular" FontSize="16" TextColor="#9b9b9b" HeightRequest="48" WidthRequest="48" BorderRadius="24" BorderWidth="1" BorderColor="#9b9b9b" BackgroundColor="White" />
-                    <Button x:Name="bt3" Text="10" Clicked="Handle_Clicked" FontFamily="SFUIText-Regular" FontSize="16" TextColor="#9b9b9b" HeightRequest="48" WidthRequest="48" BorderRadius="24" BorderWidth="1" BorderColor="#9b9b9b" BackgroundColor="White" />
-                    <Button x:Name="bt4" Text="12" Clicked="Handle_Clicked" FontFamily="SFUIText-Regular" FontSize="16" TextColor="#9b9b9b" HeightRequest="48" WidthRequest="48" BorderRadius="24" BorderWidth="1" BorderColor="#9b9b9b" BackgroundColor="White" />
-                    <Button x:Name="bt5" Text="14" Clicked="Handle_Clicked" FontFamily="SFUIText-Regular" FontSize="16" TextColor="#9b9b9b" HeightRequest="48" WidthRequest="48" BorderRadius="24" BorderWidth="1" BorderColor="#9b9b9b" BackgroundColor="White" />
+                    <Button x:Name="bt1" Text="6" Clicked="Handle_Clicked" FontFamily="SFUIText-Regular" VerticalOptions="Center" FontSize="16" TextColor="{StaticResource white}" HeightRequest="48" WidthRequest="48" BorderRadius="24" BorderWidth="1" BorderColor="{StaticResource primary}" BackgroundColor="{StaticResource primary}" />
+                    <Button x:Name="bt2" Text="8" Clicked="Handle_Clicked" FontFamily="SFUIText-Regular" VerticalOptions="Center" FontSize="16" TextColor="#9b9b9b" HeightRequest="48" WidthRequest="48" BorderRadius="24" BorderWidth="1" BorderColor="#9b9b9b" BackgroundColor="White" />
+                    <Button x:Name="bt3" Text="10" Clicked="Handle_Clicked" FontFamily="SFUIText-Regular" VerticalOptions="Center" FontSize="20" TextColor="#9b9b9b" HeightRequest="60" WidthRequest="60" FontAttributes="Bold" BorderRadius="30" BorderWidth="2" BorderColor="#9b9b9b" BackgroundColor="White" />
+                    <Button x:Name="bt4" Text="12" Clicked="Handle_Clicked" FontFamily="SFUIText-Regular" VerticalOptions="Center" FontSize="16" TextColor="#9b9b9b" HeightRequest="48" WidthRequest="48" BorderRadius="24" BorderWidth="1" BorderColor="#9b9b9b" BackgroundColor="White" />
+                    <Button x:Name="bt5" Text="14" Clicked="Handle_Clicked" FontFamily="SFUIText-Regular" VerticalOptions="Center" FontSize="16" TextColor="#9b9b9b" HeightRequest="48" WidthRequest="48" BorderRadius="24" BorderWidth="1" BorderColor="#9b9b9b" BackgroundColor="White" />
                 </StackLayout>
                 </ScrollView>
                 

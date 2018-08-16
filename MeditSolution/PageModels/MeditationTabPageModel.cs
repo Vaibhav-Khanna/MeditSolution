@@ -32,6 +32,14 @@ namespace MeditSolution.PageModels
             OneSignal.Current.IdsAvailable(callback);
 
             IsAndroid = Device.RuntimePlatform == Device.Android;
+
+            MessagingCenter.Unsubscribe<MeditationEndPageModel>(this, "NextMeditation");
+            MessagingCenter.Subscribe<MeditationEndPageModel>(this, "NextMeditation", RefreshNextMeditation);
+        }
+
+        async void RefreshNextMeditation(MeditationEndPageModel obj)
+        {
+            await GetMeditation();
         }
 
 		async void OpenReminders()
@@ -67,6 +75,11 @@ namespace MeditSolution.PageModels
 
             OneSignal.Current.RegisterForPushNotifications();
 
+            if (Device.RuntimePlatform == Device.Android)
+            {
+                DefaultNavigationBackgroundColor();
+            }
+
             GetMeditation();
 
 			if (App.OpenReminders)
@@ -84,6 +97,13 @@ namespace MeditSolution.PageModels
                 return;
 
             IsLoading = true;
+
+            user = await StoreManager.UserStore.GetCurrentUser();
+
+            if (Device.RuntimePlatform == Device.Android)
+            {
+                DefaultNavigationBackgroundColor();
+            }
 
             if (user == null)
             {

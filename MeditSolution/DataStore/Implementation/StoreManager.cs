@@ -90,24 +90,31 @@ namespace MeditSolution.DataStore.Implementation
 
         public async Task<bool> RegenerateToken()
         {
-            string Auth = string.Concat("token=", Settings.Token);
-
-            var uri = new Uri(string.Format(Constants.RestUrl + "regenerate" + "?" + Auth));
-
-            var client = new HttpClient();
-
-            var response = await client.GetAsync(uri);
-
-            var content = await response.Content.ReadAsStringAsync();
-
-            if (response.IsSuccessStatusCode)
+            try
             {
-                var resp = JsonConvert.DeserializeObject<TokenResponse>(content);
-                // Store token in settings
-                Settings.Token = resp.token;
-                Settings.TokenExpiration = resp.tokenExpiration;
-                //
-                return true;
+                string Auth = string.Concat("token=", Settings.Token);
+
+                var uri = new Uri(string.Format(Constants.RestUrl + "regenerate" + "?" + Auth));
+
+                var client = new HttpClient();
+
+                var response = await client.GetAsync(uri);
+
+                var content = await response.Content.ReadAsStringAsync();
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var resp = JsonConvert.DeserializeObject<TokenResponse>(content);
+                    // Store token in settings
+                    Settings.Token = resp.token;
+                    Settings.TokenExpiration = resp.tokenExpiration;
+                    //
+                    return true;
+                }
+            }
+            catch(Exception)
+            {
+                
             }
 
             return false;
