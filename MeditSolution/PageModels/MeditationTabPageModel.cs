@@ -105,7 +105,6 @@ namespace MeditSolution.PageModels
 					user.MeditationsDone.Add(new MeditationsDone() { id = current_meditation.Id });
 				}
 
-                user.Language = Settings.Language;
 				await StoreManager.UserStore.UpdateCurrentUser(user);
 				//
 

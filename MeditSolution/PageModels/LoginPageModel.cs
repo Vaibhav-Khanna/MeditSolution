@@ -71,16 +71,11 @@ namespace MeditSolution.PageModels
 				{
 					Dialog.ShowLoading();
 
-					var response = await StoreManager.RegisterAsync(Email, Password);
+                    var response = await StoreManager.RegisterAsync(Email, Password, Settings.DeviceLanguage == "French" ? "fr" : "en");
 
                     if (response != null && response is TokenResponse)
                     {
                         var user = await StoreManager.UserStore.GetCurrentUser();
-                        if(user!=null)
-                        {
-                            user.Language = Settings.DeviceLanguage;
-                            await StoreManager.UserStore.UpdateAsync(user);
-                        }
                     }
 
 					Dialog.HideLoading();

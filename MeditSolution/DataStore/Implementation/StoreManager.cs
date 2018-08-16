@@ -113,13 +113,14 @@ namespace MeditSolution.DataStore.Implementation
             return false;
         }
 
-        public async Task<object> RegisterAsync(string email, string password)
+        public async Task<object> RegisterAsync(string email, string password,string deviceLanguage)
         {
             var uri = new Uri(string.Format(Constants.RestUrl + "register", string.Empty));
 
             var credentials = new JObject();
             credentials["email"] = email;
             credentials["password"] = password;
+            credentials["language"] = deviceLanguage;
 
             var content = new StringContent(credentials.ToString(), Encoding.UTF8, "application/json");
 

@@ -16,7 +16,7 @@ namespace MeditSolution.DataStore.Abstraction
 
         Task<object> LoginAsync(string email, string password);
         void LogoutAsync();
-        Task<object> RegisterAsync(string email, string password);
+        Task<object> RegisterAsync(string email, string password,string deviceLanguage);
         Task<bool> RequestNewPassword(ForgotPasswordRequest request);
         Task<bool> RegenerateToken();
 
