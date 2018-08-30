@@ -97,7 +97,7 @@ namespace MeditSolution
 
         protected override void OnStart()
         {
-            
+            new LanguageService().SetLanguage();
         }
 
         protected override void OnSleep()
@@ -107,6 +107,8 @@ namespace MeditSolution
 
         protected override void OnResume()
         {
+            new LanguageService().SetLanguage();
+
             ApplicationIsPaused?.Invoke(false);
         }
 

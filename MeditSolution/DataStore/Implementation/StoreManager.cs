@@ -74,8 +74,11 @@ namespace MeditSolution.DataStore.Implementation
             Settings.Token = string.Empty;
             Settings.User = string.Empty;
             Settings.IsLoggedIn = false;
+
             var language = Settings.Language;
             var voice = Settings.Voice;
+            var device_language = Settings.DeviceLanguage;
+
             await BlobCache.UserAccount.InvalidateAll();
             await Plugin.Notifications.CrossNotifications.Current.CancelAll();
 
@@ -83,6 +86,7 @@ namespace MeditSolution.DataStore.Implementation
 
             Settings.Language = language;
             Settings.Voice = voice;
+            Settings.DeviceLanguage = device_language;
 
             // Do not remove downloads on log out. As per client request.
             //await PCLStore.DeleteEverything();

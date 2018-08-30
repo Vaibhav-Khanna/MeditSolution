@@ -32,6 +32,7 @@ namespace MeditSolution.PageModels
 			else
 			{
 				IsLauncVideo = true;
+
 				var videoData = await StoreManager.VideoStore.GetWelcomeVideo();
 				
                 Video = Constants.RestUrl + "file/" + (Settings.DeviceLanguage == "English" ? videoData.Path_EN : videoData.Path);
