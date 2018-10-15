@@ -114,9 +114,6 @@
     <Reference Include="Google.ZXing.Core">
       <HintPath>..\packages\Xamarin.Google.ZXing.Core.3.3.0\lib\MonoAndroid\Google.ZXing.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Facebook">
-      <HintPath>..\packages\Xamarin.Facebook.Android.4.26.0\lib\MonoAndroid70\Xamarin.Facebook.dll</HintPath>
-    </Reference>
     <Reference Include="Java.Interop" />
     <Reference Include="Rox.Xamarin.Video.Android">
       <HintPath>..\packages\Rox.Xamarin.Video.2.1.0\lib\MonoAndroid10\Rox.Xamarin.Video.Android.dll</HintPath>

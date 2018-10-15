@@ -166,14 +166,13 @@ namespace MeditSolution.PageModels
 		   
 		}
 
-        void AudioPlayer_MediaFinished(object sender, Plugin.MediaManager.Abstractions.EventArguments.MediaFinishedEventArgs e)
+        async void AudioPlayer_MediaFinished(object sender, Plugin.MediaManager.Abstractions.EventArguments.MediaFinishedEventArgs e)
         {
             HasEnded = true;
 
-            if(Device.RuntimePlatform == Device.Android)
-            {
-                AudioPlayer?.Stop();
-            }
+
+            await AudioPlayer?.Stop();
+
 
             if (IsLoading || InBackground)
                 return;
