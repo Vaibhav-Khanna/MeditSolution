@@ -410,7 +410,7 @@ However, although you can expect to get the cheapest air ticket if you start sea
      </data>
 
     <data name="ErrorMessageSubscription" xml:space="preserve">
-         <value>Une erreur s'est produite durant l'opérations. Veuillez réessayer ultérieurement.</value>
+         <value>Une erreur s'est produite durant l'opération. Veuillez réessayer ultérieurement.</value>
     </data>
 
     <data name="UnsubscribeWarning" xml:space="preserve">

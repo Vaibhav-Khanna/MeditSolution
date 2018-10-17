@@ -36,7 +36,7 @@ namespace MeditSolution.PageModels
                 {
                     await AudioPlayer.Pause();
                     position = AudioPlayer.Position;
-                    AudioPlayer_MediaFinished(null, null);
+                    //AudioPlayer_MediaFinished(null, null);
                 });
             }
             else if (AudioPlayer.Status == MediaPlayerStatus.Paused)
@@ -166,14 +166,13 @@ namespace MeditSolution.PageModels
 		   
 		}
 
-        void AudioPlayer_MediaFinished(object sender, Plugin.MediaManager.Abstractions.EventArguments.MediaFinishedEventArgs e)
+        async void AudioPlayer_MediaFinished(object sender, Plugin.MediaManager.Abstractions.EventArguments.MediaFinishedEventArgs e)
         {
             HasEnded = true;
 
-            if(Device.RuntimePlatform == Device.Android)
-            {
-                AudioPlayer?.Stop();
-            }
+
+            await AudioPlayer?.Stop();
+
 
             if (IsLoading || InBackground)
                 return;

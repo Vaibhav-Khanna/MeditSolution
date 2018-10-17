@@ -9,7 +9,6 @@ using Android.Widget;
 using Android.OS;
 using CarouselView.FormsPlugin.Android;
 using FFImageLoading.Forms.Droid;
-using Xamarin.Facebook;
 using Xamarin.Forms;
 using Lottie.Forms.Droid;
 using Plugin.MediaManager.Forms.Android;

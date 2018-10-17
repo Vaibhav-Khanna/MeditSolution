@@ -6,6 +6,7 @@ using MeditSolution.Resources;
 using Xamarin.Essentials;
 using FreshMvvm;
 using MeditSolution.Controls;
+using MeditSolution.Helpers;
 using MeditSolution.Service;
 
 namespace MeditSolution.PageModels
@@ -62,7 +63,7 @@ namespace MeditSolution.PageModels
 
                 if (str.ToString() == AppResources.cgu)
                 {
-                    Device.OpenUri(new Uri(Constants.CGURedirectUrl));
+                    Device.OpenUri(new Uri(Settings.DeviceLanguage == "English" ? Constants.CGURedirectUrl_EN : Constants.CGURedirectUrl_FR));
                 }
 
                 if (str.ToString() == AppResources.disconnect)

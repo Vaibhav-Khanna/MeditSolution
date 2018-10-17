@@ -6,6 +6,7 @@ using MeditSolution.Helpers;
 using System.Linq;
 using MeditSolution.Models.DataObjects;
 using MeditSolution.Service;
+using System.Diagnostics;
 
 namespace MeditSolution.PageModels
 {
@@ -71,7 +72,6 @@ namespace MeditSolution.PageModels
 
                 _timer.Stop();
 				
-
                 EndMeditation();
             }
             else
@@ -79,6 +79,8 @@ namespace MeditSolution.PageModels
                 TotalSeconds = TotalSeconds.Subtract(new TimeSpan(0, 0, 0, 1));
 
 				TimerText = TotalSeconds.ToString("hh':'mm':'ss");
+
+                Debug.WriteLine(TimerText);
 
                 Progress = Progress + step;
             }

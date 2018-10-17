@@ -121,16 +121,18 @@ namespace MeditSolution.PageModels
 					{
 						await SetInitiationMeditation(true);
 
-						var videos = await StoreManager.VideoStore.GetItemsAsync();
+                        //var videos = await StoreManager.VideoStore.GetItemsAsync();
 
-						var video = videos?.Where((arg) => arg.Name_EN?.ToLower()?.Trim() == "how to meditate")?.First();
+                        //var video = videos?.Where((arg) => arg.Name_EN?.ToLower()?.Trim() == "how to meditate")?.First();
 
-						if(video!=null)
-						{
-							await CoreMethods.PushPageModel<VideoPlayPageModel>(new Tuple<bool, VideoModel>(true,new VideoModel(video)));
-						}
+                        //if(video!=null)
+                        //{
+                        //	await CoreMethods.PushPageModel<VideoPlayPageModel>(new Tuple<bool, VideoModel>(true,new VideoModel(video)));
+                        //}
 
-						Settings.HasToCompleteChat = false;
+                        await CoreMethods.PushPageModel<VideoPlayPageModel>();
+
+                        Settings.HasToCompleteChat = false;
 
 						break;
 					}
@@ -138,16 +140,18 @@ namespace MeditSolution.PageModels
 					{
 						await SetInitiationMeditation(true);
 
-						var videos = await StoreManager.VideoStore.GetItemsAsync();
+                        //var videos = await StoreManager.VideoStore.GetItemsAsync();
 
-                        var video = videos?.Where((arg) => arg.Name_EN?.ToLower()?.Trim() == "why meditate")?.First();
+                        //                  var video = videos?.Where((arg) => arg.Name_EN?.ToLower()?.Trim() == "why meditate")?.First();
 
-						if (video != null)
-                        {
-                            await CoreMethods.PushPageModel<VideoPlayPageModel>(new Tuple<bool, VideoModel>(true, new VideoModel(video)));
-                        }
+                        //if (video != null)
+                        //{
+                        //    await CoreMethods.PushPageModel<VideoPlayPageModel>(new Tuple<bool, VideoModel>(true, new VideoModel(video)));
+                        //}
 
-						Settings.HasToCompleteChat = false;
+                        await CoreMethods.PushPageModel<VideoPlayPageModel>();
+
+                        Settings.HasToCompleteChat = false;
 
 						break;
 					}
@@ -155,12 +159,14 @@ namespace MeditSolution.PageModels
 					{
 						await SetInitiationMeditation(false);
 
-						Settings.HasToCompleteChat = false;
+                        await CoreMethods.PushPageModel<VideoPlayPageModel>();
 
-						Device.BeginInvokeOnMainThread(() =>
-						{
-							Application.Current.MainPage = TabNavigator.GenerateTabPage();
-						});
+                        Settings.HasToCompleteChat = false;
+
+						//Device.BeginInvokeOnMainThread(() =>
+						//{
+						//	Application.Current.MainPage = TabNavigator.GenerateTabPage();
+						//});
 
 						break;
 					}
@@ -170,12 +176,14 @@ namespace MeditSolution.PageModels
 
 						App.OpenReminders = true;
 
-						Settings.HasToCompleteChat = false;
+                        await CoreMethods.PushPageModel<VideoPlayPageModel>();
 
-						Device.BeginInvokeOnMainThread(() =>
-						{
-							Application.Current.MainPage = TabNavigator.GenerateTabPage();
-						});
+                        Settings.HasToCompleteChat = false;
+
+						//Device.BeginInvokeOnMainThread(() =>
+						//{
+						//	Application.Current.MainPage = TabNavigator.GenerateTabPage();
+						//});
 
 						break;
 					}
