@@ -16,7 +16,7 @@ namespace MeditSolution.PageModels
 
         private MeditationTimer _timer;
 
-		public string TimerText { get; set; }
+        public string TimerText { get; set; }
 
         public TimeSpan TotalSeconds { get; set; }
 
@@ -24,34 +24,34 @@ namespace MeditSolution.PageModels
 
         SeancesModel SeancesModel;
 
-		int TotalTimeMedited;
+        int TotalTimeMedited;
 
         public Color Tint { get; set; } = Color.FromHex("91f0db");
 
         public Color TintDark { get; set; } = Color.FromHex("45d1b2");
 
-      
+
         public override void Init(object initData)
         {
             base.Init(initData);
 
-			int durationInSeconds = 0;
+            int durationInSeconds = 0;
 
-           
-			if (initData is SeancesModel)
-			{
-				SeancesModel = ((SeancesModel)initData);
-				durationInSeconds = (int)SeancesModel.Meditation.Length;
+
+            if (initData is SeancesModel)
+            {
+                SeancesModel = ((SeancesModel)initData);
+                durationInSeconds = (int)SeancesModel.Meditation.Length;
 
                 Tint = Color.FromHex(SeancesModel.Tint.Substring(1));
                 TintDark = ((Tint).AddLuminosity(-0.2));
-			}
-			else
-			{
-				durationInSeconds = int.Parse(initData.ToString());
-			}
+            }
+            else
+            {
+                durationInSeconds = int.Parse(initData.ToString());
+            }
 
-			TotalTimeMedited = durationInSeconds;
+            TotalTimeMedited = durationInSeconds;
 
             TotalSeconds = TimeSpan.FromSeconds(durationInSeconds);
 
@@ -61,24 +61,24 @@ namespace MeditSolution.PageModels
             _timer.Start();
         }
 
-       
+
         private void CountDown()
         {
             if (TotalSeconds.TotalSeconds == 0)
             {
-				TimerText = "00:00:00";
+                TimerText = "00:00:00";
 
                 TotalSeconds = new TimeSpan(0, 0, 0, 0);
 
                 _timer.Stop();
-				
+
                 EndMeditation();
             }
             else
             {
                 TotalSeconds = TotalSeconds.Subtract(new TimeSpan(0, 0, 0, 1));
 
-				TimerText = TotalSeconds.ToString("hh':'mm':'ss");
+                TimerText = TotalSeconds.ToString("hh':'mm':'ss");
 
                 Debug.WriteLine(TimerText);
 
@@ -88,67 +88,79 @@ namespace MeditSolution.PageModels
 
         public Command PlayPauseCommand => new Command(() =>
         {
-            if (IsPlaying) { _timer.Stop();  }
+            if (IsPlaying) { _timer.Stop(); }
             else { _timer.Start(); }
             IsPlaying = !IsPlaying;
         });
 
         public Command CloseCommand => new Command(async () =>
         {
-            
+
             await CoreMethods.PopPageModel(true);
         });
 
-		protected override void ViewIsDisappearing(object sender, EventArgs e)
+        protected override void ViewIsDisappearing(object sender, EventArgs e)
         {
             base.ViewIsDisappearing(sender, e);
 
             _timer?.Stop();
         }
 
-		async void EndMeditation()
-		{
+        async void EndMeditation()
+        {
             DependencyService.Get<IPlayNotificationSound>()?.PlaySound();
 
-			Dialog.ShowLoading();
-                    
-			var isAdded = await StoreManager.MeditationStore.AddMeditationTimeAsync(TotalTimeMedited);
+            Dialog.ShowLoading();
 
-			var user = await StoreManager.UserStore.UpdateCurrentUser(null);
+            var isAdded = await StoreManager.MeditationStore.AddMeditationTimeAsync(TotalTimeMedited);
 
-			if (SeancesModel != null)
-			{
-				var meditiondone = user.MeditationsDone?.Where((arg) => arg.id == SeancesModel.Meditation.Id).First();
-
-				if (meditiondone != null)
-				{
-					var count = GetSeanceCount(SeancesModel.Meditation);
-
-					if (count == 1)
-						meditiondone.level2Done = true;
-					else if (count == 2)
-						meditiondone.level3Done = true;
-					else if (count == 3)
-						meditiondone.level4Done = true;
-				}
-
-				user = await StoreManager.UserStore.UpdateCurrentUser(user);
-			}
-
-			Dialog.HideLoading();
-			
+            var user = await StoreManager.UserStore.UpdateCurrentUser(StoreManager.UserStore.User);
+            bool isFirstTime = false;
             if (SeancesModel != null)
-			{                
-				await CoreMethods.PopPageModel(true);
-				await CoreMethods.PushPageModel<MeditationEndPageModel>(true, modal: true);
-			}
-			else
-			{
-				await CoreMethods.PopPageModel(true);
-			}
-		}
+            {
+                var meditiondone = user.MeditationsDone?.Where((arg) => arg.id == SeancesModel.Meditation.Id).First();
 
-		int GetSeanceCount(Meditation meditation)
+                if (meditiondone != null)
+                {
+                    var count = GetSeanceCount(SeancesModel.Meditation);
+
+                    if (count == 1)
+                    {
+                        if (meditiondone.level2Done == false) { isFirstTime = true; }
+                        meditiondone.level2Done = true;
+                    }
+                    else if (count == 2)
+                    {
+                        if (meditiondone.level3Done == false) { isFirstTime = true; }
+                        meditiondone.level3Done = true;
+
+                    }
+
+                    else if (count == 3)
+                    {
+                        if (meditiondone.level4Done == false) { isFirstTime = true; }
+                        meditiondone.level4Done = true;
+                    }
+
+                }
+
+                user = await StoreManager.UserStore.UpdateCurrentUser(user);
+            }
+
+            Dialog.HideLoading();
+
+            if ((SeancesModel != null) && isFirstTime)
+            {
+                await CoreMethods.PopPageModel(true);
+                await CoreMethods.PushPageModel<MeditationEndPageModel>(true, modal: true);
+            }
+            else
+            {
+                await CoreMethods.PopPageModel(true);
+            }
+        }
+
+        int GetSeanceCount(Meditation meditation)
         {
             int seanceCount = 0;
 

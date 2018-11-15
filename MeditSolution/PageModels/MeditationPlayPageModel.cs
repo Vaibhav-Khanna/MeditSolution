@@ -13,22 +13,22 @@ using System.Threading.Tasks;
 
 namespace MeditSolution.PageModels
 {
-	public class MeditationPlayPageModel : BasePageModel
+    public class MeditationPlayPageModel : BasePageModel
     {
-		public double Progress { get; set; }
-		public string TimerText { get; set; }
+        public double Progress { get; set; }
+        public string TimerText { get; set; }
         public string Title { get; set; }
         public bool InBackground = false;
         public bool HasEnded = false;
 
-		SeancesModel SeanceModel;
+        SeancesModel SeanceModel;
         IMediaManager AudioPlayer => CrossMediaManager.Current;
-		public Color Tint { get; set; }
-		public Color TintDark { get; set; }
-		TimeSpan position;
-		MediaFile file;
+        public Color Tint { get; set; }
+        public Color TintDark { get; set; }
+        TimeSpan position;
+        MediaFile file;
 
-		public Command PlayPauseCommand => new Command(() =>
+        public Command PlayPauseCommand => new Command(() =>
         {
             if (AudioPlayer.Status == MediaPlayerStatus.Playing)
             {
@@ -45,12 +45,12 @@ namespace MeditSolution.PageModels
                 {
                     await AudioPlayer.Play();
                 });
-            }          
+            }
         });
 
         void App_ApplicationIsPaused(bool obj)
         {
-            if(obj)
+            if (obj)
             {
                 InBackground = true;
                 // paused
@@ -59,20 +59,20 @@ namespace MeditSolution.PageModels
             {
                 InBackground = false;
 
-                if(HasEnded)
+                if (HasEnded)
                 {
-                    EndMeditation(); 
+                    EndMeditation();
                 }
                 // resumed
             }
-        }           
+        }
 
         public async override void Init(object initData)
-		{
-			base.Init(initData);
+        {
+            base.Init(initData);
 
             if (initData is SeancesModel)
-            {                               
+            {
                 IsLoading = true;
 
                 SeanceModel = ((SeancesModel)initData);
@@ -135,10 +135,10 @@ namespace MeditSolution.PageModels
                     });
                 }
             }
-   		}
+        }
 
-		void AudioPlayer_StatusChanged(object sender, Plugin.MediaManager.Abstractions.EventArguments.StatusChangedEventArgs e)
-		{
+        void AudioPlayer_StatusChanged(object sender, Plugin.MediaManager.Abstractions.EventArguments.StatusChangedEventArgs e)
+        {
             if (e.Status == Plugin.MediaManager.Abstractions.Enums.MediaPlayerStatus.Paused)
             {
                 IsPlaying = false;
@@ -153,18 +153,18 @@ namespace MeditSolution.PageModels
                 position = AudioPlayer.Position;
                 IsPlaying = false;
             }
-		}
+        }
 
-		void AudioPlayer_PlayingChanged(object sender, Plugin.MediaManager.Abstractions.EventArguments.PlayingChangedEventArgs e)
-		{
-			Progress = Device.RuntimePlatform == Device.iOS ? e.Progress : e.Progress/100;
-			TimerText = e.Duration.Subtract(e.Position).ToString("hh':'mm':'ss");
-		}
+        void AudioPlayer_PlayingChanged(object sender, Plugin.MediaManager.Abstractions.EventArguments.PlayingChangedEventArgs e)
+        {
+            Progress = Device.RuntimePlatform == Device.iOS ? e.Progress : e.Progress / 100;
+            TimerText = e.Duration.Subtract(e.Position).ToString("hh':'mm':'ss");
+        }
 
-	    void AudioPlayer_MediaFailed(object sender, Plugin.MediaManager.Abstractions.EventArguments.MediaFailedEventArgs e)
-		{
-		   
-		}
+        void AudioPlayer_MediaFailed(object sender, Plugin.MediaManager.Abstractions.EventArguments.MediaFailedEventArgs e)
+        {
+
+        }
 
         async void AudioPlayer_MediaFinished(object sender, Plugin.MediaManager.Abstractions.EventArguments.MediaFinishedEventArgs e)
         {
@@ -198,20 +198,25 @@ namespace MeditSolution.PageModels
                 var isAdded = await StoreManager.MeditationStore.AddMeditationTimeAsync((int)SeanceModel.Meditation.Length);
 
                 var meditiondone = user?.MeditationsDone?.Where((arg) => arg.id == SeanceModel?.Meditation.Id).First();
-
+                bool isFirstTime = false;
                 if (meditiondone != null)
                 {
                     if (SeanceModel.Level == 1)
                     {
+                        if (meditiondone.level1Done == false) { isFirstTime = true; }
                         meditiondone.level1Done = true;
                     }
                     else if (SeanceModel.Level == 2)
                     {
+                        if (meditiondone.level2Done == false) { isFirstTime = true; }
                         meditiondone.level2Done = true;
+
                     }
                     else if (SeanceModel.Level == 3)
                     {
+                        if (meditiondone.level3Done == false) { isFirstTime = true; }
                         meditiondone.level3Done = true;
+
                     }
 
                     user = await StoreManager.UserStore.UpdateCurrentUser(user);
@@ -221,18 +226,28 @@ namespace MeditSolution.PageModels
 
                 IsLoading = false;
 
-                if (GetSeanceCount(SeanceModel.Meditation) == SeanceModel.Level)
+                if (isFirstTime)
                 {
-                    await CoreMethods.PushPageModel<MeditationEndPageModel>(true, modal: true);
+                    if (GetSeanceCount(SeanceModel.Meditation) == SeanceModel.Level)
+                    {
+                        await CoreMethods.PushPageModel<MeditationEndPageModel>(true, modal: true);
+                    }
+                    else
+                    {
+                        await CoreMethods.PushPageModel<MeditationEndPageModel>(SeanceModel.Meditation, modal: true);
+                    }
+
                     Handle_PageWasPopped(null, null);
                     CoreMethods.RemoveFromNavigation<MeditationPlayPageModel>(true);
                 }
                 else
+                {
                     await CoreMethods.PopPageModel(animate: false);
+                }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-                
+
             }
         }
 
@@ -242,7 +257,7 @@ namespace MeditSolution.PageModels
             App.ApplicationIsPaused -= App_ApplicationIsPaused;
 
             if (AudioPlayer != null)
-            {                
+            {
                 AudioPlayer.PlayingChanged -= AudioPlayer_PlayingChanged;
                 AudioPlayer.MediaFailed -= AudioPlayer_MediaFailed;
                 AudioPlayer.MediaFinished -= AudioPlayer_MediaFinished;
@@ -268,112 +283,112 @@ namespace MeditSolution.PageModels
         }
 
         MeditationFile GetMeditationFileForUser(Meditation meditation, int level)
-		{
-			if (meditation == null)
-				return null;
+        {
+            if (meditation == null)
+                return null;
 
-			if (level == 1)
-			{
-				if (Settings.Language == "en")
-				{
-					if (Settings.Voice == "male")
-					{
-						return meditation.Level1EnMan;
-					}
-					else
-					{
-						return meditation.Level1EnWoman;
-					}
-				}
-				else
-				{
-					if (Settings.Voice == "male")
-					{
-						return meditation.Level1FrMan;
-					}
-					else
-					{
-						return meditation.Level1FrWoman;
-					}
-				}
-			}
-			else if (level == 2)
-			{
-				if (Settings.Language == "en")
-				{
-					if (Settings.Voice == "male")
-					{
-						return meditation.Level2EnMan;
-					}
-					else
-					{
-						return meditation.Level2EnWoman;
-					}
-				}
-				else
-				{
-					if (Settings.Voice == "male")
-					{
-						return meditation.Level2FrMan;
-					}
-					else
-					{
-						return meditation.Level2FrWoman;
-					}
-				}
-			}
-			else if (level == 3)
-			{
-				if (Settings.Language == "en")
-				{
-					if (Settings.Voice == "male")
-					{
-						return meditation.Level3EnMan;
-					}
-					else
-					{
-						return meditation.Level3EnWoman;
-					}
-				}
-				else
-				{
-					if (Settings.Voice == "male")
-					{
-						return meditation.Level3FrMan;
-					}
-					else
-					{
-						return meditation.Level3FrWoman;
-					}
-				}
-			}
-			else
-				return null;
-		}
+            if (level == 1)
+            {
+                if (Settings.Language == "en")
+                {
+                    if (Settings.Voice == "male")
+                    {
+                        return meditation.Level1EnMan;
+                    }
+                    else
+                    {
+                        return meditation.Level1EnWoman;
+                    }
+                }
+                else
+                {
+                    if (Settings.Voice == "male")
+                    {
+                        return meditation.Level1FrMan;
+                    }
+                    else
+                    {
+                        return meditation.Level1FrWoman;
+                    }
+                }
+            }
+            else if (level == 2)
+            {
+                if (Settings.Language == "en")
+                {
+                    if (Settings.Voice == "male")
+                    {
+                        return meditation.Level2EnMan;
+                    }
+                    else
+                    {
+                        return meditation.Level2EnWoman;
+                    }
+                }
+                else
+                {
+                    if (Settings.Voice == "male")
+                    {
+                        return meditation.Level2FrMan;
+                    }
+                    else
+                    {
+                        return meditation.Level2FrWoman;
+                    }
+                }
+            }
+            else if (level == 3)
+            {
+                if (Settings.Language == "en")
+                {
+                    if (Settings.Voice == "male")
+                    {
+                        return meditation.Level3EnMan;
+                    }
+                    else
+                    {
+                        return meditation.Level3EnWoman;
+                    }
+                }
+                else
+                {
+                    if (Settings.Voice == "male")
+                    {
+                        return meditation.Level3FrMan;
+                    }
+                    else
+                    {
+                        return meditation.Level3FrWoman;
+                    }
+                }
+            }
+            else
+                return null;
+        }
 
-		int GetSeanceCount(Meditation meditation)
+        int GetSeanceCount(Meditation meditation)
         {
             int seanceCount = 0;
 
-            if (meditation.Level1FrWoman != null)
+            if ((meditation.Level1FrWoman != null) || (meditation.Level1EnWoman != null) || (meditation.Level1FrMan != null) || (meditation.Level1EnMan != null))
                 seanceCount += 1;
-            if (meditation.Level2FrWoman != null)
+            if ((meditation.Level2FrWoman != null) || (meditation.Level2EnWoman != null) || (meditation.Level2FrMan != null) || (meditation.Level2EnMan != null))
                 seanceCount += 1;
-            if (meditation.Level3FrWoman != null)
+            if ((meditation.Level3FrWoman != null) || (meditation.Level3EnWoman != null) || (meditation.Level3FrMan != null) || (meditation.Level3EnMan != null))
                 seanceCount += 1;
 
-			if (seanceCount == 3)
-				seanceCount += 1;
+            if (seanceCount == 3)
+                seanceCount += 1;
 
             return seanceCount;
         }
 
-		public Color ChangeColorBrightness(Color color, float correctionFactor)
+        public Color ChangeColorBrightness(Color color, float correctionFactor)
         {
             float red = (float)color.R;
             float green = (float)color.G;
             float blue = (float)color.B;
-            
+
             if (correctionFactor < 0)
             {
                 correctionFactor = 1 + correctionFactor;
@@ -388,7 +403,7 @@ namespace MeditSolution.PageModels
                 blue = (255 - blue) * correctionFactor + blue;
             }
 
-			return Color.FromRgb((int)red, (int)green, (int)blue );
+            return Color.FromRgb((int)red, (int)green, (int)blue);
         }
-	}
+    }
 }
