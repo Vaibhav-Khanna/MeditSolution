@@ -40,6 +40,7 @@ namespace MeditSolution.PageModels
 
             if (initData is SeancesModel)
             {
+
                 SeancesModel = ((SeancesModel)initData);
                 durationInSeconds = (int)SeancesModel.Meditation.Length;
 
@@ -80,7 +81,7 @@ namespace MeditSolution.PageModels
 
                 TimerText = TotalSeconds.ToString("hh':'mm':'ss");
 
-                Debug.WriteLine(TimerText);
+                //  Debug.WriteLine(TimerText);
 
                 Progress = Progress + step;
             }
@@ -96,7 +97,7 @@ namespace MeditSolution.PageModels
         public Command CloseCommand => new Command(async () =>
         {
 
-            await CoreMethods.PopPageModel(true);
+            await CoreMethods.PopPageModel(animate: false);
         });
 
         protected override void ViewIsDisappearing(object sender, EventArgs e)
@@ -108,55 +109,75 @@ namespace MeditSolution.PageModels
 
         async void EndMeditation()
         {
-            DependencyService.Get<IPlayNotificationSound>()?.PlaySound();
-
-            Dialog.ShowLoading();
-
-            var isAdded = await StoreManager.MeditationStore.AddMeditationTimeAsync(TotalTimeMedited);
-
-            var user = await StoreManager.UserStore.UpdateCurrentUser(StoreManager.UserStore.User);
-            bool isFirstTime = false;
-            if (SeancesModel != null)
+            try
             {
-                var meditiondone = user.MeditationsDone?.Where((arg) => arg.id == SeancesModel.Meditation.Id).First();
 
-                if (meditiondone != null)
+                DependencyService.Get<IPlayNotificationSound>()?.PlaySound();
+
+                Dialog.ShowLoading();
+
+                var OriginalUser = StoreManager.UserStore.User;
+
+                var isAdded = await StoreManager.MeditationStore.AddMeditationTimeAsync(TotalTimeMedited);
+
+                var user = await StoreManager.UserStore.UpdateCurrentUser(StoreManager.UserStore.User);
+
+
+                bool isFirstTime = false;
+
+                if (SeancesModel != null)
                 {
-                    var count = GetSeanceCount(SeancesModel.Meditation);
+                    var meditiondone = user.MeditationsDone?.Where((arg) => arg.id == SeancesModel.Meditation.Id).First();
 
-                    if (count == 1)
+                    if (meditiondone != null)
                     {
-                        if (meditiondone.level2Done == false) { isFirstTime = true; }
-                        meditiondone.level2Done = true;
-                    }
-                    else if (count == 2)
-                    {
-                        if (meditiondone.level3Done == false) { isFirstTime = true; }
-                        meditiondone.level3Done = true;
+                        var count = GetSeanceCount(SeancesModel.Meditation);
 
+                        if (count == 1)
+                        {
+                            if (meditiondone.level2Done == false) { isFirstTime = true; }
+                            meditiondone.level2Done = true;
+                        }
+                        else if (count == 2)
+                        {
+                            if (meditiondone.level3Done == false) { isFirstTime = true; }
+                            meditiondone.level3Done = true;
+
+                        }
+
+                        else if (count == 3)
+                        {
+                            if (meditiondone.level4Done == false) { isFirstTime = true; }
+                            meditiondone.level4Done = true;
+                        }
                     }
 
-                    else if (count == 3)
-                    {
-                        if (meditiondone.level4Done == false) { isFirstTime = true; }
-                        meditiondone.level4Done = true;
-                    }
-
+                    user = await StoreManager.UserStore.UpdateCurrentUser(user);
                 }
 
-                user = await StoreManager.UserStore.UpdateCurrentUser(user);
-            }
+                Dialog.HideLoading();
 
-            Dialog.HideLoading();
 
-            if ((SeancesModel != null) && isFirstTime)
-            {
-                await CoreMethods.PopPageModel(true);
-                await CoreMethods.PushPageModel<MeditationEndPageModel>(true, modal: true);
+                if (OriginalUser.CurrentLevel < user.CurrentLevel)
+                {
+                    await CoreMethods.PushPageModel<AvatarGrowPageModel>(null, modal: true);
+                }
+
+                if ((SeancesModel != null) && isFirstTime)
+                {
+
+                    await CoreMethods.PushPageModel<MeditationEndPageModel>(true, modal: true);
+                    CoreMethods.RemoveFromNavigation<MeditationSilentPlayPageModel>(true);
+                }
+                else
+                {
+                    await CoreMethods.PopPageModel(animate: false);
+                }
+
             }
-            else
+            catch (Exception ex)
             {
-                await CoreMethods.PopPageModel(true);
+
             }
         }
 

@@ -12,7 +12,7 @@
             
         <views:MeditationView />
 
-            <Image Source="close.png" Margin="0,16,25,0" WidthRequest="24" HeightRequest="24" HorizontalOptions="EndAndExpand" VerticalOptions="StartAndExpand" >
+           <Image Source="close.png" Margin="0,16,25,0" WidthRequest="24" HeightRequest="24" HorizontalOptions="EndAndExpand" VerticalOptions="StartAndExpand" >
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer Command="{Binding CloseCommand}" />
                 </Image.GestureRecognizers>

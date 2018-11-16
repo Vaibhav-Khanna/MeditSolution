@@ -67,6 +67,8 @@ namespace MeditSolution.PageModels
             }
         }
 
+
+
         public async override void Init(object initData)
         {
             base.Init(initData);
@@ -191,12 +193,16 @@ namespace MeditSolution.PageModels
         {
             try
             {
+
                 Dialog.ShowLoading();
 
-                var user = await StoreManager.UserStore.UpdateCurrentUser(StoreManager.UserStore.User);
+                var OriginalUser = StoreManager.UserStore.User;
 
                 var isAdded = await StoreManager.MeditationStore.AddMeditationTimeAsync((int)SeanceModel.Meditation.Length);
 
+                var user = await StoreManager.UserStore.UpdateCurrentUser(StoreManager.UserStore.User);
+
+                //var user = StoreManager.UserStore.User;
                 var meditiondone = user?.MeditationsDone?.Where((arg) => arg.id == SeanceModel?.Meditation.Id).First();
                 bool isFirstTime = false;
                 if (meditiondone != null)
@@ -222,19 +228,27 @@ namespace MeditSolution.PageModels
                     user = await StoreManager.UserStore.UpdateCurrentUser(user);
                 }
 
+
                 Dialog.HideLoading();
 
                 IsLoading = false;
 
+                if (OriginalUser.CurrentLevel < user.CurrentLevel)
+                {
+                    await CoreMethods.PushPageModel<AvatarGrowPageModel>(null, modal: true);
+                }
                 if (isFirstTime)
                 {
                     if (GetSeanceCount(SeanceModel.Meditation) == SeanceModel.Level)
                     {
+
                         await CoreMethods.PushPageModel<MeditationEndPageModel>(true, modal: true);
+
                     }
                     else
                     {
                         await CoreMethods.PushPageModel<MeditationEndPageModel>(SeanceModel.Meditation, modal: true);
+
                     }
 
                     Handle_PageWasPopped(null, null);
@@ -242,8 +256,12 @@ namespace MeditSolution.PageModels
                 }
                 else
                 {
+
                     await CoreMethods.PopPageModel(animate: false);
                 }
+
+
+
             }
             catch (Exception ex)
             {
