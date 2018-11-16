@@ -83,7 +83,7 @@ namespace MeditSolution.Models
                     if (Level != 4)
                         await Model.CoreMethods.PushPageModel<MeditationPlayPageModel>(this, animate: false);
                     else
-                        await Model.CoreMethods.PushPageModel<MeditationSilentPlayPageModel>(this, animate: false);
+                        await Model.CoreMethods.PushPageModel<MeditationSilentPlayPageModel>(this, true, animate: false);
                 }
             }
         });

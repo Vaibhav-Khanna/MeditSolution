@@ -96,8 +96,8 @@ namespace MeditSolution.PageModels
 
         public Command CloseCommand => new Command(async () =>
         {
-
-            await CoreMethods.PopPageModel(animate: false);
+            // _timer?.Stop();
+            await CoreMethods.PopPageModel(true, animate: false);
         });
 
         protected override void ViewIsDisappearing(object sender, EventArgs e)
@@ -165,13 +165,13 @@ namespace MeditSolution.PageModels
 
                 if ((SeancesModel != null) && isFirstTime)
                 {
-
-                    await CoreMethods.PushPageModel<MeditationEndPageModel>(true, modal: true);
                     CoreMethods.RemoveFromNavigation<MeditationSilentPlayPageModel>(true);
+                    await CoreMethods.PushPageModel<MeditationEndPageModel>(true, modal: true);
+
                 }
                 else
                 {
-                    await CoreMethods.PopPageModel(animate: false);
+                    await CoreMethods.PopPageModel(true, animate: false);
                 }
 
             }
