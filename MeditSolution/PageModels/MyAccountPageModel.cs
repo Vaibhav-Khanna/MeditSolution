@@ -5,40 +5,40 @@ using MeditSolution.Models.DataObjects;
 
 namespace MeditSolution.PageModels
 {
-	public class MyAccountPageModel : BasePageModel
-	{
-		public string Evolution { get; set; }
-		public string Email { get; set; }
-		public string Icon { get; set; }
-		public User user;
+    public class MyAccountPageModel : BasePageModel
+    {
+        public string Evolution { get; set; }
+        public string Email { get; set; }
+        public string Icon { get; set; }
+        public User user;
 
-		public Command ModifyCommand => new Command(async () =>
-	   {
-		   await CoreMethods.PushPageModel<MyAccountModifyPageModel>(user);
-	   });
+        public Command ModifyCommand => new Command(async () =>
+       {
+           await CoreMethods.PushPageModel<MyAccountModifyPageModel>(user);
+       });
 
-		public override void Init(object initData)
-		{
-			base.Init(initData);
+        public override void Init(object initData)
+        {
+            base.Init(initData);
 
-			UpdateUser();
-		}
+            UpdateUser();
+        }
 
-		protected override void ViewIsAppearing(object sender, EventArgs e)
-		{
-			base.ViewIsAppearing(sender, e);
+        protected override void ViewIsAppearing(object sender, EventArgs e)
+        {
+            base.ViewIsAppearing(sender, e);
 
-			UpdateUser();
-		}
+            UpdateUser();
+        }
 
-		void UpdateUser()
-		{
-			user = StoreManager.UserStore.User;
+        void UpdateUser()
+        {
+            user = StoreManager.UserStore.User;
 
             Email = user.Email;
             Evolution = AppResources.evolution + " " + (user.CurrentLevel + 1);
 
             Icon = "level" + (user.CurrentLevel + 1) + ".json";
-		}
-	}
+        }
+    }
 }
