@@ -38,7 +38,7 @@ namespace MeditSolution.PageModels
                 int second = int.Parse((SelectedTime as ObservableCollection<object>).Last().ToString());
 
                 object SelectedTimeInSecond = ((minute * 60) + second).ToString();
-                await CoreMethods.PushPageModel<MeditationSilentPlayPageModel>(SelectedTimeInSecond, false, false);
+                await CoreMethods.PushPageModel<MeditationSilentPlayPageModel>(SelectedTimeInSecond, true, false);
             }
             catch (Exception e)
             {
