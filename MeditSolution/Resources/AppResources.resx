@@ -58,8 +58,6 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-
-
     <!-- Text inside pages -->
     <data name="signup" xml:space="preserve">
         <value>Sign up</value>
@@ -214,8 +212,11 @@
     <data name="bravodetail" xml:space="preserve">
         <value>Your avatar is going to evolve</value>
     </data>
-    <data name="bravodetail2" xml:space="preserve">
-        <value>You have meditated 10 days consequtively</value>
+    <data name="bravodetail2_1" xml:space="preserve">
+        <value>You have meditated</value>
+    </data>
+    <data name="bravodetail2_2" xml:space="preserve">
+        <value>days consequtively</value>
     </data>
     <data name="bravodetail3" xml:space="preserve">
         <value>You are now</value>
@@ -379,49 +380,37 @@ However, although you can expect to get the cheapest air ticket if you start sea
     <data name="Level3" xml:space="preserve">
         <value>Slightly Guided</value>
     </data>
-
     <data name="Level4" xml:space="preserve">
         <value>Silent</value>
     </data>
-
-     <data name="name" xml:space="preserve">
+    <data name="name" xml:space="preserve">
         <value>First name</value>
     </data>
-
-     <data name="lastname" xml:space="preserve">
+    <data name="lastname" xml:space="preserve">
         <value>Last name</value>
     </data>
-
-
     <data name="SubscriptionThanks" xml:space="preserve">
         <value>Thank you for subscribing to Medit'Solutions</value>
     </data>
-
     <data name="SubscriptionRequired" xml:space="preserve">
          <value>Subscription Required</value>
      </data>
-
-     <data name="SubscribeMessage" xml:space="preserve">
+    <data name="SubscribeMessage" xml:space="preserve">
          <value>Subscribe now to gain access to all our meditations.</value>
      </data>
-
     <data name="SubscribeNow" xml:space="preserve">
          <value>Subscribe</value>
      </data>
-
     <data name="NotNow" xml:space="preserve">
          <value>Later</value>
      </data>
-
     <data name="ErrorMessageSubscription" xml:space="preserve">
          <value>An error occurred while carrying out the operation. Please try again in a while.</value>
     </data>
-
     <data name="UnsubscribeWarning" xml:space="preserve">
     <value>To unsubscribe, you have to go to settings for the device and cancel the subscription explicitly.</value>
   </data>
-     
-   <data name="MeditationChat1" xml:space="preserve">
+    <data name="MeditationChat1" xml:space="preserve">
     <value>Is anything playing on your mind at the moment? Do you need some help?</value>
   </data>
     <data name="MeditationChat2" xml:space="preserve">
@@ -451,63 +440,49 @@ However, although you can expect to get the cheapest air ticket if you start sea
     <data name="MeditationChat10" xml:space="preserve">
     <value>Then I would like to show you the range of meditations we offer.</value>
   </data>
-  <data name="ProgramPaidThanks" xml:space="preserve">
+    <data name="ProgramPaidThanks" xml:space="preserve">
     <value>Thank you for purchasing this program</value>
   </data>
-
-  <data name="Delete" xml:space="preserve">
+    <data name="Delete" xml:space="preserve">
      <value>Delete</value>
  </data>
-
- <data name="NotificationHeader" xml:space="preserve">
+    <data name="NotificationHeader" xml:space="preserve">
  <value>Medit’Solutions</value>
 </data>
-
- <data name="NotificationContent" xml:space="preserve">
+    <data name="NotificationContent" xml:space="preserve">
  <value>Time to meditate, get ready</value>
 </data>
-
-<data name="downloading" xml:space="preserve">
+    <data name="downloading" xml:space="preserve">
      <value>Downloading... Please wait</value>
  </data>
-
- <data name="downloadFailed" xml:space="preserve">
+    <data name="downloadFailed" xml:space="preserve">
      <value>The file cannot get dowloaded. Please try again later</value>
  </data>
-
- <data name="ActiveIntNeeded" xml:space="preserve">
+    <data name="ActiveIntNeeded" xml:space="preserve">
      <value>Active internet connexion is needed. Please try again later</value>
  </data>
-
- <data name="seance" xml:space="preserve">
+    <data name="seance" xml:space="preserve">
      <value>Session</value>
  </data>
-
-  <data name="minute" xml:space="preserve">
+    <data name="minute" xml:space="preserve">
      <value>Minutes</value>
  </data>
-
-  <data name="seconds" xml:space="preserve">
+    <data name="seconds" xml:space="preserve">
      <value>Seconds</value>
  </data>
-
- <data name="pickduration" xml:space="preserve">
+    <data name="pickduration" xml:space="preserve">
      <value>Pick a duration</value>
  </data>
-     <data name="logout" xml:space="preserve">
+    <data name="logout" xml:space="preserve">
         <value>Log out</value>
     </data>
-
-     <data name="logoutmessage" xml:space="preserve">
+    <data name="logoutmessage" xml:space="preserve">
         <value>Do you wish to continue?</value>
     </data>
-
     <data name="backbutton" xml:space="preserve">
         <value>Press again to exit</value>
     </data>
-    
     <data name="MeditationChat0" xml:space="preserve">
         <value>Hello and welcome to Medit'Solutions. I will be your assistant throughout your meditations.</value>
     </data>
-    
 </root>

@@ -210,10 +210,13 @@
         <value>Bravo !</value>
     </data>
     <data name="bravodetail" xml:space="preserve">
-        <value>Votre avatar évolue</value>
+        <value>Vous montez en grade</value>
     </data>
-    <data name="bravodetail2" xml:space="preserve">
-        <value>Vous avez médité 10 jours consécutifs</value>
+    <data name="bravodetail2_1" xml:space="preserve">
+        <value>Vous avez médité</value>
+    </data>
+    <data name="bravodetail2_2" xml:space="preserve">
+        <value>jours consécutifs</value>
     </data>
     <data name="bravodetail3" xml:space="preserve">
         <value>Vous êtes désormais </value>
