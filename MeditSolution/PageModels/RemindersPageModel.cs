@@ -106,6 +106,10 @@ namespace MeditSolution.PageModels
 
                                 if (Device.RuntimePlatform == Device.iOS)
                                     notification.Sound = "notification.caf";
+                                else
+                                {
+                                    notification.When = TimeSpan.FromTicks(item.Subtract(DateTime.Now).Ticks);
+                                }
 
                                 await Notifications.Send(notification);
                             }

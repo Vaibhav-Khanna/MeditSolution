@@ -9,7 +9,7 @@
 	<key>CFBundleIdentifier</key>
 	<string>com.meditsolutions.mobile</string>
 	<key>CFBundleShortVersionString</key>
-	<string>20180914.1</string>
+	<string>20181118.1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MinimumOSVersion</key>
@@ -75,6 +75,6 @@
 		<string>remote-notification</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>26</string>
+	<string>28</string>
 </dict>
 </plist>
