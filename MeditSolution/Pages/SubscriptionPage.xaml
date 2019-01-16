@@ -124,7 +124,11 @@
                                       
                     <Label Text="{Binding SubscribedDate}" LineBreakMode="WordWrap" HorizontalOptions="Center" Margin="40,0,40,0" FontFamily="SFUIText-Regular"  FontSize="14"  TextColor="#656565"  HorizontalTextAlignment="Center" />
 
-                    <Label Text="{resources:Translate seeterms}" FontFamily="SFUIText-Regular" FontSize="14" TextColor="#50E3C2" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+                    <Label Text="{resources:Translate seeterms}" FontFamily="SFUIText-Regular" TextDecorations="Underline" FontSize="14" TextColor="#50E3C2" HorizontalOptions="Center" HorizontalTextAlignment="Center" >
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding OpenTermsCommand}" />
+                            </Label.GestureRecognizers>
+                        </Label>
                     
                 </StackLayout>
                     

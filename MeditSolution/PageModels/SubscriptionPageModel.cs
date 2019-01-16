@@ -126,6 +126,11 @@ namespace MeditSolution.PageModels
 		{
 			LoadDataFromStore();
 		});
-       
+
+        public Command OpenTermsCommand => new Command(async() =>
+        {
+           await Xamarin.Essentials.Browser.OpenAsync(new Uri("http://medit-solutions.com/politique-de-confidentialite/"), Xamarin.Essentials.BrowserLaunchMode.SystemPreferred);
+        });
+
 	}
 }

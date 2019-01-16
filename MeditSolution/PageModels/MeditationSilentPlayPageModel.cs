@@ -56,16 +56,23 @@ namespace MeditSolution.PageModels
 
             TotalSeconds = TimeSpan.FromSeconds(durationInSeconds);
 
-            _timer = new MeditationTimer(TimeSpan.FromSeconds(1), CountDown);
             Progress = 0;
+
             step = (1 / TotalSeconds.TotalSeconds);
-            _timer.Start();
+
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                _timer = new MeditationTimer(TimeSpan.FromSeconds(1), CountDown);
+
+                _timer.Start();
+            }); 
+
         }
 
 
         private void CountDown()
         {
-            if (TotalSeconds.TotalSeconds == 0)
+            if (TotalSeconds.Ticks == 0)
             {
                 TimerText = "00:00:00";
 
@@ -79,11 +86,13 @@ namespace MeditSolution.PageModels
             {
                 TotalSeconds = TotalSeconds.Subtract(new TimeSpan(0, 0, 0, 1));
 
-                TimerText = TotalSeconds.ToString("hh':'mm':'ss");
-
-                //  Debug.WriteLine(TimerText);
+                if (!App.ApplicationInBackground)
+                {
+                    TimerText = TotalSeconds.ToString("hh':'mm':'ss");
+                }
 
                 Progress = Progress + step;
+
             }
         }
 

@@ -21,7 +21,7 @@ namespace MeditSolution.Helpers
             }
         }
 
-        protected override Task OnAppearingAnimationEnd()
+        protected override void OnAppearingAnimationEnd()
         {
             Device.StartTimer(new TimeSpan(0, 0, 4), () =>
             {
@@ -33,7 +33,7 @@ namespace MeditSolution.Helpers
                 return false;
             });
 
-            return base.OnAppearingAnimationEnd();
+            base.OnAppearingAnimationEnd();
         }
 
         protected override bool OnBackButtonPressed()

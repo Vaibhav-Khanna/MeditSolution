@@ -1,27 +1,23 @@
 ﻿using System;
-
+using Akavache;
 using Android.App;
 using Android.Content;
 using Android.Content.PM;
+using Android.OS;
 using Android.Runtime;
 using Android.Views;
-using Android.Widget;
-using Android.OS;
 using CarouselView.FormsPlugin.Android;
 using FFImageLoading.Forms.Droid;
-using Xamarin.Forms;
 using Lottie.Forms.Droid;
-using Plugin.MediaManager.Forms.Android;
-using Plugin.CurrentActivity;
-using Syncfusion.SfPicker.XForms.Droid;
-using Plugin.InAppBilling;
 using Plugin.CrossPlatformTintedImage.Android;
+using Plugin.CurrentActivity;
 using Plugin.HtmlLabel.Android;
+using Plugin.InAppBilling;
 using Plugin.MediaManager;
-using Akavache;
-using Plugin.Notifications;
-using Plugin.MediaManager.MediaSession;
 using Plugin.MediaManager.ExoPlayer;
+using Plugin.MediaManager.Forms.Android;
+using Plugin.Notifications;
+using Syncfusion.SfPicker.XForms.Droid;
 
 namespace MeditSolution.Droid
 {
@@ -43,7 +39,13 @@ namespace MeditSolution.Droid
 
             Window.AddFlags(WindowManagerFlags.KeepScreenOn);
 
-			global::Xamarin.Forms.Forms.Init(this, bundle);
+            Xamarin.Essentials.Platform.Init(this, bundle);
+
+            Rg.Plugins.Popup.Popup.Init(this,bundle);
+
+            //AnimationViewRenderer.Init();
+
+            global::Xamarin.Forms.Forms.Init(this, bundle);
 
             CrossCurrentActivity.Current.Init(this, bundle);
 
@@ -68,21 +70,28 @@ namespace MeditSolution.Droid
             VideoViewRenderer.Init();
 
             CarouselViewRenderer.Init();
-          
-            AnimationViewRenderer.Init();
 
-            CachedImageRenderer.Init(false);
+            FFImageLoading.Forms.Platform.CachedImageRenderer.Init(false);
 
             BlobCache.ApplicationName = "Medit";
              
             LoadApplication(new App());
         }
 
+
 		protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
         {
             base.OnActivityResult(requestCode, resultCode, data);
             InAppBillingImplementation.HandleActivityResult(requestCode, resultCode, data);
         }
+
+        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
+        {
+            Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+
+            base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+        }
+
     }
 
 }

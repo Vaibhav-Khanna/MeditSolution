@@ -20,8 +20,10 @@ namespace MeditSolution.Models
         public void Start()
         {
             CancellationTokenSource cts = _cancellationTokenSource; // safe copy
+
             Device.StartTimer(_timeSpan, () =>
             {
+
                 if (cts.IsCancellationRequested)
                 {
                     return false;

@@ -103,6 +103,8 @@ namespace MeditSolution
         protected override void OnSleep()
         {
             ApplicationIsPaused?.Invoke(true);
+
+            ApplicationInBackground = true;
         }
 
         protected override void OnResume()
@@ -110,12 +112,16 @@ namespace MeditSolution
             new LanguageService().SetLanguage();
 
             ApplicationIsPaused?.Invoke(false);
+
+            ApplicationInBackground = false;
         }
 
         public static Action<string> PostSuccessFacebookAction { get; set; }
 
         public static Action<bool> ApplicationIsPaused { get; set; }
 		
+        public static bool ApplicationInBackground { get; set; }
+
         public static bool OpenReminders = false;
 
 		async void UpdateSubscription()
