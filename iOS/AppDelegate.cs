@@ -32,7 +32,7 @@ namespace MeditSolution.iOS
            
             global::Xamarin.Forms.Forms.Init();
 
-            Rg.Plugins.Popup.IOS.Popup.Init();
+            Rg.Plugins.Popup.Popup.Init();
 
 			TintedImageRenderer.Init();
 
