@@ -1,16 +1,15 @@
 ﻿using System;
-using System.Linq;
-using System.Threading.Tasks;
-using Plugin.InAppBilling;
-using Plugin.InAppBilling.Abstractions;
 using System.Collections.Generic;
 using System.Diagnostics;
-using Xamarin.Forms;
-using MeditSolution.Models.DataObjects;
+using System.Linq;
+using System.Threading.Tasks;
 using FreshMvvm;
-using MeditSolution.DataStore.Abstraction.Stores;
 using MeditSolution.DataStore.Abstraction;
 using MeditSolution.Helpers;
+using MeditSolution.Models.DataObjects;
+using Plugin.InAppBilling;
+using Plugin.InAppBilling.Abstractions;
+using Xamarin.Forms;
 
 namespace MeditSolution.DataStore.Implementation.Stores
 {
